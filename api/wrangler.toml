@@ -2,7 +2,13 @@ name = "market-data-api"
 main = "src/index.js"
 compatibility_date = "2024-01-01"
 
+# 自定义域名（需先在 Cloudflare 中把 stockapi.365200.xyz 的 DNS 指向本 Worker）
+routes = [
+  { pattern = "stockapi.365200.xyz", custom_domain = true }
+]
+
 # 免费计划：10 万请求/天
-# 部署后可通过 https://market-data-api.<你的子域>.workers.dev/kline 调用
+# 部署后接口地址：https://stockapi.365200.xyz/kline
+# 首页（项目介绍 + API 文档）：https://stockapi.365200.xyz/
 [observability]
 enabled = true

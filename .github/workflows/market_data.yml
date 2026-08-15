@@ -10,7 +10,7 @@ on:
     - cron: "0 0 * * *"
     - cron: "0 4 * * *"
     - cron: "0 12 * * *"
-    # 分钟K线(1m/1h)：每3小时增量更新（首次需手动触发 mode=minute 全量入库）
+    # 分钟K线(1m/5m/15m/30m/1h)：每3小时增量更新；5m/15m/30m 由 1m 计算（首次需手动触发 mode=minute 全量入库）
     - cron: "0 */3 * * *"
   workflow_dispatch:
     inputs:

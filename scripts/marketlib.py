@@ -26,7 +26,10 @@ def read_kline(path: Path, index_col: str = "Date") -> pd.DataFrame | None:
     if not path.exists():
         return None
     df = pd.read_csv(path, index_col=index_col, parse_dates=True)
-    df.index = df.index.tz_localize(None) if df.index.tz is not None else df.index
+    # 稳健转为 DatetimeIndex 并去掉时区（兼容 pandas 解析返回普通 Index 的情况）
+    df.index = pd.to_datetime(df.index)
+    if getattr(df.index, "tz", None) is not None:
+        df.index = df.index.tz_localize(None)
     if index_col == "Date":
         df.index = df.index.normalize()
     return df
@@ -44,7 +47,9 @@ def merge_kline(
     否则直接写入 fresh。index_col 常用 "Date"（日线）或 "Datetime"（分钟线）。
     """
     fresh = fresh[cols].copy()
-    fresh.index = fresh.index.tz_localize(None) if fresh.index.tz is not None else fresh.index
+    fresh.index = pd.to_datetime(fresh.index)
+    if getattr(fresh.index, "tz", None) is not None:
+        fresh.index = fresh.index.tz_localize(None)
     if index_col == "Date":
         fresh.index = fresh.index.normalize()
 

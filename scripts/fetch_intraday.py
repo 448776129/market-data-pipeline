@@ -1,8 +1,12 @@
 """分钟级K线数据拉取脚本。
 
-从 Yahoo Finance 拉取分钟级K线（1分钟、1小时），每只股票、每个周期
-各写入一个 CSV 文件，按区域与周期分目录存放：
+从 Yahoo Finance 拉取分钟级K线（1分钟、1小时），其中 5m/15m/30m 为雅虎
+不提供的历史周期，由 1m 数据代码重采样计算得到。每只股票、每个周期各写入
+一个 CSV 文件，按区域与周期分目录存放：
     data/{region}/kline_1m/{symbol}.csv
+    data/{region}/kline_5m/{symbol}.csv    (由 1m 计算)
+    data/{region}/kline_15m/{symbol}.csv   (由 1m 计算)
+    data/{region}/kline_30m/{symbol}.csv   (由 1m 计算)
     data/{region}/kline_1h/{symbol}.csv
 
 范围：
@@ -40,12 +44,61 @@ INDEX_COL = "Datetime"
 # 周期 -> 子目录名
 SUBDIR = {
     "1m": config.INTRADAY_M1_SUBDIR,
+    "5m": config.INTRADAY_M5_SUBDIR,
+    "15m": config.INTRADAY_M15_SUBDIR,
+    "30m": config.INTRADAY_M30_SUBDIR,
     "1h": config.INTRADAY_M1H_SUBDIR,
 }
+# 直接由雅虎拉取的周期（1m 额外派生 5m/15m/30m，1h 雅虎原生提供）
+SOURCE_INTERVALS = ["1m", "1h"]
 
 
 def output_path(region: str, symbol: str, interval: str) -> Path:
     return ROOT / config.DATA_DIR / region / SUBDIR[interval] / f"{symbol}.csv"
+
+
+def derive_from_1m(region: str, symbol: str, target: str) -> Path | None:
+    """从 1 分钟K线重采样计算出 15m/30m 周期，写盘并返回输出路径。
+
+    雅虎不提供 15m/30m 历史数据，这里按标准 OHLCV 聚合：
+    Open=首根开盘、High=区间最高、Low=区间最低、Close=末根收盘、Volume=求和，
+    Adj Close 取区间最后一根的 Close。时间桶对齐到 15/30 分钟边界。
+    """
+    rule = config.INTRADAY_DERIVED.get(target)
+    if not rule:
+        return None
+    src = output_path(region, symbol, "1m")
+    out = output_path(region, symbol, target)
+    out.parent.mkdir(parents=True, exist_ok=True)
+
+    df = marketlib.read_kline(src, index_col=INDEX_COL)
+    if df is None or df.empty:
+        return out if out.exists() else None
+
+    # 标准 OHLCV 聚合
+    agg = df.resample(rule).agg(
+        {
+            "Open": "first",
+            "High": "max",
+            "Low": "min",
+            "Close": "last",
+            "Volume": "sum",
+        }
+    )
+    # 丢弃没有成交的空桶
+    agg = agg.dropna(subset=["Close"])
+    if agg.empty:
+        return out if out.exists() else None
+
+    agg["Adj Close"] = df["Close"].resample(rule).last()
+    agg = agg[COLS]
+
+    merged = marketlib.merge_kline(out, agg, COLS, index_col=INDEX_COL)
+    print(
+        f"  [派生] {symbol} {target} (由 1m 计算) -> {out.relative_to(ROOT)} (共 {len(merged)} 行)",
+        flush=True,
+    )
+    return out
 
 
 def fetch_symbol(region: str, symbol: str, interval: str) -> Path | None:
@@ -89,6 +142,12 @@ def fetch_symbol(region: str, symbol: str, interval: str) -> Path | None:
         f"  [{mode_label}] {symbol} {interval} -> {out.relative_to(ROOT)} (共 {len(merged)} 行)",
         flush=True,
     )
+
+    # 由 1m 派生 15m/30m（雅虎不提供，代码重采样计算）
+    if interval == "1m":
+        for target in sorted(config.INTRADAY_DERIVED):
+            derive_from_1m(region, symbol, target)
+
     return out
 
 
@@ -148,14 +207,14 @@ def main() -> int:
     )
     parser.add_argument(
         "--interval",
-        choices=["1m", "1h", "all"],
+        choices=SOURCE_INTERVALS + ["all"],
         default="all",
-        help="K线周期（默认 all=1m+1h）",
+        help="K线周期（默认 all=1m+1h；15m/30m 由 1m 自动计算，无需手动选择）",
     )
     parser.add_argument("--batch", type=int, default=0, help="当前批次（0 起）")
     parser.add_argument("--batches", type=int, default=1, help="总批次数")
     args = parser.parse_args()
-    intervals = ["1m", "1h"] if args.interval == "all" else [args.interval]
+    intervals = SOURCE_INTERVALS if args.interval == "all" else [args.interval]
     return run(args.region, intervals, args.index, args.batch, args.batches)
 
 

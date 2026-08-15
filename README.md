@@ -2,15 +2,16 @@
 
 通过 **GitHub Actions 自动拉取指定指数成分股的行情数据并保存到本地仓库**的项目。
 
-使用 **yfinance** 从 Yahoo Finance 拉取**日K线**、**1分钟K线**、**1小时K线**，每只股票一个文件，按区域分目录保存到 `data/`，并由工作流自动提交回仓库。数据按指数拆分为独立 job，**异步并行**拉取。
+使用 **yfinance** 从 Yahoo Finance 拉取**日K线**、**1分钟K线**、**1小时K线**，并通过 **1分钟K线重采样计算 5、15、30分钟K线**，每只股票一个文件，按区域分目录保存到 `data/`，并由工作流自动提交回仓库。数据按指数拆分为独立 job，**异步并行**拉取。
 
 ## 核心特性
 
 - **全自动**：GitHub Actions 按分段时间表定时运行，无需人工干预
 - **指数驱动**：只拉取用户配置的 5 个指数成分股，而非全市场
-- **三类数据**：日K线、1分钟K线、1小时K线分开存放
+- **多周期**：日K线、1分钟/5分钟/15分钟/半小时/1小时K线分开存放
 - **异步并行**：每个指数独立 job，GitHub Actions 默认并行执行
 - **增量更新**：只拉取上次之后的新数据，与已有文件合并去重（追加而非全量重拉）
+- **派生K线**：5m/15m/30m 由 1m 重采样计算（雅虎不提供这些历史周期）
 - **动态接口**：配套 Cloudflare Worker，可随时查询任意股票的K线数据
 
 ## 支持的指数
@@ -57,19 +58,43 @@ data/
 ├── cn/                           # A股
 │   ├── kline/                    # 日K线，如 600519.SS.csv
 │   ├── kline_1m/                 # 1分钟K线
+│   ├── kline_5m/                 # 5分钟K线（由 1m 计算）
+│   ├── kline_15m/                # 15分钟K线（由 1m 计算）
+│   ├── kline_30m/                # 半小时K线（由 1m 计算）
 │   └── kline_1h/                 # 1小时K线
 ├── us/                           # 美股
 │   ├── kline/                    # 如 AAPL.csv
 │   ├── kline_1m/
+│   ├── kline_5m/
+│   ├── kline_15m/
+│   ├── kline_30m/
 │   └── kline_1h/
 └── hk/                           # 港股
     ├── kline/                    # 如 0700.HK.csv
     ├── kline_1m/
+    ├── kline_5m/
+    ├── kline_15m/
+    ├── kline_30m/
     └── kline_1h/
 ```
 
-- **日K线 CSV** 列：`Date, Open, High, Low, Close, Adj Close, Volume`。
-- **分钟K线 CSV** 列：`Datetime, Open, High, Low, Close, Adj Close, Volume`。
+### 入库文件字段说明
+
+每只股票一个 CSV，按周期分目录存放。日K线与分钟K线字段一致，仅时间索引列名不同（日线为 `Date`，分钟线为 `Datetime`）：
+
+| 字段 | 类型 | 说明 |
+| ---- | ---- | ---- |
+| `Date` / `Datetime` | 时间 | 时间索引列。日线为交易日期（`YYYY-MM-DD`）；分钟线为带时分秒的时间戳 |
+| `Open` | float | 开盘价 |
+| `High` | float | 最高价 |
+| `Low` | float | 最低价 |
+| `Close` | float | 收盘价 |
+| `Adj Close` | float | 复权收盘价（考虑除权除息/分红后的调整价） |
+| `Volume` | float | 成交量（股数） |
+
+CSV 以该时间索引为第一列，其余列顺序固定为 `Open, High, Low, Close, Adj Close, Volume`。分钟K线的 `Datetime` 精确到分钟，用于按时间点去重合并。
+
+> **5m/15m/30m 派生说明**：雅虎不提供 5、15、半小时K线历史，采集端用 1 分钟数据按标准方式重采样计算 —— `Open`=区间首根开盘价、`High`=区间最高价、`Low`=区间最低价、`Close`=区间末根收盘价、`Volume`=区间内成交量求和，`Adj Close` 取区间末根 `Close`。时间桶对齐到 5/15/30 分钟边界。因此这些衍生的历史深度与 1m 一致（雅虎 1m 约保留 5~7 天）。
 
 ## 配置指数
 
@@ -96,7 +121,7 @@ INDEX_CONFIG = {
 | 指数清单 | 每周一 09:00 | 更新 5 个指数成分股 |
 | 历史日K线 | 每周一 09:00 | 全量刷新近 5 年日线 |
 | 当日日K线 | 每天 08:00 / 12:00 / 20:00 | 收盘后增量更新 |
-| 分钟K线(1m/1h) | 每 3 小时 | 增量更新（首次需手动触发 `mode=minute` 全量入库） |
+| 分钟K线(1m/5m/15m/30m/1h) | 每 3 小时 | 增量更新（5m/15m/30m 由 1m 计算；首次需手动触发 `mode=minute` 全量入库） |
 
 每个指数（`csi300` / `csi500` / `ndx100` / `sp500` / `hsi`）都有独立的 job，GitHub Actions 的独立 job 默认**并行执行**，从而实现各指数的**异步**拉取。拉取到的数据由工作流自动提交回仓库，保存在 `data/` 下。
 
@@ -110,26 +135,51 @@ INDEX_CONFIG = {
 首次部署时建议先手动触发：
 1. `mode=universe` 拉取成分股清单
 2. `mode=historical` 全量入库日K线
-3. `mode=minute` 全量入库 1m/1h K线
+3. `mode=minute` 全量入库 1m/1h K线（自动计算并入库 5m/15m/30m）
 
 之后由分段时间表自动增量更新。
 
 ### 动态接口（Cloudflare Worker）
 
-仓库内的 `api/` 是一个 Cloudflare Worker，免费托管（无需服务器），直接读取本仓库 `data/` 下的 CSV 并转成 JSON 返回，供量化系统调用：
+仓库内的 `api/` 是一个 Cloudflare Worker，免费托管（无需服务器），直接读取本仓库 `data/` 下的 CSV 并转成 JSON 返回，供量化系统调用。
+
+**在线接口地址：**
 
 ```
-GET /kline?symbol=AAPL&interval=1d&limit=5
+https://stockapi.365200.xyz/kline?symbol=AAPL&interval=1d&limit=5
 ```
 
-- `symbol` 必填：如 `AAPL` / `0700.HK` / `600519.SS`
-- `interval` 可选，默认 `1d`：`1d`(日线) / `1m`(1分钟) / `1h`(1小时)
-- `start` / `end` 可选：日期过滤（`YYYY-MM-DD`）
-- `limit` 可选：最多返回行数（默认最新 N 条）
-- `order` 可选：`asc`(默认) / `desc`(最新在前)
-- `format` 可选：`json`(默认) / `csv`
+**响应示例（JSON）：**
 
-部署方式见 [api/README.md](api/README.md)。
+```json
+{
+  "symbol": "AAPL",
+  "region": "us",
+  "interval": "1d",
+  "count": 5,
+  "order": "asc",
+  "data": [
+    { "Date": "2026-08-11", "Open": 217.9, "High": 219.7, "Low": 216.3, "Close": 218.7, "Adj Close": 218.7, "Volume": 41000000 },
+    { "Date": "2026-08-12", "Open": 219.0, "High": 220.5, "Low": 217.8, "Close": 219.9, "Adj Close": 219.9, "Volume": 39500000 }
+  ]
+}
+```
+
+**参数说明：**
+
+| 参数 | 必填 | 默认 | 说明 |
+| ---- | ---- | ---- | ---- |
+| `symbol` | 是 | — | 股票代码，如 `AAPL` / `0700.HK` / `600519.SS` |
+| `interval` | 否 | `1d` | `1d`(日线) / `1m`(1分钟) / `5m`(5分钟) / `15m`(15分钟) / `30m`(半小时) / `1h`(1小时) |
+| `start` | 否 | — | 起始日期 `YYYY-MM-DD`（含） |
+| `end` | 否 | — | 结束日期 `YYYY-MM-DD`（含） |
+| `limit` | 否 | 全部 | 最多返回行数（返回最新 N 条） |
+| `order` | 否 | `asc` | `asc`(时间升序) / `desc`(最新在前) |
+| `format` | 否 | `json` | `json` / `csv`（返回原始 CSV 文本） |
+
+返回的 `data` 数组元素字段与入库 CSV 列一致（日线含 `Date`，分钟线含 `Datetime`）。`interval=5m/15m/30m` 返回由 1m 重采样计算的历史（与 1m 深度一致，约 5~7 天）。
+
+部署方式见 [api/README.md](api/README.md)。接口首页（`https://stockapi.365200.xyz/`）为项目介绍与 API 文档页面。
 
 ## 本地运行
 
@@ -149,7 +199,7 @@ python scripts/fetch_historical.py --index csi300 --full
 # 当日日K线增量更新
 python scripts/fetch_latest.py --index hsi
 
-# 分钟K线（1m/1h）
+# 分钟K线（1m/1h 雅虎拉取，5m/15m/30m 自动由 1m 计算）
 python scripts/fetch_intraday.py --index ndx100
 python scripts/fetch_intraday.py --index csi300 --interval 1h
 ```
