@@ -1,0 +1,28 @@
+{
+  "symbol": "03119.HK",
+  "region": "hk",
+  "name": "ETFS Physical Platinum ETF",
+  "currency": "HKD",
+  "exchange": "HKG",
+  "isin": "-",
+  "info": {
+    "longName": "ETFS Physical Platinum ETF",
+    "shortName": "ETFS Physical Platinum ETF",
+    "exchange": "HKG",
+    "currency": "HKD",
+    "regularMarketPrice": 99.56,
+    "regularMarketPreviousClose": 99.66
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
