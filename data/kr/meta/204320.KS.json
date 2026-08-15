@@ -1,0 +1,375 @@
+{
+  "symbol": "204320.KS",
+  "region": "kr",
+  "name": "HL Mando Corporation",
+  "currency": "KRW",
+  "exchange": "KSC",
+  "isin": "SA15L16KL6H8",
+  "info": {
+    "longName": "HL Mando Corporation",
+    "shortName": "HL MANDO",
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "country": "South Korea",
+    "exchange": "KSC",
+    "currency": "KRW",
+    "marketCap": 2681251561472,
+    "currentPrice": 57100.0,
+    "open": 56100.0,
+    "previousClose": 55500.0,
+    "dayHigh": 58000.0,
+    "dayLow": 54000.0,
+    "regularMarketPrice": 57100.0,
+    "regularMarketPreviousClose": 55500.0,
+    "fiftyTwoWeekHigh": 79100.0,
+    "fiftyTwoWeekLow": 32150.0,
+    "forwardPE": 10.860908,
+    "dividendYield": 1.31,
+    "dividendRate": 750.0,
+    "volume": 771435,
+    "averageVolume": 947787,
+    "sharesOutstanding": 46957120,
+    "targetMeanPrice": 69730.766,
+    "targetHighPrice": 109000.0,
+    "targetLowPrice": 40000.0,
+    "recommendationKey": "buy",
+    "totalRevenue": 9589848276992,
+    "grossProfits": 1517927268352,
+    "profitMargins": 0.018170001
+  },
+  "dividends": [
+    {
+      "index": "2014-12-29 09:00:00+09:00",
+      "value": 400.0
+    },
+    {
+      "index": "2015-12-29 09:00:00+09:00",
+      "value": 960.0
+    },
+    {
+      "index": "2016-12-28 09:00:00+09:00",
+      "value": 1000.0
+    },
+    {
+      "index": "2017-12-27 09:00:00+09:00",
+      "value": 200.0
+    },
+    {
+      "index": "2018-12-27 09:00:00+09:00",
+      "value": 500.0
+    },
+    {
+      "index": "2019-12-27 09:00:00+09:00",
+      "value": 550.0
+    },
+    {
+      "index": "2021-12-29 09:00:00+09:00",
+      "value": 800.0
+    },
+    {
+      "index": "2022-12-28 09:00:00+09:00",
+      "value": 500.0
+    },
+    {
+      "index": "2023-12-27 09:00:00+09:00",
+      "value": 600.0
+    },
+    {
+      "index": "2025-03-28 09:00:00+09:00",
+      "value": 700.0
+    },
+    {
+      "index": "2026-03-30 09:00:00+09:00",
+      "value": 750.0
+    }
+  ],
+  "splits": [
+    {
+      "index": "2018-05-08 09:00:00+09:00",
+      "value": 5.0
+    },
+    {
+      "index": "2018-05-16 09:00:00+09:00",
+      "value": 5.0
+    },
+    {
+      "index": "2018-05-23 09:00:00+09:00",
+      "value": 5.0
+    }
+  ],
+  "capital_gains": null,
+  "financials": [
+    {
+      "index": "Diluted Average Shares",
+      "2024-12-31 00:00:00": 46957120.0,
+      "2023-12-31 00:00:00": 46914532.0,
+      "2022-12-31 00:00:00": 46894364.0,
+      "2021-12-31 00:00:00": 46856217.0
+    },
+    {
+      "index": "Basic Average Shares",
+      "2024-12-31 00:00:00": 46957120.0,
+      "2023-12-31 00:00:00": 46914532.0,
+      "2022-12-31 00:00:00": 46894364.0,
+      "2021-12-31 00:00:00": 46856217.0
+    },
+    {
+      "index": "Diluted EPS",
+      "2024-12-31 00:00:00": 2767.0,
+      "2023-12-31 00:00:00": 2890.0,
+      "2022-12-31 00:00:00": 2096.0,
+      "2021-12-31 00:00:00": 3567.0
+    },
+    {
+      "index": "Basic EPS",
+      "2024-12-31 00:00:00": 2767.0,
+      "2023-12-31 00:00:00": 2890.0,
+      "2022-12-31 00:00:00": 2096.0,
+      "2021-12-31 00:00:00": 3567.0
+    }
+  ],
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": [
+    {
+      "index": "Diluted Average Shares",
+      "2025-09-30 00:00:00": 46957120.0,
+      "2025-06-30 00:00:00": 46957120.0,
+      "2025-03-31 00:00:00": 46957120.0
+    },
+    {
+      "index": "Basic Average Shares",
+      "2025-09-30 00:00:00": 46957120.0,
+      "2025-06-30 00:00:00": 46957120.0,
+      "2025-03-31 00:00:00": 46957120.0
+    },
+    {
+      "index": "Diluted EPS",
+      "2025-09-30 00:00:00": 931.0,
+      "2025-06-30 00:00:00": 95.0,
+      "2025-03-31 00:00:00": 595.0
+    },
+    {
+      "index": "Basic EPS",
+      "2025-09-30 00:00:00": 931.0,
+      "2025-06-30 00:00:00": 95.0,
+      "2025-03-31 00:00:00": 595.0
+    }
+  ],
+  "analyst_price_targets": {
+    "current": 57100.0,
+    "high": 109000.0,
+    "low": 40000.0,
+    "mean": 69730.766,
+    "median": 67500.0
+  },
+  "recommendations_summary": [
+    {
+      "index": "0",
+      "period": "0m",
+      "strongBuy": 5,
+      "buy": 16,
+      "hold": 5,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "index": "1",
+      "period": "-1m",
+      "strongBuy": 5,
+      "buy": 16,
+      "hold": 5,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "index": "2",
+      "period": "-2m",
+      "strongBuy": 5,
+      "buy": 16,
+      "hold": 4,
+      "sell": 0,
+      "strongSell": 1
+    },
+    {
+      "index": "3",
+      "period": "-3m",
+      "strongBuy": 5,
+      "buy": 15,
+      "hold": 4,
+      "sell": 0,
+      "strongSell": 0
+    }
+  ],
+  "earnings_dates": [
+    {
+      "index": "2026-05-15 03:00:00-04:00",
+      "EPS Estimate": 973.28,
+      "Reported EPS": 1018.0,
+      "Surprise(%)": 4.59
+    },
+    {
+      "index": "2026-03-16 03:00:00-04:00",
+      "EPS Estimate": 1401.87,
+      "Reported EPS": 509.0,
+      "Surprise(%)": -63.69
+    },
+    {
+      "index": "2025-11-14 02:00:00-05:00",
+      "EPS Estimate": 1000.86,
+      "Reported EPS": 931.0,
+      "Surprise(%)": -6.98
+    },
+    {
+      "index": "2025-08-14 03:00:00-04:00",
+      "EPS Estimate": 937.82,
+      "Reported EPS": 95.0,
+      "Surprise(%)": -89.87
+    },
+    {
+      "index": "2025-05-15 03:00:00-04:00",
+      "EPS Estimate": 897.47,
+      "Reported EPS": 595.0,
+      "Surprise(%)": -33.7
+    },
+    {
+      "index": "2025-03-17 18:00:00-04:00",
+      "EPS Estimate": 1490.28,
+      "Reported EPS": 904.0,
+      "Surprise(%)": -39.34
+    },
+    {
+      "index": "2024-11-14 02:00:00-05:00",
+      "EPS Estimate": 677.72,
+      "Reported EPS": -1207.0,
+      "Surprise(%)": -278.1
+    },
+    {
+      "index": "2024-08-14 03:00:00-04:00",
+      "EPS Estimate": 391.86,
+      "Reported EPS": 95.0,
+      "Surprise(%)": -75.76
+    },
+    {
+      "index": "2024-05-16 02:00:00-04:00",
+      "EPS Estimate": 852.28,
+      "Reported EPS": 2975.0,
+      "Surprise(%)": 249.06
+    },
+    {
+      "index": "2024-03-18 04:00:00-04:00",
+      "EPS Estimate": 1470.02,
+      "Reported EPS": 756.0,
+      "Surprise(%)": -48.57
+    },
+    {
+      "index": "2023-11-14 01:00:00-05:00",
+      "EPS Estimate": 1159.62,
+      "Reported EPS": 276.0,
+      "Surprise(%)": -76.2
+    },
+    {
+      "index": "2023-08-14 03:00:00-04:00",
+      "EPS Estimate": 2265.85,
+      "Reported EPS": 1021.0,
+      "Surprise(%)": -54.94
+    },
+    {
+      "index": "2023-05-15 03:00:00-04:00",
+      "EPS Estimate": 1030.21,
+      "Reported EPS": 837.0,
+      "Surprise(%)": -18.75
+    },
+    {
+      "index": "2023-03-09 01:00:00-05:00",
+      "EPS Estimate": 1325.3,
+      "Reported EPS": -2064.0,
+      "Surprise(%)": -255.74
+    },
+    {
+      "index": "2022-11-14 03:00:00-05:00",
+      "EPS Estimate": 893.81,
+      "Reported EPS": 2758.0,
+      "Surprise(%)": 208.57
+    },
+    {
+      "index": "2022-08-16 02:00:00-04:00",
+      "EPS Estimate": 1154.8,
+      "Reported EPS": 766.0,
+      "Surprise(%)": -33.67
+    },
+    {
+      "index": "2022-05-16 03:00:00-04:00",
+      "EPS Estimate": 720.53,
+      "Reported EPS": 637.0,
+      "Surprise(%)": -11.59
+    },
+    {
+      "index": "2022-03-13 22:00:00-04:00",
+      "EPS Estimate": 980.89,
+      "Reported EPS": 363.0,
+      "Surprise(%)": -62.99
+    },
+    {
+      "index": "2021-11-15 02:00:00-05:00",
+      "EPS Estimate": 880.03,
+      "Reported EPS": 484.0,
+      "Surprise(%)": -45.0
+    },
+    {
+      "index": "2021-08-17 03:00:00-04:00",
+      "EPS Estimate": 822.34,
+      "Reported EPS": 1672.0,
+      "Surprise(%)": 103.32
+    },
+    {
+      "index": "2021-05-17 03:00:00-04:00",
+      "EPS Estimate": 849.37,
+      "Reported EPS": 1048.0,
+      "Surprise(%)": 23.39
+    },
+    {
+      "index": "2021-03-11 02:00:00-05:00",
+      "EPS Estimate": 1365.45,
+      "Reported EPS": 1557.0,
+      "Surprise(%)": 14.03
+    },
+    {
+      "index": "2020-11-16 02:00:00-05:00",
+      "EPS Estimate": 815.54,
+      "Reported EPS": 788.0,
+      "Surprise(%)": -3.38
+    },
+    {
+      "index": "2020-08-14 03:00:00-04:00",
+      "EPS Estimate": -1510.82,
+      "Reported EPS": -2398.0,
+      "Surprise(%)": -58.72
+    },
+    {
+      "index": "2020-05-15 03:00:00-04:00",
+      "EPS Estimate": 257.62,
+      "Reported EPS": 178.0,
+      "Surprise(%)": -30.91
+    }
+  ],
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.31534
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.23311001
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.34047002
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 100.0
+    }
+  ],
+  "institutional_holders": null
+}
