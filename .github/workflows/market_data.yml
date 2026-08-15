@@ -25,6 +25,18 @@ on:
           - daily
           - meta
           - minute
+      region:
+        description: "限定市场：all=全部, us/hk/cn/kr=单市场"
+        required: false
+        default: "all"
+        type: choice
+        options:
+          - all
+          - us
+          - hk
+          - cn
+          - kr
+          - ndx100
 
 env:
   PYTHON_VERSION: "3.11"
@@ -53,7 +65,7 @@ jobs:
   historical-us:
     name: Historical · US (batch ${{ matrix.batch }})
     needs: [universe]
-    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical') }}
+    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'us')) }}
     strategy:
       fail-fast: false
       matrix:
@@ -68,7 +80,7 @@ jobs:
   historical-hk:
     name: Historical · HK (batch ${{ matrix.batch }})
     needs: [universe]
-    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical') }}
+    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'hk')) }}
     strategy:
       fail-fast: false
       matrix:
@@ -82,7 +94,7 @@ jobs:
 
   historical-cn:
     name: Historical · CN (batch ${{ matrix.batch }})
-    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical') }}
+    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'cn')) }}
     strategy:
       fail-fast: false
       matrix:
@@ -97,7 +109,7 @@ jobs:
   historical-kr:
     name: Historical · KR (batch ${{ matrix.batch }})
     needs: [universe]
-    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical') }}
+    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'kr')) }}
     strategy:
       fail-fast: false
       matrix:
@@ -115,7 +127,7 @@ jobs:
   daily-us:
     name: Daily · US (batch ${{ matrix.batch }})
     needs: [universe]
-    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 0 * * *' || github.event.schedule == '0 4 * * *' || github.event.schedule == '0 12 * * *')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily') }}
+    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 0 * * *' || github.event.schedule == '0 4 * * *' || github.event.schedule == '0 12 * * *')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'us')) }}
     strategy:
       fail-fast: false
       matrix:
@@ -130,7 +142,7 @@ jobs:
   daily-hk:
     name: Daily · HK (batch ${{ matrix.batch }})
     needs: [universe]
-    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 0 * * *' || github.event.schedule == '0 4 * * *' || github.event.schedule == '0 12 * * *')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily') }}
+    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 0 * * *' || github.event.schedule == '0 4 * * *' || github.event.schedule == '0 12 * * *')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'hk')) }}
     strategy:
       fail-fast: false
       matrix:
@@ -144,7 +156,7 @@ jobs:
 
   daily-cn:
     name: Daily · CN (batch ${{ matrix.batch }})
-    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 0 * * *' || github.event.schedule == '0 4 * * *' || github.event.schedule == '0 12 * * *')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily') }}
+    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 0 * * *' || github.event.schedule == '0 4 * * *' || github.event.schedule == '0 12 * * *')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'cn')) }}
     strategy:
       fail-fast: false
       matrix:
@@ -159,7 +171,7 @@ jobs:
   daily-kr:
     name: Daily · KR (batch ${{ matrix.batch }})
     needs: [universe]
-    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 0 * * *' || github.event.schedule == '0 4 * * *' || github.event.schedule == '0 12 * * *')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily') }}
+    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 0 * * *' || github.event.schedule == '0 4 * * *' || github.event.schedule == '0 12 * * *')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'kr')) }}
     strategy:
       fail-fast: false
       matrix:
@@ -177,7 +189,7 @@ jobs:
   meta-us:
     name: Meta · US (batch ${{ matrix.batch }})
     needs: [historical-us]
-    if: ${{ always() && ((github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta')) }}
+    if: ${{ always() && ((github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'us'))) }}
     strategy:
       fail-fast: false
       matrix:
@@ -192,7 +204,7 @@ jobs:
   meta-hk:
     name: Meta · HK (batch ${{ matrix.batch }})
     needs: [historical-hk]
-    if: ${{ always() && ((github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta')) }}
+    if: ${{ always() && ((github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'hk'))) }}
     strategy:
       fail-fast: false
       matrix:
@@ -207,7 +219,7 @@ jobs:
   meta-cn:
     name: Meta · CN (batch ${{ matrix.batch }})
     needs: [historical-cn]
-    if: ${{ always() && ((github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta')) }}
+    if: ${{ always() && ((github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'cn'))) }}
     strategy:
       fail-fast: false
       matrix:
@@ -222,7 +234,7 @@ jobs:
   meta-kr:
     name: Meta · KR (batch ${{ matrix.batch }})
     needs: [historical-kr]
-    if: ${{ always() && ((github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta')) }}
+    if: ${{ always() && ((github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'kr'))) }}
     strategy:
       fail-fast: false
       matrix:
