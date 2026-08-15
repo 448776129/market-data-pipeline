@@ -1,0 +1,24 @@
+{
+  "symbol": "24940.HK",
+  "region": "hk",
+  "name": "CISPDRG@EC2608A",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "CISPDRG@EC2608A",
+    "shortName": "HSAMCS3@EC1901A"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
