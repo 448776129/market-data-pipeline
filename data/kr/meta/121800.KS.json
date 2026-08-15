@@ -1,0 +1,29 @@
+{
+  "symbol": "121800.KS",
+  "region": "kr",
+  "name": null,
+  "currency": "KRW",
+  "exchange": "KOE",
+  "isin": "-",
+  "info": {
+    "shortName": "121800.KS,0P0000US34,0",
+    "exchange": "KOE",
+    "currency": "KRW",
+    "regularMarketPrice": 3320.0,
+    "regularMarketPreviousClose": 3320.0,
+    "fiftyTwoWeekHigh": 3320.0,
+    "fiftyTwoWeekLow": 3320.0
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

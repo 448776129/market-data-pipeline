@@ -1,0 +1,219 @@
+{
+  "symbol": "088980.KS",
+  "region": "kr",
+  "name": "Macquarie Korea Infrastructure Fund",
+  "currency": "KRW",
+  "exchange": "KSC",
+  "isin": "-",
+  "info": {
+    "longName": "Macquarie Korea Infrastructure Fund",
+    "shortName": "MKIF",
+    "exchange": "KSC",
+    "currency": "KRW",
+    "currentPrice": 9690.0,
+    "open": 9640.0,
+    "previousClose": 9610.0,
+    "dayHigh": 9750.0,
+    "dayLow": 9560.0,
+    "regularMarketPrice": 9690.0,
+    "regularMarketPreviousClose": 9610.0,
+    "fiftyTwoWeekHigh": 11890.0,
+    "fiftyTwoWeekLow": 9540.0,
+    "volume": 1881794,
+    "averageVolume": 1940990,
+    "sharesOutstanding": 349044000,
+    "targetMeanPrice": 13300.0,
+    "targetHighPrice": 14000.0,
+    "targetLowPrice": 12900.0,
+    "recommendationKey": "none"
+  },
+  "dividends": [
+    {
+      "index": "2006-12-27 09:00:00+09:00",
+      "value": 220.0
+    },
+    {
+      "index": "2007-06-28 09:00:00+09:00",
+      "value": 220.0
+    },
+    {
+      "index": "2007-12-27 09:00:00+09:00",
+      "value": 220.0
+    },
+    {
+      "index": "2008-06-27 09:00:00+09:00",
+      "value": 230.0
+    },
+    {
+      "index": "2008-12-29 09:00:00+09:00",
+      "value": 230.0
+    },
+    {
+      "index": "2009-06-29 09:00:00+09:00",
+      "value": 230.0
+    },
+    {
+      "index": "2009-12-29 09:00:00+09:00",
+      "value": 160.0
+    },
+    {
+      "index": "2010-06-29 09:00:00+09:00",
+      "value": 160.0
+    },
+    {
+      "index": "2010-12-29 09:00:00+09:00",
+      "value": 184.0
+    },
+    {
+      "index": "2011-06-29 09:00:00+09:00",
+      "value": 165.0
+    },
+    {
+      "index": "2011-12-28 09:00:00+09:00",
+      "value": 165.0
+    },
+    {
+      "index": "2012-06-28 09:00:00+09:00",
+      "value": 220.0
+    },
+    {
+      "index": "2012-12-27 09:00:00+09:00",
+      "value": 260.0
+    },
+    {
+      "index": "2013-06-27 09:00:00+09:00",
+      "value": 210.0
+    },
+    {
+      "index": "2013-12-27 09:00:00+09:00",
+      "value": 303.0
+    },
+    {
+      "index": "2014-06-27 09:00:00+09:00",
+      "value": 193.0
+    },
+    {
+      "index": "2014-12-29 09:00:00+09:00",
+      "value": 225.0
+    },
+    {
+      "index": "2015-06-29 09:00:00+09:00",
+      "value": 210.0
+    },
+    {
+      "index": "2026-06-29 09:00:00+09:00",
+      "value": 350.0
+    }
+  ],
+  "splits": [
+    {
+      "index": "2008-12-29 09:00:00+09:00",
+      "value": 1.02464
+    }
+  ],
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 9690.0,
+    "high": 14000.0,
+    "low": 12900.0,
+    "mean": 13300.0,
+    "median": 13000.0
+  },
+  "recommendations_summary": [
+    {
+      "index": "0",
+      "period": "0m",
+      "strongBuy": 1,
+      "buy": 2,
+      "hold": 0,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "index": "1",
+      "period": "-1m",
+      "strongBuy": 1,
+      "buy": 2,
+      "hold": 0,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "index": "2",
+      "period": "-2m",
+      "strongBuy": 1,
+      "buy": 2,
+      "hold": 0,
+      "sell": 0,
+      "strongSell": 0
+    }
+  ],
+  "earnings_dates": [
+    {
+      "index": "2021-01-28 19:00:00-05:00",
+      "EPS Estimate": 182.0,
+      "Reported EPS": 135.0,
+      "Surprise(%)": -25.82
+    },
+    {
+      "index": "2020-11-09 07:00:00-05:00",
+      "EPS Estimate": 182.0,
+      "Reported EPS": 123.0,
+      "Surprise(%)": -32.42
+    },
+    {
+      "index": "2020-07-30 20:00:00-04:00",
+      "EPS Estimate": 182.0,
+      "Reported EPS": 111.0,
+      "Surprise(%)": -39.01
+    },
+    {
+      "index": "2020-04-28 20:00:00-04:00",
+      "EPS Estimate": 182.0,
+      "Reported EPS": 373.0,
+      "Surprise(%)": 104.95
+    },
+    {
+      "index": "2008-04-29 21:00:00-04:00",
+      "EPS Estimate": 91.74,
+      "Reported EPS": 308.96,
+      "Surprise(%)": 236.78
+    },
+    {
+      "index": "2008-01-29 03:00:00-05:00",
+      "EPS Estimate": 111.26,
+      "Reported EPS": 71.24,
+      "Surprise(%)": -35.97
+    },
+    {
+      "index": "2007-10-31 06:00:00-04:00",
+      "EPS Estimate": 73.2,
+      "Reported EPS": 90.18,
+      "Surprise(%)": 23.2
+    },
+    {
+      "index": "2007-01-19 05:00:00-05:00",
+      "EPS Estimate": 78.95,
+      "Reported EPS": 460.65,
+      "Surprise(%)": 483.44
+    },
+    {
+      "index": "2006-11-15 07:00:00-05:00",
+      "EPS Estimate": 78.95,
+      "Reported EPS": 425.52,
+      "Surprise(%)": 438.94
+    },
+    {
+      "index": "2006-08-01 04:00:00-04:00",
+      "EPS Estimate": 45.09,
+      "Reported EPS": 68.32,
+      "Surprise(%)": 51.52
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,29 @@
+{
+  "symbol": "099520.KS",
+  "region": "kr",
+  "name": null,
+  "currency": "KRW",
+  "exchange": "KOE",
+  "isin": "-",
+  "info": {
+    "shortName": "099520.KS,0P0000N5UE,0",
+    "exchange": "KOE",
+    "currency": "KRW",
+    "regularMarketPrice": 2570.0,
+    "regularMarketPreviousClose": 2570.0,
+    "fiftyTwoWeekHigh": 2570.0,
+    "fiftyTwoWeekLow": 2570.0
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

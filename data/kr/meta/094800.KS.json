@@ -1,0 +1,104 @@
+{
+  "symbol": "094800.KS",
+  "region": "kr",
+  "name": "Mirae Asset Asia Pacific Real Estate 1 Investment Company",
+  "currency": "KRW",
+  "exchange": "KSC",
+  "isin": "-",
+  "info": {
+    "longName": "Mirae Asset Asia Pacific Real Estate 1 Investment Company",
+    "shortName": "MAPSREALTY",
+    "exchange": "KSC",
+    "currency": "KRW",
+    "regularMarketPrice": 7000.0,
+    "regularMarketPreviousClose": 6950.0,
+    "fiftyTwoWeekHigh": 8190.0,
+    "fiftyTwoWeekLow": 0.0,
+    "sharesOutstanding": 92834304
+  },
+  "dividends": [
+    {
+      "index": "2013-12-26 09:00:00+09:00",
+      "value": 200.0
+    },
+    {
+      "index": "2014-12-26 09:00:00+09:00",
+      "value": 200.0
+    },
+    {
+      "index": "2015-12-28 09:00:00+09:00",
+      "value": 200.0
+    },
+    {
+      "index": "2016-12-27 09:00:00+09:00",
+      "value": 200.0
+    },
+    {
+      "index": "2017-12-26 09:00:00+09:00",
+      "value": 215.0
+    },
+    {
+      "index": "2018-12-26 09:00:00+09:00",
+      "value": 212.0
+    },
+    {
+      "index": "2018-12-27 09:00:00+09:00",
+      "value": 212.0
+    },
+    {
+      "index": "2019-12-26 09:00:00+09:00",
+      "value": 243.0
+    },
+    {
+      "index": "2019-12-27 09:00:00+09:00",
+      "value": 247.0
+    },
+    {
+      "index": "2020-12-28 09:00:00+09:00",
+      "value": 237.0
+    },
+    {
+      "index": "2020-12-29 09:00:00+09:00",
+      "value": 237.0
+    },
+    {
+      "index": "2021-12-29 09:00:00+09:00",
+      "value": 250.0
+    },
+    {
+      "index": "2022-12-27 09:00:00+09:00",
+      "value": 250.0
+    },
+    {
+      "index": "2022-12-28 09:00:00+09:00",
+      "value": 250.0
+    },
+    {
+      "index": "2023-12-27 09:00:00+09:00",
+      "value": 265.0
+    },
+    {
+      "index": "2024-12-27 09:00:00+09:00",
+      "value": 265.0
+    },
+    {
+      "index": "2025-12-29 09:00:00+09:00",
+      "value": 275.0
+    },
+    {
+      "index": "2026-06-29 09:00:00+09:00",
+      "value": 137.0
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
