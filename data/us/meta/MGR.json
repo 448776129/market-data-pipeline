@@ -1,0 +1,148 @@
+{
+  "symbol": "MGR",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "shortName": "Affiliated Managers Group, Inc.",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 20.0,
+    "previousClose": 20.07,
+    "dayHigh": 20.14,
+    "dayLow": 19.9301,
+    "regularMarketPrice": 20.0,
+    "regularMarketPreviousClose": 20.07,
+    "fiftyTwoWeekHigh": 23.14,
+    "fiftyTwoWeekLow": 19.46,
+    "volume": 20943,
+    "averageVolume": 29345
+  },
+  "dividends": [
+    {
+      "index": "2019-06-27 09:30:00-04:00",
+      "value": 0.379
+    },
+    {
+      "index": "2019-09-26 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2020-03-26 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2020-06-26 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2020-09-28 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2020-12-28 09:30:00-05:00",
+      "value": 0.367
+    },
+    {
+      "index": "2021-03-26 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2021-06-28 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2021-09-28 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2021-12-28 09:30:00-05:00",
+      "value": 0.367
+    },
+    {
+      "index": "2022-03-28 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2022-06-28 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2022-09-28 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2022-12-28 09:30:00-05:00",
+      "value": 0.367
+    },
+    {
+      "index": "2023-03-28 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2023-06-28 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2023-09-28 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.367
+    },
+    {
+      "index": "2024-03-27 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2024-06-28 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2024-09-27 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2024-12-27 09:30:00-05:00",
+      "value": 0.367
+    },
+    {
+      "index": "2025-03-28 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2025-06-27 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2025-09-29 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2025-12-29 09:30:00-05:00",
+      "value": 0.367
+    },
+    {
+      "index": "2026-03-27 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2026-06-29 09:30:00-04:00",
+      "value": 0.367
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

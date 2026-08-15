@@ -1,0 +1,76 @@
+{
+  "symbol": "MRCCL",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NMS",
+  "isin": "-",
+  "info": {
+    "shortName": "Monroe Capital Corporation - 5.",
+    "exchange": "NMS",
+    "currency": "USD",
+    "open": 25.06,
+    "previousClose": 25.07,
+    "dayHigh": 25.08,
+    "dayLow": 25.05,
+    "regularMarketPrice": 25.08,
+    "regularMarketPreviousClose": 25.07,
+    "fiftyTwoWeekHigh": 25.84,
+    "fiftyTwoWeekLow": 13.39,
+    "volume": 2600,
+    "averageVolume": 29762
+  },
+  "dividends": [
+    {
+      "index": "2018-10-12 09:30:00-04:00",
+      "value": 0.196
+    },
+    {
+      "index": "2019-01-14 09:30:00-05:00",
+      "value": 0.359
+    },
+    {
+      "index": "2019-04-12 09:30:00-04:00",
+      "value": 0.359
+    },
+    {
+      "index": "2019-07-12 09:30:00-04:00",
+      "value": 0.359
+    },
+    {
+      "index": "2019-10-11 09:30:00-04:00",
+      "value": 0.359
+    },
+    {
+      "index": "2020-01-14 09:30:00-05:00",
+      "value": 0.359
+    },
+    {
+      "index": "2020-04-14 09:30:00-04:00",
+      "value": 0.359
+    },
+    {
+      "index": "2020-07-14 09:30:00-04:00",
+      "value": 0.359
+    },
+    {
+      "index": "2020-10-14 09:30:00-04:00",
+      "value": 0.359
+    },
+    {
+      "index": "2021-01-14 09:30:00-05:00",
+      "value": 0.359
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

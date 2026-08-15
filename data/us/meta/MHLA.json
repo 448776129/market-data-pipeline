@@ -1,0 +1,195 @@
+{
+  "symbol": "MHLA",
+  "region": "us",
+  "name": "Maiden Holdings, Ltd. 6.625 NT 2046",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "Maiden Holdings, Ltd. 6.625 NT 2046",
+    "shortName": "Maiden Holdings, Ltd. 6.625% No",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 10.875,
+    "previousClose": 10.85,
+    "dayHigh": 10.89,
+    "dayLow": 10.875,
+    "regularMarketPrice": 10.8801,
+    "regularMarketPreviousClose": 10.85,
+    "fiftyTwoWeekHigh": 15.44,
+    "fiftyTwoWeekLow": 9.59,
+    "priceToBook": 1.3051943,
+    "volume": 2368,
+    "averageVolume": 3927,
+    "sharesOutstanding": 86620496
+  },
+  "dividends": [
+    {
+      "index": "2011-08-30 09:30:00-04:00",
+      "value": 0.464
+    },
+    {
+      "index": "2011-11-29 09:30:00-05:00",
+      "value": 0.516
+    },
+    {
+      "index": "2012-02-28 09:30:00-05:00",
+      "value": 0.516
+    },
+    {
+      "index": "2012-05-30 09:30:00-04:00",
+      "value": 0.516
+    },
+    {
+      "index": "2012-08-29 09:30:00-04:00",
+      "value": 0.516
+    },
+    {
+      "index": "2012-11-28 09:30:00-05:00",
+      "value": 0.516
+    },
+    {
+      "index": "2013-02-27 09:30:00-05:00",
+      "value": 0.516
+    },
+    {
+      "index": "2013-05-29 09:30:00-04:00",
+      "value": 0.516
+    },
+    {
+      "index": "2013-08-28 09:30:00-04:00",
+      "value": 0.516
+    },
+    {
+      "index": "2013-11-26 09:30:00-05:00",
+      "value": 0.516
+    },
+    {
+      "index": "2014-02-26 09:30:00-05:00",
+      "value": 0.516
+    },
+    {
+      "index": "2014-05-28 09:30:00-04:00",
+      "value": 0.516
+    },
+    {
+      "index": "2014-08-27 09:30:00-04:00",
+      "value": 0.516
+    },
+    {
+      "index": "2014-11-26 09:30:00-05:00",
+      "value": 0.516
+    },
+    {
+      "index": "2015-02-25 09:30:00-05:00",
+      "value": 0.516
+    },
+    {
+      "index": "2015-05-28 09:30:00-04:00",
+      "value": 0.516
+    },
+    {
+      "index": "2015-08-28 09:30:00-04:00",
+      "value": 0.516
+    },
+    {
+      "index": "2015-11-27 09:30:00-05:00",
+      "value": 0.516
+    },
+    {
+      "index": "2016-02-26 09:30:00-05:00",
+      "value": 0.516
+    },
+    {
+      "index": "2016-05-27 09:30:00-04:00",
+      "value": 0.516
+    },
+    {
+      "index": "2016-08-26 09:30:00-04:00",
+      "value": 0.414
+    },
+    {
+      "index": "2016-11-28 09:30:00-05:00",
+      "value": 0.414
+    },
+    {
+      "index": "2017-02-24 09:30:00-05:00",
+      "value": 0.414
+    },
+    {
+      "index": "2017-05-25 09:30:00-04:00",
+      "value": 0.414
+    },
+    {
+      "index": "2017-08-28 09:30:00-04:00",
+      "value": 0.414
+    },
+    {
+      "index": "2017-11-29 09:30:00-05:00",
+      "value": 0.414
+    },
+    {
+      "index": "2018-02-27 09:30:00-05:00",
+      "value": 0.414
+    },
+    {
+      "index": "2018-05-29 09:30:00-04:00",
+      "value": 0.414
+    },
+    {
+      "index": "2018-08-29 09:30:00-04:00",
+      "value": 0.414
+    },
+    {
+      "index": "2018-11-29 09:30:00-05:00",
+      "value": 0.414
+    },
+    {
+      "index": "2019-02-27 09:30:00-05:00",
+      "value": 0.414
+    },
+    {
+      "index": "2020-02-27 09:30:00-05:00",
+      "value": 0.414
+    },
+    {
+      "index": "2024-02-27 09:30:00-05:00",
+      "value": 0.414
+    },
+    {
+      "index": "2024-05-30 09:30:00-04:00",
+      "value": 0.414
+    },
+    {
+      "index": "2024-08-30 09:30:00-04:00",
+      "value": 0.414
+    },
+    {
+      "index": "2024-11-29 09:30:00-05:00",
+      "value": 0.414
+    },
+    {
+      "index": "2025-02-28 09:30:00-05:00",
+      "value": 0.414
+    },
+    {
+      "index": "2026-02-27 09:30:00-05:00",
+      "value": 0.414
+    },
+    {
+      "index": "2026-05-29 09:30:00-04:00",
+      "value": 0.414
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

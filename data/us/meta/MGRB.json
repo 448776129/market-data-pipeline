@@ -1,0 +1,124 @@
+{
+  "symbol": "MGRB",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "shortName": "Affiliated Managers Group, Inc.",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 16.41,
+    "previousClose": 16.46,
+    "dayHigh": 16.5199,
+    "dayLow": 16.39,
+    "regularMarketPrice": 16.47,
+    "regularMarketPreviousClose": 16.46,
+    "fiftyTwoWeekHigh": 19.099,
+    "fiftyTwoWeekLow": 15.81,
+    "volume": 10407,
+    "averageVolume": 22164
+  },
+  "dividends": [
+    {
+      "index": "2020-12-28 09:30:00-05:00",
+      "value": 0.32
+    },
+    {
+      "index": "2021-03-26 09:30:00-04:00",
+      "value": 0.297
+    },
+    {
+      "index": "2021-09-28 09:30:00-04:00",
+      "value": 0.297
+    },
+    {
+      "index": "2021-12-28 09:30:00-05:00",
+      "value": 0.297
+    },
+    {
+      "index": "2022-03-28 09:30:00-04:00",
+      "value": 0.297
+    },
+    {
+      "index": "2022-06-28 09:30:00-04:00",
+      "value": 0.297
+    },
+    {
+      "index": "2022-09-28 09:30:00-04:00",
+      "value": 0.297
+    },
+    {
+      "index": "2022-12-28 09:30:00-05:00",
+      "value": 0.297
+    },
+    {
+      "index": "2023-03-28 09:30:00-04:00",
+      "value": 0.297
+    },
+    {
+      "index": "2023-06-28 09:30:00-04:00",
+      "value": 0.297
+    },
+    {
+      "index": "2023-09-28 09:30:00-04:00",
+      "value": 0.297
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.297
+    },
+    {
+      "index": "2024-03-27 09:30:00-04:00",
+      "value": 0.297
+    },
+    {
+      "index": "2024-06-28 09:30:00-04:00",
+      "value": 0.297
+    },
+    {
+      "index": "2024-09-27 09:30:00-04:00",
+      "value": 0.297
+    },
+    {
+      "index": "2024-12-27 09:30:00-05:00",
+      "value": 0.297
+    },
+    {
+      "index": "2025-03-28 09:30:00-04:00",
+      "value": 0.297
+    },
+    {
+      "index": "2025-06-27 09:30:00-04:00",
+      "value": 0.297
+    },
+    {
+      "index": "2025-09-29 09:30:00-04:00",
+      "value": 0.297
+    },
+    {
+      "index": "2025-12-29 09:30:00-05:00",
+      "value": 0.297
+    },
+    {
+      "index": "2026-03-27 09:30:00-04:00",
+      "value": 0.297
+    },
+    {
+      "index": "2026-06-29 09:30:00-04:00",
+      "value": 0.297
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

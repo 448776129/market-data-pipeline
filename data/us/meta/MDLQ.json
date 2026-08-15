@@ -1,0 +1,93 @@
+{
+  "symbol": "MDLQ",
+  "region": "us",
+  "name": "Medley LLC NT 24",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "Medley LLC NT 24",
+    "shortName": "Medley LLC 7.25% Notes due 2024",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 1.81,
+    "previousClose": 1.76,
+    "dayHigh": 1.8281,
+    "dayLow": 1.75,
+    "regularMarketPrice": 1.76,
+    "regularMarketPreviousClose": 1.76,
+    "fiftyTwoWeekHigh": 10.64,
+    "fiftyTwoWeekLow": 0.37,
+    "volume": 0,
+    "averageVolume": 42933
+  },
+  "dividends": [
+    {
+      "index": "2017-04-11 09:30:00-04:00",
+      "value": 0.514
+    },
+    {
+      "index": "2017-07-12 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2017-10-12 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2018-07-12 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2018-10-12 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2019-01-14 09:30:00-05:00",
+      "value": 0.453
+    },
+    {
+      "index": "2019-04-12 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2019-07-12 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2019-10-11 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2020-01-14 09:30:00-05:00",
+      "value": 0.453
+    },
+    {
+      "index": "2020-04-14 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2020-07-14 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2020-10-14 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2021-01-14 09:30:00-05:00",
+      "value": 0.448
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

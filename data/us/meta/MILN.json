@@ -1,0 +1,103 @@
+{
+  "symbol": "MILN",
+  "region": "us",
+  "name": "Global X Millennials Consumer ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US37954Y7647",
+  "info": {
+    "longName": "Global X Millennials Consumer ETF",
+    "shortName": "Global X Millennial Consumer ET",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 46.815,
+    "previousClose": 46.81,
+    "dayHigh": 46.8193,
+    "dayLow": 46.7,
+    "regularMarketPrice": 46.7551,
+    "regularMarketPreviousClose": 46.81,
+    "fiftyTwoWeekHigh": 50.86,
+    "fiftyTwoWeekLow": 39.23,
+    "trailingPE": 23.43741,
+    "dividendYield": 0.31,
+    "volume": 4886,
+    "averageVolume": 7846
+  },
+  "dividends": [
+    {
+      "index": "2016-12-28 09:30:00-05:00",
+      "value": 0.05
+    },
+    {
+      "index": "2017-12-28 09:30:00-05:00",
+      "value": 0.172
+    },
+    {
+      "index": "2018-12-28 09:30:00-05:00",
+      "value": 0.085
+    },
+    {
+      "index": "2019-06-27 09:30:00-04:00",
+      "value": 0.021
+    },
+    {
+      "index": "2019-12-30 09:30:00-05:00",
+      "value": 0.09
+    },
+    {
+      "index": "2020-06-29 09:30:00-04:00",
+      "value": 0.02
+    },
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.057
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.065
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.062
+    },
+    {
+      "index": "2023-06-29 09:30:00-04:00",
+      "value": 0.004
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.114
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.016
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.085
+    },
+    {
+      "index": "2025-06-27 09:30:00-04:00",
+      "value": 0.018
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.099
+    },
+    {
+      "index": "2026-06-29 09:30:00-04:00",
+      "value": 0.039
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

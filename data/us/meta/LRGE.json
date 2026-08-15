@@ -1,0 +1,83 @@
+{
+  "symbol": "LRGE",
+  "region": "us",
+  "name": "ClearBridge Large Cap Growth Select ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US5246822002",
+  "info": {
+    "longName": "ClearBridge Large Cap Growth Select ETF",
+    "shortName": "ClearBridge Large Cap Growth Se",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 89.9,
+    "previousClose": 90.13,
+    "dayHigh": 89.9925,
+    "dayLow": 89.5401,
+    "regularMarketPrice": 89.5603,
+    "regularMarketPreviousClose": 90.13,
+    "fiftyTwoWeekHigh": 90.16,
+    "fiftyTwoWeekLow": 72.34,
+    "trailingPE": 33.68538,
+    "dividendYield": 0.12,
+    "volume": 7774,
+    "averageVolume": 22182
+  },
+  "dividends": [
+    {
+      "index": "2017-12-26 09:30:00-05:00",
+      "value": 0.11
+    },
+    {
+      "index": "2018-12-26 09:30:00-05:00",
+      "value": 0.602
+    },
+    {
+      "index": "2018-12-31 09:30:00-05:00",
+      "value": 0.011
+    },
+    {
+      "index": "2019-12-26 09:30:00-05:00",
+      "value": 0.14
+    },
+    {
+      "index": "2020-12-28 09:30:00-05:00",
+      "value": 0.185
+    },
+    {
+      "index": "2021-12-27 09:30:00-05:00",
+      "value": 0.73
+    },
+    {
+      "index": "2022-06-27 09:30:00-04:00",
+      "value": 0.002
+    },
+    {
+      "index": "2022-12-27 09:30:00-05:00",
+      "value": 0.821
+    },
+    {
+      "index": "2023-12-26 09:30:00-05:00",
+      "value": 0.064
+    },
+    {
+      "index": "2024-12-26 09:30:00-05:00",
+      "value": 0.132
+    },
+    {
+      "index": "2025-12-26 09:30:00-05:00",
+      "value": 0.104
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

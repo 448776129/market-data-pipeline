@@ -1,0 +1,172 @@
+{
+  "symbol": "MHLD",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "INE835B01035",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2020-03-18 16:00:00-04:00",
+      "EPS Estimate": 1.6,
+      "Reported EPS": -4.2,
+      "Surprise(%)": -362.5
+    },
+    {
+      "index": "2019-11-12 16:00:00-05:00",
+      "EPS Estimate": 3.4,
+      "Reported EPS": 9.6,
+      "Surprise(%)": 182.35
+    },
+    {
+      "index": "2019-08-09 16:00:00-04:00",
+      "EPS Estimate": 2.8,
+      "Reported EPS": -7.2,
+      "Surprise(%)": -357.14
+    },
+    {
+      "index": "2019-05-10 16:00:00-04:00",
+      "EPS Estimate": 1.4,
+      "Reported EPS": -6.4,
+      "Surprise(%)": -557.14
+    },
+    {
+      "index": "2019-03-15 06:00:00-04:00",
+      "EPS Estimate": 4.2,
+      "Reported EPS": -51.8,
+      "Surprise(%)": -1333.33
+    },
+    {
+      "index": "2018-11-09 17:00:00-05:00",
+      "EPS Estimate": 3.5,
+      "Reported EPS": -56.6,
+      "Surprise(%)": -1717.14
+    },
+    {
+      "index": "2018-08-09 08:00:00-04:00",
+      "EPS Estimate": 5.6,
+      "Reported EPS": -2.6,
+      "Surprise(%)": -146.43
+    },
+    {
+      "index": "2018-05-09 20:00:00-04:00",
+      "EPS Estimate": 4.2,
+      "Reported EPS": 4.0,
+      "Surprise(%)": -4.76
+    },
+    {
+      "index": "2018-02-27 19:00:00-05:00",
+      "EPS Estimate": 3.9,
+      "Reported EPS": -33.0,
+      "Surprise(%)": -946.15
+    },
+    {
+      "index": "2017-11-08 16:00:00-05:00",
+      "EPS Estimate": 1.85,
+      "Reported EPS": -13.2,
+      "Surprise(%)": -813.51
+    },
+    {
+      "index": "2017-08-08 16:00:00-04:00",
+      "EPS Estimate": 8.27,
+      "Reported EPS": -2.8,
+      "Surprise(%)": -133.87
+    },
+    {
+      "index": "2017-05-08 17:00:00-04:00",
+      "EPS Estimate": 7.65,
+      "Reported EPS": 5.2,
+      "Surprise(%)": -32.03
+    },
+    {
+      "index": "2017-02-27 16:00:00-05:00",
+      "EPS Estimate": -19.5,
+      "Reported EPS": -16.2,
+      "Surprise(%)": 16.92
+    },
+    {
+      "index": "2016-11-02 17:00:00-04:00",
+      "EPS Estimate": 8.0,
+      "Reported EPS": 7.8,
+      "Surprise(%)": -2.5
+    },
+    {
+      "index": "2016-08-04 16:00:00-04:00",
+      "EPS Estimate": 8.0,
+      "Reported EPS": 7.4,
+      "Surprise(%)": -7.5
+    },
+    {
+      "index": "2016-05-04 17:00:00-04:00",
+      "EPS Estimate": 7.47,
+      "Reported EPS": 7.4,
+      "Surprise(%)": -0.89
+    },
+    {
+      "index": "2016-02-22 16:00:00-05:00",
+      "EPS Estimate": 9.07,
+      "Reported EPS": 6.8,
+      "Surprise(%)": -25.0
+    },
+    {
+      "index": "2015-11-04 16:00:00-05:00",
+      "EPS Estimate": 7.4,
+      "Reported EPS": 6.8,
+      "Surprise(%)": -8.11
+    },
+    {
+      "index": "2015-08-04 16:00:00-04:00",
+      "EPS Estimate": 8.33,
+      "Reported EPS": 7.4,
+      "Surprise(%)": -11.2
+    },
+    {
+      "index": "2015-05-05 16:00:00-04:00",
+      "EPS Estimate": 8.85,
+      "Reported EPS": 7.0,
+      "Surprise(%)": -20.9
+    },
+    {
+      "index": "2015-02-18 16:00:00-05:00",
+      "EPS Estimate": 7.88,
+      "Reported EPS": 8.8,
+      "Surprise(%)": 11.68
+    },
+    {
+      "index": "2014-11-05 16:00:00-05:00",
+      "EPS Estimate": 7.45,
+      "Reported EPS": 7.6,
+      "Surprise(%)": 2.01
+    },
+    {
+      "index": "2014-08-06 16:00:00-04:00",
+      "EPS Estimate": 7.3,
+      "Reported EPS": 7.4,
+      "Surprise(%)": 1.37
+    },
+    {
+      "index": "2014-05-07 16:00:00-04:00",
+      "EPS Estimate": 0.6,
+      "Reported EPS": -1.2,
+      "Surprise(%)": -300.0
+    },
+    {
+      "index": "2014-02-19 16:00:00-05:00",
+      "EPS Estimate": 5.4,
+      "Reported EPS": 5.29,
+      "Surprise(%)": -2.13
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

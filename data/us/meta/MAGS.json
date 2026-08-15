@@ -1,0 +1,50 @@
+{
+  "symbol": "MAGS",
+  "region": "us",
+  "name": "Roundhill Magnificent Seven ETF",
+  "currency": "USD",
+  "exchange": "BTS",
+  "isin": "US53656G4982",
+  "info": {
+    "longName": "Roundhill Magnificent Seven ETF",
+    "shortName": "Roundhill Magnificent Seven ETF",
+    "exchange": "BTS",
+    "currency": "USD",
+    "open": 68.5,
+    "previousClose": 68.49,
+    "dayHigh": 68.92,
+    "dayLow": 68.25,
+    "regularMarketPrice": 68.26,
+    "regularMarketPreviousClose": 68.49,
+    "fiftyTwoWeekHigh": 71.16,
+    "fiftyTwoWeekLow": 55.085,
+    "dividendYield": 1.48,
+    "volume": 1996257,
+    "averageVolume": 4439748
+  },
+  "dividends": [
+    {
+      "index": "2023-12-27 09:30:00-05:00",
+      "value": 0.146
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.44
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.976
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

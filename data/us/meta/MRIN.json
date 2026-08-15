@@ -1,0 +1,118 @@
+{
+  "symbol": "MRIN",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "US56804T2050",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2017-02-28 16:00:00-05:00",
+      "EPS Estimate": -4.2,
+      "Reported EPS": -2.1,
+      "Surprise(%)": 50.0
+    },
+    {
+      "index": "2016-11-09 16:00:00-05:00",
+      "EPS Estimate": -2.94,
+      "Reported EPS": -0.84,
+      "Surprise(%)": 71.43
+    },
+    {
+      "index": "2016-08-04 16:00:00-04:00",
+      "EPS Estimate": -2.99,
+      "Reported EPS": -0.84,
+      "Surprise(%)": 71.87
+    },
+    {
+      "index": "2016-05-05 16:00:00-04:00",
+      "EPS Estimate": -2.38,
+      "Reported EPS": -0.42,
+      "Surprise(%)": 82.38
+    },
+    {
+      "index": "2016-02-18 16:00:00-05:00",
+      "EPS Estimate": -2.35,
+      "Reported EPS": 1.68,
+      "Surprise(%)": 171.41
+    },
+    {
+      "index": "2015-11-04 16:00:00-05:00",
+      "EPS Estimate": -7.2,
+      "Reported EPS": -5.46,
+      "Surprise(%)": 24.17
+    },
+    {
+      "index": "2015-08-05 16:00:00-04:00",
+      "EPS Estimate": -9.17,
+      "Reported EPS": -8.4,
+      "Surprise(%)": 8.41
+    },
+    {
+      "index": "2015-05-06 16:00:00-04:00",
+      "EPS Estimate": -8.34,
+      "Reported EPS": -6.3,
+      "Surprise(%)": 24.44
+    },
+    {
+      "index": "2015-02-05 16:00:00-05:00",
+      "EPS Estimate": -8.31,
+      "Reported EPS": -6.3,
+      "Surprise(%)": 24.17
+    },
+    {
+      "index": "2014-11-05 16:00:00-05:00",
+      "EPS Estimate": -10.11,
+      "Reported EPS": -7.56,
+      "Surprise(%)": 25.21
+    },
+    {
+      "index": "2014-08-06 16:00:00-04:00",
+      "EPS Estimate": -11.15,
+      "Reported EPS": -9.24,
+      "Surprise(%)": 17.11
+    },
+    {
+      "index": "2014-05-07 16:00:00-04:00",
+      "EPS Estimate": -11.35,
+      "Reported EPS": -8.82,
+      "Surprise(%)": 22.31
+    },
+    {
+      "index": "2014-02-11 16:00:00-05:00",
+      "EPS Estimate": -9.7,
+      "Reported EPS": -8.82,
+      "Surprise(%)": 9.07
+    },
+    {
+      "index": "2013-11-06 16:00:00-05:00",
+      "EPS Estimate": -11.27,
+      "Reported EPS": -9.66,
+      "Surprise(%)": 14.32
+    },
+    {
+      "index": "2013-08-07 16:00:00-04:00",
+      "EPS Estimate": -13.15,
+      "Reported EPS": -10.92,
+      "Surprise(%)": 16.99
+    },
+    {
+      "index": "2013-05-08 16:00:00-04:00",
+      "EPS Estimate": -16.91,
+      "Reported EPS": -16.38,
+      "Surprise(%)": 3.16
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

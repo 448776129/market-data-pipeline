@@ -1,0 +1,163 @@
+{
+  "symbol": "MCHI",
+  "region": "us",
+  "name": "iShares MSCI China ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US46429B6719",
+  "info": {
+    "longName": "iShares MSCI China ETF",
+    "shortName": "iShares MSCI China ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 54.43,
+    "previousClose": 54.42,
+    "dayHigh": 54.725,
+    "dayLow": 54.41,
+    "regularMarketPrice": 54.63,
+    "regularMarketPreviousClose": 54.42,
+    "fiftyTwoWeekHigh": 67.37,
+    "fiftyTwoWeekLow": 49.88,
+    "trailingPE": 12.074893,
+    "dividendYield": 1.97,
+    "volume": 1403199,
+    "averageVolume": 3042927
+  },
+  "dividends": [
+    {
+      "index": "2011-06-22 09:30:00-04:00",
+      "value": 0.954
+    },
+    {
+      "index": "2011-12-20 09:30:00-05:00",
+      "value": 0.095
+    },
+    {
+      "index": "2012-06-21 09:30:00-04:00",
+      "value": 0.829
+    },
+    {
+      "index": "2012-12-18 09:30:00-05:00",
+      "value": 0.093
+    },
+    {
+      "index": "2013-06-27 09:30:00-04:00",
+      "value": 0.925
+    },
+    {
+      "index": "2013-12-18 09:30:00-05:00",
+      "value": 0.219
+    },
+    {
+      "index": "2014-06-25 09:30:00-04:00",
+      "value": 0.728
+    },
+    {
+      "index": "2014-12-17 09:30:00-05:00",
+      "value": 0.45
+    },
+    {
+      "index": "2015-06-25 09:30:00-04:00",
+      "value": 0.601
+    },
+    {
+      "index": "2015-12-21 09:30:00-05:00",
+      "value": 0.631
+    },
+    {
+      "index": "2016-06-22 09:30:00-04:00",
+      "value": 0.303
+    },
+    {
+      "index": "2016-12-21 09:30:00-05:00",
+      "value": 0.421
+    },
+    {
+      "index": "2017-06-20 09:30:00-04:00",
+      "value": 0.192
+    },
+    {
+      "index": "2017-12-19 09:30:00-05:00",
+      "value": 0.846
+    },
+    {
+      "index": "2018-06-19 09:30:00-04:00",
+      "value": 0.315
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.525
+    },
+    {
+      "index": "2019-06-17 09:30:00-04:00",
+      "value": 0.356
+    },
+    {
+      "index": "2019-12-16 09:30:00-05:00",
+      "value": 0.574
+    },
+    {
+      "index": "2020-06-15 09:30:00-04:00",
+      "value": 0.237
+    },
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.604
+    },
+    {
+      "index": "2021-06-10 09:30:00-04:00",
+      "value": 0.177
+    },
+    {
+      "index": "2021-12-13 09:30:00-05:00",
+      "value": 0.477
+    },
+    {
+      "index": "2022-06-09 09:30:00-04:00",
+      "value": 0.312
+    },
+    {
+      "index": "2022-12-13 09:30:00-05:00",
+      "value": 0.712
+    },
+    {
+      "index": "2023-06-07 09:30:00-04:00",
+      "value": 0.429
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.994
+    },
+    {
+      "index": "2024-06-11 09:30:00-04:00",
+      "value": 0.191
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 0.891
+    },
+    {
+      "index": "2025-06-16 09:30:00-04:00",
+      "value": 0.536
+    },
+    {
+      "index": "2025-12-16 09:30:00-05:00",
+      "value": 0.735
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 0.361
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

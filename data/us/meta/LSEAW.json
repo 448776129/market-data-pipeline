@@ -1,0 +1,105 @@
+{
+  "symbol": "LSEAW",
+  "region": "us",
+  "name": "Landsea Homes Corporation",
+  "currency": "USD",
+  "exchange": "NCM",
+  "isin": "-",
+  "info": {
+    "longName": "Landsea Homes Corporation",
+    "shortName": "Landsea Homes Corporation",
+    "sector": "Real Estate",
+    "industry": "Real Estate - Development",
+    "country": "United States",
+    "exchange": "NCM",
+    "currency": "USD",
+    "currentPrice": 0.205,
+    "open": 0.19,
+    "previousClose": 0.205,
+    "dayHigh": 0.205,
+    "dayLow": 0.205,
+    "regularMarketPrice": 0.205,
+    "regularMarketPreviousClose": 0.205,
+    "fiftyTwoWeekHigh": 0.205,
+    "fiftyTwoWeekLow": 0.205,
+    "priceToBook": 0.011302238,
+    "beta": 1.914,
+    "volume": 22594,
+    "floatShares": 22283379,
+    "recommendationKey": "none",
+    "totalRevenue": 1567106944,
+    "grossProfits": 253931008,
+    "freeCashflow": -92208128,
+    "totalDebt": 751587008,
+    "totalCash": 36740000,
+    "profitMargins": 0.00625,
+    "returnOnEquity": 0.01592,
+    "returnOnAssets": 0.01938,
+    "revenueGrowth": 0.057
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 0.205
+  },
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": [
+    {
+      "index": "institutionsCount",
+      "Value": 5
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2025-06-30 00:00:00",
+      "Holder": "Zazove Associates LLC",
+      "pctHeld": 0.1027,
+      "Shares": 2392316,
+      "Value": 490424,
+      "pctChange": 0.0
+    },
+    {
+      "index": "1",
+      "Date Reported": "2025-03-31 00:00:00",
+      "Holder": "LMR Partners LLP",
+      "pctHeld": 0.0504,
+      "Shares": 1173462,
+      "Value": 240559,
+      "pctChange": 0.0
+    },
+    {
+      "index": "2",
+      "Date Reported": "2025-03-31 00:00:00",
+      "Holder": "Susquehanna International Group, LLP",
+      "pctHeld": 0.0021,
+      "Shares": 49912,
+      "Value": 10231,
+      "pctChange": 1.0
+    },
+    {
+      "index": "3",
+      "Date Reported": "2025-03-31 00:00:00",
+      "Holder": "Two Sigma Securities, LLC",
+      "pctHeld": 0.0014,
+      "Shares": 32944,
+      "Value": 6753,
+      "pctChange": -0.5851
+    },
+    {
+      "index": "4",
+      "Date Reported": "2025-03-31 00:00:00",
+      "Holder": "UBS Group AG",
+      "pctHeld": 0.0001,
+      "Shares": 2646,
+      "Value": 542,
+      "pctChange": 1.25
+    }
+  ]
+}
