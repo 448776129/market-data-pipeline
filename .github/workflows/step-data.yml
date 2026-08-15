@@ -7,12 +7,22 @@ on:
   workflow_call:
     inputs:
       region:
-        description: "市场区域 (us/hk/cn)"
+        description: "市场区域 (us/hk/cn/kr)"
         required: true
         type: string
       mode:
-        description: "historical=全量历史, daily=当日增量"
+        description: "historical=全量历史, daily=当日增量, meta=非K线, universe=全市场列表"
         required: true
+        type: string
+      batch:
+        description: "当前批次（0 起），全市场分批用"
+        required: false
+        default: "0"
+        type: string
+      batches:
+        description: "总批次数，全市场分批用"
+        required: false
+        default: "1"
         type: string
 
 env:
@@ -36,12 +46,18 @@ jobs:
 
       - name: Fetch data (${{ inputs.mode }}) · ${{ inputs.region }}
         run: |
+          BATCH_ARGS=""
+          if [ "${{ inputs.batches }}" != "1" ]; then
+            BATCH_ARGS="--batch ${{ inputs.batch }} --batches ${{ inputs.batches }}"
+          fi
           if [ "${{ inputs.mode }}" = "historical" ]; then
-            python scripts/fetch_historical.py --region ${{ inputs.region }}
+            python scripts/fetch_historical.py --region ${{ inputs.region }} $BATCH_ARGS
           elif [ "${{ inputs.mode }}" = "meta" ]; then
-            python scripts/fetch_meta.py --region ${{ inputs.region }}
+            python scripts/fetch_meta.py --region ${{ inputs.region }} $BATCH_ARGS
+          elif [ "${{ inputs.mode }}" = "universe" ]; then
+            python scripts/fetch_universe.py
           else
-            python scripts/fetch_latest.py --region ${{ inputs.region }}
+            python scripts/fetch_latest.py --region ${{ inputs.region }} $BATCH_ARGS
           fi
 
       - name: Commit data

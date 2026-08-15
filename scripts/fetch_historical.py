@@ -22,6 +22,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 import config  # noqa: E402
+import marketlib  # noqa: E402
 
 # 写入 CSV 时展示的字段名（与 yfinance 返回一致）
 COLS = ["Open", "High", "Low", "Close", "Adj Close", "Volume"]
@@ -60,13 +61,19 @@ def fetch_symbol(region: str, symbol: str) -> Path | None:
     return out
 
 
-def run(region: str | None) -> int:
+def run(region: str | None, batch: int = 0, batches: int = 1) -> int:
     regions = [region] if region else list(config.REGIONS)
     failed: list[str] = []
 
     for reg in regions:
-        symbols = config.REGIONS.get(reg, [])
-        print(f"[区域] {reg} ({len(symbols)} 只)", flush=True)
+        symbols = marketlib.load_symbols(reg)
+        symbols = marketlib.slice_batch(symbols, batch, batches)
+        print(
+            f"[区域] {reg} ({len(symbols)} 只"
+            + (f", 批 {batch+1}/{batches}" if batches > 1 else "")
+            + ")",
+            flush=True,
+        )
         for symbol in symbols:
             try:
                 fetch_symbol(reg, symbol)
@@ -85,8 +92,10 @@ def run(region: str | None) -> int:
 def main() -> int:
     parser = argparse.ArgumentParser(description="拉取历史日线数据")
     parser.add_argument("--region", choices=config.REGIONS, help="仅处理指定区域")
+    parser.add_argument("--batch", type=int, default=0, help="当前批次（0 起）")
+    parser.add_argument("--batches", type=int, default=1, help="总批次数")
     args = parser.parse_args()
-    return run(args.region)
+    return run(args.region, args.batch, args.batches)
 
 
 if __name__ == "__main__":

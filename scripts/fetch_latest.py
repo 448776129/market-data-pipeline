@@ -23,6 +23,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 import config  # noqa: E402
+import marketlib  # noqa: E402
 
 COLS = ["Open", "High", "Low", "Close", "Adj Close", "Volume"]
 # 补拉天数：覆盖周末/节假日，保证当日数据不缺
@@ -79,7 +80,7 @@ def fetch_symbol(region: str, symbol: str) -> Path | None:
     return out
 
 
-def run(region: str | None, symbol: str | None) -> int:
+def run(region: str | None, symbol: str | None, batch: int = 0, batches: int = 1) -> int:
     targets: list[tuple[str, str]] = []
     if symbol:
         # 按符号反查区域
@@ -87,9 +88,14 @@ def run(region: str | None, symbol: str | None) -> int:
             if symbol in syms:
                 targets.append((reg, symbol))
     elif region:
-        targets.extend((region, s) for s in config.REGIONS.get(region, []))
+        syms = marketlib.load_symbols(region)
+        syms = marketlib.slice_batch(syms, batch, batches)
+        targets.extend((region, s) for s in syms)
     else:
-        targets = [(reg, s) for reg, syms in config.REGIONS.items() for s in syms]
+        for reg in config.REGIONS:
+            syms = marketlib.load_symbols(reg)
+            syms = marketlib.slice_batch(syms, batch, batches)
+            targets.extend((reg, s) for s in syms)
 
     if not targets:
         print("未找到匹配的符号/区域", file=sys.stderr)
@@ -114,8 +120,10 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="当日数据增量更新")
     parser.add_argument("--region", choices=config.REGIONS, help="仅处理指定区域")
     parser.add_argument("--symbol", help="仅处理指定符号")
+    parser.add_argument("--batch", type=int, default=0, help="当前批次（0 起）")
+    parser.add_argument("--batches", type=int, default=1, help="总批次数")
     args = parser.parse_args()
-    return run(args.region, args.symbol)
+    return run(args.region, args.symbol, args.batch, args.batches)
 
 
 if __name__ == "__main__":

@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "运行模式：historical=全量历史, daily=当日增量, meta=非K线数据"
+        description: "运行模式：historical=全量历史, daily=当日增量, meta=非K线"
         required: true
         default: "daily"
         type: choice
@@ -25,17 +25,36 @@ env:
 permissions:
   contents: write
 
+# 美股全市场分批数（约 8000 只 / 每批约 400 只）
 jobs:
   # ============================================================
-  # 历史数据：每个市场一个独立 job，异步并行拉取
+  # 全市场股票列表：先拉取美股全部代码，后续美股 job 依赖它
+  # ============================================================
+  universe:
+    name: Universe · US
+    if: ${{ always() }}
+    uses: ./.github/workflows/step-data.yml
+    with:
+      region: us
+      mode: universe
+
+  # ============================================================
+  # 历史数据：美股分 20 批并行，其他市场各一个 job
   # ============================================================
   historical-us:
-    name: Historical · US
+    name: Historical · US (batch ${{ matrix.batch }})
+    needs: [universe]
     if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical') }}
+    strategy:
+      fail-fast: false
+      matrix:
+        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
     uses: ./.github/workflows/step-data.yml
     with:
       region: us
       mode: historical
+      batch: ${{ matrix.batch }}
+      batches: "20"
 
   historical-hk:
     name: Historical · HK
@@ -62,15 +81,22 @@ jobs:
       mode: historical
 
   # ============================================================
-  # 当日数据：每个市场一个独立 job，异步并行拉取
+  # 当日数据：美股分 20 批并行，其他市场各一个 job
   # ============================================================
   daily-us:
-    name: Daily · US
+    name: Daily · US (batch ${{ matrix.batch }})
+    needs: [universe]
     if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily') }}
+    strategy:
+      fail-fast: false
+      matrix:
+        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
     uses: ./.github/workflows/step-data.yml
     with:
       region: us
       mode: daily
+      batch: ${{ matrix.batch }}
+      batches: "20"
 
   daily-hk:
     name: Daily · HK
@@ -97,15 +123,22 @@ jobs:
       mode: daily
 
   # ============================================================
-  # 非K线数据（meta）：每个市场一个独立 job，异步并行拉取
+  # 非K线数据（meta）：美股分 20 批并行，其他市场各一个 job
   # ============================================================
   meta-us:
-    name: Meta · US
+    name: Meta · US (batch ${{ matrix.batch }})
+    needs: [universe]
     if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta') }}
+    strategy:
+      fail-fast: false
+      matrix:
+        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
     uses: ./.github/workflows/step-data.yml
     with:
       region: us
       mode: meta
+      batch: ${{ matrix.batch }}
+      batches: "20"
 
   meta-hk:
     name: Meta · HK

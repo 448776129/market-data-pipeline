@@ -12,14 +12,11 @@ from __future__ import annotations
 #   - 港股: 如 0700.HK、9988.HK
 #   - A股:  如 600519.SS、000001.SZ
 #   - 韩股: 如 005930.KS（三星电子）、000660.KS（SK海力士）
+#
+# 若某区域的符号列表留空（[]），则该市场被当作"全市场"模式：
+# 从 universe 文件（data/universe/{region}.csv）读取全部股票代码。
 REGIONS: dict[str, list[str]] = {
-    "us": [
-        "AAPL",
-        "MSFT",
-        "TSLA",
-        "NVDA",
-        "GOOGL",
-    ],
+    "us": [],  # 全市场模式：从 data/universe/us.csv 读取全部美股
     "hk": [
         "0700.HK",
         "9988.HK",
@@ -51,3 +48,6 @@ DATA_DIR = "data"
 KLINE_SUBDIR = "kline"
 # 非K线数据（快照/财务/分析师等）子目录（每只股票一个文件）
 META_SUBDIR = "meta"
+# 全市场股票列表子目录与文件名
+UNIVERSE_SUBDIR = "universe"
+UNIVERSE_FILE = "us.csv"
