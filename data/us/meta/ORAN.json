@@ -1,0 +1,28 @@
+{
+  "symbol": "ORAN",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "JP3830700005",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2022-02-17 01:00:00-05:00",
+      "EPS Estimate": 0.71,
+      "Reported EPS": 0.15,
+      "Surprise(%)": -79.27
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,39 @@
+{
+  "symbol": "OBNK",
+  "region": "us",
+  "name": "Osprey Bonk Trust",
+  "currency": "USD",
+  "exchange": "OQX",
+  "isin": "US68839W1036",
+  "info": {
+    "longName": "Osprey Bonk Trust",
+    "exchange": "OQX",
+    "currency": "USD",
+    "currentPrice": 1.68,
+    "open": 1.79,
+    "previousClose": 2.01,
+    "dayHigh": 1.79,
+    "dayLow": 1.68,
+    "regularMarketPrice": 1.68,
+    "regularMarketPreviousClose": 2.01,
+    "fiftyTwoWeekHigh": 2.01,
+    "fiftyTwoWeekLow": 1.08,
+    "volume": 300,
+    "averageVolume": 888,
+    "recommendationKey": "none"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 1.68
+  },
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

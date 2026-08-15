@@ -1,0 +1,33 @@
+{
+  "symbol": "NTEST",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "JP3758280006",
+  "info": {
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 25.0,
+    "previousClose": 25.0,
+    "dayHigh": 25.0,
+    "dayLow": 25.0,
+    "regularMarketPrice": 25.0,
+    "regularMarketPreviousClose": 25.0,
+    "fiftyTwoWeekHigh": 25.0,
+    "fiftyTwoWeekLow": 25.0,
+    "volume": 13766
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

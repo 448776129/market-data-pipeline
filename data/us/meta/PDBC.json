@@ -1,0 +1,82 @@
+{
+  "symbol": "PDBC",
+  "region": "us",
+  "name": "Invesco Optimum Yield Diversified Commodity Strategy No K-1 ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US46090F1003",
+  "info": {
+    "longName": "Invesco Optimum Yield Diversified Commodity Strategy No K-1 ETF",
+    "shortName": "Invesco Optimum Yield Diversifi",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 17.76,
+    "previousClose": 17.77,
+    "dayHigh": 17.92,
+    "dayLow": 17.74,
+    "regularMarketPrice": 17.91,
+    "regularMarketPreviousClose": 17.77,
+    "fiftyTwoWeekHigh": 18.95,
+    "fiftyTwoWeekLow": 12.87,
+    "dividendYield": 2.9,
+    "volume": 2524369,
+    "averageVolume": 7182619
+  },
+  "dividends": [
+    {
+      "index": "2016-12-16 09:30:00-05:00",
+      "value": 1.124
+    },
+    {
+      "index": "2017-12-18 09:30:00-05:00",
+      "value": 0.669
+    },
+    {
+      "index": "2018-12-24 09:30:00-05:00",
+      "value": 0.151
+    },
+    {
+      "index": "2019-12-23 09:30:00-05:00",
+      "value": 0.232
+    },
+    {
+      "index": "2020-12-21 09:30:00-05:00",
+      "value": 0.001
+    },
+    {
+      "index": "2021-12-03 09:30:00-05:00",
+      "value": 5.39
+    },
+    {
+      "index": "2021-12-20 09:30:00-05:00",
+      "value": 1.757
+    },
+    {
+      "index": "2022-12-19 09:30:00-05:00",
+      "value": 1.928
+    },
+    {
+      "index": "2023-12-18 09:30:00-05:00",
+      "value": 0.56
+    },
+    {
+      "index": "2024-12-23 09:30:00-05:00",
+      "value": 0.575
+    },
+    {
+      "index": "2025-12-22 09:30:00-05:00",
+      "value": 0.509
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

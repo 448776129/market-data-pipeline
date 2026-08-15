@@ -1,0 +1,172 @@
+{
+  "symbol": "NYCB",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2024-10-25 07:00:00-04:00",
+      "EPS Estimate": -0.42,
+      "Reported EPS": -0.69,
+      "Surprise(%)": -64.52
+    },
+    {
+      "index": "2024-07-25 07:00:00-04:00",
+      "EPS Estimate": -0.43,
+      "Reported EPS": -1.05,
+      "Surprise(%)": -146.64
+    },
+    {
+      "index": "2024-05-01 07:00:00-04:00",
+      "EPS Estimate": -0.39,
+      "Reported EPS": -0.75,
+      "Surprise(%)": -90.38
+    },
+    {
+      "index": "2024-01-31 07:00:00-05:00",
+      "EPS Estimate": 0.87,
+      "Reported EPS": -0.81,
+      "Surprise(%)": -193.61
+    },
+    {
+      "index": "2023-10-26 07:00:00-04:00",
+      "EPS Estimate": 1.04,
+      "Reported EPS": 1.08,
+      "Surprise(%)": 3.64
+    },
+    {
+      "index": "2023-07-27 07:00:00-04:00",
+      "EPS Estimate": 0.94,
+      "Reported EPS": 1.41,
+      "Surprise(%)": 50.4
+    },
+    {
+      "index": "2023-04-28 07:00:00-04:00",
+      "EPS Estimate": 0.64,
+      "Reported EPS": 0.69,
+      "Surprise(%)": 7.76
+    },
+    {
+      "index": "2023-01-31 07:00:00-05:00",
+      "EPS Estimate": 0.78,
+      "Reported EPS": 0.75,
+      "Surprise(%)": -3.67
+    },
+    {
+      "index": "2022-10-26 07:00:00-04:00",
+      "EPS Estimate": 0.95,
+      "Reported EPS": 0.93,
+      "Surprise(%)": -2.02
+    },
+    {
+      "index": "2022-07-27 07:00:00-04:00",
+      "EPS Estimate": 0.97,
+      "Reported EPS": 1.05,
+      "Surprise(%)": 8.4
+    },
+    {
+      "index": "2022-04-27 07:00:00-04:00",
+      "EPS Estimate": 0.94,
+      "Reported EPS": 0.96,
+      "Surprise(%)": 1.85
+    },
+    {
+      "index": "2022-01-26 07:00:00-05:00",
+      "EPS Estimate": 0.93,
+      "Reported EPS": 0.93,
+      "Surprise(%)": -0.34
+    },
+    {
+      "index": "2021-10-27 07:00:00-04:00",
+      "EPS Estimate": 0.95,
+      "Reported EPS": 0.93,
+      "Surprise(%)": -2.47
+    },
+    {
+      "index": "2021-07-28 07:00:00-04:00",
+      "EPS Estimate": 0.89,
+      "Reported EPS": 0.99,
+      "Surprise(%)": 11.73
+    },
+    {
+      "index": "2021-04-26 07:00:00-04:00",
+      "EPS Estimate": 0.82,
+      "Reported EPS": 0.87,
+      "Surprise(%)": 6.43
+    },
+    {
+      "index": "2021-01-27 07:00:00-05:00",
+      "EPS Estimate": 0.77,
+      "Reported EPS": 0.81,
+      "Surprise(%)": 4.96
+    },
+    {
+      "index": "2020-10-28 07:00:00-04:00",
+      "EPS Estimate": 0.69,
+      "Reported EPS": 0.69,
+      "Surprise(%)": -0.18
+    },
+    {
+      "index": "2020-07-29 07:00:00-04:00",
+      "EPS Estimate": 0.57,
+      "Reported EPS": 0.63,
+      "Surprise(%)": 10.66
+    },
+    {
+      "index": "2020-04-29 08:00:00-04:00",
+      "EPS Estimate": 0.54,
+      "Reported EPS": 0.58,
+      "Surprise(%)": 6.08
+    },
+    {
+      "index": "2020-01-29 07:00:00-05:00",
+      "EPS Estimate": 0.58,
+      "Reported EPS": 0.6,
+      "Surprise(%)": 3.34
+    },
+    {
+      "index": "2019-10-30 07:00:00-04:00",
+      "EPS Estimate": 0.58,
+      "Reported EPS": 0.55,
+      "Surprise(%)": -4.05
+    },
+    {
+      "index": "2019-07-31 07:00:00-04:00",
+      "EPS Estimate": 0.56,
+      "Reported EPS": 0.57,
+      "Surprise(%)": 1.66
+    },
+    {
+      "index": "2019-04-30 07:00:00-04:00",
+      "EPS Estimate": 0.57,
+      "Reported EPS": 0.62,
+      "Surprise(%)": 8.84
+    },
+    {
+      "index": "2019-01-30 07:00:00-05:00",
+      "EPS Estimate": 0.57,
+      "Reported EPS": 0.57,
+      "Surprise(%)": 0.25
+    },
+    {
+      "index": "2018-10-24 07:00:00-04:00",
+      "EPS Estimate": 0.61,
+      "Reported EPS": 0.6,
+      "Surprise(%)": -1.34
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

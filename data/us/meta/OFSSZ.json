@@ -1,0 +1,40 @@
+{
+  "symbol": "OFSSZ",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NMS",
+  "isin": "-",
+  "info": {
+    "shortName": "OFS Capital Corporation - 6.50%",
+    "exchange": "NMS",
+    "currency": "USD",
+    "open": 25.17,
+    "previousClose": 25.19,
+    "dayHigh": 25.19,
+    "dayLow": 25.17,
+    "regularMarketPrice": 25.19,
+    "regularMarketPreviousClose": 25.19,
+    "fiftyTwoWeekHigh": 25.57,
+    "fiftyTwoWeekLow": 11.37,
+    "volume": 3593,
+    "averageVolume": 2303
+  },
+  "dividends": [
+    {
+      "index": "2021-01-14 09:30:00-05:00",
+      "value": 0.406
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

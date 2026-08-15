@@ -1,0 +1,587 @@
+{
+  "symbol": "OPI",
+  "region": "us",
+  "name": "Office Properties Income Trust",
+  "currency": "USD",
+  "exchange": "NCM",
+  "isin": "US67623C3079",
+  "info": {
+    "longName": "Office Properties Income Trust",
+    "shortName": "Office Properties Income Trust",
+    "sector": "Real Estate",
+    "industry": "REIT - Office",
+    "country": "United States",
+    "exchange": "NCM",
+    "currency": "USD",
+    "marketCap": 416898400,
+    "currentPrice": 18.99,
+    "open": 19.01,
+    "previousClose": 18.95,
+    "dayHigh": 19.62,
+    "dayLow": 18.6769,
+    "regularMarketPrice": 18.99,
+    "regularMarketPreviousClose": 18.95,
+    "fiftyTwoWeekHigh": 49.69,
+    "fiftyTwoWeekLow": 15.14,
+    "priceToBook": 0.81512636,
+    "volume": 41449,
+    "averageVolume": 505467,
+    "sharesOutstanding": 21953577,
+    "floatShares": 10487663,
+    "targetMeanPrice": 27.0,
+    "targetHighPrice": 27.0,
+    "targetLowPrice": 27.0,
+    "recommendationKey": "strong_buy",
+    "totalRevenue": 440142016,
+    "grossProfits": 362372000,
+    "freeCashflow": -56237500,
+    "totalDebt": 1683555968,
+    "totalCash": 50751000,
+    "profitMargins": -2.43205,
+    "returnOnEquity": -1.3572501,
+    "returnOnAssets": 0.0062,
+    "revenueGrowth": 0.02
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": [
+    {
+      "index": "Tax Effect Of Unusual Items",
+      "2026-06-30 00:00:00": -298136800.0,
+      "2025-06-30 00:00:00": -1272390.0
+    },
+    {
+      "index": "Tax Rate For Calcs",
+      "2026-06-30 00:00:00": 0.4,
+      "2025-06-30 00:00:00": 0.21
+    },
+    {
+      "index": "Normalized EBITDA",
+      "2026-06-30 00:00:00": 52925000.0,
+      "2025-06-30 00:00:00": 61440000.0
+    },
+    {
+      "index": "Total Unusual Items",
+      "2026-06-30 00:00:00": -745342000.0,
+      "2025-06-30 00:00:00": -6059000.0
+    },
+    {
+      "index": "Total Unusual Items Excluding Goodwill",
+      "2026-06-30 00:00:00": -745342000.0,
+      "2025-06-30 00:00:00": -6059000.0
+    },
+    {
+      "index": "Net Income From Continuing Operation Net Minority Interest",
+      "2026-06-30 00:00:00": -789019000.0,
+      "2025-06-30 00:00:00": -41186000.0
+    },
+    {
+      "index": "Reconciled Depreciation",
+      "2026-06-30 00:00:00": 54436000.0,
+      "2025-06-30 00:00:00": 43838000.0
+    },
+    {
+      "index": "Reconciled Cost Of Revenue",
+      "2026-06-30 00:00:00": 10736000.0,
+      "2025-06-30 00:00:00": 12111000.0
+    },
+    {
+      "index": "EBITDA",
+      "2026-06-30 00:00:00": -692417000.0,
+      "2025-06-30 00:00:00": 55381000.0
+    },
+    {
+      "index": "EBIT",
+      "2026-06-30 00:00:00": -746853000.0,
+      "2025-06-30 00:00:00": 11543000.0
+    },
+    {
+      "index": "Net Interest Income",
+      "2026-06-30 00:00:00": -41973000.0,
+      "2025-06-30 00:00:00": -51719000.0
+    },
+    {
+      "index": "Interest Expense",
+      "2026-06-30 00:00:00": 42341000.0,
+      "2025-06-30 00:00:00": 52507000.0
+    },
+    {
+      "index": "Interest Income",
+      "2026-06-30 00:00:00": 368000.0,
+      "2025-06-30 00:00:00": 788000.0
+    },
+    {
+      "index": "Normalized Income",
+      "2026-06-30 00:00:00": -341813800.0,
+      "2025-06-30 00:00:00": -36399390.0
+    },
+    {
+      "index": "Net Income From Continuing And Discontinued Operation",
+      "2026-06-30 00:00:00": -789019000.0,
+      "2025-06-30 00:00:00": -41186000.0
+    },
+    {
+      "index": "Total Expenses",
+      "2026-06-30 00:00:00": 100352000.0,
+      "2025-06-30 00:00:00": 97685000.0
+    },
+    {
+      "index": "Diluted Average Shares",
+      "2026-06-30 00:00:00": 21953577.0,
+      "2025-06-30 00:00:00": 21953577.0
+    },
+    {
+      "index": "Basic Average Shares",
+      "2026-06-30 00:00:00": 21953577.0,
+      "2025-06-30 00:00:00": 21953577.0
+    },
+    {
+      "index": "Diluted EPS",
+      "2026-06-30 00:00:00": -35.940339,
+      "2025-06-30 00:00:00": -1.87605
+    },
+    {
+      "index": "Basic EPS",
+      "2026-06-30 00:00:00": -35.940339,
+      "2025-06-30 00:00:00": -1.87605
+    },
+    {
+      "index": "Diluted NI Availto Com Stockholders",
+      "2026-06-30 00:00:00": -789019000.0,
+      "2025-06-30 00:00:00": -41186000.0
+    },
+    {
+      "index": "Net Income Common Stockholders",
+      "2026-06-30 00:00:00": -789019000.0,
+      "2025-06-30 00:00:00": -41186000.0
+    },
+    {
+      "index": "Net Income",
+      "2026-06-30 00:00:00": -789019000.0,
+      "2025-06-30 00:00:00": -41186000.0
+    },
+    {
+      "index": "Net Income Including Noncontrolling Interests",
+      "2026-06-30 00:00:00": -789019000.0,
+      "2025-06-30 00:00:00": -41186000.0
+    },
+    {
+      "index": "Net Income Continuous Operations",
+      "2026-06-30 00:00:00": -789019000.0,
+      "2025-06-30 00:00:00": -41186000.0
+    },
+    {
+      "index": "Earnings From Equity Interest Net Of Tax",
+      "2026-06-30 00:00:00": 382000.0,
+      "2025-06-30 00:00:00": -128000.0
+    },
+    {
+      "index": "Tax Provision",
+      "2026-06-30 00:00:00": 207000.0,
+      "2025-06-30 00:00:00": 94000.0
+    },
+    {
+      "index": "Pretax Income",
+      "2026-06-30 00:00:00": -789194000.0,
+      "2025-06-30 00:00:00": -40964000.0
+    },
+    {
+      "index": "Other Income Expense",
+      "2026-06-30 00:00:00": -745342000.0,
+      "2025-06-30 00:00:00": -6059000.0
+    },
+    {
+      "index": "Special Income Charges",
+      "2026-06-30 00:00:00": -745342000.0,
+      "2025-06-30 00:00:00": -6059000.0
+    },
+    {
+      "index": "Gain On Sale Of Ppe",
+      "2026-06-30 00:00:00": 0.0,
+      "2025-06-30 00:00:00": 159000.0
+    },
+    {
+      "index": "Other Special Charges",
+      "2026-06-30 00:00:00": null,
+      "2025-06-30 00:00:00": -148000.0
+    },
+    {
+      "index": "Impairment Of Capital Assets",
+      "2026-06-30 00:00:00": 0.0,
+      "2025-06-30 00:00:00": 2426000.0
+    },
+    {
+      "index": "Restructuring And Mergern Acquisition",
+      "2026-06-30 00:00:00": 745342000.0,
+      "2025-06-30 00:00:00": 3940000.0
+    },
+    {
+      "index": "Net Non Operating Interest Income Expense",
+      "2026-06-30 00:00:00": -41973000.0,
+      "2025-06-30 00:00:00": -51719000.0
+    },
+    {
+      "index": "Interest Expense Non Operating",
+      "2026-06-30 00:00:00": 42341000.0,
+      "2025-06-30 00:00:00": 52507000.0
+    },
+    {
+      "index": "Interest Income Non Operating",
+      "2026-06-30 00:00:00": 368000.0,
+      "2025-06-30 00:00:00": 788000.0
+    },
+    {
+      "index": "Operating Income",
+      "2026-06-30 00:00:00": -1879000.0,
+      "2025-06-30 00:00:00": 16814000.0
+    },
+    {
+      "index": "Operating Expense",
+      "2026-06-30 00:00:00": 89616000.0,
+      "2025-06-30 00:00:00": 85574000.0
+    },
+    {
+      "index": "Other Operating Expenses",
+      "2026-06-30 00:00:00": 30967000.0,
+      "2025-06-30 00:00:00": 36920000.0
+    },
+    {
+      "index": "Depreciation Amortization Depletion Income Statement",
+      "2026-06-30 00:00:00": 54436000.0,
+      "2025-06-30 00:00:00": 43838000.0
+    },
+    {
+      "index": "Depreciation And Amortization In Income Statement",
+      "2026-06-30 00:00:00": 54436000.0,
+      "2025-06-30 00:00:00": 43838000.0
+    },
+    {
+      "index": "Selling General And Administration",
+      "2026-06-30 00:00:00": 4213000.0,
+      "2025-06-30 00:00:00": 4816000.0
+    },
+    {
+      "index": "General And Administrative Expense",
+      "2026-06-30 00:00:00": 4213000.0,
+      "2025-06-30 00:00:00": 4816000.0
+    },
+    {
+      "index": "Other Gand A",
+      "2026-06-30 00:00:00": 4213000.0,
+      "2025-06-30 00:00:00": 4816000.0
+    },
+    {
+      "index": "Gross Profit",
+      "2026-06-30 00:00:00": 87737000.0,
+      "2025-06-30 00:00:00": 102388000.0
+    },
+    {
+      "index": "Cost Of Revenue",
+      "2026-06-30 00:00:00": 10736000.0,
+      "2025-06-30 00:00:00": 12111000.0
+    },
+    {
+      "index": "Total Revenue",
+      "2026-06-30 00:00:00": 98473000.0,
+      "2025-06-30 00:00:00": 114499000.0
+    },
+    {
+      "index": "Operating Revenue",
+      "2026-06-30 00:00:00": 98473000.0,
+      "2025-06-30 00:00:00": 114499000.0
+    }
+  ],
+  "analyst_price_targets": {
+    "current": 18.99,
+    "high": 27.0,
+    "low": 27.0,
+    "mean": 27.0,
+    "median": 27.0
+  },
+  "recommendations_summary": [
+    {
+      "index": "0",
+      "period": "0m",
+      "strongBuy": 0,
+      "buy": 1,
+      "hold": 0,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "index": "1",
+      "period": "-1m",
+      "strongBuy": 0,
+      "buy": 1,
+      "hold": 0,
+      "sell": 0,
+      "strongSell": 0
+    }
+  ],
+  "earnings_dates": [
+    {
+      "index": "2025-10-29 16:00:00-04:00",
+      "EPS Estimate": -0.63,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2024-10-30 16:00:00-04:00",
+      "EPS Estimate": -0.57,
+      "Reported EPS": -0.48,
+      "Surprise(%)": 15.88
+    },
+    {
+      "index": "2024-07-31 16:00:00-04:00",
+      "EPS Estimate": -0.42,
+      "Reported EPS": -0.37,
+      "Surprise(%)": 12.73
+    },
+    {
+      "index": "2024-05-01 16:00:00-04:00",
+      "EPS Estimate": -0.43,
+      "Reported EPS": -0.09,
+      "Surprise(%)": 78.28
+    },
+    {
+      "index": "2024-02-15 17:00:00-05:00",
+      "EPS Estimate": -0.12,
+      "Reported EPS": -0.11,
+      "Surprise(%)": 7.33
+    },
+    {
+      "index": "2023-10-30 16:00:00-04:00",
+      "EPS Estimate": -0.09,
+      "Reported EPS": -0.08,
+      "Surprise(%)": 15.0
+    },
+    {
+      "index": "2023-07-26 16:00:00-04:00",
+      "EPS Estimate": -0.04,
+      "Reported EPS": 0.02,
+      "Surprise(%)": 151.25
+    },
+    {
+      "index": "2023-04-26 16:00:00-04:00",
+      "EPS Estimate": 0.01,
+      "Reported EPS": null,
+      "Surprise(%)": -64.0
+    },
+    {
+      "index": "2023-02-15 16:00:00-05:00",
+      "EPS Estimate": -0.03,
+      "Reported EPS": 0.04,
+      "Surprise(%)": 247.33
+    },
+    {
+      "index": "2022-10-27 16:00:00-04:00",
+      "EPS Estimate": -0.08,
+      "Reported EPS": null,
+      "Surprise(%)": 101.0
+    },
+    {
+      "index": "2022-07-28 16:00:00-04:00",
+      "EPS Estimate": -0.15,
+      "Reported EPS": -0.47,
+      "Surprise(%)": -212.53
+    },
+    {
+      "index": "2022-04-28 16:00:00-04:00",
+      "EPS Estimate": -0.02,
+      "Reported EPS": 0.03,
+      "Surprise(%)": 250.0
+    },
+    {
+      "index": "2022-02-16 16:00:00-05:00",
+      "EPS Estimate": -0.19,
+      "Reported EPS": -0.01,
+      "Surprise(%)": 92.47
+    },
+    {
+      "index": "2021-10-28 16:00:00-04:00",
+      "EPS Estimate": -0.03,
+      "Reported EPS": -0.01,
+      "Surprise(%)": 66.67
+    },
+    {
+      "index": "2021-07-29 16:00:00-04:00",
+      "EPS Estimate": 0.09,
+      "Reported EPS": -0.14,
+      "Surprise(%)": -266.59
+    },
+    {
+      "index": "2021-04-29 16:00:00-04:00",
+      "EPS Estimate": -0.06,
+      "Reported EPS": -0.17,
+      "Surprise(%)": -175.57
+    },
+    {
+      "index": "2021-02-18 16:00:00-05:00",
+      "EPS Estimate": -0.06,
+      "Reported EPS": -0.03,
+      "Surprise(%)": 38.94
+    },
+    {
+      "index": "2020-10-30 07:00:00-04:00",
+      "EPS Estimate": 0.03,
+      "Reported EPS": -0.02,
+      "Surprise(%)": -173.76
+    },
+    {
+      "index": "2020-07-30 07:00:00-04:00",
+      "EPS Estimate": 0.09,
+      "Reported EPS": 0.04,
+      "Surprise(%)": -60.11
+    },
+    {
+      "index": "2020-05-01 08:00:00-04:00",
+      "EPS Estimate": -0.02,
+      "Reported EPS": 0.08,
+      "Surprise(%)": 500.0
+    },
+    {
+      "index": "2020-02-20 07:00:00-05:00",
+      "EPS Estimate": -0.21,
+      "Reported EPS": 0.03,
+      "Surprise(%)": 115.71
+    },
+    {
+      "index": "2019-11-01 07:00:00-04:00",
+      "EPS Estimate": -0.19,
+      "Reported EPS": -0.14,
+      "Surprise(%)": 26.32
+    },
+    {
+      "index": "2019-08-02 07:00:00-04:00",
+      "EPS Estimate": 0.01,
+      "Reported EPS": -1.3,
+      "Surprise(%)": -13065.0
+    },
+    {
+      "index": "2019-05-03 07:00:00-04:00",
+      "EPS Estimate": 0.66,
+      "Reported EPS": 0.71,
+      "Surprise(%)": 7.58
+    },
+    {
+      "index": "2019-02-28 07:00:00-05:00",
+      "EPS Estimate": -0.4,
+      "Reported EPS": -2.31,
+      "Surprise(%)": -477.5
+    }
+  ],
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.059860002
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.56541
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.60141
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 20.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Helix Partners Management LP                          ",
+      "pctHeld": 0.2529,
+      "Shares": 5551715,
+      "Value": 105427066,
+      "pctChange": 1.0
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Aviva Plc",
+      "pctHeld": 0.0107,
+      "Shares": 235269,
+      "Value": 4467758,
+      "pctChange": 1.0
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Nuveen, LLC",
+      "pctHeld": 0.0095999995,
+      "Shares": 210482,
+      "Value": 3997053,
+      "pctChange": 1.0
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Mackenzie Financial Corporation",
+      "pctHeld": 0.0088,
+      "Shares": 193653,
+      "Value": 3677470,
+      "pctChange": 1.0
+    },
+    {
+      "index": "4",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "AEGON USA Investment Management, LLC",
+      "pctHeld": 0.0026,
+      "Shares": 57113,
+      "Value": 1084575,
+      "pctChange": 1.0
+    },
+    {
+      "index": "5",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Marnell Management LLC",
+      "pctHeld": 0.0023,
+      "Shares": 50892,
+      "Value": 966439,
+      "pctChange": 1.0
+    },
+    {
+      "index": "6",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Infrastructure Capital Advisors, LLC",
+      "pctHeld": 0.0021,
+      "Shares": 45864,
+      "Value": 870957,
+      "pctChange": 1.0
+    },
+    {
+      "index": "7",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "LPL Financial LLC",
+      "pctHeld": 0.0008,
+      "Shares": 16884,
+      "Value": 320627,
+      "pctChange": 1.0
+    },
+    {
+      "index": "8",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Bank of Montreal /CAN/",
+      "pctHeld": 0.00059999997,
+      "Shares": 12235,
+      "Value": 232342,
+      "pctChange": 1.0
+    },
+    {
+      "index": "9",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Morgan Stanley",
+      "pctHeld": 0.0002,
+      "Shares": 3899,
+      "Value": 74042,
+      "pctChange": 1.0
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "symbol": "PCI",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "BTS",
+  "isin": "US69344A7431",
+  "info": {
+    "shortName": "PGIM Corporate Bond 5-10 Year E",
+    "exchange": "BTS",
+    "currency": "USD",
+    "open": 49.39,
+    "previousClose": 49.3748,
+    "dayHigh": 49.2423,
+    "dayLow": 49.2423,
+    "regularMarketPrice": 49.2423,
+    "regularMarketPreviousClose": 49.3748,
+    "fiftyTwoWeekHigh": 51.425,
+    "fiftyTwoWeekLow": 49.014,
+    "dividendYield": 4.94,
+    "volume": 235,
+    "averageVolume": 3945
+  },
+  "dividends": [
+    {
+      "index": "2025-09-02 09:30:00-04:00",
+      "value": 0.205
+    },
+    {
+      "index": "2025-10-01 09:30:00-04:00",
+      "value": 0.205
+    },
+    {
+      "index": "2025-11-03 09:30:00-05:00",
+      "value": 0.21
+    },
+    {
+      "index": "2025-12-01 09:30:00-05:00",
+      "value": 0.204
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.282
+    },
+    {
+      "index": "2026-02-02 09:30:00-05:00",
+      "value": 0.208
+    },
+    {
+      "index": "2026-03-02 09:30:00-05:00",
+      "value": 0.139
+    },
+    {
+      "index": "2026-03-31 09:30:00-04:00",
+      "value": 0.209
+    },
+    {
+      "index": "2026-04-30 09:30:00-04:00",
+      "value": 0.209
+    },
+    {
+      "index": "2026-05-29 09:30:00-04:00",
+      "value": 0.205
+    },
+    {
+      "index": "2026-06-30 09:30:00-04:00",
+      "value": 0.201
+    },
+    {
+      "index": "2026-07-31 09:30:00-04:00",
+      "value": 0.209
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

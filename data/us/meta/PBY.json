@@ -1,0 +1,44 @@
+{
+  "symbol": "PBY",
+  "region": "us",
+  "name": "Prospect Capital Corporation",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "Prospect Capital Corporation",
+    "shortName": "Prospect Capital Corporation 6.",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 25.0,
+    "previousClose": 25.0429,
+    "dayHigh": 25.096,
+    "dayLow": 25.0,
+    "regularMarketPrice": 25.0,
+    "regularMarketPreviousClose": 25.0429,
+    "fiftyTwoWeekHigh": 26.75,
+    "fiftyTwoWeekLow": 23.116,
+    "trailingPE": 38.05175,
+    "priceToBook": 2.7094395,
+    "volume": 10450,
+    "averageVolume": 4683,
+    "sharesOutstanding": 360076992
+  },
+  "dividends": [
+    {
+      "index": "2021-05-28 09:30:00-04:00",
+      "value": 0.391
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

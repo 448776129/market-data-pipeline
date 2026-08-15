@@ -1,0 +1,44 @@
+{
+  "symbol": "PBB",
+  "region": "us",
+  "name": "Prospect Capital Corporation NT 061524",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "Prospect Capital Corporation NT 061524",
+    "shortName": "Prospect Capital Corporation 6.",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 25.23,
+    "previousClose": 25.26,
+    "dayHigh": 25.25,
+    "dayLow": 25.23,
+    "regularMarketPrice": 25.26,
+    "regularMarketPreviousClose": 25.26,
+    "fiftyTwoWeekHigh": 25.99,
+    "fiftyTwoWeekLow": 11.303,
+    "trailingPE": 38.447487,
+    "priceToBook": 2.7376177,
+    "volume": 20130,
+    "averageVolume": 19755,
+    "sharesOutstanding": 360076992
+  },
+  "dividends": [
+    {
+      "index": "2020-11-30 09:30:00-05:00",
+      "value": 0.391
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
