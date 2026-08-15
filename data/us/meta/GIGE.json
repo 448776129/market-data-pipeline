@@ -1,0 +1,54 @@
+{
+  "symbol": "GIGE",
+  "region": "us",
+  "name": "SoFi Be Your Own Boss ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "longName": "SoFi Be Your Own Boss ETF",
+    "shortName": "SoFi Gig Economy ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 17.24,
+    "previousClose": 17.05,
+    "dayHigh": 17.65,
+    "dayLow": 17.24,
+    "regularMarketPrice": 17.39,
+    "regularMarketPreviousClose": 17.05,
+    "fiftyTwoWeekHigh": 37.98,
+    "fiftyTwoWeekLow": 13.09,
+    "dividendYield": 0.07,
+    "volume": 7154,
+    "averageVolume": 3697
+  },
+  "dividends": [
+    {
+      "index": "2020-12-28 09:30:00-05:00",
+      "value": 0.12398
+    },
+    {
+      "index": "2021-12-29 09:30:00-05:00",
+      "value": 0.8
+    },
+    {
+      "index": "2023-06-27 09:30:00-04:00",
+      "value": 0.006838
+    },
+    {
+      "index": "2023-12-22 09:30:00-05:00",
+      "value": 0.001431
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

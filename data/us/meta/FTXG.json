@@ -1,0 +1,195 @@
+{
+  "symbol": "FTXG",
+  "region": "us",
+  "name": "First Trust Nasdaq Food & Beverage ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US33738R8521",
+  "info": {
+    "longName": "First Trust Nasdaq Food & Beverage ETF",
+    "shortName": "First Trust Nasdaq Food & Bever",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 23.12,
+    "previousClose": 23.0401,
+    "dayHigh": 23.18,
+    "dayLow": 23.11,
+    "regularMarketPrice": 23.1681,
+    "regularMarketPreviousClose": 23.0401,
+    "fiftyTwoWeekHigh": 23.95,
+    "fiftyTwoWeekLow": 20.43,
+    "trailingPE": 19.112747,
+    "dividendYield": 2.52,
+    "volume": 25461,
+    "averageVolume": 13018
+  },
+  "dividends": [
+    {
+      "index": "2016-12-21 09:30:00-05:00",
+      "value": 0.06
+    },
+    {
+      "index": "2017-03-23 09:30:00-04:00",
+      "value": 0.049
+    },
+    {
+      "index": "2017-06-22 09:30:00-04:00",
+      "value": 0.09
+    },
+    {
+      "index": "2017-09-21 09:30:00-04:00",
+      "value": 0.066
+    },
+    {
+      "index": "2017-12-21 09:30:00-05:00",
+      "value": 0.119
+    },
+    {
+      "index": "2018-03-22 09:30:00-04:00",
+      "value": 0.041
+    },
+    {
+      "index": "2018-06-21 09:30:00-04:00",
+      "value": 0.046
+    },
+    {
+      "index": "2018-09-14 09:30:00-04:00",
+      "value": 0.063
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.097
+    },
+    {
+      "index": "2019-03-21 09:30:00-04:00",
+      "value": 0.047
+    },
+    {
+      "index": "2019-06-14 09:30:00-04:00",
+      "value": 0.084
+    },
+    {
+      "index": "2019-09-25 09:30:00-04:00",
+      "value": 0.055
+    },
+    {
+      "index": "2019-12-13 09:30:00-05:00",
+      "value": 0.092
+    },
+    {
+      "index": "2020-03-26 09:30:00-04:00",
+      "value": 0.046
+    },
+    {
+      "index": "2020-06-25 09:30:00-04:00",
+      "value": 0.068
+    },
+    {
+      "index": "2020-09-24 09:30:00-04:00",
+      "value": 0.093
+    },
+    {
+      "index": "2020-12-24 09:30:00-05:00",
+      "value": 0.106
+    },
+    {
+      "index": "2021-03-25 09:30:00-04:00",
+      "value": 0.05
+    },
+    {
+      "index": "2021-06-24 09:30:00-04:00",
+      "value": 0.088
+    },
+    {
+      "index": "2021-09-23 09:30:00-04:00",
+      "value": 0.104
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 0.152
+    },
+    {
+      "index": "2022-03-25 09:30:00-04:00",
+      "value": 0.087
+    },
+    {
+      "index": "2022-06-24 09:30:00-04:00",
+      "value": 0.075
+    },
+    {
+      "index": "2022-09-23 09:30:00-04:00",
+      "value": 0.1
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 0.145
+    },
+    {
+      "index": "2023-03-24 09:30:00-04:00",
+      "value": 0.063
+    },
+    {
+      "index": "2023-06-27 09:30:00-04:00",
+      "value": 0.108
+    },
+    {
+      "index": "2023-09-22 09:30:00-04:00",
+      "value": 0.668
+    },
+    {
+      "index": "2023-12-22 09:30:00-05:00",
+      "value": 0.197
+    },
+    {
+      "index": "2024-03-21 09:30:00-04:00",
+      "value": 0.091
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.183
+    },
+    {
+      "index": "2024-09-26 09:30:00-04:00",
+      "value": 0.164
+    },
+    {
+      "index": "2024-12-13 09:30:00-05:00",
+      "value": 0.197
+    },
+    {
+      "index": "2025-03-27 09:30:00-04:00",
+      "value": 0.096
+    },
+    {
+      "index": "2025-06-26 09:30:00-04:00",
+      "value": 0.161
+    },
+    {
+      "index": "2025-09-25 09:30:00-04:00",
+      "value": 0.162
+    },
+    {
+      "index": "2025-12-12 09:30:00-05:00",
+      "value": 0.195
+    },
+    {
+      "index": "2026-03-26 09:30:00-04:00",
+      "value": 0.089
+    },
+    {
+      "index": "2026-06-25 09:30:00-04:00",
+      "value": 0.129
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

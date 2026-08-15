@@ -1,0 +1,187 @@
+{
+  "symbol": "FPXI",
+  "region": "us",
+  "name": "First Trust International Equity Opportunities ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US33734X8535",
+  "info": {
+    "longName": "First Trust International Equity Opportunities ETF",
+    "shortName": "First Trust International Equit",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 74.03,
+    "previousClose": 74.33,
+    "dayHigh": 74.03,
+    "dayLow": 73.37,
+    "regularMarketPrice": 73.4363,
+    "regularMarketPreviousClose": 74.33,
+    "fiftyTwoWeekHigh": 86.63,
+    "fiftyTwoWeekLow": 55.75,
+    "trailingPE": 34.44084,
+    "dividendYield": 0.67,
+    "volume": 4116,
+    "averageVolume": 57106
+  },
+  "dividends": [
+    {
+      "index": "2014-12-23 09:30:00-05:00",
+      "value": 0.011
+    },
+    {
+      "index": "2015-03-25 09:30:00-04:00",
+      "value": 0.053
+    },
+    {
+      "index": "2015-06-24 09:30:00-04:00",
+      "value": 0.174
+    },
+    {
+      "index": "2015-09-23 09:30:00-04:00",
+      "value": 0.136
+    },
+    {
+      "index": "2016-06-22 09:30:00-04:00",
+      "value": 0.22
+    },
+    {
+      "index": "2016-09-21 09:30:00-04:00",
+      "value": 0.108
+    },
+    {
+      "index": "2016-12-21 09:30:00-05:00",
+      "value": 0.116
+    },
+    {
+      "index": "2017-06-22 09:30:00-04:00",
+      "value": 0.066
+    },
+    {
+      "index": "2017-09-21 09:30:00-04:00",
+      "value": 0.068
+    },
+    {
+      "index": "2017-12-21 09:30:00-05:00",
+      "value": 0.132
+    },
+    {
+      "index": "2018-03-22 09:30:00-04:00",
+      "value": 0.01
+    },
+    {
+      "index": "2018-06-21 09:30:00-04:00",
+      "value": 0.282
+    },
+    {
+      "index": "2018-09-14 09:30:00-04:00",
+      "value": 0.137
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.101
+    },
+    {
+      "index": "2019-06-14 09:30:00-04:00",
+      "value": 0.185
+    },
+    {
+      "index": "2019-09-25 09:30:00-04:00",
+      "value": 0.018
+    },
+    {
+      "index": "2019-12-13 09:30:00-05:00",
+      "value": 0.065
+    },
+    {
+      "index": "2020-06-25 09:30:00-04:00",
+      "value": 0.112
+    },
+    {
+      "index": "2020-12-24 09:30:00-05:00",
+      "value": 0.013
+    },
+    {
+      "index": "2021-06-24 09:30:00-04:00",
+      "value": 0.232
+    },
+    {
+      "index": "2021-09-23 09:30:00-04:00",
+      "value": 0.095
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 0.084
+    },
+    {
+      "index": "2022-03-25 09:30:00-04:00",
+      "value": 0.003
+    },
+    {
+      "index": "2022-06-24 09:30:00-04:00",
+      "value": 0.288
+    },
+    {
+      "index": "2022-09-23 09:30:00-04:00",
+      "value": 0.032
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 0.115
+    },
+    {
+      "index": "2023-03-24 09:30:00-04:00",
+      "value": 0.005
+    },
+    {
+      "index": "2023-06-27 09:30:00-04:00",
+      "value": 0.135
+    },
+    {
+      "index": "2023-09-22 09:30:00-04:00",
+      "value": 0.073
+    },
+    {
+      "index": "2023-12-22 09:30:00-05:00",
+      "value": 0.087
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.299
+    },
+    {
+      "index": "2024-09-26 09:30:00-04:00",
+      "value": 0.044
+    },
+    {
+      "index": "2024-12-13 09:30:00-05:00",
+      "value": 0.095
+    },
+    {
+      "index": "2025-06-26 09:30:00-04:00",
+      "value": 0.348
+    },
+    {
+      "index": "2025-12-12 09:30:00-05:00",
+      "value": 0.069
+    },
+    {
+      "index": "2026-03-26 09:30:00-04:00",
+      "value": 0.054
+    },
+    {
+      "index": "2026-06-25 09:30:00-04:00",
+      "value": 0.342
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

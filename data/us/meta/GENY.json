@@ -1,0 +1,155 @@
+{
+  "symbol": "GENY",
+  "region": "us",
+  "name": "Principal Millennial Global Growth ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "longName": "Principal Millennial Global Growth ETF",
+    "shortName": "Principal Millennial Global Gro",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 39.181,
+    "previousClose": 39.65,
+    "dayHigh": 39.66,
+    "dayLow": 39.181,
+    "regularMarketPrice": 39.37,
+    "regularMarketPreviousClose": 39.65,
+    "fiftyTwoWeekHigh": 47.3334,
+    "fiftyTwoWeekLow": 37.5485,
+    "trailingPE": 14.859385,
+    "dividendYield": 3.03,
+    "volume": 463,
+    "averageVolume": 15659
+  },
+  "dividends": [
+    {
+      "index": "2016-10-03 09:30:00-04:00",
+      "value": 0.023334
+    },
+    {
+      "index": "2016-12-14 09:30:00-05:00",
+      "value": 0.032324
+    },
+    {
+      "index": "2016-12-28 09:30:00-05:00",
+      "value": 0.034
+    },
+    {
+      "index": "2017-04-03 09:30:00-04:00",
+      "value": 0.0316
+    },
+    {
+      "index": "2017-07-03 09:30:00-04:00",
+      "value": 0.0836
+    },
+    {
+      "index": "2017-10-02 09:30:00-04:00",
+      "value": 0.0892
+    },
+    {
+      "index": "2017-12-27 09:30:00-05:00",
+      "value": 0.020334
+    },
+    {
+      "index": "2018-04-02 09:30:00-04:00",
+      "value": 0.035
+    },
+    {
+      "index": "2018-07-02 09:30:00-04:00",
+      "value": 0.097818
+    },
+    {
+      "index": "2018-10-01 09:30:00-04:00",
+      "value": 0.033637
+    },
+    {
+      "index": "2018-12-27 09:30:00-05:00",
+      "value": 0.077949
+    },
+    {
+      "index": "2019-04-01 09:30:00-04:00",
+      "value": 0.0198
+    },
+    {
+      "index": "2019-07-01 09:30:00-04:00",
+      "value": 0.041637
+    },
+    {
+      "index": "2019-10-01 09:30:00-04:00",
+      "value": 0.016364
+    },
+    {
+      "index": "2019-12-27 09:30:00-05:00",
+      "value": 0.234546
+    },
+    {
+      "index": "2020-04-01 09:30:00-04:00",
+      "value": 0.024
+    },
+    {
+      "index": "2020-07-01 09:30:00-04:00",
+      "value": 0.067667
+    },
+    {
+      "index": "2020-10-01 09:30:00-04:00",
+      "value": 0.133154
+    },
+    {
+      "index": "2020-12-29 09:30:00-05:00",
+      "value": 0.184584
+    },
+    {
+      "index": "2021-04-01 09:30:00-04:00",
+      "value": 0.019035
+    },
+    {
+      "index": "2021-07-01 09:30:00-04:00",
+      "value": 0.014948
+    },
+    {
+      "index": "2021-10-01 09:30:00-04:00",
+      "value": 0.088563
+    },
+    {
+      "index": "2021-12-29 09:30:00-05:00",
+      "value": 1.49586
+    },
+    {
+      "index": "2022-04-01 09:30:00-04:00",
+      "value": 0.189455
+    },
+    {
+      "index": "2022-07-01 09:30:00-04:00",
+      "value": 0.2105
+    },
+    {
+      "index": "2022-10-03 09:30:00-04:00",
+      "value": 0.5725
+    },
+    {
+      "index": "2023-04-03 09:30:00-04:00",
+      "value": 0.114286
+    },
+    {
+      "index": "2023-07-03 09:30:00-04:00",
+      "value": 0.520571
+    },
+    {
+      "index": "2023-10-02 09:30:00-04:00",
+      "value": 0.280133
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

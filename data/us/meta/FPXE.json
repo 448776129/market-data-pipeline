@@ -1,0 +1,123 @@
+{
+  "symbol": "FPXE",
+  "region": "us",
+  "name": "First Trust IPOX Europe Equity Opportunities ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US33734X7883",
+  "info": {
+    "longName": "First Trust IPOX Europe Equity Opportunities ETF",
+    "shortName": "First Trust IPOX Europe Equity ",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 34.3,
+    "previousClose": 34.45,
+    "dayHigh": 34.3236,
+    "dayLow": 34.2701,
+    "regularMarketPrice": 34.3236,
+    "regularMarketPreviousClose": 34.45,
+    "fiftyTwoWeekHigh": 36.67,
+    "fiftyTwoWeekLow": 29.26,
+    "trailingPE": 26.31991,
+    "dividendYield": 1.46,
+    "volume": 914,
+    "averageVolume": 747
+  },
+  "dividends": [
+    {
+      "index": "2019-03-21 09:30:00-04:00",
+      "value": 0.049
+    },
+    {
+      "index": "2019-06-14 09:30:00-04:00",
+      "value": 0.257
+    },
+    {
+      "index": "2019-12-13 09:30:00-05:00",
+      "value": 0.145
+    },
+    {
+      "index": "2020-03-26 09:30:00-04:00",
+      "value": 0.049
+    },
+    {
+      "index": "2020-06-25 09:30:00-04:00",
+      "value": 0.11
+    },
+    {
+      "index": "2020-12-24 09:30:00-05:00",
+      "value": 0.233
+    },
+    {
+      "index": "2021-06-24 09:30:00-04:00",
+      "value": 0.101
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 0.048
+    },
+    {
+      "index": "2022-03-25 09:30:00-04:00",
+      "value": 0.003
+    },
+    {
+      "index": "2022-06-24 09:30:00-04:00",
+      "value": 0.241
+    },
+    {
+      "index": "2022-09-23 09:30:00-04:00",
+      "value": 0.087
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 0.033
+    },
+    {
+      "index": "2023-06-27 09:30:00-04:00",
+      "value": 0.207
+    },
+    {
+      "index": "2023-09-22 09:30:00-04:00",
+      "value": 0.062
+    },
+    {
+      "index": "2023-12-22 09:30:00-05:00",
+      "value": 0.185
+    },
+    {
+      "index": "2024-03-21 09:30:00-04:00",
+      "value": 0.059
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.351
+    },
+    {
+      "index": "2024-12-13 09:30:00-05:00",
+      "value": 0.126
+    },
+    {
+      "index": "2025-06-26 09:30:00-04:00",
+      "value": 0.262
+    },
+    {
+      "index": "2025-12-12 09:30:00-05:00",
+      "value": 0.1
+    },
+    {
+      "index": "2026-06-25 09:30:00-04:00",
+      "value": 0.378
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

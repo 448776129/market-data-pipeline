@@ -1,0 +1,63 @@
+{
+  "symbol": "FLXN",
+  "region": "us",
+  "name": "Horizon Flexible Income ETF",
+  "currency": "USD",
+  "exchange": "BTS",
+  "isin": "US44053A5231",
+  "info": {
+    "longName": "Horizon Flexible Income ETF",
+    "shortName": "Horizon Flexible Income ETF",
+    "exchange": "BTS",
+    "currency": "USD",
+    "open": 25.0052,
+    "previousClose": 24.9701,
+    "dayHigh": 25.0052,
+    "dayLow": 24.92,
+    "regularMarketPrice": 24.9501,
+    "regularMarketPreviousClose": 24.9701,
+    "fiftyTwoWeekHigh": 26.09,
+    "fiftyTwoWeekLow": 24.53,
+    "trailingPE": 25.463036,
+    "dividendYield": 8.44,
+    "volume": 7971,
+    "averageVolume": 31306
+  },
+  "dividends": [
+    {
+      "index": "2025-08-22 09:30:00-04:00",
+      "value": 0.146
+    },
+    {
+      "index": "2025-12-24 09:30:00-05:00",
+      "value": 0.739
+    },
+    {
+      "index": "2026-02-27 09:30:00-05:00",
+      "value": 0.115
+    },
+    {
+      "index": "2026-04-27 09:30:00-04:00",
+      "value": 0.683
+    },
+    {
+      "index": "2026-05-28 09:30:00-04:00",
+      "value": 0.19
+    },
+    {
+      "index": "2026-06-29 09:30:00-04:00",
+      "value": 0.224
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

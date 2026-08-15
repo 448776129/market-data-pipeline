@@ -1,0 +1,187 @@
+{
+  "symbol": "FLOW",
+  "region": "us",
+  "name": "Global X U.S. Cash Flow Kings 100 ETF",
+  "currency": "USD",
+  "exchange": "PCX",
+  "isin": "US37960A5781",
+  "info": {
+    "longName": "Global X U.S. Cash Flow Kings 100 ETF",
+    "shortName": "Global X U.S. Cash Flow Kings 1",
+    "exchange": "PCX",
+    "currency": "USD",
+    "open": 43.775,
+    "previousClose": 43.9538,
+    "dayHigh": 43.7755,
+    "dayLow": 43.76,
+    "regularMarketPrice": 43.7755,
+    "regularMarketPreviousClose": 43.9538,
+    "fiftyTwoWeekHigh": 43.954,
+    "fiftyTwoWeekLow": 33.14,
+    "trailingPE": 14.746353,
+    "dividendYield": 1.91,
+    "volume": 935,
+    "averageVolume": 1851
+  },
+  "dividends": [
+    {
+      "index": "2023-08-03 09:30:00-04:00",
+      "value": 0.038
+    },
+    {
+      "index": "2023-09-06 09:30:00-04:00",
+      "value": 0.038
+    },
+    {
+      "index": "2023-10-04 09:30:00-04:00",
+      "value": 0.041
+    },
+    {
+      "index": "2023-11-03 09:30:00-04:00",
+      "value": 0.041
+    },
+    {
+      "index": "2023-12-05 09:30:00-05:00",
+      "value": 0.046
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.066
+    },
+    {
+      "index": "2024-02-05 09:30:00-05:00",
+      "value": 0.053
+    },
+    {
+      "index": "2024-03-05 09:30:00-05:00",
+      "value": 0.053
+    },
+    {
+      "index": "2024-04-03 09:30:00-04:00",
+      "value": 0.057
+    },
+    {
+      "index": "2024-05-03 09:30:00-04:00",
+      "value": 0.057
+    },
+    {
+      "index": "2024-06-05 09:30:00-04:00",
+      "value": 0.057
+    },
+    {
+      "index": "2024-07-03 09:30:00-04:00",
+      "value": 0.057
+    },
+    {
+      "index": "2024-08-05 09:30:00-04:00",
+      "value": 0.057
+    },
+    {
+      "index": "2024-09-05 09:30:00-04:00",
+      "value": 0.057
+    },
+    {
+      "index": "2024-10-03 09:30:00-04:00",
+      "value": 0.053
+    },
+    {
+      "index": "2024-11-05 09:30:00-05:00",
+      "value": 0.053
+    },
+    {
+      "index": "2024-12-04 09:30:00-05:00",
+      "value": 0.051
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.051
+    },
+    {
+      "index": "2025-02-05 09:30:00-05:00",
+      "value": 0.056
+    },
+    {
+      "index": "2025-03-05 09:30:00-05:00",
+      "value": 0.058
+    },
+    {
+      "index": "2025-04-03 09:30:00-04:00",
+      "value": 0.059
+    },
+    {
+      "index": "2025-05-05 09:30:00-04:00",
+      "value": 0.059
+    },
+    {
+      "index": "2025-06-04 09:30:00-04:00",
+      "value": 0.06
+    },
+    {
+      "index": "2025-07-03 09:30:00-04:00",
+      "value": 0.063
+    },
+    {
+      "index": "2025-08-05 09:30:00-04:00",
+      "value": 0.065
+    },
+    {
+      "index": "2025-09-04 09:30:00-04:00",
+      "value": 0.065
+    },
+    {
+      "index": "2025-10-03 09:30:00-04:00",
+      "value": 0.073
+    },
+    {
+      "index": "2025-11-05 09:30:00-05:00",
+      "value": 0.073
+    },
+    {
+      "index": "2025-12-03 09:30:00-05:00",
+      "value": 0.077
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.066
+    },
+    {
+      "index": "2026-02-04 09:30:00-05:00",
+      "value": 0.073
+    },
+    {
+      "index": "2026-03-04 09:30:00-05:00",
+      "value": 0.065
+    },
+    {
+      "index": "2026-04-06 09:30:00-04:00",
+      "value": 0.06
+    },
+    {
+      "index": "2026-05-05 09:30:00-04:00",
+      "value": 0.06
+    },
+    {
+      "index": "2026-06-03 09:30:00-04:00",
+      "value": 0.059
+    },
+    {
+      "index": "2026-07-06 09:30:00-04:00",
+      "value": 0.059
+    },
+    {
+      "index": "2026-08-05 09:30:00-04:00",
+      "value": 0.058
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

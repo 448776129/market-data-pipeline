@@ -1,0 +1,46 @@
+{
+  "symbol": "FORD",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "ARCAVA460149",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2002-07-30 16:00:00-04:00",
+      "EPS Estimate": 0.3,
+      "Reported EPS": 0.4,
+      "Surprise(%)": 33.33
+    },
+    {
+      "index": "2002-05-03 13:00:00-04:00",
+      "EPS Estimate": 0.2,
+      "Reported EPS": 0.1,
+      "Surprise(%)": -50.0
+    },
+    {
+      "index": "2002-01-25 17:00:00-05:00",
+      "EPS Estimate": -0.2,
+      "Reported EPS": 0.2,
+      "Surprise(%)": 200.0
+    },
+    {
+      "index": "2002-01-11 16:00:00-05:00",
+      "EPS Estimate": -0.5,
+      "Reported EPS": -3.6,
+      "Surprise(%)": -620.0
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

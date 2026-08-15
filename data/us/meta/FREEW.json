@@ -1,0 +1,69 @@
+{
+  "symbol": "FREEW",
+  "region": "us",
+  "name": "Whole Earth Brands, Inc.",
+  "currency": "USD",
+  "exchange": "NCM",
+  "isin": "-",
+  "info": {
+    "longName": "Whole Earth Brands, Inc.",
+    "shortName": "Whole Earth Brands, Inc.",
+    "sector": "Consumer Defensive",
+    "industry": "Packaged Foods",
+    "country": "United States",
+    "exchange": "NCM",
+    "currency": "USD",
+    "currentPrice": 0.0653,
+    "open": 0.0695,
+    "previousClose": 0.0653,
+    "dayHigh": 0.0653,
+    "dayLow": 0.0653,
+    "regularMarketPrice": 0.0653,
+    "regularMarketPreviousClose": 0.0653,
+    "fiftyTwoWeekHigh": 0.0653,
+    "fiftyTwoWeekLow": 0.0653,
+    "priceToBook": 0.012223886,
+    "beta": 0.575,
+    "volume": 17940,
+    "floatShares": 25714646,
+    "recommendationKey": "none",
+    "totalRevenue": 551020992,
+    "grossProfits": 155379008,
+    "freeCashflow": 19907876,
+    "totalDebt": 465857984,
+    "totalCash": 24788000,
+    "profitMargins": -0.04427,
+    "returnOnEquity": -0.099980004,
+    "returnOnAssets": 0.0276,
+    "revenueGrowth": 0.023
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 0.0653
+  },
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": [
+    {
+      "index": "institutionsCount",
+      "Value": 22
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2024-06-30 00:00:00",
+      "Holder": "Virtu Financial LLC",
+      "pctHeld": 0.0007,
+      "Shares": 14978,
+      "Value": 978,
+      "pctChange": -0.0542
+    }
+  ]
+}

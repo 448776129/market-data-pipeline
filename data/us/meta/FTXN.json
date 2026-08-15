@@ -1,0 +1,195 @@
+{
+  "symbol": "FTXN",
+  "region": "us",
+  "name": "First Trust Nasdaq Oil & Gas ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US33738R8455",
+  "info": {
+    "longName": "First Trust Nasdaq Oil & Gas ETF",
+    "shortName": "First Trust Nasdaq Oil & Gas ET",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 38.66,
+    "previousClose": 38.46,
+    "dayHigh": 39.2105,
+    "dayLow": 38.66,
+    "regularMarketPrice": 39.0591,
+    "regularMarketPreviousClose": 38.46,
+    "fiftyTwoWeekHigh": 40.13,
+    "fiftyTwoWeekLow": 26.46,
+    "trailingPE": 18.256992,
+    "dividendYield": 1.73,
+    "volume": 27009,
+    "averageVolume": 749981
+  },
+  "dividends": [
+    {
+      "index": "2016-12-21 09:30:00-05:00",
+      "value": 0.044
+    },
+    {
+      "index": "2017-03-23 09:30:00-04:00",
+      "value": 0.111
+    },
+    {
+      "index": "2017-06-22 09:30:00-04:00",
+      "value": 0.069
+    },
+    {
+      "index": "2017-09-21 09:30:00-04:00",
+      "value": 0.102
+    },
+    {
+      "index": "2017-12-21 09:30:00-05:00",
+      "value": 0.094
+    },
+    {
+      "index": "2018-03-22 09:30:00-04:00",
+      "value": 0.1
+    },
+    {
+      "index": "2018-06-21 09:30:00-04:00",
+      "value": 0.04
+    },
+    {
+      "index": "2018-09-14 09:30:00-04:00",
+      "value": 0.071
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.143
+    },
+    {
+      "index": "2019-03-21 09:30:00-04:00",
+      "value": 0.137
+    },
+    {
+      "index": "2019-06-14 09:30:00-04:00",
+      "value": 0.107
+    },
+    {
+      "index": "2019-09-25 09:30:00-04:00",
+      "value": 0.138
+    },
+    {
+      "index": "2019-12-13 09:30:00-05:00",
+      "value": 0.067
+    },
+    {
+      "index": "2020-03-26 09:30:00-04:00",
+      "value": 0.018
+    },
+    {
+      "index": "2020-06-25 09:30:00-04:00",
+      "value": 0.089
+    },
+    {
+      "index": "2020-09-24 09:30:00-04:00",
+      "value": 0.07
+    },
+    {
+      "index": "2020-12-24 09:30:00-05:00",
+      "value": 0.028
+    },
+    {
+      "index": "2021-03-25 09:30:00-04:00",
+      "value": 0.014
+    },
+    {
+      "index": "2021-06-24 09:30:00-04:00",
+      "value": 0.058
+    },
+    {
+      "index": "2021-09-23 09:30:00-04:00",
+      "value": 0.12
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 0.01
+    },
+    {
+      "index": "2022-03-25 09:30:00-04:00",
+      "value": 0.124
+    },
+    {
+      "index": "2022-06-24 09:30:00-04:00",
+      "value": 0.179
+    },
+    {
+      "index": "2022-09-23 09:30:00-04:00",
+      "value": 0.14
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 0.19
+    },
+    {
+      "index": "2023-03-24 09:30:00-04:00",
+      "value": 0.153
+    },
+    {
+      "index": "2023-06-27 09:30:00-04:00",
+      "value": 0.416
+    },
+    {
+      "index": "2023-09-22 09:30:00-04:00",
+      "value": 0.18
+    },
+    {
+      "index": "2023-12-22 09:30:00-05:00",
+      "value": 0.217
+    },
+    {
+      "index": "2024-03-21 09:30:00-04:00",
+      "value": 0.14
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.202
+    },
+    {
+      "index": "2024-09-26 09:30:00-04:00",
+      "value": 0.203
+    },
+    {
+      "index": "2024-12-13 09:30:00-05:00",
+      "value": 0.177
+    },
+    {
+      "index": "2025-03-27 09:30:00-04:00",
+      "value": 0.175
+    },
+    {
+      "index": "2025-06-26 09:30:00-04:00",
+      "value": 0.221
+    },
+    {
+      "index": "2025-09-25 09:30:00-04:00",
+      "value": 0.178
+    },
+    {
+      "index": "2025-12-12 09:30:00-05:00",
+      "value": 0.218
+    },
+    {
+      "index": "2026-03-26 09:30:00-04:00",
+      "value": 0.137
+    },
+    {
+      "index": "2026-06-25 09:30:00-04:00",
+      "value": 0.117
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

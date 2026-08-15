@@ -1,0 +1,191 @@
+{
+  "symbol": "FTXH",
+  "region": "us",
+  "name": "First Trust Nasdaq Pharmaceuticals ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US33738R8372",
+  "info": {
+    "longName": "First Trust Nasdaq Pharmaceuticals ETF",
+    "shortName": "First Trust Nasdaq Pharmaceutic",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 39.92,
+    "previousClose": 39.95,
+    "dayHigh": 39.92,
+    "dayLow": 39.52,
+    "regularMarketPrice": 39.7951,
+    "regularMarketPreviousClose": 39.95,
+    "fiftyTwoWeekHigh": 42.87,
+    "fiftyTwoWeekLow": 27.3,
+    "trailingPE": 26.137774,
+    "dividendYield": 1.09,
+    "volume": 102722,
+    "averageVolume": 596077
+  },
+  "dividends": [
+    {
+      "index": "2016-12-21 09:30:00-05:00",
+      "value": 0.034
+    },
+    {
+      "index": "2017-03-23 09:30:00-04:00",
+      "value": 0.031
+    },
+    {
+      "index": "2017-06-22 09:30:00-04:00",
+      "value": 0.055
+    },
+    {
+      "index": "2017-09-21 09:30:00-04:00",
+      "value": 0.38
+    },
+    {
+      "index": "2018-03-22 09:30:00-04:00",
+      "value": 0.078
+    },
+    {
+      "index": "2018-06-21 09:30:00-04:00",
+      "value": 0.035
+    },
+    {
+      "index": "2018-09-14 09:30:00-04:00",
+      "value": 0.026
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.037
+    },
+    {
+      "index": "2019-03-21 09:30:00-04:00",
+      "value": 0.026
+    },
+    {
+      "index": "2019-06-14 09:30:00-04:00",
+      "value": 0.04
+    },
+    {
+      "index": "2019-09-25 09:30:00-04:00",
+      "value": 0.05
+    },
+    {
+      "index": "2019-12-13 09:30:00-05:00",
+      "value": 0.041
+    },
+    {
+      "index": "2020-03-26 09:30:00-04:00",
+      "value": 0.059
+    },
+    {
+      "index": "2020-06-25 09:30:00-04:00",
+      "value": 0.046
+    },
+    {
+      "index": "2020-09-24 09:30:00-04:00",
+      "value": 0.043
+    },
+    {
+      "index": "2020-12-24 09:30:00-05:00",
+      "value": 0.064
+    },
+    {
+      "index": "2021-03-25 09:30:00-04:00",
+      "value": 0.077
+    },
+    {
+      "index": "2021-06-24 09:30:00-04:00",
+      "value": 0.053
+    },
+    {
+      "index": "2021-09-23 09:30:00-04:00",
+      "value": 0.039
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 0.11
+    },
+    {
+      "index": "2022-03-25 09:30:00-04:00",
+      "value": 0.049
+    },
+    {
+      "index": "2022-06-24 09:30:00-04:00",
+      "value": 0.038
+    },
+    {
+      "index": "2022-09-23 09:30:00-04:00",
+      "value": 0.091
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 0.125
+    },
+    {
+      "index": "2023-03-24 09:30:00-04:00",
+      "value": 0.1
+    },
+    {
+      "index": "2023-06-27 09:30:00-04:00",
+      "value": 0.118
+    },
+    {
+      "index": "2023-09-22 09:30:00-04:00",
+      "value": 0.073
+    },
+    {
+      "index": "2023-12-22 09:30:00-05:00",
+      "value": 0.123
+    },
+    {
+      "index": "2024-03-21 09:30:00-04:00",
+      "value": 0.068
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.128
+    },
+    {
+      "index": "2024-09-26 09:30:00-04:00",
+      "value": 0.122
+    },
+    {
+      "index": "2024-12-13 09:30:00-05:00",
+      "value": 0.13
+    },
+    {
+      "index": "2025-03-27 09:30:00-04:00",
+      "value": 0.099
+    },
+    {
+      "index": "2025-06-26 09:30:00-04:00",
+      "value": 0.089
+    },
+    {
+      "index": "2025-09-25 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2025-12-12 09:30:00-05:00",
+      "value": 0.129
+    },
+    {
+      "index": "2026-03-26 09:30:00-04:00",
+      "value": 0.057
+    },
+    {
+      "index": "2026-06-25 09:30:00-04:00",
+      "value": 0.092
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

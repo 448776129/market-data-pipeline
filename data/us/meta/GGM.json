@@ -1,0 +1,51 @@
+{
+  "symbol": "GGM",
+  "region": "us",
+  "name": "GGM Macro Alignment ETF",
+  "currency": "USD",
+  "exchange": "PCX",
+  "isin": "US66538F1571",
+  "info": {
+    "longName": "GGM Macro Alignment ETF",
+    "shortName": "GGM Macro Alignment ETF",
+    "exchange": "PCX",
+    "currency": "USD",
+    "open": 31.9,
+    "previousClose": 31.7555,
+    "dayHigh": 31.8881,
+    "dayLow": 31.8881,
+    "regularMarketPrice": 31.8881,
+    "regularMarketPreviousClose": 31.7555,
+    "fiftyTwoWeekHigh": 31.8881,
+    "fiftyTwoWeekLow": 26.133,
+    "trailingPE": 25.464518,
+    "dividendYield": 1.4,
+    "volume": 194,
+    "averageVolume": 644
+  },
+  "dividends": [
+    {
+      "index": "2023-12-26 09:30:00-05:00",
+      "value": 0.131
+    },
+    {
+      "index": "2024-12-26 09:30:00-05:00",
+      "value": 0.379
+    },
+    {
+      "index": "2025-12-26 09:30:00-05:00",
+      "value": 0.428
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
