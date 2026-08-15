@@ -1,0 +1,33 @@
+{
+  "symbol": "ATEST",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "ASE",
+  "isin": "JP3121300002",
+  "info": {
+    "exchange": "ASE",
+    "currency": "USD",
+    "open": 24.982,
+    "previousClose": 24.982,
+    "dayHigh": 25.11,
+    "dayLow": 25.11,
+    "regularMarketPrice": 24.982,
+    "regularMarketPreviousClose": 24.982,
+    "fiftyTwoWeekHigh": 25.11,
+    "fiftyTwoWeekLow": 25.11,
+    "volume": 10500
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

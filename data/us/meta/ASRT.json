@@ -1,0 +1,218 @@
+{
+  "symbol": "ASRT",
+  "region": "us",
+  "name": "Assertio Holdings Inc",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US04546C2052",
+  "info": {
+    "longName": "Assertio Holdings Inc",
+    "shortName": "Assertio Holdings, Inc.",
+    "sector": "Healthcare",
+    "industry": "Drug Manufacturers - Specialty & Generic",
+    "country": "United States",
+    "exchange": "NGM",
+    "currency": "USD",
+    "marketCap": 151861232,
+    "currentPrice": 23.5,
+    "open": 23.48,
+    "previousClose": 0.0,
+    "dayHigh": 23.5,
+    "dayLow": 23.48,
+    "regularMarketPreviousClose": 0.0,
+    "fiftyTwoWeekHigh": 23.5,
+    "fiftyTwoWeekLow": 8.61,
+    "forwardPE": 9.108527,
+    "priceToBook": 2.0025566,
+    "trailingEps": -5.55,
+    "forwardEps": 2.58,
+    "beta": 0.531,
+    "volume": 269201,
+    "averageVolume": 322528,
+    "sharesOutstanding": 6462180,
+    "floatShares": 6264825,
+    "targetMeanPrice": 24.43333,
+    "targetHighPrice": 28.0,
+    "targetLowPrice": 21.8,
+    "recommendationKey": "buy",
+    "totalRevenue": 102158000,
+    "grossProfits": 71850000,
+    "freeCashflow": 7750750,
+    "totalDebt": 40313000,
+    "totalCash": 71569000,
+    "profitMargins": -0.34936002,
+    "returnOnEquity": -0.38759,
+    "returnOnAssets": -0.057129998,
+    "revenueGrowth": -0.625
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 23.5,
+    "high": 28.0,
+    "low": 21.8,
+    "mean": 24.43333,
+    "median": 23.5
+  },
+  "recommendations_summary": [
+    {
+      "index": "0",
+      "period": "0m",
+      "strongBuy": 0,
+      "buy": 1,
+      "hold": 2,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "index": "1",
+      "period": "-1m",
+      "strongBuy": 0,
+      "buy": 1,
+      "hold": 3,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "index": "2",
+      "period": "-2m",
+      "strongBuy": 0,
+      "buy": 1,
+      "hold": 3,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "index": "3",
+      "period": "-3m",
+      "strongBuy": 1,
+      "buy": 3,
+      "hold": 0,
+      "sell": 0,
+      "strongSell": 0
+    }
+  ],
+  "earnings_dates": [
+    {
+      "index": "2026-08-10 16:00:00-04:00",
+      "EPS Estimate": 0.06,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    }
+  ],
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.01968
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.29285
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.29873
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 79.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Nantahala Capital Management, LLC",
+      "pctHeld": 0.1071,
+      "Shares": 692335,
+      "Value": 16269872,
+      "pctChange": 0.17879999
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Vanguard Capital Management LLC",
+      "pctHeld": 0.0416,
+      "Shares": 268952,
+      "Value": 6320372,
+      "pctChange": 1.0
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Opaleye Management Inc.",
+      "pctHeld": 0.041100003,
+      "Shares": 265707,
+      "Value": 6244114,
+      "pctChange": -0.0677
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Renaissance Technologies, LLC",
+      "pctHeld": 0.0354,
+      "Shares": 228599,
+      "Value": 5372076,
+      "pctChange": 0.1988
+    },
+    {
+      "index": "4",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Edgewood Management Llc",
+      "pctHeld": 0.0166,
+      "Shares": 107517,
+      "Value": 2526649,
+      "pctChange": 0.0
+    },
+    {
+      "index": "5",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Blackrock Inc.",
+      "pctHeld": 0.0139,
+      "Shares": 90035,
+      "Value": 2115822,
+      "pctChange": 0.0
+    },
+    {
+      "index": "6",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Jane Street Group, LLC",
+      "pctHeld": 0.0123000005,
+      "Shares": 79436,
+      "Value": 1866746,
+      "pctChange": 5.7086
+    },
+    {
+      "index": "7",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Geode Capital Management, LLC",
+      "pctHeld": 0.0117999995,
+      "Shares": 76314,
+      "Value": 1793379,
+      "pctChange": 0.105
+    },
+    {
+      "index": "8",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Walleye Capital LLC",
+      "pctHeld": 0.010199999,
+      "Shares": 65926,
+      "Value": 1549261,
+      "pctChange": 1.0
+    },
+    {
+      "index": "9",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "SEI Investments Co",
+      "pctHeld": 0.0085,
+      "Shares": 54940,
+      "Value": 1291090,
+      "pctChange": 1.0
+    }
+  ]
+}

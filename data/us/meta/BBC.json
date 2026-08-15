@@ -1,0 +1,58 @@
+{
+  "symbol": "BBC",
+  "region": "us",
+  "name": "Virtus LifeSci Biotech Clinical Trials ETF",
+  "currency": "USD",
+  "exchange": "PCX",
+  "isin": "US26923G3011",
+  "info": {
+    "longName": "Virtus LifeSci Biotech Clinical Trials ETF",
+    "shortName": "Virtus Biotech Clinical Trials ",
+    "exchange": "PCX",
+    "currency": "USD",
+    "open": 52.4,
+    "previousClose": 52.3537,
+    "dayHigh": 52.98,
+    "dayLow": 51.66,
+    "regularMarketPrice": 52.8675,
+    "regularMarketPreviousClose": 52.3537,
+    "fiftyTwoWeekHigh": 54.95,
+    "fiftyTwoWeekLow": 21.83,
+    "dividendYield": 1.34,
+    "volume": 9695,
+    "averageVolume": 25127
+  },
+  "dividends": [
+    {
+      "index": "2015-12-21 09:30:00-05:00",
+      "value": 0.147
+    },
+    {
+      "index": "2017-12-20 09:30:00-05:00",
+      "value": 0.297
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.082
+    },
+    {
+      "index": "2024-12-20 09:30:00-05:00",
+      "value": 0.24
+    },
+    {
+      "index": "2025-12-22 09:30:00-05:00",
+      "value": 0.655
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,39 @@
+{
+  "symbol": "ASPL",
+  "region": "us",
+  "name": "Aseana Properties Ord",
+  "currency": "USD",
+  "exchange": "PNK",
+  "isin": "-",
+  "info": {
+    "longName": "Aseana Properties Ord",
+    "shortName": "Aseana Properties Limited",
+    "exchange": "PNK",
+    "currency": "USD",
+    "previousClose": 0.08,
+    "regularMarketPrice": 0.08,
+    "regularMarketPreviousClose": 0.08,
+    "fiftyTwoWeekHigh": 0.11,
+    "fiftyTwoWeekLow": 0.06,
+    "dividendYield": 0.0,
+    "dividendRate": 0.01,
+    "averageVolume": 1428
+  },
+  "dividends": [
+    {
+      "index": "2011-11-23 09:30:00-05:00",
+      "value": 0.01
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

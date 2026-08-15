@@ -1,0 +1,172 @@
+{
+  "symbol": "APLT",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2025-11-13 07:00:00-05:00",
+      "EPS Estimate": -0.14,
+      "Reported EPS": -0.13,
+      "Surprise(%)": 7.14
+    },
+    {
+      "index": "2025-08-13 17:00:00-04:00",
+      "EPS Estimate": -0.16,
+      "Reported EPS": -0.15,
+      "Surprise(%)": 6.25
+    },
+    {
+      "index": "2025-05-13 17:00:00-04:00",
+      "EPS Estimate": -0.19,
+      "Reported EPS": -0.15,
+      "Surprise(%)": 22.41
+    },
+    {
+      "index": "2025-04-15 06:00:00-04:00",
+      "EPS Estimate": -0.17,
+      "Reported EPS": 0.33,
+      "Surprise(%)": 298.0
+    },
+    {
+      "index": "2024-11-07 07:00:00-05:00",
+      "EPS Estimate": -0.16,
+      "Reported EPS": -0.48,
+      "Surprise(%)": -195.49
+    },
+    {
+      "index": "2024-08-07 07:00:00-04:00",
+      "EPS Estimate": -0.18,
+      "Reported EPS": 0.02,
+      "Surprise(%)": 110.97
+    },
+    {
+      "index": "2024-05-09 07:00:00-04:00",
+      "EPS Estimate": -0.19,
+      "Reported EPS": -0.67,
+      "Surprise(%)": -254.14
+    },
+    {
+      "index": "2024-03-06 07:00:00-05:00",
+      "EPS Estimate": -0.2,
+      "Reported EPS": -0.33,
+      "Surprise(%)": -65.84
+    },
+    {
+      "index": "2023-11-09 07:00:00-05:00",
+      "EPS Estimate": -0.24,
+      "Reported EPS": -0.47,
+      "Surprise(%)": -92.39
+    },
+    {
+      "index": "2023-08-10 07:00:00-04:00",
+      "EPS Estimate": -0.27,
+      "Reported EPS": -0.37,
+      "Surprise(%)": -39.39
+    },
+    {
+      "index": "2023-05-11 07:00:00-04:00",
+      "EPS Estimate": -0.31,
+      "Reported EPS": -0.18,
+      "Surprise(%)": 41.29
+    },
+    {
+      "index": "2023-03-23 07:00:00-04:00",
+      "EPS Estimate": -0.46,
+      "Reported EPS": -0.16,
+      "Surprise(%)": 65.28
+    },
+    {
+      "index": "2022-11-09 07:00:00-05:00",
+      "EPS Estimate": -0.48,
+      "Reported EPS": -0.4,
+      "Surprise(%)": 17.27
+    },
+    {
+      "index": "2022-08-12 07:00:00-04:00",
+      "EPS Estimate": -0.75,
+      "Reported EPS": -0.96,
+      "Surprise(%)": -27.49
+    },
+    {
+      "index": "2022-05-12 07:00:00-04:00",
+      "EPS Estimate": -0.88,
+      "Reported EPS": -0.88,
+      "Surprise(%)": -0.45
+    },
+    {
+      "index": "2022-03-10 06:00:00-05:00",
+      "EPS Estimate": -1.23,
+      "Reported EPS": -1.04,
+      "Surprise(%)": 15.19
+    },
+    {
+      "index": "2021-11-12 07:00:00-05:00",
+      "EPS Estimate": -1.18,
+      "Reported EPS": -1.09,
+      "Surprise(%)": 7.37
+    },
+    {
+      "index": "2021-08-12 07:00:00-04:00",
+      "EPS Estimate": -1.17,
+      "Reported EPS": -0.99,
+      "Surprise(%)": 15.38
+    },
+    {
+      "index": "2021-05-11 07:00:00-04:00",
+      "EPS Estimate": -1.0,
+      "Reported EPS": -1.0,
+      "Surprise(%)": 0.02
+    },
+    {
+      "index": "2021-03-18 07:00:00-04:00",
+      "EPS Estimate": -1.16,
+      "Reported EPS": -1.06,
+      "Surprise(%)": 8.66
+    },
+    {
+      "index": "2020-11-12 08:00:00-05:00",
+      "EPS Estimate": -0.89,
+      "Reported EPS": -1.33,
+      "Surprise(%)": -48.99
+    },
+    {
+      "index": "2020-08-11 07:00:00-04:00",
+      "EPS Estimate": -0.68,
+      "Reported EPS": -1.27,
+      "Surprise(%)": -85.75
+    },
+    {
+      "index": "2020-05-11 07:00:00-04:00",
+      "EPS Estimate": -0.84,
+      "Reported EPS": -0.59,
+      "Surprise(%)": 29.49
+    },
+    {
+      "index": "2020-03-13 07:00:00-04:00",
+      "EPS Estimate": -0.64,
+      "Reported EPS": -1.57,
+      "Surprise(%)": -145.74
+    },
+    {
+      "index": "2019-11-13 07:00:00-05:00",
+      "EPS Estimate": -0.44,
+      "Reported EPS": -0.63,
+      "Surprise(%)": -42.62
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

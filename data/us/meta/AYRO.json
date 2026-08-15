@@ -1,0 +1,100 @@
+{
+  "symbol": "AYRO",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "US0547482077",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2024-05-15 17:00:00-04:00",
+      "EPS Estimate": -20.96,
+      "Reported EPS": -23.36,
+      "Surprise(%)": -11.45
+    },
+    {
+      "index": "2024-04-01 16:00:00-04:00",
+      "EPS Estimate": -20.48,
+      "Reported EPS": -41.55,
+      "Surprise(%)": -102.86
+    },
+    {
+      "index": "2023-11-20 17:00:00-05:00",
+      "EPS Estimate": -13.44,
+      "Reported EPS": -71.09,
+      "Surprise(%)": -428.92
+    },
+    {
+      "index": "2023-08-14 17:00:00-04:00",
+      "EPS Estimate": -19.2,
+      "Reported EPS": -20.48,
+      "Surprise(%)": -6.67
+    },
+    {
+      "index": "2023-05-09 07:00:00-04:00",
+      "EPS Estimate": -21.76,
+      "Reported EPS": -19.2,
+      "Surprise(%)": 11.76
+    },
+    {
+      "index": "2022-11-03 08:00:00-04:00",
+      "EPS Estimate": -14.08,
+      "Reported EPS": -19.2,
+      "Surprise(%)": -36.36
+    },
+    {
+      "index": "2022-08-11 08:00:00-04:00",
+      "EPS Estimate": -14.08,
+      "Reported EPS": -20.48,
+      "Surprise(%)": -45.45
+    },
+    {
+      "index": "2022-05-02 08:00:00-04:00",
+      "EPS Estimate": -19.2,
+      "Reported EPS": -15.36,
+      "Surprise(%)": 20.0
+    },
+    {
+      "index": "2022-03-23 08:00:00-04:00",
+      "EPS Estimate": -24.32,
+      "Reported EPS": -26.88,
+      "Surprise(%)": -10.53
+    },
+    {
+      "index": "2021-11-15 07:00:00-05:00",
+      "EPS Estimate": -26.88,
+      "Reported EPS": -42.24,
+      "Surprise(%)": -57.14
+    },
+    {
+      "index": "2021-08-11 07:00:00-04:00",
+      "EPS Estimate": -30.72,
+      "Reported EPS": -28.16,
+      "Surprise(%)": 8.33
+    },
+    {
+      "index": "2021-05-13 07:00:00-04:00",
+      "EPS Estimate": -43.52,
+      "Reported EPS": -23.04,
+      "Surprise(%)": 47.06
+    },
+    {
+      "index": "2021-03-31 07:00:00-04:00",
+      "EPS Estimate": -12.8,
+      "Reported EPS": -24.32,
+      "Surprise(%)": -90.0
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,148 @@
+{
+  "symbol": "AQNB",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "CA0158573034",
+  "info": {
+    "shortName": "Algonquin Power & Utilities Cor",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 25.58,
+    "previousClose": 25.64,
+    "dayHigh": 25.68,
+    "dayLow": 25.5741,
+    "regularMarketPrice": 25.65,
+    "regularMarketPreviousClose": 25.64,
+    "fiftyTwoWeekHigh": 26.46,
+    "fiftyTwoWeekLow": 25.3,
+    "volume": 6037,
+    "averageVolume": 22336
+  },
+  "dividends": [
+    {
+      "index": "2019-06-13 09:30:00-04:00",
+      "value": 0.164
+    },
+    {
+      "index": "2019-09-12 09:30:00-04:00",
+      "value": 0.388
+    },
+    {
+      "index": "2019-12-12 09:30:00-05:00",
+      "value": 0.388
+    },
+    {
+      "index": "2020-03-12 09:30:00-04:00",
+      "value": 0.388
+    },
+    {
+      "index": "2020-06-12 09:30:00-04:00",
+      "value": 0.388
+    },
+    {
+      "index": "2020-09-14 09:30:00-04:00",
+      "value": 0.388
+    },
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.388
+    },
+    {
+      "index": "2021-03-12 09:30:00-05:00",
+      "value": 0.388
+    },
+    {
+      "index": "2021-06-14 09:30:00-04:00",
+      "value": 0.388
+    },
+    {
+      "index": "2021-09-14 09:30:00-04:00",
+      "value": 0.388
+    },
+    {
+      "index": "2021-12-14 09:30:00-05:00",
+      "value": 0.388
+    },
+    {
+      "index": "2022-03-14 09:30:00-04:00",
+      "value": 0.388
+    },
+    {
+      "index": "2022-06-14 09:30:00-04:00",
+      "value": 0.388
+    },
+    {
+      "index": "2022-09-14 09:30:00-04:00",
+      "value": 0.388
+    },
+    {
+      "index": "2022-12-14 09:30:00-05:00",
+      "value": 0.388
+    },
+    {
+      "index": "2023-03-14 09:30:00-04:00",
+      "value": 0.388
+    },
+    {
+      "index": "2023-06-14 09:30:00-04:00",
+      "value": 0.388
+    },
+    {
+      "index": "2023-09-14 09:30:00-04:00",
+      "value": 0.388
+    },
+    {
+      "index": "2023-12-14 09:30:00-05:00",
+      "value": 0.388
+    },
+    {
+      "index": "2024-03-14 09:30:00-04:00",
+      "value": 0.388
+    },
+    {
+      "index": "2024-06-14 09:30:00-04:00",
+      "value": 0.388
+    },
+    {
+      "index": "2024-09-13 09:30:00-04:00",
+      "value": 0.614
+    },
+    {
+      "index": "2024-12-13 09:30:00-05:00",
+      "value": 0.566
+    },
+    {
+      "index": "2025-03-14 09:30:00-04:00",
+      "value": 0.53
+    },
+    {
+      "index": "2025-06-13 09:30:00-04:00",
+      "value": 0.548
+    },
+    {
+      "index": "2025-09-15 09:30:00-04:00",
+      "value": 0.541
+    },
+    {
+      "index": "2026-03-13 09:30:00-04:00",
+      "value": 0.49
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 0.509
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

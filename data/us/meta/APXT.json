@@ -1,0 +1,480 @@
+{
+  "symbol": "APXT",
+  "region": "us",
+  "name": "Apex Treasury Corporation",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "KYG041041081",
+  "info": {
+    "longName": "Apex Treasury Corporation",
+    "shortName": "Apex Treasury Corporation",
+    "sector": "Financial Services",
+    "industry": "Shell Companies",
+    "country": "United States",
+    "exchange": "NGM",
+    "currency": "USD",
+    "marketCap": 464655584,
+    "currentPrice": 10.11,
+    "open": 10.13,
+    "previousClose": 10.11,
+    "dayHigh": 10.11,
+    "dayLow": 10.11,
+    "regularMarketPrice": 10.11,
+    "regularMarketPreviousClose": 10.11,
+    "fiftyTwoWeekHigh": 10.19,
+    "fiftyTwoWeekLow": 9.87,
+    "priceToBook": -36.49819,
+    "volume": 296,
+    "averageVolume": 235806,
+    "sharesOutstanding": 34470000,
+    "floatShares": 31780421,
+    "recommendationKey": "none",
+    "totalDebt": 0,
+    "totalCash": 762184,
+    "profitMargins": 0.0
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": [
+    {
+      "index": "Ordinary Shares Number",
+      "2025-12-31 00:00:00": 45960000.0
+    },
+    {
+      "index": "Share Issued",
+      "2025-12-31 00:00:00": 45960000.0
+    },
+    {
+      "index": "Tangible Book Value",
+      "2025-12-31 00:00:00": 334260127.0
+    },
+    {
+      "index": "Invested Capital",
+      "2025-12-31 00:00:00": 334260127.0
+    },
+    {
+      "index": "Working Capital",
+      "2025-12-31 00:00:00": 989392.0
+    },
+    {
+      "index": "Net Tangible Assets",
+      "2025-12-31 00:00:00": 334260127.0
+    },
+    {
+      "index": "Common Stock Equity",
+      "2025-12-31 00:00:00": 334260127.0
+    },
+    {
+      "index": "Total Capitalization",
+      "2025-12-31 00:00:00": 334260127.0
+    },
+    {
+      "index": "Total Equity Gross Minority Interest",
+      "2025-12-31 00:00:00": 334260127.0
+    },
+    {
+      "index": "Stockholders Equity",
+      "2025-12-31 00:00:00": 334260127.0
+    },
+    {
+      "index": "Retained Earnings",
+      "2025-12-31 00:00:00": -12731957.0
+    },
+    {
+      "index": "Additional Paid In Capital",
+      "2025-12-31 00:00:00": 0.0
+    },
+    {
+      "index": "Capital Stock",
+      "2025-12-31 00:00:00": 346992084.0
+    },
+    {
+      "index": "Common Stock",
+      "2025-12-31 00:00:00": 346992084.0
+    },
+    {
+      "index": "Preferred Stock",
+      "2025-12-31 00:00:00": 0.0
+    },
+    {
+      "index": "Total Liabilities Net Minority Interest",
+      "2025-12-31 00:00:00": 13871500.0
+    },
+    {
+      "index": "Total Non Current Liabilities Net Minority Interest",
+      "2025-12-31 00:00:00": 13788000.0
+    },
+    {
+      "index": "Tradeand Other Payables Non Current",
+      "2025-12-31 00:00:00": 13788000.0
+    },
+    {
+      "index": "Current Liabilities",
+      "2025-12-31 00:00:00": 83500.0
+    },
+    {
+      "index": "Payables And Accrued Expenses",
+      "2025-12-31 00:00:00": 83500.0
+    },
+    {
+      "index": "Current Accrued Expenses",
+      "2025-12-31 00:00:00": 75000.0
+    },
+    {
+      "index": "Payables",
+      "2025-12-31 00:00:00": 8500.0
+    },
+    {
+      "index": "Accounts Payable",
+      "2025-12-31 00:00:00": 8500.0
+    },
+    {
+      "index": "Total Assets",
+      "2025-12-31 00:00:00": 348131627.0
+    },
+    {
+      "index": "Total Non Current Assets",
+      "2025-12-31 00:00:00": 347058735.0
+    },
+    {
+      "index": "Other Non Current Assets",
+      "2025-12-31 00:00:00": 346990935.0
+    },
+    {
+      "index": "Non Current Prepaid Assets",
+      "2025-12-31 00:00:00": 67800.0
+    },
+    {
+      "index": "Current Assets",
+      "2025-12-31 00:00:00": 1072892.0
+    },
+    {
+      "index": "Prepaid Assets",
+      "2025-12-31 00:00:00": 81360.0
+    },
+    {
+      "index": "Cash Cash Equivalents And Short Term Investments",
+      "2025-12-31 00:00:00": 991532.0
+    },
+    {
+      "index": "Cash And Cash Equivalents",
+      "2025-12-31 00:00:00": 991532.0
+    },
+    {
+      "index": "Cash Financial",
+      "2025-12-31 00:00:00": 991532.0
+    }
+  ],
+  "cashflow": null,
+  "quarterly_financials": [
+    {
+      "index": "Tax Effect Of Unusual Items",
+      "2026-03-31 00:00:00": 0.0,
+      "2025-12-31 00:00:00": 0.0,
+      "2025-09-30 00:00:00": 0.0
+    },
+    {
+      "index": "Tax Rate For Calcs",
+      "2026-03-31 00:00:00": 0.4,
+      "2025-12-31 00:00:00": 0.21,
+      "2025-09-30 00:00:00": 0.0
+    },
+    {
+      "index": "Normalized EBITDA",
+      "2026-03-31 00:00:00": -491748.0,
+      "2025-12-31 00:00:00": -221923.0,
+      "2025-09-30 00:00:00": -49424.0
+    },
+    {
+      "index": "Net Income From Continuing Operation Net Minority Interest",
+      "2026-03-31 00:00:00": 2671098.0,
+      "2025-12-31 00:00:00": 2069012.0,
+      "2025-09-30 00:00:00": -49424.0
+    },
+    {
+      "index": "EBITDA",
+      "2026-03-31 00:00:00": -491748.0,
+      "2025-12-31 00:00:00": -221923.0,
+      "2025-09-30 00:00:00": -49424.0
+    },
+    {
+      "index": "EBIT",
+      "2026-03-31 00:00:00": -491748.0,
+      "2025-12-31 00:00:00": -221923.0,
+      "2025-09-30 00:00:00": -49424.0
+    },
+    {
+      "index": "Net Interest Income",
+      "2026-03-31 00:00:00": 3057776.0,
+      "2025-12-31 00:00:00": null,
+      "2025-09-30 00:00:00": null
+    },
+    {
+      "index": "Interest Income",
+      "2026-03-31 00:00:00": 3057776.0,
+      "2025-12-31 00:00:00": null,
+      "2025-09-30 00:00:00": null
+    },
+    {
+      "index": "Normalized Income",
+      "2026-03-31 00:00:00": 2671098.0,
+      "2025-12-31 00:00:00": 2069012.0,
+      "2025-09-30 00:00:00": -49424.0
+    },
+    {
+      "index": "Net Income From Continuing And Discontinued Operation",
+      "2026-03-31 00:00:00": 2671098.0,
+      "2025-12-31 00:00:00": 2069012.0,
+      "2025-09-30 00:00:00": -49424.0
+    },
+    {
+      "index": "Total Expenses",
+      "2026-03-31 00:00:00": 491748.0,
+      "2025-12-31 00:00:00": 221923.0,
+      "2025-09-30 00:00:00": 49424.0
+    },
+    {
+      "index": "Diluted Average Shares",
+      "2026-03-31 00:00:00": 45960000.0,
+      "2025-12-31 00:00:00": null,
+      "2025-09-30 00:00:00": 41500000.0
+    },
+    {
+      "index": "Basic Average Shares",
+      "2026-03-31 00:00:00": 45960000.0,
+      "2025-12-31 00:00:00": null,
+      "2025-09-30 00:00:00": 41500000.0
+    },
+    {
+      "index": "Diluted EPS",
+      "2026-03-31 00:00:00": 0.058118,
+      "2025-12-31 00:00:00": null,
+      "2025-09-30 00:00:00": -0.001236
+    },
+    {
+      "index": "Basic EPS",
+      "2026-03-31 00:00:00": 0.06,
+      "2025-12-31 00:00:00": null,
+      "2025-09-30 00:00:00": -0.001236
+    },
+    {
+      "index": "Diluted NI Availto Com Stockholders",
+      "2026-03-31 00:00:00": 2671098.0,
+      "2025-12-31 00:00:00": 2069012.0,
+      "2025-09-30 00:00:00": -49424.0
+    },
+    {
+      "index": "Net Income Common Stockholders",
+      "2026-03-31 00:00:00": 2671098.0,
+      "2025-12-31 00:00:00": 2069012.0,
+      "2025-09-30 00:00:00": -49424.0
+    },
+    {
+      "index": "Net Income",
+      "2026-03-31 00:00:00": 2671098.0,
+      "2025-12-31 00:00:00": 2069012.0,
+      "2025-09-30 00:00:00": -49424.0
+    },
+    {
+      "index": "Net Income Including Noncontrolling Interests",
+      "2026-03-31 00:00:00": 2671098.0,
+      "2025-12-31 00:00:00": 2069012.0,
+      "2025-09-30 00:00:00": -49424.0
+    },
+    {
+      "index": "Net Income Continuous Operations",
+      "2026-03-31 00:00:00": 2671098.0,
+      "2025-12-31 00:00:00": 2069012.0,
+      "2025-09-30 00:00:00": -49424.0
+    },
+    {
+      "index": "Pretax Income",
+      "2026-03-31 00:00:00": 2671098.0,
+      "2025-12-31 00:00:00": 2069012.0,
+      "2025-09-30 00:00:00": -49424.0
+    },
+    {
+      "index": "Other Income Expense",
+      "2026-03-31 00:00:00": 105070.0,
+      "2025-12-31 00:00:00": null,
+      "2025-09-30 00:00:00": null
+    },
+    {
+      "index": "Other Non Operating Income Expenses",
+      "2026-03-31 00:00:00": 105070.0,
+      "2025-12-31 00:00:00": null,
+      "2025-09-30 00:00:00": null
+    },
+    {
+      "index": "Net Non Operating Interest Income Expense",
+      "2026-03-31 00:00:00": 3057776.0,
+      "2025-12-31 00:00:00": null,
+      "2025-09-30 00:00:00": null
+    },
+    {
+      "index": "Interest Income Non Operating",
+      "2026-03-31 00:00:00": 3057776.0,
+      "2025-12-31 00:00:00": null,
+      "2025-09-30 00:00:00": null
+    },
+    {
+      "index": "Operating Income",
+      "2026-03-31 00:00:00": -491748.0,
+      "2025-12-31 00:00:00": -221923.0,
+      "2025-09-30 00:00:00": -49424.0
+    },
+    {
+      "index": "Operating Expense",
+      "2026-03-31 00:00:00": 491748.0,
+      "2025-12-31 00:00:00": 221923.0,
+      "2025-09-30 00:00:00": 49424.0
+    },
+    {
+      "index": "Selling General And Administration",
+      "2026-03-31 00:00:00": 491748.0,
+      "2025-12-31 00:00:00": 221923.0,
+      "2025-09-30 00:00:00": 49424.0
+    },
+    {
+      "index": "General And Administrative Expense",
+      "2026-03-31 00:00:00": 491748.0,
+      "2025-12-31 00:00:00": 221923.0,
+      "2025-09-30 00:00:00": 49424.0
+    },
+    {
+      "index": "Other Gand A",
+      "2026-03-31 00:00:00": 491748.0,
+      "2025-12-31 00:00:00": 221923.0,
+      "2025-09-30 00:00:00": 49424.0
+    },
+    {
+      "index": "Total Revenue",
+      "2026-03-31 00:00:00": 0.0,
+      "2025-12-31 00:00:00": 0.0,
+      "2025-09-30 00:00:00": 0.0
+    },
+    {
+      "index": "Operating Revenue",
+      "2026-03-31 00:00:00": 0.0,
+      "2025-12-31 00:00:00": 0.0,
+      "2025-09-30 00:00:00": 0.0
+    }
+  ],
+  "analyst_price_targets": {
+    "current": 10.11
+  },
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.0
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.91352
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.91352
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 62.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Meteora Capital, LLC",
+      "pctHeld": 0.2341,
+      "Shares": 2689443,
+      "Value": 27190267,
+      "pctChange": -0.0183
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Adage Capital Partners GP L.L.C.",
+      "pctHeld": 0.1958,
+      "Shares": 2250000,
+      "Value": 22747499,
+      "pctChange": 0.0
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Hudson Bay Capital Management Lp",
+      "pctHeld": 0.1306,
+      "Shares": 1501160,
+      "Value": 15176727,
+      "pctChange": 0.2901
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Wolverine Asset Management, LLC",
+      "pctHeld": 0.1241,
+      "Shares": 1425998,
+      "Value": 14416839,
+      "pctChange": 0.4456
+    },
+    {
+      "index": "4",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Glazer Capital LLC",
+      "pctHeld": 0.10479999,
+      "Shares": 1204002,
+      "Value": 12172459,
+      "pctChange": 0.086899996
+    },
+    {
+      "index": "5",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Karpus Management, Inc.",
+      "pctHeld": 0.1013,
+      "Shares": 1163557,
+      "Value": 11763560,
+      "pctChange": 1.0
+    },
+    {
+      "index": "6",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Alberta Investment Management Corp",
+      "pctHeld": 0.095699996,
+      "Shares": 1100000,
+      "Value": 11120999,
+      "pctChange": 1.0
+    },
+    {
+      "index": "7",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Shaw D.E. & Co., Inc.",
+      "pctHeld": 0.089899994,
+      "Shares": 1033422,
+      "Value": 10447896,
+      "pctChange": 0.0
+    },
+    {
+      "index": "8",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Westchester Capital Management, LLC",
+      "pctHeld": 0.087,
+      "Shares": 1000000,
+      "Value": 10109999,
+      "pctChange": 1.0
+    },
+    {
+      "index": "9",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Lineage Point Capital LP",
+      "pctHeld": 0.083500005,
+      "Shares": 959000,
+      "Value": 9695489,
+      "pctChange": -0.001
+    }
+  ]
+}

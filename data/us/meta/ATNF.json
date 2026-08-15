@@ -1,0 +1,58 @@
+{
+  "symbol": "ATNF",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2023-03-31 16:00:00-04:00",
+      "EPS Estimate": -41.8,
+      "Reported EPS": -28.13,
+      "Surprise(%)": 32.7
+    },
+    {
+      "index": "2022-11-10 16:00:00-05:00",
+      "EPS Estimate": -41.8,
+      "Reported EPS": -25.35,
+      "Surprise(%)": 39.36
+    },
+    {
+      "index": "2022-08-09 16:00:00-04:00",
+      "EPS Estimate": -49.4,
+      "Reported EPS": 34.2,
+      "Surprise(%)": 169.23
+    },
+    {
+      "index": "2022-05-16 06:00:00-04:00",
+      "EPS Estimate": -49.4,
+      "Reported EPS": 19.0,
+      "Surprise(%)": 138.46
+    },
+    {
+      "index": "2022-03-31 06:00:00-04:00",
+      "EPS Estimate": -49.4,
+      "Reported EPS": 19.0,
+      "Surprise(%)": 138.46
+    },
+    {
+      "index": "2021-11-15 06:00:00-05:00",
+      "EPS Estimate": -45.6,
+      "Reported EPS": 87.4,
+      "Surprise(%)": 291.67
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}
