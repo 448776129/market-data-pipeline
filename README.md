@@ -1,6 +1,17 @@
 # Market Data Pipeline
 
-自动化市场数据流水线：通过 **yfinance** 从 Yahoo Finance 拉取**历史**、**当日**行情数据以及**非K线数据**（快照/财务/分析师/分红拆股），每只股票一个文件，按区域分目录存放于 `data/`。GitHub Actions 按分段时间表运行——K线与非K线数据在每个市场均有独立 job，并行（异步）处理。
+通过 **GitHub Actions 自动拉取市场股票数据并保存到本地仓库**的项目。
+
+使用 **yfinance** 从 Yahoo Finance 拉取**历史K线**、**当日行情**以及**非K线数据**（快照/财务/分析师/分红拆股），每只股票一个文件，按区域分目录保存到 `data/`，并由工作流自动提交回仓库。所有数据按市场拆分为独立 job，**异步并行**拉取。
+
+## 核心特性
+
+- **全自动**：GitHub Actions 按分段时间表定时运行，无需人工干预
+- **多市场**：支持美股、港股、A股、韩股，按市场分目录
+- **两类数据**：K线（CSV）与非K线（JSON）分开存放
+- **异步并行**：每个市场独立 job，GitHub Actions 默认并行执行
+- **增量更新**：当日数据自动与历史合并去重，避免节假日/周末缺数据
+- **数据留空**：个股无数据的字段自动留空（`null`）
 
 ## 目录结构
 
@@ -58,7 +69,27 @@ INTERVAL = "1d"
 
 > 符号格式需符合 yfinance 约定：美股直接用 `AAPL`；港股加 `.HK`；A 股加 `.SS`（上交所）/ `.SZ`（深交所）；韩股加 `.KS`（如三星电子 `005930.KS`）。
 
+## GitHub Actions（自动拉取）
+
+| 任务 | 触发 | 说明 |
+| ---- | ---- | ---- |
+| 历史K线 | 每周一 01:00 UTC | 全量刷新近 5 年日线 |
+| 当日K线 | 每天 13:00 UTC | 每日收盘后增量更新 |
+| 非K线(meta) | 每天 13:00 UTC | 快照/财务/分析师/分红拆股 |
+
+每个市场（`us` / `hk` / `cn` / `kr`）都有独立的 job，GitHub Actions 的独立 job 默认**并行执行**，从而实现各市场的**异步**拉取。历史、当日、meta 任务分别有 `historical-*`、`daily-*`、`meta-*` 各四个 job。拉取到的数据由工作流自动提交回仓库，保存在 `data/` 下。
+
+### 手动触发
+
+在仓库 **Actions** 页选择 `Market Data Pipeline` → **Run workflow**，通过 `mode` 输入选择：
+
+- `historical`：运行全部历史K线拉取 job
+- `daily`：运行全部当日K线增量 job
+- `meta`：运行全部非K线数据拉取 job
+
 ## 本地运行
+
+如需在本地手动拉取（不依赖 GitHub Actions）：
 
 ```bash
 # 安装依赖
@@ -79,24 +110,6 @@ python scripts/fetch_latest.py --symbol TSLA
 python scripts/fetch_meta.py
 python scripts/fetch_meta.py --region kr
 ```
-
-## GitHub Actions
-
-| 任务 | 触发 | 说明 |
-| ---- | ---- | ---- |
-| 历史K线 | 每周一 01:00 UTC | 全量刷新近 5 年日线 |
-| 当日K线 | 每天 13:00 UTC | 每日收盘后增量更新 |
-| 非K线(meta) | 每天 13:00 UTC | 快照/财务/分析师/分红拆股 |
-
-每个市场（`us` / `hk` / `cn` / `kr`）都有独立的 job，GitHub Actions 的独立 job 默认**并行执行**，从而实现各市场的**异步**拉取。历史、当日、meta 任务分别有 `historical-*`、`daily-*`、`meta-*` 各四个 job。
-
-### 手动触发
-
-在仓库 **Actions** 页选择 `Market Data Pipeline` → **Run workflow**，通过 `mode` 输入选择：
-
-- `historical`：运行全部历史K线拉取 job
-- `daily`：运行全部当日K线增量 job
-- `meta`：运行全部非K线数据拉取 job
 
 ## 说明
 
