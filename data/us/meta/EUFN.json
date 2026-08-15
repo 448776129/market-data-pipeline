@@ -1,0 +1,171 @@
+{
+  "symbol": "EUFN",
+  "region": "us",
+  "name": "iShares MSCI Europe Financials ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US4642891802",
+  "info": {
+    "longName": "iShares MSCI Europe Financials ETF",
+    "shortName": "iShares MSCI Europe Financials ",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 42.6,
+    "previousClose": 42.39,
+    "dayHigh": 42.68,
+    "dayLow": 42.495,
+    "regularMarketPrice": 42.57,
+    "regularMarketPreviousClose": 42.39,
+    "fiftyTwoWeekHigh": 42.74,
+    "fiftyTwoWeekLow": 32.71,
+    "trailingPE": 12.359065,
+    "dividendYield": 3.97,
+    "volume": 1089162,
+    "averageVolume": 1245724
+  },
+  "dividends": [
+    {
+      "index": "2010-06-23 09:30:00-04:00",
+      "value": 0.199
+    },
+    {
+      "index": "2010-12-21 09:30:00-05:00",
+      "value": 0.183
+    },
+    {
+      "index": "2011-06-22 09:30:00-04:00",
+      "value": 0.528
+    },
+    {
+      "index": "2011-12-20 09:30:00-05:00",
+      "value": 0.059
+    },
+    {
+      "index": "2012-06-21 09:30:00-04:00",
+      "value": 0.408
+    },
+    {
+      "index": "2012-12-18 09:30:00-05:00",
+      "value": 0.168
+    },
+    {
+      "index": "2013-06-27 09:30:00-04:00",
+      "value": 0.273
+    },
+    {
+      "index": "2013-12-18 09:30:00-05:00",
+      "value": 0.127
+    },
+    {
+      "index": "2014-06-25 09:30:00-04:00",
+      "value": 0.572
+    },
+    {
+      "index": "2014-12-17 09:30:00-05:00",
+      "value": 0.166
+    },
+    {
+      "index": "2015-06-25 09:30:00-04:00",
+      "value": 0.578
+    },
+    {
+      "index": "2015-12-21 09:30:00-05:00",
+      "value": 0.163
+    },
+    {
+      "index": "2016-06-22 09:30:00-04:00",
+      "value": 0.667
+    },
+    {
+      "index": "2016-12-21 09:30:00-05:00",
+      "value": 0.098
+    },
+    {
+      "index": "2017-06-20 09:30:00-04:00",
+      "value": 0.553
+    },
+    {
+      "index": "2017-12-19 09:30:00-05:00",
+      "value": 0.156
+    },
+    {
+      "index": "2018-06-19 09:30:00-04:00",
+      "value": 0.824
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.275
+    },
+    {
+      "index": "2019-06-17 09:30:00-04:00",
+      "value": 0.705
+    },
+    {
+      "index": "2019-12-16 09:30:00-05:00",
+      "value": 0.182
+    },
+    {
+      "index": "2020-06-15 09:30:00-04:00",
+      "value": 0.171
+    },
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.071
+    },
+    {
+      "index": "2021-06-10 09:30:00-04:00",
+      "value": 0.419
+    },
+    {
+      "index": "2021-12-13 09:30:00-05:00",
+      "value": 0.414
+    },
+    {
+      "index": "2022-06-09 09:30:00-04:00",
+      "value": 0.67
+    },
+    {
+      "index": "2022-12-13 09:30:00-05:00",
+      "value": 0.072
+    },
+    {
+      "index": "2023-06-07 09:30:00-04:00",
+      "value": 0.729
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.32
+    },
+    {
+      "index": "2024-06-11 09:30:00-04:00",
+      "value": 0.773
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 0.475
+    },
+    {
+      "index": "2025-06-16 09:30:00-04:00",
+      "value": 0.809
+    },
+    {
+      "index": "2025-12-16 09:30:00-05:00",
+      "value": 0.516
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 1.137
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

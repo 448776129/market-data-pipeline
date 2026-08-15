@@ -1,0 +1,172 @@
+{
+  "symbol": "ENZ",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "AU000000CWL0",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2019-06-10 16:00:00-04:00",
+      "EPS Estimate": -0.15,
+      "Reported EPS": -0.14,
+      "Surprise(%)": 6.67
+    },
+    {
+      "index": "2019-03-11 16:00:00-04:00",
+      "EPS Estimate": -0.13,
+      "Reported EPS": -0.18,
+      "Surprise(%)": -38.46
+    },
+    {
+      "index": "2018-12-10 16:00:00-05:00",
+      "EPS Estimate": -0.11,
+      "Reported EPS": -0.13,
+      "Surprise(%)": -18.18
+    },
+    {
+      "index": "2018-10-15 16:00:00-04:00",
+      "EPS Estimate": -0.06,
+      "Reported EPS": -0.12,
+      "Surprise(%)": -100.0
+    },
+    {
+      "index": "2018-06-11 16:00:00-04:00",
+      "EPS Estimate": -0.02,
+      "Reported EPS": -0.06,
+      "Surprise(%)": -200.0
+    },
+    {
+      "index": "2018-03-12 16:00:00-04:00",
+      "EPS Estimate": -0.01,
+      "Reported EPS": -0.04,
+      "Surprise(%)": -300.0
+    },
+    {
+      "index": "2017-12-07 16:00:00-05:00",
+      "EPS Estimate": -0.01,
+      "Reported EPS": -0.01,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2017-09-27 16:00:00-04:00",
+      "EPS Estimate": -0.02,
+      "Reported EPS": null,
+      "Surprise(%)": 100.0
+    },
+    {
+      "index": "2017-06-08 16:00:00-04:00",
+      "EPS Estimate": -0.03,
+      "Reported EPS": null,
+      "Surprise(%)": 100.0
+    },
+    {
+      "index": "2017-03-13 16:00:00-04:00",
+      "EPS Estimate": -0.04,
+      "Reported EPS": -0.02,
+      "Surprise(%)": 50.0
+    },
+    {
+      "index": "2016-12-08 16:00:00-05:00",
+      "EPS Estimate": -0.05,
+      "Reported EPS": -0.03,
+      "Surprise(%)": 40.0
+    },
+    {
+      "index": "2016-10-13 16:00:00-04:00",
+      "EPS Estimate": -0.06,
+      "Reported EPS": -0.04,
+      "Surprise(%)": 33.33
+    },
+    {
+      "index": "2016-06-08 07:00:00-04:00",
+      "EPS Estimate": -0.06,
+      "Reported EPS": -0.04,
+      "Surprise(%)": 33.33
+    },
+    {
+      "index": "2016-03-09 16:00:00-05:00",
+      "EPS Estimate": -0.06,
+      "Reported EPS": -0.07,
+      "Surprise(%)": -16.67
+    },
+    {
+      "index": "2015-12-07 16:00:00-05:00",
+      "EPS Estimate": -0.05,
+      "Reported EPS": -0.05,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2015-10-13 07:00:00-04:00",
+      "EPS Estimate": -0.06,
+      "Reported EPS": 0.18,
+      "Surprise(%)": 400.0
+    },
+    {
+      "index": "2015-06-09 16:00:00-04:00",
+      "EPS Estimate": -0.06,
+      "Reported EPS": -0.07,
+      "Surprise(%)": -16.67
+    },
+    {
+      "index": "2015-03-12 16:00:00-04:00",
+      "EPS Estimate": -0.08,
+      "Reported EPS": -0.09,
+      "Surprise(%)": -11.11
+    },
+    {
+      "index": "2014-12-09 16:00:00-05:00",
+      "EPS Estimate": -0.07,
+      "Reported EPS": -0.08,
+      "Surprise(%)": -20.3
+    },
+    {
+      "index": "2014-10-09 16:00:00-04:00",
+      "EPS Estimate": -0.06,
+      "Reported EPS": -0.06,
+      "Surprise(%)": 4.76
+    },
+    {
+      "index": "2014-06-09 16:00:00-04:00",
+      "EPS Estimate": -0.07,
+      "Reported EPS": -0.05,
+      "Surprise(%)": 31.51
+    },
+    {
+      "index": "2014-03-11 16:00:00-04:00",
+      "EPS Estimate": -0.07,
+      "Reported EPS": -0.09,
+      "Surprise(%)": -20.0
+    },
+    {
+      "index": "2013-12-10 16:00:00-05:00",
+      "EPS Estimate": -0.06,
+      "Reported EPS": -0.07,
+      "Surprise(%)": -16.67
+    },
+    {
+      "index": "2013-10-15 16:00:00-04:00",
+      "EPS Estimate": -0.11,
+      "Reported EPS": -0.08,
+      "Surprise(%)": 29.52
+    },
+    {
+      "index": "2013-06-10 16:00:00-04:00",
+      "EPS Estimate": -0.05,
+      "Reported EPS": -0.15,
+      "Surprise(%)": -188.46
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

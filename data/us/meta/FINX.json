@@ -1,0 +1,83 @@
+{
+  "symbol": "FINX",
+  "region": "us",
+  "name": "Global X FinTech ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US37954Y8140",
+  "info": {
+    "longName": "Global X FinTech ETF",
+    "shortName": "Global X FinTech ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 27.01,
+    "previousClose": 27.11,
+    "dayHigh": 27.055,
+    "dayLow": 26.61,
+    "regularMarketPrice": 26.76,
+    "regularMarketPreviousClose": 27.11,
+    "fiftyTwoWeekHigh": 35.58,
+    "fiftyTwoWeekLow": 22.08,
+    "trailingPE": 21.206167,
+    "dividendYield": 0.84,
+    "volume": 152896,
+    "averageVolume": 86634
+  },
+  "dividends": [
+    {
+      "index": "2017-12-28 09:30:00-05:00",
+      "value": 0.025
+    },
+    {
+      "index": "2018-12-28 09:30:00-05:00",
+      "value": 0.04
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 2.163
+    },
+    {
+      "index": "2022-06-29 09:30:00-04:00",
+      "value": 0.051
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.001
+    },
+    {
+      "index": "2023-06-29 09:30:00-04:00",
+      "value": 0.051
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.003
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.057
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.168
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.171
+    },
+    {
+      "index": "2026-06-29 09:30:00-04:00",
+      "value": 0.043
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

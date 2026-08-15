@@ -1,0 +1,199 @@
+{
+  "symbol": "ESG",
+  "region": "us",
+  "name": "FlexShares STOXX US ESG Select Index Fund",
+  "currency": "USD",
+  "exchange": "BTS",
+  "isin": "US33939L6965",
+  "info": {
+    "longName": "FlexShares STOXX US ESG Select Index Fund",
+    "shortName": "FlexShares STOXX US ESG Select ",
+    "exchange": "BTS",
+    "currency": "USD",
+    "open": 184.015,
+    "previousClose": 183.842,
+    "dayHigh": 183.3247,
+    "dayLow": 183.3247,
+    "regularMarketPrice": 183.325,
+    "regularMarketPreviousClose": 183.842,
+    "fiftyTwoWeekHigh": 184.015,
+    "fiftyTwoWeekLow": 148.192,
+    "trailingPE": 25.935396,
+    "dividendYield": 0.87,
+    "volume": 52,
+    "averageVolume": 818
+  },
+  "dividends": [
+    {
+      "index": "2016-09-19 09:30:00-04:00",
+      "value": 0.163
+    },
+    {
+      "index": "2016-12-22 09:30:00-05:00",
+      "value": 0.322
+    },
+    {
+      "index": "2017-03-20 09:30:00-04:00",
+      "value": 0.143
+    },
+    {
+      "index": "2017-06-19 09:30:00-04:00",
+      "value": 0.523
+    },
+    {
+      "index": "2017-09-18 09:30:00-04:00",
+      "value": 0.245
+    },
+    {
+      "index": "2017-12-21 09:30:00-05:00",
+      "value": 0.32
+    },
+    {
+      "index": "2018-03-19 09:30:00-04:00",
+      "value": 0.198
+    },
+    {
+      "index": "2018-06-18 09:30:00-04:00",
+      "value": 0.274
+    },
+    {
+      "index": "2018-09-24 09:30:00-04:00",
+      "value": 0.296
+    },
+    {
+      "index": "2018-12-21 09:30:00-05:00",
+      "value": 0.257
+    },
+    {
+      "index": "2019-03-15 09:30:00-04:00",
+      "value": 0.251
+    },
+    {
+      "index": "2019-06-21 09:30:00-04:00",
+      "value": 0.293
+    },
+    {
+      "index": "2019-09-20 09:30:00-04:00",
+      "value": 0.274
+    },
+    {
+      "index": "2019-12-23 09:30:00-05:00",
+      "value": 0.346
+    },
+    {
+      "index": "2020-03-20 09:30:00-04:00",
+      "value": 0.307
+    },
+    {
+      "index": "2020-06-19 09:30:00-04:00",
+      "value": 0.277
+    },
+    {
+      "index": "2020-09-18 09:30:00-04:00",
+      "value": 0.279
+    },
+    {
+      "index": "2020-12-18 09:30:00-05:00",
+      "value": 0.353
+    },
+    {
+      "index": "2021-03-19 09:30:00-04:00",
+      "value": 0.239
+    },
+    {
+      "index": "2021-06-18 09:30:00-04:00",
+      "value": 0.324
+    },
+    {
+      "index": "2021-09-17 09:30:00-04:00",
+      "value": 0.277
+    },
+    {
+      "index": "2021-12-17 09:30:00-05:00",
+      "value": 0.356
+    },
+    {
+      "index": "2022-03-18 09:30:00-04:00",
+      "value": 0.282
+    },
+    {
+      "index": "2022-06-17 09:30:00-04:00",
+      "value": 0.296
+    },
+    {
+      "index": "2022-09-16 09:30:00-04:00",
+      "value": 0.305
+    },
+    {
+      "index": "2022-12-16 09:30:00-05:00",
+      "value": 0.381
+    },
+    {
+      "index": "2023-03-17 09:30:00-04:00",
+      "value": 0.244
+    },
+    {
+      "index": "2023-06-16 09:30:00-04:00",
+      "value": 0.342
+    },
+    {
+      "index": "2023-09-15 09:30:00-04:00",
+      "value": 0.303
+    },
+    {
+      "index": "2023-12-15 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2024-03-15 09:30:00-04:00",
+      "value": 0.29
+    },
+    {
+      "index": "2024-06-21 09:30:00-04:00",
+      "value": 0.413
+    },
+    {
+      "index": "2024-09-20 09:30:00-04:00",
+      "value": 0.411
+    },
+    {
+      "index": "2024-12-20 09:30:00-05:00",
+      "value": 0.511
+    },
+    {
+      "index": "2025-03-21 09:30:00-04:00",
+      "value": 0.262
+    },
+    {
+      "index": "2025-06-20 09:30:00-04:00",
+      "value": 0.41
+    },
+    {
+      "index": "2025-09-19 09:30:00-04:00",
+      "value": 0.381
+    },
+    {
+      "index": "2025-12-19 09:30:00-05:00",
+      "value": 0.467
+    },
+    {
+      "index": "2026-03-20 09:30:00-04:00",
+      "value": 0.281
+    },
+    {
+      "index": "2026-06-18 09:30:00-04:00",
+      "value": 0.408
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

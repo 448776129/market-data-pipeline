@@ -1,0 +1,99 @@
+{
+  "symbol": "EWJV",
+  "region": "us",
+  "name": "iShares MSCI Japan Value ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US46435U3749",
+  "info": {
+    "longName": "iShares MSCI Japan Value ETF",
+    "shortName": "iShares MSCI Japan Value ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 48.14,
+    "previousClose": 48.17,
+    "dayHigh": 48.2776,
+    "dayLow": 47.9,
+    "regularMarketPrice": 48.0193,
+    "regularMarketPreviousClose": 48.17,
+    "fiftyTwoWeekHigh": 48.36,
+    "fiftyTwoWeekLow": 37.414,
+    "trailingPE": 15.543368,
+    "dividendYield": 4.8,
+    "volume": 98368,
+    "averageVolume": 163700
+  },
+  "dividends": [
+    {
+      "index": "2019-06-17 09:30:00-04:00",
+      "value": 0.455
+    },
+    {
+      "index": "2019-12-16 09:30:00-05:00",
+      "value": 0.655
+    },
+    {
+      "index": "2020-06-15 09:30:00-04:00",
+      "value": 0.28
+    },
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.23
+    },
+    {
+      "index": "2021-06-10 09:30:00-04:00",
+      "value": 0.267
+    },
+    {
+      "index": "2021-12-13 09:30:00-05:00",
+      "value": 0.392
+    },
+    {
+      "index": "2022-06-09 09:30:00-04:00",
+      "value": 0.4
+    },
+    {
+      "index": "2022-12-13 09:30:00-05:00",
+      "value": 0.263
+    },
+    {
+      "index": "2023-06-07 09:30:00-04:00",
+      "value": 0.393
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.575
+    },
+    {
+      "index": "2024-06-11 09:30:00-04:00",
+      "value": 0.473
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 0.809
+    },
+    {
+      "index": "2025-06-16 09:30:00-04:00",
+      "value": 0.378
+    },
+    {
+      "index": "2025-12-16 09:30:00-05:00",
+      "value": 1.749
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 0.483
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

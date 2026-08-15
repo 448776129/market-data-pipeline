@@ -1,0 +1,71 @@
+{
+  "symbol": "ESPO",
+  "region": "us",
+  "name": "VanEck Video Gaming and eSports ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US92189F1140",
+  "info": {
+    "longName": "VanEck Video Gaming and eSports ETF",
+    "shortName": "VanEck Video Gaming and eSports",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 99.19,
+    "previousClose": 97.46,
+    "dayHigh": 99.92,
+    "dayLow": 99.19,
+    "regularMarketPrice": 99.78,
+    "regularMarketPreviousClose": 97.46,
+    "fiftyTwoWeekHigh": 122.99,
+    "fiftyTwoWeekLow": 84.93,
+    "trailingPE": 21.460129,
+    "dividendYield": 1.36,
+    "volume": 15901,
+    "averageVolume": 17962
+  },
+  "dividends": [
+    {
+      "index": "2018-12-20 09:30:00-05:00",
+      "value": 0.01
+    },
+    {
+      "index": "2019-12-23 09:30:00-05:00",
+      "value": 0.083
+    },
+    {
+      "index": "2020-12-21 09:30:00-05:00",
+      "value": 0.085
+    },
+    {
+      "index": "2021-12-20 09:30:00-05:00",
+      "value": 2.229
+    },
+    {
+      "index": "2022-12-19 09:30:00-05:00",
+      "value": 0.392
+    },
+    {
+      "index": "2023-12-18 09:30:00-05:00",
+      "value": 0.542
+    },
+    {
+      "index": "2024-12-23 09:30:00-05:00",
+      "value": 0.365
+    },
+    {
+      "index": "2025-12-22 09:30:00-05:00",
+      "value": 1.289
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

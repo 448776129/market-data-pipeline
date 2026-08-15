@@ -1,0 +1,134 @@
+{
+  "symbol": "FAAR",
+  "region": "us",
+  "name": "First Trust Alternative Absolute Return Strategy ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US33740Y1010",
+  "info": {
+    "longName": "First Trust Alternative Absolute Return Strategy ETF",
+    "shortName": "First Trust Alternative Absolut",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 30.82,
+    "previousClose": 31.06,
+    "dayHigh": 30.95,
+    "dayLow": 30.82,
+    "regularMarketPrice": 30.905,
+    "regularMarketPreviousClose": 31.06,
+    "fiftyTwoWeekHigh": 35.805,
+    "fiftyTwoWeekLow": 26.73,
+    "dividendYield": 8.5,
+    "volume": 20076,
+    "averageVolume": 53355
+  },
+  "dividends": [
+    {
+      "index": "2017-12-21 09:30:00-05:00",
+      "value": 0.83
+    },
+    {
+      "index": "2018-03-22 09:30:00-04:00",
+      "value": 0.012
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.141
+    },
+    {
+      "index": "2019-12-13 09:30:00-05:00",
+      "value": 0.265
+    },
+    {
+      "index": "2020-06-25 09:30:00-04:00",
+      "value": 0.009
+    },
+    {
+      "index": "2020-12-24 09:30:00-05:00",
+      "value": 0.821
+    },
+    {
+      "index": "2021-06-24 09:30:00-04:00",
+      "value": 0.005
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 1.861
+    },
+    {
+      "index": "2022-06-24 09:30:00-04:00",
+      "value": 0.003
+    },
+    {
+      "index": "2022-12-15 09:30:00-05:00",
+      "value": 1.736
+    },
+    {
+      "index": "2023-03-24 09:30:00-04:00",
+      "value": 0.159
+    },
+    {
+      "index": "2023-06-27 09:30:00-04:00",
+      "value": 0.229
+    },
+    {
+      "index": "2023-09-22 09:30:00-04:00",
+      "value": 0.23
+    },
+    {
+      "index": "2023-12-15 09:30:00-05:00",
+      "value": 0.257
+    },
+    {
+      "index": "2024-03-21 09:30:00-04:00",
+      "value": 0.203
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.235
+    },
+    {
+      "index": "2024-09-26 09:30:00-04:00",
+      "value": 0.201
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 0.326
+    },
+    {
+      "index": "2025-03-27 09:30:00-04:00",
+      "value": 0.153
+    },
+    {
+      "index": "2025-06-26 09:30:00-04:00",
+      "value": 0.175
+    },
+    {
+      "index": "2025-09-25 09:30:00-04:00",
+      "value": 0.176
+    },
+    {
+      "index": "2025-12-16 09:30:00-05:00",
+      "value": 2.649
+    },
+    {
+      "index": "2026-03-26 09:30:00-04:00",
+      "value": 0.109
+    },
+    {
+      "index": "2026-06-25 09:30:00-04:00",
+      "value": 0.144
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

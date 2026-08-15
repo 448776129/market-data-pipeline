@@ -1,0 +1,119 @@
+{
+  "symbol": "EMXC",
+  "region": "us",
+  "name": "iShares MSCI Emerging Markets ex China ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US46434G7640",
+  "info": {
+    "longName": "iShares MSCI Emerging Markets ex China ETF",
+    "shortName": "iShares MSCI Emerging Markets e",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 97.78,
+    "previousClose": 97.45,
+    "dayHigh": 98.12,
+    "dayLow": 96.945,
+    "regularMarketPrice": 97.29,
+    "regularMarketPreviousClose": 97.45,
+    "fiftyTwoWeekHigh": 107.12,
+    "fiftyTwoWeekLow": 62.71,
+    "trailingPE": 19.471285,
+    "dividendYield": 2.07,
+    "volume": 762898,
+    "averageVolume": 2806409
+  },
+  "dividends": [
+    {
+      "index": "2017-12-19 09:30:00-05:00",
+      "value": 0.534
+    },
+    {
+      "index": "2018-06-19 09:30:00-04:00",
+      "value": 0.312
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.889
+    },
+    {
+      "index": "2019-06-17 09:30:00-04:00",
+      "value": 0.239
+    },
+    {
+      "index": "2019-12-16 09:30:00-05:00",
+      "value": 1.426
+    },
+    {
+      "index": "2020-06-15 09:30:00-04:00",
+      "value": 0.229
+    },
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.584
+    },
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.013
+    },
+    {
+      "index": "2021-06-10 09:30:00-04:00",
+      "value": 0.257
+    },
+    {
+      "index": "2021-12-13 09:30:00-05:00",
+      "value": 0.783
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.042
+    },
+    {
+      "index": "2022-06-09 09:30:00-04:00",
+      "value": 0.507
+    },
+    {
+      "index": "2022-12-13 09:30:00-05:00",
+      "value": 0.846
+    },
+    {
+      "index": "2023-06-07 09:30:00-04:00",
+      "value": 0.376
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.637
+    },
+    {
+      "index": "2024-06-11 09:30:00-04:00",
+      "value": 0.491
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 1.0
+    },
+    {
+      "index": "2025-06-16 09:30:00-04:00",
+      "value": 0.711
+    },
+    {
+      "index": "2025-12-16 09:30:00-05:00",
+      "value": 1.336
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 0.588
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

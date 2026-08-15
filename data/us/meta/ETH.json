@@ -1,0 +1,42 @@
+{
+  "symbol": "ETH",
+  "region": "us",
+  "name": "Grayscale Ethereum Mini Trust ETF",
+  "currency": "USD",
+  "exchange": "PCX",
+  "isin": "US38964R2031",
+  "info": {
+    "longName": "Grayscale Ethereum Mini Trust ETF",
+    "shortName": "Grayscale Ethereum Staking Mini",
+    "exchange": "PCX",
+    "currency": "USD",
+    "open": 17.83,
+    "previousClose": 18.0,
+    "dayHigh": 17.9988,
+    "dayLow": 17.7685,
+    "regularMarketPrice": 17.93,
+    "regularMarketPreviousClose": 18.0,
+    "fiftyTwoWeekHigh": 45.785,
+    "fiftyTwoWeekLow": 14.53,
+    "dividendYield": 0.0,
+    "volume": 1431696,
+    "averageVolume": 2589249
+  },
+  "dividends": null,
+  "splits": [
+    {
+      "index": "2024-11-20 09:30:00-05:00",
+      "value": 0.1
+    }
+  ],
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

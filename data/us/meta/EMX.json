@@ -1,0 +1,52 @@
+{
+  "symbol": "EMX",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "AREDER010016",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2025-11-20 16:00:00-05:00",
+      "EPS Estimate": 0.01,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2025-08-11 16:00:00-04:00",
+      "EPS Estimate": 0.01,
+      "Reported EPS": 0.02,
+      "Surprise(%)": 31.0
+    },
+    {
+      "index": "2025-05-12 16:00:00-04:00",
+      "EPS Estimate": 0.01,
+      "Reported EPS": 0.03,
+      "Surprise(%)": 80.07
+    },
+    {
+      "index": "2025-03-12 16:00:00-04:00",
+      "EPS Estimate": null,
+      "Reported EPS": 0.02,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2024-11-07 16:00:00-05:00",
+      "EPS Estimate": -0.01,
+      "Reported EPS": 0.02,
+      "Surprise(%)": 262.5
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

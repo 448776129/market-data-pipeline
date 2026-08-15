@@ -1,0 +1,47 @@
+{
+  "symbol": "EWEB",
+  "region": "us",
+  "name": "Global X Emerging Markets Internet & E-commerce ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "longName": "Global X Emerging Markets Internet & E-commerce ETF",
+    "shortName": "Global X Emerging Markets Inter",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 21.1192,
+    "previousClose": 21.14,
+    "dayHigh": 21.14,
+    "dayLow": 21.1192,
+    "regularMarketPrice": 21.14,
+    "regularMarketPreviousClose": 21.14,
+    "fiftyTwoWeekHigh": 25.51,
+    "fiftyTwoWeekLow": 18.4223,
+    "trailingPE": 22.20015,
+    "dividendYield": 0.32,
+    "volume": 169,
+    "averageVolume": 277
+  },
+  "dividends": [
+    {
+      "index": "2022-06-29 09:30:00-04:00",
+      "value": 0.083157
+    },
+    {
+      "index": "2023-06-29 09:30:00-04:00",
+      "value": 0.064011
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

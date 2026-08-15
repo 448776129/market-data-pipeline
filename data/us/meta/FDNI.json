@@ -1,0 +1,71 @@
+{
+  "symbol": "FDNI",
+  "region": "us",
+  "name": "First Trust Dow Jones International Internet ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US33734X7701",
+  "info": {
+    "longName": "First Trust Dow Jones International Internet ETF",
+    "shortName": "First Trust Dow Jones Internati",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 28.67,
+    "previousClose": 28.65,
+    "dayHigh": 28.7,
+    "dayLow": 28.67,
+    "regularMarketPrice": 28.6993,
+    "regularMarketPreviousClose": 28.65,
+    "fiftyTwoWeekHigh": 39.97,
+    "fiftyTwoWeekLow": 23.99,
+    "trailingPE": 16.922182,
+    "dividendYield": 1.37,
+    "volume": 953,
+    "averageVolume": 24836
+  },
+  "dividends": [
+    {
+      "index": "2019-06-14 09:30:00-04:00",
+      "value": 0.011
+    },
+    {
+      "index": "2019-09-25 09:30:00-04:00",
+      "value": 0.445
+    },
+    {
+      "index": "2019-12-13 09:30:00-05:00",
+      "value": 0.309
+    },
+    {
+      "index": "2020-12-24 09:30:00-05:00",
+      "value": 0.074
+    },
+    {
+      "index": "2023-03-24 09:30:00-04:00",
+      "value": 0.09
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.069
+    },
+    {
+      "index": "2024-12-13 09:30:00-05:00",
+      "value": 0.222
+    },
+    {
+      "index": "2025-12-12 09:30:00-05:00",
+      "value": 0.378
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

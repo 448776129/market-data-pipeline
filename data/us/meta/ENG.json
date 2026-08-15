@@ -1,0 +1,172 @@
+{
+  "symbol": "ENG",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "US2933061069",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2022-11-08 08:00:00-05:00",
+      "EPS Estimate": -0.4,
+      "Reported EPS": -0.56,
+      "Surprise(%)": -40.0
+    },
+    {
+      "index": "2022-08-04 08:00:00-04:00",
+      "EPS Estimate": -0.48,
+      "Reported EPS": -0.32,
+      "Surprise(%)": 33.33
+    },
+    {
+      "index": "2022-05-05 08:00:00-04:00",
+      "EPS Estimate": -0.24,
+      "Reported EPS": -0.8,
+      "Surprise(%)": -233.33
+    },
+    {
+      "index": "2022-03-11 15:00:00-05:00",
+      "EPS Estimate": -0.64,
+      "Reported EPS": -0.96,
+      "Surprise(%)": -50.0
+    },
+    {
+      "index": "2021-11-04 08:00:00-04:00",
+      "EPS Estimate": 0.4,
+      "Reported EPS": 0.56,
+      "Surprise(%)": 40.0
+    },
+    {
+      "index": "2012-08-20 17:00:00-04:00",
+      "EPS Estimate": 0.16,
+      "Reported EPS": -0.4,
+      "Surprise(%)": -350.0
+    },
+    {
+      "index": "2012-05-15 10:00:00-04:00",
+      "EPS Estimate": 0.08,
+      "Reported EPS": null,
+      "Surprise(%)": -100.0
+    },
+    {
+      "index": "2011-11-10 05:00:00-05:00",
+      "EPS Estimate": 0.44,
+      "Reported EPS": 0.2,
+      "Surprise(%)": -55.45
+    },
+    {
+      "index": "2011-08-05 08:00:00-04:00",
+      "EPS Estimate": 0.4,
+      "Reported EPS": 0.08,
+      "Surprise(%)": -80.0
+    },
+    {
+      "index": "2011-05-10 16:00:00-04:00",
+      "EPS Estimate": 0.08,
+      "Reported EPS": -0.08,
+      "Surprise(%)": -200.0
+    },
+    {
+      "index": "2011-03-10 16:00:00-05:00",
+      "EPS Estimate": 0.08,
+      "Reported EPS": -0.16,
+      "Surprise(%)": -300.0
+    },
+    {
+      "index": "2010-11-04 16:00:00-04:00",
+      "EPS Estimate": 0.04,
+      "Reported EPS": -0.19,
+      "Surprise(%)": -569.4
+    },
+    {
+      "index": "2010-08-05 16:00:00-04:00",
+      "EPS Estimate": -0.08,
+      "Reported EPS": -1.28,
+      "Surprise(%)": -1500.0
+    },
+    {
+      "index": "2010-05-05 06:00:00-04:00",
+      "EPS Estimate": 0.2,
+      "Reported EPS": -0.48,
+      "Surprise(%)": -340.0
+    },
+    {
+      "index": "2010-03-04 06:00:00-05:00",
+      "EPS Estimate": 0.19,
+      "Reported EPS": -0.24,
+      "Surprise(%)": -228.57
+    },
+    {
+      "index": "2009-11-09 07:00:00-05:00",
+      "EPS Estimate": 0.56,
+      "Reported EPS": null,
+      "Surprise(%)": -100.0
+    },
+    {
+      "index": "2009-08-07 06:00:00-04:00",
+      "EPS Estimate": 0.67,
+      "Reported EPS": null,
+      "Surprise(%)": -100.0
+    },
+    {
+      "index": "2009-05-11 06:00:00-04:00",
+      "EPS Estimate": 1.04,
+      "Reported EPS": 0.56,
+      "Surprise(%)": -46.15
+    },
+    {
+      "index": "2009-03-16 06:00:00-04:00",
+      "EPS Estimate": 1.39,
+      "Reported EPS": 1.2,
+      "Surprise(%)": -13.46
+    },
+    {
+      "index": "2008-11-06 07:00:00-05:00",
+      "EPS Estimate": 0.94,
+      "Reported EPS": 1.04,
+      "Surprise(%)": 10.64
+    },
+    {
+      "index": "2008-08-07 06:00:00-04:00",
+      "EPS Estimate": 1.34,
+      "Reported EPS": 1.92,
+      "Surprise(%)": 43.28
+    },
+    {
+      "index": "2008-05-05 08:00:00-04:00",
+      "EPS Estimate": 1.08,
+      "Reported EPS": 1.2,
+      "Surprise(%)": 11.11
+    },
+    {
+      "index": "2008-03-13 08:00:00-04:00",
+      "EPS Estimate": 0.92,
+      "Reported EPS": 0.72,
+      "Surprise(%)": -21.74
+    },
+    {
+      "index": "2007-11-07 08:00:00-05:00",
+      "EPS Estimate": 1.16,
+      "Reported EPS": 1.12,
+      "Surprise(%)": -3.45
+    },
+    {
+      "index": "2007-08-07 08:00:00-04:00",
+      "EPS Estimate": 1.04,
+      "Reported EPS": 1.12,
+      "Surprise(%)": 7.69
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,49 @@
+{
+  "symbol": "EMP",
+  "region": "us",
+  "name": "Entergy Mississippi, Inc. 1M BD 66",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "Entergy Mississippi, Inc. 1M BD 66",
+    "shortName": "Entergy Mississippi, LLC First ",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 19.76,
+    "previousClose": 19.815,
+    "dayHigh": 19.85,
+    "dayLow": 19.77,
+    "regularMarketPrice": 19.81,
+    "regularMarketPreviousClose": 19.815,
+    "fiftyTwoWeekHigh": 21.21,
+    "fiftyTwoWeekLow": 19.61,
+    "trailingPE": 1.4959975,
+    "forwardPE": 19.81,
+    "priceToBook": 0.14301081,
+    "volume": 3433,
+    "averageVolume": 15380,
+    "sharesOutstanding": 8666360
+  },
+  "dividends": [
+    {
+      "index": "2026-03-31 09:30:00-04:00",
+      "value": 0.306
+    },
+    {
+      "index": "2026-06-30 09:30:00-04:00",
+      "value": 0.306
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

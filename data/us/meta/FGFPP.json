@@ -1,0 +1,27 @@
+{
+  "symbol": "FGFPP",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "shortName": "Fundamental Global Inc. - 8.00%",
+    "exchange": "NGM",
+    "currency": "USD",
+    "previousClose": 18.77,
+    "regularMarketPreviousClose": 18.77
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

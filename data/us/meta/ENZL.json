@@ -1,0 +1,167 @@
+{
+  "symbol": "ENZL",
+  "region": "us",
+  "name": "iShares MSCI New Zealand ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US4642891232",
+  "info": {
+    "longName": "iShares MSCI New Zealand ETF",
+    "shortName": "iShares MSCI New Zealand ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 47.37,
+    "previousClose": 47.25,
+    "dayHigh": 47.5,
+    "dayLow": 47.21,
+    "regularMarketPrice": 47.34,
+    "regularMarketPreviousClose": 47.25,
+    "fiftyTwoWeekHigh": 48.24,
+    "fiftyTwoWeekLow": 41.69,
+    "trailingPE": 27.12479,
+    "dividendYield": 2.16,
+    "volume": 92101,
+    "averageVolume": 90178
+  },
+  "dividends": [
+    {
+      "index": "2010-12-21 09:30:00-05:00",
+      "value": 0.639
+    },
+    {
+      "index": "2011-06-22 09:30:00-04:00",
+      "value": 0.402
+    },
+    {
+      "index": "2011-12-20 09:30:00-05:00",
+      "value": 1.415
+    },
+    {
+      "index": "2012-06-21 09:30:00-04:00",
+      "value": 0.622
+    },
+    {
+      "index": "2012-12-18 09:30:00-05:00",
+      "value": 0.946
+    },
+    {
+      "index": "2013-06-27 09:30:00-04:00",
+      "value": 0.713
+    },
+    {
+      "index": "2013-12-18 09:30:00-05:00",
+      "value": 0.761
+    },
+    {
+      "index": "2014-06-25 09:30:00-04:00",
+      "value": 0.959
+    },
+    {
+      "index": "2014-12-17 09:30:00-05:00",
+      "value": 1.1
+    },
+    {
+      "index": "2015-06-25 09:30:00-04:00",
+      "value": 0.914
+    },
+    {
+      "index": "2015-12-21 09:30:00-05:00",
+      "value": 0.693
+    },
+    {
+      "index": "2016-06-22 09:30:00-04:00",
+      "value": 0.542
+    },
+    {
+      "index": "2016-12-21 09:30:00-05:00",
+      "value": 1.359
+    },
+    {
+      "index": "2017-06-20 09:30:00-04:00",
+      "value": 0.851
+    },
+    {
+      "index": "2017-12-19 09:30:00-05:00",
+      "value": 0.903
+    },
+    {
+      "index": "2018-06-19 09:30:00-04:00",
+      "value": 0.822
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.833
+    },
+    {
+      "index": "2019-06-17 09:30:00-04:00",
+      "value": 0.76
+    },
+    {
+      "index": "2019-12-16 09:30:00-05:00",
+      "value": 1.177
+    },
+    {
+      "index": "2020-06-15 09:30:00-04:00",
+      "value": 0.37
+    },
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.763
+    },
+    {
+      "index": "2021-06-10 09:30:00-04:00",
+      "value": 0.562
+    },
+    {
+      "index": "2021-12-13 09:30:00-05:00",
+      "value": 0.888
+    },
+    {
+      "index": "2022-06-09 09:30:00-04:00",
+      "value": 0.546
+    },
+    {
+      "index": "2022-12-13 09:30:00-05:00",
+      "value": 0.242
+    },
+    {
+      "index": "2023-06-07 09:30:00-04:00",
+      "value": 0.473
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.981
+    },
+    {
+      "index": "2024-06-11 09:30:00-04:00",
+      "value": 0.349
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 0.615
+    },
+    {
+      "index": "2025-06-16 09:30:00-04:00",
+      "value": 0.435
+    },
+    {
+      "index": "2025-12-16 09:30:00-05:00",
+      "value": 0.575
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 0.437
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,25 @@
+{
+  "symbol": "FGF",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": null,
+  "isin": "US30329Y1064",
+  "info": {
+    "currency": "USD",
+    "previousClose": 36.17,
+    "regularMarketPreviousClose": 36.17
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

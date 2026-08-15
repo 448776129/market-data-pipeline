@@ -1,0 +1,128 @@
+{
+  "symbol": "ESGE",
+  "region": "us",
+  "name": "iShares ESG Aware MSCI EM ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US46434G8630",
+  "info": {
+    "longName": "iShares ESG Aware MSCI EM ETF",
+    "shortName": "iShares ESG Aware MSCI EM ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 53.83,
+    "previousClose": 53.67,
+    "dayHigh": 53.93,
+    "dayLow": 53.4,
+    "regularMarketPrice": 53.55,
+    "regularMarketPreviousClose": 53.67,
+    "fiftyTwoWeekHigh": 57.11,
+    "fiftyTwoWeekLow": 40.07,
+    "trailingPE": 17.02136,
+    "dividendYield": 2.18,
+    "volume": 218213,
+    "averageVolume": 987514
+  },
+  "dividends": [
+    {
+      "index": "2016-12-21 09:30:00-05:00",
+      "value": 0.0725
+    },
+    {
+      "index": "2017-06-20 09:30:00-04:00",
+      "value": 0.2385
+    },
+    {
+      "index": "2017-12-19 09:30:00-05:00",
+      "value": 0.4495
+    },
+    {
+      "index": "2018-06-19 09:30:00-04:00",
+      "value": 0.248
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.422
+    },
+    {
+      "index": "2019-06-17 09:30:00-04:00",
+      "value": 0.26
+    },
+    {
+      "index": "2019-12-16 09:30:00-05:00",
+      "value": 0.671
+    },
+    {
+      "index": "2020-06-15 09:30:00-04:00",
+      "value": 0.211
+    },
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.339
+    },
+    {
+      "index": "2021-06-10 09:30:00-04:00",
+      "value": 0.226
+    },
+    {
+      "index": "2021-12-13 09:30:00-05:00",
+      "value": 0.831
+    },
+    {
+      "index": "2022-06-09 09:30:00-04:00",
+      "value": 0.276
+    },
+    {
+      "index": "2022-12-13 09:30:00-05:00",
+      "value": 0.531
+    },
+    {
+      "index": "2023-06-07 09:30:00-04:00",
+      "value": 0.227
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.621
+    },
+    {
+      "index": "2024-06-11 09:30:00-04:00",
+      "value": 0.25
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 0.531
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.022
+    },
+    {
+      "index": "2025-06-16 09:30:00-04:00",
+      "value": 0.373
+    },
+    {
+      "index": "2025-12-16 09:30:00-05:00",
+      "value": 0.732
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 0.402
+    }
+  ],
+  "splits": [
+    {
+      "index": "2018-05-25 09:30:00-04:00",
+      "value": 2.0
+    }
+  ],
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

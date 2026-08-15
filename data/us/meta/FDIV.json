@@ -1,0 +1,83 @@
+{
+  "symbol": "FDIV",
+  "region": "us",
+  "name": "MarketDesk Focused U.S. Dividend ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US02072L4178",
+  "info": {
+    "longName": "MarketDesk Focused U.S. Dividend ETF",
+    "shortName": "MarketDesk Focused U.S. Dividen",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 28.62,
+    "previousClose": 28.58,
+    "dayHigh": 28.68,
+    "dayLow": 28.6,
+    "regularMarketPrice": 28.6156,
+    "regularMarketPreviousClose": 28.58,
+    "fiftyTwoWeekHigh": 28.793,
+    "fiftyTwoWeekLow": 25.816,
+    "trailingPE": 18.050201,
+    "dividendYield": 2.38,
+    "volume": 8834,
+    "averageVolume": 18545
+  },
+  "dividends": [
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.163
+    },
+    {
+      "index": "2024-03-26 09:30:00-04:00",
+      "value": 0.196
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.174
+    },
+    {
+      "index": "2024-09-27 09:30:00-04:00",
+      "value": 0.184
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.231
+    },
+    {
+      "index": "2025-03-28 09:30:00-04:00",
+      "value": 0.161
+    },
+    {
+      "index": "2025-06-27 09:30:00-04:00",
+      "value": 0.259
+    },
+    {
+      "index": "2025-09-29 09:30:00-04:00",
+      "value": 0.171
+    },
+    {
+      "index": "2025-12-23 09:30:00-05:00",
+      "value": 0.206
+    },
+    {
+      "index": "2026-03-30 09:30:00-04:00",
+      "value": 0.147
+    },
+    {
+      "index": "2026-06-29 09:30:00-04:00",
+      "value": 0.138
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

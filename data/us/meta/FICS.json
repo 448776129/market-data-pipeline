@@ -1,0 +1,127 @@
+{
+  "symbol": "FICS",
+  "region": "us",
+  "name": "First Trust International Developed Cap Strength ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US33738R6624",
+  "info": {
+    "longName": "First Trust International Developed Cap Strength ETF",
+    "shortName": "First Trust International Devel",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 42.5008,
+    "previousClose": 42.545,
+    "dayHigh": 42.57,
+    "dayLow": 42.5001,
+    "regularMarketPrice": 42.5382,
+    "regularMarketPreviousClose": 42.545,
+    "fiftyTwoWeekHigh": 43.38,
+    "fiftyTwoWeekLow": 37.25,
+    "trailingPE": 18.982538,
+    "dividendYield": 1.8,
+    "volume": 6156,
+    "averageVolume": 17134
+  },
+  "dividends": [
+    {
+      "index": "2021-03-25 09:30:00-04:00",
+      "value": 0.05
+    },
+    {
+      "index": "2021-06-24 09:30:00-04:00",
+      "value": 0.249
+    },
+    {
+      "index": "2021-09-23 09:30:00-04:00",
+      "value": 0.037
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 0.127
+    },
+    {
+      "index": "2022-03-25 09:30:00-04:00",
+      "value": 0.062
+    },
+    {
+      "index": "2022-06-24 09:30:00-04:00",
+      "value": 0.294
+    },
+    {
+      "index": "2022-09-23 09:30:00-04:00",
+      "value": 0.112
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 0.077
+    },
+    {
+      "index": "2023-03-24 09:30:00-04:00",
+      "value": 0.055
+    },
+    {
+      "index": "2023-06-27 09:30:00-04:00",
+      "value": 0.173
+    },
+    {
+      "index": "2023-09-22 09:30:00-04:00",
+      "value": 0.054
+    },
+    {
+      "index": "2023-12-22 09:30:00-05:00",
+      "value": 0.062
+    },
+    {
+      "index": "2024-03-21 09:30:00-04:00",
+      "value": 0.055
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.336
+    },
+    {
+      "index": "2024-09-26 09:30:00-04:00",
+      "value": 0.103
+    },
+    {
+      "index": "2024-12-13 09:30:00-05:00",
+      "value": 0.188
+    },
+    {
+      "index": "2025-03-27 09:30:00-04:00",
+      "value": 0.148
+    },
+    {
+      "index": "2025-06-26 09:30:00-04:00",
+      "value": 0.468
+    },
+    {
+      "index": "2025-09-25 09:30:00-04:00",
+      "value": 0.092
+    },
+    {
+      "index": "2025-12-12 09:30:00-05:00",
+      "value": 0.034
+    },
+    {
+      "index": "2026-03-26 09:30:00-04:00",
+      "value": 0.195
+    },
+    {
+      "index": "2026-06-25 09:30:00-04:00",
+      "value": 0.446
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

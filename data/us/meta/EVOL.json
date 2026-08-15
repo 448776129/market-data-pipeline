@@ -1,0 +1,848 @@
+{
+  "symbol": "EVOL",
+  "region": "us",
+  "name": "Symbolic Logic, Inc.",
+  "currency": "USD",
+  "exchange": "PNK",
+  "isin": "-",
+  "info": {
+    "longName": "Symbolic Logic, Inc.",
+    "shortName": "Symbolic Logic Inc.",
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "country": "United States",
+    "exchange": "PNK",
+    "currency": "USD",
+    "marketCap": 4374286,
+    "currentPrice": 0.41,
+    "open": 0.4125,
+    "previousClose": 0.41,
+    "dayHigh": 0.4125,
+    "dayLow": 0.4125,
+    "regularMarketPrice": 0.41,
+    "regularMarketPreviousClose": 0.41,
+    "fiftyTwoWeekHigh": 2.0,
+    "fiftyTwoWeekLow": 0.21,
+    "priceToBook": 0.15162721,
+    "trailingEps": -0.25,
+    "beta": 0.218,
+    "volume": 45,
+    "averageVolume": 708,
+    "sharesOutstanding": 10668992,
+    "floatShares": 3686030,
+    "recommendationKey": "none",
+    "totalRevenue": -6974000,
+    "grossProfits": -4893000,
+    "freeCashflow": 2231750,
+    "totalDebt": 0,
+    "totalCash": 28727000,
+    "profitMargins": 0.0,
+    "returnOnEquity": -0.22495002,
+    "returnOnAssets": -0.10807
+  },
+  "dividends": [
+    {
+      "index": "2010-06-08 09:30:00-04:00",
+      "value": 0.05
+    },
+    {
+      "index": "2010-09-08 09:30:00-04:00",
+      "value": 0.05
+    },
+    {
+      "index": "2010-12-08 09:30:00-05:00",
+      "value": 0.05
+    },
+    {
+      "index": "2011-03-16 09:30:00-04:00",
+      "value": 0.05
+    },
+    {
+      "index": "2011-06-08 09:30:00-04:00",
+      "value": 0.05
+    },
+    {
+      "index": "2011-09-07 09:30:00-04:00",
+      "value": 0.05
+    },
+    {
+      "index": "2012-01-04 09:30:00-05:00",
+      "value": 2.0
+    },
+    {
+      "index": "2012-03-15 09:30:00-04:00",
+      "value": 0.05
+    },
+    {
+      "index": "2012-05-30 09:30:00-04:00",
+      "value": 1.7
+    },
+    {
+      "index": "2012-09-05 09:30:00-04:00",
+      "value": 0.05
+    },
+    {
+      "index": "2012-11-28 09:30:00-05:00",
+      "value": 0.05
+    },
+    {
+      "index": "2013-03-20 09:30:00-04:00",
+      "value": 0.08
+    },
+    {
+      "index": "2013-06-06 09:30:00-04:00",
+      "value": 0.08
+    },
+    {
+      "index": "2013-08-28 09:30:00-04:00",
+      "value": 0.1
+    },
+    {
+      "index": "2013-11-26 09:30:00-05:00",
+      "value": 0.1
+    },
+    {
+      "index": "2014-03-20 09:30:00-04:00",
+      "value": 0.1
+    },
+    {
+      "index": "2014-05-16 09:30:00-04:00",
+      "value": 0.1
+    },
+    {
+      "index": "2014-08-20 09:30:00-04:00",
+      "value": 0.11
+    },
+    {
+      "index": "2014-11-14 09:30:00-05:00",
+      "value": 0.11
+    },
+    {
+      "index": "2015-03-20 09:30:00-04:00",
+      "value": 0.11
+    },
+    {
+      "index": "2015-05-20 09:30:00-04:00",
+      "value": 0.11
+    },
+    {
+      "index": "2015-08-19 09:30:00-04:00",
+      "value": 0.11
+    },
+    {
+      "index": "2015-11-24 09:30:00-05:00",
+      "value": 0.11
+    },
+    {
+      "index": "2016-03-23 09:30:00-04:00",
+      "value": 0.11
+    },
+    {
+      "index": "2016-06-01 09:30:00-04:00",
+      "value": 0.11
+    }
+  ],
+  "splits": [
+    {
+      "index": "2009-07-21 09:30:00-04:00",
+      "value": 0.5
+    }
+  ],
+  "capital_gains": null,
+  "financials": [
+    {
+      "index": "Tax Effect Of Unusual Items",
+      "2021-12-31 00:00:00": 0.0
+    },
+    {
+      "index": "Tax Rate For Calcs",
+      "2021-12-31 00:00:00": 0.0
+    },
+    {
+      "index": "Normalized EBITDA",
+      "2021-12-31 00:00:00": -1726000.0
+    },
+    {
+      "index": "Net Income From Continuing Operation Net Minority Interest",
+      "2021-12-31 00:00:00": -3432000.0
+    },
+    {
+      "index": "Reconciled Depreciation",
+      "2021-12-31 00:00:00": 1704000.0
+    },
+    {
+      "index": "EBITDA",
+      "2021-12-31 00:00:00": -1726000.0
+    },
+    {
+      "index": "EBIT",
+      "2021-12-31 00:00:00": -3430000.0
+    },
+    {
+      "index": "Net Interest Income",
+      "2021-12-31 00:00:00": -2000.0
+    },
+    {
+      "index": "Interest Expense",
+      "2021-12-31 00:00:00": 2000.0
+    },
+    {
+      "index": "Normalized Income",
+      "2021-12-31 00:00:00": -3432000.0
+    },
+    {
+      "index": "Net Income From Continuing And Discontinued Operation",
+      "2021-12-31 00:00:00": 17445000.0
+    },
+    {
+      "index": "Total Expenses",
+      "2021-12-31 00:00:00": 3430000.0
+    },
+    {
+      "index": "Total Operating Income As Reported",
+      "2021-12-31 00:00:00": -3430000.0
+    },
+    {
+      "index": "Diluted Average Shares",
+      "2021-12-31 00:00:00": 12258000.0
+    },
+    {
+      "index": "Basic Average Shares",
+      "2021-12-31 00:00:00": 12245000.0
+    },
+    {
+      "index": "Diluted EPS",
+      "2021-12-31 00:00:00": 1.42
+    },
+    {
+      "index": "Basic EPS",
+      "2021-12-31 00:00:00": 1.42
+    },
+    {
+      "index": "Diluted NI Availto Com Stockholders",
+      "2021-12-31 00:00:00": 17445000.0
+    },
+    {
+      "index": "Net Income Common Stockholders",
+      "2021-12-31 00:00:00": 17445000.0
+    },
+    {
+      "index": "Net Income",
+      "2021-12-31 00:00:00": 17445000.0
+    },
+    {
+      "index": "Net Income Including Noncontrolling Interests",
+      "2021-12-31 00:00:00": 17445000.0
+    },
+    {
+      "index": "Net Income Discontinuous Operations",
+      "2021-12-31 00:00:00": 20877000.0
+    },
+    {
+      "index": "Net Income Continuous Operations",
+      "2021-12-31 00:00:00": -3432000.0
+    },
+    {
+      "index": "Tax Provision",
+      "2021-12-31 00:00:00": 0.0
+    },
+    {
+      "index": "Pretax Income",
+      "2021-12-31 00:00:00": -3432000.0
+    },
+    {
+      "index": "Net Non Operating Interest Income Expense",
+      "2021-12-31 00:00:00": -2000.0
+    },
+    {
+      "index": "Interest Expense Non Operating",
+      "2021-12-31 00:00:00": 2000.0
+    },
+    {
+      "index": "Operating Income",
+      "2021-12-31 00:00:00": -3430000.0
+    },
+    {
+      "index": "Operating Expense",
+      "2021-12-31 00:00:00": 3430000.0
+    },
+    {
+      "index": "Depreciation Amortization Depletion Income Statement",
+      "2021-12-31 00:00:00": 3000.0
+    },
+    {
+      "index": "Depreciation And Amortization In Income Statement",
+      "2021-12-31 00:00:00": 3000.0
+    },
+    {
+      "index": "Depreciation Income Statement",
+      "2021-12-31 00:00:00": 3000.0
+    },
+    {
+      "index": "Selling General And Administration",
+      "2021-12-31 00:00:00": 3427000.0
+    },
+    {
+      "index": "General And Administrative Expense",
+      "2021-12-31 00:00:00": 3427000.0
+    },
+    {
+      "index": "Other Gand A",
+      "2021-12-31 00:00:00": 3427000.0
+    },
+    {
+      "index": "Total Revenue",
+      "2021-12-31 00:00:00": 0.0
+    }
+  ],
+  "balancesheet": [
+    {
+      "index": "Treasury Shares Number",
+      "2021-12-31 00:00:00": 178889.0
+    },
+    {
+      "index": "Ordinary Shares Number",
+      "2021-12-31 00:00:00": 12258184.0
+    },
+    {
+      "index": "Share Issued",
+      "2021-12-31 00:00:00": 12437073.0
+    },
+    {
+      "index": "Tangible Book Value",
+      "2021-12-31 00:00:00": 37728000.0
+    },
+    {
+      "index": "Invested Capital",
+      "2021-12-31 00:00:00": 37728000.0
+    },
+    {
+      "index": "Working Capital",
+      "2021-12-31 00:00:00": 37724000.0
+    },
+    {
+      "index": "Net Tangible Assets",
+      "2021-12-31 00:00:00": 37728000.0
+    },
+    {
+      "index": "Common Stock Equity",
+      "2021-12-31 00:00:00": 37728000.0
+    },
+    {
+      "index": "Total Capitalization",
+      "2021-12-31 00:00:00": 37728000.0
+    },
+    {
+      "index": "Total Equity Gross Minority Interest",
+      "2021-12-31 00:00:00": 37728000.0
+    },
+    {
+      "index": "Stockholders Equity",
+      "2021-12-31 00:00:00": 37728000.0
+    },
+    {
+      "index": "Gains Losses Not Affecting Retained Earnings",
+      "2021-12-31 00:00:00": 0.0
+    },
+    {
+      "index": "Treasury Stock",
+      "2021-12-31 00:00:00": 1253000.0
+    },
+    {
+      "index": "Retained Earnings",
+      "2021-12-31 00:00:00": -61055000.0
+    },
+    {
+      "index": "Additional Paid In Capital",
+      "2021-12-31 00:00:00": 100024000.0
+    },
+    {
+      "index": "Capital Stock",
+      "2021-12-31 00:00:00": 12000.0
+    },
+    {
+      "index": "Common Stock",
+      "2021-12-31 00:00:00": 12000.0
+    },
+    {
+      "index": "Preferred Stock",
+      "2021-12-31 00:00:00": 0.0
+    },
+    {
+      "index": "Total Liabilities Net Minority Interest",
+      "2021-12-31 00:00:00": 1827000.0
+    },
+    {
+      "index": "Total Non Current Liabilities Net Minority Interest",
+      "2021-12-31 00:00:00": 0.0
+    },
+    {
+      "index": "Liabilities Heldfor Sale Non Current",
+      "2021-12-31 00:00:00": 0.0
+    },
+    {
+      "index": "Current Liabilities",
+      "2021-12-31 00:00:00": 1827000.0
+    },
+    {
+      "index": "Payables And Accrued Expenses",
+      "2021-12-31 00:00:00": 1289000.0
+    },
+    {
+      "index": "Current Accrued Expenses",
+      "2021-12-31 00:00:00": 631000.0
+    },
+    {
+      "index": "Payables",
+      "2021-12-31 00:00:00": 658000.0
+    },
+    {
+      "index": "Total Tax Payable",
+      "2021-12-31 00:00:00": 575000.0
+    },
+    {
+      "index": "Income Tax Payable",
+      "2021-12-31 00:00:00": 575000.0
+    },
+    {
+      "index": "Accounts Payable",
+      "2021-12-31 00:00:00": 83000.0
+    },
+    {
+      "index": "Total Assets",
+      "2021-12-31 00:00:00": 39555000.0
+    },
+    {
+      "index": "Total Non Current Assets",
+      "2021-12-31 00:00:00": 4000.0
+    },
+    {
+      "index": "Non Current Deferred Assets",
+      "2021-12-31 00:00:00": 0.0
+    },
+    {
+      "index": "Non Current Deferred Taxes Assets",
+      "2021-12-31 00:00:00": 0.0
+    },
+    {
+      "index": "Net PPE",
+      "2021-12-31 00:00:00": 4000.0
+    },
+    {
+      "index": "Gross PPE",
+      "2021-12-31 00:00:00": 4000.0
+    },
+    {
+      "index": "Other Properties",
+      "2021-12-31 00:00:00": 4000.0
+    },
+    {
+      "index": "Current Assets",
+      "2021-12-31 00:00:00": 39551000.0
+    },
+    {
+      "index": "Assets Held For Sale Current",
+      "2021-12-31 00:00:00": 0.0
+    },
+    {
+      "index": "Prepaid Assets",
+      "2021-12-31 00:00:00": 106000.0
+    },
+    {
+      "index": "Cash Cash Equivalents And Short Term Investments",
+      "2021-12-31 00:00:00": 39445000.0
+    },
+    {
+      "index": "Cash And Cash Equivalents",
+      "2021-12-31 00:00:00": 39445000.0
+    }
+  ],
+  "cashflow": [
+    {
+      "index": "Free Cash Flow",
+      "2021-12-31 00:00:00": 1459000.0
+    },
+    {
+      "index": "Repayment Of Debt",
+      "2021-12-31 00:00:00": -142000.0
+    },
+    {
+      "index": "Issuance Of Debt",
+      "2021-12-31 00:00:00": 0.0
+    },
+    {
+      "index": "Capital Expenditure",
+      "2021-12-31 00:00:00": -387000.0
+    },
+    {
+      "index": "Interest Paid Supplemental Data",
+      "2021-12-31 00:00:00": 10000.0
+    },
+    {
+      "index": "Income Tax Paid Supplemental Data",
+      "2021-12-31 00:00:00": 468000.0
+    },
+    {
+      "index": "End Cash Position",
+      "2021-12-31 00:00:00": 39445000.0
+    },
+    {
+      "index": "Beginning Cash Position",
+      "2021-12-31 00:00:00": 2763000.0
+    },
+    {
+      "index": "Effect Of Exchange Rate Changes",
+      "2021-12-31 00:00:00": 174000.0
+    },
+    {
+      "index": "Changes In Cash",
+      "2021-12-31 00:00:00": 36508000.0
+    },
+    {
+      "index": "Financing Cash Flow",
+      "2021-12-31 00:00:00": -142000.0
+    },
+    {
+      "index": "Cash Flow From Continuing Financing Activities",
+      "2021-12-31 00:00:00": -142000.0
+    },
+    {
+      "index": "Net Issuance Payments Of Debt",
+      "2021-12-31 00:00:00": -142000.0
+    },
+    {
+      "index": "Net Short Term Debt Issuance",
+      "2021-12-31 00:00:00": -142000.0
+    },
+    {
+      "index": "Net Long Term Debt Issuance",
+      "2021-12-31 00:00:00": 0.0
+    },
+    {
+      "index": "Long Term Debt Payments",
+      "2021-12-31 00:00:00": -142000.0
+    },
+    {
+      "index": "Long Term Debt Issuance",
+      "2021-12-31 00:00:00": 0.0
+    },
+    {
+      "index": "Investing Cash Flow",
+      "2021-12-31 00:00:00": 34804000.0
+    },
+    {
+      "index": "Cash Flow From Continuing Investing Activities",
+      "2021-12-31 00:00:00": 34804000.0
+    },
+    {
+      "index": "Net Business Purchase And Sale",
+      "2021-12-31 00:00:00": 35191000.0
+    },
+    {
+      "index": "Sale Of Business",
+      "2021-12-31 00:00:00": 35191000.0
+    },
+    {
+      "index": "Net PPE Purchase And Sale",
+      "2021-12-31 00:00:00": -387000.0
+    },
+    {
+      "index": "Sale Of PPE",
+      "2021-12-31 00:00:00": 0.0
+    },
+    {
+      "index": "Purchase Of PPE",
+      "2021-12-31 00:00:00": -387000.0
+    },
+    {
+      "index": "Operating Cash Flow",
+      "2021-12-31 00:00:00": 1846000.0
+    },
+    {
+      "index": "Cash Flow From Continuing Operating Activities",
+      "2021-12-31 00:00:00": 1846000.0
+    },
+    {
+      "index": "Change In Working Capital",
+      "2021-12-31 00:00:00": 3175000.0
+    },
+    {
+      "index": "Change In Other Working Capital",
+      "2021-12-31 00:00:00": 956000.0
+    },
+    {
+      "index": "Change In Other Current Liabilities",
+      "2021-12-31 00:00:00": -366000.0
+    },
+    {
+      "index": "Change In Payables And Accrued Expense",
+      "2021-12-31 00:00:00": 1903000.0
+    },
+    {
+      "index": "Change In Payable",
+      "2021-12-31 00:00:00": 1903000.0
+    },
+    {
+      "index": "Change In Account Payable",
+      "2021-12-31 00:00:00": -191000.0
+    },
+    {
+      "index": "Change In Tax Payable",
+      "2021-12-31 00:00:00": 2094000.0
+    },
+    {
+      "index": "Change In Income Tax Payable",
+      "2021-12-31 00:00:00": 2094000.0
+    },
+    {
+      "index": "Change In Prepaid Assets",
+      "2021-12-31 00:00:00": 206000.0
+    },
+    {
+      "index": "Change In Receivables",
+      "2021-12-31 00:00:00": 476000.0
+    },
+    {
+      "index": "Changes In Account Receivables",
+      "2021-12-31 00:00:00": -165000.0
+    },
+    {
+      "index": "Stock Based Compensation",
+      "2021-12-31 00:00:00": 248000.0
+    },
+    {
+      "index": "Asset Impairment Charge",
+      "2021-12-31 00:00:00": 88000.0
+    },
+    {
+      "index": "Deferred Tax",
+      "2021-12-31 00:00:00": 542000.0
+    },
+    {
+      "index": "Deferred Income Tax",
+      "2021-12-31 00:00:00": 542000.0
+    },
+    {
+      "index": "Depreciation Amortization Depletion",
+      "2021-12-31 00:00:00": 1704000.0
+    },
+    {
+      "index": "Depreciation And Amortization",
+      "2021-12-31 00:00:00": 1704000.0
+    },
+    {
+      "index": "Amortization Cash Flow",
+      "2021-12-31 00:00:00": 941000.0
+    },
+    {
+      "index": "Amortization Of Intangibles",
+      "2021-12-31 00:00:00": 941000.0
+    },
+    {
+      "index": "Depreciation",
+      "2021-12-31 00:00:00": 763000.0
+    },
+    {
+      "index": "Operating Gains Losses",
+      "2021-12-31 00:00:00": -21356000.0
+    },
+    {
+      "index": "Net Foreign Currency Exchange Gain Loss",
+      "2021-12-31 00:00:00": -197000.0
+    },
+    {
+      "index": "Gain Loss On Sale Of Business",
+      "2021-12-31 00:00:00": -20840000.0
+    },
+    {
+      "index": "Net Income From Continuing Operations",
+      "2021-12-31 00:00:00": 17445000.0
+    }
+  ],
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 0.41
+  },
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2017-11-14 16:00:00-05:00",
+      "EPS Estimate": 0.09,
+      "Reported EPS": 0.06,
+      "Surprise(%)": -33.33
+    },
+    {
+      "index": "2016-11-08 16:00:00-05:00",
+      "EPS Estimate": 0.08,
+      "Reported EPS": 0.08,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2016-08-02 16:00:00-04:00",
+      "EPS Estimate": 0.09,
+      "Reported EPS": 0.07,
+      "Surprise(%)": -22.22
+    },
+    {
+      "index": "2016-05-03 16:00:00-04:00",
+      "EPS Estimate": 0.13,
+      "Reported EPS": 0.11,
+      "Surprise(%)": -16.92
+    },
+    {
+      "index": "2016-03-15 16:00:00-04:00",
+      "EPS Estimate": 0.09,
+      "Reported EPS": 0.14,
+      "Surprise(%)": 55.56
+    },
+    {
+      "index": "2015-11-10 16:00:00-05:00",
+      "EPS Estimate": 0.08,
+      "Reported EPS": 0.05,
+      "Surprise(%)": -37.5
+    },
+    {
+      "index": "2015-08-04 16:00:00-04:00",
+      "EPS Estimate": 0.09,
+      "Reported EPS": 0.07,
+      "Surprise(%)": -22.22
+    },
+    {
+      "index": "2015-05-05 16:00:00-04:00",
+      "EPS Estimate": 0.14,
+      "Reported EPS": 0.08,
+      "Surprise(%)": -42.86
+    },
+    {
+      "index": "2015-03-17 17:00:00-04:00",
+      "EPS Estimate": 0.15,
+      "Reported EPS": 0.14,
+      "Surprise(%)": -5.47
+    },
+    {
+      "index": "2014-11-04 16:00:00-05:00",
+      "EPS Estimate": 0.15,
+      "Reported EPS": 0.15,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2014-08-05 16:00:00-04:00",
+      "EPS Estimate": 0.13,
+      "Reported EPS": 0.15,
+      "Surprise(%)": 15.38
+    },
+    {
+      "index": "2014-05-06 16:00:00-04:00",
+      "EPS Estimate": 0.1,
+      "Reported EPS": 0.07,
+      "Surprise(%)": -30.0
+    },
+    {
+      "index": "2014-03-11 16:00:00-04:00",
+      "EPS Estimate": 0.09,
+      "Reported EPS": 0.11,
+      "Surprise(%)": 22.22
+    },
+    {
+      "index": "2013-11-12 16:00:00-05:00",
+      "EPS Estimate": 0.09,
+      "Reported EPS": 0.08,
+      "Surprise(%)": -5.88
+    },
+    {
+      "index": "2013-08-13 16:00:00-04:00",
+      "EPS Estimate": 0.09,
+      "Reported EPS": 0.09,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2013-05-07 16:00:00-04:00",
+      "EPS Estimate": 0.11,
+      "Reported EPS": 0.11,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2013-03-12 16:00:00-04:00",
+      "EPS Estimate": 0.12,
+      "Reported EPS": 0.13,
+      "Surprise(%)": 8.33
+    },
+    {
+      "index": "2012-11-13 16:00:00-05:00",
+      "EPS Estimate": 0.1,
+      "Reported EPS": 0.12,
+      "Surprise(%)": 20.0
+    },
+    {
+      "index": "2012-08-07 16:00:00-04:00",
+      "EPS Estimate": 0.09,
+      "Reported EPS": 0.2,
+      "Surprise(%)": 122.22
+    },
+    {
+      "index": "2012-05-08 16:00:00-04:00",
+      "EPS Estimate": 0.05,
+      "Reported EPS": 0.08,
+      "Surprise(%)": 60.0
+    },
+    {
+      "index": "2012-03-13 16:00:00-04:00",
+      "EPS Estimate": 0.06,
+      "Reported EPS": 0.18,
+      "Surprise(%)": 200.0
+    },
+    {
+      "index": "2011-11-10 17:00:00-05:00",
+      "EPS Estimate": null,
+      "Reported EPS": -0.03,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2011-08-11 16:00:00-04:00",
+      "EPS Estimate": 0.12,
+      "Reported EPS": 0.13,
+      "Surprise(%)": 8.33
+    },
+    {
+      "index": "2011-05-11 16:00:00-04:00",
+      "EPS Estimate": 0.12,
+      "Reported EPS": 0.11,
+      "Surprise(%)": -8.33
+    },
+    {
+      "index": "2011-03-08 16:00:00-05:00",
+      "EPS Estimate": 0.17,
+      "Reported EPS": 0.13,
+      "Surprise(%)": -23.53
+    }
+  ],
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.0
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 2.0000001e-05
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 2.0000001e-05
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 1.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Thompson Investment Management, Inc.",
+      "pctHeld": 0.0,
+      "Shares": 232,
+      "Value": 95,
+      "pctChange": 0.0
+    }
+  ]
+}

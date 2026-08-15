@@ -1,0 +1,183 @@
+{
+  "symbol": "FJP",
+  "region": "us",
+  "name": "First Trust Japan AlphaDEX Fund",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US33737J1584",
+  "info": {
+    "longName": "First Trust Japan AlphaDEX Fund",
+    "shortName": "First Trust Japan AlphaDEX Fund",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 78.04,
+    "previousClose": 77.93,
+    "dayHigh": 78.24,
+    "dayLow": 77.71,
+    "regularMarketPrice": 77.77,
+    "regularMarketPreviousClose": 77.93,
+    "fiftyTwoWeekHigh": 82.45,
+    "fiftyTwoWeekLow": 62.01,
+    "trailingPE": 13.152149,
+    "dividendYield": 2.58,
+    "volume": 8382,
+    "averageVolume": 9645
+  },
+  "dividends": [
+    {
+      "index": "2011-12-21 09:30:00-05:00",
+      "value": 0.231
+    },
+    {
+      "index": "2012-06-21 09:30:00-04:00",
+      "value": 0.282
+    },
+    {
+      "index": "2012-12-21 09:30:00-05:00",
+      "value": 0.303
+    },
+    {
+      "index": "2013-03-21 09:30:00-04:00",
+      "value": 0.018
+    },
+    {
+      "index": "2013-06-21 09:30:00-04:00",
+      "value": 0.206
+    },
+    {
+      "index": "2013-12-18 09:30:00-05:00",
+      "value": 0.101
+    },
+    {
+      "index": "2014-06-24 09:30:00-04:00",
+      "value": 0.317
+    },
+    {
+      "index": "2014-12-23 09:30:00-05:00",
+      "value": 0.169
+    },
+    {
+      "index": "2015-06-24 09:30:00-04:00",
+      "value": 0.246
+    },
+    {
+      "index": "2015-12-23 09:30:00-05:00",
+      "value": 0.157
+    },
+    {
+      "index": "2016-06-22 09:30:00-04:00",
+      "value": 0.214
+    },
+    {
+      "index": "2016-12-21 09:30:00-05:00",
+      "value": 0.479
+    },
+    {
+      "index": "2017-06-22 09:30:00-04:00",
+      "value": 0.33
+    },
+    {
+      "index": "2017-12-21 09:30:00-05:00",
+      "value": 0.445
+    },
+    {
+      "index": "2018-06-21 09:30:00-04:00",
+      "value": 0.403
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.338
+    },
+    {
+      "index": "2019-06-14 09:30:00-04:00",
+      "value": 0.44
+    },
+    {
+      "index": "2019-09-25 09:30:00-04:00",
+      "value": 0.161
+    },
+    {
+      "index": "2019-12-13 09:30:00-05:00",
+      "value": 0.812
+    },
+    {
+      "index": "2020-06-25 09:30:00-04:00",
+      "value": 0.341
+    },
+    {
+      "index": "2020-12-24 09:30:00-05:00",
+      "value": 0.171
+    },
+    {
+      "index": "2021-03-25 09:30:00-04:00",
+      "value": 0.011
+    },
+    {
+      "index": "2021-06-24 09:30:00-04:00",
+      "value": 0.515
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 0.687
+    },
+    {
+      "index": "2022-06-24 09:30:00-04:00",
+      "value": 0.775
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 0.164
+    },
+    {
+      "index": "2023-03-24 09:30:00-04:00",
+      "value": 0.084
+    },
+    {
+      "index": "2023-06-27 09:30:00-04:00",
+      "value": 0.556
+    },
+    {
+      "index": "2023-12-22 09:30:00-05:00",
+      "value": 1.116
+    },
+    {
+      "index": "2024-03-21 09:30:00-04:00",
+      "value": 0.3
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.373
+    },
+    {
+      "index": "2024-12-13 09:30:00-05:00",
+      "value": 0.972
+    },
+    {
+      "index": "2025-06-26 09:30:00-04:00",
+      "value": 0.463
+    },
+    {
+      "index": "2025-12-12 09:30:00-05:00",
+      "value": 1.336
+    },
+    {
+      "index": "2026-03-26 09:30:00-04:00",
+      "value": 0.114
+    },
+    {
+      "index": "2026-06-25 09:30:00-04:00",
+      "value": 0.485
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,43 @@
+{
+  "symbol": "EV",
+  "region": "us",
+  "name": "Mast Global Battery Recycling & Production ETF",
+  "currency": "USD",
+  "exchange": "PCX",
+  "isin": "-",
+  "info": {
+    "longName": "Mast Global Battery Recycling & Production ETF",
+    "shortName": "NEOS ETF Trust Mast Global Batt",
+    "exchange": "PCX",
+    "currency": "USD",
+    "open": 22.02,
+    "previousClose": 21.7848,
+    "dayHigh": 21.845,
+    "dayLow": 21.845,
+    "regularMarketPrice": 21.845,
+    "regularMarketPreviousClose": 21.7848,
+    "fiftyTwoWeekHigh": 28.62,
+    "fiftyTwoWeekLow": 19.91,
+    "trailingPE": 12.311106,
+    "dividendYield": 1.83,
+    "volume": 76,
+    "averageVolume": 199
+  },
+  "dividends": [
+    {
+      "index": "2024-12-24 09:30:00-05:00",
+      "value": 0.16375
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

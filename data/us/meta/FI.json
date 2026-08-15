@@ -1,0 +1,172 @@
+{
+  "symbol": "FI",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "CH0029956346",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2026-10-28 08:00:00-04:00",
+      "EPS Estimate": 1.79,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2025-10-29 07:00:00-04:00",
+      "EPS Estimate": 2.65,
+      "Reported EPS": 2.04,
+      "Surprise(%)": -22.9
+    },
+    {
+      "index": "2025-07-23 07:00:00-04:00",
+      "EPS Estimate": 2.43,
+      "Reported EPS": 2.47,
+      "Surprise(%)": 1.49
+    },
+    {
+      "index": "2025-04-24 07:00:00-04:00",
+      "EPS Estimate": 2.08,
+      "Reported EPS": 2.14,
+      "Surprise(%)": 3.1
+    },
+    {
+      "index": "2025-02-05 07:00:00-05:00",
+      "EPS Estimate": 1.92,
+      "Reported EPS": 1.64,
+      "Surprise(%)": -14.52
+    },
+    {
+      "index": "2024-10-22 07:00:00-04:00",
+      "EPS Estimate": 2.26,
+      "Reported EPS": 2.3,
+      "Surprise(%)": 1.6
+    },
+    {
+      "index": "2024-07-24 07:00:00-04:00",
+      "EPS Estimate": 2.1,
+      "Reported EPS": 2.13,
+      "Surprise(%)": 1.4
+    },
+    {
+      "index": "2024-04-23 07:00:00-04:00",
+      "EPS Estimate": 1.79,
+      "Reported EPS": 1.88,
+      "Surprise(%)": 5.09
+    },
+    {
+      "index": "2024-02-06 07:00:00-05:00",
+      "EPS Estimate": 2.15,
+      "Reported EPS": 2.19,
+      "Surprise(%)": 1.67
+    },
+    {
+      "index": "2023-10-24 07:00:00-04:00",
+      "EPS Estimate": 1.93,
+      "Reported EPS": 1.96,
+      "Surprise(%)": 1.69
+    },
+    {
+      "index": "2023-07-26 07:00:00-04:00",
+      "EPS Estimate": 1.79,
+      "Reported EPS": 1.81,
+      "Surprise(%)": 0.87
+    },
+    {
+      "index": "2023-04-25 07:00:00-04:00",
+      "EPS Estimate": 1.56,
+      "Reported EPS": 1.58,
+      "Surprise(%)": 1.09
+    },
+    {
+      "index": "2023-02-07 07:00:00-05:00",
+      "EPS Estimate": 1.91,
+      "Reported EPS": 1.91,
+      "Surprise(%)": 0.02
+    },
+    {
+      "index": "2022-10-27 07:00:00-04:00",
+      "EPS Estimate": 1.69,
+      "Reported EPS": 1.63,
+      "Surprise(%)": -3.8
+    },
+    {
+      "index": "2022-07-26 07:00:00-04:00",
+      "EPS Estimate": 1.55,
+      "Reported EPS": 1.56,
+      "Surprise(%)": 0.8
+    },
+    {
+      "index": "2022-04-27 07:00:00-04:00",
+      "EPS Estimate": 1.35,
+      "Reported EPS": 1.4,
+      "Surprise(%)": 3.59
+    },
+    {
+      "index": "2022-02-08 07:00:00-05:00",
+      "EPS Estimate": 1.56,
+      "Reported EPS": 1.57,
+      "Surprise(%)": 0.94
+    },
+    {
+      "index": "2021-10-27 07:00:00-04:00",
+      "EPS Estimate": 1.45,
+      "Reported EPS": 1.47,
+      "Surprise(%)": 1.51
+    },
+    {
+      "index": "2021-07-27 07:00:00-04:00",
+      "EPS Estimate": 1.28,
+      "Reported EPS": 1.37,
+      "Surprise(%)": 7.07
+    },
+    {
+      "index": "2021-04-27 07:00:00-04:00",
+      "EPS Estimate": 1.13,
+      "Reported EPS": 1.17,
+      "Surprise(%)": 3.49
+    },
+    {
+      "index": "2021-02-09 16:00:00-05:00",
+      "EPS Estimate": 1.29,
+      "Reported EPS": 1.3,
+      "Surprise(%)": 0.67
+    },
+    {
+      "index": "2020-10-27 16:00:00-04:00",
+      "EPS Estimate": 1.16,
+      "Reported EPS": 1.2,
+      "Surprise(%)": 3.85
+    },
+    {
+      "index": "2020-08-05 16:00:00-04:00",
+      "EPS Estimate": 0.93,
+      "Reported EPS": 0.93,
+      "Surprise(%)": -0.14
+    },
+    {
+      "index": "2020-05-07 17:00:00-04:00",
+      "EPS Estimate": 0.99,
+      "Reported EPS": 0.99,
+      "Surprise(%)": 0.42
+    },
+    {
+      "index": "2020-02-04 16:00:00-05:00",
+      "EPS Estimate": 1.14,
+      "Reported EPS": 1.13,
+      "Surprise(%)": -0.95
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,90 @@
+{
+  "symbol": "ENO",
+  "region": "us",
+  "name": "Entergy Utility Group, Inc. 1ST MTG BD 66",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "Entergy Utility Group, Inc. 1ST MTG BD 66",
+    "shortName": "Entergy New Orleans, LLC First ",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 21.0,
+    "previousClose": 20.95,
+    "dayHigh": 21.0,
+    "dayLow": 20.905,
+    "regularMarketPrice": 20.94,
+    "regularMarketPreviousClose": 20.95,
+    "fiftyTwoWeekHigh": 24.95,
+    "fiftyTwoWeekLow": 20.82,
+    "volume": 2185,
+    "averageVolume": 7395,
+    "sharesOutstanding": 8435900
+  },
+  "dividends": [
+    {
+      "index": "2016-06-28 09:30:00-04:00",
+      "value": 0.378
+    },
+    {
+      "index": "2016-09-28 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2016-12-28 09:30:00-05:00",
+      "value": 0.344
+    },
+    {
+      "index": "2017-03-29 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2017-06-28 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2017-09-28 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2017-12-28 09:30:00-05:00",
+      "value": 0.344
+    },
+    {
+      "index": "2018-03-28 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2018-06-28 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2024-12-31 09:30:00-05:00",
+      "value": 0.344
+    },
+    {
+      "index": "2025-03-31 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2026-03-31 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2026-06-30 09:30:00-04:00",
+      "value": 0.344
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

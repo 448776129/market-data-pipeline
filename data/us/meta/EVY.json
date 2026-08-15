@@ -1,0 +1,33 @@
+{
+  "symbol": "EVY",
+  "region": "us",
+  "name": "Eaton Vance New York Municipal Income Trust",
+  "currency": "USD",
+  "exchange": "ASE",
+  "isin": "-",
+  "info": {
+    "longName": "Eaton Vance New York Municipal Income Trust",
+    "shortName": "EVY,0P00002CZN,0",
+    "exchange": "ASE",
+    "currency": "USD",
+    "regularMarketPrice": 15.17,
+    "regularMarketPreviousClose": 15.17,
+    "fiftyTwoWeekHigh": 15.18,
+    "fiftyTwoWeekLow": 15.16,
+    "trailingPE": 12.877759,
+    "priceToBook": 1.0011219,
+    "sharesOutstanding": 5401830
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,166 @@
+{
+  "symbol": "EYEG",
+  "region": "us",
+  "name": "AB Corporate Bond ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US00039J8633",
+  "info": {
+    "longName": "AB Corporate Bond ETF",
+    "shortName": "AB Corporate Bond ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 34.555,
+    "previousClose": 34.67,
+    "dayHigh": 34.555,
+    "dayLow": 34.555,
+    "regularMarketPrice": 34.555,
+    "regularMarketPreviousClose": 34.67,
+    "fiftyTwoWeekHigh": 36.63,
+    "fiftyTwoWeekLow": 34.46,
+    "dividendYield": 5.02,
+    "volume": 11,
+    "averageVolume": 363
+  },
+  "dividends": [
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.091
+    },
+    {
+      "index": "2024-02-01 09:30:00-05:00",
+      "value": 0.148
+    },
+    {
+      "index": "2024-03-01 09:30:00-05:00",
+      "value": 0.149
+    },
+    {
+      "index": "2024-04-01 09:30:00-04:00",
+      "value": 0.157
+    },
+    {
+      "index": "2024-05-01 09:30:00-04:00",
+      "value": 0.148
+    },
+    {
+      "index": "2024-06-03 09:30:00-04:00",
+      "value": 0.154
+    },
+    {
+      "index": "2024-07-01 09:30:00-04:00",
+      "value": 0.15
+    },
+    {
+      "index": "2024-08-01 09:30:00-04:00",
+      "value": 0.155
+    },
+    {
+      "index": "2024-09-03 09:30:00-04:00",
+      "value": 0.149
+    },
+    {
+      "index": "2024-10-01 09:30:00-04:00",
+      "value": 0.148
+    },
+    {
+      "index": "2024-11-01 09:30:00-04:00",
+      "value": 0.152
+    },
+    {
+      "index": "2024-12-02 09:30:00-05:00",
+      "value": 0.146
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.471
+    },
+    {
+      "index": "2025-02-03 09:30:00-05:00",
+      "value": 0.141
+    },
+    {
+      "index": "2025-03-03 09:30:00-05:00",
+      "value": 0.139
+    },
+    {
+      "index": "2025-04-01 09:30:00-04:00",
+      "value": 0.153
+    },
+    {
+      "index": "2025-05-01 09:30:00-04:00",
+      "value": 0.15
+    },
+    {
+      "index": "2025-06-02 09:30:00-04:00",
+      "value": 0.151
+    },
+    {
+      "index": "2025-07-01 09:30:00-04:00",
+      "value": 0.142
+    },
+    {
+      "index": "2025-08-01 09:30:00-04:00",
+      "value": 0.15
+    },
+    {
+      "index": "2025-09-02 09:30:00-04:00",
+      "value": 0.142
+    },
+    {
+      "index": "2025-10-01 09:30:00-04:00",
+      "value": 0.136
+    },
+    {
+      "index": "2025-11-03 09:30:00-05:00",
+      "value": 0.139
+    },
+    {
+      "index": "2025-12-01 09:30:00-05:00",
+      "value": 0.139
+    },
+    {
+      "index": "2025-12-31 09:30:00-05:00",
+      "value": 0.185
+    },
+    {
+      "index": "2026-02-02 09:30:00-05:00",
+      "value": 0.141
+    },
+    {
+      "index": "2026-03-02 09:30:00-05:00",
+      "value": 0.139
+    },
+    {
+      "index": "2026-04-01 09:30:00-04:00",
+      "value": 0.143
+    },
+    {
+      "index": "2026-05-01 09:30:00-04:00",
+      "value": 0.14
+    },
+    {
+      "index": "2026-06-01 09:30:00-04:00",
+      "value": 0.142
+    },
+    {
+      "index": "2026-07-01 09:30:00-04:00",
+      "value": 0.136
+    },
+    {
+      "index": "2026-08-03 09:30:00-04:00",
+      "value": 0.143
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

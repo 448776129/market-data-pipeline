@@ -1,0 +1,172 @@
+{
+  "symbol": "ERJ",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "CNE0000017Z3",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2026-11-10 07:00:00-05:00",
+      "EPS Estimate": 0.77,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2025-11-04 06:00:00-05:00",
+      "EPS Estimate": 0.5,
+      "Reported EPS": 0.3,
+      "Surprise(%)": -41.14
+    },
+    {
+      "index": "2025-08-06 06:00:00-04:00",
+      "EPS Estimate": 0.55,
+      "Reported EPS": 0.65,
+      "Surprise(%)": 17.8
+    },
+    {
+      "index": "2025-05-06 10:00:00-04:00",
+      "EPS Estimate": -0.02,
+      "Reported EPS": -0.4,
+      "Surprise(%)": -2362.81
+    },
+    {
+      "index": "2025-02-27 05:00:00-05:00",
+      "EPS Estimate": 0.61,
+      "Reported EPS": 0.94,
+      "Surprise(%)": 55.55
+    },
+    {
+      "index": "2024-11-08 07:00:00-05:00",
+      "EPS Estimate": 0.76,
+      "Reported EPS": 1.2,
+      "Surprise(%)": 59.35
+    },
+    {
+      "index": "2024-08-08 09:00:00-04:00",
+      "EPS Estimate": 0.3,
+      "Reported EPS": 0.44,
+      "Surprise(%)": 47.85
+    },
+    {
+      "index": "2024-05-07 11:00:00-04:00",
+      "EPS Estimate": -0.23,
+      "Reported EPS": -0.07,
+      "Surprise(%)": 69.71
+    },
+    {
+      "index": "2024-03-18 07:00:00-04:00",
+      "EPS Estimate": 0.69,
+      "Reported EPS": 0.38,
+      "Surprise(%)": -44.79
+    },
+    {
+      "index": "2023-11-06 07:00:00-05:00",
+      "EPS Estimate": 0.17,
+      "Reported EPS": 0.18,
+      "Surprise(%)": 5.98
+    },
+    {
+      "index": "2023-08-14 08:00:00-04:00",
+      "EPS Estimate": 0.14,
+      "Reported EPS": 0.32,
+      "Surprise(%)": 119.34
+    },
+    {
+      "index": "2023-05-04 07:00:00-04:00",
+      "EPS Estimate": -0.18,
+      "Reported EPS": -0.48,
+      "Surprise(%)": -169.0
+    },
+    {
+      "index": "2023-03-10 06:00:00-05:00",
+      "EPS Estimate": 0.31,
+      "Reported EPS": 0.24,
+      "Surprise(%)": -24.97
+    },
+    {
+      "index": "2022-11-14 06:00:00-05:00",
+      "EPS Estimate": 0.1,
+      "Reported EPS": 0.13,
+      "Surprise(%)": 33.1
+    },
+    {
+      "index": "2022-08-04 06:00:00-04:00",
+      "EPS Estimate": -0.07,
+      "Reported EPS": 0.4,
+      "Surprise(%)": 677.14
+    },
+    {
+      "index": "2022-04-28 06:00:00-04:00",
+      "EPS Estimate": -0.29,
+      "Reported EPS": -0.43,
+      "Surprise(%)": -47.82
+    },
+    {
+      "index": "2022-03-09 17:00:00-05:00",
+      "EPS Estimate": 0.11,
+      "Reported EPS": 0.31,
+      "Surprise(%)": 189.16
+    },
+    {
+      "index": "2021-11-05 06:00:00-04:00",
+      "EPS Estimate": -0.16,
+      "Reported EPS": -0.18,
+      "Surprise(%)": -12.67
+    },
+    {
+      "index": "2021-08-13 06:00:00-04:00",
+      "EPS Estimate": -0.28,
+      "Reported EPS": 0.24,
+      "Surprise(%)": 183.43
+    },
+    {
+      "index": "2021-04-29 06:00:00-04:00",
+      "EPS Estimate": -0.4,
+      "Reported EPS": -0.52,
+      "Surprise(%)": -30.76
+    },
+    {
+      "index": "2021-03-19 07:00:00-04:00",
+      "EPS Estimate": -0.41,
+      "Reported EPS": -0.07,
+      "Surprise(%)": 83.6
+    },
+    {
+      "index": "2020-11-10 05:00:00-05:00",
+      "EPS Estimate": -0.43,
+      "Reported EPS": -0.81,
+      "Surprise(%)": -87.38
+    },
+    {
+      "index": "2020-08-05 06:00:00-04:00",
+      "EPS Estimate": -0.47,
+      "Reported EPS": -1.08,
+      "Surprise(%)": -127.43
+    },
+    {
+      "index": "2020-06-01 06:00:00-04:00",
+      "EPS Estimate": -0.35,
+      "Reported EPS": -0.57,
+      "Surprise(%)": -63.39
+    },
+    {
+      "index": "2020-03-26 06:00:00-04:00",
+      "EPS Estimate": -0.09,
+      "Reported EPS": -0.51,
+      "Surprise(%)": -448.86
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

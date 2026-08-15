@@ -1,0 +1,187 @@
+{
+  "symbol": "FEUZ",
+  "region": "us",
+  "name": "First Trust Eurozone AlphaDEX ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "DE000A2PBZX9",
+  "info": {
+    "longName": "First Trust Eurozone AlphaDEX ETF",
+    "shortName": "First Trust Eurozone AlphaDEX E",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 68.795,
+    "previousClose": 68.4,
+    "dayHigh": 68.799,
+    "dayLow": 68.795,
+    "regularMarketPrice": 68.799,
+    "regularMarketPreviousClose": 68.4,
+    "fiftyTwoWeekHigh": 73.02,
+    "fiftyTwoWeekLow": 56.218,
+    "trailingPE": 13.619727,
+    "dividendYield": 2.65,
+    "volume": 718,
+    "averageVolume": 3447
+  },
+  "dividends": [
+    {
+      "index": "2014-12-23 09:30:00-05:00",
+      "value": 0.007
+    },
+    {
+      "index": "2015-06-24 09:30:00-04:00",
+      "value": 0.316
+    },
+    {
+      "index": "2015-09-23 09:30:00-04:00",
+      "value": 0.026
+    },
+    {
+      "index": "2016-06-22 09:30:00-04:00",
+      "value": 0.48
+    },
+    {
+      "index": "2016-09-21 09:30:00-04:00",
+      "value": 0.212
+    },
+    {
+      "index": "2017-03-23 09:30:00-04:00",
+      "value": 0.072
+    },
+    {
+      "index": "2017-06-22 09:30:00-04:00",
+      "value": 0.43
+    },
+    {
+      "index": "2017-09-21 09:30:00-04:00",
+      "value": 0.063
+    },
+    {
+      "index": "2018-03-22 09:30:00-04:00",
+      "value": 0.006
+    },
+    {
+      "index": "2018-06-21 09:30:00-04:00",
+      "value": 0.655
+    },
+    {
+      "index": "2018-09-14 09:30:00-04:00",
+      "value": 0.153
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.026
+    },
+    {
+      "index": "2019-06-14 09:30:00-04:00",
+      "value": 0.526
+    },
+    {
+      "index": "2019-09-25 09:30:00-04:00",
+      "value": 0.111
+    },
+    {
+      "index": "2019-12-13 09:30:00-05:00",
+      "value": 0.153
+    },
+    {
+      "index": "2020-06-25 09:30:00-04:00",
+      "value": 0.183
+    },
+    {
+      "index": "2020-09-24 09:30:00-04:00",
+      "value": 0.218
+    },
+    {
+      "index": "2020-12-24 09:30:00-05:00",
+      "value": 0.217
+    },
+    {
+      "index": "2021-06-24 09:30:00-04:00",
+      "value": 0.671
+    },
+    {
+      "index": "2021-09-23 09:30:00-04:00",
+      "value": 0.208
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 0.281
+    },
+    {
+      "index": "2022-03-25 09:30:00-04:00",
+      "value": 0.018
+    },
+    {
+      "index": "2022-06-24 09:30:00-04:00",
+      "value": 0.956
+    },
+    {
+      "index": "2022-09-23 09:30:00-04:00",
+      "value": 0.107
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 0.041
+    },
+    {
+      "index": "2023-06-27 09:30:00-04:00",
+      "value": 0.907
+    },
+    {
+      "index": "2023-09-22 09:30:00-04:00",
+      "value": 0.101
+    },
+    {
+      "index": "2023-12-22 09:30:00-05:00",
+      "value": 0.193
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.296
+    },
+    {
+      "index": "2024-09-26 09:30:00-04:00",
+      "value": 0.3
+    },
+    {
+      "index": "2024-12-13 09:30:00-05:00",
+      "value": 0.201
+    },
+    {
+      "index": "2025-03-27 09:30:00-04:00",
+      "value": 0.121
+    },
+    {
+      "index": "2025-06-26 09:30:00-04:00",
+      "value": 0.909
+    },
+    {
+      "index": "2025-09-25 09:30:00-04:00",
+      "value": 0.214
+    },
+    {
+      "index": "2025-12-12 09:30:00-05:00",
+      "value": 0.484
+    },
+    {
+      "index": "2026-03-26 09:30:00-04:00",
+      "value": 0.014
+    },
+    {
+      "index": "2026-06-25 09:30:00-04:00",
+      "value": 1.085
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

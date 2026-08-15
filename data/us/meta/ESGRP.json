@@ -1,0 +1,27 @@
+{
+  "symbol": "ESGRP",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NMS",
+  "isin": "-",
+  "info": {
+    "shortName": "Enstar Group Limited - Deposita",
+    "exchange": "NMS",
+    "currency": "USD",
+    "previousClose": 20.48,
+    "regularMarketPreviousClose": 20.48
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

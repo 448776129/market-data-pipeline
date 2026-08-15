@@ -1,0 +1,183 @@
+{
+  "symbol": "EQRR",
+  "region": "us",
+  "name": "ProShares Equities for Rising Rates ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US74347B3915",
+  "info": {
+    "longName": "ProShares Equities for Rising Rates ETF",
+    "shortName": "ProShares Equities for Rising R",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 87.67,
+    "previousClose": 86.98,
+    "dayHigh": 87.765,
+    "dayLow": 87.4352,
+    "regularMarketPrice": 87.4352,
+    "regularMarketPreviousClose": 86.98,
+    "fiftyTwoWeekHigh": 87.765,
+    "fiftyTwoWeekLow": 60.49,
+    "trailingPE": 19.758333,
+    "dividendYield": 1.07,
+    "volume": 2864,
+    "averageVolume": 33572
+  },
+  "dividends": [
+    {
+      "index": "2017-09-27 09:30:00-04:00",
+      "value": 0.141
+    },
+    {
+      "index": "2017-12-26 09:30:00-05:00",
+      "value": 0.179
+    },
+    {
+      "index": "2018-03-21 09:30:00-04:00",
+      "value": 0.159
+    },
+    {
+      "index": "2018-06-20 09:30:00-04:00",
+      "value": 0.149
+    },
+    {
+      "index": "2018-09-26 09:30:00-04:00",
+      "value": 0.325
+    },
+    {
+      "index": "2018-12-26 09:30:00-05:00",
+      "value": 0.285
+    },
+    {
+      "index": "2019-03-20 09:30:00-04:00",
+      "value": 0.219
+    },
+    {
+      "index": "2019-06-25 09:30:00-04:00",
+      "value": 0.183
+    },
+    {
+      "index": "2019-09-25 09:30:00-04:00",
+      "value": 0.227
+    },
+    {
+      "index": "2019-12-24 09:30:00-05:00",
+      "value": 0.265
+    },
+    {
+      "index": "2020-03-25 09:30:00-04:00",
+      "value": 0.224
+    },
+    {
+      "index": "2020-06-24 09:30:00-04:00",
+      "value": 0.167
+    },
+    {
+      "index": "2020-09-23 09:30:00-04:00",
+      "value": 0.165
+    },
+    {
+      "index": "2020-12-23 09:30:00-05:00",
+      "value": 0.27
+    },
+    {
+      "index": "2021-03-23 09:30:00-04:00",
+      "value": 0.119
+    },
+    {
+      "index": "2021-06-22 09:30:00-04:00",
+      "value": 0.187
+    },
+    {
+      "index": "2021-09-22 09:30:00-04:00",
+      "value": 0.262
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 0.302
+    },
+    {
+      "index": "2022-03-23 09:30:00-04:00",
+      "value": 0.131
+    },
+    {
+      "index": "2022-06-22 09:30:00-04:00",
+      "value": 0.368
+    },
+    {
+      "index": "2022-09-21 09:30:00-04:00",
+      "value": 0.319
+    },
+    {
+      "index": "2022-12-22 09:30:00-05:00",
+      "value": 0.37
+    },
+    {
+      "index": "2023-03-22 09:30:00-04:00",
+      "value": 0.284
+    },
+    {
+      "index": "2023-06-21 09:30:00-04:00",
+      "value": 0.403
+    },
+    {
+      "index": "2023-09-20 09:30:00-04:00",
+      "value": 0.288
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.512
+    },
+    {
+      "index": "2024-03-20 09:30:00-04:00",
+      "value": 0.268
+    },
+    {
+      "index": "2024-06-26 09:30:00-04:00",
+      "value": 0.333
+    },
+    {
+      "index": "2024-09-25 09:30:00-04:00",
+      "value": 0.325
+    },
+    {
+      "index": "2024-12-23 09:30:00-05:00",
+      "value": 0.303
+    },
+    {
+      "index": "2025-03-26 09:30:00-04:00",
+      "value": 0.341
+    },
+    {
+      "index": "2025-06-25 09:30:00-04:00",
+      "value": 0.299
+    },
+    {
+      "index": "2025-09-24 09:30:00-04:00",
+      "value": 0.233
+    },
+    {
+      "index": "2025-12-24 09:30:00-05:00",
+      "value": 0.219
+    },
+    {
+      "index": "2026-03-25 09:30:00-04:00",
+      "value": 0.233
+    },
+    {
+      "index": "2026-06-24 09:30:00-04:00",
+      "value": 0.198
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

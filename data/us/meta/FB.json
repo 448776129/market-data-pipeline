@@ -1,0 +1,54 @@
+{
+  "symbol": "FB",
+  "region": "us",
+  "name": "ProShares S&P 500 Dynamic Daily Buffer ETF",
+  "currency": "USD",
+  "exchange": "BTS",
+  "isin": "US74349Y6133",
+  "info": {
+    "longName": "ProShares S&P 500 Dynamic Daily Buffer ETF",
+    "shortName": "ProShares S&P 500 Dynamic Buffe",
+    "exchange": "BTS",
+    "currency": "USD",
+    "open": 45.07,
+    "previousClose": 45.1074,
+    "dayHigh": 45.13,
+    "dayLow": 45.02,
+    "regularMarketPrice": 45.0763,
+    "regularMarketPreviousClose": 45.1074,
+    "fiftyTwoWeekHigh": 49.67,
+    "fiftyTwoWeekLow": 40.6,
+    "dividendYield": 1.99,
+    "volume": 707,
+    "averageVolume": 2629
+  },
+  "dividends": [
+    {
+      "index": "2025-09-24 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2025-12-24 09:30:00-05:00",
+      "value": 0.242
+    },
+    {
+      "index": "2026-03-25 09:30:00-04:00",
+      "value": 0.163
+    },
+    {
+      "index": "2026-06-24 09:30:00-04:00",
+      "value": 0.336
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
