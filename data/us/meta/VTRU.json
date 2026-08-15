@@ -1,0 +1,94 @@
+{
+  "symbol": "VTRU",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "KYG9440D1034",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2023-05-12 00:00:00-04:00",
+      "EPS Estimate": 1.2,
+      "Reported EPS": 3.46,
+      "Surprise(%)": 188.57
+    },
+    {
+      "index": "2023-03-16 20:00:00-04:00",
+      "EPS Estimate": -0.9,
+      "Reported EPS": 2.27,
+      "Surprise(%)": 351.73
+    },
+    {
+      "index": "2023-03-16 05:00:00-04:00",
+      "EPS Estimate": -0.54,
+      "Reported EPS": 1.39,
+      "Surprise(%)": 356.85
+    },
+    {
+      "index": "2022-10-19 06:00:00-04:00",
+      "EPS Estimate": 0.25,
+      "Reported EPS": 2.07,
+      "Surprise(%)": 729.52
+    },
+    {
+      "index": "2022-07-19 21:00:00-04:00",
+      "EPS Estimate": 0.9,
+      "Reported EPS": 2.31,
+      "Surprise(%)": 157.59
+    },
+    {
+      "index": "2022-05-12 04:00:00-04:00",
+      "EPS Estimate": 1.21,
+      "Reported EPS": 1.08,
+      "Surprise(%)": -10.57
+    },
+    {
+      "index": "2022-03-07 05:00:00-05:00",
+      "EPS Estimate": 0.63,
+      "Reported EPS": 1.6,
+      "Surprise(%)": 155.31
+    },
+    {
+      "index": "2021-11-07 17:00:00-05:00",
+      "EPS Estimate": 0.83,
+      "Reported EPS": 0.55,
+      "Surprise(%)": -34.01
+    },
+    {
+      "index": "2021-08-23 22:00:00-04:00",
+      "EPS Estimate": 1.54,
+      "Reported EPS": 0.95,
+      "Surprise(%)": -38.37
+    },
+    {
+      "index": "2021-05-06 16:00:00-04:00",
+      "EPS Estimate": 0.93,
+      "Reported EPS": 0.65,
+      "Surprise(%)": -30.2
+    },
+    {
+      "index": "2021-01-26 04:00:00-05:00",
+      "EPS Estimate": -0.31,
+      "Reported EPS": 0.82,
+      "Surprise(%)": 361.59
+    },
+    {
+      "index": "2020-10-13 06:00:00-04:00",
+      "EPS Estimate": 0.22,
+      "Reported EPS": 0.42,
+      "Surprise(%)": 93.44
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

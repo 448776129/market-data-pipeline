@@ -1,0 +1,178 @@
+{
+  "symbol": "VTIP",
+  "region": "us",
+  "name": "Vanguard Short-Term Inflation-Protected Securities Index Fund ETF Shares",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US9220208055",
+  "info": {
+    "longName": "Vanguard Short-Term Inflation-Protected Securities Index Fund ETF Shares",
+    "shortName": "Vanguard Short-Term Inflation-P",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 49.73,
+    "previousClose": 49.71,
+    "dayHigh": 49.74,
+    "dayLow": 49.7,
+    "regularMarketPrice": 49.705,
+    "regularMarketPreviousClose": 49.71,
+    "fiftyTwoWeekHigh": 50.81,
+    "fiftyTwoWeekLow": 49.35,
+    "dividendYield": 4.16,
+    "volume": 1496949,
+    "averageVolume": 2606480
+  },
+  "dividends": [
+    {
+      "index": "2012-12-20 09:30:00-05:00",
+      "value": 0.052
+    },
+    {
+      "index": "2013-12-20 09:30:00-05:00",
+      "value": 0.023
+    },
+    {
+      "index": "2014-12-18 09:30:00-05:00",
+      "value": 0.395
+    },
+    {
+      "index": "2016-12-14 09:30:00-05:00",
+      "value": 0.374
+    },
+    {
+      "index": "2017-12-26 09:30:00-05:00",
+      "value": 0.742
+    },
+    {
+      "index": "2018-06-18 09:30:00-04:00",
+      "value": 0.293
+    },
+    {
+      "index": "2018-09-24 09:30:00-04:00",
+      "value": 0.524
+    },
+    {
+      "index": "2018-12-13 09:30:00-05:00",
+      "value": 0.355
+    },
+    {
+      "index": "2019-06-17 09:30:00-04:00",
+      "value": 0.17
+    },
+    {
+      "index": "2019-09-24 09:30:00-04:00",
+      "value": 0.439
+    },
+    {
+      "index": "2019-12-23 09:30:00-05:00",
+      "value": 0.351
+    },
+    {
+      "index": "2020-10-01 09:30:00-04:00",
+      "value": 0.28
+    },
+    {
+      "index": "2020-12-23 09:30:00-05:00",
+      "value": 0.333
+    },
+    {
+      "index": "2021-03-25 09:30:00-04:00",
+      "value": 0.094
+    },
+    {
+      "index": "2021-07-01 09:30:00-04:00",
+      "value": 0.481
+    },
+    {
+      "index": "2021-10-01 09:30:00-04:00",
+      "value": 0.874
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 0.958
+    },
+    {
+      "index": "2022-04-01 09:30:00-04:00",
+      "value": 0.487
+    },
+    {
+      "index": "2022-07-01 09:30:00-04:00",
+      "value": 0.685
+    },
+    {
+      "index": "2022-10-03 09:30:00-04:00",
+      "value": 0.904
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 1.117
+    },
+    {
+      "index": "2023-04-03 09:30:00-04:00",
+      "value": 0.029
+    },
+    {
+      "index": "2023-07-03 09:30:00-04:00",
+      "value": 0.349
+    },
+    {
+      "index": "2023-10-02 09:30:00-04:00",
+      "value": 0.342
+    },
+    {
+      "index": "2023-12-22 09:30:00-05:00",
+      "value": 0.638
+    },
+    {
+      "index": "2024-04-01 09:30:00-04:00",
+      "value": 0.027
+    },
+    {
+      "index": "2024-07-01 09:30:00-04:00",
+      "value": 0.444
+    },
+    {
+      "index": "2024-10-01 09:30:00-04:00",
+      "value": 0.308
+    },
+    {
+      "index": "2024-12-24 09:30:00-05:00",
+      "value": 0.529
+    },
+    {
+      "index": "2025-04-01 09:30:00-04:00",
+      "value": 0.098
+    },
+    {
+      "index": "2025-07-01 09:30:00-04:00",
+      "value": 0.426
+    },
+    {
+      "index": "2025-10-01 09:30:00-04:00",
+      "value": 0.648
+    },
+    {
+      "index": "2025-12-18 09:30:00-05:00",
+      "value": 0.711
+    },
+    {
+      "index": "2026-04-01 09:30:00-04:00",
+      "value": 0.023
+    },
+    {
+      "index": "2026-07-01 09:30:00-04:00",
+      "value": 0.68
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

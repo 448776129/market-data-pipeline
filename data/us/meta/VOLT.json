@@ -1,0 +1,47 @@
+{
+  "symbol": "VOLT",
+  "region": "us",
+  "name": "Tema Electrification ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US87975E8342",
+  "info": {
+    "longName": "Tema Electrification ETF",
+    "shortName": "Tema Electrification ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 38.36,
+    "previousClose": 38.37,
+    "dayHigh": 38.905,
+    "dayLow": 38.3368,
+    "regularMarketPrice": 38.77,
+    "regularMarketPreviousClose": 38.37,
+    "fiftyTwoWeekHigh": 42.16,
+    "fiftyTwoWeekLow": 26.664,
+    "trailingPE": 33.02259,
+    "dividendYield": 0.24,
+    "volume": 119279,
+    "averageVolume": 359359
+  },
+  "dividends": [
+    {
+      "index": "2024-12-27 09:30:00-05:00",
+      "value": 0.001
+    },
+    {
+      "index": "2025-12-10 09:30:00-05:00",
+      "value": 0.132
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

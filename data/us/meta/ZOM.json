@@ -1,0 +1,64 @@
+{
+  "symbol": "ZOM",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "INE758T01015",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2021-02-26 16:00:00-05:00",
+      "EPS Estimate": null,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2020-11-12 06:00:00-05:00",
+      "EPS Estimate": null,
+      "Reported EPS": -0.01,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2020-08-10 16:00:00-04:00",
+      "EPS Estimate": -0.01,
+      "Reported EPS": -0.02,
+      "Surprise(%)": -100.0
+    },
+    {
+      "index": "2020-05-11 16:00:00-04:00",
+      "EPS Estimate": -0.02,
+      "Reported EPS": -0.02,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2020-02-26 17:00:00-05:00",
+      "EPS Estimate": -0.02,
+      "Reported EPS": -0.03,
+      "Surprise(%)": -50.0
+    },
+    {
+      "index": "2019-11-12 16:00:00-05:00",
+      "EPS Estimate": -0.02,
+      "Reported EPS": -0.03,
+      "Surprise(%)": -50.0
+    },
+    {
+      "index": "2019-08-08 16:00:00-04:00",
+      "EPS Estimate": -0.06,
+      "Reported EPS": -0.02,
+      "Surprise(%)": 66.67
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

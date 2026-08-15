@@ -1,0 +1,87 @@
+{
+  "symbol": "VPN",
+  "region": "us",
+  "name": "Global X Data Center & Digital Infrastructure ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "longName": "Global X Data Center & Digital Infrastructure ETF",
+    "shortName": "Global X Data Center REITs & Di",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 15.58,
+    "previousClose": 15.575,
+    "dayHigh": 15.75,
+    "dayLow": 15.5146,
+    "regularMarketPrice": 15.55,
+    "regularMarketPreviousClose": 15.575,
+    "fiftyTwoWeekHigh": 16.36,
+    "fiftyTwoWeekLow": 11.86,
+    "trailingPE": 32.7952,
+    "dividendYield": 1.11,
+    "volume": 25435,
+    "averageVolume": 30558
+  },
+  "dividends": [
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.046238
+    },
+    {
+      "index": "2021-06-29 09:30:00-04:00",
+      "value": 0.067567
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.1671
+    },
+    {
+      "index": "2022-06-29 09:30:00-04:00",
+      "value": 0.071982
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.353967
+    },
+    {
+      "index": "2023-06-29 09:30:00-04:00",
+      "value": 0.076736
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.09625
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.108148
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.17608
+    },
+    {
+      "index": "2025-06-27 09:30:00-04:00",
+      "value": 0.096707
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.135204
+    },
+    {
+      "index": "2026-06-29 09:30:00-04:00",
+      "value": 0.112494
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

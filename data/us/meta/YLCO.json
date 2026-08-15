@@ -1,0 +1,185 @@
+{
+  "symbol": "YLCO",
+  "region": "us",
+  "name": "Global X YieldCo & Renewable Energy Income ETF",
+  "currency": "USD",
+  "exchange": "NMS",
+  "isin": "-",
+  "info": {
+    "longName": "Global X YieldCo & Renewable Energy Income ETF",
+    "shortName": "Global X YieldCo & Renewable En",
+    "exchange": "NMS",
+    "currency": "USD",
+    "open": 18.59,
+    "previousClose": 18.35,
+    "dayHigh": 18.5997,
+    "dayLow": 18.01,
+    "regularMarketPrice": 18.14,
+    "regularMarketPreviousClose": 18.35,
+    "fiftyTwoWeekHigh": 20.25,
+    "fiftyTwoWeekLow": 10.02,
+    "volume": 114122,
+    "averageVolume": 94021
+  },
+  "dividends": [
+    {
+      "index": "2015-08-10 09:30:00-04:00",
+      "value": 0.405
+    },
+    {
+      "index": "2015-11-06 09:30:00-05:00",
+      "value": 0.435
+    },
+    {
+      "index": "2015-12-29 09:30:00-05:00",
+      "value": 0.280308
+    },
+    {
+      "index": "2016-02-05 09:30:00-05:00",
+      "value": 0.435
+    },
+    {
+      "index": "2016-05-06 09:30:00-04:00",
+      "value": 0.435
+    },
+    {
+      "index": "2016-08-05 09:30:00-04:00",
+      "value": 0.39
+    },
+    {
+      "index": "2016-11-07 09:30:00-05:00",
+      "value": 0.375
+    },
+    {
+      "index": "2017-02-07 09:30:00-05:00",
+      "value": 0.375
+    },
+    {
+      "index": "2017-05-05 09:30:00-04:00",
+      "value": 0.375
+    },
+    {
+      "index": "2017-08-07 09:30:00-04:00",
+      "value": 0.3825
+    },
+    {
+      "index": "2017-11-07 09:30:00-05:00",
+      "value": 0.3912
+    },
+    {
+      "index": "2017-12-28 09:30:00-05:00",
+      "value": 0.039594
+    },
+    {
+      "index": "2018-02-08 09:30:00-05:00",
+      "value": 0.4221
+    },
+    {
+      "index": "2018-05-10 09:30:00-04:00",
+      "value": 0.4458
+    },
+    {
+      "index": "2018-08-09 09:30:00-04:00",
+      "value": 0.4458
+    },
+    {
+      "index": "2018-11-08 09:30:00-05:00",
+      "value": 0.4458
+    },
+    {
+      "index": "2019-02-07 09:30:00-05:00",
+      "value": 0.3369
+    },
+    {
+      "index": "2019-05-07 09:30:00-04:00",
+      "value": 0.3294
+    },
+    {
+      "index": "2019-08-07 09:30:00-04:00",
+      "value": 0.3123
+    },
+    {
+      "index": "2019-11-07 09:30:00-05:00",
+      "value": 0.3123
+    },
+    {
+      "index": "2019-12-30 09:30:00-05:00",
+      "value": 0.03279
+    },
+    {
+      "index": "2020-02-07 09:30:00-05:00",
+      "value": 0.3303
+    },
+    {
+      "index": "2020-05-07 09:30:00-04:00",
+      "value": 0.345
+    },
+    {
+      "index": "2020-08-07 09:30:00-04:00",
+      "value": 0.3645
+    },
+    {
+      "index": "2020-11-06 09:30:00-05:00",
+      "value": 0.3735
+    },
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.309324
+    },
+    {
+      "index": "2021-06-29 09:30:00-04:00",
+      "value": 0.304989
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.211323
+    },
+    {
+      "index": "2022-06-29 09:30:00-04:00",
+      "value": 0.266418
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.184587
+    },
+    {
+      "index": "2023-06-29 09:30:00-04:00",
+      "value": 0.238353
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.247278
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.199731
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.184404
+    },
+    {
+      "index": "2025-06-27 09:30:00-04:00",
+      "value": 0.125625
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.374085
+    },
+    {
+      "index": "2026-06-29 09:30:00-04:00",
+      "value": 0.213265
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

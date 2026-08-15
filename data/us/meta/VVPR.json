@@ -1,0 +1,34 @@
+{
+  "symbol": "VVPR",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2022-09-15 20:00:00-04:00",
+      "EPS Estimate": -1.9,
+      "Reported EPS": -5.5,
+      "Surprise(%)": -189.47
+    },
+    {
+      "index": "2022-09-15 20:00:00-04:00",
+      "EPS Estimate": -2.2,
+      "Reported EPS": -2.2,
+      "Surprise(%)": null
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

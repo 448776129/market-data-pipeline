@@ -1,0 +1,207 @@
+{
+  "symbol": "VYMI",
+  "region": "us",
+  "name": "Vanguard International High Dividend Yield Index Fund ETF Shares",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US9219467944",
+  "info": {
+    "longName": "Vanguard International High Dividend Yield Index Fund ETF Shares",
+    "shortName": "Vanguard International High Div",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 104.72,
+    "previousClose": 104.61,
+    "dayHigh": 104.88,
+    "dayLow": 104.535,
+    "regularMarketPrice": 104.63,
+    "regularMarketPreviousClose": 104.61,
+    "fiftyTwoWeekHigh": 105.3,
+    "fiftyTwoWeekLow": 82.845,
+    "trailingPE": 15.121752,
+    "dividendYield": 3.49,
+    "volume": 813019,
+    "averageVolume": 903173
+  },
+  "dividends": [
+    {
+      "index": "2016-03-21 09:30:00-04:00",
+      "value": 0.085
+    },
+    {
+      "index": "2016-06-14 09:30:00-04:00",
+      "value": 0.559
+    },
+    {
+      "index": "2016-09-13 09:30:00-04:00",
+      "value": 0.374
+    },
+    {
+      "index": "2016-12-22 09:30:00-05:00",
+      "value": 0.338
+    },
+    {
+      "index": "2017-03-22 09:30:00-04:00",
+      "value": 0.365
+    },
+    {
+      "index": "2017-06-28 09:30:00-04:00",
+      "value": 0.83
+    },
+    {
+      "index": "2017-09-22 09:30:00-04:00",
+      "value": 0.479
+    },
+    {
+      "index": "2017-12-19 09:30:00-05:00",
+      "value": 0.474
+    },
+    {
+      "index": "2018-03-26 09:30:00-04:00",
+      "value": 0.382
+    },
+    {
+      "index": "2018-06-22 09:30:00-04:00",
+      "value": 0.948
+    },
+    {
+      "index": "2018-09-26 09:30:00-04:00",
+      "value": 0.578
+    },
+    {
+      "index": "2018-12-24 09:30:00-05:00",
+      "value": 0.508
+    },
+    {
+      "index": "2019-03-25 09:30:00-04:00",
+      "value": 0.441
+    },
+    {
+      "index": "2019-06-17 09:30:00-04:00",
+      "value": 1.02
+    },
+    {
+      "index": "2019-09-24 09:30:00-04:00",
+      "value": 0.659
+    },
+    {
+      "index": "2019-12-23 09:30:00-05:00",
+      "value": 0.561
+    },
+    {
+      "index": "2020-03-23 09:30:00-04:00",
+      "value": 0.277
+    },
+    {
+      "index": "2020-06-22 09:30:00-04:00",
+      "value": 0.517
+    },
+    {
+      "index": "2020-09-21 09:30:00-04:00",
+      "value": 0.577
+    },
+    {
+      "index": "2020-12-21 09:30:00-05:00",
+      "value": 0.588
+    },
+    {
+      "index": "2021-03-22 09:30:00-04:00",
+      "value": 0.361
+    },
+    {
+      "index": "2021-06-21 09:30:00-04:00",
+      "value": 0.831
+    },
+    {
+      "index": "2021-09-20 09:30:00-04:00",
+      "value": 0.73
+    },
+    {
+      "index": "2021-12-20 09:30:00-05:00",
+      "value": 0.964
+    },
+    {
+      "index": "2022-03-21 09:30:00-04:00",
+      "value": 0.312
+    },
+    {
+      "index": "2022-06-21 09:30:00-04:00",
+      "value": 1.117
+    },
+    {
+      "index": "2022-09-19 09:30:00-04:00",
+      "value": 0.706
+    },
+    {
+      "index": "2022-12-19 09:30:00-05:00",
+      "value": 0.668
+    },
+    {
+      "index": "2023-03-20 09:30:00-04:00",
+      "value": 0.314
+    },
+    {
+      "index": "2023-06-20 09:30:00-04:00",
+      "value": 1.187
+    },
+    {
+      "index": "2023-09-18 09:30:00-04:00",
+      "value": 0.683
+    },
+    {
+      "index": "2023-12-18 09:30:00-05:00",
+      "value": 0.864
+    },
+    {
+      "index": "2024-03-15 09:30:00-04:00",
+      "value": 0.616
+    },
+    {
+      "index": "2024-06-21 09:30:00-04:00",
+      "value": 1.009
+    },
+    {
+      "index": "2024-09-20 09:30:00-04:00",
+      "value": 0.697
+    },
+    {
+      "index": "2024-12-20 09:30:00-05:00",
+      "value": 0.965
+    },
+    {
+      "index": "2025-03-21 09:30:00-04:00",
+      "value": 0.6
+    },
+    {
+      "index": "2025-06-20 09:30:00-04:00",
+      "value": 1.076
+    },
+    {
+      "index": "2025-09-19 09:30:00-04:00",
+      "value": 0.7
+    },
+    {
+      "index": "2025-12-19 09:30:00-05:00",
+      "value": 0.939
+    },
+    {
+      "index": "2026-03-20 09:30:00-04:00",
+      "value": 0.708
+    },
+    {
+      "index": "2026-06-18 09:30:00-04:00",
+      "value": 1.257
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

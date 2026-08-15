@@ -1,0 +1,147 @@
+{
+  "symbol": "XT",
+  "region": "us",
+  "name": "iShares Future Exponential Technologies ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US46434V3814",
+  "info": {
+    "longName": "iShares Future Exponential Technologies ETF",
+    "shortName": "iShares Future Exponential Tech",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 83.71,
+    "previousClose": 83.74,
+    "dayHigh": 83.71,
+    "dayLow": 83.111,
+    "regularMarketPrice": 83.28,
+    "regularMarketPreviousClose": 83.74,
+    "fiftyTwoWeekHigh": 84.23,
+    "fiftyTwoWeekLow": 65.47,
+    "trailingPE": 29.036976,
+    "dividendYield": 1.01,
+    "volume": 68591,
+    "averageVolume": 91965
+  },
+  "dividends": [
+    {
+      "index": "2015-06-24 09:30:00-04:00",
+      "value": 0.138
+    },
+    {
+      "index": "2015-12-21 09:30:00-05:00",
+      "value": 0.194
+    },
+    {
+      "index": "2016-06-21 09:30:00-04:00",
+      "value": 0.22
+    },
+    {
+      "index": "2016-12-22 09:30:00-05:00",
+      "value": 0.147
+    },
+    {
+      "index": "2017-06-20 09:30:00-04:00",
+      "value": 0.237
+    },
+    {
+      "index": "2017-12-21 09:30:00-05:00",
+      "value": 0.098
+    },
+    {
+      "index": "2017-12-28 09:30:00-05:00",
+      "value": 0.007
+    },
+    {
+      "index": "2018-06-19 09:30:00-04:00",
+      "value": 0.287
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.179
+    },
+    {
+      "index": "2018-12-28 09:30:00-05:00",
+      "value": 0.015
+    },
+    {
+      "index": "2019-06-17 09:30:00-04:00",
+      "value": 0.359
+    },
+    {
+      "index": "2019-12-16 09:30:00-05:00",
+      "value": 0.304
+    },
+    {
+      "index": "2020-06-15 09:30:00-04:00",
+      "value": 0.242
+    },
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.186
+    },
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.011
+    },
+    {
+      "index": "2021-06-10 09:30:00-04:00",
+      "value": 0.273
+    },
+    {
+      "index": "2021-12-13 09:30:00-05:00",
+      "value": 0.28
+    },
+    {
+      "index": "2022-06-09 09:30:00-04:00",
+      "value": 0.22
+    },
+    {
+      "index": "2022-12-13 09:30:00-05:00",
+      "value": 0.151
+    },
+    {
+      "index": "2023-06-07 09:30:00-04:00",
+      "value": 0.141
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.107
+    },
+    {
+      "index": "2024-06-11 09:30:00-04:00",
+      "value": 0.158
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 0.224
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.009
+    },
+    {
+      "index": "2025-06-16 09:30:00-04:00",
+      "value": 0.209
+    },
+    {
+      "index": "2025-12-16 09:30:00-05:00",
+      "value": 5.332
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 0.358
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

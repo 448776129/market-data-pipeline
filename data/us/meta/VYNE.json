@@ -1,0 +1,196 @@
+{
+  "symbol": "VYNE",
+  "region": "us",
+  "name": "VYNE Therapeutics Inc",
+  "currency": "USD",
+  "exchange": "NCM",
+  "isin": "US92941V3087",
+  "info": {
+    "longName": "VYNE Therapeutics Inc",
+    "shortName": "VYNE Therapeutics Inc.",
+    "sector": "Healthcare",
+    "industry": "Biotechnology",
+    "country": "United States",
+    "exchange": "NCM",
+    "currency": "USD",
+    "marketCap": 19069540,
+    "currentPrice": 28.56,
+    "open": 25.5,
+    "previousClose": 0.0,
+    "dayHigh": 28.56,
+    "dayLow": 23.37,
+    "regularMarketPreviousClose": 0.0,
+    "fiftyTwoWeekHigh": 46.95,
+    "fiftyTwoWeekLow": 14.025,
+    "forwardPE": -0.3461818,
+    "priceToBook": 0.77327126,
+    "trailingEps": -27.58,
+    "forwardEps": -82.5,
+    "beta": 2.006,
+    "volume": 93256,
+    "averageVolume": 17632,
+    "sharesOutstanding": 667701,
+    "floatShares": 613692,
+    "recommendationKey": "none",
+    "totalRevenue": 454000,
+    "grossProfits": 454000,
+    "freeCashflow": -20400000,
+    "totalDebt": 0,
+    "totalCash": 24928000,
+    "profitMargins": 0.0,
+    "returnOnEquity": -0.63162,
+    "returnOnAssets": -0.37013,
+    "revenueGrowth": -0.574
+  },
+  "dividends": [
+    {
+      "index": "2026-07-22 09:30:00-04:00",
+      "value": 20.121
+    }
+  ],
+  "splits": [
+    {
+      "index": "2026-07-27 09:30:00-04:00",
+      "value": 0.02
+    }
+  ],
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 28.56
+  },
+  "recommendations_summary": [
+    {
+      "index": "0",
+      "period": "0m",
+      "strongBuy": 0,
+      "buy": 1,
+      "hold": 1,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "index": "1",
+      "period": "-1m",
+      "strongBuy": 0,
+      "buy": 1,
+      "hold": 2,
+      "sell": 0,
+      "strongSell": 0
+    }
+  ],
+  "earnings_dates": null,
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.17934999
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.39619
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.48277
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 42.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Nantahala Capital Management, LLC",
+      "pctHeld": 0.0011999999,
+      "Shares": 40000,
+      "Value": 1142399,
+      "pctChange": 1.0
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Lynx1 Capital Management Lp",
+      "pctHeld": 0.001,
+      "Shares": 32574,
+      "Value": 930313,
+      "pctChange": 1.0
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Shay Capital LLC",
+      "pctHeld": 0.001,
+      "Shares": 32205,
+      "Value": 919774,
+      "pctChange": -0.0087
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Anson Funds Management LP",
+      "pctHeld": 0.0007,
+      "Shares": 24862,
+      "Value": 710058,
+      "pctChange": -0.024600001
+    },
+    {
+      "index": "4",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Adar1 Capital Management, LLC                          ",
+      "pctHeld": 0.00059999997,
+      "Shares": 21278,
+      "Value": 607699,
+      "pctChange": 3.1919
+    },
+    {
+      "index": "5",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "T3 Companies, LLC",
+      "pctHeld": 0.00059999997,
+      "Shares": 18900,
+      "Value": 539783,
+      "pctChange": 0.0
+    },
+    {
+      "index": "6",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Braidwell LP                          ",
+      "pctHeld": 0.0005,
+      "Shares": 18322,
+      "Value": 523276,
+      "pctChange": 1.0
+    },
+    {
+      "index": "7",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Citadel Advisors Llc",
+      "pctHeld": 0.00029999999,
+      "Shares": 10289,
+      "Value": 293853,
+      "pctChange": 15.8396
+    },
+    {
+      "index": "8",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Kvp Capital Advisors, LP",
+      "pctHeld": 0.00029999999,
+      "Shares": 10011,
+      "Value": 285914,
+      "pctChange": 0.0
+    },
+    {
+      "index": "9",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Two Sigma Investments, LP",
+      "pctHeld": 0.00029999999,
+      "Shares": 8528,
+      "Value": 243559,
+      "pctChange": 0.9382
+    }
+  ]
+}

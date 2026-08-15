@@ -1,0 +1,172 @@
+{
+  "symbol": "YMAB",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "US9842411095",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2025-11-06 07:00:00-05:00",
+      "EPS Estimate": -0.2,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2025-08-08 06:00:00-04:00",
+      "EPS Estimate": -0.25,
+      "Reported EPS": -0.07,
+      "Surprise(%)": 71.75
+    },
+    {
+      "index": "2025-05-13 06:00:00-04:00",
+      "EPS Estimate": -0.2,
+      "Reported EPS": -0.12,
+      "Surprise(%)": 39.13
+    },
+    {
+      "index": "2025-03-04 06:00:00-05:00",
+      "EPS Estimate": -0.12,
+      "Reported EPS": -0.15,
+      "Surprise(%)": -28.57
+    },
+    {
+      "index": "2024-11-08 06:00:00-05:00",
+      "EPS Estimate": -0.15,
+      "Reported EPS": -0.16,
+      "Surprise(%)": -8.74
+    },
+    {
+      "index": "2024-08-12 06:00:00-04:00",
+      "EPS Estimate": -0.12,
+      "Reported EPS": -0.21,
+      "Surprise(%)": -77.47
+    },
+    {
+      "index": "2024-05-07 16:00:00-04:00",
+      "EPS Estimate": -0.13,
+      "Reported EPS": -0.15,
+      "Surprise(%)": -17.19
+    },
+    {
+      "index": "2024-02-29 16:00:00-05:00",
+      "EPS Estimate": -0.18,
+      "Reported EPS": -0.02,
+      "Surprise(%)": 89.13
+    },
+    {
+      "index": "2023-11-13 16:00:00-05:00",
+      "EPS Estimate": -0.18,
+      "Reported EPS": -0.18,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2023-08-10 16:00:00-04:00",
+      "EPS Estimate": -0.24,
+      "Reported EPS": -0.14,
+      "Surprise(%)": 42.62
+    },
+    {
+      "index": "2023-05-08 16:00:00-04:00",
+      "EPS Estimate": -0.31,
+      "Reported EPS": -0.15,
+      "Surprise(%)": 51.61
+    },
+    {
+      "index": "2023-03-30 16:00:00-04:00",
+      "EPS Estimate": -0.41,
+      "Reported EPS": 0.03,
+      "Surprise(%)": 107.37
+    },
+    {
+      "index": "2022-11-07 17:00:00-05:00",
+      "EPS Estimate": -0.7,
+      "Reported EPS": -0.63,
+      "Surprise(%)": 9.52
+    },
+    {
+      "index": "2022-08-08 16:00:00-04:00",
+      "EPS Estimate": -0.65,
+      "Reported EPS": -0.94,
+      "Surprise(%)": -44.06
+    },
+    {
+      "index": "2022-05-09 16:00:00-04:00",
+      "EPS Estimate": -0.67,
+      "Reported EPS": -0.64,
+      "Surprise(%)": 4.48
+    },
+    {
+      "index": "2022-02-24 16:00:00-05:00",
+      "EPS Estimate": -0.69,
+      "Reported EPS": -0.85,
+      "Surprise(%)": -22.76
+    },
+    {
+      "index": "2021-11-04 15:00:00-04:00",
+      "EPS Estimate": -0.58,
+      "Reported EPS": -0.66,
+      "Surprise(%)": -12.88
+    },
+    {
+      "index": "2021-08-05 16:00:00-04:00",
+      "EPS Estimate": -0.64,
+      "Reported EPS": -0.53,
+      "Surprise(%)": 17.59
+    },
+    {
+      "index": "2021-05-06 16:00:00-04:00",
+      "EPS Estimate": 0.62,
+      "Reported EPS": 0.75,
+      "Surprise(%)": 20.96
+    },
+    {
+      "index": "2021-02-25 16:00:00-05:00",
+      "EPS Estimate": -0.54,
+      "Reported EPS": -0.48,
+      "Surprise(%)": 10.68
+    },
+    {
+      "index": "2020-11-05 16:00:00-05:00",
+      "EPS Estimate": -0.77,
+      "Reported EPS": -0.82,
+      "Surprise(%)": -6.84
+    },
+    {
+      "index": "2020-08-06 16:00:00-04:00",
+      "EPS Estimate": -0.66,
+      "Reported EPS": -1.01,
+      "Surprise(%)": -53.15
+    },
+    {
+      "index": "2020-05-07 17:00:00-04:00",
+      "EPS Estimate": -0.61,
+      "Reported EPS": -0.66,
+      "Surprise(%)": -8.4
+    },
+    {
+      "index": "2020-03-12 16:00:00-04:00",
+      "EPS Estimate": -0.65,
+      "Reported EPS": -0.61,
+      "Surprise(%)": 5.73
+    },
+    {
+      "index": "2019-11-13 16:00:00-05:00",
+      "EPS Estimate": -0.54,
+      "Reported EPS": -0.7,
+      "Surprise(%)": -29.15
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,112 @@
+{
+  "symbol": "WALA",
+  "region": "us",
+  "name": "Western Alliance Bancorporation SUB DEBENTURS 56",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "Western Alliance Bancorporation SUB DEBENTURS 56",
+    "shortName": "Western Alliance Bancorporation",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 25.27,
+    "previousClose": 25.23,
+    "dayHigh": 25.37,
+    "dayLow": 25.23,
+    "regularMarketPrice": 25.37,
+    "regularMarketPreviousClose": 25.23,
+    "fiftyTwoWeekHigh": 26.3,
+    "fiftyTwoWeekLow": 25.12,
+    "trailingPE": 7.5505958,
+    "priceToBook": 1.1561247,
+    "volume": 6107,
+    "averageVolume": 17459,
+    "sharesOutstanding": 104162000
+  },
+  "dividends": [
+    {
+      "index": "2017-09-14 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2017-12-14 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2018-03-14 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2018-06-14 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2018-08-17 09:30:00-04:00",
+      "value": 0.781
+    },
+    {
+      "index": "2018-09-13 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2018-12-13 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2019-03-14 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2019-06-13 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2019-09-12 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2019-12-12 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2020-03-12 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2020-06-12 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2020-09-14 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.395
+    },
+    {
+      "index": "2021-03-12 09:30:00-05:00",
+      "value": 0.395
+    },
+    {
+      "index": "2021-06-14 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2021-09-14 09:30:00-04:00",
+      "value": 0.391
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

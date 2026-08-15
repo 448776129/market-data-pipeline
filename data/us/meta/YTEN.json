@@ -1,0 +1,172 @@
+{
+  "symbol": "YTEN",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "DK0061078425",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2024-08-14 16:00:00-04:00",
+      "EPS Estimate": -3.96,
+      "Reported EPS": -5.04,
+      "Surprise(%)": -27.27
+    },
+    {
+      "index": "2024-05-15 16:00:00-04:00",
+      "EPS Estimate": -2.64,
+      "Reported EPS": -4.77,
+      "Surprise(%)": -80.68
+    },
+    {
+      "index": "2024-04-01 16:00:00-04:00",
+      "EPS Estimate": -7.44,
+      "Reported EPS": -2.88,
+      "Surprise(%)": 61.29
+    },
+    {
+      "index": "2023-11-14 16:00:00-05:00",
+      "EPS Estimate": -9.44,
+      "Reported EPS": -9.84,
+      "Surprise(%)": -4.24
+    },
+    {
+      "index": "2023-08-14 16:00:00-04:00",
+      "EPS Estimate": -13.04,
+      "Reported EPS": -15.36,
+      "Surprise(%)": -17.79
+    },
+    {
+      "index": "2023-05-10 16:00:00-04:00",
+      "EPS Estimate": -13.8,
+      "Reported EPS": -18.24,
+      "Surprise(%)": -32.17
+    },
+    {
+      "index": "2023-03-14 16:00:00-04:00",
+      "EPS Estimate": -14.52,
+      "Reported EPS": -16.08,
+      "Surprise(%)": -10.74
+    },
+    {
+      "index": "2022-11-14 16:00:00-05:00",
+      "EPS Estimate": -15.9,
+      "Reported EPS": -17.04,
+      "Surprise(%)": -7.17
+    },
+    {
+      "index": "2022-08-10 16:00:00-04:00",
+      "EPS Estimate": -16.56,
+      "Reported EPS": -16.8,
+      "Surprise(%)": -1.45
+    },
+    {
+      "index": "2022-05-11 16:00:00-04:00",
+      "EPS Estimate": -15.44,
+      "Reported EPS": -16.32,
+      "Surprise(%)": -5.7
+    },
+    {
+      "index": "2022-03-09 16:00:00-05:00",
+      "EPS Estimate": -15.24,
+      "Reported EPS": -14.64,
+      "Surprise(%)": 3.94
+    },
+    {
+      "index": "2021-11-10 16:00:00-05:00",
+      "EPS Estimate": -15.6,
+      "Reported EPS": -11.76,
+      "Surprise(%)": 24.62
+    },
+    {
+      "index": "2021-08-11 16:00:00-04:00",
+      "EPS Estimate": -12.96,
+      "Reported EPS": -15.36,
+      "Surprise(%)": -18.52
+    },
+    {
+      "index": "2021-05-11 16:00:00-04:00",
+      "EPS Estimate": -13.32,
+      "Reported EPS": -14.4,
+      "Surprise(%)": -8.11
+    },
+    {
+      "index": "2021-03-16 16:00:00-04:00",
+      "EPS Estimate": -16.8,
+      "Reported EPS": -18.96,
+      "Surprise(%)": -12.86
+    },
+    {
+      "index": "2020-11-12 16:00:00-05:00",
+      "EPS Estimate": -23.76,
+      "Reported EPS": -20.88,
+      "Surprise(%)": 12.12
+    },
+    {
+      "index": "2020-08-11 16:00:00-04:00",
+      "EPS Estimate": -31.08,
+      "Reported EPS": -26.1,
+      "Surprise(%)": 16.03
+    },
+    {
+      "index": "2020-05-14 16:00:00-04:00",
+      "EPS Estimate": -54.6,
+      "Reported EPS": -37.38,
+      "Surprise(%)": 31.55
+    },
+    {
+      "index": "2020-03-19 16:00:00-04:00",
+      "EPS Estimate": -96.0,
+      "Reported EPS": -96.19,
+      "Surprise(%)": -0.2
+    },
+    {
+      "index": "2019-11-12 06:00:00-05:00",
+      "EPS Estimate": -158.4,
+      "Reported EPS": -153.6,
+      "Surprise(%)": 3.03
+    },
+    {
+      "index": "2019-08-12 16:00:00-04:00",
+      "EPS Estimate": -201.6,
+      "Reported EPS": -144.0,
+      "Surprise(%)": 28.57
+    },
+    {
+      "index": "2019-05-09 16:00:00-04:00",
+      "EPS Estimate": -220.8,
+      "Reported EPS": -211.2,
+      "Surprise(%)": 4.35
+    },
+    {
+      "index": "2019-03-25 16:00:00-04:00",
+      "EPS Estimate": -204.8,
+      "Reported EPS": -182.4,
+      "Surprise(%)": 10.94
+    },
+    {
+      "index": "2018-11-08 16:00:00-05:00",
+      "EPS Estimate": -192.0,
+      "Reported EPS": -249.6,
+      "Surprise(%)": -30.0
+    },
+    {
+      "index": "2018-08-09 16:00:00-04:00",
+      "EPS Estimate": -259.2,
+      "Reported EPS": -230.4,
+      "Surprise(%)": 11.11
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

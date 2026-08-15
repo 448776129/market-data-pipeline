@@ -1,0 +1,274 @@
+{
+  "symbol": "VRNT",
+  "region": "us",
+  "name": "Verint Systems Inc.",
+  "currency": "USD",
+  "exchange": "NMS",
+  "isin": "-",
+  "info": {
+    "longName": "Verint Systems Inc.",
+    "shortName": "Verint Systems Inc.",
+    "sector": "Technology",
+    "industry": "Software - Infrastructure",
+    "country": "United States",
+    "exchange": "NMS",
+    "currency": "USD",
+    "marketCap": 1242795392,
+    "currentPrice": 20.51,
+    "open": 20.5,
+    "previousClose": 20.51,
+    "dayHigh": 20.51,
+    "dayLow": 20.49,
+    "regularMarketPrice": 20.51,
+    "regularMarketPreviousClose": 20.51,
+    "fiftyTwoWeekHigh": 30.65,
+    "fiftyTwoWeekLow": 14.154,
+    "trailingPE": 28.09589,
+    "forwardPE": 6.573718,
+    "priceToBook": 1.3817961,
+    "trailingEps": 0.73,
+    "forwardEps": 3.12,
+    "beta": 1.431,
+    "volume": 7787944,
+    "averageVolume": 1711345,
+    "sharesOutstanding": 60594610,
+    "floatShares": 57212014,
+    "targetMeanPrice": 20.5,
+    "targetHighPrice": 20.5,
+    "targetLowPrice": 20.5,
+    "recommendationKey": "hold",
+    "totalRevenue": 893843008,
+    "grossProfits": 633302016,
+    "freeCashflow": 112675376,
+    "totalDebt": 449588992,
+    "totalCash": 175402000,
+    "profitMargins": 0.068720005,
+    "returnOnEquity": 0.04792,
+    "returnOnAssets": 0.0228,
+    "revenueGrowth": -0.01
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 20.51,
+    "high": 20.5,
+    "low": 20.5,
+    "mean": 20.5,
+    "median": 20.5
+  },
+  "recommendations_summary": [
+    {
+      "index": "0",
+      "period": "0m",
+      "strongBuy": 0,
+      "buy": 0,
+      "hold": 3,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "index": "1",
+      "period": "-1m",
+      "strongBuy": 0,
+      "buy": 0,
+      "hold": 6,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "index": "2",
+      "period": "-2m",
+      "strongBuy": 0,
+      "buy": 0,
+      "hold": 6,
+      "sell": 0,
+      "strongSell": 0
+    }
+  ],
+  "earnings_dates": [
+    {
+      "index": "2025-12-03 16:00:00-05:00",
+      "EPS Estimate": 0.81,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2025-09-02 16:00:00-04:00",
+      "EPS Estimate": 0.26,
+      "Reported EPS": 0.33,
+      "Surprise(%)": 26.23
+    },
+    {
+      "index": "2025-06-04 16:00:00-04:00",
+      "EPS Estimate": -0.12,
+      "Reported EPS": -0.04,
+      "Surprise(%)": 65.72
+    },
+    {
+      "index": "2025-03-26 16:00:00-04:00",
+      "EPS Estimate": 1.27,
+      "Reported EPS": 0.99,
+      "Surprise(%)": -22.13
+    },
+    {
+      "index": "2024-12-04 16:00:00-05:00",
+      "EPS Estimate": 0.43,
+      "Reported EPS": 0.54,
+      "Surprise(%)": 25.17
+    },
+    {
+      "index": "2024-09-04 16:00:00-04:00",
+      "EPS Estimate": 0.53,
+      "Reported EPS": 0.49,
+      "Surprise(%)": -7.55
+    },
+    {
+      "index": "2024-06-04 16:00:00-04:00",
+      "EPS Estimate": 0.54,
+      "Reported EPS": 0.59,
+      "Surprise(%)": 8.68
+    },
+    {
+      "index": "2024-03-27 16:00:00-04:00",
+      "EPS Estimate": 0.97,
+      "Reported EPS": 1.07,
+      "Surprise(%)": 10.15
+    },
+    {
+      "index": "2023-12-06 16:00:00-05:00",
+      "EPS Estimate": 0.6,
+      "Reported EPS": 0.65,
+      "Surprise(%)": 8.08
+    },
+    {
+      "index": "2023-09-05 22:00:00-04:00",
+      "EPS Estimate": 0.57,
+      "Reported EPS": 0.48,
+      "Surprise(%)": -15.58
+    },
+    {
+      "index": "2023-06-07 16:00:00-04:00",
+      "EPS Estimate": 0.47,
+      "Reported EPS": 0.53,
+      "Surprise(%)": 13.46
+    },
+    {
+      "index": "2023-03-29 16:00:00-04:00",
+      "EPS Estimate": 0.72,
+      "Reported EPS": 0.75,
+      "Surprise(%)": 4.58
+    },
+    {
+      "index": "2022-12-07 16:00:00-05:00",
+      "EPS Estimate": 0.61,
+      "Reported EPS": 0.69,
+      "Surprise(%)": 13.39
+    },
+    {
+      "index": "2022-09-07 16:00:00-04:00",
+      "EPS Estimate": 0.53,
+      "Reported EPS": 0.56,
+      "Surprise(%)": 5.55
+    },
+    {
+      "index": "2022-06-07 16:00:00-04:00",
+      "EPS Estimate": 0.47,
+      "Reported EPS": 0.52,
+      "Surprise(%)": 9.86
+    },
+    {
+      "index": "2022-03-29 16:00:00-04:00",
+      "EPS Estimate": 0.55,
+      "Reported EPS": 0.57,
+      "Surprise(%)": 2.76
+    },
+    {
+      "index": "2021-12-02 16:00:00-05:00",
+      "EPS Estimate": 0.53,
+      "Reported EPS": 0.69,
+      "Surprise(%)": 30.0
+    },
+    {
+      "index": "2021-09-09 16:00:00-04:00",
+      "EPS Estimate": 0.42,
+      "Reported EPS": 0.58,
+      "Surprise(%)": 37.99
+    },
+    {
+      "index": "2021-06-09 16:00:00-04:00",
+      "EPS Estimate": 0.36,
+      "Reported EPS": 0.44,
+      "Surprise(%)": 23.75
+    },
+    {
+      "index": "2021-03-31 16:00:00-04:00",
+      "EPS Estimate": 0.78,
+      "Reported EPS": 0.98,
+      "Surprise(%)": 25.37
+    },
+    {
+      "index": "2020-12-09 16:00:00-05:00",
+      "EPS Estimate": 0.79,
+      "Reported EPS": 1.02,
+      "Surprise(%)": 28.84
+    },
+    {
+      "index": "2020-09-09 16:00:00-04:00",
+      "EPS Estimate": 0.69,
+      "Reported EPS": 1.06,
+      "Surprise(%)": 52.99
+    },
+    {
+      "index": "2020-06-09 16:00:00-04:00",
+      "EPS Estimate": 0.68,
+      "Reported EPS": 0.52,
+      "Surprise(%)": -23.53
+    },
+    {
+      "index": "2020-03-31 17:00:00-04:00",
+      "EPS Estimate": 1.16,
+      "Reported EPS": 1.11,
+      "Surprise(%)": -4.07
+    },
+    {
+      "index": "2019-12-04 16:00:00-05:00",
+      "EPS Estimate": 0.86,
+      "Reported EPS": 0.94,
+      "Surprise(%)": 9.94
+    }
+  ],
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.00037999998
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 1.02659
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 1.0269799
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 317.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Huntington National Bank",
+      "pctHeld": 0.0,
+      "Shares": 1,
+      "Value": 20,
+      "pctChange": 0.0
+    }
+  ]
+}

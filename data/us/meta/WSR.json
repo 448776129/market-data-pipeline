@@ -1,0 +1,28 @@
+{
+  "symbol": "WSR",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": null,
+  "info": null,
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": null,
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2026-08-05 16:00:00-04:00",
+      "EPS Estimate": 0.1,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}
