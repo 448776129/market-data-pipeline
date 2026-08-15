@@ -1,137 +1,161 @@
 # Market Data Pipeline
 
-通过 **GitHub Actions 自动拉取市场股票数据并保存到本地仓库**的项目。
+通过 **GitHub Actions 自动拉取指定指数成分股的行情数据并保存到本地仓库**的项目。
 
-使用 **yfinance** 从 Yahoo Finance 拉取**历史K线**、**当日行情**以及**非K线数据**（快照/财务/分析师/分红拆股），每只股票一个文件，按区域分目录保存到 `data/`，并由工作流自动提交回仓库。所有数据按市场拆分为独立 job，**异步并行**拉取。
+使用 **yfinance** 从 Yahoo Finance 拉取**日K线**、**1分钟K线**、**1小时K线**，每只股票一个文件，按区域分目录保存到 `data/`，并由工作流自动提交回仓库。数据按指数拆分为独立 job，**异步并行**拉取。
 
 ## 核心特性
 
 - **全自动**：GitHub Actions 按分段时间表定时运行，无需人工干预
-- **多市场**：支持美股、港股、A股、韩股，按市场分目录
-- **两类数据**：K线（CSV）与非K线（JSON）分开存放
-- **异步并行**：每个市场独立 job，GitHub Actions 默认并行执行
-- **增量更新**：当日数据自动与历史合并去重，避免节假日/周末缺数据
-- **数据留空**：个股无数据的字段自动留空（`null`）
+- **指数驱动**：只拉取用户配置的 5 个指数成分股，而非全市场
+- **三类数据**：日K线、1分钟K线、1小时K线分开存放
+- **异步并行**：每个指数独立 job，GitHub Actions 默认并行执行
+- **增量更新**：只拉取上次之后的新数据，与已有文件合并去重（追加而非全量重拉）
+- **动态接口**：配套 Cloudflare Worker，可随时查询任意股票的K线数据
+
+## 支持的指数
+
+| 指数 | 代码 | 区域 | 说明 |
+| ---- | ---- | ---- | ---- |
+| 沪深300 | `csi300` | cn | 沪深两市总市值排名前 300 名大盘股 |
+| 中证500 | `csi500` | cn | 排名 301～800 名的中盘股 |
+| 纳指100 | `ndx100` | us | 纳斯达克 100 只大盘股 |
+| 标普500 | `sp500` | us | 标普综合500 |
+| 恒生指数 | `hsi` | hk | 香港恒生指数 |
 
 ## 目录结构
 
 ```
 .
-├── config.py                     # 区域与符号配置
+├── config.py                     # 区域、指数与数据源配置
 ├── requirements.txt              # Python 依赖
 ├── scripts/
-│   ├── fetch_universe.py         # 全市场股票列表拉取（美股右全量代码）
-│   ├── fetch_historical.py       # 历史K线数据拉取（全量刷新）
-│   ├── fetch_latest.py           # 当日K线数据增量更新
-│   ├── fetch_meta.py             # 非K线数据（快照/财务/分析师等）
-│   └── marketlib.py              # 共享工具（列表解析 + 分批）
+│   ├── fetch_universe.py         # 指数成分股清单拉取
+│   ├── fetch_historical.py       # 日K线数据拉取（全量/增量）
+│   ├── fetch_latest.py           # 当日日K线增量更新
+│   ├── fetch_intraday.py         # 分钟K线（1m/1h）拉取
+│   └── marketlib.py              # 共享工具（列表解析 + 合并去重 + 分批）
+├── api/                          # Cloudflare Worker 动态接口
+│   └── src/index.js
 └── .github/workflows/
-    ├── market_data.yml           # 调度入口（按市场拆分 job）
+    ├── market_data.yml           # 调度入口（按指数拆分 job）
     └── step-data.yml             # 可复用的数据拉取子工作流
 ```
 
 ## 数据布局
 
-数据按区域分目录，每个区域内 K 线与非 K 线数据分开存放：
+数据按区域分目录，K 线按周期拆分子目录：
 
 ```
 data/
-├── universe/                     # 全市场股票列表
-│   ├── us.csv                    # 全部美股代码（7600+ 只）
-│   └── cn.csv                    # 全部A股代码（4200+ 只，含沪/深）
-├── us/                          # 美股
-│   ├── kline/                   # K线数据，如 AAPL.csv
-│   └── meta/                    # 非K线数据，如 AAPL.json
-├── hk/                          # 港股
-│   ├── kline/
-│   └── meta/
-├── cn/                          # A股
-│   ├── kline/
-│   └── meta/
-└── kr/                          # 韩股
-    ├── kline/
-    └── meta/
+├── universe/                     # 指数成分股清单
+│   ├── csi300.csv                # 沪深300（300 只）
+│   ├── csi500.csv                # 中证500
+│   ├── sp500.csv                 # 标普500
+│   ├── nasdaq100.csv             # 纳指100
+│   └── hsi.csv                   # 恒生指数
+├── cn/                           # A股
+│   ├── kline/                    # 日K线，如 600519.SS.csv
+│   ├── kline_1m/                 # 1分钟K线
+│   └── kline_1h/                 # 1小时K线
+├── us/                           # 美股
+│   ├── kline/                    # 如 AAPL.csv
+│   ├── kline_1m/
+│   └── kline_1h/
+└── hk/                           # 港股
+    ├── kline/                    # 如 0700.HK.csv
+    ├── kline_1m/
+    └── kline_1h/
 ```
 
-- **K线 CSV** 列为：`Date, Open, High, Low, Close, Adj Close, Volume`。
-- **meta JSON** 包含：行情快照 `info`、分红 `dividends`、拆股 `splits`、资本利得 `capital_gains`、财务 `financials/balancesheet/cashflow`、分析师目标价与评级、大股东/机构持股等。没有数据的字段留空（`null`）。
+- **日K线 CSV** 列：`Date, Open, High, Low, Close, Adj Close, Volume`。
+- **分钟K线 CSV** 列：`Datetime, Open, High, Low, Close, Adj Close, Volume`。
 
-## 全市场模式
+## 配置指数
 
-**美股**和**A股**均为**全市场模式**，股票代码不再硬编码：
-
-- 美股（`us`）：由 `fetch_universe.py` 从公开清单动态拉取全部美股（约 7600+ 只），存入 `data/universe/us.csv`。
-- A股（`cn`）：由内置的沪市（`.SS`）+ 深市（`.SZ`）代码清单组成（约 4200+ 只），存入 `data/universe/cn.csv`。
-
-GitHub Actions 会先确保列表存在，再按列表分 **20 批**并行拉取每只股票的数据，避免单 job 超过 GitHub Actions 6 小时超时限制。
-
-## 配置股票
-
-编辑 [config.py](config.py) 中的 `REGIONS` 字典即可增删股票，无需改动脚本。**某区域列表留空（`[]`）即表示"全市场模式"**（从 universe 文件读取）：
+编辑 [config.py](config.py) 中的 `INDEX_CONFIG`（指数 -> 区域）与 `INDEX_SOURCES`（成分股数据源即可增删指数，无需改动脚本：
 
 ```python
-REGIONS = {
-    "us": [],                     # 全市场模式：从 data/universe/us.csv 读取全部美股
-    "hk": ["0700.HK", "9988.HK", ...],
-    "cn": ["600519.SS", "000001.SZ", ...],
-    "kr": ["005930.KS", "000660.KS", ...],
+INDEX_CONFIG = {
+    "csi300": {"file": "csi300.csv", "region": "cn"},
+    "csi500": {"file": "csi500.csv", "region": "cn"},
+    "ndx100": {"file": "nasdaq100.csv", "region": "us"},
+    "sp500":  {"file": "sp500.csv", "region": "us"},
+    "hsi":    {"file": "hsi.csv", "region": "hk"},
 }
-# 历史拉取范围与周期
-HISTORY_PERIOD = "5y"
-INTERVAL = "1d"
 ```
 
-> 符号格式需符合 yfinance 约定：美股直接用 `AAPL`；港股加 `.HK`；A 股加 `.SS`（上交所）/ `.SZ`（深交所）；韩股加 `.KS`（如三星电子 `005930.KS`）。
+成分股清单由 `fetch_universe.py` 从公开数据源（yfiua/index-constituents，符号与 Yahoo Finance 完全一致）更新到 `data/universe/`。
+
+> 符号格式遵循 yfinance 约定：美股直接用 `AAPL`；港股加 `.HK`；A股加 `.SS`（上交所）/`.SZ`（深交所）。
 
 ## GitHub Actions（自动拉取）
 
-| 任务 | 触发 | 说明 |
+| 任务 | 触发（北京时间） | 说明 |
 | ---- | ---- | ---- |
-| 历史K线 | 每周一 01:00 UTC | 全量刷新近 5 年日线 |
-| 当日K线 | 每天 13:00 UTC | 每日收盘后增量更新 |
-| 非K线(meta) | 每天 13:00 UTC | 快照/财务/分析师/分红拆股 |
+| 指数清单 | 每周一 09:00 | 更新 5 个指数成分股 |
+| 历史日K线 | 每周一 09:00 | 全量刷新近 5 年日线 |
+| 当日日K线 | 每天 08:00 / 12:00 / 20:00 | 收盘后增量更新 |
+| 分钟K线(1m/1h) | 每 3 小时 | 增量更新（首次需手动触发 `mode=minute` 全量入库） |
 
-每个市场（`us` / `hk` / `cn` / `kr`）都有独立的 job，GitHub Actions 的独立 job 默认**并行执行**，从而实现各市场的**异步**拉取。其中**美股**（7600+ 只）和**A股**（4200+ 只）是全市场，会额外分 **20 批**并行拉取，避免单 job 超过 GitHub Actions 6 小时超时限制；港股/韩股各一个 job。拉取到的数据由工作流自动提交回仓库，保存在 `data/` 下。
+每个指数（`csi300` / `csi500` / `ndx100` / `sp500` / `hsi`）都有独立的 job，GitHub Actions 的独立 job 默认**并行执行**，从而实现各指数的**异步**拉取。拉取到的数据由工作流自动提交回仓库，保存在 `data/` 下。
 
 ### 手动触发
 
-在仓库 **Actions** 页选择 `Market Data Pipeline` → **Run workflow**，通过 `mode` 输入选择：
+在仓库 **Actions** 页选择 `Market Data Pipeline` → **Run workflow**，通过 `mode` 与 `index` 输入选择：
 
-- `historical`：运行全部历史K线拉取 job
-- `daily`：运行全部当日K线增量 job
-- `meta`：运行全部非K线数据拉取 job
+- `mode`：`historical`（日K全量）/ `daily`（日K增量）/ `minute`（分钟K）/ `universe`（指数清单）
+- `index`：`all`（全部指数）或单个指数名
+
+首次部署时建议先手动触发：
+1. `mode=universe` 拉取成分股清单
+2. `mode=historical` 全量入库日K线
+3. `mode=minute` 全量入库 1m/1h K线
+
+之后由分段时间表自动增量更新。
+
+### 动态接口（Cloudflare Worker）
+
+仓库内的 `api/` 是一个 Cloudflare Worker，免费托管（无需服务器），直接读取本仓库 `data/` 下的 CSV 并转成 JSON 返回，供量化系统调用：
+
+```
+GET /kline?symbol=AAPL&interval=1d&limit=5
+```
+
+- `symbol` 必填：如 `AAPL` / `0700.HK` / `600519.SS`
+- `interval` 可选，默认 `1d`：`1d`(日线) / `1m`(1分钟) / `1h`(1小时)
+- `start` / `end` 可选：日期过滤（`YYYY-MM-DD`）
+- `limit` 可选：最多返回行数（默认最新 N 条）
+- `order` 可选：`asc`(默认) / `desc`(最新在前)
+- `format` 可选：`json`(默认) / `csv`
+
+部署方式见 [api/README.md](api/README.md)。
 
 ## 本地运行
-
-如需在本地手动拉取（不依赖 GitHub Actions）：
 
 ```bash
 # 安装依赖
 pip install -r requirements.txt
 
-# 拉取全市场美股代码列表（写入 data/universe/us.csv）
+# 拉取指数成分股清单（写入 data/universe/）
 python scripts/fetch_universe.py
+python scripts/fetch_universe.py --index csi300   # 仅指定指数
 
-# 拉取全部市场的历史K线数据
-python scripts/fetch_historical.py
+# 拉取日K线（默认增量追加；--full 强制全量）
+python scripts/fetch_historical.py                # 全部指数
+python scripts/fetch_historical.py --index sp500  # 标普500成分股
+python scripts/fetch_historical.py --index csi300 --full
 
-# 仅拉取指定区域（美股支持 --batch/--batches 分批）
-python scripts/fetch_historical.py --region hk
-python scripts/fetch_historical.py --region us --batch 0 --batches 20
+# 当日日K线增量更新
+python scripts/fetch_latest.py --index hsi
 
-# 当日K线数据增量更新（全部 / 指定区域 / 指定符号）
-python scripts/fetch_latest.py
-python scripts/fetch_latest.py --region hk
-python scripts/fetch_latest.py --symbol TSLA
-
-# 非K线数据（全部 / 指定区域）
-python scripts/fetch_meta.py
-python scripts/fetch_meta.py --region kr
+# 分钟K线（1m/1h）
+python scripts/fetch_intraday.py --index ndx100
+python scripts/fetch_intraday.py --index csi300 --interval 1h
 ```
 
 ## 说明
 
-- 美股为全市场模式：先运行 `fetch_universe.py` 生成 `data/universe/us.csv`，再拉取数据；每个 fetch 脚本均支持 `--batch/--batches` 分批。
-- `fetch_latest.py` 会拉取最近 5 天数据与已有文件合并、按日期去重，避免节假日/周末缺数据。
-- `fetch_meta.py` 将非K线数据写入 `data/{region}/meta/`，与 K 线数据分开；没有数据的字段留空。
-- 拉取到数据后通过 GitHub Actions 自动提交回仓库，历史记录可在 `data/` 下查看。
+- 所有 fetch 脚本均支持 `--index`；`--batch/--batches` 可将成分股分批，避免单 job 超过 GitHub Actions 6 小时超时限制（成分股较多时按需分批）。
+- 数据增量拉取均带回看缓冲，合并去重，覆盖除权/分红导致的修订；重复运行不会重复写入。
+- 拉取到数据后通过 GitHub Actions 自动提交回仓库，历史记录可在 `data/` 下与 git 历史中查看。

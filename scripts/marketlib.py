@@ -18,12 +18,17 @@ import config  # noqa: E402
 
 
 def read_kline(path: Path, index_col: str = "Date") -> pd.DataFrame | None:
-    """读取已有 K 线 CSV（索引为日期/时间轴），文件不存在时返回 None。"""
+    """读取已有 K 线 CSV（索引为日期/时间轴），文件不存在时返回 None。
+
+    日线（index_col="Date"）会 normalize 到当天零点；分钟线（index_col="Datetime"）
+    保留完整时间戳，确保去重按"时分秒"精确匹配。
+    """
     if not path.exists():
         return None
     df = pd.read_csv(path, index_col=index_col, parse_dates=True)
     df.index = df.index.tz_localize(None) if df.index.tz is not None else df.index
-    df.index = df.index.normalize()
+    if index_col == "Date":
+        df.index = df.index.normalize()
     return df
 
 
@@ -40,7 +45,8 @@ def merge_kline(
     """
     fresh = fresh[cols].copy()
     fresh.index = fresh.index.tz_localize(None) if fresh.index.tz is not None else fresh.index
-    fresh.index = fresh.index.normalize()
+    if index_col == "Date":
+        fresh.index = fresh.index.normalize()
 
     existing = read_kline(path, index_col=index_col)
     if existing is None or existing.empty:
@@ -80,6 +86,41 @@ def load_symbols(region: str) -> list[str]:
         if line.strip()
     ]
     return symbols
+
+
+def load_index_symbols(index: str) -> tuple[str, list[str]]:
+    """返回指定指数的 (region, 成分股列表)。
+
+    从 data/universe/{file}.csv 读取成分股（该文件由 fetch_universe.py 更新）。
+    找不到指数或文件时返回 (None, [])。
+    """
+    cfg = config.INDEX_CONFIG.get(index)
+    if not cfg:
+        print(f"  [警告] 未知指数: {index}", file=sys.stderr)
+        return "", []
+    path = ROOT / config.DATA_DIR / config.UNIVERSE_SUBDIR / cfg["file"]
+    if not path.exists():
+        print(f"  [警告] 指数清单不存在: {path.relative_to(ROOT)}", file=sys.stderr)
+        return cfg["region"], []
+    symbols = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        # 兼容两种格式：纯符号（AAPL）或 CSV（Symbol,Name）
+        sym = line.split(",")[0].strip()
+        if sym and sym != "Symbol":
+            symbols.append(sym)
+    return cfg["region"], symbols
+
+
+def infer_region(symbol: str) -> str:
+    """根据符号后缀推断区域：.HK->hk, .SS/.SZ->cn, 其他->us。"""
+    if symbol.endswith(".HK"):
+        return "hk"
+    if symbol.endswith(".SS") or symbol.endswith(".SZ"):
+        return "cn"
+    return "us"
 
 
 def slice_batch(symbols: list[str], batch: int, batches: int) -> list[str]:

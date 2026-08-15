@@ -9,3 +9,6 @@ venv/
 
 # 环境变量
 .env
+
+# Node（api/ 的依赖，仅提交源码）
+api/node_modules/

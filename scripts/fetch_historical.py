@@ -81,27 +81,42 @@ def fetch_symbol(region: str, symbol: str, full: bool = False) -> Path | None:
     return out
 
 
-def run(region: str | None, full: bool, batch: int = 0, batches: int = 1) -> int:
-    regions = [region] if region else list(config.REGIONS)
-    failed: list[str] = []
+def run(
+    region: str | None,
+    full: bool,
+    index: str | None = None,
+    batch: int = 0,
+    batches: int = 1,
+) -> int:
+    targets: list[tuple[str, str]] = []
+    if index:
+        reg, syms = marketlib.load_index_symbols(index)
+        syms = marketlib.slice_batch(syms, batch, batches)
+        targets = [(reg, s) for s in syms]
+    elif region:
+        reg = region
+        syms = marketlib.load_symbols(reg)
+        syms = marketlib.slice_batch(syms, batch, batches)
+        targets = [(reg, s) for s in syms]
+    else:
+        for reg in config.REGIONS:
+            syms = marketlib.load_symbols(reg)
+            syms = marketlib.slice_batch(syms, batch, batches)
+            targets.extend((reg, s) for s in syms)
 
-    for reg in regions:
-        symbols = marketlib.load_symbols(reg)
-        symbols = marketlib.slice_batch(symbols, batch, batches)
-        print(
-            f"[区域] {reg} ({len(symbols)} 只"
-            + (f", 批 {batch+1}/{batches}" if batches > 1 else "")
-            + f", 模式={'全量' if full else '增量'})",
-            flush=True,
-        )
-        for symbol in symbols:
-            try:
-                marketlib.run_with_retry(fetch_symbol, reg, symbol, full)
-            except Exception as exc:  # noqa: BLE001 - 单只失败不中断整体
-                print(f"  [失败] {symbol}: {exc}", flush=True)
-                failed.append(symbol)
-            # 控制请求频率，避免触发 Yahoo 限流
-            time.sleep(config.REQUEST_DELAY)
+    if not targets:
+        print("未找到匹配的符号/区域/指数", file=sys.stderr)
+        return 1
+
+    failed: list[str] = []
+    for reg, symbol in targets:
+        try:
+            marketlib.run_with_retry(fetch_symbol, reg, symbol, full)
+        except Exception as exc:  # noqa: BLE001 - 单只失败不中断整体
+            print(f"  [失败] {reg} {symbol}: {exc}", flush=True)
+            failed.append(f"{reg}:{symbol}")
+        # 控制请求频率，避免触发 Yahoo 限流
+        time.sleep(config.REQUEST_DELAY)
 
     if failed:
         print(f"失败 {len(failed)} 只: {failed}", file=sys.stderr)
@@ -111,7 +126,16 @@ def run(region: str | None, full: bool, batch: int = 0, batches: int = 1) -> int
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="拉取历史日线数据")
-    parser.add_argument("--region", choices=config.REGIONS, help="仅处理指定区域")
+    parser.add_argument(
+        "--region",
+        choices=list(config.REGIONS),
+        help="仅处理指定区域",
+    )
+    parser.add_argument(
+        "--index",
+        choices=sorted(config.INDEX_CONFIG),
+        help="仅处理指定指数成分股（csi300/csi500/ndx100/sp500/hsi）",
+    )
     parser.add_argument(
         "--full",
         action="store_true",
@@ -120,7 +144,7 @@ def main() -> int:
     parser.add_argument("--batch", type=int, default=0, help="当前批次（0 起）")
     parser.add_argument("--batches", type=int, default=1, help="总批次数")
     args = parser.parse_args()
-    return run(args.region, args.full, args.batch, args.batches)
+    return run(args.region, args.full, args.index, args.batch, args.batches)
 
 
 if __name__ == "__main__":

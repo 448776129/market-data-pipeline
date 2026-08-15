@@ -1,21 +1,20 @@
 """分钟级K线数据拉取脚本。
 
-从 Yahoo Finance 拉取分钟级K线（1分钟、15分钟、1小时），每只股票、每个周期
+从 Yahoo Finance 拉取分钟级K线（1分钟、1小时），每只股票、每个周期
 各写入一个 CSV 文件，按区域与周期分目录存放：
     data/{region}/kline_1m/{symbol}.csv
-    data/{region}/kline_15m/{symbol}.csv
     data/{region}/kline_1h/{symbol}.csv
 
 范围：
-    - 默认按区域拉取全市场（US/HK/CN/KR），支持分批（--batch/--batches）
-    - 也可用 --universe sp500|ndx100 拉取指定指数成分股（仅美股）
+    - --index：拉取指定指数成分股（csi300/csi500/ndx100/sp500/hsi）
+    - --region：按区域（默认按 config.REGIONS 全市场，需 universe 文件）
 
-增量查重：与已有文件按时间点合并去重（追加而非覆盖），重复运行只补新增时间点。
+增量查重：只拉取已有文件最后时间点之后的新数据，与已有文件按时间点合并去重
+（追加而非覆盖），重复运行只补新增时间点，不会每天全量重拉。
 
 用法：
-    python scripts/fetch_intraday.py                          # 全部区域全市场
-    python scripts/fetch_intraday.py --region us              # 仅美股全市场
-    python scripts/fetch_intraday.py --region us --universe sp500  # 仅标普500
+    python scripts/fetch_intraday.py --index sp500            # 标普500成分股
+    python scripts/fetch_intraday.py --index csi300           # 沪深300成分股
     python scripts/fetch_intraday.py --region us --batch 0 --batches 20
 """
 
@@ -26,6 +25,7 @@ import sys
 import time
 from pathlib import Path
 
+import pandas as pd
 import yfinance as yf
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -40,32 +40,8 @@ INDEX_COL = "Datetime"
 # 周期 -> 子目录名
 SUBDIR = {
     "1m": config.INTRADAY_M1_SUBDIR,
-    "15m": config.INTRADAY_M15_SUBDIR,
     "1h": config.INTRADAY_M1H_SUBDIR,
 }
-
-# universe 名 -> 清单文件名（仅美股）
-UNIVERSE_FILES = {
-    "sp500": config.SP500_FILE,
-    "ndx100": config.NASDAQ100_FILE,
-}
-
-
-def load_universe_symbols(universe: str) -> list[str]:
-    """读取指定指数成分股清单。"""
-    fname = UNIVERSE_FILES.get(universe)
-    if not fname:
-        print(f"  [警告] 未知指数: {universe}", file=sys.stderr)
-        return []
-    path = ROOT / config.DATA_DIR / config.UNIVERSE_SUBDIR / fname
-    if not path.exists():
-        print(f"  [警告] 成分股清单不存在: {path.relative_to(ROOT)}", file=sys.stderr)
-        return []
-    return [
-        line.strip()
-        for line in path.read_text(encoding="utf-8").splitlines()
-        if line.strip()
-    ]
 
 
 def output_path(region: str, symbol: str, interval: str) -> Path:
@@ -73,25 +49,44 @@ def output_path(region: str, symbol: str, interval: str) -> Path:
 
 
 def fetch_symbol(region: str, symbol: str, interval: str) -> Path | None:
-    """拉取单只股票指定周期的分钟K线，追加去重后返回输出路径；失败返回 None。"""
+    """增量拉取单只股票指定周期的分钟K线，追加去重后返回输出路径；失败返回 None。
+
+    增量策略：若文件已存在，只拉取最后时间点之前缓冲段之后的新数据，避免每天
+    全量重拉；首次运行或文件为空时拉取 config.INTRADAY_PERIOD 的全量范围。
+    """
     out = output_path(region, symbol, interval)
     out.parent.mkdir(parents=True, exist_ok=True)
 
     ticker = yf.Ticker(symbol)
-    df = ticker.history(
-        period=config.INTRADAY_PERIOD[interval],
-        interval=interval,
-        auto_adjust=False,
-    )
+    existing = marketlib.read_kline(out, index_col=INDEX_COL)
+
+    if existing is None or existing.empty:
+        # 首次/空文件：全量拉取
+        df = ticker.history(
+            period=config.INTRADAY_PERIOD[interval],
+            interval=interval,
+            auto_adjust=False,
+        )
+        mode_label = "全量"
+    else:
+        # 增量：只拉取最后时间点之前缓冲段（含回看，覆盖修订）之后的数据
+        last_dt = existing.index.max()
+        start = (last_dt - pd.Timedelta(days=config.INTRADAY_BUFFER_DAYS)).to_pydatetime()
+        df = ticker.history(
+            start=start,
+            interval=interval,
+            auto_adjust=False,
+        )
+        mode_label = "增量"
 
     if df is None or df.empty:
-        print(f"  [跳过] {symbol} {interval}: 无数据返回", flush=True)
+        print(f"  [跳过] {symbol} {interval}: 无新数据返回", flush=True)
         return out if out.exists() else None
 
     cols = [c for c in COLS if c in df.columns]
     merged = marketlib.merge_kline(out, df, cols, index_col=INDEX_COL)
     print(
-        f"  [更新] {symbol} {interval} -> {out.relative_to(ROOT)} (共 {len(merged)} 行)",
+        f"  [{mode_label}] {symbol} {interval} -> {out.relative_to(ROOT)} (共 {len(merged)} 行)",
         flush=True,
     )
     return out
@@ -100,39 +95,38 @@ def fetch_symbol(region: str, symbol: str, interval: str) -> Path | None:
 def run(
     region: str | None,
     intervals: list[str],
-    universe: str | None = None,
+    index: str | None = None,
     batch: int = 0,
     batches: int = 1,
 ) -> int:
-    regions: list[str]
-    if universe:
-        # 指数成分股模式（仅美股）
-        regions = ["us"]
-        syms_map = {"us": load_universe_symbols(universe)}
+    targets: list[tuple[str, str]] = []
+    if index:
+        reg, syms = marketlib.load_index_symbols(index)
+        syms = marketlib.slice_batch(syms, batch, batches)
+        targets.extend((reg, s) for s in syms)
     elif region:
-        regions = [region]
-        syms_map = {region: marketlib.load_symbols(region)}
+        syms = marketlib.load_symbols(region)
+        syms = marketlib.slice_batch(syms, batch, batches)
+        targets.extend((region, s) for s in syms)
     else:
-        regions = list(config.REGIONS)
-        syms_map = {reg: marketlib.load_symbols(reg) for reg in regions}
+        for reg in config.REGIONS:
+            syms = marketlib.load_symbols(reg)
+            syms = marketlib.slice_batch(syms, batch, batches)
+            targets.extend((reg, s) for s in syms)
+
+    if not targets:
+        print("未找到匹配的符号/区域/指数", file=sys.stderr)
+        return 1
 
     failed: list[str] = []
-    for reg in regions:
-        symbols = marketlib.slice_batch(syms_map[reg], batch, batches)
-        print(
-            f"[区域] {reg} ({len(symbols)} 只"
-            + (f", 批 {batch+1}/{batches}" if batches > 1 else "")
-            + f", 周期 {'+'.join(intervals)})",
-            flush=True,
-        )
+    for reg, symbol in targets:
         for interval in intervals:
-            for symbol in symbols:
-                try:
-                    marketlib.run_with_retry(fetch_symbol, reg, symbol, interval)
-                except Exception as exc:  # noqa: BLE001 - 单只失败不中断整体
-                    print(f"  [失败] {reg} {symbol} {interval}: {exc}", flush=True)
-                    failed.append(f"{reg}:{symbol}@{interval}")
-                time.sleep(config.REQUEST_DELAY)
+            try:
+                marketlib.run_with_retry(fetch_symbol, reg, symbol, interval)
+            except Exception as exc:  # noqa: BLE001 - 单只失败不中断整体
+                print(f"  [失败] {reg} {symbol} {interval}: {exc}", flush=True)
+                failed.append(f"{reg}:{symbol}@{interval}")
+            time.sleep(config.REQUEST_DELAY)
 
     if failed:
         print(f"失败 {len(failed)} 项: {failed}", file=sys.stderr)
@@ -141,28 +135,28 @@ def run(
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="拉取分钟级K线")
+    parser = argparse.ArgumentParser(description="拉取分钟级K线（1m/1h）")
     parser.add_argument(
         "--region",
         choices=list(config.REGIONS),
-        help="仅处理指定区域（默认全部）",
+        help="仅处理指定区域",
     )
     parser.add_argument(
-        "--universe",
-        choices=list(UNIVERSE_FILES),
-        help="拉取指定指数成分股（仅美股，sp500/ndx100）",
+        "--index",
+        choices=sorted(config.INDEX_CONFIG),
+        help="拉取指定指数成分股（csi300/csi500/ndx100/sp500/hsi）",
     )
     parser.add_argument(
         "--interval",
-        choices=["1m", "15m", "1h", "all"],
+        choices=["1m", "1h", "all"],
         default="all",
-        help="K线周期（默认 all）",
+        help="K线周期（默认 all=1m+1h）",
     )
     parser.add_argument("--batch", type=int, default=0, help="当前批次（0 起）")
     parser.add_argument("--batches", type=int, default=1, help="总批次数")
     args = parser.parse_args()
-    intervals = ["1m", "15m", "1h"] if args.interval == "all" else [args.interval]
-    return run(args.region, intervals, args.universe, args.batch, args.batches)
+    intervals = ["1m", "1h"] if args.interval == "all" else [args.interval]
+    return run(args.region, intervals, args.index, args.batch, args.batches)
 
 
 if __name__ == "__main__":

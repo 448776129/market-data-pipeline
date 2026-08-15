@@ -8,24 +8,30 @@ on:
     inputs:
       region:
         description: "市场区域 (us/hk/cn/kr)"
-        required: true
+        required: false
+        default: ""
+        type: string
+      index:
+        description: "指数成分股 (csi300/csi500/ndx100/sp500/hsi)，优先于 region"
+        required: false
+        default: ""
         type: string
       mode:
-        description: "historical=全量历史, daily=当日增量, meta=非K线, universe=全市场列表, minute=分钟K线(纳指100)"
+        description: "historical=全量历史, daily=当日增量, meta=非K线, universe=指数清单, minute=分钟K线(1m/1h)"
         required: true
         type: string
       batch:
-        description: "当前批次（0 起），全市场分批用"
+        description: "当前批次（0 起），分批用"
         required: false
         default: "0"
         type: string
       batches:
-        description: "总批次数，全市场分批用"
+        description: "总批次数，分批用"
         required: false
         default: "1"
         type: string
       universe:
-        description: "分钟K线指数（sp500/ndx100），留空则按区域拉全市场"
+        description: "保留：旧版分钟K线指数参数（弃用）"
         required: false
         default: ""
         type: string
@@ -49,26 +55,34 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Fetch data (${{ inputs.mode }}) · ${{ inputs.region }}
+      - name: Fetch data (${{ inputs.mode }}) · ${{ inputs.index }}${{ inputs.region }}
         run: |
           BATCH_ARGS=""
           if [ "${{ inputs.batches }}" != "1" ]; then
             BATCH_ARGS="--batch ${{ inputs.batch }} --batches ${{ inputs.batches }}"
           fi
+          INDEX_ARGS=""
+          if [ "${{ inputs.index }}" != "" ]; then
+            INDEX_ARGS="--index ${{ inputs.index }}"
+          fi
+          REGION_ARGS=""
+          if [ "${{ inputs.region }}" != "" ]; then
+            REGION_ARGS="--region ${{ inputs.region }}"
+          fi
           if [ "${{ inputs.mode }}" = "historical" ]; then
-            python scripts/fetch_historical.py --region ${{ inputs.region }} $BATCH_ARGS
+            python scripts/fetch_historical.py $INDEX_ARGS $REGION_ARGS $BATCH_ARGS
           elif [ "${{ inputs.mode }}" = "meta" ]; then
-            python scripts/fetch_meta.py --region ${{ inputs.region }} $BATCH_ARGS
+            python scripts/fetch_meta.py $REGION_ARGS $BATCH_ARGS
           elif [ "${{ inputs.mode }}" = "universe" ]; then
-            python scripts/fetch_universe.py
-          elif [ "${{ inputs.mode }}" = "minute" ]; then
-            UNIVERSE_ARGS=""
-            if [ "${{ inputs.universe }}" != "" ]; then
-              UNIVERSE_ARGS="--universe ${{ inputs.universe }}"
+            INDEX_NAME=""
+            if [ "${{ inputs.index }}" != "" ]; then
+              INDEX_NAME="--index ${{ inputs.index }}"
             fi
-            python scripts/fetch_intraday.py --region ${{ inputs.region }} $UNIVERSE_ARGS $BATCH_ARGS
+            python scripts/fetch_universe.py $INDEX_NAME
+          elif [ "${{ inputs.mode }}" = "minute" ]; then
+            python scripts/fetch_intraday.py $INDEX_ARGS $REGION_ARGS $BATCH_ARGS
           else
-            python scripts/fetch_latest.py --region ${{ inputs.region }} $BATCH_ARGS
+            python scripts/fetch_latest.py $INDEX_ARGS $REGION_ARGS $BATCH_ARGS
           fi
 
       - name: Commit data

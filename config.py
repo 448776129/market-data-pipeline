@@ -57,14 +57,33 @@ UNIVERSE_SOURCES = {
     "hk": "https://raw.githubusercontent.com/darr/stock_code/master/hk_stock_code.csv",
 }
 
-# 分钟级K线（主要针对纳指100成分股）
-# 纳指100成分股清单文件名（data/universe/ 下）
-NASDAQ100_FILE = "nasdaq100.csv"
-# 标普500成分股清单文件名（data/universe/ 下）
-SP500_FILE = "sp500.csv"
+# 指数成分股清单（按用户配置拉取，替代全市场）
+# index 名 -> (清单文件名, 所属区域)
+# 清单文件位于 data/universe/ 下，由 fetch_universe.py 从数据源更新
+INDEX_CONFIG: dict[str, dict] = {
+    "csi300": {"file": "csi300.csv", "region": "cn"},   # 沪深300（A股）
+    "csi500": {"file": "csi500.csv", "region": "cn"},   # 中证500（A股）
+    "ndx100": {"file": "nasdaq100.csv", "region": "us"},  # 纳指100
+    "sp500": {"file": "sp500.csv", "region": "us"},       # 标普500
+    "hsi": {"file": "hsi.csv", "region": "hk"},           # 恒生指数
+}
+
+# 指数成分股清单数据源（供 fetch_universe.py 使用）
+# 来自 yfiua/index-constituents，符号与 Yahoo Finance 完全一致
+INDEX_SOURCES = {
+    "csi300": "https://yfiua.github.io/index-constituents/constituents-csi300.csv",
+    "csi500": "https://yfiua.github.io/index-constituents/constituents-csi500.csv",
+    "nasdaq100": "https://yfiua.github.io/index-constituents/constituents-nasdaq100.csv",
+    "sp500": "https://yfiua.github.io/index-constituents/constituents-sp500.csv",
+    "hsi": "https://yfiua.github.io/index-constituents/constituents-hsi.csv",
+}
+
+# 拉取的范围：默认按 INDEX_CONFIG 拉取指数成分股（用户配置）
+# 关闭全市场模式：REGIONS 全部保持空即可，由 --index 指定指数
 # 分钟级K线子目录（按周期分目录，每只股票一个文件）
 INTRADAY_M1_SUBDIR = "kline_1m"
-INTRADAY_M15_SUBDIR = "kline_15m"
 INTRADAY_M1H_SUBDIR = "kline_1h"
-# 分钟级K线各周期的 yfinance period（1m 仅保留约7天，15m 约60天，1h 约730天）
-INTRADAY_PERIOD = {"1m": "5d", "15m": "2mo", "1h": "6mo"}
+# 分钟级K线各周期的 yfinance period（1m 仅保留约7天，1h 约730天）
+INTRADAY_PERIOD = {"1m": "5d", "1h": "6mo"}
+# 分钟级K线增量拉取时的回看缓冲天数：覆盖数据修订（除权/分红/错误修正）
+INTRADAY_BUFFER_DAYS = 2

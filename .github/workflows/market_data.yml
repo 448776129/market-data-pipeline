@@ -2,41 +2,40 @@ name: Market Data Pipeline
 
 on:
   schedule:
-    # 历史 K 线 + 非K线(meta)：每周一 09:00 (北京时间) 全量刷新一次
+    # 指数成分股清单：每周一 09:00 (北京时间) 更新一次
     - cron: "0 1 * * 1"
-    # 当日增量数据：每天 3 次（北京时间 08:00 / 12:00 / 20:00）
+    # 历史日K线：每周一 09:00 全量刷新一次
+    - cron: "0 1 * * 1"
+    # 当日日K线增量：每天 3 次（北京时间 08:00 / 12:00 / 20:00）
     - cron: "0 0 * * *"
     - cron: "0 4 * * *"
     - cron: "0 12 * * *"
-    # 分钟K线(纳指100)：美股交易时段内北京时间 22:00/00:00/02:00/04:00，工作日
-    - cron: "0 14 * * 1-5"
-    - cron: "0 16 * * 1-5"
-    - cron: "0 18 * * 1-5"
-    - cron: "0 20 * * 1-5"
+    # 分钟K线(1m/1h)：每3小时增量更新（首次需手动触发 mode=minute 全量入库）
+    - cron: "0 */3 * * *"
   workflow_dispatch:
     inputs:
       mode:
-        description: "运行模式：historical=全量历史, daily=当日增量, meta=非K线, minute=分钟K线"
+        description: "运行模式：historical=日K全量, daily=日K增量, minute=分钟K, universe=指数清单"
         required: true
         default: "daily"
         type: choice
         options:
           - historical
           - daily
-          - meta
           - minute
-      region:
-        description: "限定市场：all=全部, us/hk/cn/kr=单市场"
+          - universe
+      index:
+        description: "限定指数：all=全部, csi300/csi500/ndx100/sp500/hsi=单指数"
         required: false
         default: "all"
         type: choice
         options:
           - all
-          - us
-          - hk
-          - cn
-          - kr
+          - csi300
+          - csi500
           - ndx100
+          - sp500
+          - hsi
 
 env:
   PYTHON_VERSION: "3.11"
@@ -45,266 +44,157 @@ env:
 permissions:
   contents: write
 
-# 美股全市场分批数（约 8000 只 / 每批约 400 只）
 jobs:
   # ============================================================
-  # 全市场股票列表：拉取美股/港股/韩股全部代码（A股为仓库内置清单），
-  # 后续各市场 job 依赖它，确保列表已生成
+  # 指数成分股清单：更新5个指数成分股（csi300/csi500/ndx100/sp500/hsi）
   # ============================================================
   universe:
-    name: Universe · US/HK/KR
-    if: ${{ always() }}
+    name: Universe · 更新指数清单
+    if: ${{ github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1' || github.event_name == 'workflow_dispatch' && (github.event.inputs.mode == 'universe' || github.event.inputs.mode == 'historical') }}
     uses: ./.github/workflows/step-data.yml
     with:
-      region: us
       mode: universe
 
   # ============================================================
-  # 历史数据：美股分 20 批并行，其他市场各一个 job
+  # 历史日K线：按指数拉取，每个指数一个 job（成分股少，无需分批）
   # ============================================================
-  historical-us:
-    name: Historical · US (batch ${{ matrix.batch }})
+  historical-csi300:
+    name: Historical · 沪深300
     needs: [universe]
-    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'us')) }}
-    strategy:
-      fail-fast: false
-      matrix:
-        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical' && (github.event.inputs.index == 'all' || github.event.inputs.index == 'csi300')) }}
     uses: ./.github/workflows/step-data.yml
     with:
-      region: us
+      index: csi300
       mode: historical
-      batch: ${{ matrix.batch }}
-      batches: "20"
 
-  historical-hk:
-    name: Historical · HK (batch ${{ matrix.batch }})
+  historical-csi500:
+    name: Historical · 中证500
     needs: [universe]
-    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'hk')) }}
-    strategy:
-      fail-fast: false
-      matrix:
-        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical' && (github.event.inputs.index == 'all' || github.event.inputs.index == 'csi500')) }}
     uses: ./.github/workflows/step-data.yml
     with:
-      region: hk
+      index: csi500
       mode: historical
-      batch: ${{ matrix.batch }}
-      batches: "25"
 
-  historical-cn:
-    name: Historical · CN (batch ${{ matrix.batch }})
-    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'cn')) }}
-    strategy:
-      fail-fast: false
-      matrix:
-        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+  historical-ndx100:
+    name: Historical · 纳指100
+    needs: [universe]
+    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical' && (github.event.inputs.index == 'all' || github.event.inputs.index == 'ndx100')) }}
     uses: ./.github/workflows/step-data.yml
     with:
-      region: cn
+      index: ndx100
       mode: historical
-      batch: ${{ matrix.batch }}
-      batches: "20"
 
-  historical-kr:
-    name: Historical · KR (batch ${{ matrix.batch }})
+  historical-sp500:
+    name: Historical · 标普500
     needs: [universe]
-    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'kr')) }}
-    strategy:
-      fail-fast: false
-      matrix:
-        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical' && (github.event.inputs.index == 'all' || github.event.inputs.index == 'sp500')) }}
     uses: ./.github/workflows/step-data.yml
     with:
-      region: kr
+      index: sp500
       mode: historical
-      batch: ${{ matrix.batch }}
-      batches: "10"
 
-  # ============================================================
-  # 当日数据：美股分 20 批并行，其他市场各一个 job
-  # ============================================================
-  daily-us:
-    name: Daily · US (batch ${{ matrix.batch }})
+  historical-hsi:
+    name: Historical · 恒生HSI
     needs: [universe]
-    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 0 * * *' || github.event.schedule == '0 4 * * *' || github.event.schedule == '0 12 * * *')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'us')) }}
-    strategy:
-      fail-fast: false
-      matrix:
-        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical' && (github.event.inputs.index == 'all' || github.event.inputs.index == 'hsi')) }}
     uses: ./.github/workflows/step-data.yml
     with:
-      region: us
+      index: hsi
+      mode: historical
+
+  # ============================================================
+  # 当日日K线增量：每天3次，按指数拉取
+  # ============================================================
+  daily-csi300:
+    name: Daily · 沪深300
+    needs: [universe]
+    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 0 * * *' || github.event.schedule == '0 4 * * *' || github.event.schedule == '0 12 * * *')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily' && (github.event.inputs.index == 'all' || github.event.inputs.index == 'csi300')) }}
+    uses: ./.github/workflows/step-data.yml
+    with:
+      index: csi300
       mode: daily
-      batch: ${{ matrix.batch }}
-      batches: "20"
 
-  daily-hk:
-    name: Daily · HK (batch ${{ matrix.batch }})
+  daily-csi500:
+    name: Daily · 中证500
     needs: [universe]
-    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 0 * * *' || github.event.schedule == '0 4 * * *' || github.event.schedule == '0 12 * * *')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'hk')) }}
-    strategy:
-      fail-fast: false
-      matrix:
-        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 0 * * *' || github.event.schedule == '0 4 * * *' || github.event.schedule == '0 12 * * *')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily' && (github.event.inputs.index == 'all' || github.event.inputs.index == 'csi500')) }}
     uses: ./.github/workflows/step-data.yml
     with:
-      region: hk
+      index: csi500
       mode: daily
-      batch: ${{ matrix.batch }}
-      batches: "25"
 
-  daily-cn:
-    name: Daily · CN (batch ${{ matrix.batch }})
-    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 0 * * *' || github.event.schedule == '0 4 * * *' || github.event.schedule == '0 12 * * *')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'cn')) }}
-    strategy:
-      fail-fast: false
-      matrix:
-        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+  daily-ndx100:
+    name: Daily · 纳指100
+    needs: [universe]
+    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 0 * * *' || github.event.schedule == '0 4 * * *' || github.event.schedule == '0 12 * * *')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily' && (github.event.inputs.index == 'all' || github.event.inputs.index == 'ndx100')) }}
     uses: ./.github/workflows/step-data.yml
     with:
-      region: cn
+      index: ndx100
       mode: daily
-      batch: ${{ matrix.batch }}
-      batches: "20"
 
-  daily-kr:
-    name: Daily · KR (batch ${{ matrix.batch }})
+  daily-sp500:
+    name: Daily · 标普500
     needs: [universe]
-    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 0 * * *' || github.event.schedule == '0 4 * * *' || github.event.schedule == '0 12 * * *')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'kr')) }}
-    strategy:
-      fail-fast: false
-      matrix:
-        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 0 * * *' || github.event.schedule == '0 4 * * *' || github.event.schedule == '0 12 * * *')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily' && (github.event.inputs.index == 'all' || github.event.inputs.index == 'sp500')) }}
     uses: ./.github/workflows/step-data.yml
     with:
-      region: kr
+      index: sp500
       mode: daily
-      batch: ${{ matrix.batch }}
-      batches: "10"
 
-  # ============================================================
-  # 非K线数据（meta）：美股分 20 批并行，其他市场各一个 job
-  # ============================================================
-  meta-us:
-    name: Meta · US (batch ${{ matrix.batch }})
-    needs: [historical-us]
-    if: ${{ always() && ((github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'us'))) }}
-    strategy:
-      fail-fast: false
-      matrix:
-        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
-    uses: ./.github/workflows/step-data.yml
-    with:
-      region: us
-      mode: meta
-      batch: ${{ matrix.batch }}
-      batches: "20"
-
-  meta-hk:
-    name: Meta · HK (batch ${{ matrix.batch }})
-    needs: [historical-hk]
-    if: ${{ always() && ((github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'hk'))) }}
-    strategy:
-      fail-fast: false
-      matrix:
-        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
-    uses: ./.github/workflows/step-data.yml
-    with:
-      region: hk
-      mode: meta
-      batch: ${{ matrix.batch }}
-      batches: "25"
-
-  meta-cn:
-    name: Meta · CN (batch ${{ matrix.batch }})
-    needs: [historical-cn]
-    if: ${{ always() && ((github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'cn'))) }}
-    strategy:
-      fail-fast: false
-      matrix:
-        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
-    uses: ./.github/workflows/step-data.yml
-    with:
-      region: cn
-      mode: meta
-      batch: ${{ matrix.batch }}
-      batches: "20"
-
-  meta-kr:
-    name: Meta · KR (batch ${{ matrix.batch }})
-    needs: [historical-kr]
-    if: ${{ always() && ((github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'kr'))) }}
-    strategy:
-      fail-fast: false
-      matrix:
-        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-    uses: ./.github/workflows/step-data.yml
-    with:
-      region: kr
-      mode: meta
-      batch: ${{ matrix.batch }}
-      batches: "10"
-
-  # ============================================================
-  # 分钟级K线（1m/15m/1h）：四市场全市场，分批并行
-  # 定时：美股交易时段内（北京时间 22/00/02/04 点，工作日）
-  # ============================================================
-  minute-us:
-    name: Minute · US (batch ${{ matrix.batch }})
+  daily-hsi:
+    name: Daily · 恒生HSI
     needs: [universe]
-    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 14 * * 1-5' || github.event.schedule == '0 16 * * 1-5' || github.event.schedule == '0 18 * * 1-5' || github.event.schedule == '0 20 * * 1-5')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'minute' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'us')) }}
-    strategy:
-      fail-fast: false
-      matrix:
-        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 0 * * *' || github.event.schedule == '0 4 * * *' || github.event.schedule == '0 12 * * *')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily' && (github.event.inputs.index == 'all' || github.event.inputs.index == 'hsi')) }}
     uses: ./.github/workflows/step-data.yml
     with:
-      region: us
-      mode: minute
-      batch: ${{ matrix.batch }}
-      batches: "30"
+      index: hsi
+      mode: daily
 
-  minute-hk:
-    name: Minute · HK (batch ${{ matrix.batch }})
+  # ============================================================
+  # 分钟K线(1m/1h)：每3小时增量更新，按指数拉取
+  # ============================================================
+  minute-csi300:
+    name: Minute · 沪深300
     needs: [universe]
-    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 14 * * 1-5' || github.event.schedule == '0 16 * * 1-5' || github.event.schedule == '0 18 * * 1-5' || github.event.schedule == '0 20 * * 1-5')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'minute' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'hk')) }}
-    strategy:
-      fail-fast: false
-      matrix:
-        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 */3 * * *') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'minute' && (github.event.inputs.index == 'all' || github.event.inputs.index == 'csi300')) }}
     uses: ./.github/workflows/step-data.yml
     with:
-      region: hk
+      index: csi300
       mode: minute
-      batch: ${{ matrix.batch }}
-      batches: "30"
 
-  minute-cn:
-    name: Minute · CN (batch ${{ matrix.batch }})
-    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 14 * * 1-5' || github.event.schedule == '0 16 * * 1-5' || github.event.schedule == '0 18 * * 1-5' || github.event.schedule == '0 20 * * 1-5')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'minute' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'cn')) }}
-    strategy:
-      fail-fast: false
-      matrix:
-        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
-    uses: ./.github/workflows/step-data.yml
-    with:
-      region: cn
-      mode: minute
-      batch: ${{ matrix.batch }}
-      batches: "15"
-
-  minute-kr:
-    name: Minute · KR (batch ${{ matrix.batch }})
+  minute-csi500:
+    name: Minute · 中证500
     needs: [universe]
-    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 14 * * 1-5' || github.event.schedule == '0 16 * * 1-5' || github.event.schedule == '0 18 * * 1-5' || github.event.schedule == '0 20 * * 1-5')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'minute' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'kr')) }}
-    strategy:
-      fail-fast: false
-      matrix:
-        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 */3 * * *') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'minute' && (github.event.inputs.index == 'all' || github.event.inputs.index == 'csi500')) }}
     uses: ./.github/workflows/step-data.yml
     with:
-      region: kr
+      index: csi500
       mode: minute
-      batch: ${{ matrix.batch }}
-      batches: "10"
+
+  minute-ndx100:
+    name: Minute · 纳指100
+    needs: [universe]
+    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 */3 * * *') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'minute' && (github.event.inputs.index == 'all' || github.event.inputs.index == 'ndx100')) }}
+    uses: ./.github/workflows/step-data.yml
+    with:
+      index: ndx100
+      mode: minute
+
+  minute-sp500:
+    name: Minute · 标普500
+    needs: [universe]
+    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 */3 * * *') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'minute' && (github.event.inputs.index == 'all' || github.event.inputs.index == 'sp500')) }}
+    uses: ./.github/workflows/step-data.yml
+    with:
+      index: sp500
+      mode: minute
+
+  minute-hsi:
+    name: Minute · 恒生HSI
+    needs: [universe]
+    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 */3 * * *') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'minute' && (github.event.inputs.index == 'all' || github.event.inputs.index == 'hsi')) }}
+    uses: ./.github/workflows/step-data.yml
+    with:
+      index: hsi
+      mode: minute

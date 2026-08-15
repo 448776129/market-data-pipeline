@@ -56,13 +56,23 @@ def fetch_symbol(region: str, symbol: str) -> Path | None:
     return out
 
 
-def run(region: str | None, symbol: str | None, batch: int = 0, batches: int = 1) -> int:
+def run(
+    region: str | None,
+    symbol: str | None,
+    index: str | None = None,
+    batch: int = 0,
+    batches: int = 1,
+) -> int:
     targets: list[tuple[str, str]] = []
     if symbol:
         # 按符号反查区域
         for reg, syms in config.REGIONS.items():
             if symbol in syms:
                 targets.append((reg, symbol))
+    elif index:
+        reg, syms = marketlib.load_index_symbols(index)
+        syms = marketlib.slice_batch(syms, batch, batches)
+        targets.extend((reg, s) for s in syms)
     elif region:
         syms = marketlib.load_symbols(region)
         syms = marketlib.slice_batch(syms, batch, batches)
@@ -94,12 +104,17 @@ def run(region: str | None, symbol: str | None, batch: int = 0, batches: int = 1
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="当日数据增量更新")
-    parser.add_argument("--region", choices=config.REGIONS, help="仅处理指定区域")
+    parser.add_argument("--region", choices=list(config.REGIONS), help="仅处理指定区域")
     parser.add_argument("--symbol", help="仅处理指定符号")
+    parser.add_argument(
+        "--index",
+        choices=sorted(config.INDEX_CONFIG),
+        help="仅处理指定指数成分股（csi300/csi500/ndx100/sp500/hsi）",
+    )
     parser.add_argument("--batch", type=int, default=0, help="当前批次（0 起）")
     parser.add_argument("--batches", type=int, default=1, help="总批次数")
     args = parser.parse_args()
-    return run(args.region, args.symbol, args.batch, args.batches)
+    return run(args.region, args.symbol, args.index, args.batch, args.batches)
 
 
 if __name__ == "__main__":

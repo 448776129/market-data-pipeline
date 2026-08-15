@@ -1,0 +1,8 @@
+name = "market-data-api"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# 免费计划：10 万请求/天
+# 部署后可通过 https://market-data-api.<你的子域>.workers.dev/kline 调用
+[observability]
+enabled = true
