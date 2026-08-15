@@ -30,7 +30,7 @@ RECENT_DAYS = "5d"
 
 
 def output_path(region: str, symbol: str) -> Path:
-    return ROOT / config.DATA_DIR / region / f"{symbol}.csv"
+    return ROOT / config.DATA_DIR / region / config.KLINE_SUBDIR / f"{symbol}.csv"
 
 
 def load_existing(region: str, symbol: str) -> pd.DataFrame | None:

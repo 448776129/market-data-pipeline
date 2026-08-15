@@ -9,13 +9,14 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "运行模式：historical=全量历史, daily=当日增量"
+        description: "运行模式：historical=全量历史, daily=当日增量, meta=非K线数据"
         required: true
         default: "daily"
         type: choice
         options:
           - historical
           - daily
+          - meta
 
 env:
   PYTHON_VERSION: "3.11"
@@ -52,6 +53,14 @@ jobs:
       region: cn
       mode: historical
 
+  historical-kr:
+    name: Historical · KR
+    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical') }}
+    uses: ./.github/workflows/step-data.yml
+    with:
+      region: kr
+      mode: historical
+
   # ============================================================
   # 当日数据：每个市场一个独立 job，异步并行拉取
   # ============================================================
@@ -78,3 +87,46 @@ jobs:
     with:
       region: cn
       mode: daily
+
+  daily-kr:
+    name: Daily · KR
+    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily') }}
+    uses: ./.github/workflows/step-data.yml
+    with:
+      region: kr
+      mode: daily
+
+  # ============================================================
+  # 非K线数据（meta）：每个市场一个独立 job，异步并行拉取
+  # ============================================================
+  meta-us:
+    name: Meta · US
+    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta') }}
+    uses: ./.github/workflows/step-data.yml
+    with:
+      region: us
+      mode: meta
+
+  meta-hk:
+    name: Meta · HK
+    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta') }}
+    uses: ./.github/workflows/step-data.yml
+    with:
+      region: hk
+      mode: meta
+
+  meta-cn:
+    name: Meta · CN
+    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta') }}
+    uses: ./.github/workflows/step-data.yml
+    with:
+      region: cn
+      mode: meta
+
+  meta-kr:
+    name: Meta · KR
+    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta') }}
+    uses: ./.github/workflows/step-data.yml
+    with:
+      region: kr
+      mode: meta

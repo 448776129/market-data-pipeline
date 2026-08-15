@@ -38,6 +38,8 @@ jobs:
         run: |
           if [ "${{ inputs.mode }}" = "historical" ]; then
             python scripts/fetch_historical.py --region ${{ inputs.region }}
+          elif [ "${{ inputs.mode }}" = "meta" ]; then
+            python scripts/fetch_meta.py --region ${{ inputs.region }}
           else
             python scripts/fetch_latest.py --region ${{ inputs.region }}
           fi

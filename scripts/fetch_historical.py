@@ -28,7 +28,7 @@ COLS = ["Open", "High", "Low", "Close", "Adj Close", "Volume"]
 
 
 def output_path(region: str, symbol: str) -> Path:
-    return ROOT / config.DATA_DIR / region / f"{symbol}.csv"
+    return ROOT / config.DATA_DIR / region / config.KLINE_SUBDIR / f"{symbol}.csv"
 
 
 def fetch_symbol(region: str, symbol: str) -> Path | None:
