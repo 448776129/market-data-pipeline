@@ -1,0 +1,52 @@
+name: Data Fetch Step (reusable)
+
+# 可复用的数据拉取工作流：每个市场一个 job 调用本工作流。
+# 独立 job 默认并行执行，从而实现各市场的异步拉取。
+
+on:
+  workflow_call:
+    inputs:
+      region:
+        description: "市场区域 (us/hk/cn)"
+        required: true
+        type: string
+      mode:
+        description: "historical=全量历史, daily=当日增量"
+        required: true
+        type: string
+
+env:
+  PYTHON_VERSION: "3.11"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch data (${{ inputs.mode }}) · ${{ inputs.region }}
+        run: |
+          if [ "${{ inputs.mode }}" = "historical" ]; then
+            python scripts/fetch_historical.py --region ${{ inputs.region }}
+          else
+            python scripts/fetch_latest.py --region ${{ inputs.region }}
+          fi
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "chore(data): ${{ inputs.mode }} [${{ inputs.region }}]"
+          git push
+        continue-on-error: true

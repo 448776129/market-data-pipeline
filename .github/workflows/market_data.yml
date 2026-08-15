@@ -2,14 +2,14 @@ name: Market Data Pipeline
 
 on:
   schedule:
-    # 历史数据：每日积累任务，每周一 01:00 (UTC) 全量刷新一次
+    # 历史数据：每周一 01:00 (UTC) 全量刷新一次
     - cron: "0 1 * * 1"
-    # 当日数据：按区域/符号分片，每个交易日收盘后增量更新
+    # 当日数据：每个交易日收盘后增量更新
     - cron: "0 13 * * 1-5"
   workflow_dispatch:
     inputs:
       mode:
-        description: "运行模式：historical=全量历史, daily=当日分片"
+        description: "运行模式：historical=全量历史, daily=当日增量"
         required: true
         default: "daily"
         type: choice
@@ -25,62 +25,56 @@ permissions:
   contents: write
 
 jobs:
-  # ================= 历史数据（单任务） =================
-  historical:
-    name: Historical (5y daily)
+  # ============================================================
+  # 历史数据：每个市场一个独立 job，异步并行拉取
+  # ============================================================
+  historical-us:
+    name: Historical · US
     if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical') }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+    uses: ./.github/workflows/step-data.yml
+    with:
+      region: us
+      mode: historical
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
+  historical-hk:
+    name: Historical · HK
+    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical') }}
+    uses: ./.github/workflows/step-data.yml
+    with:
+      region: hk
+      mode: historical
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+  historical-cn:
+    name: Historical · CN
+    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical') }}
+    uses: ./.github/workflows/step-data.yml
+    with:
+      region: cn
+      mode: historical
 
-      - name: Fetch historical data (all regions)
-        run: python scripts/fetch_historical.py
-
-      - name: Commit data
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data
-          git diff --cached --quiet || git commit -m "chore(data): refresh historical market data"
-          git push
-        continue-on-error: true
-
-  # ================= 当日数据（按区域分片） =================
-  daily:
-    name: Daily (${{ matrix.region }})
-    needs: []
+  # ============================================================
+  # 当日数据：每个市场一个独立 job，异步并行拉取
+  # ============================================================
+  daily-us:
+    name: Daily · US
     if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily') }}
-    runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        # 按区域分片，如需进一步按符号分片可在 config.REGIONS 中拆分
-        region: [us, hk, cn]
-    steps:
-      - uses: actions/checkout@v4
+    uses: ./.github/workflows/step-data.yml
+    with:
+      region: us
+      mode: daily
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
+  daily-hk:
+    name: Daily · HK
+    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily') }}
+    uses: ./.github/workflows/step-data.yml
+    with:
+      region: hk
+      mode: daily
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-
-      - name: Fetch latest data for region ${{ matrix.region }}
-        run: python scripts/fetch_latest.py --region ${{ matrix.region }}
-
-      - name: Commit data
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data
-          git diff --cached --quiet || git commit -m "chore(data): update daily data [${{ matrix.region }}]"
-          git push
-        continue-on-error: true
+  daily-cn:
+    name: Daily · CN
+    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily') }}
+    uses: ./.github/workflows/step-data.yml
+    with:
+      region: cn
+      mode: daily
