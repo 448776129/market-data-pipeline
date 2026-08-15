@@ -1,0 +1,136 @@
+{
+  "symbol": "SVACW",
+  "region": "us",
+  "name": "Spring Valley Acquisition Corp. III",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "longName": "Spring Valley Acquisition Corp. III",
+    "shortName": "Starboard Value Acquisition Cor",
+    "sector": "",
+    "industry": "",
+    "country": "United States",
+    "exchange": "NGM",
+    "currency": "USD",
+    "currentPrice": 1.88,
+    "open": 1.76,
+    "previousClose": 1.88,
+    "dayHigh": 1.88,
+    "dayLow": 1.88,
+    "regularMarketPreviousClose": 1.88,
+    "fiftyTwoWeekHigh": 1.88,
+    "fiftyTwoWeekLow": 1.88,
+    "volume": 20789,
+    "floatShares": 23000000,
+    "recommendationKey": "none",
+    "totalDebt": 0,
+    "totalCash": 665383,
+    "profitMargins": 0.0
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 1.88
+  },
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Clear Street Group Inc.",
+      "pctHeld": 0.075100005,
+      "Shares": 575578,
+      "Value": 1082086,
+      "pctChange": 0.0959
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Hudson Bay Capital Management Lp",
+      "pctHeld": 0.07,
+      "Shares": 536370,
+      "Value": 1008375,
+      "pctChange": 1.2987
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Fort Baker Capital Management LP",
+      "pctHeld": 0.0479,
+      "Shares": 367510,
+      "Value": 690918,
+      "pctChange": 0.16690001
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Alberta Investment Management Corp",
+      "pctHeld": 0.0435,
+      "Shares": 333333,
+      "Value": 626666,
+      "pctChange": 0.0
+    },
+    {
+      "index": "4",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Tenor Capital Management Co., L.p.",
+      "pctHeld": 0.0435,
+      "Shares": 333333,
+      "Value": 626666,
+      "pctChange": 0.0
+    },
+    {
+      "index": "5",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "LMR Partners LLP",
+      "pctHeld": 0.0435,
+      "Shares": 333332,
+      "Value": 626664,
+      "pctChange": 1.0
+    },
+    {
+      "index": "6",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Linden Advisors LP",
+      "pctHeld": 0.0435,
+      "Shares": 333233,
+      "Value": 626478,
+      "pctChange": -0.00029999999
+    },
+    {
+      "index": "7",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "AQR Arbitrage LLC",
+      "pctHeld": 0.040599998,
+      "Shares": 311349,
+      "Value": 585336,
+      "pctChange": 0.0
+    },
+    {
+      "index": "8",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Magnetar Financial LLC",
+      "pctHeld": 0.035,
+      "Shares": 268080,
+      "Value": 503990,
+      "pctChange": 0.0
+    },
+    {
+      "index": "9",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Healthcare of Ontario Pension Plan Trust Fund",
+      "pctHeld": 0.0348,
+      "Shares": 266666,
+      "Value": 501332,
+      "pctChange": 0.0
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "symbol": "TECTP",
+  "region": "us",
+  "name": "Tectonic Financial, Inc.",
+  "currency": "USD",
+  "exchange": "NCM",
+  "isin": "-",
+  "info": {
+    "longName": "Tectonic Financial, Inc.",
+    "shortName": "Tectonic Financial, Inc. - 9.00",
+    "sector": "Financial Services",
+    "industry": "Banks - Regional",
+    "country": "United States",
+    "exchange": "NCM",
+    "currency": "USD",
+    "currentPrice": 9.99,
+    "open": 9.9983,
+    "previousClose": 9.99,
+    "dayHigh": 9.9983,
+    "dayLow": 9.99,
+    "regularMarketPrice": 9.99,
+    "regularMarketPreviousClose": 9.99,
+    "fiftyTwoWeekHigh": 12.08,
+    "fiftyTwoWeekLow": 9.83,
+    "trailingPE": 4.6400366,
+    "priceToBook": 0.56825936,
+    "dividendYield": 11.29,
+    "dividendRate": 1.13,
+    "trailingEps": 2.153,
+    "volume": 668,
+    "averageVolume": 11149,
+    "sharesOutstanding": 4051660,
+    "recommendationKey": "none",
+    "totalRevenue": 81498000,
+    "grossProfits": 81498000,
+    "totalDebt": 16278000,
+    "totalCash": 163966000,
+    "profitMargins": 0.21113001,
+    "returnOnEquity": 0.14836,
+    "returnOnAssets": 0.01801,
+    "earningsGrowth": 0.259,
+    "revenueGrowth": 0.111
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 9.99
+  },
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.01328
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.02757
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.02794
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 1.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-01-31 00:00:00",
+      "Holder": "John Hancock Financial Opportunities Fund",
+      "pctHeld": 0.1246,
+      "Shares": 186840,
+      "Value": 1866531,
+      "pctChange": 0.0
+    }
+  ]
+}

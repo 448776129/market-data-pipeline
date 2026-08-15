@@ -1,0 +1,60 @@
+{
+  "symbol": "TOT",
+  "region": "us",
+  "name": "Lionshares U.S. Equity Total Return ETF",
+  "currency": "USD",
+  "exchange": "PCX",
+  "isin": "US00777X4705",
+  "info": {
+    "longName": "Lionshares U.S. Equity Total Return ETF",
+    "shortName": "LionShares U.S. Equity Total Re",
+    "exchange": "PCX",
+    "currency": "USD",
+    "currentPrice": 24.5153,
+    "open": 24.66,
+    "previousClose": 24.5491,
+    "dayHigh": 24.66,
+    "dayLow": 24.5153,
+    "regularMarketPrice": 24.5153,
+    "regularMarketPreviousClose": 24.5491,
+    "fiftyTwoWeekHigh": 24.66,
+    "fiftyTwoWeekLow": 19.865,
+    "trailingPE": 25.766016,
+    "volume": 139,
+    "averageVolume": 1196,
+    "recommendationKey": "none"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 24.5153
+  },
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Jane Street Group, LLC",
+      "pctHeld": 0.0242,
+      "Shares": 10229,
+      "Value": 250767,
+      "pctChange": 1.0
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Integrated Wealth Concepts LLC",
+      "pctHeld": 0.0,
+      "Shares": 11,
+      "Value": 269,
+      "pctChange": 1.0
+    }
+  ]
+}

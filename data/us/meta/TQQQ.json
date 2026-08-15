@@ -1,0 +1,156 @@
+{
+  "symbol": "TQQQ",
+  "region": "us",
+  "name": "ProShares UltraPro QQQ",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US74347X8314",
+  "info": {
+    "longName": "ProShares UltraPro QQQ",
+    "shortName": "ProShares UltraPro QQQ",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 77.565,
+    "previousClose": 77.15,
+    "dayHigh": 77.85,
+    "dayLow": 75.94,
+    "regularMarketPrice": 76.79,
+    "regularMarketPreviousClose": 77.15,
+    "fiftyTwoWeekHigh": 88.09,
+    "fiftyTwoWeekLow": 37.32,
+    "trailingPE": 34.98428,
+    "dividendYield": 0.58,
+    "volume": 36068304,
+    "averageVolume": 69753865
+  },
+  "dividends": [
+    {
+      "index": "2014-06-25 09:30:00-04:00",
+      "value": 0.00025
+    },
+    {
+      "index": "2014-12-22 09:30:00-05:00",
+      "value": 0.000354
+    },
+    {
+      "index": "2015-03-25 09:30:00-04:00",
+      "value": 0.000229
+    },
+    {
+      "index": "2018-12-26 09:30:00-05:00",
+      "value": 0.005125
+    },
+    {
+      "index": "2019-03-20 09:30:00-04:00",
+      "value": 0.0025
+    },
+    {
+      "index": "2019-12-24 09:30:00-05:00",
+      "value": 0.003875
+    },
+    {
+      "index": "2022-12-22 09:30:00-05:00",
+      "value": 0.049
+    },
+    {
+      "index": "2023-03-22 09:30:00-04:00",
+      "value": 0.075
+    },
+    {
+      "index": "2023-06-21 09:30:00-04:00",
+      "value": 0.064
+    },
+    {
+      "index": "2023-09-20 09:30:00-04:00",
+      "value": 0.0695
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.1115
+    },
+    {
+      "index": "2024-03-20 09:30:00-04:00",
+      "value": 0.1075
+    },
+    {
+      "index": "2024-06-26 09:30:00-04:00",
+      "value": 0.1415
+    },
+    {
+      "index": "2024-09-25 09:30:00-04:00",
+      "value": 0.115
+    },
+    {
+      "index": "2024-12-23 09:30:00-05:00",
+      "value": 0.1375
+    },
+    {
+      "index": "2025-03-26 09:30:00-04:00",
+      "value": 0.099
+    },
+    {
+      "index": "2025-06-25 09:30:00-04:00",
+      "value": 0.109
+    },
+    {
+      "index": "2025-09-24 09:30:00-04:00",
+      "value": 0.049
+    },
+    {
+      "index": "2025-12-24 09:30:00-05:00",
+      "value": 0.086
+    },
+    {
+      "index": "2026-03-25 09:30:00-04:00",
+      "value": 0.072
+    },
+    {
+      "index": "2026-06-24 09:30:00-04:00",
+      "value": 0.171
+    }
+  ],
+  "splits": [
+    {
+      "index": "2011-02-25 09:30:00-05:00",
+      "value": 2.0
+    },
+    {
+      "index": "2012-05-11 09:30:00-04:00",
+      "value": 2.0
+    },
+    {
+      "index": "2014-01-24 09:30:00-05:00",
+      "value": 2.0
+    },
+    {
+      "index": "2017-01-12 09:30:00-05:00",
+      "value": 2.0
+    },
+    {
+      "index": "2018-05-24 09:30:00-04:00",
+      "value": 3.0
+    },
+    {
+      "index": "2021-01-21 09:30:00-05:00",
+      "value": 2.0
+    },
+    {
+      "index": "2022-01-13 09:30:00-05:00",
+      "value": 2.0
+    },
+    {
+      "index": "2025-11-20 09:30:00-05:00",
+      "value": 2.0
+    }
+  ],
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

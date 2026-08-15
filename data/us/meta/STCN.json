@@ -1,0 +1,172 @@
+{
+  "symbol": "STCN",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "US8580982051",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2015-03-12 16:00:00-04:00",
+      "EPS Estimate": -0.3,
+      "Reported EPS": -0.09,
+      "Surprise(%)": 68.75
+    },
+    {
+      "index": "2014-12-10 18:00:00-05:00",
+      "EPS Estimate": -0.12,
+      "Reported EPS": 0.09,
+      "Surprise(%)": 175.38
+    },
+    {
+      "index": "2014-10-14 06:00:00-04:00",
+      "EPS Estimate": 0.23,
+      "Reported EPS": -1.39,
+      "Surprise(%)": -694.63
+    },
+    {
+      "index": "2013-06-10 16:00:00-04:00",
+      "EPS Estimate": -0.73,
+      "Reported EPS": -1.12,
+      "Surprise(%)": -53.46
+    },
+    {
+      "index": "2013-03-07 16:00:00-05:00",
+      "EPS Estimate": 0.02,
+      "Reported EPS": -1.68,
+      "Surprise(%)": -9103.86
+    },
+    {
+      "index": "2009-03-10 16:00:00-04:00",
+      "EPS Estimate": 2.24,
+      "Reported EPS": 1.4,
+      "Surprise(%)": -37.5
+    },
+    {
+      "index": "2008-03-10 16:00:00-04:00",
+      "EPS Estimate": 1.87,
+      "Reported EPS": 2.89,
+      "Surprise(%)": 55.0
+    },
+    {
+      "index": "2007-12-03 16:00:00-05:00",
+      "EPS Estimate": 0.93,
+      "Reported EPS": 2.05,
+      "Surprise(%)": 120.0
+    },
+    {
+      "index": "2007-09-25 16:00:00-04:00",
+      "EPS Estimate": 1.87,
+      "Reported EPS": null,
+      "Surprise(%)": -100.0
+    },
+    {
+      "index": "2007-06-05 15:00:00-04:00",
+      "EPS Estimate": 1.87,
+      "Reported EPS": 1.87,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2003-06-12 16:00:00-04:00",
+      "EPS Estimate": -7.47,
+      "Reported EPS": -9.33,
+      "Surprise(%)": -24.99
+    },
+    {
+      "index": "2003-03-12 16:00:00-05:00",
+      "EPS Estimate": -9.33,
+      "Reported EPS": -1.87,
+      "Surprise(%)": 79.98
+    },
+    {
+      "index": "2002-12-12 16:00:00-05:00",
+      "EPS Estimate": -10.27,
+      "Reported EPS": -8.4,
+      "Surprise(%)": 18.18
+    },
+    {
+      "index": "2002-10-24 17:00:00-04:00",
+      "EPS Estimate": -13.07,
+      "Reported EPS": -12.13,
+      "Surprise(%)": 7.15
+    },
+    {
+      "index": "2002-06-12 16:00:00-04:00",
+      "EPS Estimate": -199.74,
+      "Reported EPS": -267.88,
+      "Surprise(%)": -34.11
+    },
+    {
+      "index": "2002-06-12 16:00:00-04:00",
+      "EPS Estimate": -12.13,
+      "Reported EPS": -13.07,
+      "Surprise(%)": -7.71
+    },
+    {
+      "index": "2002-03-12 16:00:00-05:00",
+      "EPS Estimate": -226.81,
+      "Reported EPS": -727.1,
+      "Surprise(%)": -220.58
+    },
+    {
+      "index": "2002-03-12 16:00:00-05:00",
+      "EPS Estimate": -16.8,
+      "Reported EPS": -14.0,
+      "Surprise(%)": 16.67
+    },
+    {
+      "index": "2001-12-12 16:00:00-05:00",
+      "EPS Estimate": -27.07,
+      "Reported EPS": -23.33,
+      "Surprise(%)": 13.8
+    },
+    {
+      "index": "2001-09-25 16:00:00-04:00",
+      "EPS Estimate": -180.14,
+      "Reported EPS": -33.6,
+      "Surprise(%)": 81.35
+    },
+    {
+      "index": "2000-12-14 16:00:00-05:00",
+      "EPS Estimate": -159.61,
+      "Reported EPS": -73.74,
+      "Surprise(%)": 53.8
+    },
+    {
+      "index": "2000-09-21 16:00:00-04:00",
+      "EPS Estimate": -229.14,
+      "Reported EPS": -202.55,
+      "Surprise(%)": 11.61
+    },
+    {
+      "index": "2000-06-13 16:00:00-04:00",
+      "EPS Estimate": -163.81,
+      "Reported EPS": -142.81,
+      "Surprise(%)": 12.82
+    },
+    {
+      "index": "2000-03-09 16:00:00-05:00",
+      "EPS Estimate": -112.01,
+      "Reported EPS": -69.07,
+      "Surprise(%)": 38.34
+    },
+    {
+      "index": "1999-12-15 00:00:00-05:00",
+      "EPS Estimate": -78.41,
+      "Reported EPS": -50.4,
+      "Surprise(%)": 35.71
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

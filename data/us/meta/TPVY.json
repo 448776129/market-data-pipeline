@@ -1,0 +1,100 @@
+{
+  "symbol": "TPVY",
+  "region": "us",
+  "name": "TriplePoint Venture Growth BDC Corp.",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "TriplePoint Venture Growth BDC Corp.",
+    "shortName": "TriplePoint Venture Growth BDC ",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 25.3,
+    "previousClose": 25.3005,
+    "dayHigh": 25.3,
+    "dayLow": 25.3,
+    "regularMarketPrice": 25.3,
+    "regularMarketPreviousClose": 25.3005,
+    "fiftyTwoWeekHigh": 26.51,
+    "fiftyTwoWeekLow": 21.03,
+    "trailingPE": 18.123209,
+    "priceToBook": 1.8966938,
+    "volume": 5415,
+    "averageVolume": 5135,
+    "sharesOutstanding": 16018100
+  },
+  "dividends": [
+    {
+      "index": "2017-09-28 09:30:00-04:00",
+      "value": 0.363
+    },
+    {
+      "index": "2017-12-28 09:30:00-05:00",
+      "value": 0.359
+    },
+    {
+      "index": "2018-03-28 09:30:00-04:00",
+      "value": 0.359
+    },
+    {
+      "index": "2018-06-28 09:30:00-04:00",
+      "value": 0.359
+    },
+    {
+      "index": "2018-09-28 09:30:00-04:00",
+      "value": 0.359
+    },
+    {
+      "index": "2018-12-28 09:30:00-05:00",
+      "value": 0.359
+    },
+    {
+      "index": "2019-03-29 09:30:00-04:00",
+      "value": 0.359
+    },
+    {
+      "index": "2019-06-28 09:30:00-04:00",
+      "value": 0.359
+    },
+    {
+      "index": "2019-09-30 09:30:00-04:00",
+      "value": 0.359
+    },
+    {
+      "index": "2019-12-30 09:30:00-05:00",
+      "value": 0.359
+    },
+    {
+      "index": "2020-03-31 09:30:00-04:00",
+      "value": 0.359
+    },
+    {
+      "index": "2020-06-30 09:30:00-04:00",
+      "value": 0.359
+    },
+    {
+      "index": "2020-09-30 09:30:00-04:00",
+      "value": 0.359
+    },
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.359
+    },
+    {
+      "index": "2021-03-31 09:30:00-04:00",
+      "value": 0.359
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

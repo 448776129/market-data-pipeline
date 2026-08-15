@@ -1,0 +1,156 @@
+{
+  "symbol": "SVAC",
+  "region": "us",
+  "name": "Spring Valley Acquisition Corp III",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "KYG8377R1011",
+  "info": {
+    "longName": "Spring Valley Acquisition Corp III",
+    "shortName": "Spring Valley Acquisition Corp.",
+    "sector": "Financial Services",
+    "industry": "Shell Companies",
+    "country": "United States",
+    "exchange": "NGM",
+    "currency": "USD",
+    "marketCap": 279680000,
+    "currentPrice": 9.12,
+    "open": 9.5,
+    "previousClose": 0.0,
+    "dayHigh": 9.5,
+    "dayLow": 8.55,
+    "regularMarketPreviousClose": 0.0,
+    "fiftyTwoWeekHigh": 12.0,
+    "fiftyTwoWeekLow": 7.3503,
+    "volume": 75009,
+    "averageVolume": 355957,
+    "sharesOutstanding": 23000000,
+    "floatShares": 23000000,
+    "recommendationKey": "none",
+    "totalDebt": 0,
+    "totalCash": 665383,
+    "profitMargins": 0.0
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 9.12
+  },
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.05145
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.91909
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.96893996
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 57.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Barclays Plc",
+      "pctHeld": 0.049099997,
+      "Shares": 1130000,
+      "Value": 10305599,
+      "pctChange": 1.0
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Fort Baker Capital Management LP",
+      "pctHeld": 0.0479,
+      "Shares": 1101313,
+      "Value": 10043974,
+      "pctChange": 0.1587
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Alberta Investment Management Corp",
+      "pctHeld": 0.0435,
+      "Shares": 1000000,
+      "Value": 9119999,
+      "pctChange": 0.0
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Tenor Capital Management Co., L.p.",
+      "pctHeld": 0.0435,
+      "Shares": 1000000,
+      "Value": 9119999,
+      "pctChange": 0.0
+    },
+    {
+      "index": "4",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Harraden Circle Investments, LLC",
+      "pctHeld": 0.040599998,
+      "Shares": 934281,
+      "Value": 8520642,
+      "pctChange": 1.0
+    },
+    {
+      "index": "5",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "LMR Partners LLP",
+      "pctHeld": 0.0339,
+      "Shares": 779753,
+      "Value": 7111347,
+      "pctChange": 1.0
+    },
+    {
+      "index": "6",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Linden Advisors LP",
+      "pctHeld": 0.0311,
+      "Shares": 714749,
+      "Value": 6518510,
+      "pctChange": -0.28530002
+    },
+    {
+      "index": "7",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Governors Lane LP",
+      "pctHeld": 0.0305,
+      "Shares": 701526,
+      "Value": 6397917,
+      "pctChange": 0.4009
+    },
+    {
+      "index": "8",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "AQR Arbitrage LLC",
+      "pctHeld": 0.028499998,
+      "Shares": 655602,
+      "Value": 5979090,
+      "pctChange": -0.2981
+    },
+    {
+      "index": "9",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Two Sigma Investments, LP",
+      "pctHeld": 0.0241,
+      "Shares": 554070,
+      "Value": 5053118,
+      "pctChange": 0.0
+    }
+  ]
+}

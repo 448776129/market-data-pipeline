@@ -1,0 +1,138 @@
+{
+  "symbol": "TMTSW",
+  "region": "us",
+  "name": "Spartacus Acquisition Corp. II",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "longName": "Spartacus Acquisition Corp. II",
+    "shortName": "Spartacus Acquisition Corp. II Warrants",
+    "sector": "",
+    "industry": "",
+    "country": "United States",
+    "exchange": "NGM",
+    "currency": "USD",
+    "currentPrice": 0.45,
+    "open": 0.45,
+    "previousClose": 0.45,
+    "dayHigh": 0.45,
+    "dayLow": 0.45,
+    "regularMarketPrice": 0.45,
+    "regularMarketPreviousClose": 0.45,
+    "fiftyTwoWeekHigh": 0.45,
+    "fiftyTwoWeekLow": 0.45,
+    "priceToBook": -13.235293,
+    "volume": 201,
+    "floatShares": 22399854,
+    "recommendationKey": "none",
+    "totalDebt": 0,
+    "totalCash": 954131,
+    "profitMargins": 0.0
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 0.45
+  },
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "K2 Principal Fund, L.P.",
+      "pctHeld": 0.0287,
+      "Shares": 220165,
+      "Value": 99074,
+      "pctChange": 1.0
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Alberta Investment Management Corp",
+      "pctHeld": 0.026099999,
+      "Shares": 200000,
+      "Value": 89999,
+      "pctChange": 1.0
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Healthcare of Ontario Pension Plan Trust Fund",
+      "pctHeld": 0.0217,
+      "Shares": 166666,
+      "Value": 74999,
+      "pctChange": 1.0
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Periscope Capital Inc.",
+      "pctHeld": 0.0137,
+      "Shares": 104900,
+      "Value": 47204,
+      "pctChange": 1.0
+    },
+    {
+      "index": "4",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Commonwealth Of Pennsylvania Public School Empls Retrmt Sys",
+      "pctHeld": 0.012999999,
+      "Shares": 100000,
+      "Value": 44999,
+      "pctChange": 1.0
+    },
+    {
+      "index": "5",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "BNP Paribas Financial Markets",
+      "pctHeld": 0.0127,
+      "Shares": 97066,
+      "Value": 43679,
+      "pctChange": 1.0
+    },
+    {
+      "index": "6",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Dld Asset Management, Lp",
+      "pctHeld": 0.0076,
+      "Shares": 58333,
+      "Value": 26249,
+      "pctChange": 1.0
+    },
+    {
+      "index": "7",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Picton Mahoney Asset Management",
+      "pctHeld": 0.0054,
+      "Shares": 41665,
+      "Value": 18749,
+      "pctChange": 1.0
+    },
+    {
+      "index": "8",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Clear Street Group Inc.",
+      "pctHeld": 0.0018000001,
+      "Shares": 14168,
+      "Value": 6375,
+      "pctChange": 1.0
+    },
+    {
+      "index": "9",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Gritstone Asset Management LLC",
+      "pctHeld": 0.0017,
+      "Shares": 13333,
+      "Value": 5999,
+      "pctChange": 1.0
+    }
+  ]
+}

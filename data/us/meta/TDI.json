@@ -1,0 +1,51 @@
+{
+  "symbol": "TDI",
+  "region": "us",
+  "name": "Touchstone Dynamic International ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US89157W6084",
+  "info": {
+    "longName": "Touchstone Dynamic International ETF",
+    "shortName": "Touchstone Dynamic Internationa",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 47.324,
+    "previousClose": 47.32,
+    "dayHigh": 47.5485,
+    "dayLow": 47.26,
+    "regularMarketPrice": 47.2922,
+    "regularMarketPreviousClose": 47.32,
+    "fiftyTwoWeekHigh": 47.5485,
+    "fiftyTwoWeekLow": 35.43,
+    "trailingPE": 17.1649,
+    "dividendYield": 1.64,
+    "volume": 55850,
+    "averageVolume": 76040
+  },
+  "dividends": [
+    {
+      "index": "2023-12-27 09:30:00-05:00",
+      "value": 0.106
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.934
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.75
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

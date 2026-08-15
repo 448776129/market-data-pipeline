@@ -1,0 +1,110 @@
+{
+  "symbol": "SVACU",
+  "region": "us",
+  "name": "Spring Valley Acquisition Corp III",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "longName": "Spring Valley Acquisition Corp III",
+    "shortName": "Spring Valley Acquisition Corp.",
+    "sector": "Financial Services",
+    "industry": "Shell Companies",
+    "country": "United States",
+    "exchange": "NGM",
+    "currency": "USD",
+    "currentPrice": 10.0,
+    "open": 9.5998,
+    "previousClose": 10.0,
+    "dayHigh": 10.0,
+    "dayLow": 10.0,
+    "regularMarketPreviousClose": 10.0,
+    "fiftyTwoWeekHigh": 13.4999,
+    "fiftyTwoWeekLow": 9.56,
+    "volume": 1395,
+    "averageVolume": 3524,
+    "sharesOutstanding": 26666700,
+    "floatShares": 23000000,
+    "recommendationKey": "none",
+    "totalDebt": 0,
+    "totalCash": 665383,
+    "profitMargins": 0.0
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 10.0
+  },
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.0
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.00881
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.00881
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 8.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Westchester Capital Management, LLC",
+      "pctHeld": 0.0038,
+      "Shares": 75000,
+      "Value": 750000,
+      "pctChange": -0.625
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Clear Street Group Inc.",
+      "pctHeld": 0.0023999999,
+      "Shares": 47541,
+      "Value": 475410,
+      "pctChange": -0.85400003
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "JPMORGAN CHASE & CO",
+      "pctHeld": 0.0013,
+      "Shares": 25000,
+      "Value": 250000,
+      "pctChange": -0.5
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Magnetar Financial LLC",
+      "pctHeld": 0.0,
+      "Shares": 10,
+      "Value": 100,
+      "pctChange": 1.0
+    },
+    {
+      "index": "4",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Healthcare of Ontario Pension Plan Trust Fund",
+      "pctHeld": 0.0,
+      "Shares": 2,
+      "Value": 20,
+      "pctChange": 0.0
+    }
+  ]
+}
