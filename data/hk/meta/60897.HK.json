@@ -1,0 +1,28 @@
+{
+  "symbol": "60897.HK",
+  "region": "hk",
+  "name": null,
+  "currency": "HKD",
+  "exchange": "HKG",
+  "isin": "-",
+  "info": {
+    "shortName": "MS#BYD  RC2611A",
+    "exchange": "HKG",
+    "currency": "HKD",
+    "previousClose": 0.0,
+    "regularMarketPrice": 0.013,
+    "regularMarketPreviousClose": 0.0
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
