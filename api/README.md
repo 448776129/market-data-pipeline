@@ -86,6 +86,8 @@ curl "https://stockapi.365200.xyz/kline?symbol=AAPL&format=csv"
 
 返回的 `data` 元素字段与入库 CSV 列一致：日线含 `Date`，分钟线含 `Datetime`，其余为 `Open / High / Low / Close / Adj Close / Volume`。`interval=5m/15m/30m` 为采集端由 1m 数据重采样计算（`Open`=首根开盘、`High`=区间最高、`Low`=区间最低、`Close`=末根收盘、`Volume`=求和）；`interval=1h` 为雅虎原生小时K线。
 
+> **美股延长时段说明**：`interval=1m/5m/15m/30m` 包含美股盘前/盘后（4:00–20:00 美东）；`1h` 为雅虎原生小时K线，仅含盘中（9:30–16:00），含 `15:30–16:00` 收盘bar（该bar的 `Close` 即 16:00 官方收盘价）。详见仓库根目录 [README.md](../README.md)「数据口径与注意事项」。
+
 ## 区域自动识别
 
 代码后缀自动判断市场，无需传 `region`：
