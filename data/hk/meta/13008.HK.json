@@ -1,0 +1,24 @@
+{
+  "symbol": "13008.HK",
+  "region": "hk",
+  "name": "SGLENOV@EC2003A",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "SGLENOV@EC2003A",
+    "shortName": "CS-SGC @EC1811A"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

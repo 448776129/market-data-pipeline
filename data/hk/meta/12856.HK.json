@@ -1,0 +1,24 @@
+{
+  "symbol": "12856.HK",
+  "region": "hk",
+  "name": "GSSPDRG@EC2211B",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "GSSPDRG@EC2211B",
+    "shortName": "BI-HSBC@EC1903B"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

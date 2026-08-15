@@ -1,0 +1,24 @@
+{
+  "symbol": "12821.HK",
+  "region": "hk",
+  "name": "JP-CRL @EC2307B",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "JP-CRL @EC2307B",
+    "shortName": "JPTENCT@EC1810C"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

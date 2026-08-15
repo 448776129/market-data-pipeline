@@ -1,0 +1,24 @@
+{
+  "symbol": "12990.HK",
+  "region": "hk",
+  "name": "JP-HSPG@EC2110A",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "JP-HSPG@EC2110A",
+    "shortName": "HT-AAC @EC1811A"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

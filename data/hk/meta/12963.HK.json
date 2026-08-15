@@ -1,0 +1,24 @@
+{
+  "symbol": "12963.HK",
+  "region": "hk",
+  "name": "JP-HSI @EC2307C",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "JP-HSI @EC2307C",
+    "shortName": "BP-BOCL@EC1809A"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
