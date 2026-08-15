@@ -1,0 +1,24 @@
+{
+  "symbol": "11506.HK",
+  "region": "hk",
+  "name": "EA-HKEX@EC2212B",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "EA-HKEX@EC2212B",
+    "shortName": "CSCLIFE@EC1809F"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

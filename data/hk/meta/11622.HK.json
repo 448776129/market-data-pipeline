@@ -1,0 +1,24 @@
+{
+  "symbol": "11622.HK",
+  "region": "hk",
+  "name": "HS-NTES@EC2307A",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "HS-NTES@EC2307A",
+    "shortName": "JP-ACMT@EC1811A"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

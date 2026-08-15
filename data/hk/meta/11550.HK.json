@@ -1,0 +1,24 @@
+{
+  "symbol": "11550.HK",
+  "region": "hk",
+  "name": "CS-PAHT@EC2212A",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "CS-PAHT@EC2212A",
+    "shortName": "JP-CMOB@EP1811A"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

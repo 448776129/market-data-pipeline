@@ -1,0 +1,24 @@
+{
+  "symbol": "11362.HK",
+  "region": "hk",
+  "name": "GS-HSI @EC2012A",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "GS-HSI @EC2012A",
+    "shortName": "GS-BYD @EC1902B"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

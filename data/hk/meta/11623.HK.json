@@ -1,0 +1,24 @@
+{
+  "symbol": "11623.HK",
+  "region": "hk",
+  "name": "HSCLIFE@EC2310A",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "HSCLIFE@EC2310A",
+    "shortName": "JP-HSBC@EC1811B"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

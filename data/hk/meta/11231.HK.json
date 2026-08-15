@@ -1,0 +1,24 @@
+{
+  "symbol": "11231.HK",
+  "region": "hk",
+  "name": "BIGEELY@EC2309A",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "BIGEELY@EC2309A",
+    "shortName": "CS-GWMC@EC1810C"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

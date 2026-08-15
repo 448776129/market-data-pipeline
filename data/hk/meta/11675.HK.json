@@ -1,0 +1,24 @@
+{
+  "symbol": "11675.HK",
+  "region": "hk",
+  "name": "CT-HKEX@EP2306B",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "CT-HKEX@EP2306B",
+    "shortName": "BI-KECL@EC1902A"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
