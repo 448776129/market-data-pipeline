@@ -1,0 +1,86 @@
+{
+  "symbol": "415640.KS",
+  "region": "kr",
+  "name": "KB Balhae Infrastructure Fund",
+  "currency": "KRW",
+  "exchange": "KSC",
+  "isin": "-",
+  "info": {
+    "longName": "KB Balhae Infrastructure Fund",
+    "shortName": "KB Balhae Infra",
+    "sector": "Financial Services",
+    "industry": "Asset Management",
+    "country": "South Korea",
+    "exchange": "KSC",
+    "currency": "KRW",
+    "currentPrice": 10300.0,
+    "open": 10280.0,
+    "previousClose": 10145.0,
+    "dayHigh": 10400.0,
+    "dayLow": 10250.0,
+    "regularMarketPrice": 10300.0,
+    "regularMarketPreviousClose": 10145.0,
+    "fiftyTwoWeekHigh": 11230.0,
+    "fiftyTwoWeekLow": 10120.0,
+    "forwardPE": 22.538294,
+    "dividendYield": 6.31,
+    "dividendRate": 650.0,
+    "volume": 98301,
+    "averageVolume": 93239,
+    "targetMeanPrice": 12300.0,
+    "targetHighPrice": 12300.0,
+    "targetLowPrice": 12300.0,
+    "recommendationKey": "buy",
+    "profitMargins": 0.0
+  },
+  "dividends": [
+    {
+      "index": "2026-08-14 09:00:00+09:00",
+      "value": 325.0
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 10300.0,
+    "high": 12300.0,
+    "low": 12300.0,
+    "mean": 12300.0,
+    "median": 12300.0
+  },
+  "recommendations_summary": [
+    {
+      "index": "0",
+      "period": "0m",
+      "strongBuy": 1,
+      "buy": 0,
+      "hold": 0,
+      "sell": 0,
+      "strongSell": 0
+    }
+  ],
+  "earnings_dates": null,
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.11771
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.39924
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.45251
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 10.0
+    }
+  ],
+  "institutional_holders": null
+}

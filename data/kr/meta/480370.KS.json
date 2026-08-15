@@ -1,0 +1,74 @@
+{
+  "symbol": "480370.KS",
+  "region": "kr",
+  "name": null,
+  "currency": "KRW",
+  "exchange": "KSC",
+  "isin": "-",
+  "info": {
+    "shortName": "CK Solution",
+    "sector": "",
+    "industry": "",
+    "country": "South Korea",
+    "exchange": "KSC",
+    "currency": "KRW",
+    "currentPrice": 1458.0,
+    "open": 1567.0,
+    "previousClose": 1512.0,
+    "dayHigh": 1619.0,
+    "dayLow": 1412.0,
+    "regularMarketPrice": 1458.0,
+    "regularMarketPreviousClose": 1512.0,
+    "fiftyTwoWeekHigh": 4120.0,
+    "fiftyTwoWeekLow": 1039.0,
+    "volume": 244085,
+    "averageVolume": 159414,
+    "floatShares": 10983521,
+    "recommendationKey": "none",
+    "totalRevenue": 266373414912,
+    "grossProfits": -15950063616,
+    "freeCashflow": 39821135872,
+    "totalDebt": 27435141120,
+    "totalCash": 34928410624,
+    "profitMargins": -0.16638,
+    "returnOnEquity": -0.52612,
+    "returnOnAssets": -0.13348,
+    "revenueGrowth": -0.312
+  },
+  "dividends": null,
+  "splits": [
+    {
+      "index": "2026-02-27 09:00:00+09:00",
+      "value": 3.0
+    }
+  ],
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 1458.0
+  },
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.64499
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 2.0000001e-05
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 5e-05
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 2.0
+    }
+  ],
+  "institutional_holders": null
+}
