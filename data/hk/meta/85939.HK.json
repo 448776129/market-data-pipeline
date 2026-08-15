@@ -1,0 +1,30 @@
+{
+  "symbol": "85939.HK",
+  "region": "hk",
+  "name": "KUNZHI B1701-R",
+  "currency": "CNY",
+  "exchange": "HKG",
+  "isin": "-",
+  "info": {
+    "longName": "KUNZHI B1701-R",
+    "shortName": "KUNZHI B1701-R",
+    "exchange": "HKG",
+    "currency": "CNY",
+    "regularMarketPrice": 0.0,
+    "regularMarketPreviousClose": 0.0,
+    "fiftyTwoWeekHigh": 0.0,
+    "fiftyTwoWeekLow": 0.0
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

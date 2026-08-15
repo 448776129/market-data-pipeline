@@ -1,0 +1,75 @@
+{
+  "symbol": "82843.HK",
+  "region": "hk",
+  "name": "Amundi FTSE China A50 Index ETF",
+  "currency": "CNY",
+  "exchange": "HKG",
+  "isin": "-",
+  "info": {
+    "longName": "Amundi FTSE China A50 Index ETF",
+    "shortName": "AMUNDI A50-R",
+    "exchange": "HKG",
+    "currency": "CNY",
+    "open": 15.16,
+    "previousClose": 15.17,
+    "dayHigh": 15.16,
+    "dayLow": 15.16,
+    "regularMarketPrice": 15.17,
+    "regularMarketPreviousClose": 15.17,
+    "fiftyTwoWeekHigh": 16.14,
+    "fiftyTwoWeekLow": 14.37,
+    "trailingPE": 15.730803,
+    "dividendYield": 2.34,
+    "volume": 1000,
+    "averageVolume": 586
+  },
+  "dividends": [
+    {
+      "index": "2017-09-15 09:30:00+08:00",
+      "value": 0.16996601
+    },
+    {
+      "index": "2018-09-21 09:30:00+08:00",
+      "value": 0.189962
+    },
+    {
+      "index": "2019-09-20 09:30:00+08:00",
+      "value": 0.24995
+    },
+    {
+      "index": "2020-09-18 09:30:00+08:00",
+      "value": 0.24995
+    },
+    {
+      "index": "2021-09-16 09:30:00+08:00",
+      "value": 0.29994002
+    },
+    {
+      "index": "2022-09-16 09:30:00+08:00",
+      "value": 0.29994002
+    },
+    {
+      "index": "2023-09-15 09:30:00+08:00",
+      "value": 0.29994002
+    },
+    {
+      "index": "2024-09-20 09:30:00+08:00",
+      "value": 0.29994002
+    },
+    {
+      "index": "2025-09-05 09:30:00+08:00",
+      "value": 0.34993002
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

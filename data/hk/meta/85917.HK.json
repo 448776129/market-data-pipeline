@@ -1,0 +1,31 @@
+{
+  "symbol": "85917.HK",
+  "region": "hk",
+  "name": "DORSETT B1804-R",
+  "currency": "CNY",
+  "exchange": "HKG",
+  "isin": "-",
+  "info": {
+    "longName": "DORSETT B1804-R",
+    "shortName": "DORSETT B1804-R",
+    "exchange": "HKG",
+    "currency": "CNY",
+    "regularMarketPrice": 0.0,
+    "regularMarketPreviousClose": 0.0,
+    "fiftyTwoWeekHigh": 0.0,
+    "fiftyTwoWeekLow": 0.0,
+    "sharesOutstanding": 2100630016
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

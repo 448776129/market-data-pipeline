@@ -1,0 +1,121 @@
+{
+  "symbol": "83012.HK",
+  "region": "hk",
+  "name": "AMUNDI ETF Series - AMUNDI Hang Seng HK 35 Index ETF",
+  "currency": "CNY",
+  "exchange": "HKG",
+  "isin": "-",
+  "info": {
+    "longName": "AMUNDI ETF Series - AMUNDI Hang Seng HK 35 Index ETF",
+    "shortName": "AMUNDI HK35-R",
+    "exchange": "HKG",
+    "currency": "CNY",
+    "open": 18.46,
+    "previousClose": 19.07,
+    "dayHigh": 18.46,
+    "dayLow": 18.46,
+    "regularMarketPrice": 18.97,
+    "regularMarketPreviousClose": 19.07,
+    "fiftyTwoWeekHigh": 19.41,
+    "fiftyTwoWeekLow": 16.99,
+    "volume": 15000,
+    "averageVolume": 245
+  },
+  "dividends": [
+    {
+      "index": "2016-06-29 09:30:00+08:00",
+      "value": 0.21441711
+    },
+    {
+      "index": "2016-12-29 09:30:00+08:00",
+      "value": 0.3415707
+    },
+    {
+      "index": "2017-06-09 09:30:00+08:00",
+      "value": 0.28721055
+    },
+    {
+      "index": "2017-12-28 09:30:00+08:00",
+      "value": 0.32605678
+    },
+    {
+      "index": "2018-06-15 09:30:00+08:00",
+      "value": 0.27873424
+    },
+    {
+      "index": "2018-12-20 09:30:00+08:00",
+      "value": 0.3523775
+    },
+    {
+      "index": "2019-06-14 09:30:00+08:00",
+      "value": 0.310042
+    },
+    {
+      "index": "2019-12-20 09:30:00+08:00",
+      "value": 0.37681964
+    },
+    {
+      "index": "2020-06-19 09:30:00+08:00",
+      "value": 0.2280524
+    },
+    {
+      "index": "2020-12-18 09:30:00+08:00",
+      "value": 0.25218955
+    },
+    {
+      "index": "2021-06-18 09:30:00+08:00",
+      "value": 0.29111376
+    },
+    {
+      "index": "2021-12-17 09:30:00+08:00",
+      "value": 0.2454889
+    },
+    {
+      "index": "2022-06-10 09:30:00+08:00",
+      "value": 0.2570906
+    },
+    {
+      "index": "2022-12-02 09:30:00+08:00",
+      "value": 0.2714397
+    },
+    {
+      "index": "2023-06-16 09:30:00+08:00",
+      "value": 0.18240352
+    },
+    {
+      "index": "2023-12-15 09:30:00+08:00",
+      "value": 0.27391723
+    },
+    {
+      "index": "2024-06-07 09:30:00+08:00",
+      "value": 0.18593481
+    },
+    {
+      "index": "2024-12-06 09:30:00+08:00",
+      "value": 0.28062388
+    },
+    {
+      "index": "2025-06-06 09:30:00+08:00",
+      "value": 0.18330134
+    },
+    {
+      "index": "2025-12-05 09:30:00+08:00",
+      "value": 0.31768045
+    },
+    {
+      "index": "2026-06-05 09:30:00+08:00",
+      "value": 0.17312337
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

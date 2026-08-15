@@ -1,0 +1,57 @@
+{
+  "symbol": "82828.HK",
+  "region": "hk",
+  "name": "Hang Seng China Enterprises Index ETF",
+  "currency": "CNY",
+  "exchange": "HKG",
+  "isin": "-",
+  "info": {
+    "longName": "Hang Seng China Enterprises Index ETF",
+    "shortName": "HSCEI ETF-R",
+    "exchange": "HKG",
+    "currency": "CNY",
+    "open": 74.08,
+    "previousClose": 74.48,
+    "dayHigh": 74.08,
+    "dayLow": 74.08,
+    "regularMarketPrice": 73.86,
+    "regularMarketPreviousClose": 74.48,
+    "fiftyTwoWeekHigh": 91.56,
+    "fiftyTwoWeekLow": 65.98,
+    "volume": 5000,
+    "averageVolume": 7927
+  },
+  "dividends": [
+    {
+      "index": "2024-06-27 09:30:00+08:00",
+      "value": 0.60762244
+    },
+    {
+      "index": "2024-09-20 09:30:00+08:00",
+      "value": 0.85976803
+    },
+    {
+      "index": "2025-06-27 09:30:00+08:00",
+      "value": 1.1878325
+    },
+    {
+      "index": "2025-09-17 09:30:00+08:00",
+      "value": 0.45633373
+    },
+    {
+      "index": "2026-06-22 09:30:00+08:00",
+      "value": 0.604945
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

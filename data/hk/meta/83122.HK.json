@@ -1,0 +1,78 @@
+{
+  "symbol": "83122.HK",
+  "region": "hk",
+  "name": "CSOP ETF Series II - CSOP China Ultra Short-Term Bond ETF",
+  "currency": "CNY",
+  "exchange": "HKG",
+  "isin": "-",
+  "info": {
+    "longName": "CSOP ETF Series II - CSOP China Ultra Short-Term Bond ETF",
+    "shortName": "A CSOP RMB MM-R",
+    "exchange": "HKG",
+    "currency": "CNY",
+    "open": 168.65,
+    "previousClose": 169.0,
+    "dayHigh": 168.65,
+    "dayLow": 168.65,
+    "regularMarketPrice": 169.0,
+    "regularMarketPreviousClose": 169.0,
+    "fiftyTwoWeekHigh": 169.0,
+    "fiftyTwoWeekLow": 167.2,
+    "dividendYield": 0.0,
+    "volume": 7740,
+    "averageVolume": 69
+  },
+  "dividends": [
+    {
+      "index": "2015-04-22 09:30:00+08:00",
+      "value": 0.89982
+    },
+    {
+      "index": "2015-10-22 09:30:00+08:00",
+      "value": 0.89982
+    },
+    {
+      "index": "2016-04-21 09:30:00+08:00",
+      "value": 0.89982
+    },
+    {
+      "index": "2016-10-12 09:30:00+08:00",
+      "value": 0.89982
+    },
+    {
+      "index": "2017-04-20 09:30:00+08:00",
+      "value": 0.89982
+    },
+    {
+      "index": "2017-10-23 09:30:00+08:00",
+      "value": 0.89982
+    },
+    {
+      "index": "2018-04-25 09:30:00+08:00",
+      "value": 0.89982
+    },
+    {
+      "index": "2018-10-19 09:30:00+08:00",
+      "value": 0.89982
+    },
+    {
+      "index": "2019-04-24 09:30:00+08:00",
+      "value": 0.89982
+    },
+    {
+      "index": "2019-10-24 09:30:00+08:00",
+      "value": 0.89982
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

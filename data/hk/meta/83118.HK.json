@@ -1,0 +1,63 @@
+{
+  "symbol": "83118.HK",
+  "region": "hk",
+  "name": "Harvest Funds (Hong Kong) ETF - Harvest MSCI China A Index ETF",
+  "currency": "CNY",
+  "exchange": "HKG",
+  "isin": "-",
+  "info": {
+    "longName": "Harvest Funds (Hong Kong) ETF - Harvest MSCI China A Index ETF",
+    "shortName": "HGI MSCI CN A-R",
+    "exchange": "HKG",
+    "currency": "CNY",
+    "open": 16.1,
+    "previousClose": 16.1,
+    "dayHigh": 16.1,
+    "dayLow": 16.1,
+    "regularMarketPrice": 16.1,
+    "regularMarketPreviousClose": 16.1,
+    "fiftyTwoWeekHigh": 17.5,
+    "fiftyTwoWeekLow": 14.82,
+    "trailingPE": 17.179821,
+    "dividendYield": 0.0,
+    "volume": 13200,
+    "averageVolume": 498
+  },
+  "dividends": [
+    {
+      "index": "2013-10-16 09:30:00+08:00",
+      "value": 0.079984
+    },
+    {
+      "index": "2014-10-17 09:30:00+08:00",
+      "value": 0.039992
+    },
+    {
+      "index": "2016-10-17 09:30:00+08:00",
+      "value": 0.019996
+    },
+    {
+      "index": "2018-10-16 09:30:00+08:00",
+      "value": 0.069986
+    },
+    {
+      "index": "2019-10-16 09:30:00+08:00",
+      "value": 0.109978005
+    },
+    {
+      "index": "2022-10-24 09:30:00+08:00",
+      "value": 0.029994
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

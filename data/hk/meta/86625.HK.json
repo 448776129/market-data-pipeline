@@ -1,0 +1,30 @@
+{
+  "symbol": "86625.HK",
+  "region": "hk",
+  "name": "PRC B1612-R",
+  "currency": "CNY",
+  "exchange": "HKG",
+  "isin": "-",
+  "info": {
+    "longName": "PRC B1612-R",
+    "shortName": "PRC B1612-R",
+    "exchange": "HKG",
+    "currency": "CNY",
+    "regularMarketPrice": 99.7,
+    "regularMarketPreviousClose": 99.7,
+    "fiftyTwoWeekHigh": 99.75,
+    "fiftyTwoWeekLow": 99.7
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

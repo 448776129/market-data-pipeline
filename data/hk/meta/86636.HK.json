@@ -1,0 +1,30 @@
+{
+  "symbol": "86636.HK",
+  "region": "hk",
+  "name": "PRC B1712-R",
+  "currency": "CNY",
+  "exchange": "HKG",
+  "isin": "-",
+  "info": {
+    "longName": "PRC B1712-R",
+    "shortName": "PRC B1712-R",
+    "exchange": "HKG",
+    "currency": "CNY",
+    "regularMarketPrice": 99.5,
+    "regularMarketPreviousClose": 99.5,
+    "fiftyTwoWeekHigh": 99.5,
+    "fiftyTwoWeekLow": 99.5
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

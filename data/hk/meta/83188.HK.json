@@ -1,0 +1,90 @@
+{
+  "symbol": "83188.HK",
+  "region": "hk",
+  "name": "ChinaAMC ETF Series - ChinaAMC CSI 300 Index ETF",
+  "currency": "CNY",
+  "exchange": "HKG",
+  "isin": "-",
+  "info": {
+    "longName": "ChinaAMC ETF Series - ChinaAMC CSI 300 Index ETF",
+    "shortName": "CAM CSI300-R",
+    "exchange": "HKG",
+    "currency": "CNY",
+    "open": 48.28,
+    "previousClose": 48.34,
+    "dayHigh": 48.3,
+    "dayLow": 48.12,
+    "regularMarketPrice": 48.3,
+    "regularMarketPreviousClose": 48.34,
+    "fiftyTwoWeekHigh": 52.68,
+    "fiftyTwoWeekLow": 43.46,
+    "dividendYield": 0.0,
+    "volume": 7800,
+    "averageVolume": 197595
+  },
+  "dividends": [
+    {
+      "index": "2013-07-18 09:30:00+08:00",
+      "value": 0.18
+    },
+    {
+      "index": "2014-07-18 09:30:00+08:00",
+      "value": 0.3
+    },
+    {
+      "index": "2015-07-17 09:30:00+08:00",
+      "value": 0.3
+    },
+    {
+      "index": "2016-07-15 09:30:00+08:00",
+      "value": 0.3
+    },
+    {
+      "index": "2017-07-25 09:30:00+08:00",
+      "value": 0.33
+    },
+    {
+      "index": "2018-07-20 09:30:00+08:00",
+      "value": 0.35
+    },
+    {
+      "index": "2019-07-25 09:30:00+08:00",
+      "value": 0.39
+    },
+    {
+      "index": "2020-07-27 09:30:00+08:00",
+      "value": 0.38
+    },
+    {
+      "index": "2021-07-26 09:30:00+08:00",
+      "value": 0.3
+    },
+    {
+      "index": "2022-07-25 09:30:00+08:00",
+      "value": 0.37
+    },
+    {
+      "index": "2023-07-24 09:30:00+08:00",
+      "value": 0.43
+    },
+    {
+      "index": "2024-07-24 09:30:00+08:00",
+      "value": 0.48
+    },
+    {
+      "index": "2025-07-23 09:30:00+08:00",
+      "value": 0.53
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,30 @@
+{
+  "symbol": "85936.HK",
+  "region": "hk",
+  "name": "VKEREHK N1812-R",
+  "currency": "CNY",
+  "exchange": "HKG",
+  "isin": "-",
+  "info": {
+    "longName": "VKEREHK N1812-R",
+    "shortName": "VKEREHK N1812-R",
+    "exchange": "HKG",
+    "currency": "CNY",
+    "regularMarketPrice": 0.0,
+    "regularMarketPreviousClose": 0.0,
+    "fiftyTwoWeekHigh": 0.0,
+    "fiftyTwoWeekLow": 0.0
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

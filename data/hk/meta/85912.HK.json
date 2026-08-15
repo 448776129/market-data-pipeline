@@ -1,0 +1,32 @@
+{
+  "symbol": "85912.HK",
+  "region": "hk",
+  "name": "OCBC BK N2002-R",
+  "currency": "CNY",
+  "exchange": "HKG",
+  "isin": "-",
+  "info": {
+    "longName": "OCBC BK N2002-R",
+    "shortName": "OCBC BK N2002-R",
+    "exchange": "HKG",
+    "currency": "CNY",
+    "regularMarketPrice": 0.0,
+    "regularMarketPreviousClose": 0.0,
+    "fiftyTwoWeekHigh": 0.0,
+    "fiftyTwoWeekLow": 0.0,
+    "priceToBook": 0.0,
+    "sharesOutstanding": 4189509888
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

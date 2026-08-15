@@ -1,0 +1,24 @@
+{
+  "symbol": "83156.HK",
+  "region": "hk",
+  "name": "GFI MSCI A I-R",
+  "currency": null,
+  "exchange": "YHD",
+  "isin": "-",
+  "info": {
+    "longName": "GFI MSCI A I-R",
+    "exchange": "YHD"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

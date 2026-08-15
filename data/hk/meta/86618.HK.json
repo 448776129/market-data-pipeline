@@ -1,0 +1,97 @@
+{
+  "symbol": "86618.HK",
+  "region": "hk",
+  "name": "JD Health International Inc.",
+  "currency": "CNY",
+  "exchange": "HKG",
+  "isin": "-",
+  "info": {
+    "longName": "JD Health International Inc.",
+    "shortName": "JD HEALTH-R",
+    "sector": "",
+    "industry": "",
+    "country": "China",
+    "exchange": "HKG",
+    "currency": "CNY",
+    "currentPrice": 33.98,
+    "open": 35.38,
+    "previousClose": 33.98,
+    "dayHigh": 35.38,
+    "dayLow": 32.38,
+    "regularMarketPrice": 33.98,
+    "regularMarketPreviousClose": 33.98,
+    "fiftyTwoWeekHigh": 63.75,
+    "fiftyTwoWeekLow": 27.86,
+    "priceToBook": 1.7912494,
+    "beta": 1.184,
+    "volume": 15000,
+    "averageVolume": 2436,
+    "floatShares": 1006064934,
+    "targetMeanPrice": 69.2,
+    "targetHighPrice": 69.2,
+    "targetLowPrice": 69.2,
+    "recommendationKey": "none",
+    "totalRevenue": 73441484800,
+    "grossProfits": 18199162880,
+    "freeCashflow": 7236429312,
+    "totalDebt": 636017024,
+    "totalCash": 48150503424,
+    "profitMargins": 0.073189996,
+    "returnOnEquity": 0.09309,
+    "returnOnAssets": 0.031059999,
+    "earningsGrowth": 0.298,
+    "revenueGrowth": 0.28
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 33.98,
+    "high": 69.2,
+    "low": 69.2,
+    "mean": 69.2,
+    "median": 69.2
+  },
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2027-03-04 03:00:00-05:00",
+      "EPS Estimate": null,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    }
+  ],
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.68222
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.18181999
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.57216
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 313.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2025-03-31 00:00:00",
+      "Holder": "Pacer Advisors, Inc.",
+      "pctHeld": 0.0001,
+      "Shares": 193047,
+      "Value": 6559736,
+      "pctChange": -0.0858
+    }
+  ]
+}

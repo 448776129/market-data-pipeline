@@ -1,0 +1,85 @@
+{
+  "symbol": "83010.HK",
+  "region": "hk",
+  "name": "iShares Asia Trust - iShares Core MSCI AC Asia ex Japan Index ETF",
+  "currency": "CNY",
+  "exchange": "HKG",
+  "isin": "-",
+  "info": {
+    "longName": "iShares Asia Trust - iShares Core MSCI AC Asia ex Japan Index ETF",
+    "shortName": "ISHARES AXJ-R",
+    "exchange": "HKG",
+    "currency": "CNY",
+    "open": 77.0,
+    "previousClose": 76.56,
+    "dayHigh": 77.0,
+    "dayLow": 77.0,
+    "regularMarketPrice": 76.96,
+    "regularMarketPreviousClose": 76.56,
+    "fiftyTwoWeekHigh": 82.1,
+    "fiftyTwoWeekLow": 9.1617,
+    "volume": 4900,
+    "averageVolume": 46491
+  },
+  "dividends": [
+    {
+      "index": "2014-12-15 09:30:00+08:00",
+      "value": 0.8232843
+    },
+    {
+      "index": "2015-12-14 09:30:00+08:00",
+      "value": 0.63375825
+    },
+    {
+      "index": "2016-12-12 09:30:00+08:00",
+      "value": 0.24125876
+    },
+    {
+      "index": "2017-12-18 09:30:00+08:00",
+      "value": 0.79466903
+    },
+    {
+      "index": "2018-12-17 09:30:00+08:00",
+      "value": 0.7588102
+    },
+    {
+      "index": "2019-12-20 09:30:00+08:00",
+      "value": 1.189771
+    },
+    {
+      "index": "2020-11-06 09:30:00+08:00",
+      "value": 0.5931124
+    },
+    {
+      "index": "2021-11-09 09:30:00+08:00",
+      "value": 0.83094984
+    },
+    {
+      "index": "2022-11-14 09:30:00+08:00",
+      "value": 0.91766846
+    },
+    {
+      "index": "2023-11-13 09:30:00+08:00",
+      "value": 0.94826436
+    },
+    {
+      "index": "2024-11-13 09:30:00+08:00",
+      "value": 1.1578804
+    },
+    {
+      "index": "2025-11-13 09:30:00+08:00",
+      "value": 0.7091181
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

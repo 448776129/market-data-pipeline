@@ -1,0 +1,42 @@
+{
+  "symbol": "83146.HK",
+  "region": "hk",
+  "name": "Chinaamc 20+ Year Us Treasury Bond Etf",
+  "currency": "CNY",
+  "exchange": "HKG",
+  "isin": "-",
+  "info": {
+    "longName": "Chinaamc 20+ Year Us Treasury Bond Etf",
+    "shortName": "CAM 20 UST-R",
+    "exchange": "HKG",
+    "currency": "CNY",
+    "open": 603.6,
+    "previousClose": 601.95,
+    "dayHigh": 603.6,
+    "dayLow": 603.6,
+    "regularMarketPrice": 603.6,
+    "regularMarketPreviousClose": 601.95,
+    "fiftyTwoWeekHigh": 640.75,
+    "fiftyTwoWeekLow": 600.25,
+    "dividendYield": 0.42,
+    "volume": 161,
+    "averageVolume": 48
+  },
+  "dividends": [
+    {
+      "index": "2026-05-21 09:30:00+08:00",
+      "value": 6.46152
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

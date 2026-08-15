@@ -1,0 +1,47 @@
+{
+  "symbol": "82832.HK",
+  "region": "hk",
+  "name": "Bosera ETFs - Bosera FTSE China A50 Index ETF",
+  "currency": "CNY",
+  "exchange": "HKG",
+  "isin": "-",
+  "info": {
+    "longName": "Bosera ETFs - Bosera FTSE China A50 Index ETF",
+    "shortName": "BOSERA STAR50-R",
+    "exchange": "HKG",
+    "currency": "CNY",
+    "open": 10.83,
+    "previousClose": 10.83,
+    "dayHigh": 10.83,
+    "dayLow": 10.83,
+    "regularMarketPrice": 10.79,
+    "regularMarketPreviousClose": 10.83,
+    "fiftyTwoWeekHigh": 13.73,
+    "fiftyTwoWeekLow": 7.09,
+    "trailingPE": 51.681812,
+    "dividendYield": 0.0,
+    "volume": 1000,
+    "averageVolume": 7198
+  },
+  "dividends": [
+    {
+      "index": "2014-11-18 09:30:00+08:00",
+      "value": 0.059988
+    },
+    {
+      "index": "2015-11-13 09:30:00+08:00",
+      "value": 0.029994
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

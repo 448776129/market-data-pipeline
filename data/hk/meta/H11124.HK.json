@@ -1,0 +1,32 @@
+{
+  "symbol": "H11124.HK",
+  "region": "hk",
+  "name": null,
+  "currency": null,
+  "exchange": "HKG",
+  "isin": "-",
+  "info": {
+    "exchange": "HKG",
+    "open": 0.0,
+    "previousClose": 2458.3638,
+    "dayHigh": 0.0,
+    "dayLow": 0.0,
+    "regularMarketPrice": 2458.3638,
+    "regularMarketPreviousClose": 2458.3638,
+    "fiftyTwoWeekHigh": 0.0,
+    "fiftyTwoWeekLow": 0.0,
+    "volume": 0
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

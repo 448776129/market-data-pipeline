@@ -1,0 +1,110 @@
+{
+  "symbol": "83128.HK",
+  "region": "hk",
+  "name": "Hang Seng China A Share ETF Series - Hang Seng China A Industry Top Index ETF",
+  "currency": "CNY",
+  "exchange": "HKG",
+  "isin": "-",
+  "info": {
+    "longName": "Hang Seng China A Share ETF Series - Hang Seng China A Industry Top Index ETF",
+    "shortName": "HS AINDTOPETF-R",
+    "exchange": "HKG",
+    "currency": "CNY",
+    "open": 57.08,
+    "previousClose": 58.1,
+    "dayHigh": 57.08,
+    "dayLow": 57.08,
+    "regularMarketPrice": 57.08,
+    "regularMarketPreviousClose": 58.1,
+    "fiftyTwoWeekHigh": 61.0,
+    "fiftyTwoWeekLow": 53.36,
+    "dividendYield": 0.77,
+    "volume": 1000,
+    "averageVolume": 298
+  },
+  "dividends": [
+    {
+      "index": "2014-12-12 09:30:00+08:00",
+      "value": 0.45
+    },
+    {
+      "index": "2015-12-10 09:30:00+08:00",
+      "value": 0.4
+    },
+    {
+      "index": "2016-12-13 09:30:00+08:00",
+      "value": 0.35
+    },
+    {
+      "index": "2017-12-05 09:30:00+08:00",
+      "value": 0.4
+    },
+    {
+      "index": "2018-12-18 09:30:00+08:00",
+      "value": 0.65
+    },
+    {
+      "index": "2019-09-19 09:30:00+08:00",
+      "value": 0.75
+    },
+    {
+      "index": "2020-06-22 09:30:00+08:00",
+      "value": 0.1
+    },
+    {
+      "index": "2020-09-17 09:30:00+08:00",
+      "value": 0.48
+    },
+    {
+      "index": "2021-06-17 09:30:00+08:00",
+      "value": 0.1
+    },
+    {
+      "index": "2021-09-16 09:30:00+08:00",
+      "value": 0.55
+    },
+    {
+      "index": "2022-06-23 09:30:00+08:00",
+      "value": 0.1
+    },
+    {
+      "index": "2022-09-19 09:30:00+08:00",
+      "value": 0.57
+    },
+    {
+      "index": "2023-06-29 09:30:00+08:00",
+      "value": 0.08
+    },
+    {
+      "index": "2023-09-18 09:30:00+08:00",
+      "value": 0.57
+    },
+    {
+      "index": "2024-09-20 09:30:00+08:00",
+      "value": 0.5
+    },
+    {
+      "index": "2025-06-27 09:30:00+08:00",
+      "value": 0.2
+    },
+    {
+      "index": "2025-09-17 09:30:00+08:00",
+      "value": 0.4
+    },
+    {
+      "index": "2026-06-22 09:30:00+08:00",
+      "value": 0.05
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
