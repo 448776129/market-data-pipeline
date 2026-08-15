@@ -1,0 +1,24 @@
+{
+  "symbol": "12140.HK",
+  "region": "hk",
+  "name": "JPTENCT@EC2307A",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "JPTENCT@EC2307A",
+    "shortName": "SG-GWMC@EC1811A"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

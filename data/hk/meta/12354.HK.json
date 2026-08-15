@@ -1,0 +1,24 @@
+{
+  "symbol": "12354.HK",
+  "region": "hk",
+  "name": "HSALIBA@EC2309B",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "HSALIBA@EC2309B",
+    "shortName": "GS-AIA @EC1810A"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

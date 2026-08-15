@@ -1,0 +1,24 @@
+{
+  "symbol": "12333.HK",
+  "region": "hk",
+  "name": "JPXINYI@EC2309A",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "JPXINYI@EC2309A",
+    "shortName": "CSPINAN@EC1808F"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

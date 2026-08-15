@@ -1,0 +1,24 @@
+{
+  "symbol": "11859.HK",
+  "region": "hk",
+  "name": "MBTPSPT@EC2308A",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "MBTPSPT@EC2308A",
+    "shortName": "CSPINAN@EC1808E"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

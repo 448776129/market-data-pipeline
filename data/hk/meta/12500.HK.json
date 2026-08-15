@@ -1,0 +1,24 @@
+{
+  "symbol": "12500.HK",
+  "region": "hk",
+  "name": "HS-TRIP@EC2412A",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "HS-TRIP@EC2412A",
+    "shortName": "SG-HSI @EP1903G"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

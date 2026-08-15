@@ -1,0 +1,24 @@
+{
+  "symbol": "12340.HK",
+  "region": "hk",
+  "name": "MB-SJM @EC2304A",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "MB-SJM @EC2304A",
+    "shortName": "UB-HSBC@EP1903C"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

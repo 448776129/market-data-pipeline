@@ -1,0 +1,24 @@
+{
+  "symbol": "12112.HK",
+  "region": "hk",
+  "name": "MBXIAMI@EC2410A",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "MBXIAMI@EC2410A",
+    "shortName": "UBPINAN@EC1812A"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

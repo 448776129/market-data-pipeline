@@ -1,0 +1,24 @@
+{
+  "symbol": "12235.HK",
+  "region": "hk",
+  "name": "MB-MNIU@EC2506A",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "MB-MNIU@EC2506A",
+    "shortName": "JP-HSCI@EC1809A"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

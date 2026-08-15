@@ -1,0 +1,24 @@
+{
+  "symbol": "12403.HK",
+  "region": "hk",
+  "name": "JPTENCT@EC2307C",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "JPTENCT@EC2307C",
+    "shortName": "HT-BRIC@EC1810B"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

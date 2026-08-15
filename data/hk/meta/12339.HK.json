@@ -1,0 +1,24 @@
+{
+  "symbol": "12339.HK",
+  "region": "hk",
+  "name": "UB-PAHT@EC2212A",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "UB-PAHT@EC2212A",
+    "shortName": "CS-ICBC@EC1808D"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

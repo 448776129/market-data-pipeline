@@ -1,0 +1,24 @@
+{
+  "symbol": "12342.HK",
+  "region": "hk",
+  "name": "MBPOMRT@EC2306A",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "MBPOMRT@EC2306A",
+    "shortName": "SG-CRL @EC1811A"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

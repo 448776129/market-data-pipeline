@@ -1,0 +1,24 @@
+{
+  "symbol": "12369.HK",
+  "region": "hk",
+  "name": "CSHDLIH@EC2110C",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "CSHDLIH@EC2110C",
+    "shortName": "HTWANWA@EC1812A"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

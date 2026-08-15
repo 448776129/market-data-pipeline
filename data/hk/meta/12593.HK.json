@@ -1,0 +1,24 @@
+{
+  "symbol": "12593.HK",
+  "region": "hk",
+  "name": "GSAMCS3@EC2012A",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "GSAMCS3@EC2012A",
+    "shortName": "HT-HSI @EC1902F"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

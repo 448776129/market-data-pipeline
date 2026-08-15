@@ -1,0 +1,24 @@
+{
+  "symbol": "12371.HK",
+  "region": "hk",
+  "name": "BI-HKEX@EC2307B",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "BI-HKEX@EC2307B",
+    "shortName": "HT-SPHG@EC1810A"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
