@@ -1,0 +1,147 @@
+{
+  "symbol": "NFTY",
+  "region": "us",
+  "name": "First Trust India NIFTY 50 Equal Weight ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US33737J8027",
+  "info": {
+    "longName": "First Trust India NIFTY 50 Equal Weight ETF",
+    "shortName": "First Trust India Nifty 50 Equa",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 54.52,
+    "previousClose": 54.695,
+    "dayHigh": 54.86,
+    "dayLow": 54.36,
+    "regularMarketPrice": 54.585,
+    "regularMarketPreviousClose": 54.695,
+    "fiftyTwoWeekHigh": 60.7,
+    "fiftyTwoWeekLow": 49.62,
+    "trailingPE": 23.331985,
+    "dividendYield": 1.87,
+    "volume": 3318,
+    "averageVolume": 27688
+  },
+  "dividends": [
+    {
+      "index": "2012-09-21 09:30:00-04:00",
+      "value": 0.692
+    },
+    {
+      "index": "2013-09-20 09:30:00-04:00",
+      "value": 0.551
+    },
+    {
+      "index": "2014-09-23 09:30:00-04:00",
+      "value": 0.189
+    },
+    {
+      "index": "2015-09-23 09:30:00-04:00",
+      "value": 1.249
+    },
+    {
+      "index": "2016-09-21 09:30:00-04:00",
+      "value": 1.006
+    },
+    {
+      "index": "2017-09-21 09:30:00-04:00",
+      "value": 0.928
+    },
+    {
+      "index": "2017-12-21 09:30:00-05:00",
+      "value": 0.542
+    },
+    {
+      "index": "2019-03-21 09:30:00-04:00",
+      "value": 0.106
+    },
+    {
+      "index": "2019-06-14 09:30:00-04:00",
+      "value": 0.048
+    },
+    {
+      "index": "2019-09-25 09:30:00-04:00",
+      "value": 0.187
+    },
+    {
+      "index": "2020-03-26 09:30:00-04:00",
+      "value": 0.093
+    },
+    {
+      "index": "2020-06-25 09:30:00-04:00",
+      "value": 0.127
+    },
+    {
+      "index": "2020-12-24 09:30:00-05:00",
+      "value": 0.013
+    },
+    {
+      "index": "2021-03-25 09:30:00-04:00",
+      "value": 0.136
+    },
+    {
+      "index": "2021-06-24 09:30:00-04:00",
+      "value": 0.018
+    },
+    {
+      "index": "2021-09-23 09:30:00-04:00",
+      "value": 0.077
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 0.5
+    },
+    {
+      "index": "2022-03-25 09:30:00-04:00",
+      "value": 1.295
+    },
+    {
+      "index": "2022-09-23 09:30:00-04:00",
+      "value": 0.225
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 1.054
+    },
+    {
+      "index": "2023-03-24 09:30:00-04:00",
+      "value": 0.053
+    },
+    {
+      "index": "2023-06-27 09:30:00-04:00",
+      "value": 0.018
+    },
+    {
+      "index": "2024-03-21 09:30:00-04:00",
+      "value": 0.079
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.061
+    },
+    {
+      "index": "2024-12-13 09:30:00-05:00",
+      "value": 0.761
+    },
+    {
+      "index": "2025-12-12 09:30:00-05:00",
+      "value": 0.721
+    },
+    {
+      "index": "2026-03-26 09:30:00-04:00",
+      "value": 0.305
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

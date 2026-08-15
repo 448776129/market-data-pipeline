@@ -1,0 +1,203 @@
+{
+  "symbol": "NFBK",
+  "region": "us",
+  "name": "Northfield Bancorp Inc",
+  "currency": "USD",
+  "exchange": "NMS",
+  "isin": "US66611T1088",
+  "info": {
+    "longName": "Northfield Bancorp Inc",
+    "shortName": "Northfield Bancorp, Inc.",
+    "sector": "Financial Services",
+    "industry": "Banks - Regional",
+    "country": "United States",
+    "exchange": "NMS",
+    "currency": "USD",
+    "marketCap": 639406784,
+    "currentPrice": 15.31,
+    "open": 14.96,
+    "previousClose": 0.0,
+    "dayHigh": 15.605,
+    "dayLow": 14.76,
+    "regularMarketPreviousClose": 0.0,
+    "fiftyTwoWeekHigh": 15.605,
+    "fiftyTwoWeekLow": 9.905,
+    "trailingPE": 117.76924,
+    "forwardPE": 10.206667,
+    "priceToBook": 0.92040396,
+    "dividendYield": 0.034,
+    "dividendRate": 0.52,
+    "trailingEps": 0.13,
+    "forwardEps": 1.5,
+    "beta": 0.698,
+    "volume": 1078251,
+    "averageVolume": 297323,
+    "sharesOutstanding": 41763852,
+    "floatShares": 41227604,
+    "targetMeanPrice": 14.5,
+    "targetHighPrice": 14.5,
+    "targetLowPrice": 14.5,
+    "recommendationKey": "hold",
+    "totalRevenue": 154811008,
+    "grossProfits": 154811008,
+    "totalDebt": 896534976,
+    "totalCash": 257712992,
+    "profitMargins": 0.030769998,
+    "returnOnEquity": 0.00678,
+    "returnOnAssets": 0.00083,
+    "earningsGrowth": 0.567,
+    "revenueGrowth": 0.245
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 15.31,
+    "high": 14.5,
+    "low": 14.5,
+    "mean": 14.5,
+    "median": 14.5
+  },
+  "recommendations_summary": [
+    {
+      "index": "0",
+      "period": "0m",
+      "strongBuy": 0,
+      "buy": 0,
+      "hold": 1,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "index": "1",
+      "period": "-1m",
+      "strongBuy": 0,
+      "buy": 0,
+      "hold": 1,
+      "sell": 0,
+      "strongSell": 0
+    }
+  ],
+  "earnings_dates": [
+    {
+      "index": "2026-07-22 16:00:00-04:00",
+      "EPS Estimate": 0.34,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    }
+  ],
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.12154
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.61374
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.69865
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 227.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Blackrock Inc.",
+      "pctHeld": 0.1252,
+      "Shares": 5226996,
+      "Value": 80025310,
+      "pctChange": -0.0321
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Dimensional Fund Advisors LP",
+      "pctHeld": 0.0612,
+      "Shares": 2556873,
+      "Value": 39145726,
+      "pctChange": 0.0101
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Vanguard Capital Management LLC",
+      "pctHeld": 0.0405,
+      "Shares": 1690228,
+      "Value": 25877391,
+      "pctChange": 1.0
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Renaissance Technologies, LLC",
+      "pctHeld": 0.0313,
+      "Shares": 1308449,
+      "Value": 20032354,
+      "pctChange": 0.21700001
+    },
+    {
+      "index": "4",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "State Street Corporation",
+      "pctHeld": 0.0253,
+      "Shares": 1055650,
+      "Value": 16162001,
+      "pctChange": -0.0525
+    },
+    {
+      "index": "5",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Geode Capital Management, LLC",
+      "pctHeld": 0.0222,
+      "Shares": 926849,
+      "Value": 14190058,
+      "pctChange": 0.019299999
+    },
+    {
+      "index": "6",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "American Century Companies Inc",
+      "pctHeld": 0.020599999,
+      "Shares": 861007,
+      "Value": 13182017,
+      "pctChange": 0.2293
+    },
+    {
+      "index": "7",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Balyasny Asset Management LP",
+      "pctHeld": 0.0201,
+      "Shares": 838571,
+      "Value": 12838522,
+      "pctChange": 1.0
+    },
+    {
+      "index": "8",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "M3F, Inc.",
+      "pctHeld": 0.0186,
+      "Shares": 776630,
+      "Value": 11890205,
+      "pctChange": 1.0
+    },
+    {
+      "index": "9",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Arrowstreet Capital, Limited Partnership",
+      "pctHeld": 0.0186,
+      "Shares": 777399,
+      "Value": 11901979,
+      "pctChange": 0.0317
+    }
+  ]
+}

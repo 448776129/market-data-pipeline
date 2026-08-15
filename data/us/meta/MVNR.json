@@ -1,0 +1,25 @@
+{
+  "symbol": "MVNR",
+  "region": "us",
+  "name": "Mavenir plc",
+  "currency": null,
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "longName": "Mavenir plc",
+    "shortName": "Mavenir Private Holdings II Ltd.",
+    "exchange": "NGM"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

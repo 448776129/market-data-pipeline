@@ -1,0 +1,148 @@
+{
+  "symbol": "NRUC",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "shortName": "National Rural Utilities Cooper",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 21.96,
+    "previousClose": 21.89,
+    "dayHigh": 21.9599,
+    "dayLow": 21.82,
+    "regularMarketPrice": 21.82,
+    "regularMarketPreviousClose": 21.89,
+    "fiftyTwoWeekHigh": 24.89,
+    "fiftyTwoWeekLow": 21.82,
+    "volume": 7405,
+    "averageVolume": 21717
+  },
+  "dividends": [
+    {
+      "index": "2019-07-31 09:30:00-04:00",
+      "value": 0.378
+    },
+    {
+      "index": "2019-10-31 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2020-01-30 09:30:00-05:00",
+      "value": 0.344
+    },
+    {
+      "index": "2020-04-30 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2020-07-30 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2020-10-29 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2021-01-29 09:30:00-05:00",
+      "value": 0.344
+    },
+    {
+      "index": "2021-04-29 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2021-07-29 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2021-10-29 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2022-01-31 09:30:00-05:00",
+      "value": 0.344
+    },
+    {
+      "index": "2022-04-28 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2022-07-29 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2023-01-31 09:30:00-05:00",
+      "value": 0.344
+    },
+    {
+      "index": "2023-04-28 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2023-07-31 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2023-10-31 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2024-01-31 09:30:00-05:00",
+      "value": 0.344
+    },
+    {
+      "index": "2024-04-30 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2024-08-01 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2024-11-01 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2025-01-31 09:30:00-05:00",
+      "value": 0.344
+    },
+    {
+      "index": "2025-05-01 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2025-08-01 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2025-10-31 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2026-01-30 09:30:00-05:00",
+      "value": 0.344
+    },
+    {
+      "index": "2026-05-01 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2026-07-31 09:30:00-04:00",
+      "value": 0.344
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

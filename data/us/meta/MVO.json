@@ -1,0 +1,166 @@
+{
+  "symbol": "MVO",
+  "region": "us",
+  "name": "MV Oil Trust",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "US5538591091",
+  "info": {
+    "longName": "MV Oil Trust",
+    "shortName": "MV Oil Trust",
+    "sector": "Energy",
+    "industry": "Oil & Gas E&P",
+    "country": "United States",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "currentPrice": 0.5955,
+    "open": 0.64,
+    "previousClose": 0.5989,
+    "dayHigh": 0.66,
+    "dayLow": 0.5823,
+    "regularMarketPreviousClose": 0.5989,
+    "fiftyTwoWeekHigh": 6.19,
+    "fiftyTwoWeekLow": 0.58,
+    "trailingPE": 0.744375,
+    "priceToBook": 3.7452831,
+    "dividendYield": 0.41669998,
+    "dividendRate": 0.7,
+    "trailingEps": 0.8,
+    "beta": -0.307,
+    "volume": 658807,
+    "averageVolume": 258067,
+    "floatShares": 7608860,
+    "recommendationKey": "none",
+    "totalRevenue": 10150268,
+    "grossProfits": 10150268,
+    "totalDebt": 0,
+    "totalCash": 1082681,
+    "profitMargins": 0.91204,
+    "returnOnEquity": 3.59193,
+    "returnOnAssets": 2.24495,
+    "earningsGrowth": -0.417,
+    "revenueGrowth": -0.386
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 0.5955
+  },
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.25218
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.11743
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.15703
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 25.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Symphony Financial Ltd Co.",
+      "pctHeld": 0.0064,
+      "Shares": 73352,
+      "Value": 43681,
+      "pctChange": 0.0364
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Bank of America Corporation",
+      "pctHeld": 0.0047999998,
+      "Shares": 55708,
+      "Value": 33174,
+      "pctChange": 16.1409
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Jane Street Group, LLC",
+      "pctHeld": 0.003,
+      "Shares": 34385,
+      "Value": 20476,
+      "pctChange": 1.0
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Xtx Topco Ltd",
+      "pctHeld": 0.003,
+      "Shares": 34048,
+      "Value": 20275,
+      "pctChange": -0.0634
+    },
+    {
+      "index": "4",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "HRT Financial LP",
+      "pctHeld": 0.0021,
+      "Shares": 23944,
+      "Value": 14258,
+      "pctChange": 0.025899999
+    },
+    {
+      "index": "5",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Acadian Asset Management. LLC",
+      "pctHeld": 0.0018000001,
+      "Shares": 20316,
+      "Value": 12098,
+      "pctChange": -0.2898
+    },
+    {
+      "index": "6",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Citadel Advisors Llc",
+      "pctHeld": 0.0017,
+      "Shares": 19835,
+      "Value": 11811,
+      "pctChange": -0.8084
+    },
+    {
+      "index": "7",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "McGowan Group Asset Management, Inc.",
+      "pctHeld": 0.0016,
+      "Shares": 18609,
+      "Value": 11081,
+      "pctChange": 1.0
+    },
+    {
+      "index": "8",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Susquehanna International Group, LLP",
+      "pctHeld": 0.0016,
+      "Shares": 18829,
+      "Value": 11212,
+      "pctChange": -0.6166
+    },
+    {
+      "index": "9",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Allworth Financial LP",
+      "pctHeld": 0.0013,
+      "Shares": 14542,
+      "Value": 8659,
+      "pctChange": 0.524
+    }
+  ]
+}

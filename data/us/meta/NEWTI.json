@@ -1,0 +1,81 @@
+{
+  "symbol": "NEWTI",
+  "region": "us",
+  "name": "NewtekOne, Inc. 8.00% Fixed Rate Senior Notes due 2028",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "longName": "NewtekOne, Inc. 8.00% Fixed Rate Senior Notes due 2028",
+    "shortName": "NewtekOne, Inc. - 8.00% Fixed R",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 25.4,
+    "previousClose": 25.67,
+    "dayHigh": 25.4,
+    "dayLow": 25.4,
+    "regularMarketPrice": 25.4,
+    "regularMarketPreviousClose": 25.67,
+    "fiftyTwoWeekHigh": 25.7,
+    "fiftyTwoWeekLow": 24.7,
+    "volume": 1157,
+    "averageVolume": 1808
+  },
+  "dividends": [
+    {
+      "index": "2023-11-14 09:30:00-05:00",
+      "value": 0.506
+    },
+    {
+      "index": "2024-02-14 09:30:00-05:00",
+      "value": 0.5
+    },
+    {
+      "index": "2024-05-14 09:30:00-04:00",
+      "value": 0.5
+    },
+    {
+      "index": "2024-08-15 09:30:00-04:00",
+      "value": 0.5
+    },
+    {
+      "index": "2024-11-15 09:30:00-05:00",
+      "value": 0.5
+    },
+    {
+      "index": "2025-02-14 09:30:00-05:00",
+      "value": 0.5
+    },
+    {
+      "index": "2025-05-15 09:30:00-04:00",
+      "value": 0.5
+    },
+    {
+      "index": "2025-08-15 09:30:00-04:00",
+      "value": 0.5
+    },
+    {
+      "index": "2025-11-14 09:30:00-05:00",
+      "value": 0.5
+    },
+    {
+      "index": "2026-02-27 09:30:00-05:00",
+      "value": 0.5
+    },
+    {
+      "index": "2026-05-29 09:30:00-04:00",
+      "value": 0.5
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
