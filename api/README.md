@@ -84,7 +84,7 @@ curl "https://stockapi.365200.xyz/kline?symbol=AAPL&format=csv"
 }
 ```
 
-返回的 `data` 元素字段与入库 CSV 列一致：日线含 `Date`，分钟线含 `Datetime`，其余为 `Open / High / Low / Close / Adj Close / Volume`。`interval=5m/15m/30m` 为采集端由 1m 数据重采样计算（`Open`=首根开盘、`High`=区间最高、`Low`=区间最低、`Close`=末根收盘、`Volume`=求和）。
+返回的 `data` 元素字段与入库 CSV 列一致：日线含 `Date`，分钟线含 `Datetime`，其余为 `Open / High / Low / Close / Adj Close / Volume`。`interval=5m/15m/30m` 为采集端由 1m 数据重采样计算（`Open`=首根开盘、`High`=区间最高、`Low`=区间最低、`Close`=末根收盘、`Volume`=求和）；`interval=1h` 为雅虎原生小时K线。
 
 ## 区域自动识别
 

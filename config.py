@@ -86,9 +86,10 @@ INTRADAY_M5_SUBDIR = "kline_5m"
 INTRADAY_M15_SUBDIR = "kline_15m"
 INTRADAY_M30_SUBDIR = "kline_30m"
 INTRADAY_M1H_SUBDIR = "kline_1h"
-# 分钟级K线各周期的 yfinance period（1m 仅保留约7天，1h 约730天）
+# 分钟级K线各周期的 yfinance period（1m 仅保留约5~7天，1h 约730天）
 INTRADAY_PERIOD = {"1m": "5d", "1h": "6mo"}
-# 由 1m 重采样计算得到的周期（雅虎不提供这些历史周期，代码计算）
+# 由 1m 重采样计算得到的周期：5m/15m/30m（雅虎不提供这些历史周期，代码计算）。
+# 1h 由雅虎原生提供（含 15:30~16:00 收盘bar），不在此派生。
 # 映射：衍生周期 -> pandas 重采样规则
 INTRADAY_DERIVED = {
     "5m": "5min",

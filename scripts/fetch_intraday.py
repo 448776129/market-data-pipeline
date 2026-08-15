@@ -1,13 +1,13 @@
 """分钟级K线数据拉取脚本。
 
-从 Yahoo Finance 拉取分钟级K线（1分钟、1小时），其中 5m/15m/30m 为雅虎
-不提供的历史周期，由 1m 数据代码重采样计算得到。每只股票、每个周期各写入
-一个 CSV 文件，按区域与周期分目录存放：
+从 Yahoo Finance 拉取 1 分钟与 1 小时K线。其中 5m/15m/30m 为雅虎不提供的历史
+周期，由 1m 数据代码重采样计算；1h 由雅虎原生提供（含 15:30~16:00 收盘bar）。
+每只股票、每个周期各写入一个 CSV 文件，按区域与周期分目录存放：
     data/{region}/kline_1m/{symbol}.csv
     data/{region}/kline_5m/{symbol}.csv    (由 1m 计算)
     data/{region}/kline_15m/{symbol}.csv   (由 1m 计算)
     data/{region}/kline_30m/{symbol}.csv   (由 1m 计算)
-    data/{region}/kline_1h/{symbol}.csv
+    data/{region}/kline_1h/{symbol}.csv    (雅虎原生)
 
 范围：
     - --index：拉取指定指数成分股（csi300/csi500/ndx100/sp500/hsi）
@@ -49,7 +49,7 @@ SUBDIR = {
     "30m": config.INTRADAY_M30_SUBDIR,
     "1h": config.INTRADAY_M1H_SUBDIR,
 }
-# 直接由雅虎拉取的周期（1m 额外派生 5m/15m/30m，1h 雅虎原生提供）
+# 直接由雅虎拉取的周期（1m 额外派生 5m/15m/30m；1h 雅虎原生提供）
 SOURCE_INTERVALS = ["1m", "1h"]
 
 
@@ -58,11 +58,11 @@ def output_path(region: str, symbol: str, interval: str) -> Path:
 
 
 def derive_from_1m(region: str, symbol: str, target: str) -> Path | None:
-    """从 1 分钟K线重采样计算出 15m/30m 周期，写盘并返回输出路径。
+    """从 1 分钟K线重采样计算出 5m/15m/30m 周期，写盘并返回输出路径。
 
-    雅虎不提供 15m/30m 历史数据，这里按标准 OHLCV 聚合：
+    雅虎不提供 5m/15m/30m 历史数据，这里按标准 OHLCV 聚合：
     Open=首根开盘、High=区间最高、Low=区间最低、Close=末根收盘、Volume=求和，
-    Adj Close 取区间最后一根的 Close。时间桶对齐到 15/30 分钟边界。
+    Adj Close 取区间最后一根的 Close。时间桶对齐到 5/15/30 分钟边界。
     """
     rule = config.INTRADAY_DERIVED.get(target)
     if not rule:
@@ -119,6 +119,7 @@ def fetch_symbol(region: str, symbol: str, interval: str) -> Path | None:
             period=config.INTRADAY_PERIOD[interval],
             interval=interval,
             auto_adjust=False,
+            prepost=True,  # 包含盘前/盘后（延长时段），仅对美股 intraday 生效
         )
         mode_label = "全量"
     else:
@@ -129,6 +130,7 @@ def fetch_symbol(region: str, symbol: str, interval: str) -> Path | None:
             start=start,
             interval=interval,
             auto_adjust=False,
+            prepost=True,  # 包含盘前/盘后（延长时段），仅对美股 intraday 生效
         )
         mode_label = "增量"
 
@@ -143,7 +145,7 @@ def fetch_symbol(region: str, symbol: str, interval: str) -> Path | None:
         flush=True,
     )
 
-    # 由 1m 派生 15m/30m（雅虎不提供，代码重采样计算）
+    # 由 1m 派生 5m/15m/30m（雅虎不提供，代码重采样计算）
     if interval == "1m":
         for target in sorted(config.INTRADAY_DERIVED):
             derive_from_1m(region, symbol, target)
@@ -209,7 +211,7 @@ def main() -> int:
         "--interval",
         choices=SOURCE_INTERVALS + ["all"],
         default="all",
-        help="K线周期（默认 all=1m+1h；15m/30m 由 1m 自动计算，无需手动选择）",
+        help="K线周期（默认 all=1m+1h；5m/15m/30m 由 1m 自动计算，无需手动选择）",
     )
     parser.add_argument("--batch", type=int, default=0, help="当前批次（0 起）")
     parser.add_argument("--batches", type=int, default=1, help="总批次数")

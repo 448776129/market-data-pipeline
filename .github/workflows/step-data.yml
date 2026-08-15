@@ -17,7 +17,7 @@ on:
         default: ""
         type: string
       mode:
-        description: "historical=全量历史, daily=当日增量, meta=非K线, universe=指数清单, minute=分钟K线(1m/5m/15m/30m/1h，5m/15m/30m由1m计算)"
+        description: "historical=全量历史, daily=当日增量, meta=非K线, universe=指数清单, minute=分钟K线(1m/1h，5m/15m/30m由1m计算)"
         required: true
         type: string
       batch:
