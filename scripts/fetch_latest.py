@@ -16,7 +16,6 @@ import sys
 import time
 from pathlib import Path
 
-import pandas as pd
 import yfinance as yf
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -32,15 +31,6 @@ RECENT_DAYS = "5d"
 
 def output_path(region: str, symbol: str) -> Path:
     return ROOT / config.DATA_DIR / region / config.KLINE_SUBDIR / f"{symbol}.csv"
-
-
-def load_existing(region: str, symbol: str) -> pd.DataFrame | None:
-    out = output_path(region, symbol)
-    if not out.exists():
-        return None
-    df = pd.read_csv(out, index_col="Date", parse_dates=True)
-    df.index = df.index.normalize()
-    return df
 
 
 def fetch_symbol(region: str, symbol: str) -> Path | None:
@@ -59,23 +49,9 @@ def fetch_symbol(region: str, symbol: str) -> Path | None:
         print(f"  [跳过] {symbol}: 无最新数据", flush=True)
         return out if out.exists() else None
 
-    # 保留核心列（仅取实际存在的列），索引为日期
+    # 保留核心列（仅取实际存在的列）
     cols = [c for c in COLS if c in fresh.columns]
-    fresh = fresh[cols].copy()
-    fresh.index = fresh.index.tz_localize(None) if fresh.index.tz is not None else fresh.index
-    fresh.index = fresh.index.normalize()
-
-    existing = load_existing(region, symbol)
-    if existing is None:
-        # 无历史文件（如首次运行），退化为拉取全量历史
-        merged = fresh
-        print(f"  [警告] {symbol}: 无现有文件，仅写入最近数据", flush=True)
-    else:
-        merged = pd.concat([existing, fresh])
-        # 按日期去重，保留最新一行
-        merged = merged[~merged.index.duplicated(keep="last")].sort_index()
-
-    merged.to_csv(out, encoding="utf-8")
+    merged = marketlib.merge_kline(out, fresh, cols)
     print(f"  [更新] {symbol} -> {out.relative_to(ROOT)} (共 {len(merged)} 行)", flush=True)
     return out
 
