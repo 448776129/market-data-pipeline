@@ -1,0 +1,29 @@
+{
+  "symbol": "13498.HK",
+  "region": "hk",
+  "name": "UBGANFE@EC2612A",
+  "currency": "HKD",
+  "exchange": "HKG",
+  "isin": "-",
+  "info": {
+    "longName": "UBGANFE@EC2612A",
+    "shortName": "SGTENCT@EP1811B",
+    "exchange": "HKG",
+    "currency": "HKD",
+    "previousClose": 0.051,
+    "regularMarketPrice": 0.023,
+    "regularMarketPreviousClose": 0.051
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
