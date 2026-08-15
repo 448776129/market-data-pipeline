@@ -47,13 +47,20 @@ def fetch_symbol(region: str, symbol: str) -> Path | None:
     out.parent.mkdir(parents=True, exist_ok=True)
 
     ticker = yf.Ticker(symbol)
-    fresh = ticker.history(period=RECENT_DAYS, interval=config.INTERVAL)
+    # auto_adjust=False 保证返回包含 Adj Close 的原始列
+    fresh = ticker.history(
+        period=RECENT_DAYS,
+        interval=config.INTERVAL,
+        auto_adjust=False,
+    )
 
     if fresh is None or fresh.empty:
         print(f"  [跳过] {symbol}: 无最新数据", flush=True)
         return out if out.exists() else None
 
-    fresh = fresh[COLS].copy()
+    # 保留核心列（仅取实际存在的列），索引为日期
+    cols = [c for c in COLS if c in fresh.columns]
+    fresh = fresh[cols].copy()
     fresh.index = fresh.index.tz_localize(None) if fresh.index.tz is not None else fresh.index
     fresh.index = fresh.index.normalize()
 

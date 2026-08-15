@@ -37,14 +37,20 @@ def fetch_symbol(region: str, symbol: str) -> Path | None:
     out.parent.mkdir(parents=True, exist_ok=True)
 
     ticker = yf.Ticker(symbol)
-    df = ticker.history(period=config.HISTORY_PERIOD, interval=config.INTERVAL)
+    # auto_adjust=False 保证返回包含 Adj Close 的原始列
+    df = ticker.history(
+        period=config.HISTORY_PERIOD,
+        interval=config.INTERVAL,
+        auto_adjust=False,
+    )
 
     if df is None or df.empty:
         print(f"  [跳过] {symbol}: 无数据返回", flush=True)
         return None
 
-    # 保留核心列，索引为日期
-    df = df[COLS].copy()
+    # 保留核心列（仅取实际存在的列），索引为日期
+    cols = [c for c in COLS if c in df.columns]
+    df = df[cols].copy()
     df.index.name = "Date"
     # 日期归一化为 YYYY-MM-DD，避免时区漂移导致的重复行
     df.index = df.index.tz_localize(None) if df.index.tz is not None else df.index
