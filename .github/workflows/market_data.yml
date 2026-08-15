@@ -247,13 +247,15 @@ jobs:
       batches: "10"
 
   # ============================================================
-  # 分钟级K线（纳指100成分股，只针对美股）
+  # 分钟级K线（标普500成分股：1m/15m/1h，只针对美股）
+  # 手动可用 region=ndx100 指定纳指100，或通过 universe 输入
   # ============================================================
   minute-us:
-    name: Minute · US (NDX100)
+    name: Minute · US (SP500)
     needs: [universe]
     if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 14 * * 1-5' || github.event.schedule == '0 16 * * 1-5' || github.event.schedule == '0 18 * * 1-5' || github.event.schedule == '0 20 * * 1-5')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'minute') }}
     uses: ./.github/workflows/step-data.yml
     with:
       region: us
       mode: minute
+      universe: sp500

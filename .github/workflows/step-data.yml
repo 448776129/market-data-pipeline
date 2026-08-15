@@ -24,6 +24,11 @@ on:
         required: false
         default: "1"
         type: string
+      universe:
+        description: "分钟K线指数（sp500/ndx100）"
+        required: false
+        default: "sp500"
+        type: string
 
 env:
   PYTHON_VERSION: "3.11"
@@ -57,7 +62,7 @@ jobs:
           elif [ "${{ inputs.mode }}" = "universe" ]; then
             python scripts/fetch_universe.py
           elif [ "${{ inputs.mode }}" = "minute" ]; then
-            python scripts/fetch_intraday.py
+            python scripts/fetch_intraday.py --universe ${{ inputs.universe }}
           else
             python scripts/fetch_latest.py --region ${{ inputs.region }} $BATCH_ARGS
           fi

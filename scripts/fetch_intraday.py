@@ -1,13 +1,16 @@
 """分钟级K线数据拉取脚本。
 
-从 Yahoo Finance 拉取纳指100成分股的分钟级K线（1分钟、15分钟），
-每个周期、每只股票各写入一个 CSV 文件，按区域与周期分目录存放：
+从 Yahoo Finance 拉取指定指数成分股（标普500 / 纳指100）的分钟级K线
+（1分钟、15分钟、1小时），每个周期、每只股票各写入一个 CSV 文件，
+按区域与周期分目录存放：
     data/us/kline_1m/{symbol}.csv
     data/us/kline_15m/{symbol}.csv
+    data/us/kline_1h/{symbol}.csv
 
 用法：
-    python scripts/fetch_intraday.py                 # 拉取1m + 15m
-    python scripts/fetch_intraday.py --interval 15m  # 仅拉取15m
+    python scripts/fetch_intraday.py                         # 标普500 1m+15m+1h
+    python scripts/fetch_intraday.py --universe ndx100       # 纳指100
+    python scripts/fetch_intraday.py --interval 15m          # 仅15m
 """
 
 from __future__ import annotations
@@ -31,14 +34,25 @@ COLS = ["Open", "High", "Low", "Close", "Adj Close", "Volume"]
 SUBDIR = {
     "1m": config.INTRADAY_M1_SUBDIR,
     "15m": config.INTRADAY_M15_SUBDIR,
+    "1h": config.INTRADAY_M1H_SUBDIR,
+}
+
+# universe 名 -> 清单文件名
+UNIVERSE_FILES = {
+    "sp500": config.SP500_FILE,
+    "ndx100": config.NASDAQ100_FILE,
 }
 
 
-def load_symbols() -> list[str]:
-    """读取纳指100成分股清单。"""
-    path = ROOT / config.DATA_DIR / config.UNIVERSE_SUBDIR / config.NASDAQ100_FILE
+def load_symbols(universe: str) -> list[str]:
+    """读取指定指数成分股清单。"""
+    fname = UNIVERSE_FILES.get(universe)
+    if not fname:
+        print(f"  [警告] 未知指数: {universe}", file=sys.stderr)
+        return []
+    path = ROOT / config.DATA_DIR / config.UNIVERSE_SUBDIR / fname
     if not path.exists():
-        print(f"  [警告] 纳指100清单不存在: {path.relative_to(ROOT)}", file=sys.stderr)
+        print(f"  [警告] 成分股清单不存在: {path.relative_to(ROOT)}", file=sys.stderr)
         return []
     return [
         line.strip()
@@ -79,9 +93,12 @@ def fetch_symbol(symbol: str, interval: str) -> Path | None:
     return out
 
 
-def run(intervals: list[str]) -> int:
-    symbols = load_symbols()
-    print(f"[纳指100] 共 {len(symbols)} 只成分股，周期 {'+'.join(intervals)}", flush=True)
+def run(universe: str, intervals: list[str]) -> int:
+    symbols = load_symbols(universe)
+    print(
+        f"[{universe}] 共 {len(symbols)} 只成分股，周期 {'+'.join(intervals)}",
+        flush=True,
+    )
     if not symbols:
         return 1
 
@@ -102,16 +119,22 @@ def run(intervals: list[str]) -> int:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="拉取纳指100分钟级K线")
+    parser = argparse.ArgumentParser(description="拉取指数成分股分钟级K线")
+    parser.add_argument(
+        "--universe",
+        choices=list(UNIVERSE_FILES),
+        default="sp500",
+        help="指数成分股（默认 sp500）",
+    )
     parser.add_argument(
         "--interval",
-        choices=["1m", "15m", "both"],
-        default="both",
-        help="K线周期（默认 both）",
+        choices=["1m", "15m", "1h", "all"],
+        default="all",
+        help="K线周期（默认 all）",
     )
     args = parser.parse_args()
-    intervals = ["1m", "15m"] if args.interval == "both" else [args.interval]
-    return run(intervals)
+    intervals = ["1m", "15m", "1h"] if args.interval == "all" else [args.interval]
+    return run(args.universe, intervals)
 
 
 if __name__ == "__main__":
