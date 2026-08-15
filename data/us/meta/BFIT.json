@@ -1,0 +1,91 @@
+{
+  "symbol": "BFIT",
+  "region": "us",
+  "name": "Global X Health & Wellness ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US37954Y7985",
+  "info": {
+    "longName": "Global X Health & Wellness ETF",
+    "shortName": "Global X Health & Wellness ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 21.51,
+    "previousClose": 21.39,
+    "dayHigh": 21.51,
+    "dayLow": 21.39,
+    "regularMarketPrice": 21.51,
+    "regularMarketPreviousClose": 21.39,
+    "fiftyTwoWeekHigh": 23.51,
+    "fiftyTwoWeekLow": 19.92,
+    "trailingPE": 17.268147,
+    "dividendYield": 1.65,
+    "volume": 1119,
+    "averageVolume": 1284
+  },
+  "dividends": [
+    {
+      "index": "2016-12-28 09:30:00-05:00",
+      "value": 0.075078
+    },
+    {
+      "index": "2017-12-28 09:30:00-05:00",
+      "value": 0.329272
+    },
+    {
+      "index": "2018-12-28 09:30:00-05:00",
+      "value": 0.08671
+    },
+    {
+      "index": "2019-06-27 09:30:00-04:00",
+      "value": 0.076031
+    },
+    {
+      "index": "2019-12-30 09:30:00-05:00",
+      "value": 0.047929
+    },
+    {
+      "index": "2020-06-29 09:30:00-04:00",
+      "value": 0.034522
+    },
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.097898
+    },
+    {
+      "index": "2021-06-29 09:30:00-04:00",
+      "value": 0.041313
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.140537
+    },
+    {
+      "index": "2022-06-29 09:30:00-04:00",
+      "value": 0.078386
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.116446
+    },
+    {
+      "index": "2023-06-29 09:30:00-04:00",
+      "value": 0.101286
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.251975
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,176 @@
+{
+  "symbol": "BBH",
+  "region": "us",
+  "name": "VanEck Biotech ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US92189F7261",
+  "info": {
+    "longName": "VanEck Biotech ETF",
+    "shortName": "VanEck Biotech ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 219.52,
+    "previousClose": 219.59,
+    "dayHigh": 219.52,
+    "dayLow": 217.03,
+    "regularMarketPrice": 218.0411,
+    "regularMarketPreviousClose": 219.59,
+    "fiftyTwoWeekHigh": 221.11,
+    "fiftyTwoWeekLow": 160.91,
+    "trailingPE": 26.816292,
+    "dividendYield": 0.47,
+    "volume": 3359,
+    "averageVolume": 5034
+  },
+  "dividends": [
+    {
+      "index": "2002-02-27 09:30:00-05:00",
+      "value": 0.002667
+    },
+    {
+      "index": "2002-07-17 09:30:00-04:00",
+      "value": 0.63
+    },
+    {
+      "index": "2006-04-26 09:30:00-04:00",
+      "value": 2.56
+    },
+    {
+      "index": "2007-02-05 09:30:00-05:00",
+      "value": 0.453333
+    },
+    {
+      "index": "2007-03-14 09:30:00-04:00",
+      "value": 0.003667
+    },
+    {
+      "index": "2007-06-27 09:30:00-04:00",
+      "value": 2.9
+    },
+    {
+      "index": "2008-03-12 09:30:00-04:00",
+      "value": 0.004333
+    },
+    {
+      "index": "2008-05-21 09:30:00-04:00",
+      "value": 1.0
+    },
+    {
+      "index": "2008-12-03 09:30:00-05:00",
+      "value": 1.089
+    },
+    {
+      "index": "2009-03-11 09:30:00-04:00",
+      "value": 0.005333
+    },
+    {
+      "index": "2009-04-01 09:30:00-04:00",
+      "value": 27.858667
+    },
+    {
+      "index": "2009-09-09 09:30:00-04:00",
+      "value": 0.001333
+    },
+    {
+      "index": "2009-10-29 09:30:00-04:00",
+      "value": 0.46
+    },
+    {
+      "index": "2009-10-30 09:30:00-04:00",
+      "value": 0.449667
+    },
+    {
+      "index": "2011-03-09 09:30:00-05:00",
+      "value": 0.007333
+    },
+    {
+      "index": "2011-04-26 09:30:00-04:00",
+      "value": 3.453333
+    },
+    {
+      "index": "2011-05-26 09:30:00-04:00",
+      "value": 0.106667
+    },
+    {
+      "index": "2011-08-16 09:30:00-04:00",
+      "value": 0.060333
+    },
+    {
+      "index": "2011-09-07 09:30:00-04:00",
+      "value": 0.001667
+    },
+    {
+      "index": "2011-11-15 09:30:00-05:00",
+      "value": 0.060333
+    },
+    {
+      "index": "2012-12-24 09:30:00-05:00",
+      "value": 0.184
+    },
+    {
+      "index": "2013-12-23 09:30:00-05:00",
+      "value": 0.003
+    },
+    {
+      "index": "2015-12-21 09:30:00-05:00",
+      "value": 0.337
+    },
+    {
+      "index": "2016-12-19 09:30:00-05:00",
+      "value": 0.327
+    },
+    {
+      "index": "2017-12-18 09:30:00-05:00",
+      "value": 0.683
+    },
+    {
+      "index": "2018-12-20 09:30:00-05:00",
+      "value": 0.551
+    },
+    {
+      "index": "2019-12-23 09:30:00-05:00",
+      "value": 0.472
+    },
+    {
+      "index": "2020-12-21 09:30:00-05:00",
+      "value": 0.608
+    },
+    {
+      "index": "2021-12-20 09:30:00-05:00",
+      "value": 0.397
+    },
+    {
+      "index": "2022-12-19 09:30:00-05:00",
+      "value": 0.749
+    },
+    {
+      "index": "2023-12-18 09:30:00-05:00",
+      "value": 0.713
+    },
+    {
+      "index": "2024-12-23 09:30:00-05:00",
+      "value": 1.252
+    },
+    {
+      "index": "2025-12-22 09:30:00-05:00",
+      "value": 0.957
+    }
+  ],
+  "splits": [
+    {
+      "index": "2012-02-14 09:30:00-05:00",
+      "value": 3.0
+    }
+  ],
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

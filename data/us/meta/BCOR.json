@@ -1,0 +1,51 @@
+{
+  "symbol": "BCOR",
+  "region": "us",
+  "name": "Grayscale Bitcoin Adopters ETF",
+  "currency": "USD",
+  "exchange": "PCX",
+  "isin": "US38963H5037",
+  "info": {
+    "longName": "Grayscale Bitcoin Adopters ETF",
+    "shortName": "Grayscale Bitcoin Adopters ETF",
+    "exchange": "PCX",
+    "currency": "USD",
+    "open": 21.68,
+    "previousClose": 21.7755,
+    "dayHigh": 21.5872,
+    "dayLow": 21.5872,
+    "regularMarketPrice": 21.5872,
+    "regularMarketPreviousClose": 21.7755,
+    "fiftyTwoWeekHigh": 36.976,
+    "fiftyTwoWeekLow": 20.15,
+    "trailingPE": 12.4526005,
+    "dividendYield": 3.76,
+    "volume": 1284,
+    "averageVolume": 839
+  },
+  "dividends": [
+    {
+      "index": "2025-06-17 09:30:00-04:00",
+      "value": 0.014
+    },
+    {
+      "index": "2025-12-31 09:30:00-05:00",
+      "value": 0.774
+    },
+    {
+      "index": "2026-06-17 09:30:00-04:00",
+      "value": 0.026
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

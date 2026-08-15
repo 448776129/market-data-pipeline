@@ -1,0 +1,126 @@
+{
+  "symbol": "BREZR",
+  "region": "us",
+  "name": "Breeze Acquisition Corp. II",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "longName": "Breeze Acquisition Corp. II",
+    "shortName": "Breeze Acquisition Corp. II",
+    "sector": "",
+    "industry": "",
+    "country": "United States",
+    "exchange": "NGM",
+    "currency": "USD",
+    "currentPrice": 0.2175,
+    "open": 0.233,
+    "previousClose": 0.2175,
+    "dayHigh": 0.2175,
+    "dayLow": 0.2175,
+    "regularMarketPrice": 0.2175,
+    "regularMarketPreviousClose": 0.2175,
+    "fiftyTwoWeekHigh": 0.2175,
+    "fiftyTwoWeekLow": 0.2175,
+    "priceToBook": -9.456522,
+    "volume": 2,
+    "recommendationKey": "none",
+    "profitMargins": 0.0
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 0.2175
+  },
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Commonwealth Of Pennsylvania Public School Empls Retrmt Sys",
+      "pctHeld": 0.0,
+      "Shares": 256842,
+      "Value": 55863,
+      "pctChange": 1.0
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "ABC Arbitrage SA",
+      "pctHeld": 0.0,
+      "Shares": 30000,
+      "Value": 6525,
+      "pctChange": 1.0
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Wolverine Asset Management, LLC",
+      "pctHeld": 0.0,
+      "Shares": 262119,
+      "Value": 57010,
+      "pctChange": 1.0
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Gabelli & Co. Investment Advisers, Inc.",
+      "pctHeld": 0.0,
+      "Shares": 414950,
+      "Value": 90251,
+      "pctChange": 1.0
+    },
+    {
+      "index": "4",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Clear Street Group Inc.",
+      "pctHeld": 0.0,
+      "Shares": 224999,
+      "Value": 48937,
+      "pctChange": 1.0
+    },
+    {
+      "index": "5",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Gabelli Funds, LLC",
+      "pctHeld": 0.0,
+      "Shares": 85050,
+      "Value": 18498,
+      "pctChange": 1.0
+    },
+    {
+      "index": "6",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "BNP Paribas Financial Markets",
+      "pctHeld": 0.0,
+      "Shares": 606258,
+      "Value": 131861,
+      "pctChange": 1.0
+    },
+    {
+      "index": "7",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Yakira Capital Management, Inc.",
+      "pctHeld": 0.0,
+      "Shares": 150000,
+      "Value": 32625,
+      "pctChange": 1.0
+    },
+    {
+      "index": "8",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Kepos Capital Lp",
+      "pctHeld": 0.0,
+      "Shares": 50000,
+      "Value": 10875,
+      "pctChange": 1.0
+    }
+  ]
+}

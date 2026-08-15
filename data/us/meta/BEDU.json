@@ -1,0 +1,118 @@
+{
+  "symbol": "BEDU",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "INE844K01012",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2021-07-21 18:00:00-04:00",
+      "EPS Estimate": 4.6,
+      "Reported EPS": 5.96,
+      "Surprise(%)": 29.57
+    },
+    {
+      "index": "2021-04-21 18:00:00-04:00",
+      "EPS Estimate": 0.82,
+      "Reported EPS": -1.28,
+      "Surprise(%)": -256.1
+    },
+    {
+      "index": "2021-01-20 17:00:00-05:00",
+      "EPS Estimate": 5.66,
+      "Reported EPS": 6.44,
+      "Surprise(%)": 13.78
+    },
+    {
+      "index": "2020-11-11 18:00:00-05:00",
+      "EPS Estimate": 0.62,
+      "Reported EPS": -2.16,
+      "Surprise(%)": -448.39
+    },
+    {
+      "index": "2020-07-22 18:00:00-04:00",
+      "EPS Estimate": 2.1,
+      "Reported EPS": 1.84,
+      "Surprise(%)": -12.38
+    },
+    {
+      "index": "2020-04-28 18:00:00-04:00",
+      "EPS Estimate": 0.02,
+      "Reported EPS": 2.24,
+      "Surprise(%)": 11100.0
+    },
+    {
+      "index": "2020-01-16 17:00:00-05:00",
+      "EPS Estimate": 6.36,
+      "Reported EPS": 7.04,
+      "Surprise(%)": 10.69
+    },
+    {
+      "index": "2019-11-07 17:00:00-05:00",
+      "EPS Estimate": -0.44,
+      "Reported EPS": -1.2,
+      "Surprise(%)": -172.73
+    },
+    {
+      "index": "2019-07-18 17:00:00-04:00",
+      "EPS Estimate": 5.7,
+      "Reported EPS": 5.28,
+      "Surprise(%)": -7.37
+    },
+    {
+      "index": "2019-04-22 17:00:00-04:00",
+      "EPS Estimate": 1.24,
+      "Reported EPS": 1.0,
+      "Surprise(%)": -19.35
+    },
+    {
+      "index": "2019-01-17 17:00:00-05:00",
+      "EPS Estimate": 5.1,
+      "Reported EPS": 5.2,
+      "Surprise(%)": 1.96
+    },
+    {
+      "index": "2018-11-07 17:00:00-05:00",
+      "EPS Estimate": 0.56,
+      "Reported EPS": 0.68,
+      "Surprise(%)": 21.43
+    },
+    {
+      "index": "2018-07-24 17:00:00-04:00",
+      "EPS Estimate": 5.06,
+      "Reported EPS": 4.4,
+      "Surprise(%)": -13.04
+    },
+    {
+      "index": "2018-04-24 17:00:00-04:00",
+      "EPS Estimate": 0.76,
+      "Reported EPS": -0.12,
+      "Surprise(%)": -115.79
+    },
+    {
+      "index": "2018-01-23 17:00:00-05:00",
+      "EPS Estimate": 4.28,
+      "Reported EPS": 4.08,
+      "Surprise(%)": -4.67
+    },
+    {
+      "index": "2017-11-08 17:00:00-05:00",
+      "EPS Estimate": 0.44,
+      "Reported EPS": -0.12,
+      "Surprise(%)": -127.27
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

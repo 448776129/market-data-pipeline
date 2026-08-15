@@ -1,0 +1,142 @@
+{
+  "symbol": "BPT",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "NET000BITPA1",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2025-08-07 16:00:00-04:00",
+      "EPS Estimate": null,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2016-02-29 13:00:00-05:00",
+      "EPS Estimate": 0.92,
+      "Reported EPS": 0.7,
+      "Surprise(%)": -23.52
+    },
+    {
+      "index": "2015-11-09 13:00:00-05:00",
+      "EPS Estimate": 0.9,
+      "Reported EPS": 1.47,
+      "Surprise(%)": 63.18
+    },
+    {
+      "index": "2015-08-10 10:00:00-04:00",
+      "EPS Estimate": 0.93,
+      "Reported EPS": 1.0,
+      "Surprise(%)": 7.49
+    },
+    {
+      "index": "2015-05-08 14:00:00-04:00",
+      "EPS Estimate": 1.01,
+      "Reported EPS": 2.69,
+      "Surprise(%)": 166.56
+    },
+    {
+      "index": "2010-08-09 14:00:00-04:00",
+      "EPS Estimate": 0.03,
+      "Reported EPS": 2.19,
+      "Surprise(%)": 7200.0
+    },
+    {
+      "index": "2010-03-01 07:00:00-05:00",
+      "EPS Estimate": -0.01,
+      "Reported EPS": 1.73,
+      "Surprise(%)": 17390.0
+    },
+    {
+      "index": "2009-11-09 11:00:00-05:00",
+      "EPS Estimate": 1.65,
+      "Reported EPS": 1.65,
+      "Surprise(%)": 0.26
+    },
+    {
+      "index": "2009-08-07 12:00:00-04:00",
+      "EPS Estimate": 0.99,
+      "Reported EPS": 0.99,
+      "Surprise(%)": 0.07
+    },
+    {
+      "index": "2009-05-08 16:00:00-04:00",
+      "EPS Estimate": 1.63,
+      "Reported EPS": 1.64,
+      "Surprise(%)": 0.26
+    },
+    {
+      "index": "2009-03-02 01:00:00-05:00",
+      "EPS Estimate": 2.93,
+      "Reported EPS": 2.94,
+      "Surprise(%)": 0.36
+    },
+    {
+      "index": "2008-11-07 08:00:00-05:00",
+      "EPS Estimate": 3.05,
+      "Reported EPS": 3.05,
+      "Surprise(%)": 0.04
+    },
+    {
+      "index": "2008-08-08 09:00:00-04:00",
+      "EPS Estimate": 2.67,
+      "Reported EPS": 2.67,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2008-05-12 15:00:00-04:00",
+      "EPS Estimate": 2.31,
+      "Reported EPS": 3.05,
+      "Surprise(%)": 32.03
+    },
+    {
+      "index": "2008-02-29 15:00:00-05:00",
+      "EPS Estimate": 2.35,
+      "Reported EPS": 2.35,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2007-11-09 15:00:00-05:00",
+      "EPS Estimate": 2.02,
+      "Reported EPS": 2.03,
+      "Surprise(%)": 0.45
+    },
+    {
+      "index": "2007-08-08 20:00:00-04:00",
+      "EPS Estimate": 1.82,
+      "Reported EPS": 1.82,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2007-05-08 20:00:00-04:00",
+      "EPS Estimate": 2.01,
+      "Reported EPS": 2.01,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2006-11-09 01:00:00-05:00",
+      "EPS Estimate": 2.59,
+      "Reported EPS": 2.59,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2006-08-09 03:00:00-04:00",
+      "EPS Estimate": 2.25,
+      "Reported EPS": 2.21,
+      "Surprise(%)": -1.87
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

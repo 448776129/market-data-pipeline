@@ -1,0 +1,213 @@
+{
+  "symbol": "BLD",
+  "region": "us",
+  "name": "TopBuild Corp.",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "TopBuild Corp.",
+    "shortName": "TopBuild Corp.",
+    "sector": "Industrials",
+    "industry": "Engineering & Construction",
+    "country": "United States",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "marketCap": 9935550464,
+    "currentPrice": 354.53,
+    "open": 373.0,
+    "previousClose": 359.76,
+    "dayHigh": 373.0,
+    "dayLow": 330.51,
+    "regularMarketPreviousClose": 359.76,
+    "fiftyTwoWeekHigh": 559.4684,
+    "fiftyTwoWeekLow": 330.51,
+    "trailingPE": 19.917416,
+    "forwardPE": 17.040812,
+    "priceToBook": 4.132533,
+    "trailingEps": 17.8,
+    "forwardEps": 20.80476,
+    "beta": 1.829,
+    "volume": 3110517,
+    "averageVolume": 991300,
+    "sharesOutstanding": 28024568,
+    "floatShares": 27993084,
+    "recommendationKey": "buy",
+    "totalRevenue": 5621667840,
+    "grossProfits": 1628177024,
+    "freeCashflow": 396199744,
+    "totalDebt": 3127400960,
+    "totalCash": 268847008,
+    "profitMargins": 0.089499995,
+    "returnOnEquity": 0.22262,
+    "returnOnAssets": 0.09177,
+    "earningsGrowth": -0.118,
+    "revenueGrowth": 0.172
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 354.53
+  },
+  "recommendations_summary": [
+    {
+      "index": "0",
+      "period": "0m",
+      "strongBuy": 0,
+      "buy": 3,
+      "hold": 2,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "index": "1",
+      "period": "-1m",
+      "strongBuy": 0,
+      "buy": 4,
+      "hold": 7,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "index": "2",
+      "period": "-2m",
+      "strongBuy": 0,
+      "buy": 4,
+      "hold": 8,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "index": "3",
+      "period": "-3m",
+      "strongBuy": 0,
+      "buy": 6,
+      "hold": 6,
+      "sell": 0,
+      "strongSell": 0
+    }
+  ],
+  "earnings_dates": [
+    {
+      "index": "2026-08-04 08:00:00-04:00",
+      "EPS Estimate": 4.8,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    }
+  ],
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.0053
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 1.04999
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 1.05559
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 748.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Capital Research Global Investors",
+      "pctHeld": 0.1461,
+      "Shares": 4095185,
+      "Value": 1451865933,
+      "pctChange": 0.13939999
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Blackrock Inc.",
+      "pctHeld": 0.1042,
+      "Shares": 2921362,
+      "Value": 1035710466,
+      "pctChange": 0.040799998
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "FMR, LLC",
+      "pctHeld": 0.0678,
+      "Shares": 1899418,
+      "Value": 673400661,
+      "pctChange": -0.1313
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Capital World Investors",
+      "pctHeld": 0.0529,
+      "Shares": 1483387,
+      "Value": 525905191,
+      "pctChange": 0.7005
+    },
+    {
+      "index": "4",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Vanguard Capital Management LLC",
+      "pctHeld": 0.044899996,
+      "Shares": 1259046,
+      "Value": 446369576,
+      "pctChange": 1.0
+    },
+    {
+      "index": "5",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Vanguard Portfolio Management LLC",
+      "pctHeld": 0.041300002,
+      "Shares": 1156896,
+      "Value": 410154337,
+      "pctChange": 1.0
+    },
+    {
+      "index": "6",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "State Street Corporation",
+      "pctHeld": 0.0357,
+      "Shares": 999810,
+      "Value": 354462638,
+      "pctChange": 0.0196
+    },
+    {
+      "index": "7",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Victory Capital Management Inc.",
+      "pctHeld": 0.0327,
+      "Shares": 915702,
+      "Value": 324643828,
+      "pctChange": 0.1775
+    },
+    {
+      "index": "8",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Boston Partners",
+      "pctHeld": 0.0296,
+      "Shares": 830113,
+      "Value": 294299960,
+      "pctChange": 0.0857
+    },
+    {
+      "index": "9",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Pictet Asset Management Holding SA",
+      "pctHeld": 0.0242,
+      "Shares": 677889,
+      "Value": 240331986,
+      "pctChange": -0.0275
+    }
+  ]
+}

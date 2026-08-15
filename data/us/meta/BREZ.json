@@ -1,0 +1,154 @@
+{
+  "symbol": "BREZ",
+  "region": "us",
+  "name": "Breeze Acquisition Corp. II",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "longName": "Breeze Acquisition Corp. II",
+    "shortName": "Breeze Acquisition Corp. II Ordinary Shares",
+    "sector": "",
+    "industry": "",
+    "country": "United States",
+    "exchange": "NGM",
+    "currency": "USD",
+    "currentPrice": 9.96,
+    "open": 9.96,
+    "previousClose": 9.96,
+    "dayHigh": 9.96,
+    "dayLow": 9.96,
+    "regularMarketPrice": 9.96,
+    "regularMarketPreviousClose": 9.96,
+    "fiftyTwoWeekHigh": 9.97,
+    "fiftyTwoWeekLow": 9.9,
+    "priceToBook": -433.0435,
+    "volume": 35,
+    "averageVolume": 91372,
+    "sharesOutstanding": 17689392,
+    "recommendationKey": "none",
+    "profitMargins": 0.0
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 9.96
+  },
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.28607
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.19437
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.27225
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 10.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Wolverine Asset Management, LLC",
+      "pctHeld": 0.0357,
+      "Shares": 685000,
+      "Value": 6822600,
+      "pctChange": 1.0
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "BNP Paribas Financial Markets",
+      "pctHeld": 0.031600002,
+      "Shares": 606258,
+      "Value": 6038329,
+      "pctChange": 1.0
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "CrossingBridge Advisors, LLC",
+      "pctHeld": 0.0234,
+      "Shares": 450000,
+      "Value": 4482000,
+      "pctChange": 1.0
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Gabelli & Co. Investment Advisers, Inc.",
+      "pctHeld": 0.0216,
+      "Shares": 414950,
+      "Value": 4132902,
+      "pctChange": 1.0
+    },
+    {
+      "index": "4",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Mizuho Securities USA LLC",
+      "pctHeld": 0.0191,
+      "Shares": 367422,
+      "Value": 3659523,
+      "pctChange": 1.0
+    },
+    {
+      "index": "5",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Commonwealth Of Pennsylvania Public School Empls Retrmt Sys",
+      "pctHeld": 0.0134000005,
+      "Shares": 256842,
+      "Value": 2558146,
+      "pctChange": 1.0
+    },
+    {
+      "index": "6",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "RLH Capital LLC",
+      "pctHeld": 0.0091,
+      "Shares": 175000,
+      "Value": 1743000,
+      "pctChange": 1.0
+    },
+    {
+      "index": "7",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Yakira Capital Management, Inc.",
+      "pctHeld": 0.0078,
+      "Shares": 150000,
+      "Value": 1494000,
+      "pctChange": 1.0
+    },
+    {
+      "index": "8",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Clear Street Group Inc.",
+      "pctHeld": 0.0074,
+      "Shares": 143000,
+      "Value": 1424280,
+      "pctChange": 1.0
+    },
+    {
+      "index": "9",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Stonex Group Inc.",
+      "pctHeld": 0.0069999998,
+      "Shares": 133954,
+      "Value": 1334181,
+      "pctChange": 1.0
+    }
+  ]
+}

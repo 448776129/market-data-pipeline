@@ -1,0 +1,135 @@
+{
+  "symbol": "BIS",
+  "region": "us",
+  "name": "ProShares UltraShort Nasdaq Biotechnology",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US74350P4697",
+  "info": {
+    "longName": "ProShares UltraShort Nasdaq Biotechnology",
+    "shortName": "ProShares UltraShort Nasdaq Bio",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 12.755,
+    "previousClose": 12.56,
+    "dayHigh": 12.76,
+    "dayLow": 12.635,
+    "regularMarketPrice": 12.6416,
+    "regularMarketPreviousClose": 12.56,
+    "fiftyTwoWeekHigh": 29.18,
+    "fiftyTwoWeekLow": 12.29,
+    "dividendYield": 5.61,
+    "volume": 6129,
+    "averageVolume": 6692
+  },
+  "dividends": [
+    {
+      "index": "2018-09-26 09:30:00-04:00",
+      "value": 0.144
+    },
+    {
+      "index": "2018-12-26 09:30:00-05:00",
+      "value": 0.544
+    },
+    {
+      "index": "2019-03-20 09:30:00-04:00",
+      "value": 0.512
+    },
+    {
+      "index": "2019-06-25 09:30:00-04:00",
+      "value": 0.768
+    },
+    {
+      "index": "2019-09-25 09:30:00-04:00",
+      "value": 0.648
+    },
+    {
+      "index": "2019-12-24 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2020-03-25 09:30:00-04:00",
+      "value": 0.208
+    },
+    {
+      "index": "2023-06-21 09:30:00-04:00",
+      "value": 0.042
+    },
+    {
+      "index": "2023-09-20 09:30:00-04:00",
+      "value": 0.238
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.352
+    },
+    {
+      "index": "2024-03-20 09:30:00-04:00",
+      "value": 0.318
+    },
+    {
+      "index": "2024-06-26 09:30:00-04:00",
+      "value": 0.322
+    },
+    {
+      "index": "2024-09-25 09:30:00-04:00",
+      "value": 0.304
+    },
+    {
+      "index": "2024-12-23 09:30:00-05:00",
+      "value": 0.412
+    },
+    {
+      "index": "2025-03-26 09:30:00-04:00",
+      "value": 0.266
+    },
+    {
+      "index": "2025-06-25 09:30:00-04:00",
+      "value": 0.216
+    },
+    {
+      "index": "2025-09-24 09:30:00-04:00",
+      "value": 0.308
+    },
+    {
+      "index": "2025-12-24 09:30:00-05:00",
+      "value": 0.206
+    },
+    {
+      "index": "2026-03-25 09:30:00-04:00",
+      "value": 0.138
+    },
+    {
+      "index": "2026-06-24 09:30:00-04:00",
+      "value": 0.137
+    }
+  ],
+  "splits": [
+    {
+      "index": "2012-10-05 09:30:00-04:00",
+      "value": 0.25
+    },
+    {
+      "index": "2014-11-06 09:30:00-05:00",
+      "value": 0.2
+    },
+    {
+      "index": "2020-08-18 09:30:00-04:00",
+      "value": 0.25
+    },
+    {
+      "index": "2026-05-28 09:30:00-04:00",
+      "value": 0.5
+    }
+  ],
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

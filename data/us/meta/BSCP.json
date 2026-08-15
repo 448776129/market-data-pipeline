@@ -1,0 +1,42 @@
+{
+  "symbol": "BSCP",
+  "region": "us",
+  "name": "Invesco BulletShares 2025 Corporate Bond ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US46138J8255",
+  "info": {
+    "longName": "Invesco BulletShares 2025 Corporate Bond ETF",
+    "shortName": "Invesco BulletShares 2025 Corpo",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 20.7,
+    "previousClose": 20.68135,
+    "dayHigh": 20.71,
+    "dayLow": 20.67,
+    "regularMarketPrice": 20.675,
+    "regularMarketPreviousClose": 20.68135,
+    "fiftyTwoWeekHigh": 20.76,
+    "fiftyTwoWeekLow": 20.63,
+    "dividendYield": 4.18,
+    "volume": 1562304,
+    "averageVolume": 1779630
+  },
+  "dividends": [
+    {
+      "index": "2025-12-15 09:30:00-05:00",
+      "value": 0.02865
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

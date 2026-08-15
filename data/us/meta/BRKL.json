@@ -1,0 +1,187 @@
+{
+  "symbol": "BRKL",
+  "region": "us",
+  "name": "Corgi BRKB 2x Daily ETF",
+  "currency": "USD",
+  "exchange": "BTS",
+  "isin": "US21874J4792",
+  "info": {
+    "longName": "Corgi BRKB 2x Daily ETF",
+    "shortName": "Corgi BRKB 2x Daily ETF",
+    "exchange": "BTS",
+    "currency": "USD",
+    "open": 24.8,
+    "previousClose": 24.752,
+    "dayHigh": 24.4261,
+    "dayLow": 24.4261,
+    "regularMarketPrice": 24.4261,
+    "regularMarketPreviousClose": 24.752,
+    "fiftyTwoWeekHigh": 27.59,
+    "fiftyTwoWeekLow": 23.13,
+    "volume": 202,
+    "averageVolume": 846
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2026-10-28 16:00:00-04:00",
+      "EPS Estimate": 0.78,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2025-07-23 16:00:00-04:00",
+      "EPS Estimate": 0.25,
+      "Reported EPS": 0.25,
+      "Surprise(%)": 1.35
+    },
+    {
+      "index": "2025-04-23 16:00:00-04:00",
+      "EPS Estimate": 0.22,
+      "Reported EPS": 0.22,
+      "Surprise(%)": -1.12
+    },
+    {
+      "index": "2025-01-29 16:00:00-05:00",
+      "EPS Estimate": 0.24,
+      "Reported EPS": 0.23,
+      "Surprise(%)": -5.15
+    },
+    {
+      "index": "2024-10-23 16:00:00-04:00",
+      "EPS Estimate": 0.2,
+      "Reported EPS": 0.23,
+      "Surprise(%)": 13.58
+    },
+    {
+      "index": "2024-07-24 16:00:00-04:00",
+      "EPS Estimate": 0.18,
+      "Reported EPS": 0.19,
+      "Surprise(%)": 3.64
+    },
+    {
+      "index": "2024-04-24 16:00:00-04:00",
+      "EPS Estimate": 0.22,
+      "Reported EPS": 0.16,
+      "Surprise(%)": -28.36
+    },
+    {
+      "index": "2024-01-24 16:00:00-05:00",
+      "EPS Estimate": 0.23,
+      "Reported EPS": 0.26,
+      "Surprise(%)": 11.43
+    },
+    {
+      "index": "2023-10-25 16:00:00-04:00",
+      "EPS Estimate": 0.27,
+      "Reported EPS": 0.26,
+      "Surprise(%)": -4.88
+    },
+    {
+      "index": "2023-07-26 16:00:00-04:00",
+      "EPS Estimate": 0.29,
+      "Reported EPS": 0.26,
+      "Surprise(%)": -10.34
+    },
+    {
+      "index": "2023-04-26 17:00:00-04:00",
+      "EPS Estimate": 0.33,
+      "Reported EPS": 0.27,
+      "Surprise(%)": -16.92
+    },
+    {
+      "index": "2023-01-25 16:00:00-05:00",
+      "EPS Estimate": 0.39,
+      "Reported EPS": 0.39,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2022-10-26 16:00:00-04:00",
+      "EPS Estimate": 0.35,
+      "Reported EPS": 0.4,
+      "Surprise(%)": 15.11
+    },
+    {
+      "index": "2022-07-27 16:00:00-04:00",
+      "EPS Estimate": 0.33,
+      "Reported EPS": 0.33,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2022-04-27 16:00:00-04:00",
+      "EPS Estimate": 0.31,
+      "Reported EPS": 0.32,
+      "Surprise(%)": 3.9
+    },
+    {
+      "index": "2022-01-26 16:00:00-05:00",
+      "EPS Estimate": 0.33,
+      "Reported EPS": 0.37,
+      "Surprise(%)": 12.12
+    },
+    {
+      "index": "2021-10-27 16:00:00-04:00",
+      "EPS Estimate": 0.33,
+      "Reported EPS": 0.37,
+      "Surprise(%)": 13.85
+    },
+    {
+      "index": "2021-07-28 16:00:00-04:00",
+      "EPS Estimate": 0.31,
+      "Reported EPS": 0.4,
+      "Surprise(%)": 28.0
+    },
+    {
+      "index": "2021-04-28 16:00:00-04:00",
+      "EPS Estimate": 0.28,
+      "Reported EPS": 0.34,
+      "Surprise(%)": 22.3
+    },
+    {
+      "index": "2021-01-27 16:00:00-05:00",
+      "EPS Estimate": 0.23,
+      "Reported EPS": 0.34,
+      "Surprise(%)": 45.3
+    },
+    {
+      "index": "2020-10-28 16:00:00-04:00",
+      "EPS Estimate": 0.24,
+      "Reported EPS": 0.24,
+      "Surprise(%)": 2.13
+    },
+    {
+      "index": "2020-07-22 16:00:00-04:00",
+      "EPS Estimate": 0.14,
+      "Reported EPS": 0.24,
+      "Surprise(%)": 72.93
+    },
+    {
+      "index": "2020-04-29 17:00:00-04:00",
+      "EPS Estimate": 0.22,
+      "Reported EPS": -0.23,
+      "Surprise(%)": -204.55
+    },
+    {
+      "index": "2020-01-29 16:00:00-05:00",
+      "EPS Estimate": 0.28,
+      "Reported EPS": 0.28,
+      "Surprise(%)": 0.9
+    },
+    {
+      "index": "2019-10-23 16:00:00-04:00",
+      "EPS Estimate": 0.28,
+      "Reported EPS": 0.29,
+      "Surprise(%)": 4.5
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

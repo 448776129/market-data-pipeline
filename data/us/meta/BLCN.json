@@ -1,0 +1,131 @@
+{
+  "symbol": "BLCN",
+  "region": "us",
+  "name": "Siren Nasdaq NexGen Economy ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US8296582021",
+  "info": {
+    "longName": "Siren Nasdaq NexGen Economy ETF",
+    "shortName": "Siren NexGen Economy ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "currentPrice": 24.35,
+    "open": 24.3,
+    "previousClose": 24.35,
+    "dayHigh": 24.35,
+    "dayLow": 24.35,
+    "regularMarketPreviousClose": 24.35,
+    "fiftyTwoWeekHigh": 30.5,
+    "fiftyTwoWeekLow": 20.01,
+    "trailingPE": 21.45829,
+    "volume": 14586,
+    "averageVolume": 21211,
+    "recommendationKey": "none"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 24.35
+  },
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "LPL Financial LLC",
+      "pctHeld": 0.0248,
+      "Shares": 34087,
+      "Value": 830018,
+      "pctChange": 0.0091
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Lido Advisors, LLC",
+      "pctHeld": 0.0155,
+      "Shares": 21278,
+      "Value": 518119,
+      "pctChange": 0.0
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Susquehanna International Group, LLP",
+      "pctHeld": 0.0146,
+      "Shares": 20127,
+      "Value": 490092,
+      "pctChange": 1.0955
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Mercer Global Advisors, Inc./ADV",
+      "pctHeld": 0.0146,
+      "Shares": 20130,
+      "Value": 490165,
+      "pctChange": 1.0
+    },
+    {
+      "index": "4",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Glass Jacobson Investment Advisors LLC",
+      "pctHeld": 0.0138,
+      "Shares": 18947,
+      "Value": 461359,
+      "pctChange": 0.0099
+    },
+    {
+      "index": "5",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Commonwealth Equity Services, LLC",
+      "pctHeld": 0.0086,
+      "Shares": 11811,
+      "Value": 287597,
+      "pctChange": -0.0332
+    },
+    {
+      "index": "6",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Osaic Holdings Inc.",
+      "pctHeld": 0.0070999996,
+      "Shares": 9783,
+      "Value": 238216,
+      "pctChange": -0.21
+    },
+    {
+      "index": "7",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Rockefeller Capital Management L.P.",
+      "pctHeld": 0.0023,
+      "Shares": 3155,
+      "Value": 76824,
+      "pctChange": 0.0
+    },
+    {
+      "index": "8",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "CWM, LLC",
+      "pctHeld": 0.0011,
+      "Shares": 1453,
+      "Value": 35380,
+      "pctChange": 0.0
+    },
+    {
+      "index": "9",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Allworth Financial LP",
+      "pctHeld": 0.00090000004,
+      "Shares": 1245,
+      "Value": 30315,
+      "pctChange": 0.0
+    }
+  ]
+}

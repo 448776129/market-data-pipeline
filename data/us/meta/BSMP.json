@@ -1,0 +1,42 @@
+{
+  "symbol": "BSMP",
+  "region": "us",
+  "name": "Invesco BulletShares (R) 2025 Municipal Bond ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US46138J5285",
+  "info": {
+    "longName": "Invesco BulletShares (R) 2025 Municipal Bond ETF",
+    "shortName": "Invesco BulletShares 2025 Munic",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 24.48,
+    "previousClose": 24.48716,
+    "dayHigh": 24.49,
+    "dayLow": 24.48,
+    "regularMarketPrice": 24.485,
+    "regularMarketPreviousClose": 24.48716,
+    "fiftyTwoWeekHigh": 24.66,
+    "fiftyTwoWeekLow": 24.26,
+    "dividendYield": 2.52,
+    "volume": 28409,
+    "averageVolume": 55824
+  },
+  "dividends": [
+    {
+      "index": "2025-12-15 09:30:00-05:00",
+      "value": 0.00784
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

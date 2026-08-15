@@ -1,0 +1,50 @@
+{
+  "symbol": "BTEC",
+  "region": "us",
+  "name": "Principal Healthcare Innovators ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US74255Y4098",
+  "info": {
+    "longName": "Principal Healthcare Innovators ETF",
+    "shortName": "Principal Healthcare Innovators",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 39.42,
+    "previousClose": 39.09,
+    "dayHigh": 39.62,
+    "dayLow": 39.42,
+    "regularMarketPrice": 39.49,
+    "regularMarketPreviousClose": 39.09,
+    "fiftyTwoWeekHigh": 41.1,
+    "fiftyTwoWeekLow": 25.66,
+    "dividendYield": 0.0,
+    "volume": 6421,
+    "averageVolume": 1776
+  },
+  "dividends": [
+    {
+      "index": "2017-12-15 09:30:00-05:00",
+      "value": 0.041551
+    },
+    {
+      "index": "2020-12-17 09:30:00-05:00",
+      "value": 0.215423
+    },
+    {
+      "index": "2021-12-29 09:30:00-05:00",
+      "value": 0.453223
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,46 @@
+{
+  "symbol": "BBP",
+  "region": "us",
+  "name": "Virtus LifeSci Biotech Products ETF",
+  "currency": "USD",
+  "exchange": "PCX",
+  "isin": "US26923G2021",
+  "info": {
+    "longName": "Virtus LifeSci Biotech Products ETF",
+    "shortName": "Virtus Biotech ETF",
+    "exchange": "PCX",
+    "currency": "USD",
+    "open": 101.16,
+    "previousClose": 101.09,
+    "dayHigh": 101.33,
+    "dayLow": 99.805,
+    "regularMarketPrice": 101.312,
+    "regularMarketPreviousClose": 101.09,
+    "fiftyTwoWeekHigh": 105.21,
+    "fiftyTwoWeekLow": 66.55,
+    "dividendYield": 0.0,
+    "volume": 11182,
+    "averageVolume": 8691
+  },
+  "dividends": [
+    {
+      "index": "2015-12-21 09:30:00-05:00",
+      "value": 0.397
+    },
+    {
+      "index": "2017-12-20 09:30:00-05:00",
+      "value": 0.072
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

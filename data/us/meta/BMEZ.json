@@ -1,0 +1,496 @@
+{
+  "symbol": "BMEZ",
+  "region": "us",
+  "name": "BlackRock Health Sciences Term Trust",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "US09260E1055",
+  "info": {
+    "longName": "BlackRock Health Sciences Term Trust",
+    "shortName": "BlackRock Health Sciences Trust",
+    "sector": "Financial Services",
+    "industry": "Asset Management",
+    "country": "United States",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "marketCap": 1003147456,
+    "currentPrice": 16.05,
+    "open": 16.06,
+    "previousClose": 16.13,
+    "dayHigh": 16.1845,
+    "dayLow": 16.02,
+    "regularMarketPrice": 16.05,
+    "regularMarketPreviousClose": 16.13,
+    "fiftyTwoWeekHigh": 16.25,
+    "fiftyTwoWeekLow": 13.7,
+    "trailingPE": 6.3188972,
+    "dividendYield": 8.13,
+    "dividendRate": 1.32,
+    "trailingEps": 2.54,
+    "volume": 89467,
+    "averageVolume": 164822,
+    "sharesOutstanding": 62501404,
+    "recommendationKey": "none",
+    "profitMargins": 0.0
+  },
+  "dividends": [
+    {
+      "index": "2020-04-14 09:30:00-04:00",
+      "value": 0.1
+    },
+    {
+      "index": "2020-05-14 09:30:00-04:00",
+      "value": 0.1
+    },
+    {
+      "index": "2020-06-12 09:30:00-04:00",
+      "value": 0.1
+    },
+    {
+      "index": "2020-07-14 09:30:00-04:00",
+      "value": 0.1
+    },
+    {
+      "index": "2020-08-13 09:30:00-04:00",
+      "value": 0.1
+    },
+    {
+      "index": "2020-09-14 09:30:00-04:00",
+      "value": 0.1
+    },
+    {
+      "index": "2020-10-14 09:30:00-04:00",
+      "value": 0.1
+    },
+    {
+      "index": "2020-11-13 09:30:00-05:00",
+      "value": 0.1
+    },
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.1
+    },
+    {
+      "index": "2021-01-14 09:30:00-05:00",
+      "value": 0.1
+    },
+    {
+      "index": "2021-02-12 09:30:00-05:00",
+      "value": 0.1
+    },
+    {
+      "index": "2021-03-12 09:30:00-05:00",
+      "value": 0.145
+    },
+    {
+      "index": "2021-04-14 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2021-05-13 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2021-06-14 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2021-07-14 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2021-08-13 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2021-09-14 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2021-10-14 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2021-11-12 09:30:00-05:00",
+      "value": 0.145
+    },
+    {
+      "index": "2021-12-16 09:30:00-05:00",
+      "value": 0.207
+    },
+    {
+      "index": "2022-01-13 09:30:00-05:00",
+      "value": 0.145
+    },
+    {
+      "index": "2022-02-14 09:30:00-05:00",
+      "value": 0.145
+    },
+    {
+      "index": "2022-03-14 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2022-04-13 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2022-05-13 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2022-06-14 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2022-07-14 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2022-08-12 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2022-09-14 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2022-10-13 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2022-11-14 09:30:00-05:00",
+      "value": 0.145
+    },
+    {
+      "index": "2022-12-15 09:30:00-05:00",
+      "value": 0.145
+    },
+    {
+      "index": "2023-01-12 09:30:00-05:00",
+      "value": 0.145
+    },
+    {
+      "index": "2023-02-14 09:30:00-05:00",
+      "value": 0.145
+    },
+    {
+      "index": "2023-03-14 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2023-04-13 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2023-05-12 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2023-06-14 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2023-07-13 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2023-08-14 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2023-09-14 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2023-10-13 09:30:00-04:00",
+      "value": 0.093
+    },
+    {
+      "index": "2023-11-14 09:30:00-05:00",
+      "value": 0.093
+    },
+    {
+      "index": "2023-12-14 09:30:00-05:00",
+      "value": 0.092
+    },
+    {
+      "index": "2024-01-11 09:30:00-05:00",
+      "value": 0.091
+    },
+    {
+      "index": "2024-02-14 09:30:00-05:00",
+      "value": 0.09
+    },
+    {
+      "index": "2024-03-14 09:30:00-04:00",
+      "value": 0.09
+    },
+    {
+      "index": "2024-04-12 09:30:00-04:00",
+      "value": 0.09
+    },
+    {
+      "index": "2024-05-14 09:30:00-04:00",
+      "value": 0.09
+    },
+    {
+      "index": "2024-06-14 09:30:00-04:00",
+      "value": 0.179
+    },
+    {
+      "index": "2024-07-15 09:30:00-04:00",
+      "value": 0.177
+    },
+    {
+      "index": "2024-08-15 09:30:00-04:00",
+      "value": 0.176
+    },
+    {
+      "index": "2024-09-16 09:30:00-04:00",
+      "value": 0.176
+    },
+    {
+      "index": "2024-10-15 09:30:00-04:00",
+      "value": 0.176
+    },
+    {
+      "index": "2024-11-15 09:30:00-05:00",
+      "value": 0.177
+    },
+    {
+      "index": "2024-12-16 09:30:00-05:00",
+      "value": 0.178
+    },
+    {
+      "index": "2025-01-15 09:30:00-05:00",
+      "value": 0.178
+    },
+    {
+      "index": "2025-02-14 09:30:00-05:00",
+      "value": 0.177
+    },
+    {
+      "index": "2025-03-14 09:30:00-04:00",
+      "value": 0.176
+    },
+    {
+      "index": "2025-04-15 09:30:00-04:00",
+      "value": 0.174
+    },
+    {
+      "index": "2025-05-15 09:30:00-04:00",
+      "value": 0.171
+    },
+    {
+      "index": "2025-06-13 09:30:00-04:00",
+      "value": 0.169
+    },
+    {
+      "index": "2025-07-15 09:30:00-04:00",
+      "value": 0.167
+    },
+    {
+      "index": "2025-08-15 09:30:00-04:00",
+      "value": 0.165
+    },
+    {
+      "index": "2025-09-15 09:30:00-04:00",
+      "value": 0.163
+    },
+    {
+      "index": "2025-10-15 09:30:00-04:00",
+      "value": 0.11
+    },
+    {
+      "index": "2025-11-14 09:30:00-05:00",
+      "value": 0.11
+    },
+    {
+      "index": "2025-12-22 09:30:00-05:00",
+      "value": 0.11
+    },
+    {
+      "index": "2026-01-20 09:30:00-05:00",
+      "value": 0.11
+    },
+    {
+      "index": "2026-02-13 09:30:00-05:00",
+      "value": 0.11
+    },
+    {
+      "index": "2026-03-13 09:30:00-04:00",
+      "value": 0.11
+    },
+    {
+      "index": "2026-04-15 09:30:00-04:00",
+      "value": 0.11
+    },
+    {
+      "index": "2026-05-15 09:30:00-04:00",
+      "value": 0.11
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 0.11
+    },
+    {
+      "index": "2026-07-15 09:30:00-04:00",
+      "value": 0.11
+    },
+    {
+      "index": "2026-08-14 09:30:00-04:00",
+      "value": 0.11
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": [
+    {
+      "index": "Diluted Average Shares",
+      "2024-12-31 00:00:00": 113092962.0,
+      "2023-12-31 00:00:00": 95696660.0,
+      "2022-12-31 00:00:00": 114358166.0,
+      "2021-12-31 00:00:00": 112880936.0
+    },
+    {
+      "index": "Basic Average Shares",
+      "2024-12-31 00:00:00": 113092962.0,
+      "2023-12-31 00:00:00": 95696660.0,
+      "2022-12-31 00:00:00": 114358166.0,
+      "2021-12-31 00:00:00": 112880936.0
+    },
+    {
+      "index": "Diluted EPS",
+      "2024-12-31 00:00:00": 0.21,
+      "2023-12-31 00:00:00": 0.73,
+      "2022-12-31 00:00:00": -5.97,
+      "2021-12-31 00:00:00": -2.55
+    },
+    {
+      "index": "Basic EPS",
+      "2024-12-31 00:00:00": 0.21,
+      "2023-12-31 00:00:00": 0.73,
+      "2022-12-31 00:00:00": -5.97,
+      "2021-12-31 00:00:00": -2.55
+    }
+  ],
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 16.05
+  },
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.0
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.2446
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.2446
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 98.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Morgan Stanley",
+      "pctHeld": 0.0287,
+      "Shares": 1794694,
+      "Value": 28804837,
+      "pctChange": -0.0744
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Bank of America Corporation",
+      "pctHeld": 0.021,
+      "Shares": 1313210,
+      "Value": 21077019,
+      "pctChange": -0.1599
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "UBS Group AG",
+      "pctHeld": 0.017,
+      "Shares": 1064856,
+      "Value": 17090937,
+      "pctChange": 0.0553
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Invesco Ltd.",
+      "pctHeld": 0.0155,
+      "Shares": 969543,
+      "Value": 15561164,
+      "pctChange": 0.062
+    },
+    {
+      "index": "4",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Raymond James Financial, Inc.",
+      "pctHeld": 0.0154,
+      "Shares": 964706,
+      "Value": 15483530,
+      "pctChange": 0.4646
+    },
+    {
+      "index": "5",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "RiverNorth Capital Management, LLC",
+      "pctHeld": 0.0128999995,
+      "Shares": 809196,
+      "Value": 12987595,
+      "pctChange": 0.2477
+    },
+    {
+      "index": "6",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Wells Fargo & Company",
+      "pctHeld": 0.0125,
+      "Shares": 778787,
+      "Value": 12499530,
+      "pctChange": 0.0947
+    },
+    {
+      "index": "7",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Saba Capital Management, L.P.",
+      "pctHeld": 0.012200001,
+      "Shares": 759506,
+      "Value": 12190070,
+      "pctChange": 1.0
+    },
+    {
+      "index": "8",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Lazard Asset Management LLC",
+      "pctHeld": 0.0099,
+      "Shares": 621604,
+      "Value": 9976743,
+      "pctChange": 0.6421
+    },
+    {
+      "index": "9",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Penserra Capital Management LLC",
+      "pctHeld": 0.0083,
+      "Shares": 516073,
+      "Value": 8282971,
+      "pctChange": 0.0396
+    }
+  ]
+}

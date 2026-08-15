@@ -1,0 +1,100 @@
+{
+  "symbol": "BIB",
+  "region": "us",
+  "name": "ProShares Ultra Nasdaq Biotechnology",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US74347R2141",
+  "info": {
+    "longName": "ProShares Ultra Nasdaq Biotechnology",
+    "shortName": "ProShares Ultra Nasdaq Biotechn",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 106.87,
+    "previousClose": 107.75,
+    "dayHigh": 106.8706,
+    "dayLow": 103.9653,
+    "regularMarketPrice": 106.8706,
+    "regularMarketPreviousClose": 107.75,
+    "fiftyTwoWeekHigh": 110.25,
+    "fiftyTwoWeekLow": 54.56,
+    "trailingPE": 30.266073,
+    "dividendYield": 0.33,
+    "volume": 6205,
+    "averageVolume": 10331
+  },
+  "dividends": [
+    {
+      "index": "2010-09-21 09:30:00-04:00",
+      "value": 0.011
+    },
+    {
+      "index": "2022-12-22 09:30:00-05:00",
+      "value": 0.02
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.038
+    },
+    {
+      "index": "2024-03-20 09:30:00-04:00",
+      "value": 0.04
+    },
+    {
+      "index": "2024-06-26 09:30:00-04:00",
+      "value": 0.265
+    },
+    {
+      "index": "2024-09-25 09:30:00-04:00",
+      "value": 0.153
+    },
+    {
+      "index": "2024-12-23 09:30:00-05:00",
+      "value": 0.396
+    },
+    {
+      "index": "2025-03-26 09:30:00-04:00",
+      "value": 0.131
+    },
+    {
+      "index": "2025-06-25 09:30:00-04:00",
+      "value": 0.171
+    },
+    {
+      "index": "2025-09-24 09:30:00-04:00",
+      "value": 0.181
+    },
+    {
+      "index": "2025-12-24 09:30:00-05:00",
+      "value": 0.135
+    },
+    {
+      "index": "2026-03-25 09:30:00-04:00",
+      "value": 0.007
+    }
+  ],
+  "splits": [
+    {
+      "index": "2012-10-05 09:30:00-04:00",
+      "value": 2.0
+    },
+    {
+      "index": "2014-01-24 09:30:00-05:00",
+      "value": 2.0
+    },
+    {
+      "index": "2015-05-20 09:30:00-04:00",
+      "value": 2.0
+    }
+  ],
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
