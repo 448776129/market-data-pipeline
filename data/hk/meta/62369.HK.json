@@ -1,0 +1,33 @@
+{
+  "symbol": "62369.HK",
+  "region": "hk",
+  "name": null,
+  "currency": "HKD",
+  "exchange": "HKG",
+  "isin": "-",
+  "info": {
+    "exchange": "HKG",
+    "currency": "HKD",
+    "open": 0.127,
+    "previousClose": 0.135,
+    "dayHigh": 0.128,
+    "dayLow": 0.122,
+    "regularMarketPrice": 0.136,
+    "regularMarketPreviousClose": 0.135,
+    "fiftyTwoWeekHigh": 0.128,
+    "fiftyTwoWeekLow": 0.122,
+    "volume": 25000
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
