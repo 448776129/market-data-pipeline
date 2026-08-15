@@ -1,0 +1,86 @@
+name: Market Data Pipeline
+
+on:
+  schedule:
+    # 历史数据：每日积累任务，每周一 01:00 (UTC) 全量刷新一次
+    - cron: "0 1 * * 1"
+    # 当日数据：按区域/符号分片，每个交易日收盘后增量更新
+    - cron: "0 13 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "运行模式：historical=全量历史, daily=当日分片"
+        required: true
+        default: "daily"
+        type: choice
+        options:
+          - historical
+          - daily
+
+env:
+  PYTHON_VERSION: "3.11"
+
+# 拉取数据后提交回仓库
+permissions:
+  contents: write
+
+jobs:
+  # ================= 历史数据（单任务） =================
+  historical:
+    name: Historical (5y daily)
+    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch historical data (all regions)
+        run: python scripts/fetch_historical.py
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "chore(data): refresh historical market data"
+          git push
+        continue-on-error: true
+
+  # ================= 当日数据（按区域分片） =================
+  daily:
+    name: Daily (${{ matrix.region }})
+    needs: []
+    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily') }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        # 按区域分片，如需进一步按符号分片可在 config.REGIONS 中拆分
+        region: [us, hk, cn]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch latest data for region ${{ matrix.region }}
+        run: python scripts/fetch_latest.py --region ${{ matrix.region }}
+
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "chore(data): update daily data [${{ matrix.region }}]"
+          git push
+        continue-on-error: true

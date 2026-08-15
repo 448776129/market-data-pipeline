@@ -1,0 +1,11 @@
+# 数据目录，由 CI 生成并提交
+# data/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 环境变量
+.env
