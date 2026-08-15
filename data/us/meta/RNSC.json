@@ -1,0 +1,159 @@
+{
+  "symbol": "RNSC",
+  "region": "us",
+  "name": "First Trust SMID Growth Strength ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "longName": "First Trust SMID Growth Strength ETF",
+    "shortName": "Small Cap US Equity Select ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 32.405,
+    "previousClose": 32.6432,
+    "dayHigh": 32.405,
+    "dayLow": 32.3108,
+    "regularMarketPrice": 32.3108,
+    "regularMarketPreviousClose": 32.6432,
+    "fiftyTwoWeekHigh": 32.96,
+    "fiftyTwoWeekLow": 26.72,
+    "trailingPE": 13.81695,
+    "dividendYield": 2.06,
+    "volume": 670,
+    "averageVolume": 3497
+  },
+  "dividends": [
+    {
+      "index": "2017-09-21 09:30:00-04:00",
+      "value": 0.068
+    },
+    {
+      "index": "2017-12-21 09:30:00-05:00",
+      "value": 0.1789
+    },
+    {
+      "index": "2018-03-22 09:30:00-04:00",
+      "value": 0.0386
+    },
+    {
+      "index": "2018-06-21 09:30:00-04:00",
+      "value": 0.1158
+    },
+    {
+      "index": "2018-09-14 09:30:00-04:00",
+      "value": 0.0871
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.1548
+    },
+    {
+      "index": "2019-03-21 09:30:00-04:00",
+      "value": 0.0505
+    },
+    {
+      "index": "2019-06-14 09:30:00-04:00",
+      "value": 0.0987
+    },
+    {
+      "index": "2019-09-25 09:30:00-04:00",
+      "value": 0.0985
+    },
+    {
+      "index": "2019-12-13 09:30:00-05:00",
+      "value": 0.1451
+    },
+    {
+      "index": "2020-03-26 09:30:00-04:00",
+      "value": 0.0077
+    },
+    {
+      "index": "2020-06-25 09:30:00-04:00",
+      "value": 0.0861
+    },
+    {
+      "index": "2020-09-24 09:30:00-04:00",
+      "value": 0.0693
+    },
+    {
+      "index": "2020-12-24 09:30:00-05:00",
+      "value": 0.1536
+    },
+    {
+      "index": "2021-06-24 09:30:00-04:00",
+      "value": 0.1015
+    },
+    {
+      "index": "2021-09-23 09:30:00-04:00",
+      "value": 0.1192
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 0.1821
+    },
+    {
+      "index": "2022-03-25 09:30:00-04:00",
+      "value": 0.0441
+    },
+    {
+      "index": "2022-06-24 09:30:00-04:00",
+      "value": 0.1061
+    },
+    {
+      "index": "2022-09-23 09:30:00-04:00",
+      "value": 0.1481
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 0.197
+    },
+    {
+      "index": "2023-03-24 09:30:00-04:00",
+      "value": 0.0976
+    },
+    {
+      "index": "2023-06-27 09:30:00-04:00",
+      "value": 0.1738
+    },
+    {
+      "index": "2023-09-22 09:30:00-04:00",
+      "value": 0.1296
+    },
+    {
+      "index": "2023-12-22 09:30:00-05:00",
+      "value": 0.2571
+    },
+    {
+      "index": "2024-03-21 09:30:00-04:00",
+      "value": 0.0419
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.2329
+    },
+    {
+      "index": "2024-09-26 09:30:00-04:00",
+      "value": 0.1361
+    },
+    {
+      "index": "2024-12-13 09:30:00-05:00",
+      "value": 0.3931
+    },
+    {
+      "index": "2026-06-25 09:30:00-04:00",
+      "value": 0.0102
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

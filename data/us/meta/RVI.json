@@ -1,0 +1,154 @@
+{
+  "symbol": "RVI",
+  "region": "us",
+  "name": "Robinhood Ventures Fund I",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "US7707011000",
+  "info": {
+    "longName": "Robinhood Ventures Fund I",
+    "shortName": "Robinhood Ventures Fund I",
+    "sector": "Financial Services",
+    "industry": "Asset Management",
+    "country": "United States",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "marketCap": 778180480,
+    "currentPrice": 28.56,
+    "open": 28.97,
+    "previousClose": 28.83,
+    "dayHigh": 29.02,
+    "dayLow": 28.28,
+    "regularMarketPrice": 28.56,
+    "regularMarketPreviousClose": 28.83,
+    "fiftyTwoWeekHigh": 77.39,
+    "fiftyTwoWeekLow": 21.0,
+    "volume": 135205,
+    "averageVolume": 489985,
+    "sharesOutstanding": 27247215,
+    "recommendationKey": "none",
+    "profitMargins": 0.0
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 28.56
+  },
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.00028
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.13999
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.14003
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 28.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "TEACHER RETIREMENT SYSTEM OF TEXAS",
+      "pctHeld": 0.0,
+      "Shares": 600000,
+      "Value": 17135999,
+      "pctChange": 1.0
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Jane Street Group, LLC",
+      "pctHeld": 0.0,
+      "Shares": 67817,
+      "Value": 1936853,
+      "pctChange": 1.0
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Tiger Global Management, LLC",
+      "pctHeld": 0.0,
+      "Shares": 400000,
+      "Value": 11423999,
+      "pctChange": 1.0
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "LMR Partners LLP",
+      "pctHeld": 0.0,
+      "Shares": 400000,
+      "Value": 11423999,
+      "pctChange": 1.0
+    },
+    {
+      "index": "4",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Millennium Management Llc",
+      "pctHeld": 0.0,
+      "Shares": 70309,
+      "Value": 2008025,
+      "pctChange": 1.0
+    },
+    {
+      "index": "5",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Envestnet Asset Management Inc.",
+      "pctHeld": 0.0,
+      "Shares": 46627,
+      "Value": 1331667,
+      "pctChange": -0.38619998
+    },
+    {
+      "index": "6",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Orland Properties Ltd.",
+      "pctHeld": 0.0,
+      "Shares": 24000,
+      "Value": 685439,
+      "pctChange": -0.8
+    },
+    {
+      "index": "7",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "LPL Financial LLC",
+      "pctHeld": 0.0,
+      "Shares": 110997,
+      "Value": 3170074,
+      "pctChange": 1.0
+    },
+    {
+      "index": "8",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Cetera Investment Advisers",
+      "pctHeld": 0.0,
+      "Shares": 135183,
+      "Value": 3860826,
+      "pctChange": 0.1497
+    },
+    {
+      "index": "9",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Sanctuary Advisors, LLC",
+      "pctHeld": 0.0,
+      "Shares": 49099,
+      "Value": 1402267,
+      "pctChange": 0.22559999
+    }
+  ]
+}

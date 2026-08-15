@@ -1,0 +1,142 @@
+{
+  "symbol": "RCP",
+  "region": "us",
+  "name": "RIT Capital Partners Ord",
+  "currency": "USD",
+  "exchange": "PNK",
+  "isin": "-",
+  "info": {
+    "longName": "RIT Capital Partners Ord",
+    "shortName": "RIT Capital Partners",
+    "exchange": "PNK",
+    "currency": "USD",
+    "previousClose": 23.92,
+    "regularMarketPrice": 23.92,
+    "regularMarketPreviousClose": 23.92,
+    "fiftyTwoWeekHigh": 23.92,
+    "fiftyTwoWeekLow": 23.92,
+    "dividendRate": 0.155,
+    "averageVolume": 0
+  },
+  "dividends": [
+    {
+      "index": "2010-03-10 09:30:00-05:00",
+      "value": 0.060158633
+    },
+    {
+      "index": "2011-08-03 09:30:00-04:00",
+      "value": 0.060158633
+    },
+    {
+      "index": "2012-06-13 09:30:00-04:00",
+      "value": 0.42111453
+    },
+    {
+      "index": "2013-04-03 09:30:00-04:00",
+      "value": 0.21055792
+    },
+    {
+      "index": "2014-10-01 09:30:00-04:00",
+      "value": 0.19897668
+    },
+    {
+      "index": "2015-10-01 09:30:00-04:00",
+      "value": 0.20303744
+    },
+    {
+      "index": "2016-04-07 09:30:00-04:00",
+      "value": 0.20980534
+    },
+    {
+      "index": "2016-10-06 09:30:00-04:00",
+      "value": 0.20980534
+    },
+    {
+      "index": "2017-04-06 09:30:00-04:00",
+      "value": 0.21657325
+    },
+    {
+      "index": "2017-10-05 09:30:00-04:00",
+      "value": 0.21657325
+    },
+    {
+      "index": "2018-04-05 09:30:00-04:00",
+      "value": 0.22334118
+    },
+    {
+      "index": "2018-10-04 09:30:00-04:00",
+      "value": 0.22334118
+    },
+    {
+      "index": "2019-04-04 09:30:00-04:00",
+      "value": 0.2301091
+    },
+    {
+      "index": "2019-10-03 09:30:00-04:00",
+      "value": 0.2301091
+    },
+    {
+      "index": "2020-04-02 09:30:00-04:00",
+      "value": 0.236877
+    },
+    {
+      "index": "2020-10-01 09:30:00-04:00",
+      "value": 0.236877
+    },
+    {
+      "index": "2021-04-01 09:30:00-04:00",
+      "value": 0.23856898
+    },
+    {
+      "index": "2021-09-30 09:30:00-04:00",
+      "value": 0.23856898
+    },
+    {
+      "index": "2022-03-31 09:30:00-04:00",
+      "value": 0.25041282
+    },
+    {
+      "index": "2022-10-06 09:30:00-04:00",
+      "value": 0.25041282
+    },
+    {
+      "index": "2023-04-06 09:30:00-04:00",
+      "value": 0.25718075
+    },
+    {
+      "index": "2023-10-05 09:30:00-04:00",
+      "value": 0.25718075
+    },
+    {
+      "index": "2024-04-04 09:30:00-04:00",
+      "value": 0.26394865
+    },
+    {
+      "index": "2024-10-03 09:30:00-04:00",
+      "value": 0.26394865
+    },
+    {
+      "index": "2025-04-03 09:30:00-04:00",
+      "value": 0.29102033
+    },
+    {
+      "index": "2025-10-02 09:30:00-04:00",
+      "value": 0.29102033
+    },
+    {
+      "index": "2026-04-02 09:30:00-04:00",
+      "value": 0.30455613
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

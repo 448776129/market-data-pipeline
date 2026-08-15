@@ -1,0 +1,155 @@
+{
+  "symbol": "RNEM",
+  "region": "us",
+  "name": "First Trust Emerging Markets Equity Select ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US33738R7796",
+  "info": {
+    "longName": "First Trust Emerging Markets Equity Select ETF",
+    "shortName": "Emerging Markets Equity Select ",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 55.97,
+    "previousClose": 57.035,
+    "dayHigh": 55.97,
+    "dayLow": 55.97,
+    "regularMarketPrice": 55.97,
+    "regularMarketPreviousClose": 57.035,
+    "fiftyTwoWeekHigh": 59.008,
+    "fiftyTwoWeekLow": 46.9,
+    "trailingPE": 12.609605,
+    "dividendYield": 2.27,
+    "volume": 134,
+    "averageVolume": 993
+  },
+  "dividends": [
+    {
+      "index": "2017-09-21 09:30:00-04:00",
+      "value": 0.566
+    },
+    {
+      "index": "2017-12-21 09:30:00-05:00",
+      "value": 0.679
+    },
+    {
+      "index": "2018-03-22 09:30:00-04:00",
+      "value": 0.007
+    },
+    {
+      "index": "2018-06-21 09:30:00-04:00",
+      "value": 0.439
+    },
+    {
+      "index": "2018-09-14 09:30:00-04:00",
+      "value": 0.801
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.123
+    },
+    {
+      "index": "2019-03-21 09:30:00-04:00",
+      "value": 0.163
+    },
+    {
+      "index": "2019-06-14 09:30:00-04:00",
+      "value": 0.2
+    },
+    {
+      "index": "2019-09-25 09:30:00-04:00",
+      "value": 1.033
+    },
+    {
+      "index": "2019-12-13 09:30:00-05:00",
+      "value": 0.103
+    },
+    {
+      "index": "2020-03-26 09:30:00-04:00",
+      "value": 0.03
+    },
+    {
+      "index": "2020-06-25 09:30:00-04:00",
+      "value": 0.274
+    },
+    {
+      "index": "2020-09-24 09:30:00-04:00",
+      "value": 0.774
+    },
+    {
+      "index": "2020-12-24 09:30:00-05:00",
+      "value": 0.329
+    },
+    {
+      "index": "2021-06-24 09:30:00-04:00",
+      "value": 0.693
+    },
+    {
+      "index": "2021-09-23 09:30:00-04:00",
+      "value": 0.843
+    },
+    {
+      "index": "2022-06-24 09:30:00-04:00",
+      "value": 0.321
+    },
+    {
+      "index": "2022-09-23 09:30:00-04:00",
+      "value": 0.899
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 0.054
+    },
+    {
+      "index": "2023-06-27 09:30:00-04:00",
+      "value": 0.174
+    },
+    {
+      "index": "2023-09-22 09:30:00-04:00",
+      "value": 0.605
+    },
+    {
+      "index": "2023-12-22 09:30:00-05:00",
+      "value": 0.062
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.143
+    },
+    {
+      "index": "2024-09-26 09:30:00-04:00",
+      "value": 0.573
+    },
+    {
+      "index": "2024-12-13 09:30:00-05:00",
+      "value": 0.982
+    },
+    {
+      "index": "2025-06-26 09:30:00-04:00",
+      "value": 0.562
+    },
+    {
+      "index": "2025-09-25 09:30:00-04:00",
+      "value": 0.625
+    },
+    {
+      "index": "2025-12-12 09:30:00-05:00",
+      "value": 0.332
+    },
+    {
+      "index": "2026-06-25 09:30:00-04:00",
+      "value": 0.348
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

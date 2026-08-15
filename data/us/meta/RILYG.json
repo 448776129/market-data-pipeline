@@ -1,0 +1,113 @@
+{
+  "symbol": "RILYG",
+  "region": "us",
+  "name": "B. Riley Financial, Inc. 5.00% Senior Notes due 2026",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "longName": "B. Riley Financial, Inc. 5.00% Senior Notes due 2026",
+    "shortName": "BRC Group Holdings, Inc. - 5.00",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 24.64,
+    "previousClose": 24.52,
+    "dayHigh": 24.6591,
+    "dayLow": 24.64,
+    "regularMarketPrice": 24.65,
+    "regularMarketPreviousClose": 24.52,
+    "fiftyTwoWeekHigh": 24.75,
+    "fiftyTwoWeekLow": 15.42,
+    "volume": 5079,
+    "averageVolume": 12233
+  },
+  "dividends": [
+    {
+      "index": "2022-01-13 09:30:00-05:00",
+      "value": 0.198
+    },
+    {
+      "index": "2022-04-13 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2022-07-14 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2022-10-13 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2023-01-12 09:30:00-05:00",
+      "value": 0.313
+    },
+    {
+      "index": "2023-04-13 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2023-07-13 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2023-10-12 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2024-01-11 09:30:00-05:00",
+      "value": 0.313
+    },
+    {
+      "index": "2024-04-12 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2024-07-15 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2024-10-15 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2025-01-15 09:30:00-05:00",
+      "value": 0.313
+    },
+    {
+      "index": "2025-04-15 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2025-07-15 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2025-10-15 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2026-01-15 09:30:00-05:00",
+      "value": 0.313
+    },
+    {
+      "index": "2026-04-15 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2026-07-15 09:30:00-04:00",
+      "value": 0.313
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

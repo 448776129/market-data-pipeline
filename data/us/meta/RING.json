@@ -1,0 +1,161 @@
+{
+  "symbol": "RING",
+  "region": "us",
+  "name": "iShares MSCI Global Gold Miners ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US46434G8556",
+  "info": {
+    "longName": "iShares MSCI Global Gold Miners ETF",
+    "shortName": "iShares MSCI Global Gold Miners",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 77.83,
+    "previousClose": 76.64,
+    "dayHigh": 79.34,
+    "dayLow": 77.82,
+    "regularMarketPrice": 78.46,
+    "regularMarketPreviousClose": 76.64,
+    "fiftyTwoWeekHigh": 100.41,
+    "fiftyTwoWeekLow": 48.14,
+    "trailingPE": 14.390165,
+    "dividendYield": 1.42,
+    "volume": 172137,
+    "averageVolume": 697348,
+    "sharesOutstanding": 11500000
+  },
+  "dividends": [
+    {
+      "index": "2012-06-21 09:30:00-04:00",
+      "value": 0.17
+    },
+    {
+      "index": "2012-12-18 09:30:00-05:00",
+      "value": 0.208
+    },
+    {
+      "index": "2013-06-27 09:30:00-04:00",
+      "value": 0.172
+    },
+    {
+      "index": "2013-12-18 09:30:00-05:00",
+      "value": 0.098
+    },
+    {
+      "index": "2014-06-25 09:30:00-04:00",
+      "value": 0.066
+    },
+    {
+      "index": "2014-12-17 09:30:00-05:00",
+      "value": 0.06
+    },
+    {
+      "index": "2015-06-25 09:30:00-04:00",
+      "value": 0.062
+    },
+    {
+      "index": "2015-12-21 09:30:00-05:00",
+      "value": 0.044
+    },
+    {
+      "index": "2016-06-22 09:30:00-04:00",
+      "value": 0.014
+    },
+    {
+      "index": "2016-12-21 09:30:00-05:00",
+      "value": 0.229
+    },
+    {
+      "index": "2017-06-20 09:30:00-04:00",
+      "value": 0.031
+    },
+    {
+      "index": "2017-12-19 09:30:00-05:00",
+      "value": 0.048
+    },
+    {
+      "index": "2018-06-19 09:30:00-04:00",
+      "value": 0.07
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.043
+    },
+    {
+      "index": "2019-06-17 09:30:00-04:00",
+      "value": 0.145
+    },
+    {
+      "index": "2019-12-16 09:30:00-05:00",
+      "value": 0.054
+    },
+    {
+      "index": "2020-06-15 09:30:00-04:00",
+      "value": 0.102
+    },
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.144
+    },
+    {
+      "index": "2021-06-10 09:30:00-04:00",
+      "value": 0.312
+    },
+    {
+      "index": "2021-12-13 09:30:00-05:00",
+      "value": 0.331
+    },
+    {
+      "index": "2022-06-09 09:30:00-04:00",
+      "value": 0.229
+    },
+    {
+      "index": "2022-12-13 09:30:00-05:00",
+      "value": 0.282
+    },
+    {
+      "index": "2023-06-07 09:30:00-04:00",
+      "value": 0.211
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.283
+    },
+    {
+      "index": "2024-06-11 09:30:00-04:00",
+      "value": 0.186
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 0.216
+    },
+    {
+      "index": "2025-06-16 09:30:00-04:00",
+      "value": 0.238
+    },
+    {
+      "index": "2025-12-16 09:30:00-05:00",
+      "value": 0.377
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 0.526
+    }
+  ],
+  "splits": [
+    {
+      "index": "2016-11-07 09:30:00-05:00",
+      "value": 0.5
+    }
+  ],
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

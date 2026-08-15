@@ -1,0 +1,131 @@
+{
+  "symbol": "QQQM",
+  "region": "us",
+  "name": "Invesco NASDAQ 100 ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US46138G6492",
+  "info": {
+    "longName": "Invesco NASDAQ 100 ETF",
+    "shortName": "Invesco NASDAQ 100 ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 301.96,
+    "previousClose": 301.41,
+    "dayHigh": 302.35,
+    "dayLow": 299.88,
+    "regularMarketPrice": 301.01,
+    "regularMarketPreviousClose": 301.41,
+    "fiftyTwoWeekHigh": 308.21,
+    "fiftyTwoWeekLow": 228.75,
+    "trailingPE": 31.251492,
+    "dividendYield": 0.46,
+    "volume": 1976579,
+    "averageVolume": 3886233
+  },
+  "dividends": [
+    {
+      "index": "2020-12-21 09:30:00-05:00",
+      "value": 0.206
+    },
+    {
+      "index": "2021-03-22 09:30:00-04:00",
+      "value": 0.157
+    },
+    {
+      "index": "2021-06-21 09:30:00-04:00",
+      "value": 0.182
+    },
+    {
+      "index": "2021-09-20 09:30:00-04:00",
+      "value": 0.166
+    },
+    {
+      "index": "2021-12-20 09:30:00-05:00",
+      "value": 0.149
+    },
+    {
+      "index": "2022-03-21 09:30:00-04:00",
+      "value": 0.194
+    },
+    {
+      "index": "2022-06-21 09:30:00-04:00",
+      "value": 0.205
+    },
+    {
+      "index": "2022-09-19 09:30:00-04:00",
+      "value": 0.245
+    },
+    {
+      "index": "2022-12-19 09:30:00-05:00",
+      "value": 0.27
+    },
+    {
+      "index": "2023-03-20 09:30:00-04:00",
+      "value": 0.254
+    },
+    {
+      "index": "2023-06-20 09:30:00-04:00",
+      "value": 0.217
+    },
+    {
+      "index": "2023-09-18 09:30:00-04:00",
+      "value": 0.245
+    },
+    {
+      "index": "2023-12-18 09:30:00-05:00",
+      "value": 0.381
+    },
+    {
+      "index": "2024-03-18 09:30:00-04:00",
+      "value": 0.345
+    },
+    {
+      "index": "2024-06-24 09:30:00-04:00",
+      "value": 0.32
+    },
+    {
+      "index": "2024-09-23 09:30:00-04:00",
+      "value": 0.3
+    },
+    {
+      "index": "2024-12-23 09:30:00-05:00",
+      "value": 0.31
+    },
+    {
+      "index": "2025-03-24 09:30:00-04:00",
+      "value": 0.318
+    },
+    {
+      "index": "2025-06-23 09:30:00-04:00",
+      "value": 0.316
+    },
+    {
+      "index": "2025-09-22 09:30:00-04:00",
+      "value": 0.302
+    },
+    {
+      "index": "2025-12-22 09:30:00-05:00",
+      "value": 0.323
+    },
+    {
+      "index": "2026-03-23 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2026-06-22 09:30:00-04:00",
+      "value": 0.352
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,84 @@
+{
+  "symbol": "ROBO",
+  "region": "us",
+  "name": "Robo-Stox Global Robotics and Automation Index ETF",
+  "currency": "USD",
+  "exchange": "PCX",
+  "isin": "US3015057074",
+  "info": {
+    "longName": "Robo-Stox Global Robotics and Automation Index ETF",
+    "shortName": "ROBO Global Robotics and Automa",
+    "exchange": "PCX",
+    "currency": "USD",
+    "open": 85.0,
+    "previousClose": 85.01,
+    "dayHigh": 85.1522,
+    "dayLow": 84.4005,
+    "regularMarketPrice": 84.83,
+    "regularMarketPreviousClose": 85.01,
+    "fiftyTwoWeekHigh": 90.51,
+    "fiftyTwoWeekLow": 61.93,
+    "trailingPE": 32.048206,
+    "priceToBook": 279.967,
+    "dividendYield": 0.37,
+    "volume": 115544,
+    "averageVolume": 232362
+  },
+  "dividends": [
+    {
+      "index": "2014-12-16 09:30:00-05:00",
+      "value": 0.073
+    },
+    {
+      "index": "2015-12-16 09:30:00-05:00",
+      "value": 0.068
+    },
+    {
+      "index": "2016-12-20 09:30:00-05:00",
+      "value": 0.055
+    },
+    {
+      "index": "2017-12-26 09:30:00-05:00",
+      "value": 0.01
+    },
+    {
+      "index": "2018-12-24 09:30:00-05:00",
+      "value": 0.121
+    },
+    {
+      "index": "2019-12-24 09:30:00-05:00",
+      "value": 0.156
+    },
+    {
+      "index": "2020-12-28 09:30:00-05:00",
+      "value": 0.119
+    },
+    {
+      "index": "2021-12-28 09:30:00-05:00",
+      "value": 0.123
+    },
+    {
+      "index": "2023-12-26 09:30:00-05:00",
+      "value": 0.028
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.309
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.292
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

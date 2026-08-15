@@ -1,0 +1,40 @@
+{
+  "symbol": "SACC",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "ASE",
+  "isin": "-",
+  "info": {
+    "shortName": "Sachem Capital Corp. 6.875% Not",
+    "exchange": "ASE",
+    "currency": "USD",
+    "open": 24.9799,
+    "previousClose": 24.98,
+    "dayHigh": 25.0,
+    "dayLow": 24.9799,
+    "regularMarketPrice": 24.9801,
+    "regularMarketPreviousClose": 24.98,
+    "fiftyTwoWeekHigh": 25.33,
+    "fiftyTwoWeekLow": 24.25,
+    "volume": 7841,
+    "averageVolume": 8536
+  },
+  "dividends": [
+    {
+      "index": "2024-12-13 09:30:00-05:00",
+      "value": 0.434
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

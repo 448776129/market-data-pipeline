@@ -1,0 +1,175 @@
+{
+  "symbol": "RFEM",
+  "region": "us",
+  "name": "First Trust RiverFront Dynamic Emerging Markets ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US33739P7078",
+  "info": {
+    "longName": "First Trust RiverFront Dynamic Emerging Markets ETF",
+    "shortName": "First Trust RiverFront Dynamic ",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 97.43,
+    "previousClose": 97.53,
+    "dayHigh": 97.45,
+    "dayLow": 97.105,
+    "regularMarketPrice": 97.26,
+    "regularMarketPreviousClose": 97.53,
+    "fiftyTwoWeekHigh": 97.638,
+    "fiftyTwoWeekLow": 72.15,
+    "trailingPE": 15.034706,
+    "dividendYield": 2.67,
+    "volume": 3818,
+    "averageVolume": 3275
+  },
+  "dividends": [
+    {
+      "index": "2016-09-21 09:30:00-04:00",
+      "value": 0.546
+    },
+    {
+      "index": "2016-12-21 09:30:00-05:00",
+      "value": 1.424
+    },
+    {
+      "index": "2017-03-23 09:30:00-04:00",
+      "value": 0.055
+    },
+    {
+      "index": "2017-06-22 09:30:00-04:00",
+      "value": 0.155
+    },
+    {
+      "index": "2017-09-21 09:30:00-04:00",
+      "value": 0.407
+    },
+    {
+      "index": "2017-12-21 09:30:00-05:00",
+      "value": 0.525
+    },
+    {
+      "index": "2018-03-22 09:30:00-04:00",
+      "value": 0.036
+    },
+    {
+      "index": "2018-06-21 09:30:00-04:00",
+      "value": 0.263
+    },
+    {
+      "index": "2018-09-14 09:30:00-04:00",
+      "value": 0.742
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.285
+    },
+    {
+      "index": "2019-06-14 09:30:00-04:00",
+      "value": 0.273
+    },
+    {
+      "index": "2019-09-25 09:30:00-04:00",
+      "value": 0.81
+    },
+    {
+      "index": "2019-12-13 09:30:00-05:00",
+      "value": 1.344
+    },
+    {
+      "index": "2020-06-25 09:30:00-04:00",
+      "value": 0.182
+    },
+    {
+      "index": "2020-09-24 09:30:00-04:00",
+      "value": 0.575
+    },
+    {
+      "index": "2020-12-24 09:30:00-05:00",
+      "value": 0.087
+    },
+    {
+      "index": "2021-03-25 09:30:00-04:00",
+      "value": 0.049
+    },
+    {
+      "index": "2021-06-24 09:30:00-04:00",
+      "value": 0.636
+    },
+    {
+      "index": "2021-09-23 09:30:00-04:00",
+      "value": 0.589
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 0.897
+    },
+    {
+      "index": "2022-06-24 09:30:00-04:00",
+      "value": 0.85
+    },
+    {
+      "index": "2022-09-23 09:30:00-04:00",
+      "value": 1.612
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 1.46
+    },
+    {
+      "index": "2023-06-27 09:30:00-04:00",
+      "value": 0.74
+    },
+    {
+      "index": "2023-09-22 09:30:00-04:00",
+      "value": 0.575
+    },
+    {
+      "index": "2023-12-22 09:30:00-05:00",
+      "value": 0.627
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.73
+    },
+    {
+      "index": "2024-09-26 09:30:00-04:00",
+      "value": 0.329
+    },
+    {
+      "index": "2024-12-13 09:30:00-05:00",
+      "value": 1.243
+    },
+    {
+      "index": "2025-06-26 09:30:00-04:00",
+      "value": 0.261
+    },
+    {
+      "index": "2025-09-25 09:30:00-04:00",
+      "value": 0.657
+    },
+    {
+      "index": "2025-12-12 09:30:00-05:00",
+      "value": 0.647
+    },
+    {
+      "index": "2026-03-26 09:30:00-04:00",
+      "value": 0.05
+    },
+    {
+      "index": "2026-06-25 09:30:00-04:00",
+      "value": 1.121
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

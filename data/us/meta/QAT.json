@@ -1,0 +1,118 @@
+{
+  "symbol": "QAT",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US46434V7799",
+  "info": {
+    "shortName": "iShares MSCI Qatar ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 17.62,
+    "previousClose": 17.67,
+    "dayHigh": 17.65,
+    "dayLow": 17.62,
+    "regularMarketPrice": 17.64,
+    "regularMarketPreviousClose": 17.67,
+    "fiftyTwoWeekHigh": 20.49,
+    "fiftyTwoWeekLow": 17.38,
+    "trailingPE": 11.211565,
+    "dividendYield": 4.88,
+    "volume": 3190,
+    "averageVolume": 50830
+  },
+  "dividends": [
+    {
+      "index": "2015-03-03 09:30:00-05:00",
+      "value": 0.244
+    },
+    {
+      "index": "2015-04-02 09:30:00-04:00",
+      "value": 0.58
+    },
+    {
+      "index": "2015-05-04 09:30:00-04:00",
+      "value": 0.029
+    },
+    {
+      "index": "2015-12-28 09:30:00-05:00",
+      "value": 0.012
+    },
+    {
+      "index": "2016-06-22 09:30:00-04:00",
+      "value": 0.67
+    },
+    {
+      "index": "2017-06-20 09:30:00-04:00",
+      "value": 0.663
+    },
+    {
+      "index": "2018-06-19 09:30:00-04:00",
+      "value": 0.736
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.12
+    },
+    {
+      "index": "2019-06-17 09:30:00-04:00",
+      "value": 0.635
+    },
+    {
+      "index": "2020-06-15 09:30:00-04:00",
+      "value": 0.486
+    },
+    {
+      "index": "2021-06-10 09:30:00-04:00",
+      "value": 0.422
+    },
+    {
+      "index": "2021-12-13 09:30:00-05:00",
+      "value": 0.059
+    },
+    {
+      "index": "2022-06-09 09:30:00-04:00",
+      "value": 0.755
+    },
+    {
+      "index": "2022-12-13 09:30:00-05:00",
+      "value": 0.122
+    },
+    {
+      "index": "2023-06-07 09:30:00-04:00",
+      "value": 0.712
+    },
+    {
+      "index": "2024-06-11 09:30:00-04:00",
+      "value": 0.77
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 0.288
+    },
+    {
+      "index": "2025-06-16 09:30:00-04:00",
+      "value": 0.434
+    },
+    {
+      "index": "2025-12-16 09:30:00-05:00",
+      "value": 0.227
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 0.624
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,40 @@
+{
+  "symbol": "RILYI",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "shortName": "B. Riley Financial, Inc. - 6.87",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 25.59,
+    "previousClose": 25.63,
+    "dayHigh": 25.64,
+    "dayLow": 25.59,
+    "regularMarketPrice": 25.64,
+    "regularMarketPreviousClose": 25.63,
+    "fiftyTwoWeekHigh": 26.14,
+    "fiftyTwoWeekLow": 24.51,
+    "volume": 9210,
+    "averageVolume": 6822
+  },
+  "dividends": [
+    {
+      "index": "2021-10-14 09:30:00-04:00",
+      "value": 0.43
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

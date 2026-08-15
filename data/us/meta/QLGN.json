@@ -1,0 +1,94 @@
+{
+  "symbol": "QLGN",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "US74754R2022",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2024-04-08 06:00:00-04:00",
+      "EPS Estimate": -26.0,
+      "Reported EPS": -7.71,
+      "Surprise(%)": 70.33
+    },
+    {
+      "index": "2023-11-14 16:00:00-05:00",
+      "EPS Estimate": -46.0,
+      "Reported EPS": -36.0,
+      "Surprise(%)": 21.74
+    },
+    {
+      "index": "2023-08-14 16:00:00-04:00",
+      "EPS Estimate": -26.0,
+      "Reported EPS": -34.5,
+      "Surprise(%)": -32.69
+    },
+    {
+      "index": "2023-05-15 16:00:00-04:00",
+      "EPS Estimate": -65.0,
+      "Reported EPS": -39.0,
+      "Surprise(%)": 40.0
+    },
+    {
+      "index": "2023-05-02 16:00:00-04:00",
+      "EPS Estimate": -55.0,
+      "Reported EPS": -23.19,
+      "Surprise(%)": 57.84
+    },
+    {
+      "index": "2022-11-14 16:00:00-05:00",
+      "EPS Estimate": -60.0,
+      "Reported EPS": -50.0,
+      "Surprise(%)": 16.67
+    },
+    {
+      "index": "2022-08-15 16:00:00-04:00",
+      "EPS Estimate": -70.0,
+      "Reported EPS": -55.0,
+      "Surprise(%)": 21.43
+    },
+    {
+      "index": "2022-05-13 06:00:00-04:00",
+      "EPS Estimate": -75.0,
+      "Reported EPS": -60.0,
+      "Surprise(%)": 20.0
+    },
+    {
+      "index": "2022-03-31 16:00:00-04:00",
+      "EPS Estimate": -85.0,
+      "Reported EPS": -72.2,
+      "Surprise(%)": 15.06
+    },
+    {
+      "index": "2021-11-15 09:00:00-05:00",
+      "EPS Estimate": -90.0,
+      "Reported EPS": -82.7,
+      "Surprise(%)": 8.11
+    },
+    {
+      "index": "2021-08-16 16:00:00-04:00",
+      "EPS Estimate": -105.0,
+      "Reported EPS": -90.0,
+      "Surprise(%)": 14.29
+    },
+    {
+      "index": "2021-05-14 13:00:00-04:00",
+      "EPS Estimate": -70.0,
+      "Reported EPS": -65.0,
+      "Surprise(%)": 7.14
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

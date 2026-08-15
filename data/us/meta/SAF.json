@@ -1,0 +1,40 @@
+{
+  "symbol": "SAF",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "shortName": "Saratoga Investment Corp 6.25% ",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 24.995,
+    "previousClose": 24.99,
+    "dayHigh": 25.01,
+    "dayLow": 25.0,
+    "regularMarketPrice": 25.01,
+    "regularMarketPreviousClose": 24.99,
+    "fiftyTwoWeekHigh": 26.77,
+    "fiftyTwoWeekLow": 24.35,
+    "volume": 1389,
+    "averageVolume": 4373
+  },
+  "dividends": [
+    {
+      "index": "2021-08-12 09:30:00-04:00",
+      "value": 0.391
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

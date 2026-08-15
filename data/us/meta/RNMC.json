@@ -1,0 +1,183 @@
+{
+  "symbol": "RNMC",
+  "region": "us",
+  "name": "First Trust SMID Capital Strength ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "longName": "First Trust SMID Capital Strength ETF",
+    "shortName": "Mid Cap US Equity Select ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 31.68,
+    "previousClose": 31.945,
+    "dayHigh": 31.68,
+    "dayLow": 31.68,
+    "regularMarketPrice": 31.68,
+    "regularMarketPreviousClose": 31.945,
+    "fiftyTwoWeekHigh": 33.17,
+    "fiftyTwoWeekLow": 25.83,
+    "trailingPE": 14.323113,
+    "dividendYield": 1.34,
+    "volume": 1,
+    "averageVolume": 1426
+  },
+  "dividends": [
+    {
+      "index": "2017-09-21 09:30:00-04:00",
+      "value": 0.0614
+    },
+    {
+      "index": "2017-12-21 09:30:00-05:00",
+      "value": 0.0846
+    },
+    {
+      "index": "2018-03-22 09:30:00-04:00",
+      "value": 0.0421
+    },
+    {
+      "index": "2018-06-21 09:30:00-04:00",
+      "value": 0.0823
+    },
+    {
+      "index": "2018-09-14 09:30:00-04:00",
+      "value": 0.0697
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.1181
+    },
+    {
+      "index": "2019-03-21 09:30:00-04:00",
+      "value": 0.0448
+    },
+    {
+      "index": "2019-06-14 09:30:00-04:00",
+      "value": 0.108
+    },
+    {
+      "index": "2019-09-25 09:30:00-04:00",
+      "value": 0.107
+    },
+    {
+      "index": "2019-12-13 09:30:00-05:00",
+      "value": 0.1344
+    },
+    {
+      "index": "2020-03-26 09:30:00-04:00",
+      "value": 0.0506
+    },
+    {
+      "index": "2020-06-25 09:30:00-04:00",
+      "value": 0.0705
+    },
+    {
+      "index": "2020-09-24 09:30:00-04:00",
+      "value": 0.0684
+    },
+    {
+      "index": "2020-12-24 09:30:00-05:00",
+      "value": 0.1355
+    },
+    {
+      "index": "2021-03-25 09:30:00-04:00",
+      "value": 0.0546
+    },
+    {
+      "index": "2021-06-24 09:30:00-04:00",
+      "value": 0.0863
+    },
+    {
+      "index": "2021-09-23 09:30:00-04:00",
+      "value": 0.0791
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 0.1458
+    },
+    {
+      "index": "2022-03-25 09:30:00-04:00",
+      "value": 0.0425
+    },
+    {
+      "index": "2022-06-24 09:30:00-04:00",
+      "value": 0.0948
+    },
+    {
+      "index": "2022-09-23 09:30:00-04:00",
+      "value": 0.1018
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 0.2242
+    },
+    {
+      "index": "2023-03-24 09:30:00-04:00",
+      "value": 0.0838
+    },
+    {
+      "index": "2023-06-27 09:30:00-04:00",
+      "value": 0.1303
+    },
+    {
+      "index": "2023-09-22 09:30:00-04:00",
+      "value": 0.059
+    },
+    {
+      "index": "2023-12-22 09:30:00-05:00",
+      "value": 0.1853
+    },
+    {
+      "index": "2024-03-21 09:30:00-04:00",
+      "value": 0.06
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.1583
+    },
+    {
+      "index": "2024-09-26 09:30:00-04:00",
+      "value": 0.0695
+    },
+    {
+      "index": "2024-12-13 09:30:00-05:00",
+      "value": 0.1089
+    },
+    {
+      "index": "2025-03-27 09:30:00-04:00",
+      "value": 0.0389
+    },
+    {
+      "index": "2025-06-26 09:30:00-04:00",
+      "value": 0.0749
+    },
+    {
+      "index": "2025-09-25 09:30:00-04:00",
+      "value": 0.0494
+    },
+    {
+      "index": "2025-12-12 09:30:00-05:00",
+      "value": 0.1035
+    },
+    {
+      "index": "2026-03-26 09:30:00-04:00",
+      "value": 0.0936
+    },
+    {
+      "index": "2026-06-25 09:30:00-04:00",
+      "value": 0.1219
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
