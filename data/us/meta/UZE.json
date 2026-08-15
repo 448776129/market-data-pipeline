@@ -1,0 +1,124 @@
+{
+  "symbol": "UZE",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "shortName": "Array Digital Infrastructure, I",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 16.68,
+    "previousClose": 16.68,
+    "dayHigh": 16.8473,
+    "dayLow": 16.6201,
+    "regularMarketPrice": 16.72,
+    "regularMarketPreviousClose": 16.68,
+    "fiftyTwoWeekHigh": 19.67,
+    "fiftyTwoWeekLow": 15.9,
+    "volume": 8615,
+    "averageVolume": 7013
+  },
+  "dividends": [
+    {
+      "index": "2021-02-25 09:30:00-05:00",
+      "value": 0.332
+    },
+    {
+      "index": "2021-05-27 09:30:00-04:00",
+      "value": 0.348
+    },
+    {
+      "index": "2021-08-30 09:30:00-04:00",
+      "value": 0.348
+    },
+    {
+      "index": "2021-11-29 09:30:00-05:00",
+      "value": 0.344
+    },
+    {
+      "index": "2022-02-25 09:30:00-05:00",
+      "value": 0.336
+    },
+    {
+      "index": "2022-05-27 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2022-08-30 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2022-11-29 09:30:00-05:00",
+      "value": 0.344
+    },
+    {
+      "index": "2023-02-27 09:30:00-05:00",
+      "value": 0.344
+    },
+    {
+      "index": "2023-05-30 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2023-08-30 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2023-11-29 09:30:00-05:00",
+      "value": 0.344
+    },
+    {
+      "index": "2024-02-28 09:30:00-05:00",
+      "value": 0.344
+    },
+    {
+      "index": "2024-05-31 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2024-08-30 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2024-11-29 09:30:00-05:00",
+      "value": 0.344
+    },
+    {
+      "index": "2025-02-28 09:30:00-05:00",
+      "value": 0.344
+    },
+    {
+      "index": "2025-05-30 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2025-08-29 09:30:00-04:00",
+      "value": 0.344
+    },
+    {
+      "index": "2025-11-28 09:30:00-05:00",
+      "value": 0.344
+    },
+    {
+      "index": "2026-02-27 09:30:00-05:00",
+      "value": 0.344
+    },
+    {
+      "index": "2026-05-29 09:30:00-04:00",
+      "value": 0.344
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

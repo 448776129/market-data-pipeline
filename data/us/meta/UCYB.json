@@ -1,0 +1,90 @@
+{
+  "symbol": "UCYB",
+  "region": "us",
+  "name": "ProShares Ultra Nasdaq Cybersecurity",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US74347G7705",
+  "info": {
+    "longName": "ProShares Ultra Nasdaq Cybersecurity",
+    "shortName": "ProShares Ultra Nasdaq Cybersec",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 97.57,
+    "previousClose": 97.06,
+    "dayHigh": 97.57,
+    "dayLow": 92.0685,
+    "regularMarketPrice": 92.0685,
+    "regularMarketPreviousClose": 97.06,
+    "fiftyTwoWeekHigh": 97.57,
+    "fiftyTwoWeekLow": 36.03,
+    "dividendYield": 1.53,
+    "volume": 6869,
+    "averageVolume": 6426
+  },
+  "dividends": [
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 0.236
+    },
+    {
+      "index": "2023-09-20 09:30:00-04:00",
+      "value": 0.06
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.156
+    },
+    {
+      "index": "2024-03-20 09:30:00-04:00",
+      "value": 0.137
+    },
+    {
+      "index": "2024-06-26 09:30:00-04:00",
+      "value": 0.306
+    },
+    {
+      "index": "2024-09-25 09:30:00-04:00",
+      "value": 0.259
+    },
+    {
+      "index": "2024-12-23 09:30:00-05:00",
+      "value": 0.354
+    },
+    {
+      "index": "2025-03-26 09:30:00-04:00",
+      "value": 0.141
+    },
+    {
+      "index": "2025-06-25 09:30:00-04:00",
+      "value": 0.177
+    },
+    {
+      "index": "2025-09-24 09:30:00-04:00",
+      "value": 0.304
+    },
+    {
+      "index": "2025-12-24 09:30:00-05:00",
+      "value": 0.379
+    },
+    {
+      "index": "2026-03-25 09:30:00-04:00",
+      "value": 0.272
+    },
+    {
+      "index": "2026-06-24 09:30:00-04:00",
+      "value": 0.25
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

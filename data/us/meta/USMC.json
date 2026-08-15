@@ -1,0 +1,167 @@
+{
+  "symbol": "USMC",
+  "region": "us",
+  "name": "Principal U.S. Mega-Cap ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US74255Y8701",
+  "info": {
+    "longName": "Principal U.S. Mega-Cap ETF",
+    "shortName": "Principal U.S. Mega-Cap ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 76.94,
+    "previousClose": 76.8,
+    "dayHigh": 76.94,
+    "dayLow": 76.5401,
+    "regularMarketPrice": 76.6099,
+    "regularMarketPreviousClose": 76.8,
+    "fiftyTwoWeekHigh": 76.96,
+    "fiftyTwoWeekLow": 62.28,
+    "trailingPE": 26.575954,
+    "dividendYield": 0.76,
+    "volume": 105405,
+    "averageVolume": 88132
+  },
+  "dividends": [
+    {
+      "index": "2018-04-02 09:30:00-04:00",
+      "value": 0.1
+    },
+    {
+      "index": "2018-07-02 09:30:00-04:00",
+      "value": 0.132
+    },
+    {
+      "index": "2018-10-01 09:30:00-04:00",
+      "value": 0.168
+    },
+    {
+      "index": "2018-12-27 09:30:00-05:00",
+      "value": 0.171
+    },
+    {
+      "index": "2019-07-01 09:30:00-04:00",
+      "value": 0.162
+    },
+    {
+      "index": "2019-10-01 09:30:00-04:00",
+      "value": 0.166
+    },
+    {
+      "index": "2019-12-27 09:30:00-05:00",
+      "value": 0.159
+    },
+    {
+      "index": "2020-04-01 09:30:00-04:00",
+      "value": 0.147
+    },
+    {
+      "index": "2020-07-01 09:30:00-04:00",
+      "value": 0.139
+    },
+    {
+      "index": "2020-10-01 09:30:00-04:00",
+      "value": 0.139
+    },
+    {
+      "index": "2020-12-29 09:30:00-05:00",
+      "value": 0.13
+    },
+    {
+      "index": "2021-04-01 09:30:00-04:00",
+      "value": 0.147
+    },
+    {
+      "index": "2021-07-01 09:30:00-04:00",
+      "value": 0.171
+    },
+    {
+      "index": "2021-10-01 09:30:00-04:00",
+      "value": 0.163
+    },
+    {
+      "index": "2021-12-29 09:30:00-05:00",
+      "value": 0.199
+    },
+    {
+      "index": "2022-04-01 09:30:00-04:00",
+      "value": 0.167
+    },
+    {
+      "index": "2022-07-01 09:30:00-04:00",
+      "value": 0.178
+    },
+    {
+      "index": "2022-10-03 09:30:00-04:00",
+      "value": 0.159
+    },
+    {
+      "index": "2022-12-28 09:30:00-05:00",
+      "value": 0.139
+    },
+    {
+      "index": "2023-04-03 09:30:00-04:00",
+      "value": 0.152
+    },
+    {
+      "index": "2023-07-03 09:30:00-04:00",
+      "value": 0.154
+    },
+    {
+      "index": "2023-10-02 09:30:00-04:00",
+      "value": 0.143
+    },
+    {
+      "index": "2024-04-01 09:30:00-04:00",
+      "value": 0.155
+    },
+    {
+      "index": "2024-07-01 09:30:00-04:00",
+      "value": 0.16
+    },
+    {
+      "index": "2024-10-01 09:30:00-04:00",
+      "value": 0.132
+    },
+    {
+      "index": "2024-12-27 09:30:00-05:00",
+      "value": 0.15
+    },
+    {
+      "index": "2025-04-01 09:30:00-04:00",
+      "value": 0.132
+    },
+    {
+      "index": "2025-07-01 09:30:00-04:00",
+      "value": 0.126
+    },
+    {
+      "index": "2025-10-01 09:30:00-04:00",
+      "value": 0.139
+    },
+    {
+      "index": "2025-12-29 09:30:00-05:00",
+      "value": 0.141
+    },
+    {
+      "index": "2026-04-01 09:30:00-04:00",
+      "value": 0.146
+    },
+    {
+      "index": "2026-07-01 09:30:00-04:00",
+      "value": 0.139
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

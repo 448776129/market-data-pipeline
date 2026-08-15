@@ -1,0 +1,139 @@
+{
+  "symbol": "UFO",
+  "region": "us",
+  "name": "Procure Space ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US74280R2058",
+  "info": {
+    "longName": "Procure Space ETF",
+    "shortName": "Procure Space ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 48.67,
+    "previousClose": 48.47,
+    "dayHigh": 49.07,
+    "dayLow": 47.98,
+    "regularMarketPrice": 48.48,
+    "regularMarketPreviousClose": 48.47,
+    "fiftyTwoWeekHigh": 68.212,
+    "fiftyTwoWeekLow": 29.24,
+    "trailingPE": 28.020805,
+    "dividendYield": 0.34,
+    "volume": 198814,
+    "averageVolume": 1174414
+  },
+  "dividends": [
+    {
+      "index": "2019-06-28 09:30:00-04:00",
+      "value": 0.02
+    },
+    {
+      "index": "2019-09-27 09:30:00-04:00",
+      "value": 0.03
+    },
+    {
+      "index": "2019-12-30 09:30:00-05:00",
+      "value": 0.067
+    },
+    {
+      "index": "2020-06-25 09:30:00-04:00",
+      "value": 0.05
+    },
+    {
+      "index": "2020-09-25 09:30:00-04:00",
+      "value": 0.06
+    },
+    {
+      "index": "2020-12-31 09:30:00-05:00",
+      "value": 0.163
+    },
+    {
+      "index": "2021-03-26 09:30:00-04:00",
+      "value": 0.023
+    },
+    {
+      "index": "2021-06-25 09:30:00-04:00",
+      "value": 0.118
+    },
+    {
+      "index": "2021-09-27 09:30:00-04:00",
+      "value": 0.001
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.13
+    },
+    {
+      "index": "2022-03-29 09:30:00-04:00",
+      "value": 0.245
+    },
+    {
+      "index": "2022-06-28 09:30:00-04:00",
+      "value": 0.15
+    },
+    {
+      "index": "2022-09-28 09:30:00-04:00",
+      "value": 0.089
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.138
+    },
+    {
+      "index": "2023-03-29 09:30:00-04:00",
+      "value": 0.066
+    },
+    {
+      "index": "2023-06-28 09:30:00-04:00",
+      "value": 0.14
+    },
+    {
+      "index": "2023-09-27 09:30:00-04:00",
+      "value": 0.106
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.043
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.042
+    },
+    {
+      "index": "2024-09-27 09:30:00-04:00",
+      "value": 0.181
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.237
+    },
+    {
+      "index": "2025-03-27 09:30:00-04:00",
+      "value": 0.012
+    },
+    {
+      "index": "2025-06-27 09:30:00-04:00",
+      "value": 0.075
+    },
+    {
+      "index": "2025-12-29 09:30:00-05:00",
+      "value": 0.09
+    },
+    {
+      "index": "2026-06-29 09:30:00-04:00",
+      "value": 0.058
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

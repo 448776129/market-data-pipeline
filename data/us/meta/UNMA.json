@@ -1,0 +1,164 @@
+{
+  "symbol": "UNMA",
+  "region": "us",
+  "name": "Unum Group 6.250% JR NT58",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "Unum Group 6.250% JR NT58",
+    "shortName": "Unum Group 6.250% Junior Subord",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 21.09,
+    "previousClose": 21.06,
+    "dayHigh": 21.09,
+    "dayLow": 21.03,
+    "regularMarketPrice": 21.09,
+    "regularMarketPreviousClose": 21.06,
+    "fiftyTwoWeekHigh": 24.7,
+    "fiftyTwoWeekLow": 20.9,
+    "trailingPE": 4.3755183,
+    "priceToBook": 0.48822838,
+    "volume": 14317,
+    "averageVolume": 27383,
+    "sharesOutstanding": 226102000
+  },
+  "dividends": [
+    {
+      "index": "2018-08-30 09:30:00-04:00",
+      "value": 0.46
+    },
+    {
+      "index": "2018-11-29 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2019-02-28 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2019-05-30 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2019-08-29 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2019-11-27 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2020-05-29 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2020-08-31 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2020-11-30 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2021-02-26 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2021-05-28 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2021-08-31 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2021-11-30 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2022-02-28 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2022-05-31 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2022-08-31 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2022-11-30 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2023-03-01 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2023-05-31 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2023-08-31 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2023-11-30 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2024-02-29 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2024-05-31 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2024-08-30 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2024-11-29 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2025-02-28 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2025-05-30 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2025-08-29 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2025-12-01 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2026-02-27 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2026-06-01 09:30:00-04:00",
+      "value": 0.391
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,203 @@
+{
+  "symbol": "VIGI",
+  "region": "us",
+  "name": "Vanguard International Dividend Appreciation Index Fund ETF Shares",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US9219468108",
+  "info": {
+    "longName": "Vanguard International Dividend Appreciation Index Fund ETF Shares",
+    "shortName": "Vanguard International Dividend",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 99.88,
+    "previousClose": 99.66,
+    "dayHigh": 99.88,
+    "dayLow": 99.34,
+    "regularMarketPrice": 99.44,
+    "regularMarketPreviousClose": 99.66,
+    "fiftyTwoWeekHigh": 99.88,
+    "fiftyTwoWeekLow": 85.23,
+    "trailingPE": 21.24693,
+    "dividendYield": 2.05,
+    "volume": 190756,
+    "averageVolume": 299760
+  },
+  "dividends": [
+    {
+      "index": "2016-06-14 09:30:00-04:00",
+      "value": 0.199
+    },
+    {
+      "index": "2016-09-13 09:30:00-04:00",
+      "value": 0.142
+    },
+    {
+      "index": "2016-12-20 09:30:00-05:00",
+      "value": 0.17
+    },
+    {
+      "index": "2017-03-22 09:30:00-04:00",
+      "value": 0.25
+    },
+    {
+      "index": "2017-06-28 09:30:00-04:00",
+      "value": 0.511
+    },
+    {
+      "index": "2017-09-22 09:30:00-04:00",
+      "value": 0.143
+    },
+    {
+      "index": "2017-12-19 09:30:00-05:00",
+      "value": 0.259
+    },
+    {
+      "index": "2018-03-26 09:30:00-04:00",
+      "value": 0.197
+    },
+    {
+      "index": "2018-06-28 09:30:00-04:00",
+      "value": 0.554
+    },
+    {
+      "index": "2018-09-26 09:30:00-04:00",
+      "value": 0.163
+    },
+    {
+      "index": "2018-12-24 09:30:00-05:00",
+      "value": 0.235
+    },
+    {
+      "index": "2019-03-25 09:30:00-04:00",
+      "value": 0.053
+    },
+    {
+      "index": "2019-06-17 09:30:00-04:00",
+      "value": 0.48
+    },
+    {
+      "index": "2019-09-24 09:30:00-04:00",
+      "value": 0.192
+    },
+    {
+      "index": "2019-12-18 09:30:00-05:00",
+      "value": 0.595
+    },
+    {
+      "index": "2020-03-23 09:30:00-04:00",
+      "value": 0.138
+    },
+    {
+      "index": "2020-06-22 09:30:00-04:00",
+      "value": 0.299
+    },
+    {
+      "index": "2020-09-25 09:30:00-04:00",
+      "value": 0.228
+    },
+    {
+      "index": "2020-12-21 09:30:00-05:00",
+      "value": 0.384
+    },
+    {
+      "index": "2021-03-22 09:30:00-04:00",
+      "value": 0.032
+    },
+    {
+      "index": "2021-06-21 09:30:00-04:00",
+      "value": 0.427
+    },
+    {
+      "index": "2021-09-20 09:30:00-04:00",
+      "value": 0.138
+    },
+    {
+      "index": "2021-12-20 09:30:00-05:00",
+      "value": 5.397
+    },
+    {
+      "index": "2022-03-21 09:30:00-04:00",
+      "value": 0.234
+    },
+    {
+      "index": "2022-06-21 09:30:00-04:00",
+      "value": 0.585
+    },
+    {
+      "index": "2022-09-19 09:30:00-04:00",
+      "value": 0.172
+    },
+    {
+      "index": "2022-12-19 09:30:00-05:00",
+      "value": 0.443
+    },
+    {
+      "index": "2023-03-20 09:30:00-04:00",
+      "value": 0.319
+    },
+    {
+      "index": "2023-06-20 09:30:00-04:00",
+      "value": 0.651
+    },
+    {
+      "index": "2023-09-18 09:30:00-04:00",
+      "value": 0.182
+    },
+    {
+      "index": "2023-12-18 09:30:00-05:00",
+      "value": 0.374
+    },
+    {
+      "index": "2024-03-15 09:30:00-04:00",
+      "value": 0.434
+    },
+    {
+      "index": "2024-06-21 09:30:00-04:00",
+      "value": 0.536
+    },
+    {
+      "index": "2024-09-20 09:30:00-04:00",
+      "value": 0.312
+    },
+    {
+      "index": "2024-12-20 09:30:00-05:00",
+      "value": 0.262
+    },
+    {
+      "index": "2025-03-21 09:30:00-04:00",
+      "value": 0.523
+    },
+    {
+      "index": "2025-06-20 09:30:00-04:00",
+      "value": 0.542
+    },
+    {
+      "index": "2025-09-19 09:30:00-04:00",
+      "value": 0.363
+    },
+    {
+      "index": "2025-12-19 09:30:00-05:00",
+      "value": 0.532
+    },
+    {
+      "index": "2026-03-20 09:30:00-04:00",
+      "value": 0.565
+    },
+    {
+      "index": "2026-06-18 09:30:00-04:00",
+      "value": 0.534
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

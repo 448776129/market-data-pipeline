@@ -1,0 +1,166 @@
+{
+  "symbol": "VFL",
+  "region": "us",
+  "name": "Delaware Investments Natl Muni Income",
+  "currency": "USD",
+  "exchange": "ASE",
+  "isin": "DE0006553464",
+  "info": {
+    "longName": "Delaware Investments Natl Muni Income",
+    "shortName": "3404",
+    "sector": "Financial Services",
+    "industry": "Asset Management",
+    "country": "United States",
+    "exchange": "ASE",
+    "currency": "USD",
+    "marketCap": 126586216,
+    "currentPrice": 10.31,
+    "open": 10.37,
+    "previousClose": 10.37,
+    "dayHigh": 10.385,
+    "dayLow": 10.31,
+    "regularMarketPreviousClose": 10.37,
+    "fiftyTwoWeekHigh": 11.31,
+    "fiftyTwoWeekLow": 9.38,
+    "trailingPE": 42.958336,
+    "priceToBook": 0.9116633,
+    "dividendYield": 0.0582,
+    "dividendRate": 0.6,
+    "trailingEps": 0.24,
+    "beta": 0.758,
+    "volume": 28602,
+    "averageVolume": 35862,
+    "sharesOutstanding": 12278003,
+    "recommendationKey": "none",
+    "totalRevenue": 12511547,
+    "grossProfits": 12511547,
+    "freeCashflow": 3074082,
+    "totalDebt": 99000000,
+    "profitMargins": 0.23407,
+    "returnOnEquity": 0.02121,
+    "returnOnAssets": 0.028959999,
+    "revenueGrowth": 0.005
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 10.31
+  },
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.00017999999
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.38334998
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.38342
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 57.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Pathstone Holdings, LLC",
+      "pctHeld": 0.0484,
+      "Shares": 594149,
+      "Value": 6125676,
+      "pctChange": 0.4166
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Mackay Shields LLC",
+      "pctHeld": 0.0327,
+      "Shares": 401695,
+      "Value": 4141475,
+      "pctChange": 0.0
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Allspring Global Investments Holdings, LLC",
+      "pctHeld": 0.028800001,
+      "Shares": 353273,
+      "Value": 3642244,
+      "pctChange": 0.0
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Hennion & Walsh Asset Management, Inc.",
+      "pctHeld": 0.0219,
+      "Shares": 268847,
+      "Value": 2771812,
+      "pctChange": -0.0156
+    },
+    {
+      "index": "4",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Guggenheim Capital, LLC",
+      "pctHeld": 0.0198,
+      "Shares": 242993,
+      "Value": 2505257,
+      "pctChange": -0.0398
+    },
+    {
+      "index": "5",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Morgan Stanley",
+      "pctHeld": 0.018,
+      "Shares": 221031,
+      "Value": 2278829,
+      "pctChange": -0.0018000001
+    },
+    {
+      "index": "6",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "RiverNorth Capital Management, LLC",
+      "pctHeld": 0.0176,
+      "Shares": 215995,
+      "Value": 2226908,
+      "pctChange": 0.2077
+    },
+    {
+      "index": "7",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Riverbridge Partners LLC",
+      "pctHeld": 0.015800001,
+      "Shares": 193519,
+      "Value": 1995180,
+      "pctChange": -0.0029
+    },
+    {
+      "index": "8",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Matisse Capital",
+      "pctHeld": 0.014199999,
+      "Shares": 174693,
+      "Value": 1801084,
+      "pctChange": 0.0
+    },
+    {
+      "index": "9",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Closed-end Fund Advisors, Inc.",
+      "pctHeld": 0.0125,
+      "Shares": 153715,
+      "Value": 1584801,
+      "pctChange": 0.090900004
+    }
+  ]
+}

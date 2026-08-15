@@ -1,0 +1,172 @@
+{
+  "symbol": "TUR",
+  "region": "us",
+  "name": "iShares MSCI Turkey ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US4642867158",
+  "info": {
+    "longName": "iShares MSCI Turkey ETF",
+    "shortName": "iShares MSCI Turkey ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 39.46,
+    "previousClose": 39.37,
+    "dayHigh": 39.66,
+    "dayLow": 39.43,
+    "regularMarketPrice": 39.59,
+    "regularMarketPreviousClose": 39.37,
+    "fiftyTwoWeekHigh": 43.98,
+    "fiftyTwoWeekLow": 31.72,
+    "trailingPE": 15.311623,
+    "dividendYield": 2.21,
+    "volume": 67267,
+    "averageVolume": 205511,
+    "sharesOutstanding": 15650000
+  },
+  "dividends": [
+    {
+      "index": "2008-12-23 09:30:00-05:00",
+      "value": 0.383
+    },
+    {
+      "index": "2009-06-23 09:30:00-04:00",
+      "value": 0.584
+    },
+    {
+      "index": "2009-12-22 09:30:00-05:00",
+      "value": 0.261
+    },
+    {
+      "index": "2010-06-23 09:30:00-04:00",
+      "value": 0.955
+    },
+    {
+      "index": "2010-12-21 09:30:00-05:00",
+      "value": 0.319
+    },
+    {
+      "index": "2011-06-22 09:30:00-04:00",
+      "value": 1.01
+    },
+    {
+      "index": "2011-12-20 09:30:00-05:00",
+      "value": 0.147
+    },
+    {
+      "index": "2012-06-21 09:30:00-04:00",
+      "value": 1.013
+    },
+    {
+      "index": "2013-06-27 09:30:00-04:00",
+      "value": 1.117
+    },
+    {
+      "index": "2014-06-25 09:30:00-04:00",
+      "value": 0.884
+    },
+    {
+      "index": "2015-06-25 09:30:00-04:00",
+      "value": 1.095
+    },
+    {
+      "index": "2015-12-21 09:30:00-05:00",
+      "value": 0.011
+    },
+    {
+      "index": "2016-06-22 09:30:00-04:00",
+      "value": 0.886
+    },
+    {
+      "index": "2016-12-21 09:30:00-05:00",
+      "value": 0.051
+    },
+    {
+      "index": "2017-06-20 09:30:00-04:00",
+      "value": 1.028
+    },
+    {
+      "index": "2017-12-19 09:30:00-05:00",
+      "value": 0.117
+    },
+    {
+      "index": "2018-06-19 09:30:00-04:00",
+      "value": 0.919
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.076
+    },
+    {
+      "index": "2019-06-17 09:30:00-04:00",
+      "value": 0.592
+    },
+    {
+      "index": "2019-12-16 09:30:00-05:00",
+      "value": 0.3
+    },
+    {
+      "index": "2020-06-15 09:30:00-04:00",
+      "value": 0.152
+    },
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.078
+    },
+    {
+      "index": "2021-06-10 09:30:00-04:00",
+      "value": 0.693
+    },
+    {
+      "index": "2021-12-13 09:30:00-05:00",
+      "value": 0.091
+    },
+    {
+      "index": "2022-06-09 09:30:00-04:00",
+      "value": 0.552
+    },
+    {
+      "index": "2022-12-13 09:30:00-05:00",
+      "value": 0.176
+    },
+    {
+      "index": "2023-06-07 09:30:00-04:00",
+      "value": 1.078
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.353
+    },
+    {
+      "index": "2024-06-11 09:30:00-04:00",
+      "value": 0.495
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 0.146
+    },
+    {
+      "index": "2025-06-16 09:30:00-04:00",
+      "value": 0.466
+    },
+    {
+      "index": "2025-12-16 09:30:00-05:00",
+      "value": 0.359
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 0.479
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

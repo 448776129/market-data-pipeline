@@ -1,0 +1,135 @@
+{
+  "symbol": "USXF",
+  "region": "us",
+  "name": "iShares ESG Advanced MSCI USA ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US46436E7673",
+  "info": {
+    "longName": "iShares ESG Advanced MSCI USA ETF",
+    "shortName": "iShares ESG Advanced MSCI USA E",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 70.41,
+    "previousClose": 70.42,
+    "dayHigh": 70.41,
+    "dayLow": 69.9199,
+    "regularMarketPrice": 70.0941,
+    "regularMarketPreviousClose": 70.42,
+    "fiftyTwoWeekHigh": 70.695,
+    "fiftyTwoWeekLow": 53.055,
+    "trailingPE": 28.949755,
+    "dividendYield": 0.83,
+    "volume": 52245,
+    "averageVolume": 59809
+  },
+  "dividends": [
+    {
+      "index": "2020-09-23 09:30:00-04:00",
+      "value": 0.089
+    },
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.092
+    },
+    {
+      "index": "2021-03-25 09:30:00-04:00",
+      "value": 0.067
+    },
+    {
+      "index": "2021-06-10 09:30:00-04:00",
+      "value": 0.06
+    },
+    {
+      "index": "2021-09-24 09:30:00-04:00",
+      "value": 0.096
+    },
+    {
+      "index": "2021-12-13 09:30:00-05:00",
+      "value": 0.114
+    },
+    {
+      "index": "2022-03-24 09:30:00-04:00",
+      "value": 0.081
+    },
+    {
+      "index": "2022-06-09 09:30:00-04:00",
+      "value": 0.093
+    },
+    {
+      "index": "2022-09-26 09:30:00-04:00",
+      "value": 0.127
+    },
+    {
+      "index": "2022-12-13 09:30:00-05:00",
+      "value": 0.125
+    },
+    {
+      "index": "2023-03-23 09:30:00-04:00",
+      "value": 0.102
+    },
+    {
+      "index": "2023-06-07 09:30:00-04:00",
+      "value": 0.087
+    },
+    {
+      "index": "2023-09-26 09:30:00-04:00",
+      "value": 0.124
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.17
+    },
+    {
+      "index": "2024-03-21 09:30:00-04:00",
+      "value": 0.106
+    },
+    {
+      "index": "2024-06-11 09:30:00-04:00",
+      "value": 0.09
+    },
+    {
+      "index": "2024-09-25 09:30:00-04:00",
+      "value": 0.134
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 0.169
+    },
+    {
+      "index": "2025-03-18 09:30:00-04:00",
+      "value": 0.103
+    },
+    {
+      "index": "2025-06-16 09:30:00-04:00",
+      "value": 0.129
+    },
+    {
+      "index": "2025-09-16 09:30:00-04:00",
+      "value": 0.125
+    },
+    {
+      "index": "2025-12-16 09:30:00-05:00",
+      "value": 0.178
+    },
+    {
+      "index": "2026-03-17 09:30:00-04:00",
+      "value": 0.124
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 0.123
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

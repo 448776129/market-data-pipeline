@@ -1,0 +1,172 @@
+{
+  "symbol": "VBTX",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2025-10-21 08:00:00-04:00",
+      "EPS Estimate": 0.57,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2025-07-18 07:00:00-04:00",
+      "EPS Estimate": 0.54,
+      "Reported EPS": 0.56,
+      "Surprise(%)": 3.07
+    },
+    {
+      "index": "2025-04-22 16:00:00-04:00",
+      "EPS Estimate": 0.51,
+      "Reported EPS": 0.54,
+      "Surprise(%)": 5.2
+    },
+    {
+      "index": "2025-01-28 16:00:00-05:00",
+      "EPS Estimate": 0.55,
+      "Reported EPS": 0.54,
+      "Surprise(%)": -1.82
+    },
+    {
+      "index": "2024-10-22 16:00:00-04:00",
+      "EPS Estimate": 0.55,
+      "Reported EPS": 0.59,
+      "Surprise(%)": 6.63
+    },
+    {
+      "index": "2024-07-23 16:00:00-04:00",
+      "EPS Estimate": 0.53,
+      "Reported EPS": 0.52,
+      "Surprise(%)": -2.5
+    },
+    {
+      "index": "2024-04-23 16:00:00-04:00",
+      "EPS Estimate": 0.58,
+      "Reported EPS": 0.53,
+      "Surprise(%)": -8.88
+    },
+    {
+      "index": "2024-01-23 16:00:00-05:00",
+      "EPS Estimate": 0.62,
+      "Reported EPS": 0.58,
+      "Surprise(%)": -6.7
+    },
+    {
+      "index": "2023-10-24 16:00:00-04:00",
+      "EPS Estimate": 0.64,
+      "Reported EPS": 0.6,
+      "Surprise(%)": -6.0
+    },
+    {
+      "index": "2023-07-25 17:00:00-04:00",
+      "EPS Estimate": 0.75,
+      "Reported EPS": 0.64,
+      "Surprise(%)": -14.48
+    },
+    {
+      "index": "2023-04-25 16:00:00-04:00",
+      "EPS Estimate": 0.73,
+      "Reported EPS": 0.79,
+      "Surprise(%)": 7.97
+    },
+    {
+      "index": "2023-01-24 16:00:00-05:00",
+      "EPS Estimate": 0.88,
+      "Reported EPS": 0.74,
+      "Surprise(%)": -15.59
+    },
+    {
+      "index": "2022-10-25 16:00:00-04:00",
+      "EPS Estimate": 0.77,
+      "Reported EPS": 0.8,
+      "Surprise(%)": 4.35
+    },
+    {
+      "index": "2022-07-27 07:00:00-04:00",
+      "EPS Estimate": 0.69,
+      "Reported EPS": 0.55,
+      "Surprise(%)": -20.48
+    },
+    {
+      "index": "2022-04-26 16:00:00-04:00",
+      "EPS Estimate": 0.67,
+      "Reported EPS": 0.66,
+      "Surprise(%)": -0.75
+    },
+    {
+      "index": "2022-01-25 16:00:00-05:00",
+      "EPS Estimate": 0.72,
+      "Reported EPS": 0.84,
+      "Surprise(%)": 16.94
+    },
+    {
+      "index": "2021-10-26 17:00:00-04:00",
+      "EPS Estimate": 0.68,
+      "Reported EPS": 0.7,
+      "Surprise(%)": 3.19
+    },
+    {
+      "index": "2021-07-27 17:00:00-04:00",
+      "EPS Estimate": 0.59,
+      "Reported EPS": 0.6,
+      "Surprise(%)": 1.35
+    },
+    {
+      "index": "2021-04-27 16:00:00-04:00",
+      "EPS Estimate": 0.52,
+      "Reported EPS": 0.64,
+      "Surprise(%)": 23.08
+    },
+    {
+      "index": "2021-01-26 17:00:00-05:00",
+      "EPS Estimate": 0.45,
+      "Reported EPS": 0.6,
+      "Surprise(%)": 32.16
+    },
+    {
+      "index": "2020-10-27 16:00:00-04:00",
+      "EPS Estimate": 0.44,
+      "Reported EPS": 0.46,
+      "Surprise(%)": 5.5
+    },
+    {
+      "index": "2020-07-28 17:00:00-04:00",
+      "EPS Estimate": 0.38,
+      "Reported EPS": 0.43,
+      "Surprise(%)": 13.76
+    },
+    {
+      "index": "2020-04-28 16:00:00-04:00",
+      "EPS Estimate": 0.45,
+      "Reported EPS": 0.08,
+      "Surprise(%)": -82.06
+    },
+    {
+      "index": "2020-01-28 17:00:00-05:00",
+      "EPS Estimate": 0.61,
+      "Reported EPS": 0.58,
+      "Surprise(%)": -4.53
+    },
+    {
+      "index": "2019-10-21 17:00:00-04:00",
+      "EPS Estimate": 0.52,
+      "Reported EPS": 0.53,
+      "Surprise(%)": 1.27
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

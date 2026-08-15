@@ -1,0 +1,82 @@
+{
+  "symbol": "VIAO",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "BMG933981083",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2023-01-28 12:00:00-05:00",
+      "EPS Estimate": -0.96,
+      "Reported EPS": -1.39,
+      "Surprise(%)": -44.84
+    },
+    {
+      "index": "2022-10-06 16:00:00-04:00",
+      "EPS Estimate": -0.74,
+      "Reported EPS": 0.27,
+      "Surprise(%)": 136.24
+    },
+    {
+      "index": "2022-07-07 06:00:00-04:00",
+      "EPS Estimate": -1.14,
+      "Reported EPS": -0.31,
+      "Surprise(%)": 72.81
+    },
+    {
+      "index": "2022-06-16 08:00:00-04:00",
+      "EPS Estimate": -0.16,
+      "Reported EPS": -0.83,
+      "Surprise(%)": -418.75
+    },
+    {
+      "index": "2021-11-24 05:00:00-05:00",
+      "EPS Estimate": -0.55,
+      "Reported EPS": -0.19,
+      "Surprise(%)": 65.14
+    },
+    {
+      "index": "2021-09-13 05:00:00-04:00",
+      "EPS Estimate": -0.58,
+      "Reported EPS": -0.19,
+      "Surprise(%)": 67.52
+    },
+    {
+      "index": "2021-05-18 11:00:00-04:00",
+      "EPS Estimate": -0.17,
+      "Reported EPS": -0.86,
+      "Surprise(%)": -406.35
+    },
+    {
+      "index": "2021-03-11 12:00:00-05:00",
+      "EPS Estimate": -0.08,
+      "Reported EPS": -0.05,
+      "Surprise(%)": 39.25
+    },
+    {
+      "index": "2020-10-29 15:00:00-04:00",
+      "EPS Estimate": 0.29,
+      "Reported EPS": -0.18,
+      "Surprise(%)": -162.62
+    },
+    {
+      "index": "2020-10-20 07:00:00-04:00",
+      "EPS Estimate": 0.08,
+      "Reported EPS": 0.09,
+      "Surprise(%)": 20.05
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

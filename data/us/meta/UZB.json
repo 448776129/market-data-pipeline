@@ -1,0 +1,124 @@
+{
+  "symbol": "UZB",
+  "region": "us",
+  "name": "United States Cellular Corporation SR NT 120163",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "United States Cellular Corporation SR NT 120163",
+    "shortName": "United States Cellular Corporat",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 25.33,
+    "previousClose": 25.33,
+    "dayHigh": 25.335,
+    "dayLow": 25.33,
+    "regularMarketPrice": 25.34,
+    "regularMarketPreviousClose": 25.33,
+    "fiftyTwoWeekHigh": 26.38,
+    "fiftyTwoWeekLow": 24.78,
+    "trailingPE": 72.4,
+    "priceToBook": 0.5526959,
+    "volume": 23480,
+    "averageVolume": 22054,
+    "sharesOutstanding": 85113200
+  },
+  "dividends": [
+    {
+      "index": "2015-02-25 09:30:00-05:00",
+      "value": 0.418
+    },
+    {
+      "index": "2015-05-27 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2015-08-27 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2015-11-25 09:30:00-05:00",
+      "value": 0.453
+    },
+    {
+      "index": "2016-02-25 09:30:00-05:00",
+      "value": 0.453
+    },
+    {
+      "index": "2016-05-26 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2016-08-29 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2017-11-29 09:30:00-05:00",
+      "value": 0.453
+    },
+    {
+      "index": "2018-02-27 09:30:00-05:00",
+      "value": 0.453
+    },
+    {
+      "index": "2018-05-30 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2018-08-30 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2018-11-29 09:30:00-05:00",
+      "value": 0.453
+    },
+    {
+      "index": "2019-02-27 09:30:00-05:00",
+      "value": 0.453
+    },
+    {
+      "index": "2019-05-30 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2019-08-29 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2019-11-27 09:30:00-05:00",
+      "value": 0.453
+    },
+    {
+      "index": "2020-02-27 09:30:00-05:00",
+      "value": 0.453
+    },
+    {
+      "index": "2020-05-28 09:30:00-04:00",
+      "value": 0.458
+    },
+    {
+      "index": "2020-08-28 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2020-11-27 09:30:00-05:00",
+      "value": 0.453
+    },
+    {
+      "index": "2021-02-25 09:30:00-05:00",
+      "value": 0.443
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

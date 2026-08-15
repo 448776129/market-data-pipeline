@@ -1,0 +1,179 @@
+{
+  "symbol": "VNQI",
+  "region": "us",
+  "name": "Vanguard Global ex-U.S. Real Estate Index Fund ETF Shares",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US9220426764",
+  "info": {
+    "longName": "Vanguard Global ex-U.S. Real Estate Index Fund ETF Shares",
+    "shortName": "Vanguard Global ex-U.S. Real Es",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 45.58,
+    "previousClose": 45.65,
+    "dayHigh": 45.6443,
+    "dayLow": 45.43,
+    "regularMarketPrice": 45.49,
+    "regularMarketPreviousClose": 45.65,
+    "fiftyTwoWeekHigh": 50.88,
+    "fiftyTwoWeekLow": 43.21,
+    "trailingPE": 12.673512,
+    "dividendYield": 4.68,
+    "volume": 188696,
+    "averageVolume": 293011
+  },
+  "dividends": [
+    {
+      "index": "2010-12-22 09:30:00-05:00",
+      "value": 0.447
+    },
+    {
+      "index": "2011-12-21 09:30:00-05:00",
+      "value": 1.334
+    },
+    {
+      "index": "2012-09-24 09:30:00-04:00",
+      "value": 0.736
+    },
+    {
+      "index": "2012-12-20 09:30:00-05:00",
+      "value": 2.336
+    },
+    {
+      "index": "2013-06-24 09:30:00-04:00",
+      "value": 0.117
+    },
+    {
+      "index": "2013-09-23 09:30:00-04:00",
+      "value": 0.089
+    },
+    {
+      "index": "2013-12-20 09:30:00-05:00",
+      "value": 1.576
+    },
+    {
+      "index": "2014-06-24 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2014-09-24 09:30:00-04:00",
+      "value": 0.489
+    },
+    {
+      "index": "2014-12-22 09:30:00-05:00",
+      "value": 1.356
+    },
+    {
+      "index": "2015-03-25 09:30:00-04:00",
+      "value": 0.02
+    },
+    {
+      "index": "2015-06-26 09:30:00-04:00",
+      "value": 0.393
+    },
+    {
+      "index": "2015-09-25 09:30:00-04:00",
+      "value": 0.246
+    },
+    {
+      "index": "2015-12-21 09:30:00-05:00",
+      "value": 0.803
+    },
+    {
+      "index": "2016-03-15 09:30:00-04:00",
+      "value": 0.078
+    },
+    {
+      "index": "2016-06-14 09:30:00-04:00",
+      "value": 0.481
+    },
+    {
+      "index": "2016-09-13 09:30:00-04:00",
+      "value": 0.379
+    },
+    {
+      "index": "2016-12-20 09:30:00-05:00",
+      "value": 1.631
+    },
+    {
+      "index": "2017-06-28 09:30:00-04:00",
+      "value": 0.278
+    },
+    {
+      "index": "2017-09-27 09:30:00-04:00",
+      "value": 0.176
+    },
+    {
+      "index": "2017-12-19 09:30:00-05:00",
+      "value": 1.883
+    },
+    {
+      "index": "2018-03-26 09:30:00-04:00",
+      "value": 0.076
+    },
+    {
+      "index": "2018-06-28 09:30:00-04:00",
+      "value": 0.727
+    },
+    {
+      "index": "2018-09-26 09:30:00-04:00",
+      "value": 0.247
+    },
+    {
+      "index": "2018-12-24 09:30:00-05:00",
+      "value": 1.373
+    },
+    {
+      "index": "2019-06-17 09:30:00-04:00",
+      "value": 0.406
+    },
+    {
+      "index": "2019-09-24 09:30:00-04:00",
+      "value": 0.423
+    },
+    {
+      "index": "2019-12-18 09:30:00-05:00",
+      "value": 3.647
+    },
+    {
+      "index": "2020-12-21 09:30:00-05:00",
+      "value": 0.505
+    },
+    {
+      "index": "2021-09-24 09:30:00-04:00",
+      "value": 0.601
+    },
+    {
+      "index": "2021-12-21 09:30:00-05:00",
+      "value": 2.895
+    },
+    {
+      "index": "2022-12-19 09:30:00-05:00",
+      "value": 0.235
+    },
+    {
+      "index": "2023-12-18 09:30:00-05:00",
+      "value": 1.591
+    },
+    {
+      "index": "2024-12-20 09:30:00-05:00",
+      "value": 2.04
+    },
+    {
+      "index": "2025-12-19 09:30:00-05:00",
+      "value": 2.156
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
