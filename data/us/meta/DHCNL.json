@@ -1,0 +1,97 @@
+{
+  "symbol": "DHCNL",
+  "region": "us",
+  "name": "Diversified Healthcare Trust",
+  "currency": "USD",
+  "exchange": "NMS",
+  "isin": "-",
+  "info": {
+    "longName": "Diversified Healthcare Trust",
+    "shortName": "Diversified Healthcare Trust  -",
+    "sector": "",
+    "industry": "",
+    "country": "United States",
+    "exchange": "NMS",
+    "currency": "USD",
+    "currentPrice": 18.73,
+    "open": 18.86,
+    "previousClose": 18.529375,
+    "dayHigh": 18.86,
+    "dayLow": 18.56,
+    "regularMarketPrice": 18.73,
+    "regularMarketPreviousClose": 18.529375,
+    "fiftyTwoWeekHigh": 19.2,
+    "fiftyTwoWeekLow": 18.4701,
+    "priceToBook": 2.7227793,
+    "beta": 2.318,
+    "volume": 33337,
+    "averageVolume": 7576,
+    "floatShares": 186878692,
+    "recommendationKey": "none",
+    "totalRevenue": 1537853056,
+    "grossProfits": 268156992,
+    "freeCashflow": 445826240,
+    "totalDebt": 2417744896,
+    "totalCash": 105407000,
+    "profitMargins": -0.1859,
+    "returnOnEquity": -0.15776,
+    "returnOnAssets": -0.0051700003,
+    "revenueGrowth": -0.0
+  },
+  "dividends": [
+    {
+      "index": "2026-08-14 09:30:00-04:00",
+      "value": 0.390625
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 18.73
+  },
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-02-28 00:00:00",
+      "Holder": "VanEck ETF Trust-VanEck Preferred Securities ex Financials ETF",
+      "pctHeld": 0.0,
+      "Shares": 292418,
+      "Value": 5476989,
+      "pctChange": -0.0513
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-01-31 00:00:00",
+      "Holder": "ETFis Series Trust I-Virtus InfraCap U.S. Preferred Stock ETF",
+      "pctHeld": 0.0,
+      "Shares": 2176618,
+      "Value": 40768054,
+      "pctChange": 0.14819999
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-01-31 00:00:00",
+      "Holder": "ETFis Series Trust I-InfraCap REIT Preferred ETF",
+      "pctHeld": 0.0,
+      "Shares": 135099,
+      "Value": 2530404,
+      "pctChange": 0.0085
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-02-28 00:00:00",
+      "Holder": "iShares Trust-iShares Preferred and Income Securities ETF",
+      "pctHeld": 0.0,
+      "Shares": 724989,
+      "Value": 13579043,
+      "pctChange": -0.04
+    }
+  ]
+}

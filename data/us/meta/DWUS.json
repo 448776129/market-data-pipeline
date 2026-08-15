@@ -1,0 +1,63 @@
+{
+  "symbol": "DWUS",
+  "region": "us",
+  "name": "AdvisorShares Dorsey Wright FSM US Core ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US00768Y4879",
+  "info": {
+    "longName": "AdvisorShares Dorsey Wright FSM US Core ETF",
+    "shortName": "AdvisorShares Dorsey Wright FSM",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 60.63,
+    "previousClose": 60.38,
+    "dayHigh": 60.68,
+    "dayLow": 60.6,
+    "regularMarketPrice": 60.6563,
+    "regularMarketPreviousClose": 60.38,
+    "fiftyTwoWeekHigh": 63.933,
+    "fiftyTwoWeekLow": 49.378,
+    "trailingPE": 31.667559,
+    "dividendYield": 0.03,
+    "volume": 1248,
+    "averageVolume": 1403
+  },
+  "dividends": [
+    {
+      "index": "2020-12-24 09:30:00-05:00",
+      "value": 0.04
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 0.144
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 0.298
+    },
+    {
+      "index": "2023-12-26 09:30:00-05:00",
+      "value": 0.118
+    },
+    {
+      "index": "2024-12-23 09:30:00-05:00",
+      "value": 0.087
+    },
+    {
+      "index": "2025-12-22 09:30:00-05:00",
+      "value": 0.016
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

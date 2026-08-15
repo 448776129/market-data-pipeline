@@ -1,0 +1,71 @@
+{
+  "symbol": "DINT",
+  "region": "us",
+  "name": "Davis Select International ETF",
+  "currency": "USD",
+  "exchange": "BTS",
+  "isin": "US23908L4059",
+  "info": {
+    "longName": "Davis Select International ETF",
+    "shortName": "Davis Select International ETF",
+    "exchange": "BTS",
+    "currency": "USD",
+    "open": 30.15,
+    "previousClose": 30.1203,
+    "dayHigh": 30.205,
+    "dayLow": 30.1261,
+    "regularMarketPrice": 30.1815,
+    "regularMarketPreviousClose": 30.1203,
+    "fiftyTwoWeekHigh": 30.75,
+    "fiftyTwoWeekLow": 25.77,
+    "trailingPE": 13.916343,
+    "dividendYield": 1.58,
+    "volume": 3500,
+    "averageVolume": 12472
+  },
+  "dividends": [
+    {
+      "index": "2018-12-26 09:30:00-05:00",
+      "value": 0.063
+    },
+    {
+      "index": "2019-12-27 09:30:00-05:00",
+      "value": 0.49
+    },
+    {
+      "index": "2020-12-29 09:30:00-05:00",
+      "value": 0.064
+    },
+    {
+      "index": "2021-12-29 09:30:00-05:00",
+      "value": 0.417
+    },
+    {
+      "index": "2022-12-28 09:30:00-05:00",
+      "value": 0.065
+    },
+    {
+      "index": "2023-12-27 09:30:00-05:00",
+      "value": 0.324
+    },
+    {
+      "index": "2024-12-27 09:30:00-05:00",
+      "value": 0.51
+    },
+    {
+      "index": "2025-12-29 09:30:00-05:00",
+      "value": 0.475
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

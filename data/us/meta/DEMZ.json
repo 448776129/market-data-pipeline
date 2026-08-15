@@ -1,0 +1,63 @@
+{
+  "symbol": "DEMZ",
+  "region": "us",
+  "name": "Democratic Large Cap Core ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US00774Q3469",
+  "info": {
+    "longName": "Democratic Large Cap Core ETF",
+    "shortName": "Democratic Large Cap Core ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 48.565,
+    "previousClose": 48.614,
+    "dayHigh": 48.565,
+    "dayLow": 48.5311,
+    "regularMarketPrice": 48.5311,
+    "regularMarketPreviousClose": 48.614,
+    "fiftyTwoWeekHigh": 48.63,
+    "fiftyTwoWeekLow": 39.035,
+    "trailingPE": 28.065132,
+    "dividendYield": 0.43,
+    "volume": 677,
+    "averageVolume": 2898
+  },
+  "dividends": [
+    {
+      "index": "2020-12-29 09:30:00-05:00",
+      "value": 0.062
+    },
+    {
+      "index": "2021-12-29 09:30:00-05:00",
+      "value": 0.731
+    },
+    {
+      "index": "2022-12-28 09:30:00-05:00",
+      "value": 0.233
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.265
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.192
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.416
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

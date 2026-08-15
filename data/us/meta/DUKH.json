@@ -1,0 +1,133 @@
+{
+  "symbol": "DUKH",
+  "region": "us",
+  "name": "Ocean Park High Income ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US66538J2906",
+  "info": {
+    "longName": "Ocean Park High Income ETF",
+    "shortName": "Ocean Park High Income ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 23.82,
+    "previousClose": 23.889,
+    "dayHigh": 23.88,
+    "dayLow": 23.82,
+    "regularMarketPrice": 23.845,
+    "regularMarketPreviousClose": 23.889,
+    "fiftyTwoWeekHigh": 24.75,
+    "fiftyTwoWeekLow": 23.68,
+    "trailingPE": 15.724911,
+    "priceToBook": 0.3999698,
+    "dividendYield": 5.55,
+    "volume": 2815,
+    "averageVolume": 9775,
+    "sharesOutstanding": 699950016
+  },
+  "dividends": [
+    {
+      "index": "2024-08-05 09:30:00-04:00",
+      "value": 0.11
+    },
+    {
+      "index": "2024-09-05 09:30:00-04:00",
+      "value": 0.116
+    },
+    {
+      "index": "2024-10-07 09:30:00-04:00",
+      "value": 0.098
+    },
+    {
+      "index": "2024-11-05 09:30:00-05:00",
+      "value": 0.118
+    },
+    {
+      "index": "2024-12-05 09:30:00-05:00",
+      "value": 0.256
+    },
+    {
+      "index": "2025-02-05 09:30:00-05:00",
+      "value": 0.141
+    },
+    {
+      "index": "2025-03-05 09:30:00-05:00",
+      "value": 0.115
+    },
+    {
+      "index": "2025-04-04 09:30:00-04:00",
+      "value": 0.113
+    },
+    {
+      "index": "2025-05-05 09:30:00-04:00",
+      "value": 0.163
+    },
+    {
+      "index": "2025-06-05 09:30:00-04:00",
+      "value": 0.118
+    },
+    {
+      "index": "2025-07-07 09:30:00-04:00",
+      "value": 0.135
+    },
+    {
+      "index": "2025-08-05 09:30:00-04:00",
+      "value": 0.125
+    },
+    {
+      "index": "2025-09-05 09:30:00-04:00",
+      "value": 0.121
+    },
+    {
+      "index": "2025-10-07 09:30:00-04:00",
+      "value": 0.113
+    },
+    {
+      "index": "2025-11-05 09:30:00-05:00",
+      "value": 0.105
+    },
+    {
+      "index": "2025-12-05 09:30:00-05:00",
+      "value": 0.244
+    },
+    {
+      "index": "2026-02-05 09:30:00-05:00",
+      "value": 0.095
+    },
+    {
+      "index": "2026-03-05 09:30:00-05:00",
+      "value": 0.089
+    },
+    {
+      "index": "2026-04-06 09:30:00-04:00",
+      "value": 0.098
+    },
+    {
+      "index": "2026-05-05 09:30:00-04:00",
+      "value": 0.116
+    },
+    {
+      "index": "2026-06-04 09:30:00-04:00",
+      "value": 0.112
+    },
+    {
+      "index": "2026-07-07 09:30:00-04:00",
+      "value": 0.102
+    },
+    {
+      "index": "2026-08-05 09:30:00-04:00",
+      "value": 0.105
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

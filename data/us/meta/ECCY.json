@@ -1,0 +1,60 @@
+{
+  "symbol": "ECCY",
+  "region": "us",
+  "name": "Eagle Point Credit Company Inc. 6.75% NT DE 2027",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "Eagle Point Credit Company Inc. 6.75% NT DE 2027",
+    "shortName": "Eagle Point Credit Company Inc.",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 25.19,
+    "previousClose": 25.19,
+    "dayHigh": 25.1901,
+    "dayLow": 25.19,
+    "regularMarketPrice": 25.19,
+    "regularMarketPreviousClose": 25.19,
+    "fiftyTwoWeekHigh": 26.316,
+    "fiftyTwoWeekLow": 25.11,
+    "trailingPE": 12.378378,
+    "priceToBook": 1.5131856,
+    "volume": 12317,
+    "averageVolume": 3910,
+    "sharesOutstanding": 18090700
+  },
+  "dividends": [
+    {
+      "index": "2017-09-14 09:30:00-04:00",
+      "value": 0.244
+    },
+    {
+      "index": "2017-12-14 09:30:00-05:00",
+      "value": 0.422
+    },
+    {
+      "index": "2018-03-14 09:30:00-04:00",
+      "value": 0.422
+    },
+    {
+      "index": "2018-06-14 09:30:00-04:00",
+      "value": 0.422
+    },
+    {
+      "index": "2018-09-14 09:30:00-04:00",
+      "value": 0.422
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

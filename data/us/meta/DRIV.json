@@ -1,0 +1,103 @@
+{
+  "symbol": "DRIV",
+  "region": "us",
+  "name": "Global X Autonomous & Electric Vehicles ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US37954Y6243",
+  "info": {
+    "longName": "Global X Autonomous & Electric Vehicles ETF",
+    "shortName": "Global X Autonomous & Electric ",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 35.94,
+    "previousClose": 35.72,
+    "dayHigh": 36.3799,
+    "dayLow": 35.9,
+    "regularMarketPrice": 36.095,
+    "regularMarketPreviousClose": 35.72,
+    "fiftyTwoWeekHigh": 42.76,
+    "fiftyTwoWeekLow": 24.95,
+    "trailingPE": 25.33338,
+    "dividendYield": 0.65,
+    "volume": 21146,
+    "averageVolume": 65618
+  },
+  "dividends": [
+    {
+      "index": "2018-12-28 09:30:00-05:00",
+      "value": 0.325
+    },
+    {
+      "index": "2019-06-27 09:30:00-04:00",
+      "value": 0.112
+    },
+    {
+      "index": "2019-12-30 09:30:00-05:00",
+      "value": 0.07
+    },
+    {
+      "index": "2020-06-29 09:30:00-04:00",
+      "value": 0.05
+    },
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.02
+    },
+    {
+      "index": "2021-06-29 09:30:00-04:00",
+      "value": 0.057
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.042
+    },
+    {
+      "index": "2022-06-29 09:30:00-04:00",
+      "value": 0.108
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.139
+    },
+    {
+      "index": "2023-06-29 09:30:00-04:00",
+      "value": 0.175
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.224
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.183
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.291
+    },
+    {
+      "index": "2025-06-27 09:30:00-04:00",
+      "value": 0.171
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.145
+    },
+    {
+      "index": "2026-06-29 09:30:00-04:00",
+      "value": 0.074
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

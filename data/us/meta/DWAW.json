@@ -1,0 +1,59 @@
+{
+  "symbol": "DWAW",
+  "region": "us",
+  "name": "AdvisorShares Dorsey Wright FSM All Cap World ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US00768Y4796",
+  "info": {
+    "longName": "AdvisorShares Dorsey Wright FSM All Cap World ETF",
+    "shortName": "AdvisorShares Dorsey Wright FSM",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 51.62,
+    "previousClose": 51.57,
+    "dayHigh": 51.6981,
+    "dayLow": 51.6981,
+    "regularMarketPrice": 51.6981,
+    "regularMarketPreviousClose": 51.57,
+    "fiftyTwoWeekHigh": 51.918,
+    "fiftyTwoWeekLow": 41.23,
+    "trailingPE": 19.10797,
+    "dividendYield": 0.68,
+    "volume": 64,
+    "averageVolume": 1619
+  },
+  "dividends": [
+    {
+      "index": "2020-12-24 09:30:00-05:00",
+      "value": 0.06
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 0.549
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 0.165
+    },
+    {
+      "index": "2023-12-26 09:30:00-05:00",
+      "value": 0.576
+    },
+    {
+      "index": "2025-12-22 09:30:00-05:00",
+      "value": 0.337
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

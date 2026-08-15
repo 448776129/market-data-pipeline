@@ -1,0 +1,138 @@
+{
+  "symbol": "DSACW",
+  "region": "us",
+  "name": "Daedalus Special Acquisition Corp.",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "longName": "Daedalus Special Acquisition Corp.",
+    "shortName": "Daedalus Special Acquisition Corp. Warrant",
+    "sector": "",
+    "industry": "",
+    "country": "United Kingdom",
+    "exchange": "NGM",
+    "currency": "USD",
+    "currentPrice": 0.6,
+    "open": 0.6,
+    "previousClose": 0.6,
+    "dayHigh": 0.6,
+    "dayLow": 0.6,
+    "regularMarketPrice": 0.6,
+    "regularMarketPreviousClose": 0.6,
+    "fiftyTwoWeekHigh": 0.6,
+    "fiftyTwoWeekLow": 0.6,
+    "priceToBook": -2.5316455,
+    "volume": 149,
+    "floatShares": 15539915,
+    "recommendationKey": "none",
+    "totalDebt": 0,
+    "totalCash": 626995,
+    "profitMargins": 0.0
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 0.6
+  },
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Adage Capital Partners GP L.L.C.",
+      "pctHeld": 0.0701,
+      "Shares": 450000,
+      "Value": 270000,
+      "pctChange": 1.0
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Linden Advisors LP",
+      "pctHeld": 0.052600004,
+      "Shares": 337498,
+      "Value": 202498,
+      "pctChange": 1.0
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Empyrean Capital Partners, LP",
+      "pctHeld": 0.044099998,
+      "Shares": 283000,
+      "Value": 169800,
+      "pctChange": 1.0
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Fort Baker Capital Management LP",
+      "pctHeld": 0.0308,
+      "Shares": 197499,
+      "Value": 118499,
+      "pctChange": 1.0
+    },
+    {
+      "index": "4",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Verition Fund Management, LLC",
+      "pctHeld": 0.0274,
+      "Shares": 175800,
+      "Value": 105480,
+      "pctChange": 1.0
+    },
+    {
+      "index": "5",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Ilex Capital Partners (UK) LLP",
+      "pctHeld": 0.0253,
+      "Shares": 162500,
+      "Value": 97500,
+      "pctChange": 1.0
+    },
+    {
+      "index": "6",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Tenor Capital Management Co., L.p.",
+      "pctHeld": 0.024300002,
+      "Shares": 156250,
+      "Value": 93750,
+      "pctChange": 1.0
+    },
+    {
+      "index": "7",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Magnetar Financial LLC",
+      "pctHeld": 0.0234,
+      "Shares": 150000,
+      "Value": 90000,
+      "pctChange": 1.0
+    },
+    {
+      "index": "8",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "AQR Arbitrage LLC",
+      "pctHeld": 0.0224,
+      "Shares": 143812,
+      "Value": 86287,
+      "pctChange": 1.0
+    },
+    {
+      "index": "9",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Healthcare of Ontario Pension Plan Trust Fund",
+      "pctHeld": 0.0195,
+      "Shares": 125000,
+      "Value": 75000,
+      "pctChange": 0.0
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "symbol": "DAX",
+  "region": "us",
+  "name": "Global X DAX Germany ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US37954Y4917",
+  "info": {
+    "longName": "Global X DAX Germany ETF",
+    "shortName": "Global X DAX Germany ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 47.28,
+    "previousClose": 47.18,
+    "dayHigh": 47.5433,
+    "dayLow": 47.18,
+    "regularMarketPrice": 47.4,
+    "regularMarketPreviousClose": 47.18,
+    "fiftyTwoWeekHigh": 47.7,
+    "fiftyTwoWeekLow": 40.35,
+    "trailingPE": 19.272161,
+    "dividendYield": 2.06,
+    "volume": 20981,
+    "averageVolume": 40544
+  },
+  "dividends": [
+    {
+      "index": "2015-06-24 09:30:00-04:00",
+      "value": 0.273
+    },
+    {
+      "index": "2015-12-23 09:30:00-05:00",
+      "value": 0.079
+    },
+    {
+      "index": "2016-06-22 09:30:00-04:00",
+      "value": 0.128
+    },
+    {
+      "index": "2016-12-21 09:30:00-05:00",
+      "value": 0.32
+    },
+    {
+      "index": "2017-06-21 09:30:00-04:00",
+      "value": 0.547
+    },
+    {
+      "index": "2018-06-20 09:30:00-04:00",
+      "value": 0.349
+    },
+    {
+      "index": "2018-12-28 09:30:00-05:00",
+      "value": 0.438
+    },
+    {
+      "index": "2019-06-27 09:30:00-04:00",
+      "value": 0.691
+    },
+    {
+      "index": "2019-12-30 09:30:00-05:00",
+      "value": 0.003
+    },
+    {
+      "index": "2020-06-29 09:30:00-04:00",
+      "value": 0.293
+    },
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.4
+    },
+    {
+      "index": "2021-06-29 09:30:00-04:00",
+      "value": 0.523
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.333
+    },
+    {
+      "index": "2022-06-29 09:30:00-04:00",
+      "value": 0.606
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.111
+    },
+    {
+      "index": "2023-06-29 09:30:00-04:00",
+      "value": 0.651
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.113
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.657
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.091
+    },
+    {
+      "index": "2025-06-27 09:30:00-04:00",
+      "value": 0.587
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.085
+    },
+    {
+      "index": "2026-06-29 09:30:00-04:00",
+      "value": 0.857
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,100 @@
+{
+  "symbol": "DTJ",
+  "region": "us",
+  "name": "DTE Energy Company JR SUB DEB 76",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "DTE Energy Company JR SUB DEB 76",
+    "shortName": "DTE Energy Company 2016 Series ",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 25.09,
+    "previousClose": 25.09,
+    "dayHigh": 25.1,
+    "dayLow": 25.09,
+    "regularMarketPrice": 25.0909,
+    "regularMarketPreviousClose": 25.09,
+    "fiftyTwoWeekHigh": 26.38,
+    "fiftyTwoWeekLow": 24.99,
+    "trailingPE": 4.117988,
+    "priceToBook": 0.4605187,
+    "volume": 146304,
+    "averageVolume": 31918,
+    "sharesOutstanding": 179394000
+  },
+  "dividends": [
+    {
+      "index": "2017-08-15 09:30:00-04:00",
+      "value": 0.336
+    },
+    {
+      "index": "2017-11-15 09:30:00-05:00",
+      "value": 0.336
+    },
+    {
+      "index": "2018-02-13 09:30:00-05:00",
+      "value": 0.336
+    },
+    {
+      "index": "2018-05-16 09:30:00-04:00",
+      "value": 0.336
+    },
+    {
+      "index": "2018-08-16 09:30:00-04:00",
+      "value": 0.336
+    },
+    {
+      "index": "2018-11-16 09:30:00-05:00",
+      "value": 0.336
+    },
+    {
+      "index": "2019-02-13 09:30:00-05:00",
+      "value": 0.336
+    },
+    {
+      "index": "2019-05-16 09:30:00-04:00",
+      "value": 0.336
+    },
+    {
+      "index": "2019-08-15 09:30:00-04:00",
+      "value": 0.336
+    },
+    {
+      "index": "2019-11-14 09:30:00-05:00",
+      "value": 0.336
+    },
+    {
+      "index": "2020-02-13 09:30:00-05:00",
+      "value": 0.336
+    },
+    {
+      "index": "2020-05-14 09:30:00-04:00",
+      "value": 0.34
+    },
+    {
+      "index": "2020-08-14 09:30:00-04:00",
+      "value": 0.34
+    },
+    {
+      "index": "2020-11-13 09:30:00-05:00",
+      "value": 0.336
+    },
+    {
+      "index": "2021-05-14 09:30:00-04:00",
+      "value": 0.34
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

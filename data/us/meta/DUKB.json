@@ -1,0 +1,160 @@
+{
+  "symbol": "DUKB",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "shortName": "Duke Energy Corporation 5.625% ",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 22.28,
+    "previousClose": 22.3,
+    "dayHigh": 22.3338,
+    "dayLow": 22.28,
+    "regularMarketPrice": 22.3,
+    "regularMarketPreviousClose": 22.3,
+    "fiftyTwoWeekHigh": 25.3,
+    "fiftyTwoWeekLow": 22.26,
+    "volume": 34914,
+    "averageVolume": 41331
+  },
+  "dividends": [
+    {
+      "index": "2018-12-13 09:30:00-05:00",
+      "value": 0.344
+    },
+    {
+      "index": "2019-03-13 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2019-06-13 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2019-09-12 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2019-12-12 09:30:00-05:00",
+      "value": 0.352
+    },
+    {
+      "index": "2020-03-12 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2020-06-11 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2020-09-11 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2020-12-11 09:30:00-05:00",
+      "value": 0.352
+    },
+    {
+      "index": "2021-03-11 09:30:00-05:00",
+      "value": 0.352
+    },
+    {
+      "index": "2021-06-11 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2021-09-13 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2021-12-13 09:30:00-05:00",
+      "value": 0.352
+    },
+    {
+      "index": "2022-03-11 09:30:00-05:00",
+      "value": 0.352
+    },
+    {
+      "index": "2022-06-13 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2022-09-13 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2022-12-13 09:30:00-05:00",
+      "value": 0.352
+    },
+    {
+      "index": "2023-03-13 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2023-06-13 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2023-09-13 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2023-12-13 09:30:00-05:00",
+      "value": 0.352
+    },
+    {
+      "index": "2024-03-13 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2024-06-14 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2024-09-13 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2024-12-13 09:30:00-05:00",
+      "value": 0.352
+    },
+    {
+      "index": "2025-03-14 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2025-06-13 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2025-09-12 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2025-12-12 09:30:00-05:00",
+      "value": 0.352
+    },
+    {
+      "index": "2026-03-13 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2026-06-12 09:30:00-04:00",
+      "value": 0.352
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

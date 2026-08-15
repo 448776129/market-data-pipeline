@@ -1,0 +1,51 @@
+{
+  "symbol": "EGLE",
+  "region": "us",
+  "name": "Global X S&P 500 U.S. Revenue Leaders ETF",
+  "currency": "USD",
+  "exchange": "PCX",
+  "isin": "US37960A3620",
+  "info": {
+    "longName": "Global X S&P 500 U.S. Revenue Leaders ETF",
+    "shortName": "Global X S&P 500 U.S. Revenue L",
+    "exchange": "PCX",
+    "currency": "USD",
+    "open": 32.09,
+    "previousClose": 32.9158,
+    "dayHigh": 32.8482,
+    "dayLow": 32.8482,
+    "regularMarketPrice": 32.8482,
+    "regularMarketPreviousClose": 32.9158,
+    "fiftyTwoWeekHigh": 32.916,
+    "fiftyTwoWeekLow": 26.757,
+    "trailingPE": 24.21338,
+    "dividendYield": 1.15,
+    "volume": 66,
+    "averageVolume": 314
+  },
+  "dividends": [
+    {
+      "index": "2025-06-27 09:30:00-04:00",
+      "value": 0.079
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.208
+    },
+    {
+      "index": "2026-06-29 09:30:00-04:00",
+      "value": 0.151
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

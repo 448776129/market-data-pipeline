@@ -1,0 +1,91 @@
+{
+  "symbol": "DMXF",
+  "region": "us",
+  "name": "iShares ESG Advanced MSCI EAFE Index ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US46436E7590",
+  "info": {
+    "longName": "iShares ESG Advanced MSCI EAFE Index ETF",
+    "shortName": "iShares ESG Advanced MSCI EAFE ",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 87.7,
+    "previousClose": 87.6701,
+    "dayHigh": 87.94,
+    "dayLow": 87.36,
+    "regularMarketPrice": 87.5772,
+    "regularMarketPreviousClose": 87.6701,
+    "fiftyTwoWeekHigh": 88.06,
+    "fiftyTwoWeekLow": 72.41,
+    "trailingPE": 19.805275,
+    "dividendYield": 4.22,
+    "volume": 29594,
+    "averageVolume": 99133
+  },
+  "dividends": [
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.197
+    },
+    {
+      "index": "2021-06-10 09:30:00-04:00",
+      "value": 0.626
+    },
+    {
+      "index": "2021-12-13 09:30:00-05:00",
+      "value": 0.67
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.019
+    },
+    {
+      "index": "2022-06-09 09:30:00-04:00",
+      "value": 0.974
+    },
+    {
+      "index": "2022-12-13 09:30:00-05:00",
+      "value": 0.313
+    },
+    {
+      "index": "2023-06-07 09:30:00-04:00",
+      "value": 0.88
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.583
+    },
+    {
+      "index": "2024-06-11 09:30:00-04:00",
+      "value": 1.001
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 0.884
+    },
+    {
+      "index": "2025-06-16 09:30:00-04:00",
+      "value": 1.141
+    },
+    {
+      "index": "2025-12-16 09:30:00-05:00",
+      "value": 2.504
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 1.033
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

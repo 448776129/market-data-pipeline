@@ -1,0 +1,48 @@
+{
+  "symbol": "EAI",
+  "region": "us",
+  "name": "Entergy Arkansas, Inc. 1M BD 4.875%66",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "Entergy Arkansas, Inc. 1M BD 4.875%66",
+    "shortName": "Entergy Arkansas, LLC First Mor",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 19.8,
+    "previousClose": 19.86,
+    "dayHigh": 19.83,
+    "dayLow": 19.7801,
+    "regularMarketPrice": 19.81,
+    "regularMarketPreviousClose": 19.86,
+    "fiftyTwoWeekHigh": 21.71,
+    "fiftyTwoWeekLow": 19.68,
+    "trailingPE": 5.8025775,
+    "priceToBook": 0.38574627,
+    "volume": 8043,
+    "averageVolume": 29844,
+    "sharesOutstanding": 46980200
+  },
+  "dividends": [
+    {
+      "index": "2026-02-27 09:30:00-05:00",
+      "value": 0.305
+    },
+    {
+      "index": "2026-05-29 09:30:00-04:00",
+      "value": 0.305
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

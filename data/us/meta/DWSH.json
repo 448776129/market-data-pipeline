@@ -1,0 +1,58 @@
+{
+  "symbol": "DWSH",
+  "region": "us",
+  "name": "AdvisorShares Dorsey Wright Short ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US00768Y5298",
+  "info": {
+    "longName": "AdvisorShares Dorsey Wright Short ETF",
+    "shortName": "AdvisorShares Dorsey Wright Sho",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 5.54,
+    "previousClose": 5.48,
+    "dayHigh": 5.54,
+    "dayLow": 5.5201,
+    "regularMarketPrice": 5.535,
+    "regularMarketPreviousClose": 5.48,
+    "fiftyTwoWeekHigh": 7.5,
+    "fiftyTwoWeekLow": 5.465,
+    "dividendYield": 7.04,
+    "volume": 2042,
+    "averageVolume": 61147
+  },
+  "dividends": [
+    {
+      "index": "2018-12-27 09:30:00-05:00",
+      "value": 0.036
+    },
+    {
+      "index": "2019-12-27 09:30:00-05:00",
+      "value": 0.031
+    },
+    {
+      "index": "2023-12-26 09:30:00-05:00",
+      "value": 0.724
+    },
+    {
+      "index": "2024-12-23 09:30:00-05:00",
+      "value": 0.434
+    },
+    {
+      "index": "2025-12-22 09:30:00-05:00",
+      "value": 0.406
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,75 @@
+{
+  "symbol": "EBIZ",
+  "region": "us",
+  "name": "Global X E-commerce ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US37954Y4677",
+  "info": {
+    "longName": "Global X E-commerce ETF",
+    "shortName": "Global X E-commerce ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 30.635,
+    "previousClose": 30.425,
+    "dayHigh": 30.635,
+    "dayLow": 30.5569,
+    "regularMarketPrice": 30.5569,
+    "regularMarketPreviousClose": 30.425,
+    "fiftyTwoWeekHigh": 36.0,
+    "fiftyTwoWeekLow": 25.85,
+    "trailingPE": 19.83032,
+    "dividendYield": 0.5,
+    "volume": 3520,
+    "averageVolume": 3409
+  },
+  "dividends": [
+    {
+      "index": "2019-12-30 09:30:00-05:00",
+      "value": 0.034
+    },
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.266
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.156
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.016
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.057
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.008
+    },
+    {
+      "index": "2025-06-27 09:30:00-04:00",
+      "value": 0.097
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.069
+    },
+    {
+      "index": "2026-06-29 09:30:00-04:00",
+      "value": 0.083
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

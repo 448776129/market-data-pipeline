@@ -1,0 +1,83 @@
+{
+  "symbol": "DXGE",
+  "region": "us",
+  "name": "WisdomTree Germany Hedged Equity Fund",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "longName": "WisdomTree Germany Hedged Equity Fund",
+    "shortName": "WisdomTree Germany Hedged Equit",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 34.959,
+    "previousClose": 34.19,
+    "dayHigh": 34.02,
+    "dayLow": 33.79,
+    "regularMarketPrice": 33.79,
+    "regularMarketPreviousClose": 34.19,
+    "fiftyTwoWeekHigh": 37.9488,
+    "fiftyTwoWeekLow": 31.38,
+    "trailingPE": 8.834828,
+    "dividendYield": 5.12,
+    "volume": 17,
+    "averageVolume": 761
+  },
+  "dividends": [
+    {
+      "index": "2014-06-23 09:30:00-04:00",
+      "value": 0.1725
+    },
+    {
+      "index": "2014-09-22 09:30:00-04:00",
+      "value": 0.22223
+    },
+    {
+      "index": "2014-12-19 09:30:00-05:00",
+      "value": 0.0111
+    },
+    {
+      "index": "2015-06-22 09:30:00-04:00",
+      "value": 0.34526
+    },
+    {
+      "index": "2015-12-21 09:30:00-05:00",
+      "value": 0.15025
+    },
+    {
+      "index": "2016-06-20 09:30:00-04:00",
+      "value": 0.865
+    },
+    {
+      "index": "2016-09-26 09:30:00-04:00",
+      "value": 0.1
+    },
+    {
+      "index": "2019-06-24 09:30:00-04:00",
+      "value": 0.81
+    },
+    {
+      "index": "2021-06-24 09:30:00-04:00",
+      "value": 0.76
+    },
+    {
+      "index": "2021-12-27 09:30:00-05:00",
+      "value": 0.61807
+    },
+    {
+      "index": "2023-06-26 09:30:00-04:00",
+      "value": 1.35
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

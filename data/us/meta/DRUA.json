@@ -1,0 +1,108 @@
+{
+  "symbol": "DRUA",
+  "region": "us",
+  "name": "Dominion Energy, Inc. ENHCD SUB NT16 A",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "Dominion Energy, Inc. ENHCD SUB NT16 A",
+    "shortName": "Dominion Energy, Inc. 2016 Seri",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 25.09,
+    "previousClose": 25.09,
+    "dayHigh": 25.1,
+    "dayLow": 25.09,
+    "regularMarketPrice": 25.09,
+    "regularMarketPreviousClose": 25.09,
+    "fiftyTwoWeekHigh": 26.5,
+    "fiftyTwoWeekLow": 24.94,
+    "trailingPE": 5.6117196,
+    "priceToBook": 0.9262062,
+    "volume": 33174,
+    "averageVolume": 56665,
+    "sharesOutstanding": 630000000
+  },
+  "dividends": [
+    {
+      "index": "2017-07-26 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2017-10-26 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2018-01-26 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2018-04-26 09:30:00-04:00",
+      "value": 0.33
+    },
+    {
+      "index": "2018-07-26 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2018-10-26 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2019-01-28 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2019-04-26 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2019-07-26 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2019-10-28 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2020-01-28 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2020-04-28 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2020-07-28 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2020-10-28 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2021-01-28 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2021-04-28 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2021-07-28 09:30:00-04:00",
+      "value": 0.328
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

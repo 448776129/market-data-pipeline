@@ -1,0 +1,164 @@
+{
+  "symbol": "DTW",
+  "region": "us",
+  "name": "DTE Energy Company JR SUB DB 2017 E",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "DTE Energy Company JR SUB DB 2017 E",
+    "shortName": "DTE Energy Company 2017 Series ",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 19.94,
+    "previousClose": 19.97,
+    "dayHigh": 19.95,
+    "dayLow": 19.8368,
+    "regularMarketPrice": 19.94,
+    "regularMarketPreviousClose": 19.97,
+    "fiftyTwoWeekHigh": 23.23,
+    "fiftyTwoWeekLow": 19.8368,
+    "trailingPE": 3.272608,
+    "priceToBook": 0.36597902,
+    "volume": 28861,
+    "averageVolume": 27750,
+    "sharesOutstanding": 179394000
+  },
+  "dividends": [
+    {
+      "index": "2018-08-16 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2018-11-15 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2019-02-13 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2019-05-16 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2019-08-15 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2019-11-14 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2020-05-14 09:30:00-04:00",
+      "value": 0.324
+    },
+    {
+      "index": "2020-08-14 09:30:00-04:00",
+      "value": 0.332
+    },
+    {
+      "index": "2020-11-13 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2021-02-11 09:30:00-05:00",
+      "value": 0.321
+    },
+    {
+      "index": "2021-05-14 09:30:00-04:00",
+      "value": 0.332
+    },
+    {
+      "index": "2021-08-16 09:30:00-04:00",
+      "value": 0.332
+    },
+    {
+      "index": "2021-11-15 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2022-02-11 09:30:00-05:00",
+      "value": 0.321
+    },
+    {
+      "index": "2022-05-16 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2022-08-16 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2022-11-15 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2023-02-13 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2023-05-16 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2023-08-16 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2023-11-15 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2024-02-14 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2024-05-16 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2024-08-16 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2024-11-15 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2025-02-14 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2025-05-16 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2025-08-15 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2025-11-14 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2026-02-13 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2026-05-15 09:30:00-04:00",
+      "value": 0.328
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

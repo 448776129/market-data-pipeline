@@ -1,0 +1,83 @@
+{
+  "symbol": "DWAT",
+  "region": "us",
+  "name": "Arrow DWA Tactical: Macro ETF",
+  "currency": "USD",
+  "exchange": "BTS",
+  "isin": "-",
+  "info": {
+    "longName": "Arrow DWA Tactical: Macro ETF",
+    "shortName": "Arrow Investments Trust Arrow D",
+    "exchange": "BTS",
+    "currency": "USD",
+    "open": 12.19,
+    "previousClose": 11.0368,
+    "dayHigh": 11.04,
+    "dayLow": 11.02,
+    "regularMarketPrice": 11.04,
+    "regularMarketPreviousClose": 11.0368,
+    "fiftyTwoWeekHigh": 12.3,
+    "fiftyTwoWeekLow": 10.2649,
+    "trailingPE": 17.369246,
+    "dividendYield": 0.08,
+    "volume": 271,
+    "averageVolume": 478
+  },
+  "dividends": [
+    {
+      "index": "2014-12-29 09:30:00-05:00",
+      "value": 0.0393
+    },
+    {
+      "index": "2015-12-29 09:30:00-05:00",
+      "value": 0.0065
+    },
+    {
+      "index": "2016-12-28 09:30:00-05:00",
+      "value": 0.0914
+    },
+    {
+      "index": "2017-12-26 09:30:00-05:00",
+      "value": 0.301
+    },
+    {
+      "index": "2018-12-28 09:30:00-05:00",
+      "value": 0.3382
+    },
+    {
+      "index": "2019-12-26 09:30:00-05:00",
+      "value": 0.3312
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 2.344
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 0.522
+    },
+    {
+      "index": "2023-12-26 09:30:00-05:00",
+      "value": 0.053
+    },
+    {
+      "index": "2024-12-26 09:30:00-05:00",
+      "value": 0.0099
+    },
+    {
+      "index": "2025-06-23 09:30:00-04:00",
+      "value": 1.1932
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

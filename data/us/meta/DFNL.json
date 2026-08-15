@@ -1,0 +1,75 @@
+{
+  "symbol": "DFNL",
+  "region": "us",
+  "name": "Davis Select Financial ETF",
+  "currency": "USD",
+  "exchange": "BTS",
+  "isin": "US23908L1089",
+  "info": {
+    "longName": "Davis Select Financial ETF",
+    "shortName": "Davis Select Financial ETF",
+    "exchange": "BTS",
+    "currency": "USD",
+    "open": 52.9,
+    "previousClose": 52.8146,
+    "dayHigh": 53.0899,
+    "dayLow": 52.9401,
+    "regularMarketPrice": 53.0022,
+    "regularMarketPreviousClose": 52.8146,
+    "fiftyTwoWeekHigh": 53.0899,
+    "fiftyTwoWeekLow": 43.13,
+    "trailingPE": 13.219685,
+    "dividendYield": 1.29,
+    "volume": 7013,
+    "averageVolume": 50886
+  },
+  "dividends": [
+    {
+      "index": "2017-12-26 09:30:00-05:00",
+      "value": 0.263
+    },
+    {
+      "index": "2018-12-26 09:30:00-05:00",
+      "value": 0.64
+    },
+    {
+      "index": "2019-12-27 09:30:00-05:00",
+      "value": 0.642
+    },
+    {
+      "index": "2020-12-29 09:30:00-05:00",
+      "value": 0.347
+    },
+    {
+      "index": "2021-12-29 09:30:00-05:00",
+      "value": 0.749
+    },
+    {
+      "index": "2022-12-28 09:30:00-05:00",
+      "value": 0.905
+    },
+    {
+      "index": "2023-12-27 09:30:00-05:00",
+      "value": 0.704
+    },
+    {
+      "index": "2024-12-27 09:30:00-05:00",
+      "value": 0.833
+    },
+    {
+      "index": "2025-12-29 09:30:00-05:00",
+      "value": 0.66
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

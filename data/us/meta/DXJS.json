@@ -1,0 +1,171 @@
+{
+  "symbol": "DXJS",
+  "region": "us",
+  "name": "WisdomTree Japan Hedged SmallCap Equity Fund",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "longName": "WisdomTree Japan Hedged SmallCap Equity Fund",
+    "shortName": "WisdomTree Japan Hedged SmallCa",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 37.27,
+    "previousClose": 36.74,
+    "dayHigh": 37.27,
+    "dayLow": 36.5,
+    "regularMarketPrice": 36.56,
+    "regularMarketPreviousClose": 36.74,
+    "fiftyTwoWeekHigh": 37.98,
+    "fiftyTwoWeekLow": 27.18,
+    "trailingPE": 11.275101,
+    "dividendYield": 4.41,
+    "volume": 6592,
+    "averageVolume": 11513
+  },
+  "dividends": [
+    {
+      "index": "2013-12-24 09:30:00-05:00",
+      "value": 0.0319
+    },
+    {
+      "index": "2014-06-23 09:30:00-04:00",
+      "value": 0.1193
+    },
+    {
+      "index": "2014-12-19 09:30:00-05:00",
+      "value": 1.19736
+    },
+    {
+      "index": "2015-06-22 09:30:00-04:00",
+      "value": 0.064465
+    },
+    {
+      "index": "2015-12-21 09:30:00-05:00",
+      "value": 0.54926
+    },
+    {
+      "index": "2016-06-20 09:30:00-04:00",
+      "value": 0.1975
+    },
+    {
+      "index": "2016-12-23 09:30:00-05:00",
+      "value": 0.10092
+    },
+    {
+      "index": "2017-06-26 09:30:00-04:00",
+      "value": 0.27
+    },
+    {
+      "index": "2017-09-26 09:30:00-04:00",
+      "value": 0.000595
+    },
+    {
+      "index": "2017-12-26 09:30:00-05:00",
+      "value": 0.080475
+    },
+    {
+      "index": "2018-06-25 09:30:00-04:00",
+      "value": 0.37949
+    },
+    {
+      "index": "2019-06-24 09:30:00-04:00",
+      "value": 0.21742
+    },
+    {
+      "index": "2019-09-24 09:30:00-04:00",
+      "value": 0.005
+    },
+    {
+      "index": "2019-12-23 09:30:00-05:00",
+      "value": 0.23865
+    },
+    {
+      "index": "2020-06-23 09:30:00-04:00",
+      "value": 0.334585
+    },
+    {
+      "index": "2020-12-21 09:30:00-05:00",
+      "value": 0.27179
+    },
+    {
+      "index": "2021-06-24 09:30:00-04:00",
+      "value": 0.237265
+    },
+    {
+      "index": "2021-09-24 09:30:00-04:00",
+      "value": 0.005
+    },
+    {
+      "index": "2021-12-27 09:30:00-05:00",
+      "value": 0.39867
+    },
+    {
+      "index": "2022-06-24 09:30:00-04:00",
+      "value": 0.3025
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 0.28072
+    },
+    {
+      "index": "2023-03-27 09:30:00-04:00",
+      "value": 0.245
+    },
+    {
+      "index": "2023-06-26 09:30:00-04:00",
+      "value": 0.22252
+    },
+    {
+      "index": "2023-12-22 09:30:00-05:00",
+      "value": 0.34
+    },
+    {
+      "index": "2024-03-22 09:30:00-04:00",
+      "value": 0.25
+    },
+    {
+      "index": "2024-06-25 09:30:00-04:00",
+      "value": 0.0991
+    },
+    {
+      "index": "2024-09-25 09:30:00-04:00",
+      "value": 0.015
+    },
+    {
+      "index": "2024-12-26 09:30:00-05:00",
+      "value": 1.0247
+    },
+    {
+      "index": "2025-06-25 09:30:00-04:00",
+      "value": 0.575
+    },
+    {
+      "index": "2025-09-25 09:30:00-04:00",
+      "value": 0.01
+    },
+    {
+      "index": "2025-12-26 09:30:00-05:00",
+      "value": 0.23981
+    },
+    {
+      "index": "2026-03-26 09:30:00-04:00",
+      "value": 0.055
+    },
+    {
+      "index": "2026-06-25 09:30:00-04:00",
+      "value": 0.34
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

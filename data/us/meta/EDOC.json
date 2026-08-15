@@ -1,0 +1,51 @@
+{
+  "symbol": "EDOC",
+  "region": "us",
+  "name": "Global X HealthTech ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "longName": "Global X HealthTech ETF",
+    "shortName": "Global X Telemedicine & Digital",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 9.3299,
+    "previousClose": 9.38,
+    "dayHigh": 9.45,
+    "dayLow": 9.22,
+    "regularMarketPrice": 9.45,
+    "regularMarketPreviousClose": 9.38,
+    "fiftyTwoWeekHigh": 11.91,
+    "fiftyTwoWeekLow": 8.16,
+    "trailingPE": 38.483902,
+    "dividendYield": 0.0,
+    "volume": 9067,
+    "averageVolume": 25254
+  },
+  "dividends": [
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.019269
+    },
+    {
+      "index": "2025-06-27 09:30:00-04:00",
+      "value": 0.024456
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.071843
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

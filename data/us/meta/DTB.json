@@ -1,0 +1,120 @@
+{
+  "symbol": "DTB",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "shortName": "DTE Energy Company 2020 Series ",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 16.135,
+    "previousClose": 16.17,
+    "dayHigh": 16.1599,
+    "dayLow": 16.08,
+    "regularMarketPrice": 16.1599,
+    "regularMarketPreviousClose": 16.17,
+    "fiftyTwoWeekHigh": 19.178,
+    "fiftyTwoWeekLow": 15.96,
+    "volume": 10380,
+    "averageVolume": 22843
+  },
+  "dividends": [
+    {
+      "index": "2021-06-29 09:30:00-04:00",
+      "value": 0.273
+    },
+    {
+      "index": "2021-09-29 09:30:00-04:00",
+      "value": 0.273
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.273
+    },
+    {
+      "index": "2022-03-30 09:30:00-04:00",
+      "value": 0.273
+    },
+    {
+      "index": "2022-06-29 09:30:00-04:00",
+      "value": 0.273
+    },
+    {
+      "index": "2022-09-29 09:30:00-04:00",
+      "value": 0.273
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.273
+    },
+    {
+      "index": "2023-03-30 09:30:00-04:00",
+      "value": 0.273
+    },
+    {
+      "index": "2023-06-29 09:30:00-04:00",
+      "value": 0.273
+    },
+    {
+      "index": "2023-09-28 09:30:00-04:00",
+      "value": 0.273
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.273
+    },
+    {
+      "index": "2024-03-27 09:30:00-04:00",
+      "value": 0.273
+    },
+    {
+      "index": "2024-06-28 09:30:00-04:00",
+      "value": 0.273
+    },
+    {
+      "index": "2024-09-30 09:30:00-04:00",
+      "value": 0.273
+    },
+    {
+      "index": "2024-12-31 09:30:00-05:00",
+      "value": 0.273
+    },
+    {
+      "index": "2025-03-31 09:30:00-04:00",
+      "value": 0.273
+    },
+    {
+      "index": "2025-06-30 09:30:00-04:00",
+      "value": 0.273
+    },
+    {
+      "index": "2025-09-30 09:30:00-04:00",
+      "value": 0.273
+    },
+    {
+      "index": "2025-12-31 09:30:00-05:00",
+      "value": 0.273
+    },
+    {
+      "index": "2026-03-31 09:30:00-04:00",
+      "value": 0.273
+    },
+    {
+      "index": "2026-06-30 09:30:00-04:00",
+      "value": 0.273
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

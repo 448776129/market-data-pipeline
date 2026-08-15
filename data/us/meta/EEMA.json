@@ -1,0 +1,156 @@
+{
+  "symbol": "EEMA",
+  "region": "us",
+  "name": "iShares MSCI Emerging Markets Asia ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US4642864262",
+  "info": {
+    "longName": "iShares MSCI Emerging Markets Asia ETF",
+    "shortName": "iShares MSCI Emerging Markets A",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 116.36,
+    "previousClose": 116.13,
+    "dayHigh": 116.57,
+    "dayLow": 115.68,
+    "regularMarketPrice": 116.02,
+    "regularMarketPreviousClose": 116.13,
+    "fiftyTwoWeekHigh": 122.73,
+    "fiftyTwoWeekLow": 84.83,
+    "trailingPE": 18.596598,
+    "dividendYield": 1.38,
+    "volume": 7344,
+    "averageVolume": 163816,
+    "sharesOutstanding": 7600000
+  },
+  "dividends": [
+    {
+      "index": "2012-06-21 09:30:00-04:00",
+      "value": 0.407
+    },
+    {
+      "index": "2012-12-18 09:30:00-05:00",
+      "value": 0.483
+    },
+    {
+      "index": "2013-06-27 09:30:00-04:00",
+      "value": 0.433
+    },
+    {
+      "index": "2013-12-18 09:30:00-05:00",
+      "value": 0.95
+    },
+    {
+      "index": "2014-06-25 09:30:00-04:00",
+      "value": 0.312
+    },
+    {
+      "index": "2014-12-17 09:30:00-05:00",
+      "value": 0.463
+    },
+    {
+      "index": "2015-06-25 09:30:00-04:00",
+      "value": 0.383
+    },
+    {
+      "index": "2015-12-21 09:30:00-05:00",
+      "value": 0.849
+    },
+    {
+      "index": "2016-06-22 09:30:00-04:00",
+      "value": 0.252
+    },
+    {
+      "index": "2016-12-21 09:30:00-05:00",
+      "value": 0.661
+    },
+    {
+      "index": "2017-06-20 09:30:00-04:00",
+      "value": 0.259
+    },
+    {
+      "index": "2017-12-19 09:30:00-05:00",
+      "value": 1.02
+    },
+    {
+      "index": "2018-06-19 09:30:00-04:00",
+      "value": 0.33
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.988
+    },
+    {
+      "index": "2019-06-17 09:30:00-04:00",
+      "value": 0.307
+    },
+    {
+      "index": "2019-12-16 09:30:00-05:00",
+      "value": 1.007
+    },
+    {
+      "index": "2020-06-15 09:30:00-04:00",
+      "value": 0.244
+    },
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.766
+    },
+    {
+      "index": "2021-06-10 09:30:00-04:00",
+      "value": 0.122
+    },
+    {
+      "index": "2021-12-13 09:30:00-05:00",
+      "value": 1.676
+    },
+    {
+      "index": "2022-06-09 09:30:00-04:00",
+      "value": 0.345
+    },
+    {
+      "index": "2022-12-13 09:30:00-05:00",
+      "value": 0.785
+    },
+    {
+      "index": "2023-06-07 09:30:00-04:00",
+      "value": 0.314
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 1.172
+    },
+    {
+      "index": "2024-06-11 09:30:00-04:00",
+      "value": 0.248
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 1.0
+    },
+    {
+      "index": "2025-06-16 09:30:00-04:00",
+      "value": 0.185
+    },
+    {
+      "index": "2025-12-16 09:30:00-05:00",
+      "value": 1.204
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 0.339
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

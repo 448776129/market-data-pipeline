@@ -1,0 +1,75 @@
+{
+  "symbol": "DUSA",
+  "region": "us",
+  "name": "Davis Select U.S. Equity ETF",
+  "currency": "USD",
+  "exchange": "BTS",
+  "isin": "US23908L2079",
+  "info": {
+    "longName": "Davis Select U.S. Equity ETF",
+    "shortName": "Davis Select U.S. Equity ETF",
+    "exchange": "BTS",
+    "currency": "USD",
+    "open": 57.5175,
+    "previousClose": 57.1201,
+    "dayHigh": 57.6899,
+    "dayLow": 57.495,
+    "regularMarketPrice": 57.68,
+    "regularMarketPreviousClose": 57.1201,
+    "fiftyTwoWeekHigh": 58.53,
+    "fiftyTwoWeekLow": 46.413,
+    "trailingPE": 17.718388,
+    "dividendYield": 0.85,
+    "volume": 22411,
+    "averageVolume": 49104
+  },
+  "dividends": [
+    {
+      "index": "2017-12-26 09:30:00-05:00",
+      "value": 0.159
+    },
+    {
+      "index": "2018-12-26 09:30:00-05:00",
+      "value": 0.554
+    },
+    {
+      "index": "2019-12-27 09:30:00-05:00",
+      "value": 0.29
+    },
+    {
+      "index": "2020-12-29 09:30:00-05:00",
+      "value": 0.149
+    },
+    {
+      "index": "2021-12-29 09:30:00-05:00",
+      "value": 0.384
+    },
+    {
+      "index": "2022-12-28 09:30:00-05:00",
+      "value": 0.329
+    },
+    {
+      "index": "2023-12-27 09:30:00-05:00",
+      "value": 1.19
+    },
+    {
+      "index": "2024-12-27 09:30:00-05:00",
+      "value": 0.359
+    },
+    {
+      "index": "2025-12-29 09:30:00-05:00",
+      "value": 0.49
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

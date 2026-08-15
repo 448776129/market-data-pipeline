@@ -1,0 +1,135 @@
+{
+  "symbol": "DALI",
+  "region": "us",
+  "name": "First Trust Dorsey Wright DALI 1 ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US33738R7127",
+  "info": {
+    "longName": "First Trust Dorsey Wright DALI 1 ETF",
+    "shortName": "First Trust Dorsey Wright DALI ",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 29.4629,
+    "previousClose": 29.345,
+    "dayHigh": 29.4629,
+    "dayLow": 29.4629,
+    "regularMarketPrice": 29.4629,
+    "regularMarketPreviousClose": 29.345,
+    "fiftyTwoWeekHigh": 31.464,
+    "fiftyTwoWeekLow": 26.652,
+    "trailingPE": 13.130501,
+    "dividendYield": 1.21,
+    "volume": 121,
+    "averageVolume": 8042
+  },
+  "dividends": [
+    {
+      "index": "2019-03-21 09:30:00-04:00",
+      "value": 0.008
+    },
+    {
+      "index": "2019-06-14 09:30:00-04:00",
+      "value": 0.003
+    },
+    {
+      "index": "2019-09-25 09:30:00-04:00",
+      "value": 0.041
+    },
+    {
+      "index": "2019-12-13 09:30:00-05:00",
+      "value": 0.043
+    },
+    {
+      "index": "2020-03-26 09:30:00-04:00",
+      "value": 0.02
+    },
+    {
+      "index": "2020-06-25 09:30:00-04:00",
+      "value": 0.132
+    },
+    {
+      "index": "2020-09-24 09:30:00-04:00",
+      "value": 0.115
+    },
+    {
+      "index": "2020-12-24 09:30:00-05:00",
+      "value": 0.006
+    },
+    {
+      "index": "2021-09-23 09:30:00-04:00",
+      "value": 0.001
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 0.029
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 0.123
+    },
+    {
+      "index": "2023-03-24 09:30:00-04:00",
+      "value": 0.063
+    },
+    {
+      "index": "2023-06-27 09:30:00-04:00",
+      "value": 0.463
+    },
+    {
+      "index": "2023-09-22 09:30:00-04:00",
+      "value": 0.008
+    },
+    {
+      "index": "2023-12-22 09:30:00-05:00",
+      "value": 0.202
+    },
+    {
+      "index": "2024-03-21 09:30:00-04:00",
+      "value": 0.005
+    },
+    {
+      "index": "2024-09-26 09:30:00-04:00",
+      "value": 0.024
+    },
+    {
+      "index": "2024-12-13 09:30:00-05:00",
+      "value": 0.019
+    },
+    {
+      "index": "2025-03-27 09:30:00-04:00",
+      "value": 0.014
+    },
+    {
+      "index": "2025-06-26 09:30:00-04:00",
+      "value": 0.025
+    },
+    {
+      "index": "2025-09-25 09:30:00-04:00",
+      "value": 0.036
+    },
+    {
+      "index": "2025-12-12 09:30:00-05:00",
+      "value": 0.035
+    },
+    {
+      "index": "2026-03-26 09:30:00-04:00",
+      "value": 0.021
+    },
+    {
+      "index": "2026-06-25 09:30:00-04:00",
+      "value": 0.247
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

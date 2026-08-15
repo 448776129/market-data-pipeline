@@ -1,0 +1,47 @@
+{
+  "symbol": "DWMC",
+  "region": "us",
+  "name": "AdvisorShares Dorsey Wright Micro-Cap ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "longName": "AdvisorShares Dorsey Wright Micro-Cap ETF",
+    "shortName": "AdvisorShares Dorsey Wright Sma",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 31.19,
+    "previousClose": 31.04,
+    "dayHigh": 30.95,
+    "dayLow": 30.95,
+    "regularMarketPrice": 30.95,
+    "regularMarketPreviousClose": 31.04,
+    "fiftyTwoWeekHigh": 34.85,
+    "fiftyTwoWeekLow": 29.68,
+    "trailingPE": 8.385159,
+    "dividendYield": 0.8,
+    "volume": 50,
+    "averageVolume": 2384
+  },
+  "dividends": [
+    {
+      "index": "2019-12-27 09:30:00-05:00",
+      "value": 0.01775
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 0.1589
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

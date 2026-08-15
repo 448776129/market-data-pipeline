@@ -1,0 +1,112 @@
+{
+  "symbol": "DTY",
+  "region": "us",
+  "name": "DTE Energy Company",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "DTE Energy Company",
+    "shortName": "DTE Energy Company 2016 Series ",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 25.0,
+    "previousClose": 24.99,
+    "dayHigh": 25.0,
+    "dayLow": 24.99,
+    "regularMarketPrice": 24.99,
+    "regularMarketPreviousClose": 24.99,
+    "fiftyTwoWeekHigh": 26.99,
+    "fiftyTwoWeekLow": 24.97,
+    "trailingPE": 5.534884,
+    "priceToBook": 0.56510335,
+    "volume": 15369,
+    "averageVolume": 19966,
+    "sharesOutstanding": 181924992
+  },
+  "dividends": [
+    {
+      "index": "2017-05-26 09:30:00-04:00",
+      "value": 0.375
+    },
+    {
+      "index": "2017-08-29 09:30:00-04:00",
+      "value": 0.375
+    },
+    {
+      "index": "2017-11-29 09:30:00-05:00",
+      "value": 0.375
+    },
+    {
+      "index": "2018-02-27 09:30:00-05:00",
+      "value": 0.375
+    },
+    {
+      "index": "2018-05-30 09:30:00-04:00",
+      "value": 0.375
+    },
+    {
+      "index": "2018-08-30 09:30:00-04:00",
+      "value": 0.375
+    },
+    {
+      "index": "2018-11-29 09:30:00-05:00",
+      "value": 0.375
+    },
+    {
+      "index": "2019-02-27 09:30:00-05:00",
+      "value": 0.375
+    },
+    {
+      "index": "2019-05-30 09:30:00-04:00",
+      "value": 0.375
+    },
+    {
+      "index": "2019-08-29 09:30:00-04:00",
+      "value": 0.375
+    },
+    {
+      "index": "2019-11-27 09:30:00-05:00",
+      "value": 0.375
+    },
+    {
+      "index": "2020-02-27 09:30:00-05:00",
+      "value": 0.375
+    },
+    {
+      "index": "2020-08-28 09:30:00-04:00",
+      "value": 0.375
+    },
+    {
+      "index": "2020-11-27 09:30:00-05:00",
+      "value": 0.375
+    },
+    {
+      "index": "2021-02-25 09:30:00-05:00",
+      "value": 0.375
+    },
+    {
+      "index": "2021-05-27 09:30:00-04:00",
+      "value": 0.375
+    },
+    {
+      "index": "2021-08-30 09:30:00-04:00",
+      "value": 0.375
+    },
+    {
+      "index": "2021-11-29 09:30:00-05:00",
+      "value": 0.375
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
