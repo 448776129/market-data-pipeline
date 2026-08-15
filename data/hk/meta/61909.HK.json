@@ -1,0 +1,24 @@
+{
+  "symbol": "61909.HK",
+  "region": "hk",
+  "name": "BI_HSI  RP2003Y",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "BI_HSI  RP2003Y",
+    "shortName": "HS#TENCTRP1812G"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
