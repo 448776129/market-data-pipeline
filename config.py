@@ -43,6 +43,11 @@ UNIVERSE_FILES = {
     "kr": "kr.csv",
 }
 
+# 请求间隔（秒）：控制对 Yahoo 的请求频率，避免触发限流导致 429/404
+REQUEST_DELAY = 2
+# 单只股票请求的最大重试次数（遇瞬时网络/限流错误时指数退避重试）
+MAX_RETRIES = 3
+
 # 全市场股票列表的数据源（供 fetch_universe.py 使用）
 # us: 每行一个美股代码
 # hk: 港股代码清单（code 列），需加 .HK

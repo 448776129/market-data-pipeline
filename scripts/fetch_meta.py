@@ -167,11 +167,11 @@ def run(region: str | None, batch: int = 0, batches: int = 1) -> int:
         )
         for symbol in symbols:
             try:
-                fetch_symbol(reg, symbol)
+                marketlib.run_with_retry(fetch_symbol, reg, symbol)
             except Exception as exc:  # noqa: BLE001
                 print(f"  [失败] {symbol}: {exc}", flush=True)
                 failed.append(symbol)
-            time.sleep(1)
+            time.sleep(config.REQUEST_DELAY)
 
     if failed:
         print(f"失败 {len(failed)} 只: {failed}", file=sys.stderr)

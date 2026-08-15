@@ -104,11 +104,11 @@ def run(region: str | None, symbol: str | None, batch: int = 0, batches: int = 1
     failed: list[str] = []
     for reg, sym in targets:
         try:
-            fetch_symbol(reg, sym)
+            marketlib.run_with_retry(fetch_symbol, reg, sym)
         except Exception as exc:  # noqa: BLE001
             print(f"  [失败] {sym}: {exc}", flush=True)
             failed.append(sym)
-        time.sleep(1)
+        time.sleep(config.REQUEST_DELAY)
 
     if failed:
         print(f"失败 {len(failed)} 只: {failed}", file=sys.stderr)

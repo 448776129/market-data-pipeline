@@ -6,6 +6,7 @@
 from __future__ import annotations
 
 import sys
+import time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -53,3 +54,22 @@ def slice_batch(symbols: list[str], batch: int, batches: int) -> list[str]:
     size = (n + batches - 1) // batches  # 向上取整
     start = batch * size
     return symbols[start : start + size]
+
+
+def run_with_retry(fn, *args, retries: int | None = None, delay: float | None = None, **kwargs):
+    """执行 fn，遇瞬时错误按指数退避重试；重试耗尽后抛出原异常。"""
+    retries = config.MAX_RETRIES if retries is None else retries
+    delay = config.REQUEST_DELAY if delay is None else delay
+    last_exc: Exception | None = None
+    for attempt in range(retries):
+        try:
+            return fn(*args, **kwargs)
+        except Exception as exc:  # noqa: BLE001 - 记录并重试
+            last_exc = exc
+            if attempt < retries - 1:
+                wait = delay * (2**attempt)
+                print(f"    重试 {attempt+1}/{retries-1}（等 {wait:.0f}s）：{exc}", flush=True)
+                time.sleep(wait)
+    if last_exc is not None:
+        raise last_exc
+    return None

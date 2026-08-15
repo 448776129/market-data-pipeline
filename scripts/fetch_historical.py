@@ -76,12 +76,12 @@ def run(region: str | None, batch: int = 0, batches: int = 1) -> int:
         )
         for symbol in symbols:
             try:
-                fetch_symbol(reg, symbol)
+                marketlib.run_with_retry(fetch_symbol, reg, symbol)
             except Exception as exc:  # noqa: BLE001 - 单只失败不中断整体
                 print(f"  [失败] {symbol}: {exc}", flush=True)
                 failed.append(symbol)
             # 控制请求频率，避免触发 Yahoo 限流
-            time.sleep(1)
+            time.sleep(config.REQUEST_DELAY)
 
     if failed:
         print(f"失败 {len(failed)} 只: {failed}", file=sys.stderr)
