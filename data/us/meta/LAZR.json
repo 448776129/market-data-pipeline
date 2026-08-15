@@ -1,0 +1,180 @@
+{
+  "symbol": "LAZR",
+  "region": "us",
+  "name": "Tema Photonics & Optical ETF",
+  "currency": "USD",
+  "exchange": "PCX",
+  "isin": "US87975E7435",
+  "info": {
+    "longName": "Tema Photonics & Optical ETF",
+    "shortName": "Tema Photonics & Optical ETF",
+    "exchange": "PCX",
+    "currency": "USD",
+    "open": 46.675,
+    "previousClose": 46.44,
+    "dayHigh": 48.18,
+    "dayLow": 46.44,
+    "regularMarketPrice": 47.5,
+    "regularMarketPreviousClose": 46.44,
+    "fiftyTwoWeekHigh": 50.79,
+    "fiftyTwoWeekLow": 32.55,
+    "trailingPE": 71.477974,
+    "volume": 266998,
+    "averageVolume": 149125
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2026-03-04 16:00:00-05:00",
+      "EPS Estimate": -0.64,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2025-11-13 16:00:00-05:00",
+      "EPS Estimate": -1.13,
+      "Reported EPS": -0.94,
+      "Surprise(%)": 17.17
+    },
+    {
+      "index": "2025-08-12 16:00:00-04:00",
+      "EPS Estimate": -1.18,
+      "Reported EPS": -1.49,
+      "Surprise(%)": -26.07
+    },
+    {
+      "index": "2025-05-14 17:00:00-04:00",
+      "EPS Estimate": -1.63,
+      "Reported EPS": -1.5,
+      "Surprise(%)": 7.74
+    },
+    {
+      "index": "2025-03-20 16:00:00-04:00",
+      "EPS Estimate": -1.96,
+      "Reported EPS": -1.42,
+      "Surprise(%)": 27.54
+    },
+    {
+      "index": "2024-11-11 17:00:00-05:00",
+      "EPS Estimate": -2.35,
+      "Reported EPS": -2.4,
+      "Surprise(%)": -2.26
+    },
+    {
+      "index": "2024-08-06 16:00:00-04:00",
+      "EPS Estimate": -2.6,
+      "Reported EPS": -2.7,
+      "Surprise(%)": -3.71
+    },
+    {
+      "index": "2024-05-10 07:00:00-04:00",
+      "EPS Estimate": -2.84,
+      "Reported EPS": -2.85,
+      "Surprise(%)": -0.52
+    },
+    {
+      "index": "2024-02-27 16:00:00-05:00",
+      "EPS Estimate": -2.82,
+      "Reported EPS": -3.0,
+      "Surprise(%)": -6.49
+    },
+    {
+      "index": "2023-11-08 16:00:00-05:00",
+      "EPS Estimate": -2.92,
+      "Reported EPS": -3.15,
+      "Surprise(%)": -7.84
+    },
+    {
+      "index": "2023-08-08 16:00:00-04:00",
+      "EPS Estimate": -3.44,
+      "Reported EPS": -3.15,
+      "Surprise(%)": 8.31
+    },
+    {
+      "index": "2023-05-09 16:00:00-04:00",
+      "EPS Estimate": -3.11,
+      "Reported EPS": -3.6,
+      "Surprise(%)": -15.81
+    },
+    {
+      "index": "2023-02-28 15:00:00-05:00",
+      "EPS Estimate": -3.19,
+      "Reported EPS": -3.9,
+      "Surprise(%)": -22.41
+    },
+    {
+      "index": "2022-11-02 16:00:00-04:00",
+      "EPS Estimate": -3.02,
+      "Reported EPS": -2.7,
+      "Surprise(%)": 10.71
+    },
+    {
+      "index": "2022-08-08 16:00:00-04:00",
+      "EPS Estimate": -2.46,
+      "Reported EPS": -2.7,
+      "Surprise(%)": -9.59
+    },
+    {
+      "index": "2022-05-05 16:00:00-04:00",
+      "EPS Estimate": -1.93,
+      "Reported EPS": -2.4,
+      "Surprise(%)": -24.43
+    },
+    {
+      "index": "2022-02-28 16:00:00-05:00",
+      "EPS Estimate": -1.67,
+      "Reported EPS": -1.8,
+      "Surprise(%)": -7.58
+    },
+    {
+      "index": "2021-11-11 16:00:00-05:00",
+      "EPS Estimate": -1.54,
+      "Reported EPS": -1.5,
+      "Surprise(%)": 2.78
+    },
+    {
+      "index": "2021-08-12 16:00:00-04:00",
+      "EPS Estimate": -1.03,
+      "Reported EPS": -1.2,
+      "Surprise(%)": -16.02
+    },
+    {
+      "index": "2021-05-13 16:00:00-04:00",
+      "EPS Estimate": -0.62,
+      "Reported EPS": -1.2,
+      "Surprise(%)": -92.12
+    },
+    {
+      "index": "2021-04-14 17:00:00-04:00",
+      "EPS Estimate": -0.82,
+      "Reported EPS": -1.75,
+      "Surprise(%)": -113.09
+    },
+    {
+      "index": "2020-12-23 16:00:00-05:00",
+      "EPS Estimate": -0.75,
+      "Reported EPS": -48.8,
+      "Surprise(%)": -6406.54
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "UBS Group AG",
+      "pctHeld": 0.0,
+      "Shares": 2,
+      "Value": 95,
+      "pctChange": 1.0
+    }
+  ]
+}

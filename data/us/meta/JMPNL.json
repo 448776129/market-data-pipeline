@@ -1,0 +1,88 @@
+{
+  "symbol": "JMPNL",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "shortName": "JMP Group LLC - 7.25% Senior No",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 25.12,
+    "previousClose": 25.12,
+    "dayHigh": 25.13,
+    "dayLow": 25.12,
+    "regularMarketPrice": 25.13,
+    "regularMarketPreviousClose": 25.12,
+    "fiftyTwoWeekHigh": 26.42,
+    "fiftyTwoWeekLow": 21.36,
+    "volume": 3755,
+    "averageVolume": 3393
+  },
+  "dividends": [
+    {
+      "index": "2018-07-31 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2018-10-31 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2019-01-31 09:30:00-05:00",
+      "value": 0.453
+    },
+    {
+      "index": "2019-04-30 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2019-07-31 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2019-10-31 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2020-01-30 09:30:00-05:00",
+      "value": 0.453
+    },
+    {
+      "index": "2020-04-30 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2020-07-30 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2020-10-29 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2021-01-29 09:30:00-05:00",
+      "value": 0.453
+    },
+    {
+      "index": "2021-04-29 09:30:00-04:00",
+      "value": 0.453
+    },
+    {
+      "index": "2021-07-29 09:30:00-04:00",
+      "value": 0.453
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

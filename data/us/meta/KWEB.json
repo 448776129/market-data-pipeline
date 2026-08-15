@@ -1,0 +1,95 @@
+{
+  "symbol": "KWEB",
+  "region": "us",
+  "name": "KraneShares CSI China Internet ETF",
+  "currency": "USD",
+  "exchange": "PCX",
+  "isin": "US5007673065",
+  "info": {
+    "longName": "KraneShares CSI China Internet ETF",
+    "shortName": "KraneShares CSI China Internet ",
+    "exchange": "PCX",
+    "currency": "USD",
+    "open": 26.79,
+    "previousClose": 26.85,
+    "dayHigh": 27.085,
+    "dayLow": 26.81,
+    "regularMarketPrice": 27.01,
+    "regularMarketPreviousClose": 26.85,
+    "fiftyTwoWeekHigh": 43.365,
+    "fiftyTwoWeekLow": 23.23,
+    "trailingPE": 12.588659,
+    "dividendYield": 7.43,
+    "volume": 15858927,
+    "averageVolume": 22563391
+  },
+  "dividends": [
+    {
+      "index": "2013-12-26 09:30:00-05:00",
+      "value": 0.104
+    },
+    {
+      "index": "2014-06-25 09:30:00-04:00",
+      "value": 0.291
+    },
+    {
+      "index": "2015-06-25 09:30:00-04:00",
+      "value": 0.122
+    },
+    {
+      "index": "2015-12-28 09:30:00-05:00",
+      "value": 0.056
+    },
+    {
+      "index": "2016-12-20 09:30:00-05:00",
+      "value": 0.414
+    },
+    {
+      "index": "2017-12-19 09:30:00-05:00",
+      "value": 0.338
+    },
+    {
+      "index": "2018-12-26 09:30:00-05:00",
+      "value": 1.275
+    },
+    {
+      "index": "2019-12-27 09:30:00-05:00",
+      "value": 0.041
+    },
+    {
+      "index": "2020-12-29 09:30:00-05:00",
+      "value": 0.221
+    },
+    {
+      "index": "2021-12-29 09:30:00-05:00",
+      "value": 2.58
+    },
+    {
+      "index": "2023-12-18 09:30:00-05:00",
+      "value": 0.419
+    },
+    {
+      "index": "2023-12-27 09:30:00-05:00",
+      "value": 0.042
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 1.025
+    },
+    {
+      "index": "2025-12-22 09:30:00-05:00",
+      "value": 2.096
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

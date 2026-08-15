@@ -1,0 +1,172 @@
+{
+  "symbol": "LANC",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "INE572G01025",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2026-08-25 08:00:00-04:00",
+      "EPS Estimate": 1.4,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2025-04-30 07:00:00-04:00",
+      "EPS Estimate": 1.58,
+      "Reported EPS": 1.49,
+      "Surprise(%)": -5.61
+    },
+    {
+      "index": "2025-02-04 07:00:00-05:00",
+      "EPS Estimate": 1.94,
+      "Reported EPS": 1.78,
+      "Surprise(%)": -8.25
+    },
+    {
+      "index": "2024-10-31 07:00:00-04:00",
+      "EPS Estimate": 1.67,
+      "Reported EPS": 1.62,
+      "Surprise(%)": -2.74
+    },
+    {
+      "index": "2024-08-22 07:00:00-04:00",
+      "EPS Estimate": 1.38,
+      "Reported EPS": 1.35,
+      "Surprise(%)": -2.33
+    },
+    {
+      "index": "2024-05-02 07:00:00-04:00",
+      "EPS Estimate": 1.4,
+      "Reported EPS": 1.37,
+      "Surprise(%)": -1.79
+    },
+    {
+      "index": "2024-02-01 07:00:00-05:00",
+      "EPS Estimate": 1.65,
+      "Reported EPS": 1.87,
+      "Surprise(%)": 13.14
+    },
+    {
+      "index": "2023-11-02 07:00:00-04:00",
+      "EPS Estimate": 1.61,
+      "Reported EPS": 1.59,
+      "Surprise(%)": -1.0
+    },
+    {
+      "index": "2023-08-23 07:00:00-04:00",
+      "EPS Estimate": 1.29,
+      "Reported EPS": 1.0,
+      "Surprise(%)": -22.16
+    },
+    {
+      "index": "2023-05-04 07:00:00-04:00",
+      "EPS Estimate": 0.93,
+      "Reported EPS": 0.89,
+      "Surprise(%)": -4.04
+    },
+    {
+      "index": "2023-02-02 07:00:00-05:00",
+      "EPS Estimate": 1.67,
+      "Reported EPS": 1.45,
+      "Surprise(%)": -13.04
+    },
+    {
+      "index": "2022-11-03 07:00:00-04:00",
+      "EPS Estimate": 1.14,
+      "Reported EPS": 1.62,
+      "Surprise(%)": 42.42
+    },
+    {
+      "index": "2022-08-25 07:00:00-04:00",
+      "EPS Estimate": 0.8,
+      "Reported EPS": 1.39,
+      "Surprise(%)": 72.74
+    },
+    {
+      "index": "2022-05-05 07:00:00-04:00",
+      "EPS Estimate": 1.03,
+      "Reported EPS": 0.3,
+      "Surprise(%)": -70.54
+    },
+    {
+      "index": "2022-02-03 07:00:00-05:00",
+      "EPS Estimate": 1.74,
+      "Reported EPS": 1.24,
+      "Surprise(%)": -28.25
+    },
+    {
+      "index": "2021-11-03 07:00:00-04:00",
+      "EPS Estimate": 1.63,
+      "Reported EPS": 1.37,
+      "Surprise(%)": -15.95
+    },
+    {
+      "index": "2021-08-26 07:00:00-04:00",
+      "EPS Estimate": 1.19,
+      "Reported EPS": 1.15,
+      "Surprise(%)": -3.63
+    },
+    {
+      "index": "2021-05-04 07:00:00-04:00",
+      "EPS Estimate": 1.2,
+      "Reported EPS": 1.05,
+      "Surprise(%)": -12.13
+    },
+    {
+      "index": "2021-02-04 07:00:00-05:00",
+      "EPS Estimate": 1.57,
+      "Reported EPS": 1.62,
+      "Surprise(%)": 3.4
+    },
+    {
+      "index": "2020-11-04 07:00:00-05:00",
+      "EPS Estimate": 1.6,
+      "Reported EPS": 1.22,
+      "Surprise(%)": -23.29
+    },
+    {
+      "index": "2020-08-27 07:00:00-04:00",
+      "EPS Estimate": 0.87,
+      "Reported EPS": 1.11,
+      "Surprise(%)": 27.59
+    },
+    {
+      "index": "2020-05-05 08:00:00-04:00",
+      "EPS Estimate": 1.09,
+      "Reported EPS": 0.82,
+      "Surprise(%)": -25.25
+    },
+    {
+      "index": "2020-02-04 07:00:00-05:00",
+      "EPS Estimate": 1.58,
+      "Reported EPS": 1.72,
+      "Surprise(%)": 9.21
+    },
+    {
+      "index": "2019-11-04 07:00:00-05:00",
+      "EPS Estimate": 1.24,
+      "Reported EPS": 1.58,
+      "Surprise(%)": 27.28
+    },
+    {
+      "index": "2019-08-27 07:00:00-04:00",
+      "EPS Estimate": 1.29,
+      "Reported EPS": 1.06,
+      "Surprise(%)": -17.78
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

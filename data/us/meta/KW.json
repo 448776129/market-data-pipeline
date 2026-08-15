@@ -1,0 +1,184 @@
+{
+  "symbol": "KW",
+  "region": "us",
+  "name": "Kennedy-Wilson Holdings, Inc.",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "Kennedy-Wilson Holdings, Inc.",
+    "shortName": "Kennedy-Wilson Holdings Inc.",
+    "sector": "Real Estate",
+    "industry": "Real Estate Services",
+    "country": "United States",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "marketCap": 1521191808,
+    "currentPrice": 10.92,
+    "open": 10.92,
+    "previousClose": 10.93,
+    "dayHigh": 10.93,
+    "dayLow": 10.91,
+    "regularMarketPreviousClose": 10.93,
+    "fiftyTwoWeekHigh": 11.085,
+    "fiftyTwoWeekLow": 6.635,
+    "trailingPE": 91.0,
+    "forwardPE": -10.205607,
+    "priceToBook": 2.0203514,
+    "dividendYield": 0.044,
+    "dividendRate": 0.48,
+    "trailingEps": 0.12,
+    "forwardEps": -1.07,
+    "beta": 0.89,
+    "volume": 4086150,
+    "averageVolume": 1377638,
+    "sharesOutstanding": 139303275,
+    "floatShares": 121206387,
+    "targetMeanPrice": 9.0,
+    "targetHighPrice": 9.0,
+    "targetLowPrice": 9.0,
+    "recommendationKey": "none",
+    "totalRevenue": 541500032,
+    "grossProfits": 404700000,
+    "freeCashflow": -22425000,
+    "totalDebt": 4852899840,
+    "totalCash": 189700000,
+    "profitMargins": 0.10933,
+    "returnOnEquity": 0.049510002,
+    "returnOnAssets": 0.00825,
+    "revenueGrowth": -0.008
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 10.92,
+    "high": 9.0,
+    "low": 9.0,
+    "mean": 9.0,
+    "median": 9.0
+  },
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2026-08-05 16:00:00-04:00",
+      "EPS Estimate": 0.03,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    }
+  ],
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.15404001
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.84102
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.99416
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 327.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Blackrock Inc.",
+      "pctHeld": 0.1528,
+      "Shares": 21288875,
+      "Value": 232474516,
+      "pctChange": -0.00059999997
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Fairfax Financial Holdings Ltd",
+      "pctHeld": 0.0956,
+      "Shares": 13322009,
+      "Value": 145476339,
+      "pctChange": 0.0
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Vanguard Portfolio Management LLC",
+      "pctHeld": 0.0759,
+      "Shares": 10569892,
+      "Value": 115423221,
+      "pctChange": 1.0
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "State Street Corporation",
+      "pctHeld": 0.0422,
+      "Shares": 5879613,
+      "Value": 64205374,
+      "pctChange": -0.0176
+    },
+    {
+      "index": "4",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "FIL LTD",
+      "pctHeld": 0.0398,
+      "Shares": 5538580,
+      "Value": 60481294,
+      "pctChange": 1.0
+    },
+    {
+      "index": "5",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Vanguard Capital Management LLC",
+      "pctHeld": 0.034,
+      "Shares": 4740856,
+      "Value": 51770147,
+      "pctChange": 1.0
+    },
+    {
+      "index": "6",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Dimensional Fund Advisors LP",
+      "pctHeld": 0.0304,
+      "Shares": 4228569,
+      "Value": 46175973,
+      "pctChange": -0.104899995
+    },
+    {
+      "index": "7",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Elkhorn Partners Limited Partnership",
+      "pctHeld": 0.0301,
+      "Shares": 4199000,
+      "Value": 45853080,
+      "pctChange": -0.0084
+    },
+    {
+      "index": "8",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Alberta Investment Management Corp",
+      "pctHeld": 0.028299998,
+      "Shares": 3943222,
+      "Value": 43059984,
+      "pctChange": -0.0383
+    },
+    {
+      "index": "9",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Geode Capital Management, LLC",
+      "pctHeld": 0.0229,
+      "Shares": 3183567,
+      "Value": 34764551,
+      "pctChange": 0.0187
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "symbol": "JOET",
+  "region": "us",
+  "name": "Virtus Terranova U.S. Quality Momentum ETF",
+  "currency": "USD",
+  "exchange": "PCX",
+  "isin": "US92790A5048",
+  "info": {
+    "longName": "Virtus Terranova U.S. Quality Momentum ETF",
+    "shortName": "Virtus Terranova U.S. Quality M",
+    "exchange": "PCX",
+    "currency": "USD",
+    "open": 47.14,
+    "previousClose": 47.18,
+    "dayHigh": 47.2999,
+    "dayLow": 47.2151,
+    "regularMarketPrice": 47.29,
+    "regularMarketPreviousClose": 47.18,
+    "fiftyTwoWeekHigh": 47.34,
+    "fiftyTwoWeekLow": 38.801,
+    "trailingPE": 25.09492,
+    "dividendYield": 0.6,
+    "volume": 10012,
+    "averageVolume": 20190
+  },
+  "dividends": [
+    {
+      "index": "2020-12-21 09:30:00-05:00",
+      "value": 0.021
+    },
+    {
+      "index": "2021-12-20 09:30:00-05:00",
+      "value": 0.14
+    },
+    {
+      "index": "2022-12-20 09:30:00-05:00",
+      "value": 0.334
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.406
+    },
+    {
+      "index": "2024-12-20 09:30:00-05:00",
+      "value": 0.267
+    },
+    {
+      "index": "2025-12-22 09:30:00-05:00",
+      "value": 0.275
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

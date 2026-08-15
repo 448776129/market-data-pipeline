@@ -1,0 +1,43 @@
+{
+  "symbol": "LCAP",
+  "region": "us",
+  "name": "Principal Capital Appreciation Select ETF",
+  "currency": "USD",
+  "exchange": "BTS",
+  "isin": "US74255Y6804",
+  "info": {
+    "longName": "Principal Capital Appreciation Select ETF",
+    "shortName": "Principal Capital Appreciation ",
+    "exchange": "BTS",
+    "currency": "USD",
+    "open": 34.27,
+    "previousClose": 34.2765,
+    "dayHigh": 34.3399,
+    "dayLow": 34.14,
+    "regularMarketPrice": 34.1701,
+    "regularMarketPreviousClose": 34.2765,
+    "fiftyTwoWeekHigh": 34.3399,
+    "fiftyTwoWeekLow": 27.37,
+    "trailingPE": 27.743332,
+    "dividendYield": 0.1,
+    "volume": 38289,
+    "averageVolume": 45014
+  },
+  "dividends": [
+    {
+      "index": "2025-12-29 09:30:00-05:00",
+      "value": 0.031
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

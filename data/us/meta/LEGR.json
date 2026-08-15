@@ -1,0 +1,175 @@
+{
+  "symbol": "LEGR",
+  "region": "us",
+  "name": "First Trust Indxx Innovative Transaction & Process ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US33741X2018",
+  "info": {
+    "longName": "First Trust Indxx Innovative Transaction & Process ETF",
+    "shortName": "First Trust Indxx Innovative Tr",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 67.275,
+    "previousClose": 66.9,
+    "dayHigh": 67.275,
+    "dayLow": 67.07,
+    "regularMarketPrice": 67.1608,
+    "regularMarketPreviousClose": 66.9,
+    "fiftyTwoWeekHigh": 67.717,
+    "fiftyTwoWeekLow": 52.97,
+    "trailingPE": 15.39961,
+    "dividendYield": 1.79,
+    "volume": 688,
+    "averageVolume": 2516
+  },
+  "dividends": [
+    {
+      "index": "2018-03-22 09:30:00-04:00",
+      "value": 0.014
+    },
+    {
+      "index": "2018-06-21 09:30:00-04:00",
+      "value": 0.121
+    },
+    {
+      "index": "2018-09-14 09:30:00-04:00",
+      "value": 0.096
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.101
+    },
+    {
+      "index": "2019-03-21 09:30:00-04:00",
+      "value": 0.077
+    },
+    {
+      "index": "2019-06-14 09:30:00-04:00",
+      "value": 0.2
+    },
+    {
+      "index": "2019-09-25 09:30:00-04:00",
+      "value": 0.269
+    },
+    {
+      "index": "2019-12-13 09:30:00-05:00",
+      "value": 0.107
+    },
+    {
+      "index": "2020-03-26 09:30:00-04:00",
+      "value": 0.029
+    },
+    {
+      "index": "2020-06-25 09:30:00-04:00",
+      "value": 0.143
+    },
+    {
+      "index": "2020-09-24 09:30:00-04:00",
+      "value": 0.088
+    },
+    {
+      "index": "2020-12-24 09:30:00-05:00",
+      "value": 0.096
+    },
+    {
+      "index": "2021-03-25 09:30:00-04:00",
+      "value": 0.028
+    },
+    {
+      "index": "2021-06-24 09:30:00-04:00",
+      "value": 0.272
+    },
+    {
+      "index": "2021-09-23 09:30:00-04:00",
+      "value": 0.167
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 0.316
+    },
+    {
+      "index": "2022-03-25 09:30:00-04:00",
+      "value": 0.063
+    },
+    {
+      "index": "2022-06-24 09:30:00-04:00",
+      "value": 0.512
+    },
+    {
+      "index": "2022-09-23 09:30:00-04:00",
+      "value": 0.236
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 0.094
+    },
+    {
+      "index": "2023-03-24 09:30:00-04:00",
+      "value": 0.11
+    },
+    {
+      "index": "2023-06-27 09:30:00-04:00",
+      "value": 0.48
+    },
+    {
+      "index": "2023-09-22 09:30:00-04:00",
+      "value": 0.283
+    },
+    {
+      "index": "2023-12-22 09:30:00-05:00",
+      "value": 0.173
+    },
+    {
+      "index": "2024-03-21 09:30:00-04:00",
+      "value": 0.093
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.535
+    },
+    {
+      "index": "2024-09-26 09:30:00-04:00",
+      "value": 0.263
+    },
+    {
+      "index": "2024-12-13 09:30:00-05:00",
+      "value": 0.221
+    },
+    {
+      "index": "2025-03-27 09:30:00-04:00",
+      "value": 0.125
+    },
+    {
+      "index": "2025-06-26 09:30:00-04:00",
+      "value": 0.558
+    },
+    {
+      "index": "2025-09-25 09:30:00-04:00",
+      "value": 0.148
+    },
+    {
+      "index": "2025-12-12 09:30:00-05:00",
+      "value": 0.261
+    },
+    {
+      "index": "2026-03-26 09:30:00-04:00",
+      "value": 0.144
+    },
+    {
+      "index": "2026-06-25 09:30:00-04:00",
+      "value": 0.621
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

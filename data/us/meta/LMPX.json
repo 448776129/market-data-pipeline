@@ -1,0 +1,141 @@
+{
+  "symbol": "LMPX",
+  "region": "us",
+  "name": "LMP Automotive Holdings, Inc.",
+  "currency": "USD",
+  "exchange": "PNK",
+  "isin": "US53952P1012",
+  "info": {
+    "longName": "LMP Automotive Holdings, Inc.",
+    "shortName": "LMP Automotive Holdings, Inc.",
+    "sector": "Consumer Cyclical",
+    "industry": "Auto & Truck Dealerships",
+    "country": "United States",
+    "exchange": "PNK",
+    "currency": "USD",
+    "marketCap": 981789,
+    "currentPrice": 0.09,
+    "open": 0.0555,
+    "previousClose": 0.09,
+    "dayHigh": 0.0555,
+    "dayLow": 0.0555,
+    "regularMarketPrice": 0.09,
+    "regularMarketPreviousClose": 0.09,
+    "fiftyTwoWeekHigh": 0.25,
+    "fiftyTwoWeekLow": 0.0005,
+    "forwardPE": -0.046153847,
+    "priceToBook": 0.035142522,
+    "trailingEps": -0.51,
+    "forwardEps": -1.95,
+    "beta": 0.159,
+    "volume": 1,
+    "averageVolume": 3906,
+    "sharesOutstanding": 10908767,
+    "floatShares": 7240694,
+    "recommendationKey": "none",
+    "totalRevenue": 318486368,
+    "grossProfits": 60214116,
+    "freeCashflow": -26301612,
+    "totalDebt": 131860320,
+    "totalCash": 18849314,
+    "profitMargins": -0.00455,
+    "returnOnEquity": 0.0019400001,
+    "returnOnAssets": 0.050890002,
+    "revenueGrowth": 9.577
+  },
+  "dividends": [
+    {
+      "index": "2023-03-01 09:30:00-05:00",
+      "value": 4.68
+    },
+    {
+      "index": "2023-05-09 09:30:00-04:00",
+      "value": 1.24
+    },
+    {
+      "index": "2023-09-11 09:30:00-04:00",
+      "value": 1.5
+    },
+    {
+      "index": "2024-01-30 09:30:00-05:00",
+      "value": 0.2
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 0.09
+  },
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2021-11-15 16:00:00-05:00",
+      "EPS Estimate": -0.37,
+      "Reported EPS": 0.85,
+      "Surprise(%)": 329.73
+    },
+    {
+      "index": "2021-08-12 16:00:00-04:00",
+      "EPS Estimate": 0.37,
+      "Reported EPS": 0.86,
+      "Surprise(%)": 132.43
+    },
+    {
+      "index": "2021-06-29 16:00:00-04:00",
+      "EPS Estimate": -0.05,
+      "Reported EPS": 0.13,
+      "Surprise(%)": 360.0
+    },
+    {
+      "index": "2020-08-14 16:00:00-04:00",
+      "EPS Estimate": -0.06,
+      "Reported EPS": 0.02,
+      "Surprise(%)": 133.33
+    },
+    {
+      "index": "2020-05-15 08:00:00-04:00",
+      "EPS Estimate": -0.12,
+      "Reported EPS": -0.18,
+      "Surprise(%)": -50.0
+    },
+    {
+      "index": "2020-02-25 16:00:00-05:00",
+      "EPS Estimate": -0.09,
+      "Reported EPS": -0.1,
+      "Surprise(%)": -5.89
+    }
+  ],
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.0
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.0
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.0
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 0.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2022-12-31 00:00:00",
+      "Holder": "Gofen & Glossberg LLC",
+      "pctHeld": 0.0021,
+      "Shares": 22637,
+      "Value": 2037,
+      "pctChange": 0.0
+    }
+  ]
+}

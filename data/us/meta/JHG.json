@@ -1,0 +1,240 @@
+{
+  "symbol": "JHG",
+  "region": "us",
+  "name": "Janus Henderson Group PLC",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "JE00BYPZJM29",
+  "info": {
+    "longName": "Janus Henderson Group PLC",
+    "shortName": "Janus Henderson Group plc",
+    "sector": "Financial Services",
+    "industry": "Asset Management",
+    "country": "United Kingdom",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "marketCap": 8004228608,
+    "currentPrice": 51.95,
+    "open": 51.98,
+    "previousClose": 51.97,
+    "dayHigh": 52.0,
+    "dayLow": 51.95,
+    "regularMarketPreviousClose": 51.97,
+    "fiftyTwoWeekHigh": 53.76,
+    "fiftyTwoWeekLow": 40.645,
+    "trailingPE": 10.287128,
+    "forwardPE": 11.021721,
+    "priceToBook": 1.545487,
+    "dividendYield": 0.0308,
+    "dividendRate": 1.6,
+    "trailingEps": 5.05,
+    "forwardEps": 4.76,
+    "beta": 1.339,
+    "volume": 3285665,
+    "averageVolume": 2684751,
+    "sharesOutstanding": 154075608,
+    "floatShares": 127710534,
+    "targetMeanPrice": 52.95,
+    "targetHighPrice": 55.0,
+    "targetLowPrice": 51.8,
+    "recommendationKey": "buy",
+    "totalRevenue": 3165900032,
+    "grossProfits": 2078200064,
+    "freeCashflow": 742487488,
+    "totalDebt": 395600000,
+    "totalCash": 2596900096,
+    "profitMargins": 0.2483,
+    "returnOnEquity": 0.16207,
+    "returnOnAssets": 0.0791,
+    "earningsGrowth": -0.232,
+    "revenueGrowth": 0.11
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 51.95,
+    "high": 55.0,
+    "low": 51.8,
+    "mean": 52.95,
+    "median": 52.5
+  },
+  "recommendations_summary": [
+    {
+      "index": "0",
+      "period": "0m",
+      "strongBuy": 1,
+      "buy": 1,
+      "hold": 2,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "index": "1",
+      "period": "-1m",
+      "strongBuy": 1,
+      "buy": 1,
+      "hold": 3,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "index": "2",
+      "period": "-2m",
+      "strongBuy": 1,
+      "buy": 1,
+      "hold": 4,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "index": "3",
+      "period": "-3m",
+      "strongBuy": 1,
+      "buy": 1,
+      "hold": 4,
+      "sell": 0,
+      "strongSell": 0
+    }
+  ],
+  "earnings_dates": [
+    {
+      "index": "2026-07-30 16:00:00-04:00",
+      "EPS Estimate": 1.06,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2019-07-31 04:00:00-04:00",
+      "EPS Estimate": 0.65,
+      "Reported EPS": 0.61,
+      "Surprise(%)": -6.22
+    },
+    {
+      "index": "2018-11-01 04:00:00-04:00",
+      "EPS Estimate": 0.69,
+      "Reported EPS": 0.69,
+      "Surprise(%)": 0.48
+    },
+    {
+      "index": "2018-02-06 04:00:00-05:00",
+      "EPS Estimate": 0.66,
+      "Reported EPS": 0.73,
+      "Surprise(%)": 10.98
+    }
+  ],
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.0036000002
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.91606003
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.91936994
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 626.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Trian Fund Management, LP",
+      "pctHeld": 0.2068,
+      "Shares": 31867800,
+      "Value": 1655532234,
+      "pctChange": 0.0
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Blackrock Inc.",
+      "pctHeld": 0.0958,
+      "Shares": 14763241,
+      "Value": 766950381,
+      "pctChange": -0.15020001
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Vanguard Portfolio Management LLC",
+      "pctHeld": 0.0375,
+      "Shares": 5771779,
+      "Value": 299843923,
+      "pctChange": 1.0
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Vanguard Capital Management LLC",
+      "pctHeld": 0.0361,
+      "Shares": 5555218,
+      "Value": 288593579,
+      "pctChange": 1.0
+    },
+    {
+      "index": "4",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "State Street Corporation",
+      "pctHeld": 0.028399998,
+      "Shares": 4383422,
+      "Value": 227718776,
+      "pctChange": -0.006
+    },
+    {
+      "index": "5",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Dimensional Fund Advisors LP",
+      "pctHeld": 0.0277,
+      "Shares": 4268155,
+      "Value": 221730655,
+      "pctChange": -0.35369998
+    },
+    {
+      "index": "6",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "HBK Investments L P",
+      "pctHeld": 0.0275,
+      "Shares": 4230723,
+      "Value": 219786063,
+      "pctChange": 1.0
+    },
+    {
+      "index": "7",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Citadel Advisors Llc",
+      "pctHeld": 0.024500001,
+      "Shares": 3772619,
+      "Value": 195987559,
+      "pctChange": 22.7067
+    },
+    {
+      "index": "8",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "AQR Capital Management, LLC",
+      "pctHeld": 0.0217,
+      "Shares": 3341401,
+      "Value": 173585784,
+      "pctChange": -0.2522
+    },
+    {
+      "index": "9",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Allianz Asset Management GmbH",
+      "pctHeld": 0.0208,
+      "Shares": 3199982,
+      "Value": 166239067,
+      "pctChange": 0.42830002
+    }
+  ]
+}

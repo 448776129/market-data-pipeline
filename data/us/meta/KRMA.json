@@ -1,0 +1,127 @@
+{
+  "symbol": "KRMA",
+  "region": "us",
+  "name": "Global X Conscious Companies ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "longName": "Global X Conscious Companies ETF",
+    "shortName": "Global X Conscious Companies ET",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 47.755,
+    "previousClose": 47.82,
+    "dayHigh": 47.82,
+    "dayLow": 47.82,
+    "regularMarketPreviousClose": 47.82,
+    "fiftyTwoWeekHigh": 49.0487,
+    "fiftyTwoWeekLow": 40.38,
+    "trailingPE": 23.5793,
+    "volume": 1413,
+    "averageVolume": 2814
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Morgan Stanley",
+      "pctHeld": 0.2969,
+      "Shares": 1024242,
+      "Value": 48979252,
+      "pctChange": -0.0378
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "LPL Financial LLC",
+      "pctHeld": 0.024600001,
+      "Shares": 84763,
+      "Value": 4053366,
+      "pctChange": 0.0068
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Royal Bank of Canada",
+      "pctHeld": 0.0196,
+      "Shares": 67776,
+      "Value": 3241048,
+      "pctChange": -0.32099998
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Independent Advisor Alliance",
+      "pctHeld": 0.0159,
+      "Shares": 55025,
+      "Value": 2631295,
+      "pctChange": 1.0
+    },
+    {
+      "index": "4",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Kingsview Wealth Management, LLC",
+      "pctHeld": 0.0098,
+      "Shares": 33840,
+      "Value": 1618228,
+      "pctChange": 0.059
+    },
+    {
+      "index": "5",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Osaic Holdings Inc.",
+      "pctHeld": 0.0089,
+      "Shares": 30674,
+      "Value": 1466830,
+      "pctChange": 0.0352
+    },
+    {
+      "index": "6",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Napier Financial, LLC",
+      "pctHeld": 0.0082,
+      "Shares": 28387,
+      "Value": 1357466,
+      "pctChange": 1.0
+    },
+    {
+      "index": "7",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Wealthfront Advisers LLC",
+      "pctHeld": 0.0081,
+      "Shares": 28058,
+      "Value": 1341733,
+      "pctChange": 0.0369
+    },
+    {
+      "index": "8",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Goldman Sachs Group Inc",
+      "pctHeld": 0.0070999996,
+      "Shares": 24566,
+      "Value": 1174746,
+      "pctChange": 0.72309995
+    },
+    {
+      "index": "9",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Bank of America Corporation",
+      "pctHeld": 0.006,
+      "Shares": 20576,
+      "Value": 983944,
+      "pctChange": 0.0172
+    }
+  ]
+}

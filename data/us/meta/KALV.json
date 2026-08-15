@@ -1,0 +1,219 @@
+{
+  "symbol": "KALV",
+  "region": "us",
+  "name": "KalVista Pharmaceuticals Inc",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "longName": "KalVista Pharmaceuticals Inc",
+    "shortName": "KalVista Pharmaceuticals, Inc.",
+    "sector": "Healthcare",
+    "industry": "Biotechnology",
+    "country": "United States",
+    "exchange": "NGM",
+    "currency": "USD",
+    "marketCap": 1437504000,
+    "currentPrice": 27.0,
+    "open": 26.99,
+    "previousClose": 0.0,
+    "dayHigh": 27.0,
+    "dayLow": 26.98,
+    "regularMarketPreviousClose": 0.0,
+    "fiftyTwoWeekHigh": 27.0,
+    "fiftyTwoWeekLow": 9.83,
+    "forwardPE": 17.475729,
+    "trailingEps": -3.94,
+    "forwardEps": 1.70667,
+    "beta": -0.109,
+    "volume": 4262878,
+    "averageVolume": 3625508,
+    "sharesOutstanding": 53240888,
+    "floatShares": 38180106,
+    "targetMeanPrice": 27.0,
+    "targetHighPrice": 27.0,
+    "targetLowPrice": 27.0,
+    "recommendationKey": "hold",
+    "totalRevenue": 114480000,
+    "grossProfits": 58465000,
+    "totalDebt": 284312000,
+    "totalCash": 285030016,
+    "profitMargins": -1.1874299
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 27.0,
+    "high": 27.0,
+    "low": 27.0,
+    "mean": 27.0,
+    "median": 27.0
+  },
+  "recommendations_summary": [
+    {
+      "index": "0",
+      "period": "0m",
+      "strongBuy": 0,
+      "buy": 0,
+      "hold": 5,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "index": "1",
+      "period": "-1m",
+      "strongBuy": 0,
+      "buy": 1,
+      "hold": 6,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "index": "2",
+      "period": "-2m",
+      "strongBuy": 0,
+      "buy": 3,
+      "hold": 4,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "index": "3",
+      "period": "-3m",
+      "strongBuy": 2,
+      "buy": 7,
+      "hold": 0,
+      "sell": 0,
+      "strongSell": 0
+    }
+  ],
+  "earnings_dates": [
+    {
+      "index": "2026-08-13 16:00:00-04:00",
+      "EPS Estimate": -0.29,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2025-12-11 08:00:00-05:00",
+      "EPS Estimate": -0.91,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    }
+  ],
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.01722
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 1.36875
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 1.39273
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 259.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Venrock Adviser, LLC",
+      "pctHeld": 0.1216,
+      "Shares": 6474485,
+      "Value": 174811095,
+      "pctChange": -0.0378
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Frazier Life Sciences Management, L.P.                          ",
+      "pctHeld": 0.0932,
+      "Shares": 4961108,
+      "Value": 133949916,
+      "pctChange": -0.0156
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Suvretta Capital Management, LLC",
+      "pctHeld": 0.0896,
+      "Shares": 4768712,
+      "Value": 128755224,
+      "pctChange": 0.0
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Tang Capital Management, LLC",
+      "pctHeld": 0.0859,
+      "Shares": 4573530,
+      "Value": 123485310,
+      "pctChange": 0.0
+    },
+    {
+      "index": "4",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Blackrock Inc.",
+      "pctHeld": 0.0713,
+      "Shares": 3795897,
+      "Value": 102489219,
+      "pctChange": 0.0111
+    },
+    {
+      "index": "5",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "SilverArc Capital Management, LLC",
+      "pctHeld": 0.054,
+      "Shares": 2876407,
+      "Value": 77662989,
+      "pctChange": 0.1851
+    },
+    {
+      "index": "6",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Capital World Investors",
+      "pctHeld": 0.052800003,
+      "Shares": 2808583,
+      "Value": 75831741,
+      "pctChange": 0.0
+    },
+    {
+      "index": "7",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Point72 Asset Management, L.P.",
+      "pctHeld": 0.0401,
+      "Shares": 2136940,
+      "Value": 57697380,
+      "pctChange": -0.0643
+    },
+    {
+      "index": "8",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "State Street Corporation",
+      "pctHeld": 0.0367,
+      "Shares": 1955844,
+      "Value": 52807788,
+      "pctChange": 0.0231
+    },
+    {
+      "index": "9",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Millennium Management Llc",
+      "pctHeld": 0.0359,
+      "Shares": 1912146,
+      "Value": 51627942,
+      "pctChange": -0.33990002
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "symbol": "LNGR",
+  "region": "us",
+  "name": "Global X Aging Population ETF",
+  "currency": "USD",
+  "exchange": "NMS",
+  "isin": "-",
+  "info": {
+    "longName": "Global X Aging Population ETF",
+    "shortName": "Global X Longevity Thematic ETF",
+    "exchange": "NMS",
+    "currency": "USD",
+    "open": 27.6692,
+    "previousClose": 27.4493,
+    "dayHigh": 27.79,
+    "dayLow": 27.49,
+    "regularMarketPrice": 27.75,
+    "regularMarketPreviousClose": 27.4493,
+    "fiftyTwoWeekHigh": 29.5155,
+    "fiftyTwoWeekLow": 21.9001,
+    "dividendYield": 0.36,
+    "volume": 2815,
+    "averageVolume": 13666
+  },
+  "dividends": [
+    {
+      "index": "2016-12-28 09:30:00-05:00",
+      "value": 0.161273
+    },
+    {
+      "index": "2017-12-28 09:30:00-05:00",
+      "value": 0.201413
+    },
+    {
+      "index": "2018-12-28 09:30:00-05:00",
+      "value": 0.190478
+    },
+    {
+      "index": "2019-06-27 09:30:00-04:00",
+      "value": 0.052876
+    },
+    {
+      "index": "2019-12-30 09:30:00-05:00",
+      "value": 0.14353
+    },
+    {
+      "index": "2020-06-29 09:30:00-04:00",
+      "value": 0.044941
+    },
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.054954
+    },
+    {
+      "index": "2021-06-29 09:30:00-04:00",
+      "value": 0.034042
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.174268
+    },
+    {
+      "index": "2022-06-29 09:30:00-04:00",
+      "value": 0.107238
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.021742
+    },
+    {
+      "index": "2023-06-29 09:30:00-04:00",
+      "value": 0.151631
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.121335
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.104286
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.146167
+    },
+    {
+      "index": "2025-06-27 09:30:00-04:00",
+      "value": 0.142184
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.172198
+    },
+    {
+      "index": "2026-06-29 09:30:00-04:00",
+      "value": 0.155552
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

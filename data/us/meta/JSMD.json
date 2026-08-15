@@ -1,0 +1,203 @@
+{
+  "symbol": "JSMD",
+  "region": "us",
+  "name": "Janus Henderson Small/Mid Cap Growth Alpha ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US47103U2096",
+  "info": {
+    "longName": "Janus Henderson Small/Mid Cap Growth Alpha ETF",
+    "shortName": "Janus Henderson Small/Mid Cap G",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 97.41,
+    "previousClose": 97.205,
+    "dayHigh": 97.85,
+    "dayLow": 97.1,
+    "regularMarketPrice": 97.7371,
+    "regularMarketPreviousClose": 97.205,
+    "fiftyTwoWeekHigh": 101.7,
+    "fiftyTwoWeekLow": 75.304,
+    "trailingPE": 24.889935,
+    "dividendYield": 0.44,
+    "volume": 34962,
+    "averageVolume": 76519
+  },
+  "dividends": [
+    {
+      "index": "2016-06-30 09:30:00-04:00",
+      "value": 0.017
+    },
+    {
+      "index": "2016-09-30 09:30:00-04:00",
+      "value": 0.01
+    },
+    {
+      "index": "2016-12-23 09:30:00-05:00",
+      "value": 0.077
+    },
+    {
+      "index": "2017-03-31 09:30:00-04:00",
+      "value": 0.022
+    },
+    {
+      "index": "2017-06-30 09:30:00-04:00",
+      "value": 0.014
+    },
+    {
+      "index": "2017-09-29 09:30:00-04:00",
+      "value": 0.029
+    },
+    {
+      "index": "2017-12-22 09:30:00-05:00",
+      "value": 0.05
+    },
+    {
+      "index": "2018-03-29 09:30:00-04:00",
+      "value": 0.024
+    },
+    {
+      "index": "2018-06-29 09:30:00-04:00",
+      "value": 0.045
+    },
+    {
+      "index": "2018-09-28 09:30:00-04:00",
+      "value": 0.022
+    },
+    {
+      "index": "2018-12-20 09:30:00-05:00",
+      "value": 0.104
+    },
+    {
+      "index": "2019-03-29 09:30:00-04:00",
+      "value": 0.015
+    },
+    {
+      "index": "2019-06-28 09:30:00-04:00",
+      "value": 0.042
+    },
+    {
+      "index": "2019-09-30 09:30:00-04:00",
+      "value": 0.026
+    },
+    {
+      "index": "2019-12-19 09:30:00-05:00",
+      "value": 0.069
+    },
+    {
+      "index": "2020-03-31 09:30:00-04:00",
+      "value": 0.029
+    },
+    {
+      "index": "2020-06-30 09:30:00-04:00",
+      "value": 0.011
+    },
+    {
+      "index": "2020-09-30 09:30:00-04:00",
+      "value": 0.018
+    },
+    {
+      "index": "2020-12-21 09:30:00-05:00",
+      "value": 0.093
+    },
+    {
+      "index": "2021-03-31 09:30:00-04:00",
+      "value": 0.023
+    },
+    {
+      "index": "2021-06-30 09:30:00-04:00",
+      "value": 0.023
+    },
+    {
+      "index": "2021-09-30 09:30:00-04:00",
+      "value": 0.073
+    },
+    {
+      "index": "2021-12-20 09:30:00-05:00",
+      "value": 0.068
+    },
+    {
+      "index": "2022-03-31 09:30:00-04:00",
+      "value": 0.025
+    },
+    {
+      "index": "2022-06-30 09:30:00-04:00",
+      "value": 0.045
+    },
+    {
+      "index": "2022-09-30 09:30:00-04:00",
+      "value": 0.053
+    },
+    {
+      "index": "2022-12-20 09:30:00-05:00",
+      "value": 0.084
+    },
+    {
+      "index": "2023-03-31 09:30:00-04:00",
+      "value": 0.057
+    },
+    {
+      "index": "2023-06-30 09:30:00-04:00",
+      "value": 0.065
+    },
+    {
+      "index": "2023-09-29 09:30:00-04:00",
+      "value": 0.07
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.099
+    },
+    {
+      "index": "2024-03-28 09:30:00-04:00",
+      "value": 0.066
+    },
+    {
+      "index": "2024-06-28 09:30:00-04:00",
+      "value": 0.057
+    },
+    {
+      "index": "2024-09-30 09:30:00-04:00",
+      "value": 0.041
+    },
+    {
+      "index": "2024-12-20 09:30:00-05:00",
+      "value": 0.404
+    },
+    {
+      "index": "2025-03-31 09:30:00-04:00",
+      "value": 0.066
+    },
+    {
+      "index": "2025-06-30 09:30:00-04:00",
+      "value": 0.126
+    },
+    {
+      "index": "2025-09-30 09:30:00-04:00",
+      "value": 0.122
+    },
+    {
+      "index": "2025-12-19 09:30:00-05:00",
+      "value": 0.124
+    },
+    {
+      "index": "2026-03-31 09:30:00-04:00",
+      "value": 0.079
+    },
+    {
+      "index": "2026-06-30 09:30:00-04:00",
+      "value": 0.082
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

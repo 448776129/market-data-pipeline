@@ -1,0 +1,91 @@
+{
+  "symbol": "LDEM",
+  "region": "us",
+  "name": "iShares ESG MSCI EM Leaders ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US46436E6014",
+  "info": {
+    "longName": "iShares ESG MSCI EM Leaders ETF",
+    "shortName": "iShares ESG MSCI EM Leaders ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 60.88,
+    "previousClose": 60.78,
+    "dayHigh": 60.9153,
+    "dayLow": 60.84,
+    "regularMarketPrice": 60.9153,
+    "regularMarketPreviousClose": 60.78,
+    "fiftyTwoWeekHigh": 64.73,
+    "fiftyTwoWeekLow": 55.52,
+    "trailingPE": 15.0158415,
+    "dividendYield": 2.96,
+    "volume": 533,
+    "averageVolume": 1604
+  },
+  "dividends": [
+    {
+      "index": "2020-06-15 09:30:00-04:00",
+      "value": 0.35
+    },
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.782
+    },
+    {
+      "index": "2021-06-10 09:30:00-04:00",
+      "value": 0.25
+    },
+    {
+      "index": "2021-12-13 09:30:00-05:00",
+      "value": 0.797
+    },
+    {
+      "index": "2022-06-09 09:30:00-04:00",
+      "value": 0.408
+    },
+    {
+      "index": "2022-12-13 09:30:00-05:00",
+      "value": 1.694
+    },
+    {
+      "index": "2023-06-07 09:30:00-04:00",
+      "value": 0.342
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 1.067
+    },
+    {
+      "index": "2024-06-11 09:30:00-04:00",
+      "value": 0.345
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 0.855
+    },
+    {
+      "index": "2025-06-16 09:30:00-04:00",
+      "value": 0.618
+    },
+    {
+      "index": "2025-12-16 09:30:00-05:00",
+      "value": 1.274
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 0.496
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
