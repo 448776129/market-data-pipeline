@@ -56,3 +56,12 @@ UNIVERSE_SOURCES = {
     "us": "https://raw.githubusercontent.com/abbadata/stock-tickers/main/data/allsymbols.txt",
     "hk": "https://raw.githubusercontent.com/darr/stock_code/master/hk_stock_code.csv",
 }
+
+# 分钟级K线（主要针对纳指100成分股）
+# 纳指100成分股清单文件名（data/universe/ 下）
+NASDAQ100_FILE = "nasdaq100.csv"
+# 分钟级K线子目录（按周期分目录，每只股票一个文件）
+INTRADAY_M1_SUBDIR = "kline_1m"
+INTRADAY_M15_SUBDIR = "kline_15m"
+# 分钟级K线各周期的 yfinance period（1m 仅保留约7天，15m 约60天）
+INTRADAY_PERIOD = {"1m": "5d", "15m": "2mo"}

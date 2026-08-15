@@ -11,7 +11,7 @@ on:
         required: true
         type: string
       mode:
-        description: "historical=全量历史, daily=当日增量, meta=非K线, universe=全市场列表"
+        description: "historical=全量历史, daily=当日增量, meta=非K线, universe=全市场列表, minute=分钟K线(纳指100)"
         required: true
         type: string
       batch:
@@ -56,6 +56,8 @@ jobs:
             python scripts/fetch_meta.py --region ${{ inputs.region }} $BATCH_ARGS
           elif [ "${{ inputs.mode }}" = "universe" ]; then
             python scripts/fetch_universe.py
+          elif [ "${{ inputs.mode }}" = "minute" ]; then
+            python scripts/fetch_intraday.py
           else
             python scripts/fetch_latest.py --region ${{ inputs.region }} $BATCH_ARGS
           fi

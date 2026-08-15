@@ -8,10 +8,15 @@ on:
     - cron: "0 0 * * *"
     - cron: "0 4 * * *"
     - cron: "0 12 * * *"
+    # 分钟K线(纳指100)：美股交易时段内北京时间 22:00/00:00/02:00/04:00，工作日
+    - cron: "0 14 * * 1-5"
+    - cron: "0 16 * * 1-5"
+    - cron: "0 18 * * 1-5"
+    - cron: "0 20 * * 1-5"
   workflow_dispatch:
     inputs:
       mode:
-        description: "运行模式：historical=全量历史, daily=当日增量, meta=非K线"
+        description: "运行模式：historical=全量历史, daily=当日增量, meta=非K线, minute=分钟K线"
         required: true
         default: "daily"
         type: choice
@@ -19,6 +24,7 @@ on:
           - historical
           - daily
           - meta
+          - minute
 
 env:
   PYTHON_VERSION: "3.11"
@@ -227,3 +233,15 @@ jobs:
       mode: meta
       batch: ${{ matrix.batch }}
       batches: "10"
+
+  # ============================================================
+  # 分钟级K线（纳指100成分股，只针对美股）
+  # ============================================================
+  minute-us:
+    name: Minute · US (NDX100)
+    needs: [universe]
+    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 14 * * 1-5' || github.event.schedule == '0 16 * * 1-5' || github.event.schedule == '0 18 * * 1-5' || github.event.schedule == '0 20 * * 1-5')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'minute') }}
+    uses: ./.github/workflows/step-data.yml
+    with:
+      region: us
+      mode: minute
