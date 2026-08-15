@@ -1,0 +1,87 @@
+{
+  "symbol": "SOCL",
+  "region": "us",
+  "name": "Global X Social Media ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US37950E4162",
+  "info": {
+    "longName": "Global X Social Media ETF",
+    "shortName": "Global X Social Media ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 46.8201,
+    "previousClose": 45.955,
+    "dayHigh": 47.05,
+    "dayLow": 46.65,
+    "regularMarketPrice": 46.7,
+    "regularMarketPreviousClose": 45.955,
+    "fiftyTwoWeekHigh": 63.93,
+    "fiftyTwoWeekLow": 41.35,
+    "trailingPE": 19.454456,
+    "dividendYield": 0.47,
+    "volume": 4094,
+    "averageVolume": 8520
+  },
+  "dividends": [
+    {
+      "index": "2012-12-27 09:30:00-05:00",
+      "value": 0.109
+    },
+    {
+      "index": "2014-12-29 09:30:00-05:00",
+      "value": 0.009
+    },
+    {
+      "index": "2015-12-29 09:30:00-05:00",
+      "value": 0.001
+    },
+    {
+      "index": "2016-12-28 09:30:00-05:00",
+      "value": 0.039
+    },
+    {
+      "index": "2017-12-28 09:30:00-05:00",
+      "value": 0.49
+    },
+    {
+      "index": "2022-06-29 09:30:00-04:00",
+      "value": 0.122
+    },
+    {
+      "index": "2023-06-29 09:30:00-04:00",
+      "value": 0.191
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.055
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.104
+    },
+    {
+      "index": "2025-06-27 09:30:00-04:00",
+      "value": 0.11
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.128
+    },
+    {
+      "index": "2026-06-29 09:30:00-04:00",
+      "value": 0.088
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

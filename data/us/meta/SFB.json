@@ -1,0 +1,44 @@
+{
+  "symbol": "SFB",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "shortName": "Stifel Financial Corporation 5.",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 19.59,
+    "previousClose": 19.64,
+    "dayHigh": 19.6,
+    "dayLow": 19.55,
+    "regularMarketPrice": 19.55,
+    "regularMarketPreviousClose": 19.64,
+    "fiftyTwoWeekHigh": 20.89,
+    "fiftyTwoWeekLow": 19.14,
+    "volume": 10194,
+    "averageVolume": 13185
+  },
+  "dividends": [
+    {
+      "index": "2026-04-01 09:30:00-04:00",
+      "value": 0.325
+    },
+    {
+      "index": "2026-07-01 09:30:00-04:00",
+      "value": 0.325
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

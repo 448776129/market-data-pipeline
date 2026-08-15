@@ -1,0 +1,100 @@
+{
+  "symbol": "SGBX",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "US78418A6047",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2021-05-20 16:00:00-04:00",
+      "EPS Estimate": 64.0,
+      "Reported EPS": -285.82,
+      "Surprise(%)": -546.6
+    },
+    {
+      "index": "2021-04-15 16:00:00-04:00",
+      "EPS Estimate": -89.6,
+      "Reported EPS": -233.27,
+      "Surprise(%)": -160.34
+    },
+    {
+      "index": "2020-11-19 16:00:00-05:00",
+      "EPS Estimate": 51.2,
+      "Reported EPS": -201.09,
+      "Surprise(%)": -492.75
+    },
+    {
+      "index": "2020-08-13 16:00:00-04:00",
+      "EPS Estimate": -102.4,
+      "Reported EPS": -168.58,
+      "Surprise(%)": -64.62
+    },
+    {
+      "index": "2020-05-14 16:00:00-04:00",
+      "EPS Estimate": -256.0,
+      "Reported EPS": -670.72,
+      "Surprise(%)": -162.0
+    },
+    {
+      "index": "2020-03-30 17:00:00-04:00",
+      "EPS Estimate": -1024.0,
+      "Reported EPS": -3265.41,
+      "Surprise(%)": -218.89
+    },
+    {
+      "index": "2019-11-14 16:00:00-05:00",
+      "EPS Estimate": -2304.0,
+      "Reported EPS": -5888.0,
+      "Surprise(%)": -155.56
+    },
+    {
+      "index": "2019-08-14 16:00:00-04:00",
+      "EPS Estimate": -4352.0,
+      "Reported EPS": -5120.0,
+      "Surprise(%)": -17.65
+    },
+    {
+      "index": "2019-05-13 16:00:00-04:00",
+      "EPS Estimate": -3584.0,
+      "Reported EPS": -3072.0,
+      "Surprise(%)": 14.29
+    },
+    {
+      "index": "2019-03-28 16:00:00-04:00",
+      "EPS Estimate": -2304.0,
+      "Reported EPS": -11008.0,
+      "Surprise(%)": -377.78
+    },
+    {
+      "index": "2018-03-01 16:00:00-05:00",
+      "EPS Estimate": -4352.0,
+      "Reported EPS": -11776.0,
+      "Surprise(%)": -170.59
+    },
+    {
+      "index": "2017-11-08 16:00:00-05:00",
+      "EPS Estimate": -3328.0,
+      "Reported EPS": -6400.0,
+      "Surprise(%)": -92.31
+    },
+    {
+      "index": "2017-08-09 16:00:00-04:00",
+      "EPS Estimate": -274944.0,
+      "Reported EPS": -266411.52,
+      "Surprise(%)": 3.1
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

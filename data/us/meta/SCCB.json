@@ -1,0 +1,39 @@
+{
+  "symbol": "SCCB",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "ASE",
+  "isin": "-",
+  "info": {
+    "shortName": "Sachem Capital Corp. 7.125% Not",
+    "exchange": "ASE",
+    "currency": "USD",
+    "open": 24.99,
+    "previousClose": 24.985,
+    "dayHigh": 24.98,
+    "dayLow": 24.98,
+    "regularMarketPreviousClose": 24.985,
+    "fiftyTwoWeekHigh": 25.488,
+    "fiftyTwoWeekLow": 24.5,
+    "volume": 466,
+    "averageVolume": 3346
+  },
+  "dividends": [
+    {
+      "index": "2024-06-14 09:30:00-04:00",
+      "value": 0.445
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

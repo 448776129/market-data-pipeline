@@ -1,0 +1,116 @@
+{
+  "symbol": "SOJE",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "shortName": "Southern Company (The) Series 2",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 16.2,
+    "previousClose": 16.24,
+    "dayHigh": 16.2899,
+    "dayLow": 16.1805,
+    "regularMarketPrice": 16.19,
+    "regularMarketPreviousClose": 16.24,
+    "fiftyTwoWeekHigh": 19.74,
+    "fiftyTwoWeekLow": 16.1805,
+    "volume": 31039,
+    "averageVolume": 73732
+  },
+  "dividends": [
+    {
+      "index": "2021-07-13 09:30:00-04:00",
+      "value": 0.263
+    },
+    {
+      "index": "2021-10-13 09:30:00-04:00",
+      "value": 0.263
+    },
+    {
+      "index": "2022-04-13 09:30:00-04:00",
+      "value": 0.263
+    },
+    {
+      "index": "2022-07-13 09:30:00-04:00",
+      "value": 0.263
+    },
+    {
+      "index": "2022-10-13 09:30:00-04:00",
+      "value": 0.263
+    },
+    {
+      "index": "2023-01-12 09:30:00-05:00",
+      "value": 0.263
+    },
+    {
+      "index": "2023-04-13 09:30:00-04:00",
+      "value": 0.263
+    },
+    {
+      "index": "2023-07-13 09:30:00-04:00",
+      "value": 0.263
+    },
+    {
+      "index": "2023-10-12 09:30:00-04:00",
+      "value": 0.263
+    },
+    {
+      "index": "2024-01-11 09:30:00-05:00",
+      "value": 0.263
+    },
+    {
+      "index": "2024-04-11 09:30:00-04:00",
+      "value": 0.263
+    },
+    {
+      "index": "2024-07-12 09:30:00-04:00",
+      "value": 0.263
+    },
+    {
+      "index": "2024-10-11 09:30:00-04:00",
+      "value": 0.263
+    },
+    {
+      "index": "2025-01-14 09:30:00-05:00",
+      "value": 0.263
+    },
+    {
+      "index": "2025-04-14 09:30:00-04:00",
+      "value": 0.263
+    },
+    {
+      "index": "2025-07-14 09:30:00-04:00",
+      "value": 0.263
+    },
+    {
+      "index": "2025-10-14 09:30:00-04:00",
+      "value": 0.263
+    },
+    {
+      "index": "2026-01-14 09:30:00-05:00",
+      "value": 0.263
+    },
+    {
+      "index": "2026-04-14 09:30:00-04:00",
+      "value": 0.263
+    },
+    {
+      "index": "2026-07-14 09:30:00-04:00",
+      "value": 0.263
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

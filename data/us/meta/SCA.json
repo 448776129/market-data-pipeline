@@ -1,0 +1,52 @@
+{
+  "symbol": "SCA",
+  "region": "us",
+  "name": "Graniteshares Autocallable Smci ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US38747T4849",
+  "info": {
+    "longName": "Graniteshares Autocallable Smci ETF",
+    "shortName": "GraniteShares Autocallable SMCI",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 24.99,
+    "previousClose": 24.89,
+    "dayHigh": 24.9538,
+    "dayLow": 24.9538,
+    "regularMarketPrice": 24.9538,
+    "regularMarketPreviousClose": 24.89,
+    "fiftyTwoWeekHigh": 26.81,
+    "fiftyTwoWeekLow": 18.08,
+    "trailingPE": 16.40618,
+    "priceToBook": 1.791114,
+    "volume": 342,
+    "averageVolume": 426,
+    "sharesOutstanding": 15642500
+  },
+  "dividends": [
+    {
+      "index": "2026-06-03 09:30:00-04:00",
+      "value": 0.804
+    },
+    {
+      "index": "2026-07-01 09:30:00-04:00",
+      "value": 0.829
+    },
+    {
+      "index": "2026-08-12 09:30:00-04:00",
+      "value": 0.81
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

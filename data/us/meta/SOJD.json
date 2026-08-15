@@ -1,0 +1,136 @@
+{
+  "symbol": "SOJD",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "shortName": "Southern Company (The) Series 2",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 18.46,
+    "previousClose": 18.48,
+    "dayHigh": 18.5599,
+    "dayLow": 18.41,
+    "regularMarketPrice": 18.45,
+    "regularMarketPreviousClose": 18.48,
+    "fiftyTwoWeekHigh": 22.4,
+    "fiftyTwoWeekLow": 18.41,
+    "volume": 63475,
+    "averageVolume": 84058
+  },
+  "dividends": [
+    {
+      "index": "2020-04-28 09:30:00-04:00",
+      "value": 0.382
+    },
+    {
+      "index": "2020-07-28 09:30:00-04:00",
+      "value": 0.309
+    },
+    {
+      "index": "2020-10-28 09:30:00-04:00",
+      "value": 0.309
+    },
+    {
+      "index": "2021-01-28 09:30:00-05:00",
+      "value": 0.309
+    },
+    {
+      "index": "2021-04-28 09:30:00-04:00",
+      "value": 0.309
+    },
+    {
+      "index": "2021-07-28 09:30:00-04:00",
+      "value": 0.309
+    },
+    {
+      "index": "2021-10-28 09:30:00-04:00",
+      "value": 0.309
+    },
+    {
+      "index": "2022-04-13 09:30:00-04:00",
+      "value": 0.309
+    },
+    {
+      "index": "2022-07-28 09:30:00-04:00",
+      "value": 0.309
+    },
+    {
+      "index": "2022-10-27 09:30:00-04:00",
+      "value": 0.309
+    },
+    {
+      "index": "2023-01-26 09:30:00-05:00",
+      "value": 0.309
+    },
+    {
+      "index": "2023-04-27 09:30:00-04:00",
+      "value": 0.309
+    },
+    {
+      "index": "2023-07-27 09:30:00-04:00",
+      "value": 0.309
+    },
+    {
+      "index": "2023-10-26 09:30:00-04:00",
+      "value": 0.309
+    },
+    {
+      "index": "2024-01-26 09:30:00-05:00",
+      "value": 0.309
+    },
+    {
+      "index": "2024-04-26 09:30:00-04:00",
+      "value": 0.309
+    },
+    {
+      "index": "2024-07-29 09:30:00-04:00",
+      "value": 0.309
+    },
+    {
+      "index": "2024-10-29 09:30:00-04:00",
+      "value": 0.309
+    },
+    {
+      "index": "2025-01-29 09:30:00-05:00",
+      "value": 0.309
+    },
+    {
+      "index": "2025-04-29 09:30:00-04:00",
+      "value": 0.309
+    },
+    {
+      "index": "2025-07-29 09:30:00-04:00",
+      "value": 0.309
+    },
+    {
+      "index": "2025-10-29 09:30:00-04:00",
+      "value": 0.309
+    },
+    {
+      "index": "2026-01-29 09:30:00-05:00",
+      "value": 0.309
+    },
+    {
+      "index": "2026-04-29 09:30:00-04:00",
+      "value": 0.309
+    },
+    {
+      "index": "2026-07-29 09:30:00-04:00",
+      "value": 0.309
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

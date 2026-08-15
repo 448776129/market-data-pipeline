@@ -1,0 +1,99 @@
+{
+  "symbol": "SMH",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US92189F6768",
+  "info": {
+    "shortName": "VanEck Semiconductor ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 587.995,
+    "previousClose": 589.12,
+    "dayHigh": 590.28,
+    "dayLow": 581.87,
+    "regularMarketPrice": 587.82,
+    "regularMarketPreviousClose": 589.12,
+    "fiftyTwoWeekHigh": 671.83,
+    "fiftyTwoWeekLow": 281.15,
+    "trailingPE": 41.7007,
+    "dividendYield": 0.2,
+    "volume": 5463900,
+    "averageVolume": 11400329
+  },
+  "dividends": [
+    {
+      "index": "2012-12-24 09:30:00-05:00",
+      "value": 0.35
+    },
+    {
+      "index": "2013-12-23 09:30:00-05:00",
+      "value": 0.3295
+    },
+    {
+      "index": "2014-12-22 09:30:00-05:00",
+      "value": 0.316
+    },
+    {
+      "index": "2015-12-21 09:30:00-05:00",
+      "value": 0.5705
+    },
+    {
+      "index": "2016-12-19 09:30:00-05:00",
+      "value": 0.288
+    },
+    {
+      "index": "2017-12-18 09:30:00-05:00",
+      "value": 0.698
+    },
+    {
+      "index": "2018-12-20 09:30:00-05:00",
+      "value": 0.819
+    },
+    {
+      "index": "2019-12-23 09:30:00-05:00",
+      "value": 1.061
+    },
+    {
+      "index": "2020-12-21 09:30:00-05:00",
+      "value": 0.751
+    },
+    {
+      "index": "2021-12-20 09:30:00-05:00",
+      "value": 0.7865
+    },
+    {
+      "index": "2022-12-19 09:30:00-05:00",
+      "value": 1.2005
+    },
+    {
+      "index": "2023-12-18 09:30:00-05:00",
+      "value": 1.043
+    },
+    {
+      "index": "2024-12-23 09:30:00-05:00",
+      "value": 1.071
+    },
+    {
+      "index": "2025-12-22 09:30:00-05:00",
+      "value": 1.105
+    }
+  ],
+  "splits": [
+    {
+      "index": "2023-05-05 09:30:00-04:00",
+      "value": 2.0
+    }
+  ],
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

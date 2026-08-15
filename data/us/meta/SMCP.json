@@ -1,0 +1,47 @@
+{
+  "symbol": "SMCP",
+  "region": "us",
+  "name": "SMART Mid Cap ETF",
+  "currency": "USD",
+  "exchange": "PCX",
+  "isin": "US88634W7020",
+  "info": {
+    "longName": "SMART Mid Cap ETF",
+    "shortName": "SMART Mid Cap ETF",
+    "exchange": "PCX",
+    "currency": "USD",
+    "open": 26.67,
+    "previousClose": 26.4163,
+    "dayHigh": 26.6232,
+    "dayLow": 26.59,
+    "regularMarketPrice": 26.6232,
+    "regularMarketPreviousClose": 26.4163,
+    "fiftyTwoWeekHigh": 26.6232,
+    "fiftyTwoWeekLow": 23.29,
+    "trailingPE": 13.975367,
+    "volume": 553,
+    "averageVolume": 5900
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Smart Wealth LLC                          ",
+      "pctHeld": 0.42130002,
+      "Shares": 139030,
+      "Value": 3701423,
+      "pctChange": 1.0
+    }
+  ]
+}

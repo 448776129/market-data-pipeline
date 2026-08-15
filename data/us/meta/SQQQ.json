@@ -1,0 +1,171 @@
+{
+  "symbol": "SQQQ",
+  "region": "us",
+  "name": "ProShares UltraPro Short QQQ",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US74350P6759",
+  "info": {
+    "longName": "ProShares UltraPro Short QQQ",
+    "shortName": "ProShares UltraPro Short QQQ",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 35.91,
+    "previousClose": 36.04,
+    "dayHigh": 36.64,
+    "dayLow": 35.74,
+    "regularMarketPrice": 36.24,
+    "regularMarketPreviousClose": 36.04,
+    "fiftyTwoWeekHigh": 95.0,
+    "fiftyTwoWeekLow": 35.74,
+    "dividendYield": 9.13,
+    "volume": 36229025,
+    "averageVolume": 63828303
+  },
+  "dividends": [
+    {
+      "index": "2017-12-26 09:30:00-05:00",
+      "value": 75.0
+    },
+    {
+      "index": "2018-03-21 09:30:00-04:00",
+      "value": 87.5
+    },
+    {
+      "index": "2018-06-20 09:30:00-04:00",
+      "value": 102.5
+    },
+    {
+      "index": "2018-09-26 09:30:00-04:00",
+      "value": 167.5
+    },
+    {
+      "index": "2018-12-26 09:30:00-05:00",
+      "value": 257.5
+    },
+    {
+      "index": "2019-03-20 09:30:00-04:00",
+      "value": 72.5
+    },
+    {
+      "index": "2019-06-25 09:30:00-04:00",
+      "value": 152.5
+    },
+    {
+      "index": "2019-09-25 09:30:00-04:00",
+      "value": 115.625
+    },
+    {
+      "index": "2019-12-24 09:30:00-05:00",
+      "value": 67.5
+    },
+    {
+      "index": "2020-03-25 09:30:00-04:00",
+      "value": 40.625
+    },
+    {
+      "index": "2022-12-22 09:30:00-05:00",
+      "value": 3.775
+    },
+    {
+      "index": "2023-03-22 09:30:00-04:00",
+      "value": 5.1
+    },
+    {
+      "index": "2023-06-21 09:30:00-04:00",
+      "value": 6.65
+    },
+    {
+      "index": "2023-09-20 09:30:00-04:00",
+      "value": 8.1
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 7.075
+    },
+    {
+      "index": "2024-03-20 09:30:00-04:00",
+      "value": 4.1
+    },
+    {
+      "index": "2024-06-26 09:30:00-04:00",
+      "value": 4.0
+    },
+    {
+      "index": "2024-09-25 09:30:00-04:00",
+      "value": 3.725
+    },
+    {
+      "index": "2024-12-23 09:30:00-05:00",
+      "value": 4.085
+    },
+    {
+      "index": "2025-03-26 09:30:00-04:00",
+      "value": 2.41
+    },
+    {
+      "index": "2025-06-25 09:30:00-04:00",
+      "value": 1.285
+    },
+    {
+      "index": "2025-09-24 09:30:00-04:00",
+      "value": 1.215
+    },
+    {
+      "index": "2025-12-24 09:30:00-05:00",
+      "value": 1.506
+    },
+    {
+      "index": "2026-03-25 09:30:00-04:00",
+      "value": 0.638
+    },
+    {
+      "index": "2026-06-24 09:30:00-04:00",
+      "value": 0.638
+    }
+  ],
+  "splits": [
+    {
+      "index": "2012-05-11 09:30:00-04:00",
+      "value": 0.25
+    },
+    {
+      "index": "2014-01-24 09:30:00-05:00",
+      "value": 0.25
+    },
+    {
+      "index": "2017-01-12 09:30:00-05:00",
+      "value": 0.25
+    },
+    {
+      "index": "2019-05-24 09:30:00-04:00",
+      "value": 0.25
+    },
+    {
+      "index": "2020-08-18 09:30:00-04:00",
+      "value": 0.2
+    },
+    {
+      "index": "2022-01-13 09:30:00-05:00",
+      "value": 0.2
+    },
+    {
+      "index": "2024-11-07 09:30:00-05:00",
+      "value": 0.2
+    },
+    {
+      "index": "2025-11-20 09:30:00-05:00",
+      "value": 0.2
+    }
+  ],
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

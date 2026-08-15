@@ -1,0 +1,64 @@
+{
+  "symbol": "SHLD",
+  "region": "us",
+  "name": "Global X Defense Tech ETF",
+  "currency": "USD",
+  "exchange": "PCX",
+  "isin": "US37960A5294",
+  "info": {
+    "longName": "Global X Defense Tech ETF",
+    "shortName": "Global X Defense Tech ETF",
+    "exchange": "PCX",
+    "currency": "USD",
+    "open": 70.75,
+    "previousClose": 70.27,
+    "dayHigh": 71.14,
+    "dayLow": 70.41,
+    "regularMarketPrice": 70.81,
+    "regularMarketPreviousClose": 70.27,
+    "fiftyTwoWeekHigh": 78.493,
+    "fiftyTwoWeekLow": 57.89,
+    "trailingPE": 32.52567,
+    "forwardPE": -7.2402864,
+    "dividendYield": 0.67,
+    "volume": 585677,
+    "averageVolume": 1544519
+  },
+  "dividends": [
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.071
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.061
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.138
+    },
+    {
+      "index": "2025-06-27 09:30:00-04:00",
+      "value": 0.119
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.237
+    },
+    {
+      "index": "2026-06-29 09:30:00-04:00",
+      "value": 0.187
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

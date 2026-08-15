@@ -1,0 +1,64 @@
+{
+  "symbol": "SPI",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "NET000SPINE1",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2023-11-20 11:00:00-05:00",
+      "EPS Estimate": 0.02,
+      "Reported EPS": 0.02,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2023-08-18 09:00:00-04:00",
+      "EPS Estimate": null,
+      "Reported EPS": -0.08,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2023-05-22 07:00:00-04:00",
+      "EPS Estimate": -0.18,
+      "Reported EPS": -0.31,
+      "Surprise(%)": -72.22
+    },
+    {
+      "index": "2023-04-14 15:00:00-04:00",
+      "EPS Estimate": -0.25,
+      "Reported EPS": -0.48,
+      "Surprise(%)": -90.53
+    },
+    {
+      "index": "2022-11-14 07:00:00-05:00",
+      "EPS Estimate": -0.28,
+      "Reported EPS": -0.56,
+      "Surprise(%)": -99.21
+    },
+    {
+      "index": "2022-08-15 14:00:00-04:00",
+      "EPS Estimate": -0.28,
+      "Reported EPS": -0.08,
+      "Surprise(%)": 71.93
+    },
+    {
+      "index": "2022-05-13 15:00:00-04:00",
+      "EPS Estimate": -0.33,
+      "Reported EPS": -0.27,
+      "Surprise(%)": 18.18
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

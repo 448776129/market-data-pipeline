@@ -1,0 +1,735 @@
+{
+  "symbol": "SMIT",
+  "region": "us",
+  "name": "Schmitt Industries, Inc.",
+  "currency": "USD",
+  "exchange": "PNK",
+  "isin": "US8068702005",
+  "info": {
+    "longName": "Schmitt Industries, Inc.",
+    "shortName": "Schmitt Industries, Inc.",
+    "sector": "Technology",
+    "industry": "Scientific & Technical Instruments",
+    "country": "United States",
+    "exchange": "PNK",
+    "currency": "USD",
+    "marketCap": 58082,
+    "currentPrice": 0.015,
+    "open": 0.0155,
+    "previousClose": 0.015,
+    "dayHigh": 0.0155,
+    "dayLow": 0.0155,
+    "regularMarketPrice": 0.015,
+    "regularMarketPreviousClose": 0.015,
+    "fiftyTwoWeekHigh": 0.0403,
+    "fiftyTwoWeekLow": 0.015,
+    "priceToBook": 0.0949367,
+    "trailingEps": -0.86,
+    "beta": -0.186,
+    "volume": 411,
+    "averageVolume": 155,
+    "sharesOutstanding": 3872134,
+    "floatShares": 3828069,
+    "recommendationKey": "none",
+    "totalRevenue": 9893210,
+    "grossProfits": 5068571,
+    "freeCashflow": -5709929,
+    "totalDebt": 18383852,
+    "totalCash": 1050910,
+    "profitMargins": -0.33192003,
+    "returnOnEquity": -1.6955701,
+    "returnOnAssets": -0.3015
+  },
+  "dividends": null,
+  "splits": [
+    {
+      "index": "2002-12-31 09:30:00-05:00",
+      "value": 0.3333333333333333
+    }
+  ],
+  "capital_gains": null,
+  "financials": [
+    {
+      "index": "Tax Effect Of Unusual Items",
+      "2022-05-31 00:00:00": 1398106.71
+    },
+    {
+      "index": "Tax Rate For Calcs",
+      "2022-05-31 00:00:00": 0.21
+    },
+    {
+      "index": "Normalized EBITDA",
+      "2022-05-31 00:00:00": -9863327.0
+    },
+    {
+      "index": "Total Unusual Items",
+      "2022-05-31 00:00:00": 6657651.0
+    },
+    {
+      "index": "Total Unusual Items Excluding Goodwill",
+      "2022-05-31 00:00:00": 6657651.0
+    },
+    {
+      "index": "Net Income From Continuing Operation Net Minority Interest",
+      "2022-05-31 00:00:00": -3708884.0
+    },
+    {
+      "index": "Reconciled Depreciation",
+      "2022-05-31 00:00:00": 437183.0
+    },
+    {
+      "index": "Reconciled Cost Of Revenue",
+      "2022-05-31 00:00:00": 4824639.0
+    },
+    {
+      "index": "EBITDA",
+      "2022-05-31 00:00:00": -3205676.0
+    },
+    {
+      "index": "EBIT",
+      "2022-05-31 00:00:00": -3642859.0
+    },
+    {
+      "index": "Net Interest Income",
+      "2022-05-31 00:00:00": -46828.0
+    },
+    {
+      "index": "Interest Expense",
+      "2022-05-31 00:00:00": 46828.0
+    },
+    {
+      "index": "Normalized Income",
+      "2022-05-31 00:00:00": -8968428.29
+    },
+    {
+      "index": "Net Income From Continuing And Discontinued Operation",
+      "2022-05-31 00:00:00": -3283776.0
+    },
+    {
+      "index": "Total Expenses",
+      "2022-05-31 00:00:00": 20509096.0
+    },
+    {
+      "index": "Total Operating Income As Reported",
+      "2022-05-31 00:00:00": -10615886.0
+    },
+    {
+      "index": "Diluted NI Availto Com Stockholders",
+      "2022-05-31 00:00:00": -3283776.0
+    },
+    {
+      "index": "Net Income Common Stockholders",
+      "2022-05-31 00:00:00": -3283776.0
+    },
+    {
+      "index": "Net Income",
+      "2022-05-31 00:00:00": -3283776.0
+    },
+    {
+      "index": "Net Income Including Noncontrolling Interests",
+      "2022-05-31 00:00:00": -3283776.0
+    },
+    {
+      "index": "Net Income Discontinuous Operations",
+      "2022-05-31 00:00:00": 425108.0
+    },
+    {
+      "index": "Net Income Continuous Operations",
+      "2022-05-31 00:00:00": -3708884.0
+    },
+    {
+      "index": "Tax Provision",
+      "2022-05-31 00:00:00": 19197.0
+    },
+    {
+      "index": "Pretax Income",
+      "2022-05-31 00:00:00": -3689687.0
+    },
+    {
+      "index": "Other Income Expense",
+      "2022-05-31 00:00:00": 6973027.0
+    },
+    {
+      "index": "Other Non Operating Income Expenses",
+      "2022-05-31 00:00:00": 315376.0
+    },
+    {
+      "index": "Special Income Charges",
+      "2022-05-31 00:00:00": 6657651.0
+    },
+    {
+      "index": "Gain On Sale Of Ppe",
+      "2022-05-31 00:00:00": 4598095.0
+    },
+    {
+      "index": "Other Special Charges",
+      "2022-05-31 00:00:00": -2059556.0
+    },
+    {
+      "index": "Impairment Of Capital Assets",
+      "2022-05-31 00:00:00": 0.0
+    },
+    {
+      "index": "Restructuring And Mergern Acquisition",
+      "2022-05-31 00:00:00": 0.0
+    },
+    {
+      "index": "Net Non Operating Interest Income Expense",
+      "2022-05-31 00:00:00": -46828.0
+    },
+    {
+      "index": "Interest Expense Non Operating",
+      "2022-05-31 00:00:00": 46828.0
+    },
+    {
+      "index": "Operating Income",
+      "2022-05-31 00:00:00": -10615886.0
+    },
+    {
+      "index": "Operating Expense",
+      "2022-05-31 00:00:00": 15684457.0
+    },
+    {
+      "index": "Research And Development",
+      "2022-05-31 00:00:00": 40456.0
+    },
+    {
+      "index": "Selling General And Administration",
+      "2022-05-31 00:00:00": 15644001.0
+    },
+    {
+      "index": "Gross Profit",
+      "2022-05-31 00:00:00": 5068571.0
+    },
+    {
+      "index": "Cost Of Revenue",
+      "2022-05-31 00:00:00": 4824639.0
+    },
+    {
+      "index": "Total Revenue",
+      "2022-05-31 00:00:00": 9893210.0
+    },
+    {
+      "index": "Operating Revenue",
+      "2022-05-31 00:00:00": 9893210.0
+    }
+  ],
+  "balancesheet": [
+    {
+      "index": "Ordinary Shares Number",
+      "2022-05-31 00:00:00": 3825724.0
+    },
+    {
+      "index": "Share Issued",
+      "2022-05-31 00:00:00": 3825724.0
+    },
+    {
+      "index": "Net Debt",
+      "2022-05-31 00:00:00": 1949090.0
+    },
+    {
+      "index": "Total Debt",
+      "2022-05-31 00:00:00": 18383851.0
+    },
+    {
+      "index": "Tangible Book Value",
+      "2022-05-31 00:00:00": 478016.0
+    },
+    {
+      "index": "Invested Capital",
+      "2022-05-31 00:00:00": 3605205.0
+    },
+    {
+      "index": "Working Capital",
+      "2022-05-31 00:00:00": -1822078.0
+    },
+    {
+      "index": "Net Tangible Assets",
+      "2022-05-31 00:00:00": 478016.0
+    },
+    {
+      "index": "Capital Lease Obligations",
+      "2022-05-31 00:00:00": 15383851.0
+    },
+    {
+      "index": "Common Stock Equity",
+      "2022-05-31 00:00:00": 605205.0
+    },
+    {
+      "index": "Total Capitalization",
+      "2022-05-31 00:00:00": 3101986.0
+    },
+    {
+      "index": "Total Equity Gross Minority Interest",
+      "2022-05-31 00:00:00": 605205.0
+    },
+    {
+      "index": "Stockholders Equity",
+      "2022-05-31 00:00:00": 605205.0
+    },
+    {
+      "index": "Retained Earnings",
+      "2022-05-31 00:00:00": -11737552.0
+    },
+    {
+      "index": "Capital Stock",
+      "2022-05-31 00:00:00": 12342757.0
+    },
+    {
+      "index": "Common Stock",
+      "2022-05-31 00:00:00": 12342757.0
+    },
+    {
+      "index": "Total Liabilities Net Minority Interest",
+      "2022-05-31 00:00:00": 22234091.0
+    },
+    {
+      "index": "Total Non Current Liabilities Net Minority Interest",
+      "2022-05-31 00:00:00": 16406169.0
+    },
+    {
+      "index": "Long Term Debt And Capital Lease Obligation",
+      "2022-05-31 00:00:00": 16406169.0
+    },
+    {
+      "index": "Long Term Capital Lease Obligation",
+      "2022-05-31 00:00:00": 13909388.0
+    },
+    {
+      "index": "Long Term Debt",
+      "2022-05-31 00:00:00": 2496781.0
+    },
+    {
+      "index": "Current Liabilities",
+      "2022-05-31 00:00:00": 5827922.0
+    },
+    {
+      "index": "Other Current Liabilities",
+      "2022-05-31 00:00:00": 185158.0
+    },
+    {
+      "index": "Current Deferred Liabilities",
+      "2022-05-31 00:00:00": 116309.0
+    },
+    {
+      "index": "Current Deferred Revenue",
+      "2022-05-31 00:00:00": 116309.0
+    },
+    {
+      "index": "Current Debt And Capital Lease Obligation",
+      "2022-05-31 00:00:00": 1977682.0
+    },
+    {
+      "index": "Current Capital Lease Obligation",
+      "2022-05-31 00:00:00": 1474463.0
+    },
+    {
+      "index": "Current Debt",
+      "2022-05-31 00:00:00": 503219.0
+    },
+    {
+      "index": "Other Current Borrowings",
+      "2022-05-31 00:00:00": 503219.0
+    },
+    {
+      "index": "Payables And Accrued Expenses",
+      "2022-05-31 00:00:00": 3548773.0
+    },
+    {
+      "index": "Current Accrued Expenses",
+      "2022-05-31 00:00:00": 2704279.0
+    },
+    {
+      "index": "Payables",
+      "2022-05-31 00:00:00": 844494.0
+    },
+    {
+      "index": "Accounts Payable",
+      "2022-05-31 00:00:00": 844494.0
+    },
+    {
+      "index": "Total Assets",
+      "2022-05-31 00:00:00": 22839296.0
+    },
+    {
+      "index": "Total Non Current Assets",
+      "2022-05-31 00:00:00": 18833452.0
+    },
+    {
+      "index": "Other Non Current Assets",
+      "2022-05-31 00:00:00": 915689.0
+    },
+    {
+      "index": "Goodwill And Other Intangible Assets",
+      "2022-05-31 00:00:00": 127189.0
+    },
+    {
+      "index": "Other Intangible Assets",
+      "2022-05-31 00:00:00": 127189.0
+    },
+    {
+      "index": "Net PPE",
+      "2022-05-31 00:00:00": 17790574.0
+    },
+    {
+      "index": "Accumulated Depreciation",
+      "2022-05-31 00:00:00": -1176325.0
+    },
+    {
+      "index": "Gross PPE",
+      "2022-05-31 00:00:00": 18966899.0
+    },
+    {
+      "index": "Leases",
+      "2022-05-31 00:00:00": 14282286.0
+    },
+    {
+      "index": "Construction In Progress",
+      "2022-05-31 00:00:00": 560660.0
+    },
+    {
+      "index": "Machinery Furniture Equipment",
+      "2022-05-31 00:00:00": 2051722.0
+    },
+    {
+      "index": "Buildings And Improvements",
+      "2022-05-31 00:00:00": 2072231.0
+    },
+    {
+      "index": "Land And Improvements",
+      "2022-05-31 00:00:00": 0.0
+    },
+    {
+      "index": "Properties",
+      "2022-05-31 00:00:00": 0.0
+    },
+    {
+      "index": "Current Assets",
+      "2022-05-31 00:00:00": 4005844.0
+    },
+    {
+      "index": "Assets Held For Sale Current",
+      "2022-05-31 00:00:00": 665206.0
+    },
+    {
+      "index": "Prepaid Assets",
+      "2022-05-31 00:00:00": 94648.0
+    },
+    {
+      "index": "Inventory",
+      "2022-05-31 00:00:00": 1443529.0
+    },
+    {
+      "index": "Inventories Adjustments Allowances",
+      "2022-05-31 00:00:00": -100882.0
+    },
+    {
+      "index": "Finished Goods",
+      "2022-05-31 00:00:00": 574645.0
+    },
+    {
+      "index": "Work In Process",
+      "2022-05-31 00:00:00": 64390.0
+    },
+    {
+      "index": "Raw Materials",
+      "2022-05-31 00:00:00": 905376.0
+    },
+    {
+      "index": "Receivables",
+      "2022-05-31 00:00:00": 751551.0
+    },
+    {
+      "index": "Taxes Receivable",
+      "2022-05-31 00:00:00": 0.0
+    },
+    {
+      "index": "Accounts Receivable",
+      "2022-05-31 00:00:00": 751551.0
+    },
+    {
+      "index": "Allowance For Doubtful Accounts Receivable",
+      "2022-05-31 00:00:00": -87274.0
+    },
+    {
+      "index": "Gross Accounts Receivable",
+      "2022-05-31 00:00:00": 838825.0
+    },
+    {
+      "index": "Cash Cash Equivalents And Short Term Investments",
+      "2022-05-31 00:00:00": 1050910.0
+    },
+    {
+      "index": "Cash And Cash Equivalents",
+      "2022-05-31 00:00:00": 1050910.0
+    }
+  ],
+  "cashflow": [
+    {
+      "index": "Free Cash Flow",
+      "2022-05-31 00:00:00": -9044180.0
+    },
+    {
+      "index": "Repurchase Of Capital Stock",
+      "2022-05-31 00:00:00": 0.0
+    },
+    {
+      "index": "Repayment Of Debt",
+      "2022-05-31 00:00:00": 0.0
+    },
+    {
+      "index": "Issuance Of Debt",
+      "2022-05-31 00:00:00": 1264476.0
+    },
+    {
+      "index": "Capital Expenditure",
+      "2022-05-31 00:00:00": -996905.0
+    },
+    {
+      "index": "Interest Paid Supplemental Data",
+      "2022-05-31 00:00:00": 63.0
+    },
+    {
+      "index": "Income Tax Paid Supplemental Data",
+      "2022-05-31 00:00:00": 19197.0
+    },
+    {
+      "index": "End Cash Position",
+      "2022-05-31 00:00:00": 1050910.0
+    },
+    {
+      "index": "Beginning Cash Position",
+      "2022-05-31 00:00:00": 4032690.0
+    },
+    {
+      "index": "Changes In Cash",
+      "2022-05-31 00:00:00": -2981780.0
+    },
+    {
+      "index": "Financing Cash Flow",
+      "2022-05-31 00:00:00": 1264476.0
+    },
+    {
+      "index": "Cash Flow From Continuing Financing Activities",
+      "2022-05-31 00:00:00": 1264476.0
+    },
+    {
+      "index": "Net Common Stock Issuance",
+      "2022-05-31 00:00:00": 0.0
+    },
+    {
+      "index": "Common Stock Payments",
+      "2022-05-31 00:00:00": 0.0
+    },
+    {
+      "index": "Net Issuance Payments Of Debt",
+      "2022-05-31 00:00:00": 1264476.0
+    },
+    {
+      "index": "Net Short Term Debt Issuance",
+      "2022-05-31 00:00:00": 1000000.0
+    },
+    {
+      "index": "Short Term Debt Payments",
+      "2022-05-31 00:00:00": 0.0
+    },
+    {
+      "index": "Short Term Debt Issuance",
+      "2022-05-31 00:00:00": 1000000.0
+    },
+    {
+      "index": "Net Long Term Debt Issuance",
+      "2022-05-31 00:00:00": 264476.0
+    },
+    {
+      "index": "Long Term Debt Payments",
+      "2022-05-31 00:00:00": 0.0
+    },
+    {
+      "index": "Long Term Debt Issuance",
+      "2022-05-31 00:00:00": 264476.0
+    },
+    {
+      "index": "Investing Cash Flow",
+      "2022-05-31 00:00:00": 3801019.0
+    },
+    {
+      "index": "Cash Flow From Continuing Investing Activities",
+      "2022-05-31 00:00:00": 3801019.0
+    },
+    {
+      "index": "Net Business Purchase And Sale",
+      "2022-05-31 00:00:00": 0.0
+    },
+    {
+      "index": "Purchase Of Business",
+      "2022-05-31 00:00:00": 0.0
+    },
+    {
+      "index": "Net PPE Purchase And Sale",
+      "2022-05-31 00:00:00": 3801019.0
+    },
+    {
+      "index": "Sale Of PPE",
+      "2022-05-31 00:00:00": 4797924.0
+    },
+    {
+      "index": "Purchase Of PPE",
+      "2022-05-31 00:00:00": -996905.0
+    },
+    {
+      "index": "Operating Cash Flow",
+      "2022-05-31 00:00:00": -8047275.0
+    },
+    {
+      "index": "Cash From Discontinued Operating Activities",
+      "2022-05-31 00:00:00": 49114.0
+    },
+    {
+      "index": "Cash Flow From Continuing Operating Activities",
+      "2022-05-31 00:00:00": -8096389.0
+    },
+    {
+      "index": "Change In Working Capital",
+      "2022-05-31 00:00:00": 922601.0
+    },
+    {
+      "index": "Change In Payables And Accrued Expense",
+      "2022-05-31 00:00:00": 1254742.0
+    },
+    {
+      "index": "Change In Accrued Expense",
+      "2022-05-31 00:00:00": 992215.0
+    },
+    {
+      "index": "Change In Payable",
+      "2022-05-31 00:00:00": 262527.0
+    },
+    {
+      "index": "Change In Account Payable",
+      "2022-05-31 00:00:00": 262527.0
+    },
+    {
+      "index": "Change In Prepaid Assets",
+      "2022-05-31 00:00:00": -135407.0
+    },
+    {
+      "index": "Change In Inventory",
+      "2022-05-31 00:00:00": -192107.0
+    },
+    {
+      "index": "Change In Receivables",
+      "2022-05-31 00:00:00": -4627.0
+    },
+    {
+      "index": "Changes In Account Receivables",
+      "2022-05-31 00:00:00": -22684.0
+    },
+    {
+      "index": "Other Non Cash Items",
+      "2022-05-31 00:00:00": 365856.0
+    },
+    {
+      "index": "Stock Based Compensation",
+      "2022-05-31 00:00:00": 119398.0
+    },
+    {
+      "index": "Asset Impairment Charge",
+      "2022-05-31 00:00:00": 0.0
+    },
+    {
+      "index": "Deferred Tax",
+      "2022-05-31 00:00:00": 0.0
+    },
+    {
+      "index": "Deferred Income Tax",
+      "2022-05-31 00:00:00": 0.0
+    },
+    {
+      "index": "Depreciation Amortization Depletion",
+      "2022-05-31 00:00:00": 437183.0
+    },
+    {
+      "index": "Depreciation And Amortization",
+      "2022-05-31 00:00:00": 437183.0
+    },
+    {
+      "index": "Operating Gains Losses",
+      "2022-05-31 00:00:00": -6657651.0
+    },
+    {
+      "index": "Gain Loss On Sale Of PPE",
+      "2022-05-31 00:00:00": -4598095.0
+    },
+    {
+      "index": "Net Income From Continuing Operations",
+      "2022-05-31 00:00:00": -3283776.0
+    }
+  ],
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 0.015
+  },
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2000-12-29 14:00:00-05:00",
+      "EPS Estimate": 0.06,
+      "Reported EPS": null,
+      "Surprise(%)": -100.0
+    },
+    {
+      "index": "2000-09-28 18:00:00-04:00",
+      "EPS Estimate": 0.03,
+      "Reported EPS": null,
+      "Surprise(%)": -100.0
+    },
+    {
+      "index": "2000-07-20 16:00:00-04:00",
+      "EPS Estimate": 0.06,
+      "Reported EPS": 0.03,
+      "Surprise(%)": -50.0
+    },
+    {
+      "index": "2000-03-23 13:00:00-05:00",
+      "EPS Estimate": 0.12,
+      "Reported EPS": 0.09,
+      "Surprise(%)": -25.0
+    },
+    {
+      "index": "2000-01-04 15:00:00-05:00",
+      "EPS Estimate": 0.09,
+      "Reported EPS": 0.06,
+      "Surprise(%)": -33.33
+    }
+  ],
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.0
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.0
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.0
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 0.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2023-03-31 00:00:00",
+      "Holder": "Tower Research Capital LLC (TRC)",
+      "pctHeld": 0.0034,
+      "Shares": 13060,
+      "Value": 195,
+      "pctChange": 0.0
+    }
+  ]
+}

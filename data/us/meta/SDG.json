@@ -1,0 +1,123 @@
+{
+  "symbol": "SDG",
+  "region": "us",
+  "name": "iShares MSCI Global Sustainable Development Goals ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US46435G5320",
+  "info": {
+    "longName": "iShares MSCI Global Sustainable Development Goals ETF",
+    "shortName": "iShares MSCI Global Sustainable",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 92.12,
+    "previousClose": 92.34,
+    "dayHigh": 92.19,
+    "dayLow": 92.04,
+    "regularMarketPrice": 92.1634,
+    "regularMarketPreviousClose": 92.34,
+    "fiftyTwoWeekHigh": 93.14,
+    "fiftyTwoWeekLow": 79.77,
+    "trailingPE": 19.820536,
+    "dividendYield": 1.69,
+    "volume": 3344,
+    "averageVolume": 4300
+  },
+  "dividends": [
+    {
+      "index": "2016-06-22 09:30:00-04:00",
+      "value": 0.23
+    },
+    {
+      "index": "2016-12-21 09:30:00-05:00",
+      "value": 0.411
+    },
+    {
+      "index": "2017-06-20 09:30:00-04:00",
+      "value": 0.765
+    },
+    {
+      "index": "2017-12-19 09:30:00-05:00",
+      "value": 0.736
+    },
+    {
+      "index": "2018-06-19 09:30:00-04:00",
+      "value": 0.804
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.505
+    },
+    {
+      "index": "2019-06-17 09:30:00-04:00",
+      "value": 0.545
+    },
+    {
+      "index": "2019-12-16 09:30:00-05:00",
+      "value": 0.363
+    },
+    {
+      "index": "2020-06-15 09:30:00-04:00",
+      "value": 0.495
+    },
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.408
+    },
+    {
+      "index": "2021-06-10 09:30:00-04:00",
+      "value": 0.449
+    },
+    {
+      "index": "2021-12-13 09:30:00-05:00",
+      "value": 1.054
+    },
+    {
+      "index": "2022-06-09 09:30:00-04:00",
+      "value": 0.741
+    },
+    {
+      "index": "2022-12-13 09:30:00-05:00",
+      "value": 0.695
+    },
+    {
+      "index": "2023-06-07 09:30:00-04:00",
+      "value": 0.677
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.758
+    },
+    {
+      "index": "2024-06-11 09:30:00-04:00",
+      "value": 0.802
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 0.591
+    },
+    {
+      "index": "2025-06-16 09:30:00-04:00",
+      "value": 0.83
+    },
+    {
+      "index": "2025-12-16 09:30:00-05:00",
+      "value": 0.852
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 0.661
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

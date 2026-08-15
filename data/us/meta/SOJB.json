@@ -1,0 +1,44 @@
+{
+  "symbol": "SOJB",
+  "region": "us",
+  "name": "The Southern Company JR SUB NT 76",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "The Southern Company JR SUB NT 76",
+    "shortName": "Southern Company (The) Series 2",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 25.04,
+    "previousClose": 25.05,
+    "dayHigh": 25.05,
+    "dayLow": 25.04,
+    "regularMarketPrice": 25.04,
+    "regularMarketPreviousClose": 25.05,
+    "fiftyTwoWeekHigh": 27.05,
+    "fiftyTwoWeekLow": 24.46,
+    "trailingPE": 29.809526,
+    "priceToBook": 1.0439858,
+    "volume": 30075,
+    "averageVolume": 43586,
+    "sharesOutstanding": 999473984
+  },
+  "dividends": [
+    {
+      "index": "2021-09-29 09:30:00-04:00",
+      "value": 0.328
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

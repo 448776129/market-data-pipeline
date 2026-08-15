@@ -1,0 +1,111 @@
+{
+  "symbol": "SNSR",
+  "region": "us",
+  "name": "Global X Internet of Things ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US37954Y7803",
+  "info": {
+    "longName": "Global X Internet of Things ETF",
+    "shortName": "Global X Internet of Things ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 49.6942,
+    "previousClose": 49.855,
+    "dayHigh": 49.93,
+    "dayLow": 49.32,
+    "regularMarketPrice": 49.4994,
+    "regularMarketPreviousClose": 49.855,
+    "fiftyTwoWeekHigh": 53.8,
+    "fiftyTwoWeekLow": 34.2,
+    "trailingPE": 36.08815,
+    "dividendYield": 0.49,
+    "volume": 4193,
+    "averageVolume": 23374
+  },
+  "dividends": [
+    {
+      "index": "2016-12-28 09:30:00-05:00",
+      "value": 0.049
+    },
+    {
+      "index": "2017-12-28 09:30:00-05:00",
+      "value": 0.221
+    },
+    {
+      "index": "2018-12-28 09:30:00-05:00",
+      "value": 0.202
+    },
+    {
+      "index": "2019-06-27 09:30:00-04:00",
+      "value": 0.081
+    },
+    {
+      "index": "2019-12-30 09:30:00-05:00",
+      "value": 0.184
+    },
+    {
+      "index": "2020-06-29 09:30:00-04:00",
+      "value": 0.003
+    },
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.064
+    },
+    {
+      "index": "2021-06-29 09:30:00-04:00",
+      "value": 0.051
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.117
+    },
+    {
+      "index": "2022-06-29 09:30:00-04:00",
+      "value": 0.059
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.179
+    },
+    {
+      "index": "2023-06-29 09:30:00-04:00",
+      "value": 0.113
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.147
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.073
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.181
+    },
+    {
+      "index": "2025-06-27 09:30:00-04:00",
+      "value": 0.05
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.15
+    },
+    {
+      "index": "2026-06-29 09:30:00-04:00",
+      "value": 0.08
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

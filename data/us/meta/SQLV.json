@@ -1,0 +1,167 @@
+{
+  "symbol": "SQLV",
+  "region": "us",
+  "name": "Royce Quant Small-Cap Quality Value ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US52468L8770",
+  "info": {
+    "longName": "Royce Quant Small-Cap Quality Value ETF",
+    "shortName": "Royce Quant Small-Cap Quality V",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 55.09,
+    "previousClose": 55.13,
+    "dayHigh": 55.14,
+    "dayLow": 55.07,
+    "regularMarketPrice": 55.112,
+    "regularMarketPreviousClose": 55.13,
+    "fiftyTwoWeekHigh": 55.3,
+    "fiftyTwoWeekLow": 39.95,
+    "trailingPE": 12.086767,
+    "dividendYield": 0.95,
+    "volume": 2377,
+    "averageVolume": 5137
+  },
+  "dividends": [
+    {
+      "index": "2017-12-26 09:30:00-05:00",
+      "value": 0.11
+    },
+    {
+      "index": "2018-12-26 09:30:00-05:00",
+      "value": 0.26
+    },
+    {
+      "index": "2019-03-18 09:30:00-04:00",
+      "value": 0.063
+    },
+    {
+      "index": "2019-06-17 09:30:00-04:00",
+      "value": 0.105
+    },
+    {
+      "index": "2019-09-16 09:30:00-04:00",
+      "value": 0.06
+    },
+    {
+      "index": "2019-12-16 09:30:00-05:00",
+      "value": 0.108
+    },
+    {
+      "index": "2020-03-16 09:30:00-04:00",
+      "value": 0.083
+    },
+    {
+      "index": "2020-06-15 09:30:00-04:00",
+      "value": 0.086
+    },
+    {
+      "index": "2020-09-14 09:30:00-04:00",
+      "value": 0.044
+    },
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.148
+    },
+    {
+      "index": "2021-03-15 09:30:00-04:00",
+      "value": 0.026
+    },
+    {
+      "index": "2021-06-14 09:30:00-04:00",
+      "value": 0.111
+    },
+    {
+      "index": "2021-09-20 09:30:00-04:00",
+      "value": 0.111
+    },
+    {
+      "index": "2021-12-20 09:30:00-05:00",
+      "value": 0.2
+    },
+    {
+      "index": "2022-03-14 09:30:00-04:00",
+      "value": 0.078
+    },
+    {
+      "index": "2022-06-21 09:30:00-04:00",
+      "value": 0.109
+    },
+    {
+      "index": "2022-09-19 09:30:00-04:00",
+      "value": 0.094
+    },
+    {
+      "index": "2022-12-19 09:30:00-05:00",
+      "value": 0.144
+    },
+    {
+      "index": "2023-03-20 09:30:00-04:00",
+      "value": 0.111
+    },
+    {
+      "index": "2023-06-20 09:30:00-04:00",
+      "value": 0.114
+    },
+    {
+      "index": "2023-09-18 09:30:00-04:00",
+      "value": 0.097
+    },
+    {
+      "index": "2023-12-18 09:30:00-05:00",
+      "value": 0.127
+    },
+    {
+      "index": "2024-03-18 09:30:00-04:00",
+      "value": 0.106
+    },
+    {
+      "index": "2024-06-17 09:30:00-04:00",
+      "value": 0.112
+    },
+    {
+      "index": "2024-09-16 09:30:00-04:00",
+      "value": 0.129
+    },
+    {
+      "index": "2024-12-16 09:30:00-05:00",
+      "value": 0.129
+    },
+    {
+      "index": "2025-03-17 09:30:00-04:00",
+      "value": 0.118
+    },
+    {
+      "index": "2025-06-16 09:30:00-04:00",
+      "value": 0.111
+    },
+    {
+      "index": "2025-09-15 09:30:00-04:00",
+      "value": 0.117
+    },
+    {
+      "index": "2025-12-15 09:30:00-05:00",
+      "value": 0.149
+    },
+    {
+      "index": "2026-03-16 09:30:00-04:00",
+      "value": 0.115
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 0.124
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

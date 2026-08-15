@@ -1,0 +1,67 @@
+{
+  "symbol": "SKYU",
+  "region": "us",
+  "name": "ProShares Ultra Cloud Computing",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US74347G7887",
+  "info": {
+    "longName": "ProShares Ultra Cloud Computing",
+    "shortName": "ProShares Ultra Cloud Computing",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 55.0,
+    "previousClose": 55.81,
+    "dayHigh": 55.0,
+    "dayLow": 53.31,
+    "regularMarketPrice": 53.4916,
+    "regularMarketPreviousClose": 55.81,
+    "fiftyTwoWeekHigh": 55.9,
+    "fiftyTwoWeekLow": 22.548,
+    "trailingPE": 43.315395,
+    "dividendYield": 0.74,
+    "volume": 4024,
+    "averageVolume": 3762
+  },
+  "dividends": [
+    {
+      "index": "2024-09-25 09:30:00-04:00",
+      "value": 0.033
+    },
+    {
+      "index": "2024-12-23 09:30:00-05:00",
+      "value": 0.042
+    },
+    {
+      "index": "2025-03-26 09:30:00-04:00",
+      "value": 0.005
+    },
+    {
+      "index": "2025-09-24 09:30:00-04:00",
+      "value": 0.077
+    },
+    {
+      "index": "2025-12-24 09:30:00-05:00",
+      "value": 0.122
+    },
+    {
+      "index": "2026-03-25 09:30:00-04:00",
+      "value": 0.057
+    },
+    {
+      "index": "2026-06-24 09:30:00-04:00",
+      "value": 0.044
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
