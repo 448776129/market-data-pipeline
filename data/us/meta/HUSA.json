@@ -1,0 +1,82 @@
+{
+  "symbol": "HUSA",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "US44183U2096",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2012-11-09 17:00:00-05:00",
+      "EPS Estimate": -2.5,
+      "Reported EPS": -16.25,
+      "Surprise(%)": -550.0
+    },
+    {
+      "index": "2012-08-23 12:00:00-04:00",
+      "EPS Estimate": -5.42,
+      "Reported EPS": -78.75,
+      "Surprise(%)": -1353.85
+    },
+    {
+      "index": "2012-05-10 16:00:00-04:00",
+      "EPS Estimate": -2.5,
+      "Reported EPS": -3.75,
+      "Surprise(%)": -50.0
+    },
+    {
+      "index": "2012-03-07 16:00:00-05:00",
+      "EPS Estimate": -2.5,
+      "Reported EPS": -1.15,
+      "Surprise(%)": 54.0
+    },
+    {
+      "index": "2011-11-08 17:00:00-05:00",
+      "EPS Estimate": -2.5,
+      "Reported EPS": -3.75,
+      "Surprise(%)": -50.0
+    },
+    {
+      "index": "2011-08-02 16:00:00-04:00",
+      "EPS Estimate": -3.75,
+      "Reported EPS": -6.25,
+      "Surprise(%)": -66.67
+    },
+    {
+      "index": "2011-05-10 16:00:00-04:00",
+      "EPS Estimate": -2.5,
+      "Reported EPS": -5.0,
+      "Surprise(%)": -100.0
+    },
+    {
+      "index": "2011-03-15 09:00:00-04:00",
+      "EPS Estimate": -2.5,
+      "Reported EPS": -2.5,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2010-11-15 04:00:00-05:00",
+      "EPS Estimate": 5.63,
+      "Reported EPS": 5.0,
+      "Surprise(%)": -11.11
+    },
+    {
+      "index": "2010-08-16 09:00:00-04:00",
+      "EPS Estimate": 5.0,
+      "Reported EPS": 3.75,
+      "Surprise(%)": -25.0
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

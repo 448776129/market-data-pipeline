@@ -1,0 +1,159 @@
+{
+  "symbol": "INDY",
+  "region": "us",
+  "name": "iShares India 50 ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US4642895290",
+  "info": {
+    "longName": "iShares India 50 ETF",
+    "shortName": "iShares India 50 ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 43.7,
+    "previousClose": 43.79,
+    "dayHigh": 43.755,
+    "dayLow": 43.59,
+    "regularMarketPrice": 43.63,
+    "regularMarketPreviousClose": 43.79,
+    "fiftyTwoWeekHigh": 54.39,
+    "fiftyTwoWeekLow": 40.82,
+    "trailingPE": 21.34997,
+    "dividendYield": 0.84,
+    "volume": 84739,
+    "averageVolume": 121572
+  },
+  "dividends": [
+    {
+      "index": "2010-06-21 09:30:00-04:00",
+      "value": 0.117
+    },
+    {
+      "index": "2010-12-29 09:30:00-05:00",
+      "value": 0.007
+    },
+    {
+      "index": "2011-06-21 09:30:00-04:00",
+      "value": 0.101
+    },
+    {
+      "index": "2011-12-19 09:30:00-05:00",
+      "value": 0.026
+    },
+    {
+      "index": "2012-06-20 09:30:00-04:00",
+      "value": 0.092
+    },
+    {
+      "index": "2012-12-17 09:30:00-05:00",
+      "value": 0.004
+    },
+    {
+      "index": "2013-06-25 09:30:00-04:00",
+      "value": 0.097
+    },
+    {
+      "index": "2013-12-17 09:30:00-05:00",
+      "value": 0.083
+    },
+    {
+      "index": "2014-06-24 09:30:00-04:00",
+      "value": 0.117
+    },
+    {
+      "index": "2014-12-19 09:30:00-05:00",
+      "value": 0.038
+    },
+    {
+      "index": "2015-06-24 09:30:00-04:00",
+      "value": 0.109
+    },
+    {
+      "index": "2015-12-21 09:30:00-05:00",
+      "value": 0.047
+    },
+    {
+      "index": "2016-06-21 09:30:00-04:00",
+      "value": 0.102
+    },
+    {
+      "index": "2016-12-22 09:30:00-05:00",
+      "value": 0.029
+    },
+    {
+      "index": "2017-06-20 09:30:00-04:00",
+      "value": 0.04
+    },
+    {
+      "index": "2017-12-21 09:30:00-05:00",
+      "value": 0.059
+    },
+    {
+      "index": "2018-06-19 09:30:00-04:00",
+      "value": 0.072
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.12
+    },
+    {
+      "index": "2018-12-28 09:30:00-05:00",
+      "value": 0.015
+    },
+    {
+      "index": "2019-06-17 09:30:00-04:00",
+      "value": 0.225
+    },
+    {
+      "index": "2020-06-15 09:30:00-04:00",
+      "value": 0.033
+    },
+    {
+      "index": "2021-06-10 09:30:00-04:00",
+      "value": 0.007
+    },
+    {
+      "index": "2021-12-13 09:30:00-05:00",
+      "value": 3.361
+    },
+    {
+      "index": "2022-12-13 09:30:00-05:00",
+      "value": 1.585
+    },
+    {
+      "index": "2023-06-07 09:30:00-04:00",
+      "value": 0.074
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.116
+    },
+    {
+      "index": "2024-06-11 09:30:00-04:00",
+      "value": 0.042
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 0.08
+    },
+    {
+      "index": "2025-12-16 09:30:00-05:00",
+      "value": 3.995
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 0.099
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

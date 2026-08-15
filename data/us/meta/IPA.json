@@ -1,0 +1,94 @@
+{
+  "symbol": "IPA",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "CA45257F2008",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2026-09-14 16:00:00-04:00",
+      "EPS Estimate": -0.05,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2025-07-29 08:00:00-04:00",
+      "EPS Estimate": -0.04,
+      "Reported EPS": -0.04,
+      "Surprise(%)": -4.14
+    },
+    {
+      "index": "2025-03-28 08:00:00-04:00",
+      "EPS Estimate": -0.06,
+      "Reported EPS": -0.46,
+      "Surprise(%)": -724.87
+    },
+    {
+      "index": "2024-12-10 08:00:00-05:00",
+      "EPS Estimate": -0.07,
+      "Reported EPS": -0.06,
+      "Surprise(%)": 8.3
+    },
+    {
+      "index": "2024-09-16 09:00:00-04:00",
+      "EPS Estimate": -0.08,
+      "Reported EPS": -0.11,
+      "Surprise(%)": -38.72
+    },
+    {
+      "index": "2024-07-29 08:00:00-04:00",
+      "EPS Estimate": -0.08,
+      "Reported EPS": -0.1,
+      "Surprise(%)": -23.19
+    },
+    {
+      "index": "2024-03-14 08:00:00-04:00",
+      "EPS Estimate": -0.07,
+      "Reported EPS": -0.08,
+      "Surprise(%)": -8.51
+    },
+    {
+      "index": "2023-12-14 08:00:00-05:00",
+      "EPS Estimate": -0.1,
+      "Reported EPS": -0.07,
+      "Surprise(%)": 23.64
+    },
+    {
+      "index": "2023-09-14 08:00:00-04:00",
+      "EPS Estimate": -0.15,
+      "Reported EPS": -0.1,
+      "Surprise(%)": 33.25
+    },
+    {
+      "index": "2023-07-10 18:00:00-04:00",
+      "EPS Estimate": -0.12,
+      "Reported EPS": -0.15,
+      "Surprise(%)": -29.75
+    },
+    {
+      "index": "2023-03-16 08:00:00-04:00",
+      "EPS Estimate": -0.12,
+      "Reported EPS": -0.14,
+      "Surprise(%)": -18.08
+    },
+    {
+      "index": "2022-12-15 08:00:00-05:00",
+      "EPS Estimate": -0.14,
+      "Reported EPS": -0.22,
+      "Surprise(%)": -56.95
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

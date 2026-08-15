@@ -1,0 +1,196 @@
+{
+  "symbol": "IEUS",
+  "region": "us",
+  "name": "iShares MSCI Europe Small-Cap ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US4642884971",
+  "info": {
+    "longName": "iShares MSCI Europe Small-Cap ETF",
+    "shortName": "iShares MSCI Europe Small-Cap E",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 74.15,
+    "previousClose": 73.99,
+    "dayHigh": 74.49,
+    "dayLow": 74.13,
+    "regularMarketPrice": 74.13,
+    "regularMarketPreviousClose": 73.99,
+    "fiftyTwoWeekHigh": 74.49,
+    "fiftyTwoWeekLow": 63.55,
+    "trailingPE": 16.31271,
+    "dividendYield": 3.13,
+    "volume": 2272,
+    "averageVolume": 8393,
+    "sharesOutstanding": 3000000
+  },
+  "dividends": [
+    {
+      "index": "2007-12-24 09:30:00-05:00",
+      "value": 0.095
+    },
+    {
+      "index": "2008-06-23 09:30:00-04:00",
+      "value": 0.698
+    },
+    {
+      "index": "2008-12-22 09:30:00-05:00",
+      "value": 0.286
+    },
+    {
+      "index": "2009-06-22 09:30:00-04:00",
+      "value": 0.376
+    },
+    {
+      "index": "2009-12-21 09:30:00-05:00",
+      "value": 0.389
+    },
+    {
+      "index": "2010-06-21 09:30:00-04:00",
+      "value": 0.318
+    },
+    {
+      "index": "2010-12-20 09:30:00-05:00",
+      "value": 0.63
+    },
+    {
+      "index": "2011-06-21 09:30:00-04:00",
+      "value": 0.471
+    },
+    {
+      "index": "2011-12-19 09:30:00-05:00",
+      "value": 0.483
+    },
+    {
+      "index": "2012-06-20 09:30:00-04:00",
+      "value": 0.697
+    },
+    {
+      "index": "2012-12-17 09:30:00-05:00",
+      "value": 0.611
+    },
+    {
+      "index": "2013-06-25 09:30:00-04:00",
+      "value": 0.542
+    },
+    {
+      "index": "2013-12-17 09:30:00-05:00",
+      "value": 0.578
+    },
+    {
+      "index": "2014-06-24 09:30:00-04:00",
+      "value": 0.428
+    },
+    {
+      "index": "2014-12-19 09:30:00-05:00",
+      "value": 0.563
+    },
+    {
+      "index": "2015-06-24 09:30:00-04:00",
+      "value": 0.52
+    },
+    {
+      "index": "2015-12-21 09:30:00-05:00",
+      "value": 0.414
+    },
+    {
+      "index": "2016-06-22 09:30:00-04:00",
+      "value": 0.8
+    },
+    {
+      "index": "2016-12-21 09:30:00-05:00",
+      "value": 0.286
+    },
+    {
+      "index": "2017-06-20 09:30:00-04:00",
+      "value": 0.648
+    },
+    {
+      "index": "2017-12-19 09:30:00-05:00",
+      "value": 0.582
+    },
+    {
+      "index": "2018-06-19 09:30:00-04:00",
+      "value": 0.92
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.52
+    },
+    {
+      "index": "2019-06-17 09:30:00-04:00",
+      "value": 1.675
+    },
+    {
+      "index": "2019-12-16 09:30:00-05:00",
+      "value": 0.574
+    },
+    {
+      "index": "2020-06-15 09:30:00-04:00",
+      "value": 0.384
+    },
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.367
+    },
+    {
+      "index": "2021-06-10 09:30:00-04:00",
+      "value": 0.785
+    },
+    {
+      "index": "2021-12-13 09:30:00-05:00",
+      "value": 0.914
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.131
+    },
+    {
+      "index": "2022-06-09 09:30:00-04:00",
+      "value": 1.169
+    },
+    {
+      "index": "2022-12-13 09:30:00-05:00",
+      "value": 0.313
+    },
+    {
+      "index": "2023-06-07 09:30:00-04:00",
+      "value": 1.057
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.61
+    },
+    {
+      "index": "2024-06-11 09:30:00-04:00",
+      "value": 1.194
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 0.549
+    },
+    {
+      "index": "2025-06-16 09:30:00-04:00",
+      "value": 1.377
+    },
+    {
+      "index": "2025-12-16 09:30:00-05:00",
+      "value": 0.812
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 1.443
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

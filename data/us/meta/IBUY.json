@@ -1,0 +1,44 @@
+{
+  "symbol": "IBUY",
+  "region": "us",
+  "name": "Amplify Online Retail ETF",
+  "currency": "USD",
+  "exchange": "PCX",
+  "isin": "US0321081020",
+  "info": {
+    "longName": "Amplify Online Retail ETF",
+    "shortName": "Amplify Online Retail ETF",
+    "exchange": "PCX",
+    "currency": "USD",
+    "open": 73.67,
+    "previousClose": 73.5981,
+    "dayHigh": 73.64,
+    "dayLow": 73.47,
+    "regularMarketPrice": 73.5385,
+    "regularMarketPreviousClose": 73.5981,
+    "fiftyTwoWeekHigh": 79.055,
+    "fiftyTwoWeekLow": 58.08,
+    "trailingPE": 19.027151,
+    "dividendYield": 0.11,
+    "volume": 5134,
+    "averageVolume": 15132,
+    "sharesOutstanding": 7726000
+  },
+  "dividends": [
+    {
+      "index": "2019-12-30 09:30:00-05:00",
+      "value": 0.149
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

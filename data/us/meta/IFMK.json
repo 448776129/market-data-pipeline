@@ -1,0 +1,82 @@
+{
+  "symbol": "IFMK",
+  "region": "us",
+  "name": "iFresh Inc.",
+  "currency": "USD",
+  "exchange": "PNK",
+  "isin": "US4495381075",
+  "info": {
+    "longName": "iFresh Inc.",
+    "shortName": "iFresh Inc.",
+    "sector": "Consumer Defensive",
+    "industry": "Grocery Stores",
+    "country": "United States",
+    "exchange": "PNK",
+    "currency": "USD",
+    "marketCap": 9627,
+    "currentPrice": 0.0001,
+    "open": 0.0001,
+    "previousClose": 0.0001,
+    "dayHigh": 0.0001,
+    "dayLow": 0.0001,
+    "regularMarketPrice": 0.0001,
+    "regularMarketPreviousClose": 0.0001,
+    "fiftyTwoWeekHigh": 0.0401,
+    "fiftyTwoWeekLow": 0.0001,
+    "priceToBook": 0.00028735632,
+    "trailingEps": -0.0,
+    "beta": -30.511,
+    "volume": 2000,
+    "averageVolume": 599,
+    "sharesOutstanding": 96273437,
+    "floatShares": 7053007,
+    "recommendationKey": "none",
+    "totalRevenue": 94255952,
+    "grossProfits": 20026096,
+    "freeCashflow": -888547,
+    "totalDebt": 87702296,
+    "totalCash": 4854716,
+    "profitMargins": 0.00794,
+    "returnOnEquity": 0.07287,
+    "returnOnAssets": -0.01706,
+    "revenueGrowth": 0.227
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 0.0001
+  },
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2018-06-29 17:00:00-04:00",
+      "EPS Estimate": 0.06,
+      "Reported EPS": -0.02,
+      "Surprise(%)": -133.33
+    }
+  ],
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.80556
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.0
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.0
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 0.0
+    }
+  ],
+  "institutional_holders": null
+}

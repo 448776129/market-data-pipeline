@@ -1,0 +1,47 @@
+{
+  "symbol": "INFO",
+  "region": "us",
+  "name": "Harbor PanAgora Dynamic Large Cap Core ETF",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "US41151J7458",
+  "info": {
+    "longName": "Harbor PanAgora Dynamic Large Cap Core ETF",
+    "shortName": "Harbor PanAgora Dynamic Large C",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 28.6299,
+    "previousClose": 28.5934,
+    "dayHigh": 28.6478,
+    "dayLow": 28.52,
+    "regularMarketPrice": 28.5518,
+    "regularMarketPreviousClose": 28.5934,
+    "fiftyTwoWeekHigh": 28.88,
+    "fiftyTwoWeekLow": 22.4,
+    "trailingPE": 24.913704,
+    "dividendYield": 0.31,
+    "volume": 20466,
+    "averageVolume": 23473
+  },
+  "dividends": [
+    {
+      "index": "2024-12-20 09:30:00-05:00",
+      "value": 0.033
+    },
+    {
+      "index": "2025-12-19 09:30:00-05:00",
+      "value": 0.086
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

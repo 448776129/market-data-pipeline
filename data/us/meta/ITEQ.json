@@ -1,0 +1,67 @@
+{
+  "symbol": "ITEQ",
+  "region": "us",
+  "name": "Amplify Bluestar Israel Technology ETF",
+  "currency": "USD",
+  "exchange": "PCX",
+  "isin": "US0321085997",
+  "info": {
+    "longName": "Amplify Bluestar Israel Technology ETF",
+    "shortName": "Amplify BlueStar Israel Technol",
+    "exchange": "PCX",
+    "currency": "USD",
+    "open": 66.36,
+    "previousClose": 66.6704,
+    "dayHigh": 66.48,
+    "dayLow": 66.0746,
+    "regularMarketPrice": 66.2042,
+    "regularMarketPreviousClose": 66.6704,
+    "fiftyTwoWeekHigh": 71.0,
+    "fiftyTwoWeekLow": 52.16,
+    "trailingPE": 30.153717,
+    "dividendYield": 0.79,
+    "volume": 2935,
+    "averageVolume": 4008
+  },
+  "dividends": [
+    {
+      "index": "2017-12-26 09:30:00-05:00",
+      "value": 0.172
+    },
+    {
+      "index": "2018-12-24 09:30:00-05:00",
+      "value": 0.092
+    },
+    {
+      "index": "2019-09-20 09:30:00-04:00",
+      "value": 0.01
+    },
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.39
+    },
+    {
+      "index": "2021-03-23 09:30:00-04:00",
+      "value": 0.05
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.006
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.492
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,40 @@
+{
+  "symbol": "HUGE",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "CA35954B4047",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2020-12-16 09:00:00-05:00",
+      "EPS Estimate": -68.25,
+      "Reported EPS": -10.55,
+      "Surprise(%)": 84.54
+    },
+    {
+      "index": "2020-08-20 13:00:00-04:00",
+      "EPS Estimate": -46.48,
+      "Reported EPS": -84.5,
+      "Surprise(%)": -81.82
+    },
+    {
+      "index": "2020-01-09 11:00:00-05:00",
+      "EPS Estimate": -92.3,
+      "Reported EPS": -177.45,
+      "Surprise(%)": -92.25
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

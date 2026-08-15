@@ -1,0 +1,195 @@
+{
+  "symbol": "ICLN",
+  "region": "us",
+  "name": "iShares Global Clean Energy ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US4642882249",
+  "info": {
+    "longName": "iShares Global Clean Energy ETF",
+    "shortName": "iShares Global Clean Energy ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 18.25,
+    "previousClose": 18.36,
+    "dayHigh": 18.4501,
+    "dayLow": 18.15,
+    "regularMarketPrice": 18.21,
+    "regularMarketPreviousClose": 18.36,
+    "fiftyTwoWeekHigh": 23.78,
+    "fiftyTwoWeekLow": 13.65,
+    "trailingPE": 24.062778,
+    "dividendYield": 1.05,
+    "volume": 4726389,
+    "averageVolume": 5994419
+  },
+  "dividends": [
+    {
+      "index": "2009-06-22 09:30:00-04:00",
+      "value": 0.122
+    },
+    {
+      "index": "2009-12-21 09:30:00-05:00",
+      "value": 0.169
+    },
+    {
+      "index": "2010-06-21 09:30:00-04:00",
+      "value": 0.154
+    },
+    {
+      "index": "2010-12-20 09:30:00-05:00",
+      "value": 0.109
+    },
+    {
+      "index": "2010-12-29 09:30:00-05:00",
+      "value": 0.037
+    },
+    {
+      "index": "2011-06-21 09:30:00-04:00",
+      "value": 0.173
+    },
+    {
+      "index": "2011-12-19 09:30:00-05:00",
+      "value": 0.228
+    },
+    {
+      "index": "2012-06-20 09:30:00-04:00",
+      "value": 0.152
+    },
+    {
+      "index": "2012-12-17 09:30:00-05:00",
+      "value": 0.087
+    },
+    {
+      "index": "2012-12-27 09:30:00-05:00",
+      "value": 0.037
+    },
+    {
+      "index": "2013-06-25 09:30:00-04:00",
+      "value": 0.097
+    },
+    {
+      "index": "2013-12-17 09:30:00-05:00",
+      "value": 0.123
+    },
+    {
+      "index": "2014-06-24 09:30:00-04:00",
+      "value": 0.098
+    },
+    {
+      "index": "2014-12-19 09:30:00-05:00",
+      "value": 0.176
+    },
+    {
+      "index": "2015-06-24 09:30:00-04:00",
+      "value": 0.156
+    },
+    {
+      "index": "2015-12-21 09:30:00-05:00",
+      "value": 0.076
+    },
+    {
+      "index": "2016-06-21 09:30:00-04:00",
+      "value": 0.161
+    },
+    {
+      "index": "2016-12-22 09:30:00-05:00",
+      "value": 0.145
+    },
+    {
+      "index": "2017-06-20 09:30:00-04:00",
+      "value": 0.143
+    },
+    {
+      "index": "2017-12-21 09:30:00-05:00",
+      "value": 0.089
+    },
+    {
+      "index": "2018-06-19 09:30:00-04:00",
+      "value": 0.124
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.105
+    },
+    {
+      "index": "2019-06-17 09:30:00-04:00",
+      "value": 0.078
+    },
+    {
+      "index": "2019-12-16 09:30:00-05:00",
+      "value": 0.082
+    },
+    {
+      "index": "2020-06-15 09:30:00-04:00",
+      "value": 0.053
+    },
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.03
+    },
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.014
+    },
+    {
+      "index": "2021-06-10 09:30:00-04:00",
+      "value": 0.124
+    },
+    {
+      "index": "2021-12-13 09:30:00-05:00",
+      "value": 0.114
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.012
+    },
+    {
+      "index": "2022-06-09 09:30:00-04:00",
+      "value": 0.14
+    },
+    {
+      "index": "2022-12-13 09:30:00-05:00",
+      "value": 0.036
+    },
+    {
+      "index": "2023-06-07 09:30:00-04:00",
+      "value": 0.125
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.123
+    },
+    {
+      "index": "2024-06-11 09:30:00-04:00",
+      "value": 0.096
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 0.114
+    },
+    {
+      "index": "2025-06-16 09:30:00-04:00",
+      "value": 0.14
+    },
+    {
+      "index": "2025-12-16 09:30:00-05:00",
+      "value": 0.128
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 0.056
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

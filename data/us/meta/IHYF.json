@@ -1,0 +1,42 @@
+{
+  "symbol": "IHYF",
+  "region": "us",
+  "name": "Invesco High Yield Bond Factor ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "longName": "Invesco High Yield Bond Factor ETF",
+    "shortName": "Invesco High Yield Bond Factor ",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 22.74,
+    "previousClose": 22.72,
+    "dayHigh": 22.76,
+    "dayLow": 22.74,
+    "regularMarketPrice": 22.745,
+    "regularMarketPreviousClose": 22.72,
+    "fiftyTwoWeekHigh": 23.01,
+    "fiftyTwoWeekLow": 21.19,
+    "dividendYield": 7.01,
+    "volume": 9158,
+    "averageVolume": 25351
+  },
+  "dividends": [
+    {
+      "index": "2026-07-20 09:30:00-04:00",
+      "value": 0.12725
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

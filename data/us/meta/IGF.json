@@ -1,0 +1,191 @@
+{
+  "symbol": "IGF",
+  "region": "us",
+  "name": "iShares Global Infrastructure ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US4642883726",
+  "info": {
+    "longName": "iShares Global Infrastructure ETF",
+    "shortName": "iShares Global Infrastructure E",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 65.85,
+    "previousClose": 65.94,
+    "dayHigh": 66.07,
+    "dayLow": 65.7664,
+    "regularMarketPrice": 65.92,
+    "regularMarketPreviousClose": 65.94,
+    "fiftyTwoWeekHigh": 69.6,
+    "fiftyTwoWeekLow": 59.4,
+    "trailingPE": 21.04001,
+    "dividendYield": 2.89,
+    "volume": 462158,
+    "averageVolume": 836180
+  },
+  "dividends": [
+    {
+      "index": "2007-12-24 09:30:00-05:00",
+      "value": 0.18
+    },
+    {
+      "index": "2008-06-23 09:30:00-04:00",
+      "value": 0.374
+    },
+    {
+      "index": "2008-12-22 09:30:00-05:00",
+      "value": 0.554
+    },
+    {
+      "index": "2009-06-22 09:30:00-04:00",
+      "value": 0.542
+    },
+    {
+      "index": "2009-12-21 09:30:00-05:00",
+      "value": 0.601
+    },
+    {
+      "index": "2010-06-21 09:30:00-04:00",
+      "value": 0.541
+    },
+    {
+      "index": "2010-12-20 09:30:00-05:00",
+      "value": 0.755
+    },
+    {
+      "index": "2011-06-21 09:30:00-04:00",
+      "value": 0.614
+    },
+    {
+      "index": "2011-12-19 09:30:00-05:00",
+      "value": 0.832
+    },
+    {
+      "index": "2012-06-20 09:30:00-04:00",
+      "value": 0.682
+    },
+    {
+      "index": "2012-12-17 09:30:00-05:00",
+      "value": 0.783
+    },
+    {
+      "index": "2013-06-25 09:30:00-04:00",
+      "value": 0.843
+    },
+    {
+      "index": "2013-12-17 09:30:00-05:00",
+      "value": 0.502
+    },
+    {
+      "index": "2014-06-24 09:30:00-04:00",
+      "value": 0.621
+    },
+    {
+      "index": "2014-12-19 09:30:00-05:00",
+      "value": 0.643
+    },
+    {
+      "index": "2015-06-24 09:30:00-04:00",
+      "value": 0.529
+    },
+    {
+      "index": "2015-12-21 09:30:00-05:00",
+      "value": 0.637
+    },
+    {
+      "index": "2016-06-21 09:30:00-04:00",
+      "value": 0.632
+    },
+    {
+      "index": "2016-12-22 09:30:00-05:00",
+      "value": 0.534
+    },
+    {
+      "index": "2017-06-20 09:30:00-04:00",
+      "value": 0.736
+    },
+    {
+      "index": "2017-12-21 09:30:00-05:00",
+      "value": 0.6
+    },
+    {
+      "index": "2018-06-19 09:30:00-04:00",
+      "value": 0.696
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.692
+    },
+    {
+      "index": "2019-06-17 09:30:00-04:00",
+      "value": 0.787
+    },
+    {
+      "index": "2019-12-16 09:30:00-05:00",
+      "value": 0.781
+    },
+    {
+      "index": "2020-06-15 09:30:00-04:00",
+      "value": 0.439
+    },
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.579
+    },
+    {
+      "index": "2021-06-10 09:30:00-04:00",
+      "value": 0.678
+    },
+    {
+      "index": "2021-12-13 09:30:00-05:00",
+      "value": 0.474
+    },
+    {
+      "index": "2022-06-09 09:30:00-04:00",
+      "value": 0.705
+    },
+    {
+      "index": "2022-12-13 09:30:00-05:00",
+      "value": 0.518
+    },
+    {
+      "index": "2023-06-07 09:30:00-04:00",
+      "value": 0.675
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.907
+    },
+    {
+      "index": "2024-06-11 09:30:00-04:00",
+      "value": 0.83
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 0.849
+    },
+    {
+      "index": "2025-06-16 09:30:00-04:00",
+      "value": 0.983
+    },
+    {
+      "index": "2025-12-16 09:30:00-05:00",
+      "value": 0.996
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 0.934
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

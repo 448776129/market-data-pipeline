@@ -1,0 +1,199 @@
+{
+  "symbol": "IFV",
+  "region": "us",
+  "name": "First Trust Dorsey Wright International Focus 5 ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US33738R8869",
+  "info": {
+    "longName": "First Trust Dorsey Wright International Focus 5 ETF",
+    "shortName": "First Trust Dorsey Wright Inter",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 26.49,
+    "previousClose": 26.29,
+    "dayHigh": 26.49,
+    "dayLow": 26.3,
+    "regularMarketPrice": 26.355,
+    "regularMarketPreviousClose": 26.29,
+    "fiftyTwoWeekHigh": 28.7,
+    "fiftyTwoWeekLow": 23.186,
+    "trailingPE": 14.217821,
+    "dividendYield": 1.89,
+    "volume": 21020,
+    "averageVolume": 54973
+  },
+  "dividends": [
+    {
+      "index": "2014-12-23 09:30:00-05:00",
+      "value": 0.039
+    },
+    {
+      "index": "2015-03-25 09:30:00-04:00",
+      "value": 0.006
+    },
+    {
+      "index": "2015-09-23 09:30:00-04:00",
+      "value": 0.147
+    },
+    {
+      "index": "2015-12-23 09:30:00-05:00",
+      "value": 0.119
+    },
+    {
+      "index": "2016-09-21 09:30:00-04:00",
+      "value": 0.156
+    },
+    {
+      "index": "2016-12-21 09:30:00-05:00",
+      "value": 0.031
+    },
+    {
+      "index": "2017-06-22 09:30:00-04:00",
+      "value": 0.015
+    },
+    {
+      "index": "2017-09-21 09:30:00-04:00",
+      "value": 0.129
+    },
+    {
+      "index": "2017-12-21 09:30:00-05:00",
+      "value": 0.175
+    },
+    {
+      "index": "2018-06-21 09:30:00-04:00",
+      "value": 0.201
+    },
+    {
+      "index": "2018-09-14 09:30:00-04:00",
+      "value": 0.041
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.083
+    },
+    {
+      "index": "2019-03-21 09:30:00-04:00",
+      "value": 0.049
+    },
+    {
+      "index": "2019-06-14 09:30:00-04:00",
+      "value": 0.21
+    },
+    {
+      "index": "2019-09-25 09:30:00-04:00",
+      "value": 0.028
+    },
+    {
+      "index": "2019-12-13 09:30:00-05:00",
+      "value": 0.335
+    },
+    {
+      "index": "2020-03-26 09:30:00-04:00",
+      "value": 0.039
+    },
+    {
+      "index": "2020-06-25 09:30:00-04:00",
+      "value": 0.135
+    },
+    {
+      "index": "2020-09-24 09:30:00-04:00",
+      "value": 0.058
+    },
+    {
+      "index": "2020-12-24 09:30:00-05:00",
+      "value": 0.109
+    },
+    {
+      "index": "2021-06-24 09:30:00-04:00",
+      "value": 0.062
+    },
+    {
+      "index": "2021-09-23 09:30:00-04:00",
+      "value": 0.046
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 0.135
+    },
+    {
+      "index": "2022-03-25 09:30:00-04:00",
+      "value": 0.151
+    },
+    {
+      "index": "2022-06-24 09:30:00-04:00",
+      "value": 0.238
+    },
+    {
+      "index": "2022-09-23 09:30:00-04:00",
+      "value": 0.103
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 0.142
+    },
+    {
+      "index": "2023-03-24 09:30:00-04:00",
+      "value": 0.027
+    },
+    {
+      "index": "2023-06-27 09:30:00-04:00",
+      "value": 0.308
+    },
+    {
+      "index": "2023-09-22 09:30:00-04:00",
+      "value": 0.049
+    },
+    {
+      "index": "2023-12-22 09:30:00-05:00",
+      "value": 0.178
+    },
+    {
+      "index": "2024-03-21 09:30:00-04:00",
+      "value": 0.073
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.15
+    },
+    {
+      "index": "2024-09-26 09:30:00-04:00",
+      "value": 0.034
+    },
+    {
+      "index": "2024-12-13 09:30:00-05:00",
+      "value": 0.187
+    },
+    {
+      "index": "2025-06-26 09:30:00-04:00",
+      "value": 0.266
+    },
+    {
+      "index": "2025-09-25 09:30:00-04:00",
+      "value": 0.069
+    },
+    {
+      "index": "2025-12-12 09:30:00-05:00",
+      "value": 0.15
+    },
+    {
+      "index": "2026-03-26 09:30:00-04:00",
+      "value": 0.009
+    },
+    {
+      "index": "2026-06-25 09:30:00-04:00",
+      "value": 0.251
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
