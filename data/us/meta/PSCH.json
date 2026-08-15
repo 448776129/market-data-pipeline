@@ -1,0 +1,116 @@
+{
+  "symbol": "PSCH",
+  "region": "us",
+  "name": "Invesco S&P SmallCap Health Care ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US46138E1495",
+  "info": {
+    "longName": "Invesco S&P SmallCap Health Care ETF",
+    "shortName": "Invesco S&P SmallCap Health Car",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 54.83,
+    "previousClose": 54.94,
+    "dayHigh": 55.31,
+    "dayLow": 54.6232,
+    "regularMarketPrice": 55.31,
+    "regularMarketPreviousClose": 54.94,
+    "fiftyTwoWeekHigh": 55.67,
+    "fiftyTwoWeekLow": 39.08,
+    "trailingPE": 27.669922,
+    "dividendYield": 0.01,
+    "volume": 21756,
+    "averageVolume": 24470
+  },
+  "dividends": [
+    {
+      "index": "2010-12-17 09:30:00-05:00",
+      "value": 0.024667
+    },
+    {
+      "index": "2011-12-16 09:30:00-05:00",
+      "value": 0.095667
+    },
+    {
+      "index": "2012-03-16 09:30:00-04:00",
+      "value": 0.010667
+    },
+    {
+      "index": "2012-12-21 09:30:00-05:00",
+      "value": 0.045333
+    },
+    {
+      "index": "2013-06-21 09:30:00-04:00",
+      "value": 0.002
+    },
+    {
+      "index": "2013-12-20 09:30:00-05:00",
+      "value": 0.004333
+    },
+    {
+      "index": "2014-06-20 09:30:00-04:00",
+      "value": 0.008333
+    },
+    {
+      "index": "2014-12-19 09:30:00-05:00",
+      "value": 0.009333
+    },
+    {
+      "index": "2014-12-24 09:30:00-05:00",
+      "value": 0.185667
+    },
+    {
+      "index": "2016-12-16 09:30:00-05:00",
+      "value": 0.006333
+    },
+    {
+      "index": "2018-09-24 09:30:00-04:00",
+      "value": 0.001667
+    },
+    {
+      "index": "2023-12-18 09:30:00-05:00",
+      "value": 0.004
+    },
+    {
+      "index": "2024-03-18 09:30:00-04:00",
+      "value": 0.036
+    },
+    {
+      "index": "2024-06-24 09:30:00-04:00",
+      "value": 0.066
+    },
+    {
+      "index": "2024-12-23 09:30:00-05:00",
+      "value": 0.018
+    },
+    {
+      "index": "2025-03-24 09:30:00-04:00",
+      "value": 0.014
+    },
+    {
+      "index": "2025-06-23 09:30:00-04:00",
+      "value": 0.002
+    },
+    {
+      "index": "2025-09-22 09:30:00-04:00",
+      "value": 0.003
+    }
+  ],
+  "splits": [
+    {
+      "index": "2023-07-17 09:30:00-04:00",
+      "value": 3.0
+    }
+  ],
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

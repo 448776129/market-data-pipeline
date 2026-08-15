@@ -1,0 +1,96 @@
+{
+  "symbol": "PTF",
+  "region": "us",
+  "name": "Invesco Dorsey Wright Technology Momentum ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US46137V8110",
+  "info": {
+    "longName": "Invesco Dorsey Wright Technology Momentum ETF",
+    "shortName": "Invesco Dorsey Wright Technolog",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 111.75,
+    "previousClose": 110.81,
+    "dayHigh": 114.17,
+    "dayLow": 111.1377,
+    "regularMarketPrice": 113.73,
+    "regularMarketPreviousClose": 110.81,
+    "fiftyTwoWeekHigh": 139.65,
+    "fiftyTwoWeekLow": 64.29,
+    "trailingPE": 47.2809,
+    "dividendYield": 0.01,
+    "volume": 125670,
+    "averageVolume": 148635
+  },
+  "dividends": [
+    {
+      "index": "2010-12-17 09:30:00-05:00",
+      "value": 0.004333
+    },
+    {
+      "index": "2012-09-21 09:30:00-04:00",
+      "value": 0.003333
+    },
+    {
+      "index": "2012-12-21 09:30:00-05:00",
+      "value": 0.063333
+    },
+    {
+      "index": "2013-12-20 09:30:00-05:00",
+      "value": 0.02
+    },
+    {
+      "index": "2014-12-19 09:30:00-05:00",
+      "value": 0.087333
+    },
+    {
+      "index": "2016-12-16 09:30:00-05:00",
+      "value": 0.034667
+    },
+    {
+      "index": "2017-09-18 09:30:00-04:00",
+      "value": 0.007
+    },
+    {
+      "index": "2018-06-18 09:30:00-04:00",
+      "value": 0.013333
+    },
+    {
+      "index": "2018-09-24 09:30:00-04:00",
+      "value": 0.001
+    },
+    {
+      "index": "2023-06-20 09:30:00-04:00",
+      "value": 0.019333
+    },
+    {
+      "index": "2023-09-18 09:30:00-04:00",
+      "value": 0.016
+    },
+    {
+      "index": "2025-03-24 09:30:00-04:00",
+      "value": 0.149
+    },
+    {
+      "index": "2025-09-22 09:30:00-04:00",
+      "value": 0.008
+    }
+  ],
+  "splits": [
+    {
+      "index": "2023-07-17 09:30:00-04:00",
+      "value": 3.0
+    }
+  ],
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

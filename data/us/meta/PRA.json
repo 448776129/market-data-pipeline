@@ -1,0 +1,210 @@
+{
+  "symbol": "PRA",
+  "region": "us",
+  "name": "ProAssurance Corporation",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "ProAssurance Corporation",
+    "shortName": "ProAssurance Corporation",
+    "sector": "Financial Services",
+    "industry": "Insurance - Property & Casualty",
+    "country": "United States",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "marketCap": 1290193152,
+    "currentPrice": 25.0,
+    "open": 25.0,
+    "previousClose": 25.0,
+    "dayHigh": 25.0,
+    "dayLow": 24.99,
+    "regularMarketPreviousClose": 25.0,
+    "fiftyTwoWeekHigh": 25.02,
+    "fiftyTwoWeekLow": 23.6,
+    "trailingPE": 19.84127,
+    "forwardPE": 20.0,
+    "priceToBook": 0.9637254,
+    "trailingEps": 1.26,
+    "forwardEps": 1.25,
+    "beta": 0.038,
+    "volume": 3381556,
+    "averageVolume": 979179,
+    "sharesOutstanding": 51607726,
+    "floatShares": 47424404,
+    "targetMeanPrice": 25.0,
+    "targetHighPrice": 25.0,
+    "targetLowPrice": 25.0,
+    "recommendationKey": "none",
+    "totalRevenue": 1095440000,
+    "grossProfits": 315259008,
+    "freeCashflow": 47403752,
+    "totalDebt": 433281984,
+    "totalCash": 338896000,
+    "profitMargins": 0.059520002,
+    "returnOnEquity": 0.05069,
+    "returnOnAssets": 0.01469,
+    "revenueGrowth": -0.049
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 25.0,
+    "high": 25.0,
+    "low": 25.0,
+    "mean": 25.0,
+    "median": 25.0
+  },
+  "recommendations_summary": [
+    {
+      "index": "0",
+      "period": "0m",
+      "strongBuy": 0,
+      "buy": 0,
+      "hold": 3,
+      "sell": 0,
+      "strongSell": 1
+    },
+    {
+      "index": "1",
+      "period": "-1m",
+      "strongBuy": 0,
+      "buy": 0,
+      "hold": 3,
+      "sell": 0,
+      "strongSell": 1
+    },
+    {
+      "index": "2",
+      "period": "-2m",
+      "strongBuy": 0,
+      "buy": 0,
+      "hold": 4,
+      "sell": 0,
+      "strongSell": 1
+    }
+  ],
+  "earnings_dates": [
+    {
+      "index": "2026-08-04 16:00:00-04:00",
+      "EPS Estimate": 0.32,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    }
+  ],
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.01434
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 1.00781
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 1.02247
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 294.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Blackrock Inc.",
+      "pctHeld": 0.141,
+      "Shares": 7278352,
+      "Value": 181958800,
+      "pctChange": -0.0013
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Magnetar Financial LLC",
+      "pctHeld": 0.0629,
+      "Shares": 3246435,
+      "Value": 81160875,
+      "pctChange": -0.0683
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Vanguard Portfolio Management LLC",
+      "pctHeld": 0.0539,
+      "Shares": 2781007,
+      "Value": 69525175,
+      "pctChange": 1.0
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Vanguard Capital Management LLC",
+      "pctHeld": 0.0434,
+      "Shares": 2240875,
+      "Value": 56021875,
+      "pctChange": 1.0
+    },
+    {
+      "index": "4",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Alliancebernstein L.P.",
+      "pctHeld": 0.0394,
+      "Shares": 2034155,
+      "Value": 50853875,
+      "pctChange": 0.065
+    },
+    {
+      "index": "5",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "State Street Corporation",
+      "pctHeld": 0.0368,
+      "Shares": 1901188,
+      "Value": 47529700,
+      "pctChange": 0.0215
+    },
+    {
+      "index": "6",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "HSBC Holdings PLC",
+      "pctHeld": 0.0305,
+      "Shares": 1573422,
+      "Value": 39335550,
+      "pctChange": 0.50259995
+    },
+    {
+      "index": "7",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Glazer Capital LLC",
+      "pctHeld": 0.03,
+      "Shares": 1546643,
+      "Value": 38666075,
+      "pctChange": 5.8926
+    },
+    {
+      "index": "8",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Westchester Capital Management, LLC",
+      "pctHeld": 0.028199999,
+      "Shares": 1455041,
+      "Value": 36376025,
+      "pctChange": -0.0937
+    },
+    {
+      "index": "9",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Dimensional Fund Advisors LP",
+      "pctHeld": 0.027999999,
+      "Shares": 1442782,
+      "Value": 36069550,
+      "pctChange": -0.4721
+    }
+  ]
+}

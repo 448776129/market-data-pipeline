@@ -1,0 +1,82 @@
+{
+  "symbol": "POAI",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "US74039M2008",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2025-08-14 08:00:00-04:00",
+      "EPS Estimate": null,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2025-03-31 16:00:00-04:00",
+      "EPS Estimate": -3.75,
+      "Reported EPS": -3.6,
+      "Surprise(%)": 4.0
+    },
+    {
+      "index": "2024-11-12 17:00:00-05:00",
+      "EPS Estimate": -4.8,
+      "Reported EPS": -7.2,
+      "Surprise(%)": -50.0
+    },
+    {
+      "index": "2022-11-10 17:00:00-05:00",
+      "EPS Estimate": -3.0,
+      "Reported EPS": -15.0,
+      "Surprise(%)": -400.0
+    },
+    {
+      "index": "2022-05-12 17:00:00-04:00",
+      "EPS Estimate": -12.0,
+      "Reported EPS": -15.0,
+      "Surprise(%)": -25.0
+    },
+    {
+      "index": "2022-03-31 17:00:00-04:00",
+      "EPS Estimate": -7.5,
+      "Reported EPS": -39.0,
+      "Surprise(%)": -420.0
+    },
+    {
+      "index": "2021-11-10 17:00:00-05:00",
+      "EPS Estimate": -15.0,
+      "Reported EPS": -24.0,
+      "Surprise(%)": -60.0
+    },
+    {
+      "index": "2021-08-11 17:00:00-04:00",
+      "EPS Estimate": -24.0,
+      "Reported EPS": -15.0,
+      "Surprise(%)": 37.5
+    },
+    {
+      "index": "2021-05-12 17:00:00-04:00",
+      "EPS Estimate": -27.0,
+      "Reported EPS": -33.0,
+      "Surprise(%)": -22.22
+    },
+    {
+      "index": "2021-03-15 17:00:00-04:00",
+      "EPS Estimate": -54.0,
+      "Reported EPS": -210.0,
+      "Surprise(%)": -288.89
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

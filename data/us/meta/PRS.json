@@ -1,0 +1,164 @@
+{
+  "symbol": "PRS",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "shortName": "Prudential Financial, Inc. 5.62",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 20.9,
+    "previousClose": 20.92,
+    "dayHigh": 20.93,
+    "dayLow": 20.8,
+    "regularMarketPrice": 20.86,
+    "regularMarketPreviousClose": 20.92,
+    "fiftyTwoWeekHigh": 25.19,
+    "fiftyTwoWeekLow": 20.79,
+    "volume": 28725,
+    "averageVolume": 47929
+  },
+  "dividends": [
+    {
+      "index": "2018-10-31 09:30:00-04:00",
+      "value": 0.359
+    },
+    {
+      "index": "2019-01-31 09:30:00-05:00",
+      "value": 0.352
+    },
+    {
+      "index": "2019-04-30 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2019-07-31 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2019-10-31 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2020-01-30 09:30:00-05:00",
+      "value": 0.352
+    },
+    {
+      "index": "2020-04-30 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2020-07-30 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2020-10-29 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2021-01-29 09:30:00-05:00",
+      "value": 0.352
+    },
+    {
+      "index": "2021-04-29 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2021-07-29 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2021-10-29 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2022-01-31 09:30:00-05:00",
+      "value": 0.352
+    },
+    {
+      "index": "2022-04-28 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2022-07-29 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2022-10-31 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2023-01-31 09:30:00-05:00",
+      "value": 0.352
+    },
+    {
+      "index": "2023-04-28 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2023-07-31 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2023-10-31 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2024-01-31 09:30:00-05:00",
+      "value": 0.352
+    },
+    {
+      "index": "2024-04-30 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2024-08-01 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2024-11-01 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2025-01-31 09:30:00-05:00",
+      "value": 0.352
+    },
+    {
+      "index": "2025-05-01 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2025-08-01 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2025-10-31 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2026-01-30 09:30:00-05:00",
+      "value": 0.352
+    },
+    {
+      "index": "2026-05-01 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2026-07-31 09:30:00-04:00",
+      "value": 0.352
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

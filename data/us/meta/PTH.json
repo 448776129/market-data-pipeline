@@ -1,0 +1,78 @@
+{
+  "symbol": "PTH",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US46137V8524",
+  "info": {
+    "shortName": "Invesco Dorsey Wright Healthcar",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 59.71,
+    "previousClose": 59.9,
+    "dayHigh": 60.3679,
+    "dayLow": 59.2697,
+    "regularMarketPrice": 60.35,
+    "regularMarketPreviousClose": 59.9,
+    "fiftyTwoWeekHigh": 61.78,
+    "fiftyTwoWeekLow": 38.6,
+    "dividendYield": 2.63,
+    "volume": 29810,
+    "averageVolume": 51166
+  },
+  "dividends": [
+    {
+      "index": "2009-06-19 09:30:00-04:00",
+      "value": 0.008333
+    },
+    {
+      "index": "2009-12-18 09:30:00-05:00",
+      "value": 0.019333
+    },
+    {
+      "index": "2012-06-15 09:30:00-04:00",
+      "value": 0.008333
+    },
+    {
+      "index": "2012-12-21 09:30:00-05:00",
+      "value": 0.109
+    },
+    {
+      "index": "2013-06-21 09:30:00-04:00",
+      "value": 0.036667
+    },
+    {
+      "index": "2013-09-20 09:30:00-04:00",
+      "value": 0.002667
+    },
+    {
+      "index": "2013-12-20 09:30:00-05:00",
+      "value": 0.011333
+    },
+    {
+      "index": "2024-06-24 09:30:00-04:00",
+      "value": 0.025
+    },
+    {
+      "index": "2025-12-22 09:30:00-05:00",
+      "value": 1.526
+    }
+  ],
+  "splits": [
+    {
+      "index": "2023-07-17 09:30:00-04:00",
+      "value": 3.0
+    }
+  ],
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

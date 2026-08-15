@@ -1,0 +1,172 @@
+{
+  "symbol": "PTMN",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2026-11-05 15:00:00-05:00",
+      "EPS Estimate": 0.36,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2025-08-07 16:00:00-04:00",
+      "EPS Estimate": 0.53,
+      "Reported EPS": 0.5,
+      "Surprise(%)": -6.1
+    },
+    {
+      "index": "2025-05-08 16:00:00-04:00",
+      "EPS Estimate": 0.6,
+      "Reported EPS": 0.47,
+      "Surprise(%)": -21.99
+    },
+    {
+      "index": "2025-03-13 16:00:00-04:00",
+      "EPS Estimate": 0.65,
+      "Reported EPS": 0.6,
+      "Surprise(%)": -7.34
+    },
+    {
+      "index": "2024-11-07 16:00:00-05:00",
+      "EPS Estimate": 0.68,
+      "Reported EPS": 0.63,
+      "Surprise(%)": -6.9
+    },
+    {
+      "index": "2024-08-08 16:00:00-04:00",
+      "EPS Estimate": 0.69,
+      "Reported EPS": 0.7,
+      "Surprise(%)": 1.94
+    },
+    {
+      "index": "2024-05-08 16:00:00-04:00",
+      "EPS Estimate": 0.72,
+      "Reported EPS": 0.67,
+      "Surprise(%)": -6.51
+    },
+    {
+      "index": "2024-03-13 16:00:00-04:00",
+      "EPS Estimate": 0.79,
+      "Reported EPS": 1.18,
+      "Surprise(%)": 50.0
+    },
+    {
+      "index": "2023-11-08 16:00:00-05:00",
+      "EPS Estimate": 0.78,
+      "Reported EPS": 0.75,
+      "Surprise(%)": -3.85
+    },
+    {
+      "index": "2023-08-11 16:00:00-04:00",
+      "EPS Estimate": 0.78,
+      "Reported EPS": 0.83,
+      "Surprise(%)": 5.96
+    },
+    {
+      "index": "2023-05-10 16:00:00-04:00",
+      "EPS Estimate": 0.76,
+      "Reported EPS": 0.89,
+      "Surprise(%)": 17.11
+    },
+    {
+      "index": "2023-03-09 17:00:00-05:00",
+      "EPS Estimate": 0.76,
+      "Reported EPS": 0.74,
+      "Surprise(%)": -2.2
+    },
+    {
+      "index": "2022-11-08 16:00:00-05:00",
+      "EPS Estimate": 0.69,
+      "Reported EPS": 0.87,
+      "Surprise(%)": 26.7
+    },
+    {
+      "index": "2022-08-09 16:00:00-04:00",
+      "EPS Estimate": 0.7,
+      "Reported EPS": 0.57,
+      "Surprise(%)": -18.18
+    },
+    {
+      "index": "2022-05-10 16:00:00-04:00",
+      "EPS Estimate": 0.82,
+      "Reported EPS": 0.82,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2022-03-10 18:00:00-05:00",
+      "EPS Estimate": 0.96,
+      "Reported EPS": 0.82,
+      "Surprise(%)": -14.14
+    },
+    {
+      "index": "2021-11-04 16:00:00-04:00",
+      "EPS Estimate": 0.91,
+      "Reported EPS": 1.5,
+      "Surprise(%)": 65.75
+    },
+    {
+      "index": "2021-08-05 17:00:00-04:00",
+      "EPS Estimate": 0.75,
+      "Reported EPS": 1.5,
+      "Surprise(%)": 100.0
+    },
+    {
+      "index": "2021-05-06 16:00:00-04:00",
+      "EPS Estimate": 0.65,
+      "Reported EPS": 1.1,
+      "Surprise(%)": 69.23
+    },
+    {
+      "index": "2021-03-11 16:00:00-05:00",
+      "EPS Estimate": 0.6,
+      "Reported EPS": 1.6,
+      "Surprise(%)": 166.67
+    },
+    {
+      "index": "2020-11-09 16:00:00-05:00",
+      "EPS Estimate": 0.5,
+      "Reported EPS": 0.6,
+      "Surprise(%)": 20.0
+    },
+    {
+      "index": "2020-08-06 06:00:00-04:00",
+      "EPS Estimate": 0.43,
+      "Reported EPS": 0.6,
+      "Surprise(%)": 38.46
+    },
+    {
+      "index": "2020-05-06 17:00:00-04:00",
+      "EPS Estimate": 0.5,
+      "Reported EPS": 0.6,
+      "Surprise(%)": 20.0
+    },
+    {
+      "index": "2020-03-06 08:00:00-05:00",
+      "EPS Estimate": 0.6,
+      "Reported EPS": 0.6,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2019-11-07 16:00:00-05:00",
+      "EPS Estimate": 0.7,
+      "Reported EPS": 0.6,
+      "Surprise(%)": -14.29
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,74 @@
+{
+  "symbol": "POTX",
+  "region": "us",
+  "name": "Global X Cannabis ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US37954Y1459",
+  "info": {
+    "longName": "Global X Cannabis ETF",
+    "shortName": "Global X Cannabis ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 5.08,
+    "previousClose": 5.11,
+    "dayHigh": 5.16,
+    "dayLow": 5.08,
+    "regularMarketPrice": 5.15,
+    "regularMarketPreviousClose": 5.11,
+    "fiftyTwoWeekHigh": 9.3,
+    "fiftyTwoWeekLow": 5.04,
+    "dividendYield": 7.14,
+    "volume": 68878,
+    "averageVolume": 61706
+  },
+  "dividends": [
+    {
+      "index": "2019-12-30 09:30:00-05:00",
+      "value": 1.289166
+    },
+    {
+      "index": "2020-06-29 09:30:00-04:00",
+      "value": 2.376978
+    },
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.87153
+    },
+    {
+      "index": "2021-06-29 09:30:00-04:00",
+      "value": 0.579732
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.915354
+    },
+    {
+      "index": "2022-06-29 09:30:00-04:00",
+      "value": 0.031648
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.071791
+    },
+    {
+      "index": "2023-06-29 09:30:00-04:00",
+      "value": 0.206434
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.165623
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

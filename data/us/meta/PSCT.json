@@ -1,0 +1,172 @@
+{
+  "symbol": "PSCT",
+  "region": "us",
+  "name": "Invesco S&P SmallCap Information Technology ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US46138E1156",
+  "info": {
+    "longName": "Invesco S&P SmallCap Information Technology ETF",
+    "shortName": "Invesco S&P SmallCap Informatio",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 82.95,
+    "previousClose": 83.32,
+    "dayHigh": 83.83,
+    "dayLow": 82.72,
+    "regularMarketPrice": 83.4307,
+    "regularMarketPreviousClose": 83.32,
+    "fiftyTwoWeekHigh": 92.45,
+    "fiftyTwoWeekLow": 45.59,
+    "trailingPE": 31.830091,
+    "dividendYield": 0.0,
+    "volume": 11408,
+    "averageVolume": 38874
+  },
+  "dividends": [
+    {
+      "index": "2010-12-17 09:30:00-05:00",
+      "value": 0.02
+    },
+    {
+      "index": "2011-12-16 09:30:00-05:00",
+      "value": 0.005667
+    },
+    {
+      "index": "2012-12-21 09:30:00-05:00",
+      "value": 0.096333
+    },
+    {
+      "index": "2013-03-15 09:30:00-04:00",
+      "value": 0.010333
+    },
+    {
+      "index": "2013-12-20 09:30:00-05:00",
+      "value": 0.021333
+    },
+    {
+      "index": "2014-03-21 09:30:00-04:00",
+      "value": 0.008333
+    },
+    {
+      "index": "2014-12-19 09:30:00-05:00",
+      "value": 0.014
+    },
+    {
+      "index": "2015-12-18 09:30:00-05:00",
+      "value": 0.025333
+    },
+    {
+      "index": "2016-03-18 09:30:00-04:00",
+      "value": 0.01
+    },
+    {
+      "index": "2016-06-17 09:30:00-04:00",
+      "value": 0.003667
+    },
+    {
+      "index": "2016-12-16 09:30:00-05:00",
+      "value": 0.044
+    },
+    {
+      "index": "2017-09-18 09:30:00-04:00",
+      "value": 0.004667
+    },
+    {
+      "index": "2017-12-18 09:30:00-05:00",
+      "value": 0.044667
+    },
+    {
+      "index": "2018-03-19 09:30:00-04:00",
+      "value": 0.032333
+    },
+    {
+      "index": "2018-06-18 09:30:00-04:00",
+      "value": 0.021
+    },
+    {
+      "index": "2018-09-24 09:30:00-04:00",
+      "value": 0.031333
+    },
+    {
+      "index": "2018-12-24 09:30:00-05:00",
+      "value": 0.023667
+    },
+    {
+      "index": "2019-03-18 09:30:00-04:00",
+      "value": 0.022333
+    },
+    {
+      "index": "2019-06-24 09:30:00-04:00",
+      "value": 0.022667
+    },
+    {
+      "index": "2019-09-23 09:30:00-04:00",
+      "value": 0.009333
+    },
+    {
+      "index": "2019-12-23 09:30:00-05:00",
+      "value": 0.015667
+    },
+    {
+      "index": "2020-03-23 09:30:00-04:00",
+      "value": 0.007667
+    },
+    {
+      "index": "2020-06-22 09:30:00-04:00",
+      "value": 0.009
+    },
+    {
+      "index": "2020-09-21 09:30:00-04:00",
+      "value": 0.009333
+    },
+    {
+      "index": "2020-12-21 09:30:00-05:00",
+      "value": 0.006667
+    },
+    {
+      "index": "2021-03-22 09:30:00-04:00",
+      "value": 0.004333
+    },
+    {
+      "index": "2023-12-18 09:30:00-05:00",
+      "value": 0.011
+    },
+    {
+      "index": "2024-03-18 09:30:00-04:00",
+      "value": 0.005
+    },
+    {
+      "index": "2024-06-24 09:30:00-04:00",
+      "value": 0.001
+    },
+    {
+      "index": "2025-03-24 09:30:00-04:00",
+      "value": 0.001
+    },
+    {
+      "index": "2025-06-23 09:30:00-04:00",
+      "value": 0.009
+    },
+    {
+      "index": "2025-09-22 09:30:00-04:00",
+      "value": 0.004
+    }
+  ],
+  "splits": [
+    {
+      "index": "2023-07-17 09:30:00-04:00",
+      "value": 3.0
+    }
+  ],
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
