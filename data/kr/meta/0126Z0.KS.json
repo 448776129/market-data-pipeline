@@ -1,0 +1,101 @@
+{
+  "symbol": "0126Z0.KS",
+  "region": "kr",
+  "name": null,
+  "currency": "KRW",
+  "exchange": "KSC",
+  "isin": "-",
+  "info": {
+    "shortName": "SAMSUNG EPIS HOLDINGS",
+    "sector": "Healthcare",
+    "industry": "Biotechnology",
+    "country": "South Korea",
+    "exchange": "KSC",
+    "currency": "KRW",
+    "marketCap": 10786800926720,
+    "currentPrice": 433500.0,
+    "open": 400000.0,
+    "previousClose": 403000.0,
+    "dayHigh": 433500.0,
+    "dayLow": 391500.0,
+    "regularMarketPrice": 433500.0,
+    "regularMarketPreviousClose": 403000.0,
+    "fiftyTwoWeekHigh": 773000.0,
+    "fiftyTwoWeekLow": 329000.0,
+    "forwardPE": 29.669428,
+    "volume": 74399,
+    "averageVolume": 53257,
+    "sharesOutstanding": 24883049,
+    "floatShares": 6389302,
+    "targetMeanPrice": 600000.0,
+    "targetHighPrice": 600000.0,
+    "targetLowPrice": 600000.0,
+    "recommendationKey": "buy",
+    "totalRevenue": 1510139756544,
+    "grossProfits": 546018263040,
+    "totalDebt": 743201439744,
+    "totalCash": 113517674496,
+    "profitMargins": 0.33896
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 433500.0,
+    "high": 600000.0,
+    "low": 600000.0,
+    "mean": 600000.0,
+    "median": 600000.0
+  },
+  "recommendations_summary": [
+    {
+      "index": "0",
+      "period": "0m",
+      "strongBuy": 2,
+      "buy": 0,
+      "hold": 0,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "index": "1",
+      "period": "-1m",
+      "strongBuy": 2,
+      "buy": 0,
+      "hold": 0,
+      "sell": 0,
+      "strongSell": 0
+    }
+  ],
+  "earnings_dates": [
+    {
+      "index": "2026-10-23 02:00:00-04:00",
+      "EPS Estimate": null,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    }
+  ],
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.7428
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.123430006
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.4799
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 148.0
+    }
+  ],
+  "institutional_holders": null
+}

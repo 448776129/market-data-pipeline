@@ -1,0 +1,62 @@
+{
+  "symbol": "0120G0.KS",
+  "region": "kr",
+  "name": null,
+  "currency": "KRW",
+  "exchange": "KSC",
+  "isin": "-",
+  "info": {
+    "shortName": "Samyang Biopharm",
+    "sector": "Healthcare",
+    "industry": "Medical Devices",
+    "country": "South Korea",
+    "exchange": "KSC",
+    "currency": "KRW",
+    "marketCap": 356549951488,
+    "currentPrice": 47950.0,
+    "open": 48650.0,
+    "previousClose": 48600.0,
+    "dayHigh": 49200.0,
+    "dayLow": 46800.0,
+    "regularMarketPrice": 47950.0,
+    "regularMarketPreviousClose": 48600.0,
+    "fiftyTwoWeekHigh": 150900.0,
+    "fiftyTwoWeekLow": 23250.0,
+    "volume": 18675,
+    "averageVolume": 28336,
+    "sharesOutstanding": 7435870,
+    "recommendationKey": "none",
+    "profitMargins": 0.0
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 47950.0
+  },
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.52366
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.03675
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.07716
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 23.0
+    }
+  ],
+  "institutional_holders": null
+}
