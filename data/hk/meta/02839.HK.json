@@ -1,0 +1,27 @@
+{
+  "symbol": "02839.HK",
+  "region": "hk",
+  "name": null,
+  "currency": "HKD",
+  "exchange": "HKG",
+  "isin": "-",
+  "info": {
+    "shortName": "W.I.S.E.-CSI HK LstdMnlnd Real",
+    "exchange": "HKG",
+    "currency": "HKD",
+    "regularMarketPrice": 5.89,
+    "regularMarketPreviousClose": 5.87
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

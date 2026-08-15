@@ -1,0 +1,28 @@
+{
+  "symbol": "02815.HK",
+  "region": "hk",
+  "name": "Lyxor MSCI AC AsiaPac ex Jap ETF USD A/I",
+  "currency": "USD",
+  "exchange": "YHD",
+  "isin": "-",
+  "info": {
+    "longName": "Lyxor MSCI AC AsiaPac ex Jap ETF USD A/I",
+    "shortName": "Lyxor ETF MSCI AC Asia-Pac ex ",
+    "exchange": "YHD",
+    "currency": "USD",
+    "regularMarketPrice": 4.57,
+    "regularMarketPreviousClose": 4.57
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

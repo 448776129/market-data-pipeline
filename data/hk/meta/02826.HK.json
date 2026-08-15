@@ -1,0 +1,28 @@
+{
+  "symbol": "02826.HK",
+  "region": "hk",
+  "name": "Lyxor Nasdaq-100 UCITS ETF",
+  "currency": "USD",
+  "exchange": "PSX",
+  "isin": "-",
+  "info": {
+    "longName": "Lyxor Nasdaq-100 UCITS ETF",
+    "shortName": "Lyxor ETF NASDAQ-100 D-USD A/I",
+    "exchange": "PSX",
+    "currency": "USD",
+    "regularMarketPrice": 17.92,
+    "regularMarketPreviousClose": 17.92
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

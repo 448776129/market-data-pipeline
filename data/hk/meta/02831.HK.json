@@ -1,0 +1,28 @@
+{
+  "symbol": "02831.HK",
+  "region": "hk",
+  "name": "Lyxor Russia DJ Russia GDR ETF USD A/I",
+  "currency": "USD",
+  "exchange": "PSX",
+  "isin": "-",
+  "info": {
+    "longName": "Lyxor Russia DJ Russia GDR ETF USD A/I",
+    "shortName": "Lyxor ETF Russia (DJ Russia GD",
+    "exchange": "PSX",
+    "currency": "USD",
+    "regularMarketPrice": 2.6,
+    "regularMarketPreviousClose": 2.6
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

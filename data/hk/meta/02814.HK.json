@@ -1,0 +1,28 @@
+{
+  "symbol": "02814.HK",
+  "region": "hk",
+  "name": "Lyxor Japan TOPIX DR ETF USD A/I",
+  "currency": "USD",
+  "exchange": "PSX",
+  "isin": "-",
+  "info": {
+    "longName": "Lyxor Japan TOPIX DR ETF USD A/I",
+    "shortName": "Lyxor Japan TOPIX DR ETF USD A",
+    "exchange": "PSX",
+    "currency": "USD",
+    "regularMarketPrice": 1.19,
+    "regularMarketPreviousClose": 1.19
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
