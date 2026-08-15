@@ -1,0 +1,24 @@
+{
+  "symbol": "11093.HK",
+  "region": "hk",
+  "name": "JP-N225@EP2609D",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "JP-N225@EP2609D",
+    "shortName": "VTEVERG@EC1810A"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
