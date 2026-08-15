@@ -17,19 +17,9 @@ from __future__ import annotations
 # 从 universe 文件（data/universe/{region}.csv）读取全部股票代码。
 REGIONS: dict[str, list[str]] = {
     "us": [],  # 全市场模式：从 data/universe/us.csv 读取全部美股
-    "hk": [
-        "0700.HK",
-        "9988.HK",
-        "3690.HK",
-        "0941.HK",
-    ],
-    "cn": [],  # 全市场模式：从 data/universe/cn.csv 读取全部A股(上交所)
-    "kr": [
-        "005930.KS",  # 三星电子
-        "000660.KS",  # SK海力士
-        "373220.KS",  # LG新能源
-        "035420.KS",  # NAVER
-    ],
+    "hk": [],  # 全市场模式：从 data/universe/hk.csv 读取全部港股
+    "cn": [],  # 全市场模式：从 data/universe/cn.csv 读取全部A股(沪+深)
+    "kr": [],  # 全市场模式：从 data/universe/kr.csv 读取全部韩股
 }
 
 # 历史数据拉取范围（yfinance period 参数）
@@ -49,4 +39,15 @@ UNIVERSE_SUBDIR = "universe"
 UNIVERSE_FILES = {
     "us": "us.csv",
     "cn": "cn.csv",
+    "hk": "hk.csv",
+    "kr": "kr.csv",
+}
+
+# 全市场股票列表的数据源（供 fetch_universe.py 使用）
+# us: 每行一个美股代码
+# hk: 港股代码清单（code 列），需加 .HK
+# kr: KRX 缓存（动态日期），Code 列加 .KS
+UNIVERSE_SOURCES = {
+    "us": "https://raw.githubusercontent.com/abbadata/stock-tickers/main/data/allsymbols.txt",
+    "hk": "https://raw.githubusercontent.com/darr/stock_code/master/hk_stock_code.csv",
 }

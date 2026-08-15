@@ -1,17 +1,25 @@
-"""美股全市场股票列表拉取脚本。
+"""全市场股票列表拉取脚本。
 
-从公开的全市场股票代码清单下载全部美股代码，写入 universe 目录：
-data/universe/us.csv
+从公开数据源拉取各市场的全部股票代码，写入 universe 目录：
+data/universe/{region}.csv
 
-数据源：
-  https://raw.githubusercontent.com/abbadata/stock-tickers/main/data/allsymbols.txt
+支持的市场：
+  - us: 每行一个美股代码
+  - hk: 港股代码清单（code 列），加 .HK 后缀
+  - kr: KRX 官方缓存（动态日期），Code 列加 .KS 后缀，过滤 KONEX
+
+A股（cn）代码由仓库内置清单提供，不在此拉取。
 
 用法：
-    python scripts/fetch_universe.py
+    python scripts/fetch_universe.py [--region us|hk|kr|cn]
 """
 
 from __future__ import annotations
 
+import argparse
+import csv
+import io
+import json
 import sys
 import urllib.request
 from pathlib import Path
@@ -21,10 +29,17 @@ sys.path.insert(0, str(ROOT))
 
 import config  # noqa: E402
 
-# 全市场美股代码清单（每行一个符号）
-UNIVERSE_URL = (
-    "https://raw.githubusercontent.com/abbadata/stock-tickers/main/data/allsymbols.txt"
+# KRX 接口：获取最近交易日，用于定位缓存文件
+KRX_MAXDT_URL = (
+    "http://data.krx.co.kr/comm/bldAttendant/executeForResourceBundle.cmd"
+    "?baseName=krx.mdc.i18n.component&key=B128.bld"
 )
+KRX_CACHE_URL = (
+    "https://raw.githubusercontent.com/FinanceData/fdr_krx_data_cache/"
+    "master/data/listing/krx/{date}.csv"
+)
+# 韩股过滤：排除 KONEX（MarketId == KNX）
+KRX_EXCLUDE_MARKET = "KNX"
 
 
 def download(url: str) -> str:
@@ -34,40 +49,86 @@ def download(url: str) -> str:
         return resp.read().decode("utf-8", errors="replace")
 
 
-def parse_symbols(text: str) -> set[str]:
-    """解析每行一个符号的清单，去空行、去重。"""
+def fetch_us() -> set[str]:
+    """美股：每行一个代码。"""
+    text = download(config.UNIVERSE_SOURCES["us"])
+    return {line.strip() for line in text.splitlines() if line.strip()}
+
+
+def fetch_hk() -> set[str]:
+    """港股：从 CSV 取 code 列，加 .HK。"""
+    text = download(config.UNIVERSE_SOURCES["hk"])
+    reader = csv.DictReader(io.StringIO(text))
     symbols: set[str] = set()
-    for line in text.splitlines():
-        code = line.strip()
+    for row in reader:
+        code = (row.get("code") or "").strip()
         if code:
-            symbols.add(code)
+            symbols.add(f"{code}.HK")
     return symbols
 
 
-def run() -> int:
+def fetch_kr() -> set[str]:
+    """韩股：查询最近交易日，从 KRX 缓存取 Code 列，加 .KS，过滤 KONEX。"""
+    # 1. 获取最近交易日
+    maxdt_raw = download(KRX_MAXDT_URL)
     try:
-        print("下载全市场美股列表...", flush=True)
-        text = download(UNIVERSE_URL)
-
-        symbols = parse_symbols(text)
-        if not symbols:
-            print("未解析出任何股票代码，中止", file=sys.stderr)
-            return 1
-
-        out = ROOT / config.DATA_DIR / config.UNIVERSE_SUBDIR / config.UNIVERSE_FILE
-        out.parent.mkdir(parents=True, exist_ok=True)
-        # 排序后写入，保证分批结果稳定
-        rows = sorted(symbols)
-        out.write_text("\n".join(rows) + "\n", encoding="utf-8")
-        print(f"  共 {len(rows)} 只美股 -> {out.relative_to(ROOT)}", flush=True)
-        return 0
+        date_str = json.loads(maxdt_raw)["result"]["output"][0]["max_work_dt"]
+        date = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:]}"
     except Exception as exc:  # noqa: BLE001
-        print(f"拉取美股列表失败: {exc}", file=sys.stderr)
-        return 1
+        raise RuntimeError(f"获取KRX最近交易日失败: {exc}") from exc
+
+    # 2. 下载当日缓存
+    text = download(KRX_CACHE_URL.format(date=date))
+    reader = csv.DictReader(io.StringIO(text))
+    symbols: set[str] = set()
+    for row in reader:
+        market_id = (row.get("MarketId") or "").strip()
+        if market_id == KRX_EXCLUDE_MARKET:
+            continue
+        code = (row.get("Code") or "").strip()
+        if code:
+            symbols.add(f"{code}.KS")
+    return symbols
+
+
+FETCHERS = {
+    "us": fetch_us,
+    "hk": fetch_hk,
+    "kr": fetch_kr,
+}
+
+
+def run(region: str | None) -> int:
+    regions = [region] if region else list(FETCHERS)
+    failed = False
+    for reg in regions:
+        fetcher = FETCHERS.get(reg)
+        if not fetcher:
+            print(f"  [跳过] {reg}: 无动态数据源（cn 由仓库内置清单提供）", flush=True)
+            continue
+        try:
+            print(f"下载 {reg} 全市场列表...", flush=True)
+            symbols = fetcher()
+            if not symbols:
+                print(f"  未解析出任何股票代码，跳过 {reg}", file=sys.stderr)
+                failed = True
+                continue
+            out = ROOT / config.DATA_DIR / config.UNIVERSE_SUBDIR / config.UNIVERSE_FILES[reg]
+            out.parent.mkdir(parents=True, exist_ok=True)
+            rows = sorted(symbols)
+            out.write_text("\n".join(rows) + "\n", encoding="utf-8")
+            print(f"  共 {len(rows)} 只 -> {out.relative_to(ROOT)}", flush=True)
+        except Exception as exc:  # noqa: BLE001
+            print(f"  [失败] {reg}: {exc}", file=sys.stderr)
+            failed = True
+    return 1 if failed else 0
 
 
 def main() -> int:
-    return run()
+    parser = argparse.ArgumentParser(description="拉取全市场股票列表")
+    parser.add_argument("--region", choices=list(FETCHERS) + ["cn"], help="仅处理指定区域")
+    args = parser.parse_args()
+    return run(args.region)
 
 
 if __name__ == "__main__":
