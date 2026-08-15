@@ -1,0 +1,29 @@
+{
+  "symbol": "045340.KS",
+  "region": "kr",
+  "name": null,
+  "currency": "KRW",
+  "exchange": "KOE",
+  "isin": "-",
+  "info": {
+    "shortName": "045340.KS,0P0000BV6O,25421",
+    "exchange": "KOE",
+    "currency": "KRW",
+    "regularMarketPrice": 5070.0,
+    "regularMarketPreviousClose": 5020.0,
+    "fiftyTwoWeekHigh": 10880.0,
+    "fiftyTwoWeekLow": 5310.0
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
