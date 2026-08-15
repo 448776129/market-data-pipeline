@@ -1,0 +1,95 @@
+{
+  "symbol": "CRY",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US38747T6661",
+  "info": {
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 17.35,
+    "previousClose": 17.42652,
+    "dayHigh": 17.42,
+    "dayLow": 17.34,
+    "regularMarketPrice": 17.375,
+    "regularMarketPreviousClose": 17.42652,
+    "fiftyTwoWeekHigh": 25.93,
+    "fiftyTwoWeekLow": 17.21,
+    "volume": 25929,
+    "averageVolume": 8020
+  },
+  "dividends": [
+    {
+      "index": "2026-05-01 09:30:00-04:00",
+      "value": 0.459
+    },
+    {
+      "index": "2026-05-08 09:30:00-04:00",
+      "value": 0.477
+    },
+    {
+      "index": "2026-05-15 09:30:00-04:00",
+      "value": 0.48
+    },
+    {
+      "index": "2026-05-22 09:30:00-04:00",
+      "value": 0.458
+    },
+    {
+      "index": "2026-05-29 09:30:00-04:00",
+      "value": 0.414
+    },
+    {
+      "index": "2026-06-05 09:30:00-04:00",
+      "value": 0.402
+    },
+    {
+      "index": "2026-06-12 09:30:00-04:00",
+      "value": 0.404
+    },
+    {
+      "index": "2026-06-18 09:30:00-04:00",
+      "value": 0.393
+    },
+    {
+      "index": "2026-06-26 09:30:00-04:00",
+      "value": 0.378
+    },
+    {
+      "index": "2026-07-02 09:30:00-04:00",
+      "value": 0.352
+    },
+    {
+      "index": "2026-07-10 09:30:00-04:00",
+      "value": 0.33
+    },
+    {
+      "index": "2026-07-17 09:30:00-04:00",
+      "value": 0.33
+    },
+    {
+      "index": "2026-07-31 09:30:00-04:00",
+      "value": 0.312
+    },
+    {
+      "index": "2026-08-07 09:30:00-04:00",
+      "value": 0.274
+    },
+    {
+      "index": "2026-08-14 09:30:00-04:00",
+      "value": 0.273
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

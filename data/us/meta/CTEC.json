@@ -1,0 +1,88 @@
+{
+  "symbol": "CTEC",
+  "region": "us",
+  "name": "Global X ClimateTech ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US37960A2226",
+  "info": {
+    "longName": "Global X ClimateTech ETF",
+    "shortName": "Global X ClimateTech ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 60.2401,
+    "previousClose": 60.08,
+    "dayHigh": 60.2401,
+    "dayLow": 59.6213,
+    "regularMarketPrice": 59.6213,
+    "regularMarketPreviousClose": 60.08,
+    "fiftyTwoWeekHigh": 83.01,
+    "fiftyTwoWeekLow": 41.35,
+    "trailingPE": 26.64386,
+    "dividendYield": 0.66,
+    "volume": 1056,
+    "averageVolume": 3830
+  },
+  "dividends": [
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.02
+    },
+    {
+      "index": "2021-06-29 09:30:00-04:00",
+      "value": 0.055
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.295
+    },
+    {
+      "index": "2022-06-29 09:30:00-04:00",
+      "value": 0.055
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.13
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.275
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.125
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.4
+    },
+    {
+      "index": "2025-06-27 09:30:00-04:00",
+      "value": 0.12
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.28
+    },
+    {
+      "index": "2026-06-29 09:30:00-04:00",
+      "value": 0.075
+    }
+  ],
+  "splits": [
+    {
+      "index": "2025-09-02 09:30:00-04:00",
+      "value": 0.2
+    }
+  ],
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

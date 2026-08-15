@@ -1,0 +1,140 @@
+{
+  "symbol": "CUBB",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "shortName": "Customers Bancorp, Inc 5.375% S",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 22.35,
+    "previousClose": 22.34,
+    "dayHigh": 22.35,
+    "dayLow": 22.34,
+    "regularMarketPrice": 22.34,
+    "regularMarketPreviousClose": 22.34,
+    "fiftyTwoWeekHigh": 23.99,
+    "fiftyTwoWeekLow": 20.35,
+    "volume": 1,
+    "averageVolume": 1275
+  },
+  "dividends": [
+    {
+      "index": "2020-03-26 09:30:00-04:00",
+      "value": 0.414
+    },
+    {
+      "index": "2020-06-26 09:30:00-04:00",
+      "value": 0.336
+    },
+    {
+      "index": "2020-09-14 09:30:00-04:00",
+      "value": 0.336
+    },
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.336
+    },
+    {
+      "index": "2021-03-12 09:30:00-05:00",
+      "value": 0.336
+    },
+    {
+      "index": "2021-06-14 09:30:00-04:00",
+      "value": 0.336
+    },
+    {
+      "index": "2021-09-14 09:30:00-04:00",
+      "value": 0.336
+    },
+    {
+      "index": "2021-12-14 09:30:00-05:00",
+      "value": 0.336
+    },
+    {
+      "index": "2022-03-14 09:30:00-04:00",
+      "value": 0.336
+    },
+    {
+      "index": "2022-06-14 09:30:00-04:00",
+      "value": 0.336
+    },
+    {
+      "index": "2022-09-14 09:30:00-04:00",
+      "value": 0.336
+    },
+    {
+      "index": "2022-12-14 09:30:00-05:00",
+      "value": 0.336
+    },
+    {
+      "index": "2023-03-14 09:30:00-04:00",
+      "value": 0.336
+    },
+    {
+      "index": "2023-06-14 09:30:00-04:00",
+      "value": 0.336
+    },
+    {
+      "index": "2023-09-14 09:30:00-04:00",
+      "value": 0.336
+    },
+    {
+      "index": "2023-12-14 09:30:00-05:00",
+      "value": 0.336
+    },
+    {
+      "index": "2024-03-14 09:30:00-04:00",
+      "value": 0.336
+    },
+    {
+      "index": "2024-06-14 09:30:00-04:00",
+      "value": 0.336
+    },
+    {
+      "index": "2024-09-13 09:30:00-04:00",
+      "value": 0.336
+    },
+    {
+      "index": "2024-12-13 09:30:00-05:00",
+      "value": 0.336
+    },
+    {
+      "index": "2025-03-14 09:30:00-04:00",
+      "value": 0.336
+    },
+    {
+      "index": "2025-06-13 09:30:00-04:00",
+      "value": 0.336
+    },
+    {
+      "index": "2025-09-15 09:30:00-04:00",
+      "value": 0.336
+    },
+    {
+      "index": "2025-12-15 09:30:00-05:00",
+      "value": 0.336
+    },
+    {
+      "index": "2026-03-13 09:30:00-04:00",
+      "value": 0.336
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 0.336
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

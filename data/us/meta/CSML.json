@@ -1,0 +1,151 @@
+{
+  "symbol": "CSML",
+  "region": "us",
+  "name": "IQ U.S. Small Cap ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US45409B3969",
+  "info": {
+    "longName": "IQ U.S. Small Cap ETF",
+    "shortName": "IQ U.S. Small Cap ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 34.82,
+    "previousClose": 34.7034,
+    "dayHigh": 35.1735,
+    "dayLow": 34.8135,
+    "regularMarketPrice": 34.9484,
+    "regularMarketPreviousClose": 34.7034,
+    "fiftyTwoWeekHigh": 37.3012,
+    "fiftyTwoWeekLow": 28.95,
+    "trailingPE": 12.347909,
+    "dividendYield": 1.31,
+    "volume": 14694,
+    "averageVolume": 51835
+  },
+  "dividends": [
+    {
+      "index": "2017-06-21 09:30:00-04:00",
+      "value": 0.01281
+    },
+    {
+      "index": "2017-09-22 09:30:00-04:00",
+      "value": 0.02912
+    },
+    {
+      "index": "2017-12-28 09:30:00-05:00",
+      "value": 0.04495
+    },
+    {
+      "index": "2018-03-22 09:30:00-04:00",
+      "value": 0.03706
+    },
+    {
+      "index": "2018-06-21 09:30:00-04:00",
+      "value": 0.04939
+    },
+    {
+      "index": "2018-09-21 09:30:00-04:00",
+      "value": 0.06206
+    },
+    {
+      "index": "2018-12-27 09:30:00-05:00",
+      "value": 0.06514
+    },
+    {
+      "index": "2019-03-25 09:30:00-04:00",
+      "value": 0.1151
+    },
+    {
+      "index": "2019-06-24 09:30:00-04:00",
+      "value": 0.10657
+    },
+    {
+      "index": "2019-09-24 09:30:00-04:00",
+      "value": 0.06585
+    },
+    {
+      "index": "2019-12-30 09:30:00-05:00",
+      "value": 0.0657
+    },
+    {
+      "index": "2020-03-25 09:30:00-04:00",
+      "value": 0.01816
+    },
+    {
+      "index": "2020-06-24 09:30:00-04:00",
+      "value": 0.06294
+    },
+    {
+      "index": "2020-09-24 09:30:00-04:00",
+      "value": 0.06976
+    },
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.14636
+    },
+    {
+      "index": "2021-03-22 09:30:00-04:00",
+      "value": 0.07459
+    },
+    {
+      "index": "2021-06-21 09:30:00-04:00",
+      "value": 0.08848
+    },
+    {
+      "index": "2021-09-20 09:30:00-04:00",
+      "value": 0.11201
+    },
+    {
+      "index": "2021-12-29 09:30:00-05:00",
+      "value": 0.15774
+    },
+    {
+      "index": "2022-03-18 09:30:00-04:00",
+      "value": 0.10222
+    },
+    {
+      "index": "2022-06-17 09:30:00-04:00",
+      "value": 0.07152
+    },
+    {
+      "index": "2022-09-16 09:30:00-04:00",
+      "value": 0.10658
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.13939
+    },
+    {
+      "index": "2023-03-31 09:30:00-04:00",
+      "value": 0.14854
+    },
+    {
+      "index": "2023-06-30 09:30:00-04:00",
+      "value": 0.11382
+    },
+    {
+      "index": "2023-09-29 09:30:00-04:00",
+      "value": 0.10378
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.14158
+    },
+    {
+      "index": "2024-03-28 09:30:00-04:00",
+      "value": 0.1307
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

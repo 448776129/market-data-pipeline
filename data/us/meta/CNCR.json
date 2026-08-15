@@ -1,0 +1,54 @@
+{
+  "symbol": "CNCR",
+  "region": "us",
+  "name": "Range Cancer Therapeutics Index ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US26922A8264",
+  "info": {
+    "longName": "Range Cancer Therapeutics Index ETF",
+    "shortName": "Range Cancer Therapeutics ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 9.41,
+    "previousClose": 8.88,
+    "dayHigh": 9.41,
+    "dayLow": 9.02,
+    "regularMarketPrice": 9.02,
+    "regularMarketPreviousClose": 8.88,
+    "fiftyTwoWeekHigh": 16.27,
+    "fiftyTwoWeekLow": 7.881,
+    "dividendYield": 0.0,
+    "volume": 3077,
+    "averageVolume": 1857
+  },
+  "dividends": [
+    {
+      "index": "2015-12-29 09:30:00-05:00",
+      "value": 0.105513
+    },
+    {
+      "index": "2017-12-28 09:30:00-05:00",
+      "value": 0.350199
+    },
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.288119
+    },
+    {
+      "index": "2021-12-29 09:30:00-05:00",
+      "value": 1.853335
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

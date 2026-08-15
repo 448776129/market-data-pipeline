@@ -1,0 +1,47 @@
+{
+  "symbol": "CLOU",
+  "region": "us",
+  "name": "Global X Cloud Computing ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US37954Y4420",
+  "info": {
+    "longName": "Global X Cloud Computing ETF",
+    "shortName": "Global X Cloud Computing ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 29.25,
+    "previousClose": 29.11,
+    "dayHigh": 29.265,
+    "dayLow": 28.29,
+    "regularMarketPrice": 28.42,
+    "regularMarketPreviousClose": 29.11,
+    "fiftyTwoWeekHigh": 29.265,
+    "fiftyTwoWeekLow": 17.52,
+    "trailingPE": 37.29691,
+    "dividendYield": 0.0,
+    "volume": 575573,
+    "averageVolume": 373851
+  },
+  "dividends": [
+    {
+      "index": "2019-12-30 09:30:00-05:00",
+      "value": 0.015
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.467
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

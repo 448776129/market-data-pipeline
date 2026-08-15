@@ -1,0 +1,172 @@
+{
+  "symbol": "CTHR",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "CH0365501979",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2023-02-02 16:00:00-05:00",
+      "EPS Estimate": -0.1,
+      "Reported EPS": -0.3,
+      "Surprise(%)": -200.0
+    },
+    {
+      "index": "2022-11-03 16:00:00-04:00",
+      "EPS Estimate": -0.2,
+      "Reported EPS": -0.3,
+      "Surprise(%)": -50.0
+    },
+    {
+      "index": "2022-09-01 16:00:00-04:00",
+      "EPS Estimate": -0.1,
+      "Reported EPS": null,
+      "Surprise(%)": 100.0
+    },
+    {
+      "index": "2022-05-05 07:00:00-04:00",
+      "EPS Estimate": 0.1,
+      "Reported EPS": 0.1,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2022-02-03 16:00:00-05:00",
+      "EPS Estimate": 0.5,
+      "Reported EPS": 0.4,
+      "Surprise(%)": -20.0
+    },
+    {
+      "index": "2021-11-04 16:00:00-04:00",
+      "EPS Estimate": 0.2,
+      "Reported EPS": 0.3,
+      "Surprise(%)": 50.0
+    },
+    {
+      "index": "2021-09-02 16:00:00-04:00",
+      "EPS Estimate": 2.7,
+      "Reported EPS": 2.38,
+      "Surprise(%)": -11.67
+    },
+    {
+      "index": "2021-05-06 16:00:00-04:00",
+      "EPS Estimate": 0.1,
+      "Reported EPS": 0.3,
+      "Surprise(%)": 200.0
+    },
+    {
+      "index": "2021-02-04 16:00:00-05:00",
+      "EPS Estimate": 0.3,
+      "Reported EPS": 0.9,
+      "Surprise(%)": 200.0
+    },
+    {
+      "index": "2020-11-05 16:00:00-05:00",
+      "EPS Estimate": -0.3,
+      "Reported EPS": 0.3,
+      "Surprise(%)": 200.0
+    },
+    {
+      "index": "2020-09-04 06:00:00-04:00",
+      "EPS Estimate": -0.7,
+      "Reported EPS": -0.4,
+      "Surprise(%)": 42.86
+    },
+    {
+      "index": "2020-05-21 16:00:00-04:00",
+      "EPS Estimate": -0.2,
+      "Reported EPS": -0.31,
+      "Surprise(%)": -55.0
+    },
+    {
+      "index": "2020-02-06 16:00:00-05:00",
+      "EPS Estimate": 0.4,
+      "Reported EPS": 0.3,
+      "Surprise(%)": -25.0
+    },
+    {
+      "index": "2019-11-07 16:00:00-05:00",
+      "EPS Estimate": null,
+      "Reported EPS": 0.1,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2019-09-05 16:00:00-04:00",
+      "EPS Estimate": null,
+      "Reported EPS": 0.1,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2016-03-08 16:00:00-05:00",
+      "EPS Estimate": null,
+      "Reported EPS": -0.9,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2015-11-12 16:00:00-05:00",
+      "EPS Estimate": -0.5,
+      "Reported EPS": -1.0,
+      "Surprise(%)": -100.0
+    },
+    {
+      "index": "2015-08-06 16:00:00-04:00",
+      "EPS Estimate": -0.4,
+      "Reported EPS": -2.0,
+      "Surprise(%)": -400.0
+    },
+    {
+      "index": "2015-04-30 16:00:00-04:00",
+      "EPS Estimate": -0.5,
+      "Reported EPS": -0.83,
+      "Surprise(%)": -67.0
+    },
+    {
+      "index": "2015-03-12 16:00:00-04:00",
+      "EPS Estimate": -0.2,
+      "Reported EPS": -1.36,
+      "Surprise(%)": -580.0
+    },
+    {
+      "index": "2014-11-13 16:00:00-05:00",
+      "EPS Estimate": -0.4,
+      "Reported EPS": -1.5,
+      "Surprise(%)": -275.0
+    },
+    {
+      "index": "2014-07-31 07:00:00-04:00",
+      "EPS Estimate": -0.1,
+      "Reported EPS": -3.1,
+      "Surprise(%)": -3000.0
+    },
+    {
+      "index": "2014-04-30 16:00:00-04:00",
+      "EPS Estimate": 0.2,
+      "Reported EPS": -0.5,
+      "Surprise(%)": -350.0
+    },
+    {
+      "index": "2008-07-24 16:00:00-04:00",
+      "EPS Estimate": -0.2,
+      "Reported EPS": -0.6,
+      "Surprise(%)": -200.0
+    },
+    {
+      "index": "2008-04-29 16:00:00-04:00",
+      "EPS Estimate": -0.1,
+      "Reported EPS": -0.4,
+      "Surprise(%)": -300.0
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

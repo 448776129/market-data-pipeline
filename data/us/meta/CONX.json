@@ -1,0 +1,50 @@
+{
+  "symbol": "CONX",
+  "region": "us",
+  "name": "Direxion Daily COIN Bull 2X ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US25461H8381",
+  "info": {
+    "longName": "Direxion Daily COIN Bull 2X ETF",
+    "shortName": "Direxion Daily COIN Bull 2X ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 5.15,
+    "previousClose": 5.33,
+    "dayHigh": 5.15,
+    "dayLow": 4.905,
+    "regularMarketPrice": 4.9308,
+    "regularMarketPreviousClose": 5.33,
+    "fiftyTwoWeekHigh": 28.336,
+    "fiftyTwoWeekLow": 4.34,
+    "trailingPE": 51.475098,
+    "volume": 110797,
+    "averageVolume": 99332
+  },
+  "dividends": [
+    {
+      "index": "2025-12-23 09:30:00-05:00",
+      "value": 0.074
+    },
+    {
+      "index": "2026-03-24 09:30:00-04:00",
+      "value": 0.069
+    },
+    {
+      "index": "2026-06-23 09:30:00-04:00",
+      "value": 0.032
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,28 @@
+{
+  "symbol": "CTEST",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "ASE",
+  "isin": "-",
+  "info": {
+    "exchange": "ASE",
+    "currency": "USD",
+    "open": 24.75,
+    "previousClose": 24.75,
+    "regularMarketPrice": 24.75,
+    "regularMarketPreviousClose": 24.75
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

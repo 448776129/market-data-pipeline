@@ -1,0 +1,82 @@
+{
+  "symbol": "CWBR",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "US19249J3077",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2022-11-08 17:00:00-05:00",
+      "EPS Estimate": -1.02,
+      "Reported EPS": -0.82,
+      "Surprise(%)": 19.61
+    },
+    {
+      "index": "2022-08-15 16:00:00-04:00",
+      "EPS Estimate": -1.2,
+      "Reported EPS": -0.9,
+      "Surprise(%)": 25.0
+    },
+    {
+      "index": "2022-05-16 16:00:00-04:00",
+      "EPS Estimate": -2.1,
+      "Reported EPS": -1.2,
+      "Surprise(%)": 42.86
+    },
+    {
+      "index": "2022-03-29 16:00:00-04:00",
+      "EPS Estimate": -1.65,
+      "Reported EPS": -0.83,
+      "Surprise(%)": 49.53
+    },
+    {
+      "index": "2021-11-15 18:00:00-05:00",
+      "EPS Estimate": -2.3,
+      "Reported EPS": -1.5,
+      "Surprise(%)": 34.78
+    },
+    {
+      "index": "2021-08-10 16:00:00-04:00",
+      "EPS Estimate": -2.1,
+      "Reported EPS": -2.4,
+      "Surprise(%)": -14.29
+    },
+    {
+      "index": "2021-05-17 16:00:00-04:00",
+      "EPS Estimate": -2.3,
+      "Reported EPS": -2.1,
+      "Surprise(%)": 8.7
+    },
+    {
+      "index": "2021-03-30 16:00:00-04:00",
+      "EPS Estimate": -1.42,
+      "Reported EPS": -2.4,
+      "Surprise(%)": -68.42
+    },
+    {
+      "index": "2020-11-16 16:00:00-05:00",
+      "EPS Estimate": -1.5,
+      "Reported EPS": -1.8,
+      "Surprise(%)": -20.0
+    },
+    {
+      "index": "2020-08-13 16:00:00-04:00",
+      "EPS Estimate": -1.8,
+      "Reported EPS": -2.7,
+      "Surprise(%)": -50.0
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

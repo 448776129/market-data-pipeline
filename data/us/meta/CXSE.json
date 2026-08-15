@@ -1,0 +1,196 @@
+{
+  "symbol": "CXSE",
+  "region": "us",
+  "name": "WisdomTree China ex-State-Owned Enterprises Fund",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US97717X7194",
+  "info": {
+    "longName": "WisdomTree China ex-State-Owned Enterprises Fund",
+    "shortName": "WisdomTree China ex-State-Owned",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 38.44,
+    "previousClose": 38.37,
+    "dayHigh": 38.56,
+    "dayLow": 38.38,
+    "regularMarketPrice": 38.4538,
+    "regularMarketPreviousClose": 38.37,
+    "fiftyTwoWeekHigh": 45.65,
+    "fiftyTwoWeekLow": 36.93,
+    "trailingPE": 17.374466,
+    "dividendYield": 1.52,
+    "volume": 19991,
+    "averageVolume": 26930
+  },
+  "dividends": [
+    {
+      "index": "2013-06-24 09:30:00-04:00",
+      "value": 0.339
+    },
+    {
+      "index": "2013-09-23 09:30:00-04:00",
+      "value": 0.3825
+    },
+    {
+      "index": "2014-06-23 09:30:00-04:00",
+      "value": 0.157
+    },
+    {
+      "index": "2014-09-22 09:30:00-04:00",
+      "value": 0.243
+    },
+    {
+      "index": "2014-12-19 09:30:00-05:00",
+      "value": 0.1945
+    },
+    {
+      "index": "2015-12-21 09:30:00-05:00",
+      "value": 0.0405
+    },
+    {
+      "index": "2016-06-20 09:30:00-04:00",
+      "value": 0.105
+    },
+    {
+      "index": "2016-09-26 09:30:00-04:00",
+      "value": 0.23
+    },
+    {
+      "index": "2017-06-26 09:30:00-04:00",
+      "value": 0.225
+    },
+    {
+      "index": "2017-09-26 09:30:00-04:00",
+      "value": 0.07
+    },
+    {
+      "index": "2017-12-26 09:30:00-05:00",
+      "value": 0.0095
+    },
+    {
+      "index": "2018-06-25 09:30:00-04:00",
+      "value": 0.264
+    },
+    {
+      "index": "2018-09-25 09:30:00-04:00",
+      "value": 0.1425
+    },
+    {
+      "index": "2018-12-24 09:30:00-05:00",
+      "value": 0.047
+    },
+    {
+      "index": "2019-06-24 09:30:00-04:00",
+      "value": 0.1775
+    },
+    {
+      "index": "2019-09-24 09:30:00-04:00",
+      "value": 0.21
+    },
+    {
+      "index": "2019-12-23 09:30:00-05:00",
+      "value": 0.012
+    },
+    {
+      "index": "2020-06-23 09:30:00-04:00",
+      "value": 0.205
+    },
+    {
+      "index": "2020-09-22 09:30:00-04:00",
+      "value": 0.1025
+    },
+    {
+      "index": "2020-12-21 09:30:00-05:00",
+      "value": 0.049
+    },
+    {
+      "index": "2021-06-24 09:30:00-04:00",
+      "value": 0.25
+    },
+    {
+      "index": "2021-09-24 09:30:00-04:00",
+      "value": 0.14
+    },
+    {
+      "index": "2021-12-27 09:30:00-05:00",
+      "value": 0.039
+    },
+    {
+      "index": "2022-03-25 09:30:00-04:00",
+      "value": 0.155
+    },
+    {
+      "index": "2022-06-24 09:30:00-04:00",
+      "value": 0.23
+    },
+    {
+      "index": "2022-09-26 09:30:00-04:00",
+      "value": 0.11
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 0.042
+    },
+    {
+      "index": "2023-06-26 09:30:00-04:00",
+      "value": 0.25
+    },
+    {
+      "index": "2023-09-25 09:30:00-04:00",
+      "value": 0.105
+    },
+    {
+      "index": "2023-12-22 09:30:00-05:00",
+      "value": 0.125
+    },
+    {
+      "index": "2024-06-25 09:30:00-04:00",
+      "value": 0.285
+    },
+    {
+      "index": "2024-09-25 09:30:00-04:00",
+      "value": 0.135
+    },
+    {
+      "index": "2024-12-26 09:30:00-05:00",
+      "value": 0.089
+    },
+    {
+      "index": "2025-06-25 09:30:00-04:00",
+      "value": 0.315
+    },
+    {
+      "index": "2025-09-25 09:30:00-04:00",
+      "value": 0.14
+    },
+    {
+      "index": "2025-12-26 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2026-03-26 09:30:00-04:00",
+      "value": 0.02
+    },
+    {
+      "index": "2026-06-25 09:30:00-04:00",
+      "value": 0.09
+    }
+  ],
+  "splits": [
+    {
+      "index": "2020-10-19 09:30:00-04:00",
+      "value": 2.0
+    }
+  ],
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,148 @@
+{
+  "symbol": "CMSD",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "shortName": "CMS Energy Corporation 5.875% J",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 21.53,
+    "previousClose": 21.59,
+    "dayHigh": 21.63,
+    "dayLow": 21.55,
+    "regularMarketPrice": 21.58,
+    "regularMarketPreviousClose": 21.59,
+    "fiftyTwoWeekHigh": 24.76,
+    "fiftyTwoWeekLow": 21.52,
+    "volume": 26715,
+    "averageVolume": 51619
+  },
+  "dividends": [
+    {
+      "index": "2019-05-16 09:30:00-04:00",
+      "value": 0.412
+    },
+    {
+      "index": "2019-08-15 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2019-11-14 09:30:00-05:00",
+      "value": 0.367
+    },
+    {
+      "index": "2020-02-13 09:30:00-05:00",
+      "value": 0.367
+    },
+    {
+      "index": "2020-08-14 09:30:00-04:00",
+      "value": 0.371
+    },
+    {
+      "index": "2020-11-13 09:30:00-05:00",
+      "value": 0.367
+    },
+    {
+      "index": "2021-02-11 09:30:00-05:00",
+      "value": 0.367
+    },
+    {
+      "index": "2021-05-14 09:30:00-04:00",
+      "value": 0.371
+    },
+    {
+      "index": "2021-08-16 09:30:00-04:00",
+      "value": 0.371
+    },
+    {
+      "index": "2021-11-15 09:30:00-05:00",
+      "value": 0.367
+    },
+    {
+      "index": "2022-02-11 09:30:00-05:00",
+      "value": 0.359
+    },
+    {
+      "index": "2022-05-16 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2022-08-16 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2022-11-15 09:30:00-05:00",
+      "value": 0.367
+    },
+    {
+      "index": "2023-02-13 09:30:00-05:00",
+      "value": 0.367
+    },
+    {
+      "index": "2023-05-16 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2023-08-16 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2023-11-15 09:30:00-05:00",
+      "value": 0.367
+    },
+    {
+      "index": "2024-02-14 09:30:00-05:00",
+      "value": 0.367
+    },
+    {
+      "index": "2024-05-16 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2024-08-16 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2024-11-15 09:30:00-05:00",
+      "value": 0.367
+    },
+    {
+      "index": "2025-02-14 09:30:00-05:00",
+      "value": 0.367
+    },
+    {
+      "index": "2025-05-16 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2025-08-15 09:30:00-04:00",
+      "value": 0.367
+    },
+    {
+      "index": "2025-11-14 09:30:00-05:00",
+      "value": 0.367
+    },
+    {
+      "index": "2026-02-13 09:30:00-05:00",
+      "value": 0.367
+    },
+    {
+      "index": "2026-05-15 09:30:00-04:00",
+      "value": 0.367
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,142 @@
+{
+  "symbol": "DADA",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "SE0000201253",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2025-06-17 16:00:00-04:00",
+      "EPS Estimate": -1.06,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2025-03-05 17:00:00-05:00",
+      "EPS Estimate": -1.2,
+      "Reported EPS": -0.12,
+      "Surprise(%)": 90.03
+    },
+    {
+      "index": "2024-11-13 17:00:00-05:00",
+      "EPS Estimate": -0.76,
+      "Reported EPS": -0.24,
+      "Surprise(%)": 68.27
+    },
+    {
+      "index": "2024-08-20 18:00:00-04:00",
+      "EPS Estimate": -0.52,
+      "Reported EPS": -0.56,
+      "Surprise(%)": -8.35
+    },
+    {
+      "index": "2024-05-15 18:00:00-04:00",
+      "EPS Estimate": -0.29,
+      "Reported EPS": -0.72,
+      "Surprise(%)": -147.96
+    },
+    {
+      "index": "2024-03-25 18:00:00-04:00",
+      "EPS Estimate": 0.6,
+      "Reported EPS": -0.6,
+      "Surprise(%)": -199.9
+    },
+    {
+      "index": "2023-11-14 17:00:00-05:00",
+      "EPS Estimate": -0.04,
+      "Reported EPS": -0.01,
+      "Surprise(%)": 73.13
+    },
+    {
+      "index": "2023-08-15 18:00:00-04:00",
+      "EPS Estimate": 0.05,
+      "Reported EPS": 0.04,
+      "Surprise(%)": -25.75
+    },
+    {
+      "index": "2023-05-10 18:00:00-04:00",
+      "EPS Estimate": -0.55,
+      "Reported EPS": -0.72,
+      "Surprise(%)": -31.72
+    },
+    {
+      "index": "2023-03-08 17:00:00-05:00",
+      "EPS Estimate": -0.72,
+      "Reported EPS": -0.72,
+      "Surprise(%)": -0.2
+    },
+    {
+      "index": "2022-11-17 17:00:00-05:00",
+      "EPS Estimate": -1.15,
+      "Reported EPS": -1.04,
+      "Surprise(%)": 9.67
+    },
+    {
+      "index": "2022-08-22 18:00:00-04:00",
+      "EPS Estimate": -1.48,
+      "Reported EPS": -1.64,
+      "Surprise(%)": -10.56
+    },
+    {
+      "index": "2022-05-16 18:00:00-04:00",
+      "EPS Estimate": -1.73,
+      "Reported EPS": -1.96,
+      "Surprise(%)": -13.27
+    },
+    {
+      "index": "2022-03-08 17:00:00-05:00",
+      "EPS Estimate": -1.91,
+      "Reported EPS": -2.04,
+      "Surprise(%)": -6.6
+    },
+    {
+      "index": "2021-11-23 17:00:00-05:00",
+      "EPS Estimate": -2.14,
+      "Reported EPS": -1.92,
+      "Surprise(%)": 10.08
+    },
+    {
+      "index": "2021-09-07 18:00:00-04:00",
+      "EPS Estimate": -2.44,
+      "Reported EPS": -2.32,
+      "Surprise(%)": 4.96
+    },
+    {
+      "index": "2021-06-07 18:00:00-04:00",
+      "EPS Estimate": -2.19,
+      "Reported EPS": -2.6,
+      "Surprise(%)": -18.61
+    },
+    {
+      "index": "2021-03-08 17:00:00-05:00",
+      "EPS Estimate": -1.83,
+      "Reported EPS": -1.84,
+      "Surprise(%)": -0.45
+    },
+    {
+      "index": "2020-11-19 17:00:00-05:00",
+      "EPS Estimate": -1.49,
+      "Reported EPS": -1.44,
+      "Surprise(%)": 3.57
+    },
+    {
+      "index": "2020-08-24 18:00:00-04:00",
+      "EPS Estimate": -1.96,
+      "Reported EPS": -0.8,
+      "Surprise(%)": 59.18
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

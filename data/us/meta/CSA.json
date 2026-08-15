@@ -1,0 +1,43 @@
+{
+  "symbol": "CSA",
+  "region": "us",
+  "name": "VictoryShares US Small Cap Volatility Wtd ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US92647N8323",
+  "info": {
+    "longName": "VictoryShares US Small Cap Volatility Wtd ETF",
+    "shortName": "VictoryShares US Small Cap Vola",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 67.66,
+    "previousClose": 65.42,
+    "dayHigh": 67.66,
+    "dayLow": 66.13,
+    "regularMarketPrice": 66.1625,
+    "regularMarketPreviousClose": 65.42,
+    "fiftyTwoWeekHigh": 81.49,
+    "fiftyTwoWeekLow": 61.19,
+    "trailingPE": 15.782203,
+    "dividendYield": 1.49,
+    "volume": 2064,
+    "averageVolume": 3611
+  },
+  "dividends": [
+    {
+      "index": "2025-04-10 09:30:00-04:00",
+      "value": 0.045995
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
