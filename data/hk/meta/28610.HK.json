@@ -1,0 +1,24 @@
+{
+  "symbol": "28610.HK",
+  "region": "hk",
+  "name": "MS-CATL@EC2612C",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "MS-CATL@EC2612C",
+    "shortName": "GS-HKEX@EC1903E"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
