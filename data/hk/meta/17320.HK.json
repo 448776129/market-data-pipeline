@@ -1,0 +1,24 @@
+{
+  "symbol": "17320.HK",
+  "region": "hk",
+  "name": "MB-CCB @EC2602A",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "MB-CCB @EC2602A",
+    "shortName": "GS-HTSE@EC1812A"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

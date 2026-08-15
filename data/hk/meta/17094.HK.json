@@ -1,0 +1,24 @@
+{
+  "symbol": "17094.HK",
+  "region": "hk",
+  "name": "HUTRAHK@EC2603A",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "HUTRAHK@EC2603A",
+    "shortName": "MBCNOOC@EC1806A"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
