@@ -25,9 +25,9 @@ on:
         default: "1"
         type: string
       universe:
-        description: "分钟K线指数（sp500/ndx100）"
+        description: "分钟K线指数（sp500/ndx100），留空则按区域拉全市场"
         required: false
-        default: "sp500"
+        default: ""
         type: string
 
 env:
@@ -62,7 +62,11 @@ jobs:
           elif [ "${{ inputs.mode }}" = "universe" ]; then
             python scripts/fetch_universe.py
           elif [ "${{ inputs.mode }}" = "minute" ]; then
-            python scripts/fetch_intraday.py --universe ${{ inputs.universe }}
+            UNIVERSE_ARGS=""
+            if [ "${{ inputs.universe }}" != "" ]; then
+              UNIVERSE_ARGS="--universe ${{ inputs.universe }}"
+            fi
+            python scripts/fetch_intraday.py --region ${{ inputs.region }} $UNIVERSE_ARGS $BATCH_ARGS
           else
             python scripts/fetch_latest.py --region ${{ inputs.region }} $BATCH_ARGS
           fi

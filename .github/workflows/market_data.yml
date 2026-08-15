@@ -247,15 +247,64 @@ jobs:
       batches: "10"
 
   # ============================================================
-  # 分钟级K线（标普500成分股：1m/15m/1h，只针对美股）
-  # 手动可用 region=ndx100 指定纳指100，或通过 universe 输入
+  # 分钟级K线（1m/15m/1h）：四市场全市场，分批并行
+  # 定时：美股交易时段内（北京时间 22/00/02/04 点，工作日）
   # ============================================================
   minute-us:
-    name: Minute · US (SP500)
+    name: Minute · US (batch ${{ matrix.batch }})
     needs: [universe]
-    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 14 * * 1-5' || github.event.schedule == '0 16 * * 1-5' || github.event.schedule == '0 18 * * 1-5' || github.event.schedule == '0 20 * * 1-5')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'minute') }}
+    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 14 * * 1-5' || github.event.schedule == '0 16 * * 1-5' || github.event.schedule == '0 18 * * 1-5' || github.event.schedule == '0 20 * * 1-5')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'minute' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'us')) }}
+    strategy:
+      fail-fast: false
+      matrix:
+        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
     uses: ./.github/workflows/step-data.yml
     with:
       region: us
       mode: minute
-      universe: sp500
+      batch: ${{ matrix.batch }}
+      batches: "30"
+
+  minute-hk:
+    name: Minute · HK (batch ${{ matrix.batch }})
+    needs: [universe]
+    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 14 * * 1-5' || github.event.schedule == '0 16 * * 1-5' || github.event.schedule == '0 18 * * 1-5' || github.event.schedule == '0 20 * * 1-5')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'minute' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'hk')) }}
+    strategy:
+      fail-fast: false
+      matrix:
+        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+    uses: ./.github/workflows/step-data.yml
+    with:
+      region: hk
+      mode: minute
+      batch: ${{ matrix.batch }}
+      batches: "30"
+
+  minute-cn:
+    name: Minute · CN (batch ${{ matrix.batch }})
+    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 14 * * 1-5' || github.event.schedule == '0 16 * * 1-5' || github.event.schedule == '0 18 * * 1-5' || github.event.schedule == '0 20 * * 1-5')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'minute' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'cn')) }}
+    strategy:
+      fail-fast: false
+      matrix:
+        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+    uses: ./.github/workflows/step-data.yml
+    with:
+      region: cn
+      mode: minute
+      batch: ${{ matrix.batch }}
+      batches: "15"
+
+  minute-kr:
+    name: Minute · KR (batch ${{ matrix.batch }})
+    needs: [universe]
+    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 14 * * 1-5' || github.event.schedule == '0 16 * * 1-5' || github.event.schedule == '0 18 * * 1-5' || github.event.schedule == '0 20 * * 1-5')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'minute' && (github.event.inputs.region == 'all' || github.event.inputs.region == 'kr')) }}
+    strategy:
+      fail-fast: false
+      matrix:
+        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    uses: ./.github/workflows/step-data.yml
+    with:
+      region: kr
+      mode: minute
+      batch: ${{ matrix.batch }}
+      batches: "10"

@@ -17,35 +17,41 @@ sys.path.insert(0, str(ROOT))
 import config  # noqa: E402
 
 
-def read_kline(path: Path) -> pd.DataFrame | None:
-    """读取已有 K 线 CSV（索引为日期），文件不存在时返回 None。"""
+def read_kline(path: Path, index_col: str = "Date") -> pd.DataFrame | None:
+    """读取已有 K 线 CSV（索引为日期/时间轴），文件不存在时返回 None。"""
     if not path.exists():
         return None
-    df = pd.read_csv(path, index_col="Date", parse_dates=True)
+    df = pd.read_csv(path, index_col=index_col, parse_dates=True)
+    df.index = df.index.tz_localize(None) if df.index.tz is not None else df.index
     df.index = df.index.normalize()
     return df
 
 
-def merge_kline(path: Path, fresh: pd.DataFrame, cols: list[str]) -> pd.DataFrame:
-    """将 fresh 数据与 path 处的已有 CSV 合并、按日期去重后写回。
+def merge_kline(
+    path: Path,
+    fresh: pd.DataFrame,
+    cols: list[str],
+    index_col: str = "Date",
+) -> pd.DataFrame:
+    """将 fresh 数据与 path 处的已有 CSV 合并、按时间去重后写回。
 
-    返回合并后的 DataFrame。若已有文件存在，仅追加/覆盖缺失与更新的日期；
-    否则直接写入 fresh。
+    返回合并后的 DataFrame。若已有文件存在，仅追加/覆盖缺失与更新的时间点；
+    否则直接写入 fresh。index_col 常用 "Date"（日线）或 "Datetime"（分钟线）。
     """
     fresh = fresh[cols].copy()
     fresh.index = fresh.index.tz_localize(None) if fresh.index.tz is not None else fresh.index
     fresh.index = fresh.index.normalize()
 
-    existing = read_kline(path)
+    existing = read_kline(path, index_col=index_col)
     if existing is None or existing.empty:
         merged = fresh
     else:
         merged = pd.concat([existing, fresh])
-        # 按日期去重，保留最新一行
+        # 按时间去重，保留最新一行
         merged = merged[~merged.index.duplicated(keep="last")].sort_index()
 
     path.parent.mkdir(parents=True, exist_ok=True)
-    merged.index.name = "Date"
+    merged.index.name = index_col
     merged.to_csv(path, encoding="utf-8")
     return merged
 
