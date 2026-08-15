@@ -1,0 +1,79 @@
+{
+  "symbol": "GRIN",
+  "region": "us",
+  "name": "VictoryShares International Free Cash Flow Growth ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US92647X7497",
+  "info": {
+    "longName": "VictoryShares International Free Cash Flow Growth ETF",
+    "shortName": "VictoryShares International Fre",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 34.125,
+    "previousClose": 34.1,
+    "dayHigh": 34.125,
+    "dayLow": 34.054,
+    "regularMarketPrice": 34.0741,
+    "regularMarketPreviousClose": 34.1,
+    "fiftyTwoWeekHigh": 34.54,
+    "fiftyTwoWeekLow": 25.64,
+    "trailingPE": 28.252916,
+    "dividendYield": 0.55,
+    "volume": 5747,
+    "averageVolume": 30854
+  },
+  "dividends": [
+    {
+      "index": "2025-07-10 09:30:00-04:00",
+      "value": 0.006
+    },
+    {
+      "index": "2025-09-08 09:30:00-04:00",
+      "value": 0.014
+    },
+    {
+      "index": "2025-10-09 09:30:00-04:00",
+      "value": 0.013
+    },
+    {
+      "index": "2025-12-11 09:30:00-05:00",
+      "value": 0.011
+    },
+    {
+      "index": "2026-02-09 09:30:00-05:00",
+      "value": 0.007
+    },
+    {
+      "index": "2026-03-10 09:30:00-04:00",
+      "value": 0.018
+    },
+    {
+      "index": "2026-04-09 09:30:00-04:00",
+      "value": 0.044
+    },
+    {
+      "index": "2026-05-08 09:30:00-04:00",
+      "value": 0.027
+    },
+    {
+      "index": "2026-06-09 09:30:00-04:00",
+      "value": 0.034
+    },
+    {
+      "index": "2026-07-09 09:30:00-04:00",
+      "value": 0.005
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

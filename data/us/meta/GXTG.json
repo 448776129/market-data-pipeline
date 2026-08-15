@@ -1,0 +1,95 @@
+{
+  "symbol": "GXTG",
+  "region": "us",
+  "name": "Global X Dorsey Wright Thematic ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "longName": "Global X Dorsey Wright Thematic ETF",
+    "shortName": "Global X Thematic Growth ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 22.56,
+    "previousClose": 23.15,
+    "dayHigh": 22.79,
+    "dayLow": 22.56,
+    "regularMarketPrice": 22.74,
+    "regularMarketPreviousClose": 23.15,
+    "fiftyTwoWeekHigh": 26.12,
+    "fiftyTwoWeekLow": 19.37,
+    "trailingPE": 21.486893,
+    "dividendYield": 1.12,
+    "volume": 7736,
+    "averageVolume": 4107
+  },
+  "dividends": [
+    {
+      "index": "2019-12-30 09:30:00-05:00",
+      "value": 0.084536
+    },
+    {
+      "index": "2020-06-29 09:30:00-04:00",
+      "value": 0.024
+    },
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.187396
+    },
+    {
+      "index": "2021-06-29 09:30:00-04:00",
+      "value": 0.105718
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.589777
+    },
+    {
+      "index": "2022-06-29 09:30:00-04:00",
+      "value": 0.03518
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.301599
+    },
+    {
+      "index": "2023-06-29 09:30:00-04:00",
+      "value": 0.10735
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.382371
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.127762
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.125437
+    },
+    {
+      "index": "2025-06-27 09:30:00-04:00",
+      "value": 0.061342
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.275165
+    },
+    {
+      "index": "2026-06-29 09:30:00-04:00",
+      "value": 0.083052
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,63 @@
+{
+  "symbol": "GNOM",
+  "region": "us",
+  "name": "Global X Genomics & Biotechnology ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US37960A2143",
+  "info": {
+    "longName": "Global X Genomics & Biotechnology ETF",
+    "shortName": "Global X Genomics & Biotechnolo",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 58.76,
+    "previousClose": 59.17,
+    "dayHigh": 58.76,
+    "dayLow": 57.86,
+    "regularMarketPrice": 58.31,
+    "regularMarketPreviousClose": 59.17,
+    "fiftyTwoWeekHigh": 59.99,
+    "fiftyTwoWeekLow": 36.0,
+    "dividendYield": 1.19,
+    "volume": 11713,
+    "averageVolume": 26914
+  },
+  "dividends": [
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.128
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.028
+    },
+    {
+      "index": "2025-06-27 09:30:00-04:00",
+      "value": 0.032
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.591
+    },
+    {
+      "index": "2026-06-29 09:30:00-04:00",
+      "value": 0.058
+    }
+  ],
+  "splits": [
+    {
+      "index": "2025-09-02 09:30:00-04:00",
+      "value": 0.25
+    }
+  ],
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

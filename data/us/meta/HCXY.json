@@ -1,0 +1,164 @@
+{
+  "symbol": "HCXY",
+  "region": "us",
+  "name": "Hercules Capital, Inc.",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "Hercules Capital, Inc.",
+    "shortName": "Hercules Capital, Inc. 6.25% No",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 25.04,
+    "previousClose": 25.09,
+    "dayHigh": 25.0569,
+    "dayLow": 25.0316,
+    "regularMarketPrice": 25.0569,
+    "regularMarketPreviousClose": 25.09,
+    "fiftyTwoWeekHigh": 25.71,
+    "fiftyTwoWeekLow": 24.36,
+    "trailingPE": 19.454115,
+    "priceToBook": 2.4386277,
+    "volume": 734,
+    "averageVolume": 2829,
+    "sharesOutstanding": 93792600
+  },
+  "dividends": [
+    {
+      "index": "2018-10-12 09:30:00-04:00",
+      "value": 0.156
+    },
+    {
+      "index": "2019-01-14 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2019-04-12 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2019-07-12 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2019-10-11 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2020-01-14 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2020-04-14 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2020-07-14 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2020-10-14 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2021-01-14 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2021-04-14 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2021-07-14 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2021-10-14 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2022-04-13 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2022-07-14 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2022-10-13 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2023-01-12 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2023-04-13 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2023-07-13 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2023-10-12 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2024-01-11 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2024-04-12 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2024-07-15 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2024-10-15 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2025-01-15 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2025-04-15 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2025-07-15 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2025-10-15 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2026-01-15 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2026-04-15 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2026-07-15 09:30:00-04:00",
+      "value": 0.391
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

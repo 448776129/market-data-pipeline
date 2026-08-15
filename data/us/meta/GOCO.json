@@ -1,0 +1,209 @@
+{
+  "symbol": "GOCO",
+  "region": "us",
+  "name": "GoHealth Inc",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "-",
+  "info": {
+    "longName": "GoHealth Inc",
+    "shortName": "GoHealth, Inc.",
+    "sector": "Financial Services",
+    "industry": "Insurance Brokers",
+    "country": "United States",
+    "exchange": "NGM",
+    "currency": "USD",
+    "marketCap": 8937260,
+    "currentPrice": 0.305,
+    "open": 0.29,
+    "previousClose": 0.0,
+    "dayHigh": 0.325,
+    "dayLow": 0.29,
+    "regularMarketPreviousClose": 0.0,
+    "fiftyTwoWeekHigh": 6.61,
+    "fiftyTwoWeekLow": 0.27,
+    "forwardPE": -0.07800511,
+    "priceToBook": 2.3282444,
+    "trailingEps": -22.01,
+    "forwardEps": -3.91,
+    "beta": 1.171,
+    "volume": 2526169,
+    "averageVolume": 365326,
+    "sharesOutstanding": 16686419,
+    "floatShares": 10154020,
+    "targetMeanPrice": 5.16667,
+    "targetHighPrice": 10.0,
+    "targetLowPrice": 1.5,
+    "recommendationKey": "buy",
+    "totalRevenue": 152787008,
+    "grossProfits": 87615000,
+    "freeCashflow": -174204624,
+    "totalDebt": 688120000,
+    "totalCash": 39879000,
+    "profitMargins": -1.8973399,
+    "returnOnEquity": -2.89943,
+    "returnOnAssets": -0.10593,
+    "revenueGrowth": -0.946
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 0.305,
+    "high": 10.0,
+    "low": 1.5,
+    "mean": 5.16667,
+    "median": 4.0
+  },
+  "recommendations_summary": [
+    {
+      "index": "0",
+      "period": "0m",
+      "strongBuy": 0,
+      "buy": 1,
+      "hold": 1,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "index": "1",
+      "period": "-1m",
+      "strongBuy": 0,
+      "buy": 2,
+      "hold": 3,
+      "sell": 0,
+      "strongSell": 0
+    },
+    {
+      "index": "2",
+      "period": "-2m",
+      "strongBuy": 0,
+      "buy": 2,
+      "hold": 3,
+      "sell": 0,
+      "strongSell": 0
+    }
+  ],
+  "earnings_dates": [
+    {
+      "index": "2026-08-13 16:00:00-04:00",
+      "EPS Estimate": -1.57,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    }
+  ],
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.13385999
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.64666003
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.74660003
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 94.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Centerbridge Partners, L.P.",
+      "pctHeld": 0.2505,
+      "Shares": 4179850,
+      "Value": 1274854,
+      "pctChange": 0.0
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Public Sector Pension Investment Board",
+      "pctHeld": 0.1007,
+      "Shares": 1680444,
+      "Value": 512535,
+      "pctChange": 0.0
+    },
+    {
+      "index": "2",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Redwood Capital Management, LLC",
+      "pctHeld": 0.0554,
+      "Shares": 924244,
+      "Value": 281894,
+      "pctChange": 0.0
+    },
+    {
+      "index": "3",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Cdc Financial, Inc.",
+      "pctHeld": 0.045100003,
+      "Shares": 753033,
+      "Value": 229675,
+      "pctChange": 0.0683
+    },
+    {
+      "index": "4",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Blackrock Inc.",
+      "pctHeld": 0.0229,
+      "Shares": 382050,
+      "Value": 116525,
+      "pctChange": -0.0033000002
+    },
+    {
+      "index": "5",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Geode Capital Management, LLC",
+      "pctHeld": 0.014199999,
+      "Shares": 236873,
+      "Value": 72246,
+      "pctChange": 0.57060003
+    },
+    {
+      "index": "6",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Vanguard Capital Management LLC",
+      "pctHeld": 0.0112,
+      "Shares": 186762,
+      "Value": 56962,
+      "pctChange": 1.0
+    },
+    {
+      "index": "7",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Corient Private Wealth LLC",
+      "pctHeld": 0.0072000003,
+      "Shares": 119541,
+      "Value": 36460,
+      "pctChange": -0.0419
+    },
+    {
+      "index": "8",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "State Street Corporation",
+      "pctHeld": 0.0047,
+      "Shares": 78869,
+      "Value": 24055,
+      "pctChange": -0.00029999999
+    },
+    {
+      "index": "9",
+      "Date Reported": "2026-03-31 00:00:00",
+      "Holder": "Barclays Plc",
+      "pctHeld": 0.0041,
+      "Shares": 68923,
+      "Value": 21021,
+      "pctChange": -0.15100001
+    }
+  ]
+}

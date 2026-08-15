@@ -1,0 +1,151 @@
+{
+  "symbol": "HLAL",
+  "region": "us",
+  "name": "Wahed FTSE USA Shariah ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US53656F6079",
+  "info": {
+    "longName": "Wahed FTSE USA Shariah ETF",
+    "shortName": "Wahed FTSE USA Shariah ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 73.63,
+    "previousClose": 73.54,
+    "dayHigh": 73.72,
+    "dayLow": 73.265,
+    "regularMarketPrice": 73.3864,
+    "regularMarketPreviousClose": 73.54,
+    "fiftyTwoWeekHigh": 73.83,
+    "fiftyTwoWeekLow": 55.443,
+    "trailingPE": 29.674305,
+    "dividendYield": 0.46,
+    "volume": 38288,
+    "averageVolume": 58570
+  },
+  "dividends": [
+    {
+      "index": "2019-09-17 09:30:00-04:00",
+      "value": 0.08
+    },
+    {
+      "index": "2019-12-30 09:30:00-05:00",
+      "value": 0.119
+    },
+    {
+      "index": "2020-03-27 09:30:00-04:00",
+      "value": 0.1
+    },
+    {
+      "index": "2020-06-26 09:30:00-04:00",
+      "value": 0.006
+    },
+    {
+      "index": "2020-09-28 09:30:00-04:00",
+      "value": 0.125
+    },
+    {
+      "index": "2020-12-29 09:30:00-05:00",
+      "value": 0.096
+    },
+    {
+      "index": "2021-03-29 09:30:00-04:00",
+      "value": 0.077
+    },
+    {
+      "index": "2021-06-28 09:30:00-04:00",
+      "value": 0.082
+    },
+    {
+      "index": "2021-09-28 09:30:00-04:00",
+      "value": 0.08
+    },
+    {
+      "index": "2021-12-28 09:30:00-05:00",
+      "value": 0.099
+    },
+    {
+      "index": "2022-03-29 09:30:00-04:00",
+      "value": 0.1
+    },
+    {
+      "index": "2022-06-28 09:30:00-04:00",
+      "value": 0.022
+    },
+    {
+      "index": "2022-09-28 09:30:00-04:00",
+      "value": 0.175
+    },
+    {
+      "index": "2022-12-28 09:30:00-05:00",
+      "value": 0.108
+    },
+    {
+      "index": "2023-03-29 09:30:00-04:00",
+      "value": 0.095
+    },
+    {
+      "index": "2023-06-28 09:30:00-04:00",
+      "value": 0.07
+    },
+    {
+      "index": "2023-09-27 09:30:00-04:00",
+      "value": 0.022
+    },
+    {
+      "index": "2023-12-27 09:30:00-05:00",
+      "value": 0.142
+    },
+    {
+      "index": "2024-03-27 09:30:00-04:00",
+      "value": 0.031
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.021
+    },
+    {
+      "index": "2024-09-26 09:30:00-04:00",
+      "value": 0.17
+    },
+    {
+      "index": "2024-12-24 09:30:00-05:00",
+      "value": 0.083
+    },
+    {
+      "index": "2025-03-26 09:30:00-04:00",
+      "value": 0.08
+    },
+    {
+      "index": "2025-06-25 09:30:00-04:00",
+      "value": 0.023
+    },
+    {
+      "index": "2025-09-24 09:30:00-04:00",
+      "value": 0.15
+    },
+    {
+      "index": "2025-12-24 09:30:00-05:00",
+      "value": 0.077
+    },
+    {
+      "index": "2026-03-26 09:30:00-04:00",
+      "value": 0.077
+    },
+    {
+      "index": "2026-06-25 09:30:00-04:00",
+      "value": 0.019
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

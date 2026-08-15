@@ -1,0 +1,164 @@
+{
+  "symbol": "GPJA",
+  "region": "us",
+  "name": "Georgia Power Company 5% JR SUB NT 77",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "Georgia Power Company 5% JR SUB NT 77",
+    "shortName": "Georgia Power Company Series 20",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 20.67,
+    "previousClose": 20.6,
+    "dayHigh": 20.6606,
+    "dayLow": 20.55,
+    "regularMarketPrice": 20.57,
+    "regularMarketPreviousClose": 20.6,
+    "fiftyTwoWeekHigh": 24.0,
+    "fiftyTwoWeekLow": 20.51,
+    "trailingPE": 0.12649977,
+    "priceToBook": 0.014195909,
+    "volume": 10275,
+    "averageVolume": 18795,
+    "sharesOutstanding": 9261500
+  },
+  "dividends": [
+    {
+      "index": "2018-12-28 09:30:00-05:00",
+      "value": 0.313
+    },
+    {
+      "index": "2019-03-28 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2019-06-27 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2019-09-27 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2019-12-30 09:30:00-05:00",
+      "value": 0.313
+    },
+    {
+      "index": "2020-03-30 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2020-06-29 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2020-09-29 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.316
+    },
+    {
+      "index": "2021-03-30 09:30:00-04:00",
+      "value": 0.316
+    },
+    {
+      "index": "2021-06-29 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2021-09-29 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.316
+    },
+    {
+      "index": "2022-03-30 09:30:00-04:00",
+      "value": 0.316
+    },
+    {
+      "index": "2022-06-29 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2022-09-29 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.313
+    },
+    {
+      "index": "2023-03-30 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2023-06-29 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2023-09-28 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.313
+    },
+    {
+      "index": "2024-03-27 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2024-06-28 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2024-09-30 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2024-12-31 09:30:00-05:00",
+      "value": 0.313
+    },
+    {
+      "index": "2025-03-31 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2025-06-30 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2025-09-30 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2025-12-31 09:30:00-05:00",
+      "value": 0.313
+    },
+    {
+      "index": "2026-03-31 09:30:00-04:00",
+      "value": 0.313
+    },
+    {
+      "index": "2026-06-30 09:30:00-04:00",
+      "value": 0.313
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

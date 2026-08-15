@@ -1,0 +1,96 @@
+{
+  "symbol": "HTFA",
+  "region": "us",
+  "name": "Horizon Technology Finance Corporation 6.25% NT 22",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "Horizon Technology Finance Corporation 6.25% NT 22",
+    "shortName": "Horizon Technology Finance Corp",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 25.15,
+    "previousClose": 25.17,
+    "dayHigh": 25.15,
+    "dayLow": 25.15,
+    "regularMarketPrice": 25.15,
+    "regularMarketPreviousClose": 25.17,
+    "fiftyTwoWeekHigh": 26.66,
+    "fiftyTwoWeekLow": 22.54,
+    "trailingPE": 26.984978,
+    "priceToBook": 2.167356,
+    "volume": 411,
+    "averageVolume": 2210,
+    "sharesOutstanding": 11519200
+  },
+  "dividends": [
+    {
+      "index": "2017-11-30 09:30:00-05:00",
+      "value": 0.33
+    },
+    {
+      "index": "2018-02-28 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2018-05-31 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2018-08-30 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2018-11-29 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2019-02-28 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2019-05-30 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2019-08-29 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2019-11-27 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2020-02-27 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2020-05-29 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2020-08-31 09:30:00-04:00",
+      "value": 0.391
+    },
+    {
+      "index": "2020-11-30 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2021-02-26 09:30:00-05:00",
+      "value": 0.391
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,115 @@
+{
+  "symbol": "HEWG",
+  "region": "us",
+  "name": "iShares Currency Hedged MSCI Germany ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US46434V7047",
+  "info": {
+    "longName": "iShares Currency Hedged MSCI Germany ETF",
+    "shortName": "iShares Currency Hedged MSCI Ge",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 33.12,
+    "previousClose": 33.13,
+    "dayHigh": 33.2637,
+    "dayLow": 33.01,
+    "regularMarketPrice": 33.01,
+    "regularMarketPreviousClose": 33.13,
+    "fiftyTwoWeekHigh": 36.32,
+    "fiftyTwoWeekLow": 27.91,
+    "trailingPE": 14.163434,
+    "dividendYield": 2.79,
+    "volume": 559,
+    "averageVolume": 2436
+  },
+  "dividends": [
+    {
+      "index": "2014-07-02 09:30:00-04:00",
+      "value": 0.495627
+    },
+    {
+      "index": "2014-12-26 09:30:00-05:00",
+      "value": 0.828083
+    },
+    {
+      "index": "2015-07-02 09:30:00-04:00",
+      "value": 0.001934
+    },
+    {
+      "index": "2016-07-06 09:30:00-04:00",
+      "value": 0.538227
+    },
+    {
+      "index": "2016-12-28 09:30:00-05:00",
+      "value": 0.008533
+    },
+    {
+      "index": "2017-07-06 09:30:00-04:00",
+      "value": 0.558889
+    },
+    {
+      "index": "2017-12-28 09:30:00-05:00",
+      "value": 0.067329
+    },
+    {
+      "index": "2018-07-03 09:30:00-04:00",
+      "value": 0.664625
+    },
+    {
+      "index": "2019-07-02 09:30:00-04:00",
+      "value": 0.001231
+    },
+    {
+      "index": "2020-07-02 09:30:00-04:00",
+      "value": 0.352085
+    },
+    {
+      "index": "2020-12-24 09:30:00-05:00",
+      "value": 0.377733
+    },
+    {
+      "index": "2021-07-02 09:30:00-04:00",
+      "value": 0.539997
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 0.033909
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.247077
+    },
+    {
+      "index": "2022-07-05 09:30:00-04:00",
+      "value": 0.813733
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 0.063012
+    },
+    {
+      "index": "2023-07-03 09:30:00-04:00",
+      "value": 0.911345
+    },
+    {
+      "index": "2023-12-22 09:30:00-05:00",
+      "value": 0.066214
+    },
+    {
+      "index": "2024-07-02 09:30:00-04:00",
+      "value": 0.905078
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

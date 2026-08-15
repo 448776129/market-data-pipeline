@@ -1,0 +1,88 @@
+{
+  "symbol": "HCXZ",
+  "region": "us",
+  "name": "Hercules Capital, Inc.",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "Hercules Capital, Inc.",
+    "shortName": "Hercules Capital, Inc. 5.25% No",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 25.2,
+    "previousClose": 25.2,
+    "dayHigh": 25.2,
+    "dayLow": 25.2,
+    "regularMarketPrice": 25.2,
+    "regularMarketPreviousClose": 25.2,
+    "fiftyTwoWeekHigh": 26.8,
+    "fiftyTwoWeekLow": 24.15,
+    "trailingPE": 19.565218,
+    "priceToBook": 2.452555,
+    "volume": 1682,
+    "averageVolume": 3964,
+    "sharesOutstanding": 82819000
+  },
+  "dividends": [
+    {
+      "index": "2018-07-12 09:30:00-04:00",
+      "value": 0.343
+    },
+    {
+      "index": "2018-10-12 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2019-01-14 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2019-04-12 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2019-07-12 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2019-10-11 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2020-01-14 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2020-04-14 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2020-07-14 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2020-10-14 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2021-01-14 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2021-04-14 09:30:00-04:00",
+      "value": 0.328
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

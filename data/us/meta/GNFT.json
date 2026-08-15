@@ -1,0 +1,52 @@
+{
+  "symbol": "GNFT",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "JP3264860002",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2026-04-02 17:00:00-04:00",
+      "EPS Estimate": null,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2022-04-28 20:00:00-04:00",
+      "EPS Estimate": -0.68,
+      "Reported EPS": -0.16,
+      "Surprise(%)": 76.47
+    },
+    {
+      "index": "2021-09-28 20:00:00-04:00",
+      "EPS Estimate": -0.47,
+      "Reported EPS": -0.43,
+      "Surprise(%)": 8.51
+    },
+    {
+      "index": "2021-09-28 20:00:00-04:00",
+      "EPS Estimate": -0.44,
+      "Reported EPS": -0.43,
+      "Surprise(%)": 2.27
+    },
+    {
+      "index": "2021-04-22 20:00:00-04:00",
+      "EPS Estimate": -0.69,
+      "Reported EPS": -0.16,
+      "Surprise(%)": 76.81
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

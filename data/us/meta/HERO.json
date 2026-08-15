@@ -1,0 +1,95 @@
+{
+  "symbol": "HERO",
+  "region": "us",
+  "name": "Global X Video Games & Esports ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US37954Y3927",
+  "info": {
+    "longName": "Global X Video Games & Esports ETF",
+    "shortName": "Global X Video Games & Esports ",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 27.95,
+    "previousClose": 27.06,
+    "dayHigh": 28.05,
+    "dayLow": 27.71,
+    "regularMarketPrice": 27.96,
+    "regularMarketPreviousClose": 27.06,
+    "fiftyTwoWeekHigh": 34.68,
+    "fiftyTwoWeekLow": 23.46,
+    "trailingPE": 21.530615,
+    "dividendYield": 1.75,
+    "volume": 51542,
+    "averageVolume": 26731
+  },
+  "dividends": [
+    {
+      "index": "2019-12-30 09:30:00-05:00",
+      "value": 0.028
+    },
+    {
+      "index": "2020-06-29 09:30:00-04:00",
+      "value": 0.012
+    },
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.207
+    },
+    {
+      "index": "2021-06-29 09:30:00-04:00",
+      "value": 0.025
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.197
+    },
+    {
+      "index": "2022-06-29 09:30:00-04:00",
+      "value": 0.047
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.005
+    },
+    {
+      "index": "2023-06-29 09:30:00-04:00",
+      "value": 0.027
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.121
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.041
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.208
+    },
+    {
+      "index": "2025-06-27 09:30:00-04:00",
+      "value": 0.15
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.333
+    },
+    {
+      "index": "2026-06-29 09:30:00-04:00",
+      "value": 0.128
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
