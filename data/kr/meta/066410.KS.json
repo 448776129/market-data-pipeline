@@ -1,0 +1,29 @@
+{
+  "symbol": "066410.KS",
+  "region": "kr",
+  "name": null,
+  "currency": "KRW",
+  "exchange": "KOE",
+  "isin": "-",
+  "info": {
+    "shortName": "066410.KS,0P0000EJNT,0",
+    "exchange": "KOE",
+    "currency": "KRW",
+    "regularMarketPrice": 1153.0,
+    "regularMarketPreviousClose": 1153.0,
+    "fiftyTwoWeekHigh": 1153.0,
+    "fiftyTwoWeekLow": 1153.0
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
