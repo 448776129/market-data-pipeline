@@ -1,0 +1,24 @@
+{
+  "symbol": "15704.HK",
+  "region": "hk",
+  "name": "JP-PAHT@EC2702A",
+  "currency": null,
+  "exchange": null,
+  "isin": "-",
+  "info": {
+    "longName": "JP-PAHT@EC2702A",
+    "shortName": "SG-ICBC@EC1809C"
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
