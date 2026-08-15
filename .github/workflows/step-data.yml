@@ -47,6 +47,20 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
-          git diff --cached --quiet || git commit -m "chore(data): ${{ inputs.mode }} [${{ inputs.region }}]"
-          git push
+          # 有改动才提交；并行 job 可能 push 冲突，用 pull --rebase + 重试解决
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore(data): ${{ inputs.mode }} [${{ inputs.region }}]"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin master && git push origin master; then
+              echo "Pushed successfully"
+              exit 0
+            fi
+            echo "Push conflict, retrying ($i/5)..."
+            sleep 10
+          done
+          echo "Failed to push after retries"
+          exit 1
         continue-on-error: true
