@@ -1,0 +1,275 @@
+{
+  "symbol": "CHSCL",
+  "region": "us",
+  "name": "CHS Inc.",
+  "currency": "USD",
+  "exchange": "NMS",
+  "isin": "US12542R8034",
+  "info": {
+    "longName": "CHS Inc.",
+    "shortName": "CHS Inc",
+    "sector": "Consumer Defensive",
+    "industry": "Farm Products",
+    "country": "United States",
+    "exchange": "NMS",
+    "currency": "USD",
+    "currentPrice": 25.33,
+    "open": 25.35,
+    "previousClose": 25.38,
+    "dayHigh": 25.36,
+    "dayLow": 25.31,
+    "regularMarketPrice": 25.33,
+    "regularMarketPreviousClose": 25.38,
+    "fiftyTwoWeekHigh": 26.007,
+    "fiftyTwoWeekLow": 25.17,
+    "dividendYield": 7.39,
+    "dividendRate": 1.88,
+    "volume": 23123,
+    "averageVolume": 27046,
+    "recommendationKey": "none",
+    "totalRevenue": 37405868032,
+    "grossProfits": 1155801984,
+    "freeCashflow": -114641000,
+    "totalDebt": 3723337984,
+    "totalCash": 497614016,
+    "profitMargins": 0.01544,
+    "returnOnEquity": 0.05251,
+    "returnOnAssets": 0.00117,
+    "revenueGrowth": 0.186
+  },
+  "dividends": [
+    {
+      "index": "2015-03-13 09:30:00-04:00",
+      "value": 0.37
+    },
+    {
+      "index": "2015-06-12 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2015-09-14 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2015-12-14 09:30:00-05:00",
+      "value": 0.469
+    },
+    {
+      "index": "2016-03-15 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2016-06-14 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2016-09-14 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2016-12-13 09:30:00-05:00",
+      "value": 0.469
+    },
+    {
+      "index": "2017-03-15 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2017-06-14 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2017-09-15 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2017-12-14 09:30:00-05:00",
+      "value": 0.469
+    },
+    {
+      "index": "2018-03-15 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2018-06-15 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2018-09-13 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2018-12-14 09:30:00-05:00",
+      "value": 0.469
+    },
+    {
+      "index": "2019-03-14 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2019-06-13 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2019-09-13 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2019-12-16 09:30:00-05:00",
+      "value": 0.469
+    },
+    {
+      "index": "2020-03-16 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2020-06-15 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2020-09-15 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2020-12-16 09:30:00-05:00",
+      "value": 0.469
+    },
+    {
+      "index": "2021-03-16 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2021-06-15 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2021-09-16 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2021-12-16 09:30:00-05:00",
+      "value": 0.469
+    },
+    {
+      "index": "2022-03-16 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2022-06-16 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2022-09-16 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2022-12-15 09:30:00-05:00",
+      "value": 0.469
+    },
+    {
+      "index": "2023-03-16 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2023-06-14 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2023-09-15 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2023-12-13 09:30:00-05:00",
+      "value": 0.469
+    },
+    {
+      "index": "2024-03-14 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2024-06-13 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2024-09-16 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 0.469
+    },
+    {
+      "index": "2025-03-17 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2025-06-13 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2025-09-16 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2025-12-16 09:30:00-05:00",
+      "value": 0.469
+    },
+    {
+      "index": "2026-03-17 09:30:00-04:00",
+      "value": 0.469
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 0.469
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 25.33
+  },
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.0
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.124189995
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.124189995
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 11.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "IMA Advisory Services, Inc.",
+      "pctHeld": 0.00029999999,
+      "Shares": 6193,
+      "Value": 156868,
+      "pctChange": 0.0
+    },
+    {
+      "index": "1",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Vermillion Wealth Management, Inc.                          ",
+      "pctHeld": 0.0,
+      "Shares": 670,
+      "Value": 16971,
+      "pctChange": 1.0
+    }
+  ]
+}

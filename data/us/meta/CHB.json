@@ -1,0 +1,51 @@
+{
+  "symbol": "CHB",
+  "region": "us",
+  "name": "Global X China Biotech Innovation ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US37954Y2515",
+  "info": {
+    "longName": "Global X China Biotech Innovation ETF",
+    "shortName": "Global X China Biotech Innovati",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 6.7,
+    "previousClose": 6.665,
+    "dayHigh": 6.7,
+    "dayLow": 6.64,
+    "regularMarketPrice": 6.64,
+    "regularMarketPreviousClose": 6.665,
+    "fiftyTwoWeekHigh": 9.76,
+    "fiftyTwoWeekLow": 6.63,
+    "trailingPE": 13.481844,
+    "dividendYield": 0.58,
+    "volume": 154,
+    "averageVolume": 712
+  },
+  "dividends": [
+    {
+      "index": "2022-06-29 09:30:00-04:00",
+      "value": 0.019889
+    },
+    {
+      "index": "2023-06-29 09:30:00-04:00",
+      "value": 0.037027
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.001878
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

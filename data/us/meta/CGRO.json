@@ -1,0 +1,55 @@
+{
+  "symbol": "CGRO",
+  "region": "us",
+  "name": "CoreValues Alpha Greater China Growth ETF",
+  "currency": "USD",
+  "exchange": "PCX",
+  "isin": "US88634T3941",
+  "info": {
+    "longName": "CoreValues Alpha Greater China Growth ETF",
+    "shortName": "CoreValues Alpha Greater China ",
+    "exchange": "PCX",
+    "currency": "USD",
+    "open": 23.14,
+    "previousClose": 22.3917,
+    "dayHigh": 22.3748,
+    "dayLow": 22.3748,
+    "regularMarketPrice": 22.3748,
+    "regularMarketPreviousClose": 22.3917,
+    "fiftyTwoWeekHigh": 32.216,
+    "fiftyTwoWeekLow": 19.79,
+    "trailingPE": 17.32487,
+    "dividendYield": 1.13,
+    "volume": 9,
+    "averageVolume": 1437
+  },
+  "dividends": [
+    {
+      "index": "2023-12-27 09:30:00-05:00",
+      "value": 0.042
+    },
+    {
+      "index": "2024-12-23 09:30:00-05:00",
+      "value": 0.565
+    },
+    {
+      "index": "2025-12-29 09:30:00-05:00",
+      "value": 0.667
+    },
+    {
+      "index": "2026-03-25 09:30:00-04:00",
+      "value": 0.083
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

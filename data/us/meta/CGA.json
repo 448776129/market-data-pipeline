@@ -1,0 +1,94 @@
+{
+  "symbol": "CGA",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "FR00CHANEL31",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2012-02-08 15:00:00-05:00",
+      "EPS Estimate": 4.92,
+      "Reported EPS": 3.48,
+      "Surprise(%)": -29.27
+    },
+    {
+      "index": "2011-09-09 07:00:00-04:00",
+      "EPS Estimate": 3.84,
+      "Reported EPS": 4.56,
+      "Surprise(%)": 18.75
+    },
+    {
+      "index": "2011-05-10 17:00:00-04:00",
+      "EPS Estimate": 3.72,
+      "Reported EPS": 4.44,
+      "Surprise(%)": 19.35
+    },
+    {
+      "index": "2011-02-09 17:00:00-05:00",
+      "EPS Estimate": 3.36,
+      "Reported EPS": 2.88,
+      "Surprise(%)": -14.29
+    },
+    {
+      "index": "2010-11-10 08:00:00-05:00",
+      "EPS Estimate": 3.52,
+      "Reported EPS": 3.6,
+      "Surprise(%)": 2.27
+    },
+    {
+      "index": "2010-09-01 15:00:00-04:00",
+      "EPS Estimate": 2.93,
+      "Reported EPS": 3.0,
+      "Surprise(%)": 2.46
+    },
+    {
+      "index": "2010-05-13 03:00:00-04:00",
+      "EPS Estimate": 2.58,
+      "Reported EPS": 2.64,
+      "Surprise(%)": 2.33
+    },
+    {
+      "index": "2010-02-08 07:00:00-05:00",
+      "EPS Estimate": 2.22,
+      "Reported EPS": 2.4,
+      "Surprise(%)": 8.11
+    },
+    {
+      "index": "2009-11-11 16:00:00-05:00",
+      "EPS Estimate": 2.4,
+      "Reported EPS": 2.88,
+      "Surprise(%)": 20.0
+    },
+    {
+      "index": "2009-09-15 17:00:00-04:00",
+      "EPS Estimate": 2.58,
+      "Reported EPS": 2.88,
+      "Surprise(%)": 11.63
+    },
+    {
+      "index": "2009-05-11 18:00:00-04:00",
+      "EPS Estimate": 1.8,
+      "Reported EPS": 2.52,
+      "Surprise(%)": 40.0
+    },
+    {
+      "index": "2009-02-11 18:00:00-05:00",
+      "EPS Estimate": 1.68,
+      "Reported EPS": 1.68,
+      "Surprise(%)": null
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

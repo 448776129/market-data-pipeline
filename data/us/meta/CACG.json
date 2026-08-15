@@ -1,0 +1,75 @@
+{
+  "symbol": "CACG",
+  "region": "us",
+  "name": "ClearBridge All Cap Growth ESG ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US5246821012",
+  "info": {
+    "longName": "ClearBridge All Cap Growth ESG ETF",
+    "shortName": "ClearBridge All Cap Growth ESG ",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 53.27,
+    "previousClose": 53.3175,
+    "dayHigh": 53.4091,
+    "dayLow": 53.27,
+    "regularMarketPrice": 53.3898,
+    "regularMarketPreviousClose": 53.3175,
+    "fiftyTwoWeekHigh": 53.51,
+    "fiftyTwoWeekLow": 39.13,
+    "trailingPE": 42.247265,
+    "dividendYield": 0.31,
+    "volume": 15159,
+    "averageVolume": 4291
+  },
+  "dividends": [
+    {
+      "index": "2017-12-26 09:30:00-05:00",
+      "value": 0.06677
+    },
+    {
+      "index": "2018-12-26 09:30:00-05:00",
+      "value": 0.153449
+    },
+    {
+      "index": "2018-12-31 09:30:00-05:00",
+      "value": 0.027587
+    },
+    {
+      "index": "2019-12-26 09:30:00-05:00",
+      "value": 0.037352
+    },
+    {
+      "index": "2020-12-28 09:30:00-05:00",
+      "value": 0.208696
+    },
+    {
+      "index": "2021-12-27 09:30:00-05:00",
+      "value": 1.478322
+    },
+    {
+      "index": "2022-12-27 09:30:00-05:00",
+      "value": 2.299557
+    },
+    {
+      "index": "2023-12-26 09:30:00-05:00",
+      "value": 0.15829
+    },
+    {
+      "index": "2024-06-10 09:30:00-04:00",
+      "value": 0.024255
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

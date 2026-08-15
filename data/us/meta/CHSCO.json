@@ -1,0 +1,286 @@
+{
+  "symbol": "CHSCO",
+  "region": "us",
+  "name": "CHS Inc.",
+  "currency": "USD",
+  "exchange": "NMS",
+  "isin": "US12542R3084",
+  "info": {
+    "longName": "CHS Inc.",
+    "shortName": "CHS Inc",
+    "sector": "Consumer Defensive",
+    "industry": "Farm Products",
+    "country": "United States",
+    "exchange": "NMS",
+    "currency": "USD",
+    "currentPrice": 25.76,
+    "open": 25.75,
+    "previousClose": 25.75,
+    "dayHigh": 25.7939,
+    "dayLow": 25.75,
+    "regularMarketPrice": 25.76,
+    "regularMarketPreviousClose": 25.75,
+    "fiftyTwoWeekHigh": 27.16,
+    "fiftyTwoWeekLow": 25.51,
+    "dividendYield": 7.65,
+    "dividendRate": 1.97,
+    "volume": 14030,
+    "averageVolume": 25590,
+    "recommendationKey": "none",
+    "totalRevenue": 37405868032,
+    "grossProfits": 1155801984,
+    "freeCashflow": -114641000,
+    "totalDebt": 3723337984,
+    "totalCash": 497614016,
+    "profitMargins": 0.01544,
+    "returnOnEquity": 0.05251,
+    "returnOnAssets": 0.00117,
+    "revenueGrowth": 0.186
+  },
+  "dividends": [
+    {
+      "index": "2013-12-12 09:30:00-05:00",
+      "value": 0.492
+    },
+    {
+      "index": "2014-03-13 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2014-06-12 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2014-09-12 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2014-12-15 09:30:00-05:00",
+      "value": 0.492
+    },
+    {
+      "index": "2015-03-13 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2015-06-12 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2015-09-14 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2015-12-14 09:30:00-05:00",
+      "value": 0.492
+    },
+    {
+      "index": "2016-03-15 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2016-06-14 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2016-09-14 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2016-12-13 09:30:00-05:00",
+      "value": 0.492
+    },
+    {
+      "index": "2017-03-15 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2017-06-14 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2017-09-15 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2017-12-14 09:30:00-05:00",
+      "value": 0.492
+    },
+    {
+      "index": "2018-03-15 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2018-06-15 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2018-09-13 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2018-12-14 09:30:00-05:00",
+      "value": 0.492
+    },
+    {
+      "index": "2019-03-14 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2019-06-13 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2019-09-13 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2019-12-16 09:30:00-05:00",
+      "value": 0.492
+    },
+    {
+      "index": "2020-03-16 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2020-06-15 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2020-09-15 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2020-12-16 09:30:00-05:00",
+      "value": 0.492
+    },
+    {
+      "index": "2021-03-16 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2021-06-15 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2021-09-16 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2021-12-16 09:30:00-05:00",
+      "value": 0.492
+    },
+    {
+      "index": "2022-03-16 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2022-06-16 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2022-09-16 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2022-12-15 09:30:00-05:00",
+      "value": 0.492
+    },
+    {
+      "index": "2023-03-16 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2023-06-14 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2023-09-15 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2023-12-13 09:30:00-05:00",
+      "value": 0.492
+    },
+    {
+      "index": "2024-03-14 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2024-06-13 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2024-09-16 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 0.492
+    },
+    {
+      "index": "2025-03-17 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2025-06-13 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2025-09-16 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2025-12-16 09:30:00-05:00",
+      "value": 0.492
+    },
+    {
+      "index": "2026-03-17 09:30:00-04:00",
+      "value": 0.492
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 0.492
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 25.76
+  },
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.0
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.12835
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.12835
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 8.0
+    }
+  ],
+  "institutional_holders": [
+    {
+      "index": "0",
+      "Date Reported": "2026-06-30 00:00:00",
+      "Holder": "Vermillion Wealth Management, Inc.                          ",
+      "pctHeld": 0.0,
+      "Shares": 466,
+      "Value": 12004,
+      "pctChange": 1.0
+    }
+  ]
+}

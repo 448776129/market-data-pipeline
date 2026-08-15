@@ -1,0 +1,111 @@
+{
+  "symbol": "CATH",
+  "region": "us",
+  "name": "Global X S&P 500 Catholic Values ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US37954Y8892",
+  "info": {
+    "longName": "Global X S&P 500 Catholic Values ETF",
+    "shortName": "Global X S&P 500 Catholic Value",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 92.89,
+    "previousClose": 92.75,
+    "dayHigh": 93.05,
+    "dayLow": 92.45,
+    "regularMarketPrice": 92.4996,
+    "regularMarketPreviousClose": 92.75,
+    "fiftyTwoWeekHigh": 93.05,
+    "fiftyTwoWeekLow": 75.615,
+    "trailingPE": 25.89328,
+    "dividendYield": 0.77,
+    "volume": 29668,
+    "averageVolume": 47593
+  },
+  "dividends": [
+    {
+      "index": "2016-12-28 09:30:00-05:00",
+      "value": 0.135
+    },
+    {
+      "index": "2017-12-28 09:30:00-05:00",
+      "value": 0.417
+    },
+    {
+      "index": "2018-12-28 09:30:00-05:00",
+      "value": 0.61
+    },
+    {
+      "index": "2019-06-27 09:30:00-04:00",
+      "value": 0.249
+    },
+    {
+      "index": "2019-12-30 09:30:00-05:00",
+      "value": 0.324
+    },
+    {
+      "index": "2020-06-29 09:30:00-04:00",
+      "value": 0.241
+    },
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.329
+    },
+    {
+      "index": "2021-06-29 09:30:00-04:00",
+      "value": 0.218
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.387
+    },
+    {
+      "index": "2022-06-29 09:30:00-04:00",
+      "value": 0.258
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.364
+    },
+    {
+      "index": "2023-06-29 09:30:00-04:00",
+      "value": 0.267
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.407
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.265
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.405
+    },
+    {
+      "index": "2025-06-27 09:30:00-04:00",
+      "value": 0.285
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.403
+    },
+    {
+      "index": "2026-06-29 09:30:00-04:00",
+      "value": 0.282
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

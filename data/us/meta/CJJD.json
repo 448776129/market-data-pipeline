@@ -1,0 +1,40 @@
+{
+  "symbol": "CJJD",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "KYG2124G1120",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2011-02-15 02:00:00-05:00",
+      "EPS Estimate": 44.4,
+      "Reported EPS": 40.8,
+      "Surprise(%)": -8.11
+    },
+    {
+      "index": "2010-11-15 09:00:00-05:00",
+      "EPS Estimate": 40.8,
+      "Reported EPS": 28.8,
+      "Surprise(%)": -29.41
+    },
+    {
+      "index": "2010-08-16 06:00:00-04:00",
+      "EPS Estimate": 36.0,
+      "Reported EPS": 40.8,
+      "Surprise(%)": 13.33
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

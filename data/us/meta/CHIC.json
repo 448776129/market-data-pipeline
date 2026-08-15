@@ -1,0 +1,99 @@
+{
+  "symbol": "CHIC",
+  "region": "us",
+  "name": "Global X MSCI China Communication Services ETF",
+  "currency": "USD",
+  "exchange": "PCX",
+  "isin": "-",
+  "info": {
+    "longName": "Global X MSCI China Communication Services ETF",
+    "shortName": "Global X Funds Global X MSCI Ch",
+    "exchange": "PCX",
+    "currency": "USD",
+    "open": 12.3,
+    "previousClose": 12.25,
+    "dayHigh": 12.25,
+    "dayLow": 12.25,
+    "regularMarketPrice": 12.25,
+    "regularMarketPreviousClose": 12.25,
+    "fiftyTwoWeekHigh": 16.6094,
+    "fiftyTwoWeekLow": 11.28,
+    "trailingPE": 15.421006,
+    "dividendYield": 1.84,
+    "volume": 319,
+    "averageVolume": 0
+  },
+  "dividends": [
+    {
+      "index": "2013-12-27 09:30:00-05:00",
+      "value": 0.00611
+    },
+    {
+      "index": "2014-12-29 09:30:00-05:00",
+      "value": 0.072025
+    },
+    {
+      "index": "2015-12-29 09:30:00-05:00",
+      "value": 0.144134
+    },
+    {
+      "index": "2016-12-28 09:30:00-05:00",
+      "value": 0.960541
+    },
+    {
+      "index": "2017-12-28 09:30:00-05:00",
+      "value": 0.68061
+    },
+    {
+      "index": "2018-12-28 09:30:00-05:00",
+      "value": 0.054385
+    },
+    {
+      "index": "2019-06-27 09:30:00-04:00",
+      "value": 0.0499
+    },
+    {
+      "index": "2019-12-30 09:30:00-05:00",
+      "value": 0.077522
+    },
+    {
+      "index": "2020-06-29 09:30:00-04:00",
+      "value": 0.090687
+    },
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.309715
+    },
+    {
+      "index": "2021-06-29 09:30:00-04:00",
+      "value": 0.050833
+    },
+    {
+      "index": "2022-06-29 09:30:00-04:00",
+      "value": 0.180182
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.028406
+    },
+    {
+      "index": "2023-06-29 09:30:00-04:00",
+      "value": 0.115868
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.110863
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,33 @@
+{
+  "symbol": "CBO",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "FR0010193979",
+  "info": {
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 38.45,
+    "previousClose": 38.45,
+    "dayHigh": 54.92,
+    "dayLow": 54.92,
+    "regularMarketPrice": 38.45,
+    "regularMarketPreviousClose": 38.45,
+    "fiftyTwoWeekHigh": 54.92,
+    "fiftyTwoWeekLow": 54.92,
+    "volume": 100
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,179 @@
+{
+  "symbol": "CIBR",
+  "region": "us",
+  "name": "First Trust NASDAQ Cybersecurity ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US33734X8469",
+  "info": {
+    "longName": "First Trust NASDAQ Cybersecurity ETF",
+    "shortName": "First Trust NASDAQ Cybersecurit",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 102.23,
+    "previousClose": 102.2,
+    "dayHigh": 102.35,
+    "dayLow": 99.4102,
+    "regularMarketPrice": 99.6,
+    "regularMarketPreviousClose": 102.2,
+    "fiftyTwoWeekHigh": 102.35,
+    "fiftyTwoWeekLow": 60.07,
+    "trailingPE": 32.38937,
+    "dividendYield": 0.43,
+    "volume": 1289839,
+    "averageVolume": 1619135
+  },
+  "dividends": [
+    {
+      "index": "2015-12-23 09:30:00-05:00",
+      "value": 0.103
+    },
+    {
+      "index": "2016-06-22 09:30:00-04:00",
+      "value": 0.015
+    },
+    {
+      "index": "2016-09-21 09:30:00-04:00",
+      "value": 0.006
+    },
+    {
+      "index": "2016-12-21 09:30:00-05:00",
+      "value": 0.02
+    },
+    {
+      "index": "2017-06-22 09:30:00-04:00",
+      "value": 0.01
+    },
+    {
+      "index": "2017-09-21 09:30:00-04:00",
+      "value": 0.007
+    },
+    {
+      "index": "2017-12-21 09:30:00-05:00",
+      "value": 0.005
+    },
+    {
+      "index": "2018-03-22 09:30:00-04:00",
+      "value": 0.005
+    },
+    {
+      "index": "2018-06-21 09:30:00-04:00",
+      "value": 0.008
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.039
+    },
+    {
+      "index": "2019-06-14 09:30:00-04:00",
+      "value": 0.018
+    },
+    {
+      "index": "2019-09-25 09:30:00-04:00",
+      "value": 0.004
+    },
+    {
+      "index": "2019-12-13 09:30:00-05:00",
+      "value": 0.047
+    },
+    {
+      "index": "2020-03-26 09:30:00-04:00",
+      "value": 0.399
+    },
+    {
+      "index": "2020-06-25 09:30:00-04:00",
+      "value": 0.03
+    },
+    {
+      "index": "2020-09-24 09:30:00-04:00",
+      "value": 0.033
+    },
+    {
+      "index": "2020-12-24 09:30:00-05:00",
+      "value": 0.027
+    },
+    {
+      "index": "2021-06-24 09:30:00-04:00",
+      "value": 0.033
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 0.281
+    },
+    {
+      "index": "2022-03-25 09:30:00-04:00",
+      "value": 0.02
+    },
+    {
+      "index": "2022-06-24 09:30:00-04:00",
+      "value": 0.003
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 0.095
+    },
+    {
+      "index": "2023-06-27 09:30:00-04:00",
+      "value": 0.053
+    },
+    {
+      "index": "2023-09-22 09:30:00-04:00",
+      "value": 0.009
+    },
+    {
+      "index": "2023-12-22 09:30:00-05:00",
+      "value": 0.166
+    },
+    {
+      "index": "2024-03-21 09:30:00-04:00",
+      "value": 0.024
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.066
+    },
+    {
+      "index": "2024-09-26 09:30:00-04:00",
+      "value": 0.011
+    },
+    {
+      "index": "2024-12-13 09:30:00-05:00",
+      "value": 0.081
+    },
+    {
+      "index": "2025-03-27 09:30:00-04:00",
+      "value": 0.004
+    },
+    {
+      "index": "2025-06-26 09:30:00-04:00",
+      "value": 0.09
+    },
+    {
+      "index": "2025-09-25 09:30:00-04:00",
+      "value": 0.001
+    },
+    {
+      "index": "2025-12-12 09:30:00-05:00",
+      "value": 0.208
+    },
+    {
+      "index": "2026-03-26 09:30:00-04:00",
+      "value": 0.11
+    },
+    {
+      "index": "2026-06-25 09:30:00-04:00",
+      "value": 0.072
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

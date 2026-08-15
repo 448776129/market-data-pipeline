@@ -1,0 +1,31 @@
+{
+  "symbol": "CATC",
+  "region": "us",
+  "name": "CATCo Reinsurance Opps C",
+  "currency": "USD",
+  "exchange": "PNK",
+  "isin": "CA14913M1086",
+  "info": {
+    "longName": "CATCo Reinsurance Opps C",
+    "exchange": "PNK",
+    "currency": "USD",
+    "previousClose": 220.0,
+    "regularMarketPrice": 220.0,
+    "regularMarketPreviousClose": 220.0,
+    "fiftyTwoWeekHigh": 259.0,
+    "fiftyTwoWeekLow": 93.0,
+    "averageVolume": 3
+  },
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

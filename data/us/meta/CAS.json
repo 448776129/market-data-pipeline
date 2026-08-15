@@ -1,0 +1,81 @@
+{
+  "symbol": "CAS",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "PCX",
+  "isin": "US82889N3843",
+  "info": {
+    "shortName": "Simplify China A Shares PLUS In",
+    "exchange": "PCX",
+    "currency": "USD",
+    "open": 26.9,
+    "previousClose": 26.7046,
+    "dayHigh": 26.8999,
+    "dayLow": 26.7645,
+    "regularMarketPrice": 26.7645,
+    "regularMarketPreviousClose": 26.7046,
+    "fiftyTwoWeekHigh": 36.895,
+    "fiftyTwoWeekLow": 23.83,
+    "dividendYield": 37.53,
+    "volume": 5087,
+    "averageVolume": 3903
+  },
+  "dividends": [
+    {
+      "index": "2025-06-25 09:30:00-04:00",
+      "value": 0.24
+    },
+    {
+      "index": "2025-09-25 09:30:00-04:00",
+      "value": 0.5
+    },
+    {
+      "index": "2025-11-21 09:30:00-05:00",
+      "value": 1.0
+    },
+    {
+      "index": "2025-12-23 09:30:00-05:00",
+      "value": 10.499
+    },
+    {
+      "index": "2026-01-27 09:30:00-05:00",
+      "value": 0.2
+    },
+    {
+      "index": "2026-02-24 09:30:00-05:00",
+      "value": 0.15
+    },
+    {
+      "index": "2026-03-26 09:30:00-04:00",
+      "value": 0.1
+    },
+    {
+      "index": "2026-04-27 09:30:00-04:00",
+      "value": 0.1
+    },
+    {
+      "index": "2026-05-26 09:30:00-04:00",
+      "value": 0.1
+    },
+    {
+      "index": "2026-06-25 09:30:00-04:00",
+      "value": 0.1
+    },
+    {
+      "index": "2026-07-28 09:30:00-04:00",
+      "value": 0.5
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

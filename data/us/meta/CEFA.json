@@ -1,0 +1,87 @@
+{
+  "symbol": "CEFA",
+  "region": "us",
+  "name": "Global X S&P Catholic Values Developed ex-U.S. ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US37954Y3687",
+  "info": {
+    "longName": "Global X S&P Catholic Values Developed ex-U.S. ETF",
+    "shortName": "Global X S&P Catholic Values De",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 41.77,
+    "previousClose": 41.83,
+    "dayHigh": 41.77,
+    "dayLow": 41.66,
+    "regularMarketPrice": 41.6869,
+    "regularMarketPreviousClose": 41.83,
+    "fiftyTwoWeekHigh": 43.12,
+    "fiftyTwoWeekLow": 34.73,
+    "trailingPE": 19.04128,
+    "dividendYield": 2.68,
+    "volume": 770,
+    "averageVolume": 6585
+  },
+  "dividends": [
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.256
+    },
+    {
+      "index": "2021-06-29 09:30:00-04:00",
+      "value": 0.337
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.77
+    },
+    {
+      "index": "2022-06-29 09:30:00-04:00",
+      "value": 0.384
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.222
+    },
+    {
+      "index": "2023-06-29 09:30:00-04:00",
+      "value": 0.37
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.324
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.674
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.305
+    },
+    {
+      "index": "2025-06-27 09:30:00-04:00",
+      "value": 0.39
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.665
+    },
+    {
+      "index": "2026-06-29 09:30:00-04:00",
+      "value": 0.419
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

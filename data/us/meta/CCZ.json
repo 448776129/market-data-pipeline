@@ -1,0 +1,128 @@
+{
+  "symbol": "CCZ",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "shortName": "Comcast Holdings ZONES",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 62.2,
+    "previousClose": 62.2,
+    "dayHigh": 62.2,
+    "dayLow": 62.2,
+    "regularMarketPrice": 62.2,
+    "regularMarketPreviousClose": 62.2,
+    "fiftyTwoWeekHigh": 66.5,
+    "fiftyTwoWeekLow": 59.0,
+    "volume": 1,
+    "averageVolume": 141
+  },
+  "dividends": [
+    {
+      "index": "2020-06-30 09:30:00-04:00",
+      "value": 0.375
+    },
+    {
+      "index": "2020-09-30 09:30:00-04:00",
+      "value": 1.072
+    },
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.375
+    },
+    {
+      "index": "2021-03-31 09:30:00-04:00",
+      "value": 0.375
+    },
+    {
+      "index": "2021-09-29 09:30:00-04:00",
+      "value": 0.375
+    },
+    {
+      "index": "2021-12-31 09:30:00-05:00",
+      "value": 0.375
+    },
+    {
+      "index": "2022-03-31 09:30:00-04:00",
+      "value": 0.375
+    },
+    {
+      "index": "2022-04-28 09:30:00-04:00",
+      "value": 0.425
+    },
+    {
+      "index": "2022-09-30 09:30:00-04:00",
+      "value": 0.375
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.358
+    },
+    {
+      "index": "2023-03-30 09:30:00-04:00",
+      "value": 0.358
+    },
+    {
+      "index": "2023-06-29 09:30:00-04:00",
+      "value": 0.358
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.424
+    },
+    {
+      "index": "2024-03-28 09:30:00-04:00",
+      "value": 1.214
+    },
+    {
+      "index": "2024-07-01 09:30:00-04:00",
+      "value": 0.424
+    },
+    {
+      "index": "2024-10-01 09:30:00-04:00",
+      "value": 0.012
+    },
+    {
+      "index": "2024-12-31 09:30:00-05:00",
+      "value": 0.448
+    },
+    {
+      "index": "2025-04-01 09:30:00-04:00",
+      "value": 0.448
+    },
+    {
+      "index": "2025-07-01 09:30:00-04:00",
+      "value": 0.448
+    },
+    {
+      "index": "2025-10-01 09:30:00-04:00",
+      "value": 0.448
+    },
+    {
+      "index": "2025-12-31 09:30:00-05:00",
+      "value": 0.462
+    },
+    {
+      "index": "2026-04-01 09:30:00-04:00",
+      "value": 0.462
+    },
+    {
+      "index": "2026-07-01 09:30:00-04:00",
+      "value": 0.462
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

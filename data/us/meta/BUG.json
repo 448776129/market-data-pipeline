@@ -1,0 +1,71 @@
+{
+  "symbol": "BUG",
+  "region": "us",
+  "name": "Global X Cybersecurity ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US37954Y3844",
+  "info": {
+    "longName": "Global X Cybersecurity ETF",
+    "shortName": "Global X Cybersecurity ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 44.4,
+    "previousClose": 44.46,
+    "dayHigh": 44.47,
+    "dayLow": 42.99,
+    "regularMarketPrice": 43.09,
+    "regularMarketPreviousClose": 44.46,
+    "fiftyTwoWeekHigh": 44.53,
+    "fiftyTwoWeekLow": 23.145,
+    "trailingPE": 37.352966,
+    "dividendYield": 0.03,
+    "volume": 1238972,
+    "averageVolume": 1241388
+  },
+  "dividends": [
+    {
+      "index": "2019-12-30 09:30:00-05:00",
+      "value": 0.04
+    },
+    {
+      "index": "2020-06-29 09:30:00-04:00",
+      "value": 0.105
+    },
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.024
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.209
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.323
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.031
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.03
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.012
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
