@@ -23,12 +23,7 @@ REGIONS: dict[str, list[str]] = {
         "3690.HK",
         "0941.HK",
     ],
-    "cn": [
-        "600519.SS",
-        "000001.SZ",
-        "601318.SS",
-        "300750.SZ",
-    ],
+    "cn": [],  # 全市场模式：从 data/universe/cn.csv 读取全部A股(上交所)
     "kr": [
         "005930.KS",  # 三星电子
         "000660.KS",  # SK海力士
@@ -48,6 +43,10 @@ DATA_DIR = "data"
 KLINE_SUBDIR = "kline"
 # 非K线数据（快照/财务/分析师等）子目录（每只股票一个文件）
 META_SUBDIR = "meta"
-# 全市场股票列表子目录与文件名
+# 全市场股票列表子目录；文件名 = {region}.csv（如 us.csv、cn.csv）
 UNIVERSE_SUBDIR = "universe"
-UNIVERSE_FILE = "us.csv"
+# 各区域全市场列表文件名
+UNIVERSE_FILES = {
+    "us": "us.csv",
+    "cn": "cn.csv",
+}

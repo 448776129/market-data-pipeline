@@ -25,7 +25,9 @@ def load_symbols(region: str) -> list[str]:
         return list(hardcoded)
 
     # 全市场模式：从 data/universe/{region}.csv 读取
-    universe_file = config.UNIVERSE_FILE
+    universe_file = config.UNIVERSE_FILES.get(region)
+    if not universe_file:
+        return []
     path = ROOT / config.DATA_DIR / config.UNIVERSE_SUBDIR / universe_file
     if not path.exists():
         print(f"  [警告] universe 文件不存在: {path.relative_to(ROOT)}", file=sys.stderr)

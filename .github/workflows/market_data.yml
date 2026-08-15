@@ -65,12 +65,18 @@ jobs:
       mode: historical
 
   historical-cn:
-    name: Historical · CN
+    name: Historical · CN (batch ${{ matrix.batch }})
     if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical') }}
+    strategy:
+      fail-fast: false
+      matrix:
+        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
     uses: ./.github/workflows/step-data.yml
     with:
       region: cn
       mode: historical
+      batch: ${{ matrix.batch }}
+      batches: "20"
 
   historical-kr:
     name: Historical · KR
@@ -107,12 +113,18 @@ jobs:
       mode: daily
 
   daily-cn:
-    name: Daily · CN
+    name: Daily · CN (batch ${{ matrix.batch }})
     if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily') }}
+    strategy:
+      fail-fast: false
+      matrix:
+        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
     uses: ./.github/workflows/step-data.yml
     with:
       region: cn
       mode: daily
+      batch: ${{ matrix.batch }}
+      batches: "20"
 
   daily-kr:
     name: Daily · KR
@@ -149,12 +161,18 @@ jobs:
       mode: meta
 
   meta-cn:
-    name: Meta · CN
+    name: Meta · CN (batch ${{ matrix.batch }})
     if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta') }}
+    strategy:
+      fail-fast: false
+      matrix:
+        batch: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
     uses: ./.github/workflows/step-data.yml
     with:
       region: cn
       mode: meta
+      batch: ${{ matrix.batch }}
+      batches: "20"
 
   meta-kr:
     name: Meta · KR
