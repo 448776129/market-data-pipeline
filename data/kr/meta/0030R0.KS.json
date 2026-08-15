@@ -1,0 +1,82 @@
+{
+  "symbol": "0030R0.KS",
+  "region": "kr",
+  "name": "Dashin Value REIT Co.,Ltd.",
+  "currency": "KRW",
+  "exchange": "KSC",
+  "isin": "-",
+  "info": {
+    "longName": "Dashin Value REIT Co.,Ltd.",
+    "shortName": "Daishin Value REIT",
+    "sector": "Real Estate",
+    "industry": "REIT - Diversified",
+    "country": "South Korea",
+    "exchange": "KSC",
+    "currency": "KRW",
+    "marketCap": 237027704832,
+    "currentPrice": 3965.0,
+    "open": 3940.0,
+    "previousClose": 3940.0,
+    "dayHigh": 3965.0,
+    "dayLow": 3890.0,
+    "regularMarketPrice": 3965.0,
+    "regularMarketPreviousClose": 3940.0,
+    "fiftyTwoWeekHigh": 4760.0,
+    "fiftyTwoWeekLow": 3455.0,
+    "dividendYield": 7.36,
+    "dividendRate": 292.0,
+    "volume": 3537,
+    "averageVolume": 45769,
+    "sharesOutstanding": 59780000,
+    "recommendationKey": "none",
+    "profitMargins": 0.0
+  },
+  "dividends": [
+    {
+      "index": "2025-08-28 09:00:00+09:00",
+      "value": 73.0
+    },
+    {
+      "index": "2025-11-27 09:00:00+09:00",
+      "value": 73.0
+    },
+    {
+      "index": "2026-02-26 09:00:00+09:00",
+      "value": 73.0
+    },
+    {
+      "index": "2026-05-28 09:00:00+09:00",
+      "value": 73.0
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {
+    "current": 3965.0
+  },
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": [
+    {
+      "index": "insidersPercentHeld",
+      "Value": 0.45486
+    },
+    {
+      "index": "institutionsPercentHeld",
+      "Value": 0.05262
+    },
+    {
+      "index": "institutionsFloatPercentHeld",
+      "Value": 0.09652001
+    },
+    {
+      "index": "institutionsCount",
+      "Value": 4.0
+    }
+  ],
+  "institutional_holders": null
+}
