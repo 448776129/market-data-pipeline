@@ -1,0 +1,172 @@
+{
+  "symbol": "AMED",
+  "region": "us",
+  "name": null,
+  "currency": null,
+  "exchange": null,
+  "isin": "GG00BMZQ5R81",
+  "info": {},
+  "dividends": null,
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": [
+    {
+      "index": "2025-11-05 15:00:00-05:00",
+      "EPS Estimate": 1.2,
+      "Reported EPS": null,
+      "Surprise(%)": null
+    },
+    {
+      "index": "2025-07-29 16:00:00-04:00",
+      "EPS Estimate": 1.33,
+      "Reported EPS": 1.54,
+      "Surprise(%)": 15.4
+    },
+    {
+      "index": "2025-04-23 16:00:00-04:00",
+      "EPS Estimate": 1.11,
+      "Reported EPS": 1.25,
+      "Surprise(%)": 13.0
+    },
+    {
+      "index": "2025-02-26 16:00:00-05:00",
+      "EPS Estimate": 1.06,
+      "Reported EPS": 0.96,
+      "Surprise(%)": -9.39
+    },
+    {
+      "index": "2024-11-06 16:00:00-05:00",
+      "EPS Estimate": 1.17,
+      "Reported EPS": 1.0,
+      "Surprise(%)": -14.32
+    },
+    {
+      "index": "2024-07-24 16:00:00-04:00",
+      "EPS Estimate": 1.18,
+      "Reported EPS": 1.32,
+      "Surprise(%)": 11.78
+    },
+    {
+      "index": "2024-04-24 16:00:00-04:00",
+      "EPS Estimate": 1.01,
+      "Reported EPS": 1.03,
+      "Surprise(%)": 2.03
+    },
+    {
+      "index": "2024-02-21 16:00:00-05:00",
+      "EPS Estimate": 1.03,
+      "Reported EPS": 0.94,
+      "Surprise(%)": -9.09
+    },
+    {
+      "index": "2023-10-24 16:00:00-04:00",
+      "EPS Estimate": 1.07,
+      "Reported EPS": 0.98,
+      "Surprise(%)": -8.27
+    },
+    {
+      "index": "2023-07-26 16:00:00-04:00",
+      "EPS Estimate": 1.09,
+      "Reported EPS": 1.37,
+      "Surprise(%)": 25.43
+    },
+    {
+      "index": "2023-05-03 16:00:00-04:00",
+      "EPS Estimate": 0.88,
+      "Reported EPS": 1.0,
+      "Surprise(%)": 13.11
+    },
+    {
+      "index": "2023-02-15 16:00:00-05:00",
+      "EPS Estimate": 0.98,
+      "Reported EPS": 1.16,
+      "Surprise(%)": 18.61
+    },
+    {
+      "index": "2022-10-26 16:00:00-04:00",
+      "EPS Estimate": 1.22,
+      "Reported EPS": 1.15,
+      "Surprise(%)": -5.47
+    },
+    {
+      "index": "2022-07-27 16:00:00-04:00",
+      "EPS Estimate": 1.23,
+      "Reported EPS": 1.47,
+      "Surprise(%)": 19.53
+    },
+    {
+      "index": "2022-04-27 16:00:00-04:00",
+      "EPS Estimate": 1.12,
+      "Reported EPS": 1.23,
+      "Surprise(%)": 10.28
+    },
+    {
+      "index": "2022-02-23 16:00:00-05:00",
+      "EPS Estimate": 1.18,
+      "Reported EPS": 1.18,
+      "Surprise(%)": 0.31
+    },
+    {
+      "index": "2021-11-02 16:00:00-04:00",
+      "EPS Estimate": 1.37,
+      "Reported EPS": 1.53,
+      "Surprise(%)": 11.94
+    },
+    {
+      "index": "2021-08-04 16:00:00-04:00",
+      "EPS Estimate": 1.67,
+      "Reported EPS": 1.69,
+      "Surprise(%)": 1.48
+    },
+    {
+      "index": "2021-04-28 16:00:00-04:00",
+      "EPS Estimate": 1.43,
+      "Reported EPS": 1.54,
+      "Surprise(%)": 7.92
+    },
+    {
+      "index": "2021-02-24 16:00:00-05:00",
+      "EPS Estimate": 1.47,
+      "Reported EPS": 1.49,
+      "Surprise(%)": 1.47
+    },
+    {
+      "index": "2020-10-28 16:00:00-04:00",
+      "EPS Estimate": 1.27,
+      "Reported EPS": 2.24,
+      "Surprise(%)": 76.55
+    },
+    {
+      "index": "2020-07-28 16:00:00-04:00",
+      "EPS Estimate": 0.81,
+      "Reported EPS": 1.34,
+      "Surprise(%)": 64.82
+    },
+    {
+      "index": "2020-05-06 17:00:00-04:00",
+      "EPS Estimate": 0.97,
+      "Reported EPS": 1.05,
+      "Surprise(%)": 8.32
+    },
+    {
+      "index": "2020-02-18 16:00:00-05:00",
+      "EPS Estimate": 0.93,
+      "Reported EPS": 0.94,
+      "Surprise(%)": 1.5
+    },
+    {
+      "index": "2019-10-29 16:00:00-04:00",
+      "EPS Estimate": 0.9,
+      "Reported EPS": 1.15,
+      "Surprise(%)": 28.46
+    }
+  ],
+  "major_holders": null,
+  "institutional_holders": null
+}

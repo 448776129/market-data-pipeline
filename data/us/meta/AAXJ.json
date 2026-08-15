@@ -1,0 +1,183 @@
+{
+  "symbol": "AAXJ",
+  "region": "us",
+  "name": "iShares MSCI All Country Asia ex Japan ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US4642881829",
+  "info": {
+    "longName": "iShares MSCI All Country Asia ex Japan ETF",
+    "shortName": "iShares MSCI All Country Asia e",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 116.47,
+    "previousClose": 115.91,
+    "dayHigh": 116.73,
+    "dayLow": 115.55,
+    "regularMarketPrice": 115.81,
+    "regularMarketPreviousClose": 115.91,
+    "fiftyTwoWeekHigh": 124.89,
+    "fiftyTwoWeekLow": 85.17,
+    "trailingPE": 19.050291,
+    "dividendYield": 1.38,
+    "volume": 207580,
+    "averageVolume": 624906
+  },
+  "dividends": [
+    {
+      "index": "2009-06-23 09:30:00-04:00",
+      "value": 0.195
+    },
+    {
+      "index": "2009-12-22 09:30:00-05:00",
+      "value": 0.507
+    },
+    {
+      "index": "2010-06-23 09:30:00-04:00",
+      "value": 0.355
+    },
+    {
+      "index": "2010-12-21 09:30:00-05:00",
+      "value": 0.608
+    },
+    {
+      "index": "2011-06-22 09:30:00-04:00",
+      "value": 0.66
+    },
+    {
+      "index": "2011-12-20 09:30:00-05:00",
+      "value": 0.391
+    },
+    {
+      "index": "2012-06-21 09:30:00-04:00",
+      "value": 0.508
+    },
+    {
+      "index": "2012-12-18 09:30:00-05:00",
+      "value": 0.541
+    },
+    {
+      "index": "2013-06-27 09:30:00-04:00",
+      "value": 0.516
+    },
+    {
+      "index": "2013-12-18 09:30:00-05:00",
+      "value": 0.525
+    },
+    {
+      "index": "2013-12-27 09:30:00-05:00",
+      "value": 0.025
+    },
+    {
+      "index": "2014-06-25 09:30:00-04:00",
+      "value": 0.5
+    },
+    {
+      "index": "2014-12-17 09:30:00-05:00",
+      "value": 0.586
+    },
+    {
+      "index": "2015-06-25 09:30:00-04:00",
+      "value": 0.405
+    },
+    {
+      "index": "2015-12-21 09:30:00-05:00",
+      "value": 0.9
+    },
+    {
+      "index": "2016-06-22 09:30:00-04:00",
+      "value": 0.335
+    },
+    {
+      "index": "2016-12-21 09:30:00-05:00",
+      "value": 0.638
+    },
+    {
+      "index": "2017-06-20 09:30:00-04:00",
+      "value": 0.287
+    },
+    {
+      "index": "2017-12-19 09:30:00-05:00",
+      "value": 1.234
+    },
+    {
+      "index": "2018-06-19 09:30:00-04:00",
+      "value": 0.408
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.928
+    },
+    {
+      "index": "2019-06-17 09:30:00-04:00",
+      "value": 0.411
+    },
+    {
+      "index": "2019-12-16 09:30:00-05:00",
+      "value": 0.933
+    },
+    {
+      "index": "2020-06-15 09:30:00-04:00",
+      "value": 0.263
+    },
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.684
+    },
+    {
+      "index": "2021-06-10 09:30:00-04:00",
+      "value": 0.279
+    },
+    {
+      "index": "2021-12-13 09:30:00-05:00",
+      "value": 1.546
+    },
+    {
+      "index": "2022-06-09 09:30:00-04:00",
+      "value": 0.337
+    },
+    {
+      "index": "2022-12-13 09:30:00-05:00",
+      "value": 0.787
+    },
+    {
+      "index": "2023-06-07 09:30:00-04:00",
+      "value": 0.397
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 1.108
+    },
+    {
+      "index": "2024-06-11 09:30:00-04:00",
+      "value": 0.265
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 1.074
+    },
+    {
+      "index": "2025-06-16 09:30:00-04:00",
+      "value": 0.56
+    },
+    {
+      "index": "2025-12-16 09:30:00-05:00",
+      "value": 1.125
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 0.421
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

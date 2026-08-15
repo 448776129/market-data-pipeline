@@ -1,0 +1,99 @@
+{
+  "symbol": "AIQ",
+  "region": "us",
+  "name": "Global X Artificial Intelligence & Technology ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US37954Y6326",
+  "info": {
+    "longName": "Global X Artificial Intelligence & Technology ETF",
+    "shortName": "Global X Artificial Intelligenc",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 64.87,
+    "previousClose": 64.62,
+    "dayHigh": 65.0,
+    "dayLow": 64.06,
+    "regularMarketPrice": 64.2,
+    "regularMarketPreviousClose": 64.62,
+    "fiftyTwoWeekHigh": 70.26,
+    "fiftyTwoWeekLow": 43.45,
+    "trailingPE": 27.945862,
+    "dividendYield": 0.08,
+    "volume": 838035,
+    "averageVolume": 2510860
+  },
+  "dividends": [
+    {
+      "index": "2018-12-28 09:30:00-05:00",
+      "value": 0.065
+    },
+    {
+      "index": "2019-06-27 09:30:00-04:00",
+      "value": 0.054
+    },
+    {
+      "index": "2019-12-30 09:30:00-05:00",
+      "value": 0.036
+    },
+    {
+      "index": "2020-06-29 09:30:00-04:00",
+      "value": 0.082
+    },
+    {
+      "index": "2020-12-30 09:30:00-05:00",
+      "value": 0.055
+    },
+    {
+      "index": "2021-06-29 09:30:00-04:00",
+      "value": 0.036
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.013
+    },
+    {
+      "index": "2022-06-29 09:30:00-04:00",
+      "value": 0.056
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.056
+    },
+    {
+      "index": "2023-06-29 09:30:00-04:00",
+      "value": 0.03
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.019
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.043
+    },
+    {
+      "index": "2024-12-30 09:30:00-05:00",
+      "value": 0.011
+    },
+    {
+      "index": "2025-06-27 09:30:00-04:00",
+      "value": 0.049
+    },
+    {
+      "index": "2025-12-30 09:30:00-05:00",
+      "value": 0.045
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

@@ -1,0 +1,121 @@
+{
+  "symbol": "AFGE",
+  "region": "us",
+  "name": "American Financial Group, Inc.",
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "longName": "American Financial Group, Inc.",
+    "shortName": "American Financial Group, Inc. ",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 16.11,
+    "previousClose": 16.2,
+    "dayHigh": 16.2002,
+    "dayLow": 16.1081,
+    "regularMarketPrice": 16.17,
+    "regularMarketPreviousClose": 16.2,
+    "fiftyTwoWeekHigh": 19.41,
+    "fiftyTwoWeekLow": 15.77,
+    "volume": 3763,
+    "averageVolume": 8677
+  },
+  "dividends": [
+    {
+      "index": "2021-05-28 09:30:00-04:00",
+      "value": 0.281
+    },
+    {
+      "index": "2021-08-31 09:30:00-04:00",
+      "value": 0.281
+    },
+    {
+      "index": "2021-11-30 09:30:00-05:00",
+      "value": 0.281
+    },
+    {
+      "index": "2022-02-28 09:30:00-05:00",
+      "value": 0.281
+    },
+    {
+      "index": "2022-05-31 09:30:00-04:00",
+      "value": 0.281
+    },
+    {
+      "index": "2022-08-31 09:30:00-04:00",
+      "value": 0.281
+    },
+    {
+      "index": "2022-11-30 09:30:00-05:00",
+      "value": 0.281
+    },
+    {
+      "index": "2023-02-28 09:30:00-05:00",
+      "value": 0.281
+    },
+    {
+      "index": "2023-05-31 09:30:00-04:00",
+      "value": 0.281
+    },
+    {
+      "index": "2023-08-31 09:30:00-04:00",
+      "value": 0.281
+    },
+    {
+      "index": "2023-11-30 09:30:00-05:00",
+      "value": 0.281
+    },
+    {
+      "index": "2024-02-29 09:30:00-05:00",
+      "value": 0.281
+    },
+    {
+      "index": "2024-05-31 09:30:00-04:00",
+      "value": 0.281
+    },
+    {
+      "index": "2024-08-30 09:30:00-04:00",
+      "value": 0.281
+    },
+    {
+      "index": "2024-11-29 09:30:00-05:00",
+      "value": 0.281
+    },
+    {
+      "index": "2025-02-28 09:30:00-05:00",
+      "value": 0.281
+    },
+    {
+      "index": "2025-05-30 09:30:00-04:00",
+      "value": 0.281
+    },
+    {
+      "index": "2025-08-29 09:30:00-04:00",
+      "value": 0.281
+    },
+    {
+      "index": "2025-12-01 09:30:00-05:00",
+      "value": 0.281
+    },
+    {
+      "index": "2026-02-27 09:30:00-05:00",
+      "value": 0.281
+    },
+    {
+      "index": "2026-06-01 09:30:00-04:00",
+      "value": 0.281
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

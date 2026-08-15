@@ -1,0 +1,124 @@
+{
+  "symbol": "AIZN",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "shortName": "Assurant, Inc. 5.25% Subordinat",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 18.69,
+    "previousClose": 18.8,
+    "dayHigh": 18.83,
+    "dayLow": 18.56,
+    "regularMarketPrice": 18.57,
+    "regularMarketPreviousClose": 18.8,
+    "fiftyTwoWeekHigh": 21.97,
+    "fiftyTwoWeekLow": 18.52,
+    "volume": 6698,
+    "averageVolume": 16340
+  },
+  "dividends": [
+    {
+      "index": "2021-03-31 09:30:00-04:00",
+      "value": 0.532
+    },
+    {
+      "index": "2021-06-30 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2021-09-30 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2022-03-31 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2022-06-30 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2022-09-29 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2022-12-29 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2023-03-30 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2023-06-29 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2023-09-28 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2023-12-28 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2024-03-28 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2024-07-01 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2024-10-01 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2024-12-31 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2025-04-01 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2025-07-01 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2025-10-01 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2025-12-31 09:30:00-05:00",
+      "value": 0.328
+    },
+    {
+      "index": "2026-04-01 09:30:00-04:00",
+      "value": 0.328
+    },
+    {
+      "index": "2026-07-01 09:30:00-04:00",
+      "value": 0.328
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

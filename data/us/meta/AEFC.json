@@ -1,0 +1,132 @@
+{
+  "symbol": "AEFC",
+  "region": "us",
+  "name": null,
+  "currency": "USD",
+  "exchange": "NYQ",
+  "isin": "-",
+  "info": {
+    "shortName": "Aegon Funding Company LLC 5.10%",
+    "exchange": "NYQ",
+    "currency": "USD",
+    "open": 18.42,
+    "previousClose": 18.46,
+    "dayHigh": 18.39,
+    "dayLow": 18.311,
+    "regularMarketPrice": 18.36,
+    "regularMarketPreviousClose": 18.46,
+    "fiftyTwoWeekHigh": 21.39,
+    "fiftyTwoWeekLow": 18.08,
+    "volume": 32491,
+    "averageVolume": 47093
+  },
+  "dividends": [
+    {
+      "index": "2020-05-28 09:30:00-04:00",
+      "value": 0.319
+    },
+    {
+      "index": "2020-08-28 09:30:00-04:00",
+      "value": 0.319
+    },
+    {
+      "index": "2021-02-25 09:30:00-05:00",
+      "value": 0.319
+    },
+    {
+      "index": "2021-05-27 09:30:00-04:00",
+      "value": 0.319
+    },
+    {
+      "index": "2021-08-30 09:30:00-04:00",
+      "value": 0.319
+    },
+    {
+      "index": "2021-11-29 09:30:00-05:00",
+      "value": 0.319
+    },
+    {
+      "index": "2022-02-25 09:30:00-05:00",
+      "value": 0.319
+    },
+    {
+      "index": "2022-05-27 09:30:00-04:00",
+      "value": 0.319
+    },
+    {
+      "index": "2022-08-30 09:30:00-04:00",
+      "value": 0.319
+    },
+    {
+      "index": "2022-11-29 09:30:00-05:00",
+      "value": 0.319
+    },
+    {
+      "index": "2023-02-27 09:30:00-05:00",
+      "value": 0.319
+    },
+    {
+      "index": "2023-05-30 09:30:00-04:00",
+      "value": 0.319
+    },
+    {
+      "index": "2023-08-30 09:30:00-04:00",
+      "value": 0.319
+    },
+    {
+      "index": "2023-11-29 09:30:00-05:00",
+      "value": 0.319
+    },
+    {
+      "index": "2024-02-27 09:30:00-05:00",
+      "value": 0.319
+    },
+    {
+      "index": "2024-05-31 09:30:00-04:00",
+      "value": 0.319
+    },
+    {
+      "index": "2024-08-30 09:30:00-04:00",
+      "value": 0.319
+    },
+    {
+      "index": "2024-11-29 09:30:00-05:00",
+      "value": 0.319
+    },
+    {
+      "index": "2025-02-28 09:30:00-05:00",
+      "value": 0.319
+    },
+    {
+      "index": "2025-05-30 09:30:00-04:00",
+      "value": 0.319
+    },
+    {
+      "index": "2025-08-29 09:30:00-04:00",
+      "value": 0.319
+    },
+    {
+      "index": "2025-11-28 09:30:00-05:00",
+      "value": 0.319
+    },
+    {
+      "index": "2026-02-27 09:30:00-05:00",
+      "value": 0.319
+    },
+    {
+      "index": "2026-05-29 09:30:00-04:00",
+      "value": 0.319
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

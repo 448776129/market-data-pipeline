@@ -1,0 +1,187 @@
+{
+  "symbol": "AIRR",
+  "region": "us",
+  "name": "First Trust RBA American Industrial RenaissanceTM ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US33738R7044",
+  "info": {
+    "longName": "First Trust RBA American Industrial RenaissanceTM ETF",
+    "shortName": "First Trust RBA American Indust",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 122.8862,
+    "previousClose": 122.78,
+    "dayHigh": 124.75,
+    "dayLow": 122.8862,
+    "regularMarketPrice": 124.75,
+    "regularMarketPreviousClose": 122.78,
+    "fiftyTwoWeekHigh": 135.05,
+    "fiftyTwoWeekLow": 87.67,
+    "trailingPE": 34.198082,
+    "dividendYield": 0.09,
+    "volume": 303694,
+    "averageVolume": 682170
+  },
+  "dividends": [
+    {
+      "index": "2014-09-23 09:30:00-04:00",
+      "value": 0.007
+    },
+    {
+      "index": "2014-12-23 09:30:00-05:00",
+      "value": 0.03
+    },
+    {
+      "index": "2015-06-24 09:30:00-04:00",
+      "value": 0.014
+    },
+    {
+      "index": "2015-09-23 09:30:00-04:00",
+      "value": 0.019
+    },
+    {
+      "index": "2015-12-23 09:30:00-05:00",
+      "value": 0.045
+    },
+    {
+      "index": "2016-09-21 09:30:00-04:00",
+      "value": 0.011
+    },
+    {
+      "index": "2016-12-21 09:30:00-05:00",
+      "value": 0.008
+    },
+    {
+      "index": "2017-03-23 09:30:00-04:00",
+      "value": 0.004
+    },
+    {
+      "index": "2017-06-22 09:30:00-04:00",
+      "value": 0.02
+    },
+    {
+      "index": "2017-09-21 09:30:00-04:00",
+      "value": 0.028
+    },
+    {
+      "index": "2017-12-21 09:30:00-05:00",
+      "value": 0.03
+    },
+    {
+      "index": "2018-03-22 09:30:00-04:00",
+      "value": 0.006
+    },
+    {
+      "index": "2018-06-21 09:30:00-04:00",
+      "value": 0.02
+    },
+    {
+      "index": "2018-09-14 09:30:00-04:00",
+      "value": 0.02
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.047
+    },
+    {
+      "index": "2019-09-25 09:30:00-04:00",
+      "value": 0.009
+    },
+    {
+      "index": "2019-12-13 09:30:00-05:00",
+      "value": 0.05
+    },
+    {
+      "index": "2020-09-24 09:30:00-04:00",
+      "value": 0.016
+    },
+    {
+      "index": "2020-12-24 09:30:00-05:00",
+      "value": 0.019
+    },
+    {
+      "index": "2021-03-25 09:30:00-04:00",
+      "value": 0.003
+    },
+    {
+      "index": "2021-06-24 09:30:00-04:00",
+      "value": 0.002
+    },
+    {
+      "index": "2021-12-23 09:30:00-05:00",
+      "value": 0.018
+    },
+    {
+      "index": "2022-06-24 09:30:00-04:00",
+      "value": 0.006
+    },
+    {
+      "index": "2022-12-23 09:30:00-05:00",
+      "value": 0.049
+    },
+    {
+      "index": "2023-03-24 09:30:00-04:00",
+      "value": 0.029
+    },
+    {
+      "index": "2023-06-27 09:30:00-04:00",
+      "value": 0.041
+    },
+    {
+      "index": "2023-09-22 09:30:00-04:00",
+      "value": 0.019
+    },
+    {
+      "index": "2023-12-22 09:30:00-05:00",
+      "value": 0.045
+    },
+    {
+      "index": "2024-03-21 09:30:00-04:00",
+      "value": 0.01
+    },
+    {
+      "index": "2024-06-27 09:30:00-04:00",
+      "value": 0.033
+    },
+    {
+      "index": "2024-09-26 09:30:00-04:00",
+      "value": 0.042
+    },
+    {
+      "index": "2024-12-13 09:30:00-05:00",
+      "value": 0.056
+    },
+    {
+      "index": "2025-03-27 09:30:00-04:00",
+      "value": 0.075
+    },
+    {
+      "index": "2025-06-26 09:30:00-04:00",
+      "value": 0.066
+    },
+    {
+      "index": "2025-09-25 09:30:00-04:00",
+      "value": 0.014
+    },
+    {
+      "index": "2025-12-12 09:30:00-05:00",
+      "value": 0.028
+    },
+    {
+      "index": "2026-03-26 09:30:00-04:00",
+      "value": 0.067
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}

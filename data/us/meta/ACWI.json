@@ -1,0 +1,191 @@
+{
+  "symbol": "ACWI",
+  "region": "us",
+  "name": "iShares MSCI ACWI ETF",
+  "currency": "USD",
+  "exchange": "NGM",
+  "isin": "US4642882579",
+  "info": {
+    "longName": "iShares MSCI ACWI ETF",
+    "shortName": "iShares MSCI ACWI ETF",
+    "exchange": "NGM",
+    "currency": "USD",
+    "open": 162.68,
+    "previousClose": 162.48,
+    "dayHigh": 162.7444,
+    "dayLow": 162.015,
+    "regularMarketPrice": 162.29,
+    "regularMarketPreviousClose": 162.48,
+    "fiftyTwoWeekHigh": 162.8,
+    "fiftyTwoWeekLow": 131.52,
+    "trailingPE": 22.919556,
+    "dividendYield": 1.44,
+    "volume": 2432719,
+    "averageVolume": 3102480
+  },
+  "dividends": [
+    {
+      "index": "2009-06-23 09:30:00-04:00",
+      "value": 0.266
+    },
+    {
+      "index": "2009-12-22 09:30:00-05:00",
+      "value": 0.28
+    },
+    {
+      "index": "2010-06-23 09:30:00-04:00",
+      "value": 0.362
+    },
+    {
+      "index": "2010-12-21 09:30:00-05:00",
+      "value": 0.448
+    },
+    {
+      "index": "2011-06-22 09:30:00-04:00",
+      "value": 0.562
+    },
+    {
+      "index": "2011-12-20 09:30:00-05:00",
+      "value": 0.451
+    },
+    {
+      "index": "2012-06-21 09:30:00-04:00",
+      "value": 0.604
+    },
+    {
+      "index": "2012-12-18 09:30:00-05:00",
+      "value": 0.476
+    },
+    {
+      "index": "2013-06-27 09:30:00-04:00",
+      "value": 0.633
+    },
+    {
+      "index": "2013-12-18 09:30:00-05:00",
+      "value": 0.458
+    },
+    {
+      "index": "2014-06-25 09:30:00-04:00",
+      "value": 0.836
+    },
+    {
+      "index": "2014-12-17 09:30:00-05:00",
+      "value": 0.488
+    },
+    {
+      "index": "2015-06-25 09:30:00-04:00",
+      "value": 0.718
+    },
+    {
+      "index": "2015-12-21 09:30:00-05:00",
+      "value": 0.677
+    },
+    {
+      "index": "2015-12-29 09:30:00-05:00",
+      "value": 0.035
+    },
+    {
+      "index": "2016-06-22 09:30:00-04:00",
+      "value": 0.744
+    },
+    {
+      "index": "2016-12-21 09:30:00-05:00",
+      "value": 0.553
+    },
+    {
+      "index": "2017-06-20 09:30:00-04:00",
+      "value": 0.732
+    },
+    {
+      "index": "2017-12-19 09:30:00-05:00",
+      "value": 0.669
+    },
+    {
+      "index": "2018-06-19 09:30:00-04:00",
+      "value": 0.802
+    },
+    {
+      "index": "2018-12-18 09:30:00-05:00",
+      "value": 0.598
+    },
+    {
+      "index": "2018-12-28 09:30:00-05:00",
+      "value": 0.044
+    },
+    {
+      "index": "2019-06-17 09:30:00-04:00",
+      "value": 0.906
+    },
+    {
+      "index": "2019-12-16 09:30:00-05:00",
+      "value": 0.943
+    },
+    {
+      "index": "2020-06-15 09:30:00-04:00",
+      "value": 0.614
+    },
+    {
+      "index": "2020-12-14 09:30:00-05:00",
+      "value": 0.686
+    },
+    {
+      "index": "2021-06-10 09:30:00-04:00",
+      "value": 0.724
+    },
+    {
+      "index": "2021-12-13 09:30:00-05:00",
+      "value": 1.017
+    },
+    {
+      "index": "2021-12-30 09:30:00-05:00",
+      "value": 0.071
+    },
+    {
+      "index": "2022-06-09 09:30:00-04:00",
+      "value": 0.847
+    },
+    {
+      "index": "2022-12-13 09:30:00-05:00",
+      "value": 0.676
+    },
+    {
+      "index": "2023-06-07 09:30:00-04:00",
+      "value": 0.953
+    },
+    {
+      "index": "2023-12-20 09:30:00-05:00",
+      "value": 0.962
+    },
+    {
+      "index": "2024-06-11 09:30:00-04:00",
+      "value": 0.935
+    },
+    {
+      "index": "2024-12-17 09:30:00-05:00",
+      "value": 1.066
+    },
+    {
+      "index": "2025-06-16 09:30:00-04:00",
+      "value": 0.961
+    },
+    {
+      "index": "2025-12-16 09:30:00-05:00",
+      "value": 1.235
+    },
+    {
+      "index": "2026-06-15 09:30:00-04:00",
+      "value": 1.01
+    }
+  ],
+  "splits": null,
+  "capital_gains": null,
+  "financials": null,
+  "balancesheet": null,
+  "cashflow": null,
+  "quarterly_financials": null,
+  "analyst_price_targets": {},
+  "recommendations_summary": null,
+  "earnings_dates": null,
+  "major_holders": null,
+  "institutional_holders": null
+}
