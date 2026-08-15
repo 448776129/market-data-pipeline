@@ -2,10 +2,12 @@ name: Market Data Pipeline
 
 on:
   schedule:
-    # 历史数据：每周一 01:00 (UTC) 全量刷新一次
+    # 历史 K 线 + 非K线(meta)：每周一 09:00 (北京时间) 全量刷新一次
     - cron: "0 1 * * 1"
-    # 当日数据：每天收盘后增量更新
-    - cron: "0 13 * * *"
+    # 当日增量数据：每天 3 次（北京时间 08:00 / 12:00 / 20:00）
+    - cron: "0 0 * * *"
+    - cron: "0 4 * * *"
+    - cron: "0 12 * * *"
   workflow_dispatch:
     inputs:
       mode:
@@ -45,7 +47,7 @@ jobs:
   historical-us:
     name: Historical · US (batch ${{ matrix.batch }})
     needs: [universe]
-    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical') }}
+    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical') }}
     strategy:
       fail-fast: false
       matrix:
@@ -60,7 +62,7 @@ jobs:
   historical-hk:
     name: Historical · HK (batch ${{ matrix.batch }})
     needs: [universe]
-    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical') }}
+    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical') }}
     strategy:
       fail-fast: false
       matrix:
@@ -74,7 +76,7 @@ jobs:
 
   historical-cn:
     name: Historical · CN (batch ${{ matrix.batch }})
-    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical') }}
+    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical') }}
     strategy:
       fail-fast: false
       matrix:
@@ -89,7 +91,7 @@ jobs:
   historical-kr:
     name: Historical · KR (batch ${{ matrix.batch }})
     needs: [universe]
-    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical') }}
+    if: ${{ (github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'historical') }}
     strategy:
       fail-fast: false
       matrix:
@@ -107,7 +109,7 @@ jobs:
   daily-us:
     name: Daily · US (batch ${{ matrix.batch }})
     needs: [universe]
-    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily') }}
+    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 0 * * *' || github.event.schedule == '0 4 * * *' || github.event.schedule == '0 12 * * *')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily') }}
     strategy:
       fail-fast: false
       matrix:
@@ -122,7 +124,7 @@ jobs:
   daily-hk:
     name: Daily · HK (batch ${{ matrix.batch }})
     needs: [universe]
-    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily') }}
+    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 0 * * *' || github.event.schedule == '0 4 * * *' || github.event.schedule == '0 12 * * *')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily') }}
     strategy:
       fail-fast: false
       matrix:
@@ -136,7 +138,7 @@ jobs:
 
   daily-cn:
     name: Daily · CN (batch ${{ matrix.batch }})
-    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily') }}
+    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 0 * * *' || github.event.schedule == '0 4 * * *' || github.event.schedule == '0 12 * * *')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily') }}
     strategy:
       fail-fast: false
       matrix:
@@ -151,7 +153,7 @@ jobs:
   daily-kr:
     name: Daily · KR (batch ${{ matrix.batch }})
     needs: [universe]
-    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily') }}
+    if: ${{ (github.event_name == 'schedule' && (github.event.schedule == '0 0 * * *' || github.event.schedule == '0 4 * * *' || github.event.schedule == '0 12 * * *')) || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'daily') }}
     strategy:
       fail-fast: false
       matrix:
@@ -168,8 +170,8 @@ jobs:
   # ============================================================
   meta-us:
     name: Meta · US (batch ${{ matrix.batch }})
-    needs: [universe]
-    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta') }}
+    needs: [historical-us]
+    if: ${{ always() && ((github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta')) }}
     strategy:
       fail-fast: false
       matrix:
@@ -183,8 +185,8 @@ jobs:
 
   meta-hk:
     name: Meta · HK (batch ${{ matrix.batch }})
-    needs: [universe]
-    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta') }}
+    needs: [historical-hk]
+    if: ${{ always() && ((github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta')) }}
     strategy:
       fail-fast: false
       matrix:
@@ -198,7 +200,8 @@ jobs:
 
   meta-cn:
     name: Meta · CN (batch ${{ matrix.batch }})
-    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta') }}
+    needs: [historical-cn]
+    if: ${{ always() && ((github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta')) }}
     strategy:
       fail-fast: false
       matrix:
@@ -212,8 +215,8 @@ jobs:
 
   meta-kr:
     name: Meta · KR (batch ${{ matrix.batch }})
-    needs: [universe]
-    if: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta') }}
+    needs: [historical-kr]
+    if: ${{ always() && ((github.event_name == 'schedule' && github.event.schedule == '0 1 * * 1') || (github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'meta')) }}
     strategy:
       fail-fast: false
       matrix:
